@@ -44,6 +44,8 @@ section {
 h1 {
 	clear: both;
 	margin-top: 3em;
+	position: relative;
+	display: block;
 }
 
 ul {
@@ -52,16 +54,28 @@ ul {
 	clear: both;
 	margin-left: 0;
 	margin-bottom: 3em;
+	color: #666;
 }
 
 li {
 	margin-left: 0;
 	margin-left: -2em;
 	margin-right: 1em;
+	color: #333;
+}
+
+li.goals {
+	list-style-type: square;
+	padding-right: 3em;
+	color: #333;
+}
+
+li.skills {
+	list-style-type: square;
+	margin-left: 1em;
 }
 
 dl {
-
 	border-top: 1px solid #ddd;
 	border-right: 1px solid #aaa;
 	border-left: 1px solid #ddd;
@@ -73,12 +87,9 @@ dl {
 	height: auto;
 	overflow: hidden;
 	margin: 1em 1em 1em 0; 
-
 }
 
-dl:nth-last-child(1){
-	margin-bottom: 1em;
-}
+
 
 dt {
 	font-weight: bold;
@@ -94,6 +105,13 @@ dd {
 	}
 }
 
+dl.example {
+	line-height: 1.5em;
+}
+
+dl.example dd {
+	margin-bottom: 1em;
+}
 
 .pullquote {
 	font-family: arial;
@@ -128,6 +146,18 @@ dd {
 	padding: .5em 0 2em 0;
 }
 
+.extraBottom {
+	margin-bottom: 3em;
+}
+
+.spacing {
+	line-height: 1.5em;
+}
+
+.topPad {
+	margin-top: 1em;
+}
+
 </style>
 
 </head>
@@ -147,9 +177,9 @@ dd {
 
 	<h1>Overall Goals</h1>
 	<ul>
-		<li>Ensure the content that is produced is of a quality representative of the brand's market position</li>
-		<li>Develop and implement a modern Digital Asset Management program</li>
-		<li>Provide support to internal stakeholders and maximize consumer exposure to all of the awesome stuff we do.</li>
+		<li class="goals">Ensure the content that is produced is of a quality representative of the brand's market position</li>
+		<li class="goals">Develop and implement a modern Digital Asset Management program</li>
+		<li class="goals">Provide support to internal stakeholders and maximize consumer exposure to all of the awesome stuff we do.</li>
 	</ul>
 	<h1>Departmental Structure</h1>
 	<p>Overall, our current structure is producing great results for the business, but there are some shortcomings. The ideal outcome in my opinion is to avoid tinkering with processes and teams that are working well, molding the new content team to fill in gaps where they currently exist in addition to pushing forward with stepping up the quality, volume, and relevance of our digital content efforts.</p>
@@ -188,7 +218,7 @@ dd {
 			</dl>
 		</li>
 		<li>
-			<dl>
+			<dl class="extraBottom">
 				<dt>Content </dt>
 				<dd>- The new content team would be responsible for properties outside of the main business/ecomm focus of the web team and be completely separate from product content activities.</dd>
 				<dd>- Digital Asset Management infrastructure - Creation and management of all digital assets accessible to all internal stakeholders in the company.</dd>
@@ -212,66 +242,66 @@ dd {
 	<p>These new hires should have multidisciplinary talents and be able to work autonomously to produce and deliver content. Currently we should be looking for people with the following aptitudes:</p>
 
 	<ul>
-		<li>Web Development</li>
-		<li>Copy Writing & Editing</li>
-		<li>Photography</li>
-		<li>Videography and Editing </li>
-		<li>Audio Expertise</li>
-		<li>Front-of-camera/voice talent</li>
-		<li>Bonus:</li>
-		<li>Established Athlete Relationships</li>
-		<li>Experience in traditional media environments</li>
+		<li class="skills">Web Development</li>
+		<li class="skills">Copy Writing & Editing</li>
+		<li class="skills">Photography</li>
+		<li class="skills">Videography and Editing </li>
+		<li class="skills">Audio Expertise</li>
+		<li class="skills">Front-of-camera/voice talent</li>
+		<li class="skills">Bonus:</li>
+		<li class="skills">Established Athlete Relationships</li>
+		<li class="skills">Experience in traditional media environments</li>
 	</ul>
 
 	<p>Realistically, t's not going to be possible to find a full team of people that have all of these skills, but if we focus on ensuring that everyone coming on board has competency in at least two, ideally three of these skills, we will be well on the way towards building a very flexible team with the ability to produce in the most efficient manner possible.</p>
 	<p>To best illustrate the advantages of this strategy we can look at some of the shortcomings we've had in my experience up to this point, and how a new structure (and more resources in general) can help.</p>
 
-	<dl>
+	<dl class="example">
 		<dt><strong>Issue:</strong> Redbull Ines Project Video </dt>
 		<dd>This was the case where Redbull was willing to share the video they created for the failed Ines Project of climbing the peaks around the Eiger in Switzerland.</dd>
 		<dd><strong>Outcome:</strong> Due to our inability to move resources to this in a timely manner we did not take advantage of the potential upsides of getting this out on the home page. Resources were wasted in the preparation of these assets with no follow through.</dd>
 		<dd><strong>Solution:</strong> The content team would have the skills to process and upload the video to all of our channels and also the experience to provide code for implementation on arcteryx.com for the web team or the ability to post it themselves. They would have the skills to provide copy for dissemination across social channels and would provide any needed support to the social team for implementation.</dd>
 	</dl>
 
-	<dl>
-		<dt>Issue: Squamish Mountain Festival</dt>
+	<dl class="example extraBottom">
+		<dt><strong>Issue:</strong> Squamish Mountain Festival</dt>
 		<dd>One of our four key events for the year, there was a lack of content posted during and after the event. This can be particularly damaging to brand reputations when pre-event promotion and hype is strong but doesn't result in any pay off for those not actually attending the event in person.</dd>
-		<dd>Outcome: One full month after the event there's very little in the way of content to show our consumers, and the website has not been updated to communicate the event is over and to stay tuned for details on next year's version.</dd>
-		<dd>Solution: One of the most important functions of the content team will be this type of content gathering and event coverage. Dependant on the resources available, one or more content team members would be at the event live, producing content across as many channels as possible. With a team of varying skill sets we'd be able to push content through at least two mediums (copy, photos, and/or video for example, or perhaps audio interviews with a dynamic slideshow). </dd>
+		<dd><strong>Outcome:</strong> One full month after the event there's very little in the way of content to show our consumers, and the website has not been updated to communicate the event is over and to stay tuned for details on next year's version.</dd>
+		<dd><strong>Solution:</strong> One of the most important functions of the content team will be this type of content gathering and event coverage. Dependant on the resources available, one or more content team members would be at the event live, producing content across as many channels as possible. With a team of varying skill sets we'd be able to push content through at least two mediums (copy, photos, and/or video for example, or perhaps audio interviews with a dynamic slideshow). </dd>
 	</dl>
 
 	<h1>Content Department Responsibilities Overview</h1>
 	<p>To elaborate further on the tasks that the Content team would be responsible for, I've made some more detailed notes below. I believe that more clearly defining ownership of various tasks will foster more creative outcomes and minimize instances where lack of attention to detail has resulted in more work for everyone involved along the process.</p>
-	<dl>
-		<dt>Content & Digital Asset Management & Infrastructure</dt>
+	<dl class="spacing extraBottom">
+		<dt class="topPad">Content & Digital Asset Management & Infrastructure</dt>
 		<dd>A huge part of the initial content team build will need to be the creation of content infrastructure. These are the systems and processes that are developed in order to make the content creation and distribution workflow as efficient and flexible as possible, and building in redundancies to deal with in-the-field issues.</dd>
 		<dd>This is also where ensuring that the team has development chops is so important. Removing the roadblock currently associated with getting non-core development done through the web, we would be able to move with much more agility.</dd>
-		<dt>Blog</dt>
+		<dt class="topPad">Blog</dt>
 		<dd>The blog would be repositioned as an aggregator for activity for the brand. Currently our channels and efforts are far too fragmented. We must realize that the majority of our customers are not engaged across every single channel we publish to, and that we could do a better job of ensuring that quality content is given the exposure it warrants. The goal would be to incorporate all relevant digital content activity in one place, the challenge is doing so while maintaining the clean user experience that we value internally.</dd>
-		<dt>Events</dt>
+		<dt class="topPad">Events</dt>
 		<dd>The content team would be responsible for all event related tasks, including site builds and coverage during and after events. They would ensure that digital event properties flow smoothly through four phases: Event Lead Up & Promotion, Live Event Coverage, Wrap-up, and Off-Season.</dd>
-		<dt>Special Projects</dt>
-		<dd>Whereas the traditional Web team will be dealing with regular development and maintenance, the content team can step in and help with special projects. Things like the yearly “Best Of” would be a perfect example of this type of project. This allows the Web team to focus on deadlines and core business functionality while providing resources where currently we're lacking.</dd>
-		<dt>Athletes</dt>
+		<dt class="topPad">Special Projects</dt>
+		<dd>Whereas the traditional Web team will be dealing with regular development and maintenance, the content team can step in and help with special projects. Things like the yearly "Best Of" would be a perfect example of this type of project. This allows the Web team to focus on deadlines and core business functionality while providing resources where currently we're lacking.</dd>
+		<dt class="topPad">Athletes</dt>
 		<dd>Working with the marketing team, the Content team would take a leadership role in telling our athletes stories. </dd>
 	</dl>
 
 	<h1>The Way Forward</h1>
 	<p>Regardless of what shape the new Content team takes, the way forward should include the following in order to ensure that we're solving problems with each new step and avoiding creating new ones:</p>
-	<dl>
-		<dt>Content Audit</dt>
+	<dl class="spacing">
+		<dt class="topPad">Content Audit</dt>
 		<dd>Complete a full review of our digital content efforts (non-product) and identify strengths & weaknesses.</dd>
-		<dt>Internal Stakeholder Consultation</dt>
+		<dt class="topPad">Internal Stakeholder Consultation</dt>
+		<dd>Meet with the various departments internally to solidify issues that need to be addressed.</dd>	
+		<dt class="topPad">Strategic Planning & Initial Resource Hiring </dt>
 		<dd>Meet with the various departments internally to solidify issues that need to be addressed.</dd>
-		<dt>Strategic Planning & Initial Resource Hiring </dt>
-		<dd>Meet with the various departments internally to solidify issues that need to be addressed.</dd>
-		<dt>Digital Asset Management </dt>
+		<dt class="topPad">Digital Asset Management </dt>
 		<dd>The creation and management of current and past digital assets. Organizing data up to this point is going to be a massive undertaking.</dd>
-		<dt>Clean Up </dt>
+		<dt class="topPad">Clean Up </dt>
 		<dd>As a way for the new team to get comfortable they will be tasked with fixing any and all items identified in the initial Content Audit.</dd>
-		<dt>Content Relaunch</dt>
+		<dt class="topPad">Content Relaunch</dt>
 		<dd>With new processes in place and new resources available, the content department will relaunch the blog as a property more aligned with all of the content related activities of the company. </dd>
-		<dt>Go Time </dt>
+		<dt class="topPad">Go Time </dt>
 		<dd>At this point the only limit is the ideas we come up with - we're well setup to produce and deliver content and it's full steam ahead.</dd>
 	</dl>
 
