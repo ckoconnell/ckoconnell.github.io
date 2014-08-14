@@ -35,19 +35,60 @@ header aside {
 	font-size: .8em;
 }
 
-article {
-	
-}
+article {}
 
 section {
 	margin: 3% 21%;
 }
 
-ul {
-	line-height: 1.5em;
+h1 {
+	clear: both;
+	margin-top: 3em;
 }
 
-@media screen and (max-width: 900px) {
+ul {
+	line-height: 1.75em;
+	list-style: none;
+	clear: both;
+	margin-left: 0;
+	margin-bottom: 3em;
+}
+
+li {
+	margin-left: 0;
+	margin-left: -2em;
+	margin-right: 1em;
+}
+
+dl {
+
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #aaa;
+	padding: 1em 2em;
+	float: left;
+	max-width: 80%;
+	min-width: 20%;
+	height: auto;
+	overflow: hidden;
+	margin: 1em 1em 1em 0; 
+
+}
+
+dl:nth-last-child(1){
+	margin-bottom: 1em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+}
+
+@media screen and (max-width: 905px) {
 	section {
 		margin: 3% 10%;
 	}
