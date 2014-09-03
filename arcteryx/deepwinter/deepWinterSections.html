@@ -44,13 +44,15 @@ video {
    background-position: bottom center;
    overflow: hidden;
    z-index: -10;
+   position: absolute;
+   top: -10px;
 }
 
 h1 {
     font-family: Roboto;
     font-size: 5em;
     font-weight: 500;
-    color: #444;
+    color: #333;
     text-transform: uppercase;
     margin: 1em 0 0 0;
     line-height: .2em;
@@ -61,7 +63,7 @@ h2 {
     font-family: Roboto;
     font-size: 6em;
     font-weight: 800;
-    color: #333;
+    color: #222;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
@@ -112,11 +114,11 @@ article {
   max-width: 960px;
   min-width: 300px;
   margin: 0 auto;
-  border: 1px solid pink;
+  padding: 20px 20px;
 }
 
 .intro {
-  height: 70%;
+  height: 700px;
 
 }
 
@@ -125,7 +127,7 @@ article {
 }
 
 .two {
-  background-color: #444;
+  background-color: #222;
   height: 500px;
   margin-top: -16px;
 }
@@ -135,7 +137,7 @@ article {
   max-width: 960px;
   min-width: 300px;
   position: relative;
-  top: 30%;
+  top: 200px;
   text-align: center;
 }
 
@@ -150,6 +152,15 @@ article {
     text-transform: uppercase;
 }
 
+#heading {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 300px;
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
 #logoGore {
     float: left;
     width: 50px;
@@ -157,6 +168,16 @@ article {
     background: #333;
     opacity: .5;
     margin-left: 20%;
+}
+
+p {
+  color: white;
+  font-family: Roboto;
+	font-size: 1em;
+	font-weight: 100;
+  line-height: 1.5em;
+  max-width: 350px;
+  
 }
 
 
@@ -176,6 +197,10 @@ article {
     <h3>72 Hours</h3>
     <h3>1 Winner</h3>
   </div>
+  <div id="heading">
+    <h1>Deep</h1>
+    <h2>Winter</h2>
+  </div>
   <video autoplay loop>
   		<source src="ala.mp4" type="video/mp4">
 	  	Your browser does not support the video tag.
@@ -185,7 +210,7 @@ article {
 
 <section class="two">
   <article>
-    <p>Section two</p>
+    <p>Harness the powerful storm cycles that pound the Coast Mountains and turn it into an award-winning slide show. Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted “King of Storms” title in front of a raucous crowd at the Chateau Whistler.</p>
   </article>
 </section>
 
