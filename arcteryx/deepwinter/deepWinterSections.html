@@ -114,7 +114,7 @@ article {
   max-width: 960px;
   min-width: 300px;
   margin: 0 auto;
-  padding: 20px 20px;
+  position: relative;
 }
 
 .intro {
@@ -126,7 +126,7 @@ article {
   z-index: 200 !important;
 }
 
-.two {
+.content {
   background-color: #222;
   height: 500px;
   margin-top: -16px;
@@ -176,8 +176,44 @@ p {
 	font-size: 1em;
 	font-weight: 100;
   line-height: 1.5em;
-  max-width: 350px;
   
+}
+
+.welcome {
+  width: 30em;
+  float: left;
+  position: relative;
+  margin-top: 5em;
+  
+}
+
+.menu {
+  position: relative;
+  float: left;
+  width: 5em;
+  height: auto;
+  margin-top: 2em;
+  margin-right: 3em;
+  background: #333;
+  height: 100%;
+}
+
+.news {
+  position: relative;
+  float: left;
+  width: 10em;
+  margin-top: 6em;
+  margin-right: 3em;
+}
+
+.news h3 {
+  width: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
@@ -208,9 +244,29 @@ p {
 
 </section>
 
-<section class="two">
+<section class="content">
   <article>
-    <p>Harness the powerful storm cycles that pound the Coast Mountains and turn it into an award-winning slide show. Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted “King of Storms” title in front of a raucous crowd at the Chateau Whistler.</p>
+    <div class="menu">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </div>
+    <div class="news">
+      <h3>News</h3>
+      <p>Article</p>
+      <h3>Live</h3>
+      <p>Article</p>
+    </div>
+    <div class="welcome">
+      <h1>Welcome</h1>
+      <p>Harness the powerful storm cycles that pound the Coast Mountains and turn it into an award-winning slide show. Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted “King of Storms” title in front of a raucous crowd at the Chateau Whistler.</p>
+    </div>
+        <div class="welcome">
+      <h1>Welcome</h1>
+      <p>Harness the powerful storm cycles that pound the Coast Mountains and turn it into an award-winning slide show. Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted “King of Storms” title in front of a raucous crowd at the Chateau Whistler.</p>
+    </div>
+    
   </article>
 </section>
 
