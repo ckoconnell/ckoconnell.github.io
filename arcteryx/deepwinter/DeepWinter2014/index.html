@@ -46,6 +46,7 @@
       overflow: hidden;
       margin-top: 15px;
       margin-left: 30px;
+      float: left;
     }
 
     #logo h1 {
@@ -62,6 +63,31 @@
       margin: 0;
       padding: 0;
       color: #dfdfdf;
+    }
+
+    #navWrap {
+      height: 60px;
+      width: auto;
+      float: left;
+      position: relative;
+      z-index: 200;
+      margin-top: 40px;
+
+    }
+
+    .navLink {
+      width: auto;
+      height; 20px;
+      margin-right: 15px;
+      text-transform: uppercase;
+      font-size: 13px;
+      padding-bottom: 5px;
+
+
+    }
+
+    .navLink:active {
+      font-weight: bold !important;
     }
 
     .mainSlides {
@@ -86,19 +112,19 @@
     .mainSlides h3 {
       font-size: 16px;
       text-transform: uppercase;
-      margin-left: 60px;
+      margin-left: 30px;
       color: #FFF;
     }
 
     .mainSlides h4 {
       font-size: 13px;
       text-transform: uppercase;
-      margin-left: 60px;
+      margin-left: 30px;
       color: #FFF;
     }
 
     .mainSlides p {
-      margin-left: 60px;
+      margin-left: 30px;
       width: 250px;
       font-size: 13px;
       line-height: 22px;
@@ -227,11 +253,18 @@
           <h1>Deep Winter</h1>
           <h3>Photo Challenge</h3>
         </div>
+        <div id="navWrap">
+          <a href="#slide1" class="navLink" onclick="$('.mainSlides').slickGoTo(0);">Event Details</a>
+          <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1);">Tickets</a>
+          <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2);">#DeepWinter Contest</a>
+          <a href="#bioWrap" class="navLink">Photographer Bios</a>
+          <a href="#royaltyWrap" class="navLink">Royalty</a>
+        </div>
       </div>
     </div>
 
     <div class="mainSlides">
-        <div class="eventDetails">
+        <div class="eventDetails" name="slide1">
           <h3 style="margin-top: 100px;">Six Photographers</h3>
           <h3>72 Hours</h3>
           <h3>One Winner</h3>
@@ -271,12 +304,12 @@
       </div> <!-- End News Slides -->
     </div>
 
-    <div id="bioWrap">
+    <div id="bioWrap" name="bioWrap">
       <div>Bios Go Here</div>
     </div>
 
 
-    <div id="royaltyWrap">
+    <div id="royaltyWrap" name="royaltyWrap">
       <div>Past Winners Go Here</div>
     </div>
 
@@ -295,17 +328,26 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.mainSlides').slick({
-             dots: true,
+             dots: false,
              autoplay: false,
              arrows: false,
+             asNavFor: '.navSlides',
             });
             $('.newsSlides').slick({
              dots: false,
              autoplay: true,
              arrows: true,
-
-
             });
+            $('.navSlides').slick({
+              dots: true,
+              autoplay: false,
+              arrows: false,
+              asNavFor: '.mainSlides',
+              slidesToShow: 5,
+              slidesToScroll: 0,
+              centerMode: true,
+
+            })
         });
     </script>
 
