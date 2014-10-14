@@ -63,6 +63,7 @@
       margin: 0;
       padding: 0;
       color: #dfdfdf;
+      font-weight: 100;
     }
 
     #navWrap {
@@ -92,21 +93,10 @@
 
     .mainSlides {
       top: 80px;
-      width: 960px;
+      width: 100%;
       height: 600px;
       margin: 0 auto;
       background: #333;
-    }
-
-    .mainSlides .slick-dots {
-      position: absolute;
-      width: 300px;
-      top: -80px;
-      height: 40px;
-      margin-left: 300px;
-      border: 1px solid green;
-      color: white;
-      z-index: 20;
     }
 
     .mainSlides h3 {
@@ -131,10 +121,15 @@
       color: #ddd;
     }
 
+    .contentWrap {
+      margin: 0 auto;
+      width: 960px;
+    }
+
     .eventDetails {
-      background: url('slide1bg.png') 0px 0px no-repeat;
+      background: url('slide1bg.jpg') 0px 0px no-repeat;
       background-position: cover;
-      background-size: 140%;
+      background-size: 150%;
 
 
     }
@@ -159,15 +154,15 @@
     }
 
     .contestDetails {
-      background: url('slide3bg.png') right bottom;
+      background: url('slide3bg.png') right 50% no-repeat;
       background-size: 120%;
     }
 
     #newsWrap {
       position: relative;
-      width: 960px;
+      width: 100%;
       margin: 0 auto;
-      height: 250px;
+      height: 300px;
       margin-top: 80px;
       background: #121212;
     }
@@ -204,7 +199,7 @@
     #newsHead {
       font-size: 12px;
       text-transform: uppercase;
-      margin: 0 0 0 60px;
+      margin: 0 0 0 30px;
     }
 
     #newsHead h1 {
@@ -265,20 +260,29 @@
 
     <div class="mainSlides">
         <div class="eventDetails" name="slide1">
-          <h3 style="margin-top: 100px;">Six Photographers</h3>
-          <h3>72 Hours</h3>
-          <h3>One Winner</h3>
-          <p>Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted "King of Storms" title in front of a raucous crowd at the Chateau Whistler. </p>
+          <div class="contentWrap">
+            <h3 style="margin-top: 100px;">Six Photographers</h3>
+            <h3>72 Hours</h3>
+            <h3>One Winner</h3>
+            <p>Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted "King of Storms" title in front of a raucous crowd at the Chateau Whistler. </p>
+          </div>
         </div>
         <div class="ticketDetails">
-          <h3 style="margin-top: 350px;">Deep Winter Photo Challenge <br/>January 12, 2015  |  Whislter, BC</h3>
-          <h4>Fairmont Chateau Whistler<br/>Doors 8pm | Show 9pm</h4>
-          <a href="#" class="ticketsButton">Buy Tickets</a>
+          <div class="contentWrap">
+            <h3 style="margin-top: 350px;">Deep Winter Photo Challenge <br/>January 12, 2015  |  Whislter, BC</h3>
+            <h4>Fairmont Chateau Whistler<br/>Doors 8pm | Show 9pm</h4>
+            <a href="#" class="ticketsButton">Buy Tickets</a>
+          </div>
         </div>
-        <div class="contestDetails">#Contest</div>
+        <div class="contestDetails">
+          <div class="contentWrap">
+            #Contest
+          </div>
+        </div>
     </div>
 
     <div id="newsWrap">
+      <div class="contentWrap">
       <div id="newsHead"><h1>Latest News</h1></div>
       <div class="newsSlides"> <!-- Start News Slides -->
         <div class="newsSummary">
@@ -301,7 +305,31 @@
           <p>Summary text goes here. It should be about a paragraph or so. Maybe three sentences max. This is now long enough I think.</p>
           <a href="#" class="readMore">... Read More</a>
         </div>
+
+        <div class="newsSummary">
+          <h1>News Headline Four</h1>
+          <h3>Meta Details Go Here</h3>
+          <p>Summary text goes here. It should be about a paragraph or so. Maybe three sentences max. This is now long enough I think.</p>
+          <a href="#" class="readMore">... Read More</a>
+        </div>
+
+        <div class="newsSummary">
+          <h1>News Headline Five</h1>
+          <h3>Meta Details Go Here</h3>
+          <p>Summary text goes here. It should be about a paragraph or so. Maybe three sentences max. This is now long enough I think.</p>
+          <a href="#" class="readMore">... Read More</a>
+        </div>
+
+        <div class="newsSummary">
+          <h1>News Headline Six</h1>
+          <h3>Meta Details Go Here</h3>
+          <p>Summary text goes here. It should be about a paragraph or so. Maybe three sentences max. This is now long enough I think.</p>
+          <a href="#" class="readMore">... Read More</a>
+        </div>
+
       </div> <!-- End News Slides -->
+
+      </div>
     </div>
 
     <div id="bioWrap" name="bioWrap">
@@ -337,17 +365,9 @@
              dots: false,
              autoplay: true,
              arrows: true,
+             slidesToShow: 4,
+             slidesToScroll: 2,
             });
-            $('.navSlides').slick({
-              dots: true,
-              autoplay: false,
-              arrows: false,
-              asNavFor: '.mainSlides',
-              slidesToShow: 5,
-              slidesToScroll: 0,
-              centerMode: true,
-
-            })
         });
     </script>
 
