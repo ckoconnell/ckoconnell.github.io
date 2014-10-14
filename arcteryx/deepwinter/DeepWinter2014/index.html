@@ -18,6 +18,7 @@
     a {
       text-decoration: none;
       color: white;
+      border: none;
     }
 
     a:visited {
@@ -91,6 +92,10 @@
       font-weight: bold !important;
     }
 
+    .navSelected {
+      font-size: 16px !important;
+    }
+
     .mainSlides {
       top: 80px;
       width: 100%;
@@ -115,7 +120,6 @@
 
     .mainSlides p {
       margin-left: 30px;
-      width: 250px;
       font-size: 13px;
       line-height: 22px;
       color: #ddd;
@@ -132,6 +136,48 @@
       background-size: 150%;
 
 
+
+    }
+
+    .introWrap {
+      display: block;
+      position: relative;
+      width: 960px;
+      height: 50px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 200px;
+
+    }
+
+    .outline {
+      border: 1px solid white;
+      padding: 5px 15px;
+      width: auto;
+      height: auto;
+      margin-right: 30px;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .introWrap h3 {
+      margin: 15px 0px;
+    }
+
+    p.introCol  {
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+      width: 500px;
+      margin: 0 auto;
+      text-align: justify;
+      -webkit-column-gap: 40;
+      margin-top: 30px;
     }
 
     .ticketDetails {
@@ -210,18 +256,167 @@
 
     #bioWrap {
       position: relative;
+      width: 100%;
+      margin: 0 auto;
+      height: 700px;
+      background: url('slide3bg.png') 0px 0px no-repeat;
+    }
+
+    #bioNav {
       width: 960px;
       margin: 0 auto;
-      height: 600px;
+      height: 30px;
+      background: #121212;
+    }
 
+    #bioNav h1 {
+      background: #121212;
+      font-size: 18px;
+      width: 160px;
+      margin-top: 0px;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      float: left;
+    }
+
+    .bioName {
+      width: auto;
+      padding: 5px 15px;
+      font-size: 13px;
+      text-transform: uppercase;
     }
 
     #royaltyWrap {
       position: relative;
-      width: 960px;
+      width: 100%;
       margin: 0 auto;
       height: 600px;
+      background: #121212;
+      padding-top: 80px;
+    }
 
+    .royaltyItem {
+      width: 300px;
+      height: 250px;
+      float: left;
+      text-align: center;
+      overflow: hidden;
+
+    }
+
+    .royaltyItem h1 {
+      margin: 100px 0 0 0;
+      font-size: 18px;
+      color: white;
+    }
+
+    .royaltyItem h3 {
+      font-size: 11px;
+      line-height: 17px;
+      font-weight: normal;
+      margin: 10px 0 15px 0;
+      color: white;
+      padding: 0 15px;
+    }
+
+    .royaltyItem a {
+      font-size: 11px;
+      padding: 5px 15px;
+      border: 1px solid white;
+      margin-top: 15px;
+
+    }
+
+    .jordan {
+      background:
+       linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('jordanBG.jpg') 0px 0px no-repeat;
+
+    }
+
+    .jordan:hover {
+        background:
+       linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+      url('jordanBG.jpg') 0px 0px no-repeat;
+    }
+
+    .zoya {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('zoyaBG.jpg') 0px 0px no-repeat;
+    }
+
+    .zoya:hover {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+      url('zoyaBG.jpg') 0px 0px no-repeat;
+    }
+
+    .paul {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('paulBG.jpg') 0px 0px no-repeat;
+    }
+
+    .paul:hover {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+      url('paulBG.jpg') 0px 0px no-repeat;
+    }
+
+    .blake {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('blakeBG.jpg') 0px 0px no-repeat;
+    }
+
+    .blake:hover {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+      url('blakeBG.jpg') 0px 0px no-repeat;
+    }
+
+
+    .robin {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('robinBG.jpg') 0px 0px no-repeat;
+    }
+
+    .robin:hover {
+      background:
+         linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+      url('robinBG.jpg') 0px 0px no-repeat;
     }
 
 
@@ -248,10 +443,10 @@
           <h1>Deep Winter</h1>
           <h3>Photo Challenge</h3>
         </div>
-        <div id="navWrap">
-          <a href="#slide1" class="navLink" onclick="$('.mainSlides').slickGoTo(0);">Event Details</a>
-          <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1);">Tickets</a>
-          <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2);">#DeepWinter Contest</a>
+        <div id="navWrap"> <!-- Change this to ul/li and use jquery sibling to toggle select styles -->
+          <a href="#slide1" class="navLink" onclick="$('.mainSlides').slickGoTo(0); $(this).toggleClass('navSelected');">Event Details</a>
+          <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1); $(this).toggleClass('navSelected');">Tickets</a>
+          <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2); $(this).toggleClass('navSelected');">#DeepWinter Contest</a>
           <a href="#bioWrap" class="navLink">Photographer Bios</a>
           <a href="#royaltyWrap" class="navLink">Royalty</a>
         </div>
@@ -261,10 +456,13 @@
     <div class="mainSlides">
         <div class="eventDetails" name="slide1">
           <div class="contentWrap">
-            <h3 style="margin-top: 100px;">Six Photographers</h3>
-            <h3>72 Hours</h3>
-            <h3>One Winner</h3>
-            <p>Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted "King of Storms" title in front of a raucous crowd at the Chateau Whistler. </p>
+            <div class="introWrap">
+              <span class="outline">Six Photographers</span>
+              <span class="outline">72 Hours</span>
+              <span class="outline">One Winner</span>
+              <h3>Who Will Wear The Crown in 2015?</h3>
+              <p class="introCol">Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted "King of Storms" title in front of a raucous crowd at the Chateau Whistler. </p>
+            </div>
           </div>
         </div>
         <div class="ticketDetails">
@@ -333,12 +531,50 @@
     </div>
 
     <div id="bioWrap" name="bioWrap">
-      <div>Bios Go Here</div>
+      <div id="bioNav">
+        <h1>Photographer Bios</h1>
+        <div id="bioNavHead">
+            <span class="bioName">Garrett Grove</span>
+            <span class="bioName">Zoya Lynch</span>
+            <span class="bioName">TBD</span>
+        </div>
+      </div>
     </div>
 
 
     <div id="royaltyWrap" name="royaltyWrap">
-      <div>Past Winners Go Here</div>
+      <div class="contentWrap">
+        <div class="royaltyItem">
+          <h1>Intro</h1>
+          <h3>Put some copy here</h3>
+
+        </div>
+        <div class="royaltyItem zoya">
+          <h1>Zoya Lynch</h1>
+          <h3>Zoya Lynch is a professional photographer from Revelstoke, BC. She specializes in capturing backcountry and self propelled adventures...</h3>
+          <a href="#">Continue Reading</a>
+        </div>
+        <div class="royaltyItem jordan">
+          <h1>Jordon Manley</h1>
+          <h3>Summary bio goes Here</h3>
+          <a href="#">Expand Link</a>
+        </div>
+        <div class="royaltyItem paul">
+          <h1>Paul Morisson</h1>
+          <h3>Summary bio goes Here</h3>
+          <a href="#">Expand Link</a>
+        </div>
+        <div class="royaltyItem robin">
+          <h1>Robin O'Neill</h1>
+          <h3>Summary bio goes Here</h3>
+          <a href="#">Expand Link</a>
+        </div>
+        <div class="royaltyItem blake">
+          <h1>Blake Jorgenson</h1>
+          <h3>Summary bio goes Here</h3>
+          <a href="#">Expand Link</a>
+        </div>
+      </div>
     </div>
 
     <div id="sponsorWrap">
@@ -346,7 +582,9 @@
     </div>
 
     <div id="footer">
-      <div>footer</div>
+      <div class="contentWrap">
+        <div>footer</div>
+      </div>
     </div>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
