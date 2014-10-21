@@ -1,12 +1,13 @@
 
 <html>
     <head>
-    <title>Deep Winter 2014 - Test Build 0.1a</title>
+    <title>Deep Winter 2014 - Test Build 0.3</title>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
     <style>
 
     body {
+
       position: relative;
       margin: 0;
       padding: 0;
@@ -14,6 +15,8 @@
       background: #222;
       color: #999;
     }
+
+
 
     a {
       text-decoration: none;
@@ -155,7 +158,6 @@
       padding: 5px 15px;
       width: auto;
       height: auto;
-      margin-right: 30px;
       display: inline-block;
       position: relative;
       text-align: center;
@@ -163,6 +165,10 @@
       font-size: 13px;
       text-transform: uppercase;
       margin-bottom: 30px;
+    }
+
+    .marginRight {
+      margin-right: 30px;
     }
 
     .introWrap h3 {
@@ -259,7 +265,7 @@
       width: 100%;
       margin: 0 auto;
       height: 700px;
-      background: url('slide3bg.png') 0px 0px no-repeat;
+
     }
 
     #bioNav {
@@ -284,6 +290,82 @@
       padding: 5px 15px;
       font-size: 13px;
       text-transform: uppercase;
+    }
+
+    .bioSlides {
+      height: 700px;
+    }
+
+    .bioContent {
+    }
+
+    .bioZoya {
+      background:
+      linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('slide3bg.png') 0px 0px no-repeat;
+
+    }
+
+    .bioGrove {
+      background:
+      linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('bioGroveBG.jpg') left bottom no-repeat;
+    }
+
+    .bioCarr {
+      background:
+      linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.6)
+        ),
+      url('bioCarrBG.jpg') right top no-repeat;
+      background-size: 120%;
+    }
+
+    .bioBottom {
+      width: 250px;
+      height: 200px;
+      background: #121212;
+      padding: 15px;
+      margin-top: 470px;
+    }
+
+    .bioBottom h1 {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    .bioBottom h3 {
+      font-size: 12px;
+      text-transform: uppercase;
+
+    }
+
+    .bioBottom p {
+      font-size: 14px;
+      line-height: 21px;
+
+    }
+
+    .bioExpand  {
+      border: 1px solid white;
+      padding: 5px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .bioPhoto {
+      width: 110px;
+      height: 150px;
+      background: #444;
+      float: left;
+      margin: -40px 15px 5px 10px;
     }
 
     #royaltyWrap {
@@ -457,8 +539,8 @@
         <div class="eventDetails" name="slide1">
           <div class="contentWrap">
             <div class="introWrap">
-              <span class="outline">Six Photographers</span>
-              <span class="outline">72 Hours</span>
+              <span class="outline marginRight">Six Photographers</span>
+              <span class="outline marginRight">72 Hours</span>
               <span class="outline">One Winner</span>
               <h3>Who Will Wear The Crown in 2015?</h3>
               <p class="introCol">Celebrating the epic amounts of snow that dump on Whistler Blackcomb in January, six photographers and their athlete teams pit themselves against the weather for three days to shoot and produce the best in-bounds series of slides that will win the coveted "King of Storms" title in front of a raucous crowd at the Chateau Whistler. </p>
@@ -531,12 +613,37 @@
     </div>
 
     <div id="bioWrap" name="bioWrap">
-      <div id="bioNav">
+      <!-- <div id="bioNav">
         <h1>Photographer Bios</h1>
         <div id="bioNavHead">
             <span class="bioName">Garrett Grove</span>
             <span class="bioName">Zoya Lynch</span>
             <span class="bioName">TBD</span>
+        </div>
+      </div> -->
+      <div class="bioSlides">
+        <div class="bioContent bioGrove">
+          <div class="contentWrap">
+
+            <div class="bioBottom">
+              <span class="bioPhoto"></span>
+              <h1>Garrett Grove</h1>
+              <h3>Age: 28 | Hometown: Portland, OR</h3>
+              <p class="">Sumamry teaser text goes here... this will continue in the expanded div which is linked to here.</p>
+              <a class="bioExpand">Read More</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="bioContent bioZoya">
+          <div class="contentWrap">
+            Zoya Lynch
+          </div>
+        </div>
+        <div class="bioContent bioCarr">
+          <div class="contentWrap">
+            Dan Carr
+          </div>
         </div>
       </div>
     </div>
@@ -605,6 +712,12 @@
              arrows: true,
              slidesToShow: 4,
              slidesToScroll: 1,
+            });
+            $('.bioSlides').slick({
+             dots: false,
+             autoplay: false,
+             arrows: false,
+             asNavFor: '.navSlides',
             });
         });
     </script>
