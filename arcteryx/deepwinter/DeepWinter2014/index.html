@@ -97,6 +97,7 @@
 
     .navSelected {
       font-weight: bold !important;
+      border-bottom: 1px solid #555;
     }
 
     .mainSlides {
@@ -269,20 +270,38 @@
     }
 
     #bioNav {
-      width: 960px;
-      margin: 0 auto;
-      height: 30px;
-      background: #121212;
+      width: 100%;
+      margin-top: 0px;
+      height: 55px;
+      background: #444;
+      z-index: 100;
+      left: 0px;
+      opacity: .8;
+      overflow: hidden;
+      padding-top: 0;
+    }
+
+    #bioNav h3 {
+      font-size: 14px;
+      width: auto;
+      margin-top: 0px;
+      padding: 28px 15px 10px 15px;
+      text-transform: uppercase;
+      float: left;
+      color: white;
+      font-weight: normal;
+      cursor: pointer;
     }
 
     #bioNav h1 {
-      background: #121212;
       font-size: 18px;
       width: 160px;
-      margin-top: 0px;
-      padding: 15px 30px;
+      margin-top: 5px;
+      padding: 5px 30px;
       text-transform: uppercase;
       float: left;
+      line-height: 18px;
+      color: #000;
     }
 
     .bioName {
@@ -294,6 +313,8 @@
 
     .bioSlides {
       height: 700px;
+
+      z-index: 1;
     }
 
     .bioContent {
@@ -324,7 +345,7 @@
           rgba(0, 0, 0, 0.5),
           rgba(0, 0, 0, 0.2)
         ),
-      url('bioAdam.jpg') right -200px no-repeat;
+      url('bioAdam.jpg') right -100px no-repeat;
       background-size: 120%;
     }
 
@@ -558,7 +579,7 @@
           <a href="#slide1" id="first" class="navLink" onclick="$('.mainSlides').slickGoTo(0); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">Event Details</a>
           <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">Tickets</a>
           <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">#DeepWinter Contest</a>
-          <a href="#bioWrap" class="navLink">Photographer Bios</a>
+          <a href="#bioNav" class="navLink" onclick="$('.bioWrap').scrollTo({ duration: '2000', });">Photographer Bios</a>
           <a href="#royaltyWrap" class="navLink">Royalty</a>
         </div>
       </div>
@@ -640,20 +661,20 @@
 
       </div>
     </div>
+    <div id="bioNav">
+      <div class="contentWrap">
+        <h1>Photographer Profiles</h1>
+        <h3 class="bioLink bioFirst" onclick="$('.bioSlides').slickGoTo(0); $(this).addClass('navSelected'); $('.bioLink').not(this).removeClass('navSelected');">Grant Gunderson</h3>
+        <h3 class="bioLink" onclick="$('.bioSlides').slickGoTo(1); $(this).addClass('navSelected'); $('.bioLink').not(this).removeClass('navSelected');">Zoya Lynch</h3>
+        <h3 class="bioLink" onclick="$('.bioSlides').slickGoTo(2); $(this).addClass('navSelected'); $('.bioLink').not(this).removeClass('navSelected');">Adam Barker</h3>
+      </div>
+    </div>
 
     <div id="bioWrap" name="bioWrap">
-      <!-- <div id="bioNav">
-        <h1>Photographer Bios</h1>
-        <div id="bioNavHead">
-            <span class="bioName">Garrett Grove</span>
-            <span class="bioName">Zoya Lynch</span>
-            <span class="bioName">TBD</span>
-        </div>
-      </div> -->
       <div class="bioSlides">
+
         <div class="bioContent bioGrant">
           <div class="contentWrap">
-
             <div class="bioBottom">
               <span class="bioPhoto"><img src="headshotGrant.jpg"/></span>
               <h1>Grant Gunderson</h1>
@@ -661,12 +682,10 @@
               <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
               <a class="bioExpand">Read More</a>
             </div>
-
           </div>
         </div>
         <div class="bioContent bioZoya">
           <div class="contentWrap">
-
             <div class="bioBottom">
               <span class="bioPhoto"><img src="headshotZoya.jpg"/></span>
               <h1>Zoya Lynch</h1>
@@ -674,12 +693,10 @@
               <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
               <a class="bioExpand">Read More</a>
             </div>
-
           </div>
         </div>
         <div class="bioContent bioAdam">
           <div class="contentWrap">
-
             <div class="bioBottom">
               <span class="bioPhoto"><img src="headshotAdam.jpg"/></span>
               <h1>Adam Barker</h1>
@@ -687,7 +704,6 @@
               <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
               <a class="bioExpand">Read More</a>
             </div>
-
           </div>
         </div>
       </div>
@@ -766,11 +782,11 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-
+    <script type="text/javascript" src="scrollto.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('#first').addClass('navSelected');
-
+            $('#bioFirst').addClass('navSelected');
             $('.mainSlides').slick({
              dots: false,
              autoplay: false,
