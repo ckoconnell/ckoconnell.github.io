@@ -96,7 +96,7 @@
     }
 
     .navSelected {
-      font-size: 16px !important;
+      font-weight: bold !important;
     }
 
     .mainSlides {
@@ -303,43 +303,44 @@
       background:
       linear-gradient(
           rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.6)
+          rgba(0, 0, 0, 0.1)
         ),
-      url('slide3bg.png') 0px 0px no-repeat;
+      url('bioZoya.jpg') right no-repeat;
 
     }
 
-    .bioGrove {
+    .bioGrant {
       background:
       linear-gradient(
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.6)
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
         ),
-      url('bioGroveBG.jpg') left bottom no-repeat;
+      url('bioGrant.jpg') center top no-repeat;
     }
 
-    .bioCarr {
+    .bioAdam {
       background:
       linear-gradient(
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.6)
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.2)
         ),
-      url('bioCarrBG.jpg') right top no-repeat;
+      url('bioAdam.jpg') right -200px no-repeat;
       background-size: 120%;
     }
 
     .bioBottom {
+      position: relative;
       width: 270px;
-      bottom: 15px;
-
+      margin-top: 220px;
+      height: 450px;
       background: #121212;
-      padding: 15px;
+      padding: 15px 15px;
 
     }
 
     .bioBottom h1 {
       font-size: 16px;
-      text-transform: uppercase;
+      color: #ddd;
     }
 
     .bioBottom h3 {
@@ -349,14 +350,20 @@
     }
 
     .bioBottom p {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 21px;
-
+      padding: 0 10px 0 10px;
+      margin-bottom: 10px;
+      color: #ccc;
     }
 
     .bioExpand  {
+      position: relative;
+      display: inline-block;
       border: 1px solid white;
+      width: auto;
       padding: 5px 10px;
+      margin: 5px 15px;
       font-size: 11px;
       text-transform: uppercase;
     }
@@ -367,6 +374,7 @@
       background: #444;
       float: left;
       margin: -40px 15px 5px 10px;
+      border: 5px solid #333;
     }
 
     #royaltyWrap {
@@ -547,9 +555,9 @@
           <h3>Photo Challenge</h3>
         </div>
         <div id="navWrap"> <!-- Change this to ul/li and use jquery sibling to toggle select styles -->
-          <a href="#slide1" class="navLink" onclick="$('.mainSlides').slickGoTo(0); $(this).toggleClass('navSelected');">Event Details</a>
-          <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1); $(this).toggleClass('navSelected');">Tickets</a>
-          <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2); $(this).toggleClass('navSelected');">#DeepWinter Contest</a>
+          <a href="#slide1" id="first" class="navLink" onclick="$('.mainSlides').slickGoTo(0); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">Event Details</a>
+          <a href="#slide2" class="navLink" onclick="$('.mainSlides').slickGoTo(1); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">Tickets</a>
+          <a href="#slide3" class="navLink" onclick="$('.mainSlides').slickGoTo(2); $(this).addClass('navSelected'); $('.navLink').not(this).removeClass('navSelected');">#DeepWinter Contest</a>
           <a href="#bioWrap" class="navLink">Photographer Bios</a>
           <a href="#royaltyWrap" class="navLink">Royalty</a>
         </div>
@@ -643,14 +651,14 @@
         </div>
       </div> -->
       <div class="bioSlides">
-        <div class="bioContent bioGrove">
+        <div class="bioContent bioGrant">
           <div class="contentWrap">
 
             <div class="bioBottom">
-              <span class="bioPhoto"></span>
-              <h1>Garrett Grove</h1>
+              <span class="bioPhoto"><img src="headshotGrant.jpg"/></span>
+              <h1>Grant Gunderson</h1>
               <h3>Age: 28 | Hometown: Portland, OR</h3>
-              <p class="">Sumamry teaser text goes here... this will continue in the expanded div which is linked to here.</p>
+              <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
               <a class="bioExpand">Read More</a>
             </div>
 
@@ -658,12 +666,28 @@
         </div>
         <div class="bioContent bioZoya">
           <div class="contentWrap">
-            Zoya Lynch
+
+            <div class="bioBottom">
+              <span class="bioPhoto"><img src="headshotZoya.jpg"/></span>
+              <h1>Zoya Lynch</h1>
+              <h3>Age: 28 | Hometown: Portland, OR</h3>
+              <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
+              <a class="bioExpand">Read More</a>
+            </div>
+
           </div>
         </div>
-        <div class="bioContent bioCarr">
+        <div class="bioContent bioAdam">
           <div class="contentWrap">
-            Dan Carr
+
+            <div class="bioBottom">
+              <span class="bioPhoto"><img src="headshotAdam.jpg"/></span>
+              <h1>Adam Barker</h1>
+              <h3>Age: 28 | Hometown: Portland, OR</h3>
+              <p class="">One of the outdoor industry's most dedicated photographers, Grant founded The Ski Journal where he served as Photo Editor for over six years. In addition to curating his passion for the mountains, he has shot for every major snow sports and outdoor publications worldwide including ESPN, Outside, Skiing, Backcountry, Aka Skidor, Fri Flyt, and Kootenay Mountain Culture. He currently serves as a Senior Photographer for Powder Magazine and is Photo Emeritus of The Ski Journal. </p>
+              <a class="bioExpand">Read More</a>
+            </div>
+
           </div>
         </div>
       </div>
@@ -713,7 +737,7 @@
       <div class="contentWrap">
 
         <div class="footerCol">
-          <p>&copy; 2014 Arc'teryx</p>
+          <p>&copy; 2014 Deep Winter Photo Challenge</p>
           <p>deepwinterphoto.com</p>
           <p>arcteryx.com</p>
           <p>whistlerblackcomb.com</p>
@@ -745,6 +769,8 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
+            $('#first').addClass('navSelected');
+
             $('.mainSlides').slick({
              dots: false,
              autoplay: false,
