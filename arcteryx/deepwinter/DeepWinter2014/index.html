@@ -329,11 +329,12 @@
     }
 
     .bioBottom {
-      width: 250px;
-      height: 200px;
+      width: 270px;
+      bottom: 15px;
+
       background: #121212;
       padding: 15px;
-      margin-top: 470px;
+
     }
 
     .bioBottom h1 {
@@ -511,8 +512,28 @@
 
     #footer {
       width: 100%;
-      background: #555;
-      height: 100px;
+      background-color: #191919;
+      height: 120px;
+    }
+
+    #sponsorImg {
+      margin: 30px 0 0 150px;
+      padding: 30px auto;
+      position: relative;
+    }
+
+    .footerCol {
+      width: 25%;
+      margin: 0 4% 0 4%;
+      float: left;
+      padding-top: 30px;
+    }
+
+    .footerCol p {
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      line-height: 13px;
     }
 
     </style>
@@ -685,14 +706,38 @@
     </div>
 
     <div id="sponsorWrap">
-      <div>Sponsors</div>
+      <div id="sponsorImg"><img src="sponsorsRough.jpg"></div>
     </div>
 
     <div id="footer">
       <div class="contentWrap">
-        <div>footer</div>
+
+        <div class="footerCol">
+          <p>&copy; 2014 Arc'teryx</p>
+          <p>deepwinterphoto.com</p>
+          <p>arcteryx.com</p>
+          <p>whistlerblackcomb.com</p>
+        </div>
+
+        <div class="footerCol">
+          <p>Deep Winter Photo Challenge is proud to support Canada Avalanche</p>
+          <p>Proceeds from the event will be donated towards...</p>
+          <p></p>
+        </div>
+
+        <div class="footerCol">
+          <p>More footer content goes here</p>
+          <p>Perhaps a CTA for the contest?</p>
+          <p></p>
+          <p></p>
+        </div>
+
       </div>
     </div>
+
+
+
+
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
