@@ -1,5 +1,9 @@
-body {
+$bp: "(max-width: 700px)";
+$bodyFont: 19px sans-serif;
 
+
+body {
+ font: $bodyFont;
 }
 
 a {
@@ -15,7 +19,7 @@ a {
   background-color: #bbb;
   z-index: 100;
 
-  @media screen and (max-width: 700px) {
+  @media #{$bp} {
     height: 100px !important;
   }
 
@@ -56,8 +60,8 @@ a {
   background-color: #333;
 
 
-  @media screen and (max-width: 700px) {
-    height: 300px;
+  @media #{$bp}  {
+    height: 80%;
   }
 
   .slide1 {
@@ -88,8 +92,8 @@ a {
   bottom: 0px;
 
 
-  @media screen and (max-width: 700px) {
-    top: 350px;
+  @media #{$bp} {
+    top: 80%;
   }
 }
 
