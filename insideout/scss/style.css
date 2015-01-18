@@ -77,10 +77,10 @@ a {
 
 .slideout-menu .slideout-menu-toggle {
   position: absolute;
-  top: 12px;
+  top: -5px;
   right: 10px;
   display: inline-block;
-  padding: 6px 9px 5px;
+  padding: 10px 15px 7px;
   font-family: Arial, sans-serif;
   font-weight: bold;
   line-height: 1;
