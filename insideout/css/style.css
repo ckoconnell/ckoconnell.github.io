@@ -1,5 +1,6 @@
 .topWrap {
   position: fixed;
+  left: 0px;
   top: 0px;
   width: 100%;
   height: 50px;
@@ -16,5 +17,13 @@
     width: 150px;
     height: 50px;
     background: #333; }
+    .topWrap .logoWrap img {
+      display: none; }
+
+.slideWrap {
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 80%; }
 
 /*# sourceMappingURL=style.css.map */
