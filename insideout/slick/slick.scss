@@ -81,6 +81,8 @@ $opacity-not-active: .25;
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    height: 100%;
+    background-size: cover;
 }
 .slick-track {
     position: relative;
@@ -102,6 +104,7 @@ $opacity-not-active: .25;
     .slick-loading & {
         visibility: hidden;
     }
+
 }
 .slick-slide {
     float: left;
