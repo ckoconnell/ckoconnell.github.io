@@ -7,7 +7,11 @@ a {
   top: 0px;
   width: 100%;
   height: 50px;
-  background-color: #bbb; }
+  background-color: #bbb;
+  z-index: 100; }
+  @media screen and (max-width: 500px) {
+    .topWrap {
+      height: 100px !important; } }
   .topWrap .menuWrap {
     position: relative;
     float: left; }

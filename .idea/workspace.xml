@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css.map" afterPath="$PROJECT_DIR$/insideout/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css.map" afterPath="$PROJECT_DIR$/insideout/scss/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css" afterPath="$PROJECT_DIR$/insideout/css/style.css" />
@@ -29,13 +28,13 @@
     <favorites_list name="ckoconnell.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51705885">
+    <splitter split-orientation="horizontal" split-proportion="0.41058823">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="0" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.8654038" vertical-offset="437" max-vertical-offset="1440">
+                <state line="59" column="35" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43939394" vertical-offset="450" max-vertical-offset="1440">
                   <folding>
                     <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -47,10 +46,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="98" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.7468355" vertical-offset="762" max-vertical-offset="1770">
+                <state line="15" column="15" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23734178" vertical-offset="0" max-vertical-offset="1830">
                   <folding />
                 </state>
               </provider>
@@ -68,7 +67,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="0" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1515">
+                <state line="93" column="0" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1575">
                   <folding />
                 </state>
               </provider>
@@ -92,8 +91,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/arcteryx/deepwinter/deepWinterSections.html" />
         <option value="$PROJECT_DIR$/insideout/slick/slick.scss" />
-        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
         <option value="$PROJECT_DIR$/insideout/index.html" />
+        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -423,7 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1515">
+        <state line="93" column="0" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
@@ -435,19 +434,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.7468355" vertical-offset="762" max-vertical-offset="1770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.8654038" vertical-offset="437" max-vertical-offset="1440">
+        <state line="59" column="35" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43939394" vertical-offset="450" max-vertical-offset="1440">
           <folding>
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23734178" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
         </state>
       </provider>
     </entry>
