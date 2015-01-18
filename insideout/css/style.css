@@ -9,7 +9,7 @@ a {
   height: 50px;
   background-color: #bbb;
   z-index: 100; }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 700px) {
     .topWrap {
       height: 100px !important; } }
   .topWrap .menuWrap {

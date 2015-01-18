@@ -15,7 +15,7 @@ a {
   background-color: #bbb;
   z-index: 100;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 700px) {
     height: 100px !important;
   }
 
