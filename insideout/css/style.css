@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  position: relative; }
+
+p {
+  float: left; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
+  .container .news {
+    float: right;
+    width: 50%; }
+    .container .news a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

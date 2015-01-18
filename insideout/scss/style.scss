@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+p {
+  float: left;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+
+  .news {
+    float: right;
+    width: 50%;
+
+    a {
+      text-decoration: none;
+    }
+
+  }
+
+
+}
