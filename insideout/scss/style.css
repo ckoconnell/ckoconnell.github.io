@@ -16,6 +16,8 @@ a {
       color: red;
       font-size: 30px;
       text-decoration: none; }
+      .topWrap .menuWrap a #nav-toggle a {
+        font-size: 30px; }
   .topWrap .logoWrap {
     float: left;
     width: 150px;

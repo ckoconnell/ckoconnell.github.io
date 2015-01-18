@@ -23,7 +23,9 @@ a {
       color: red;
       font-size: 30px;
       text-decoration: none;
-
+      a {
+        font-size: 30px;
+      }
     }
   }
   .logoWrap {
