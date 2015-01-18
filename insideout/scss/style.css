@@ -24,7 +24,8 @@ a {
       position: relative;
       margin-top: -9px;
       padding: 10px 50px 10px 25px;
-      color: red;
+      background: #222;
+      color: fff;
       font-size: 30px;
       text-decoration: none;
       z-index: 1000; }
