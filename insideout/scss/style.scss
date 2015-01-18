@@ -26,7 +26,7 @@ a {
   .menuWrap {
     position: relative;
     float: left;
-
+    z-index: 150;
 
    a  {
       display: block;
@@ -36,6 +36,7 @@ a {
       color: red;
       font-size: 30px;
       text-decoration: none;
+      z-index: 1000;
     }
   }
   .logoWrap {
