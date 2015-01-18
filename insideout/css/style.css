@@ -12,10 +12,10 @@ a {
     position: relative;
     float: left;
     margin: 10px 50px 10px 25px; }
-    .topWrap .menuWrap #hav-toggle {
+    .topWrap .menuWrap #nav-toggle {
       font-size: 24px;
       color: red; }
-      .topWrap .menuWrap #hav-toggle a {
+      .topWrap .menuWrap #nav-toggle a {
         font-size: 30px;
         text-decoration: none; }
   .topWrap .logoWrap {
