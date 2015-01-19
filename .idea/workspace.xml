@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insideout/img/menu.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css.map" afterPath="$PROJECT_DIR$/insideout/css/style.css.map" />
@@ -37,7 +36,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="103" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.26919243" vertical-offset="0" max-vertical-offset="1440">
+                <state line="44" column="34" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.6430708" vertical-offset="15" max-vertical-offset="1620">
                   <folding>
                     <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -52,7 +51,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="178" column="5" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.7943038" vertical-offset="1917" max-vertical-offset="3060">
+                <state line="180" column="20" selection-start="2938" selection-end="2938" vertical-scroll-proportion="1.613924" vertical-offset="1170" max-vertical-offset="3915">
                   <folding />
                 </state>
               </provider>
@@ -70,12 +69,8 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="157" column="0" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2445">
-                  <folding>
-                    <marker date="1421632791000" expanded="true" signature="430:612" placeholder="{...}" />
-                    <marker date="1421632791000" expanded="true" signature="626:760" placeholder="{...}" />
-                    <marker date="1421632791000" expanded="true" signature="718:736" placeholder="{...}" />
-                  </folding>
+                <state line="196" column="0" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="3030">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -393,11 +388,7 @@
     <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <marker date="1421632791000" expanded="true" signature="430:612" placeholder="{...}" />
-            <marker date="1421632791000" expanded="true" signature="626:760" placeholder="{...}" />
-            <marker date="1421632791000" expanded="true" signature="718:736" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -441,18 +432,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2445">
-          <folding>
-            <marker date="1421632791000" expanded="true" signature="430:612" placeholder="{...}" />
-            <marker date="1421632791000" expanded="true" signature="626:760" placeholder="{...}" />
-            <marker date="1421632791000" expanded="true" signature="718:736" placeholder="{...}" />
-          </folding>
+        <state line="196" column="0" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="3030">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="103" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.26919243" vertical-offset="0" max-vertical-offset="1440">
+        <state line="44" column="34" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.6430708" vertical-offset="15" max-vertical-offset="1620">
           <folding>
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -461,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="5" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.7943038" vertical-offset="1917" max-vertical-offset="3060">
+        <state line="180" column="20" selection-start="2938" selection-end="2938" vertical-scroll-proportion="1.613924" vertical-offset="1170" max-vertical-offset="3915">
           <folding />
         </state>
       </provider>
