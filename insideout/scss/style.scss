@@ -16,7 +16,7 @@ a {
   top: 0px;
   width: 100%;
   height: 63px;
-  background-color: #706456;
+  background-color: #555  ;
   z-index: 100;
   opacity: 0.95;
 
@@ -135,7 +135,7 @@ a {
 .lowerWrap {
   position: absolute;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
   margin: 0;
   background-color: #aaa;
   background-image: url('../img/plansbg.jpg');
@@ -144,18 +144,24 @@ a {
   top:80%;
   left: 0;
   bottom: 0px;
+  color: #333;
 
   @media #{$bp} {
     top: 80%;
+    min-height: 900px;
   }
 
   .contactBar {
     width: 100%;
     height: 80px;
     background-color: #333;
+    color: #aaa;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-family: serif;
 
     @media #{$bp} {
-     height: 150px;
+     height: 170px;
      padding-top: 15px;
     }
 
@@ -163,9 +169,9 @@ a {
       max-width: 960px;
       width: auto;
       min-width: 700px;
-      height: 100%;
       margin: 0 auto;
       box-sizing: border-box;
+
       @media #{$bp} {
         width: 100%;
         min-width: 300px;
@@ -176,19 +182,19 @@ a {
        width: 29%;
        float: left;
        background-color: #222;
-       padding: 5px 10px;
+       padding: 15px 10px;
        margin: 10px 10px;
        box-sizing: border-box;
 
        @media #{$bp} {
          width: 93%;
-
+         padding: 10px 10px;
        }
 
        p {
          text-align: center;
          margin: 0;
-         padding: 0;
+         padding: 5px 0 1px 0;
          line-height: 1em;
        }
      }
@@ -204,6 +210,71 @@ a {
 
   }
 
+  .contentWrap {
+    max-width: 960px;
+    width: auto;
+    min-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    @media #{$bp} {
+      width: 100%;
+      min-width: 300px;
+    }
+
+    .introWrap {
+      width: 40%;
+      max-width: 350px;
+      float: left;
+      margin-left: 7%;
+
+      @media #{$bp} {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      h1 {
+        font-size: 22px;
+
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .sidebarWrap {
+      width: 30%;
+      max-width: 250px;
+      float: left;
+      margin-top: 50px;
+      margin-left: 5%;
+
+      @media #{$bp} {
+        width: 100%;
+        margin-left: 7%;
+      }
+
+      h1 {
+        font-size: 16px;
+      }
+
+      .testimonial {
+        font-style: italic;
+        font-size: 13px;
+        line-height: 16px;
+
+      }
+
+      .credit {
+      font-style: italic;
+      font-size: 13px;
+      line-height: 16px;
+      text-align: right;
+      }
+    }
+
+
+  }
 }
 
 
