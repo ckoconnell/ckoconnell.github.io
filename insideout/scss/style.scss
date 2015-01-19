@@ -97,7 +97,7 @@ a {
       display: block;
       font-size: 100px;
       position: relative;
-      margin-top: 25%;
+      margin-top: 20%;
       margin-left: 30%;
       color: white;
       line-height: 80px;
@@ -167,6 +167,19 @@ a {
   font-weight: 400;
   border-bottom: 4px solid #222;
 }
+
+.slideout-menu-toggle {
+  img {
+
+    width: 50px;
+    margin-top: 15px;
+
+    @media #{$bp} {
+      width: 60px;
+    }
+  }
+}
+
 .slideout-menu .slideout-menu-toggle {
   position: absolute;
   top: -5px;
