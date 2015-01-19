@@ -68,6 +68,28 @@ a {
     background-image: url("../img/slide1.jpg");
     backtground-size: auto !important;
     height: 100%; }
+    .slideWrap .slide1 h1 {
+      font-family: serif;
+      display: block;
+      font-size: 100px;
+      position: relative;
+      margin-top: 25%;
+      margin-left: 30%;
+      color: white;
+      line-height: 80px;
+      text-shadow: 10px 10px 30px #111; }
+      @media (max-width: 700px) {
+        .slideWrap .slide1 h1 {
+          margin-left: 10%;
+          margin-top: 40%;
+          font-size: 72px;
+          line-height: 60px; } }
+      .slideWrap .slide1 h1 .outside {
+        margin-top: 25px;
+        margin-left: 70px; }
+        @media (max-width: 700px) {
+          .slideWrap .slide1 h1 .outside {
+            margin-left: 30px; } }
   .slideWrap .slide2 {
     background-image: url("../img/slide2.jpg");
     backtground-size: 100%;
