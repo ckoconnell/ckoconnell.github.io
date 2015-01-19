@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/img/logo.png" afterPath="$PROJECT_DIR$/insideout/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css.map" afterPath="$PROJECT_DIR$/insideout/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css.map" afterPath="$PROJECT_DIR$/insideout/scss/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css" afterPath="$PROJECT_DIR$/insideout/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css" afterPath="$PROJECT_DIR$/insideout/scss/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.scss" afterPath="$PROJECT_DIR$/insideout/scss/style.scss" />
-    </list>
+    <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="" />
     <ignored path="ckoconnell.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +27,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="26" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.43939394" vertical-offset="780" max-vertical-offset="1800">
+                <state line="89" column="36" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.56060606" vertical-offset="780" max-vertical-offset="1800">
                   <folding>
                     <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -446,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="26" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.43939394" vertical-offset="780" max-vertical-offset="1800">
+        <state line="89" column="36" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.56060606" vertical-offset="780" max-vertical-offset="1800">
           <folding>
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
