@@ -102,12 +102,14 @@ a {
       color: white;
       line-height: 80px;
       text-shadow: 10px 10px 30px #111;
+      opacity: 1;
 
       @media #{$bp}  {
         margin-left: 10%;
         margin-top: 40%;
         font-size: 72px;
         line-height: 60px;
+        opacity: .85;
       }
 
 

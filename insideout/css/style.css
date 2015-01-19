@@ -77,13 +77,15 @@ a {
       margin-left: 30%;
       color: white;
       line-height: 80px;
-      text-shadow: 10px 10px 30px #111; }
+      text-shadow: 10px 10px 30px #111;
+      opacity: 1; }
       @media (max-width: 700px) {
         .slideWrap .slide1 h1 {
           margin-left: 10%;
           margin-top: 40%;
           font-size: 72px;
-          line-height: 60px; } }
+          line-height: 60px;
+          opacity: .85; } }
       .slideWrap .slide1 h1 .outside {
         margin-top: 25px;
         margin-left: 70px; }
