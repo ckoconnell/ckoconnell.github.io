@@ -224,10 +224,23 @@ a {
       margin-top: -10px;
       vertical-align: 3px; }
   .slideout-menu h1 {
-    margin-left: 30px; }
-  .slideout-menu p {
+    width: 75%;
+    margin-top: 60px;
     margin-left: 30px;
-    line-height: 1em; }
+    font-size: 24px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc; }
+  .slideout-menu p {
+    margin: 0 30px 15px 30px; }
+  .slideout-menu .link {
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1em;
+    background-color: #121212;
+    padding: 10px 15px; }
 
 .slideout-menu-toggle img {
   width: 50px;
