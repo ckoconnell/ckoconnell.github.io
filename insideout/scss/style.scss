@@ -281,19 +281,38 @@ a {
 .slideout-menu {
   position: fixed;
   top: 0;
-  left: -350px;
+  left: -380px;
   width: 350px;
   height: 100%;
   background: #333;
   z-index: 100;
-}
-.slideout-menu h3 {
-  position: relative;
-  padding: 12px 10px;
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: 400;
-  border-bottom: 4px solid #222;
+  box-sizing: border-box;
+  font-family: serif;
+  color: #aaa;
+  h3 {
+    position: relative;
+    padding: 12px 30px 0 0;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    .closeText {
+      font-size: 12px;
+      margin-top: -10px;
+      vertical-align: 3px;
+    }
+  }
+
+  h1 {
+    margin-left: 30px;
+
+  }
+
+  p{
+    margin-left: 30px;
+    line-height: 1em;
+  }
+
 }
 
 .slideout-menu-toggle {
