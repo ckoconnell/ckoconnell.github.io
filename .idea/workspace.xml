@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG3.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG4.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG5.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG6.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG7.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insideout/img/SlideBG8.jpg" afterPath="$PROJECT_DIR$/insideout/img/slide8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css.map" afterPath="$PROJECT_DIR$/insideout/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css.map" afterPath="$PROJECT_DIR$/insideout/scss/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css" afterPath="$PROJECT_DIR$/insideout/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css" afterPath="$PROJECT_DIR$/insideout/scss/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.scss" afterPath="$PROJECT_DIR$/insideout/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ckoconnell.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +34,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.43117648">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="10" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.55158323" vertical-offset="0" max-vertical-offset="2145">
+                <state line="24" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.39430448" vertical-offset="0" max-vertical-offset="2145">
                   <folding />
                 </state>
               </provider>
@@ -49,10 +47,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="155" column="11" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.5766129" vertical-offset="1753" max-vertical-offset="6060">
+                <state line="172" column="36" selection-start="2993" selection-end="2993" vertical-scroll-proportion="0.8768898" vertical-offset="1768" max-vertical-offset="6210">
                   <folding />
                 </state>
               </provider>
@@ -70,7 +68,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="269" column="0" selection-start="6888" selection-end="6888" vertical-scroll-proportion="0.0" vertical-offset="3210" max-vertical-offset="4125">
+                <state line="82" column="12" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="4575">
                   <folding />
                 </state>
               </provider>
@@ -307,6 +305,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="" />
@@ -337,13 +352,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.077738516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.090989396" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077738516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1360424" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.104792" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.104792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.104792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -451,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="0" selection-start="6888" selection-end="6888" vertical-scroll-proportion="0.0" vertical-offset="3210" max-vertical-offset="4125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999" />
@@ -475,16 +483,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/index.html">
+    <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="10" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.55158323" vertical-offset="0" max-vertical-offset="2145">
+        <state line="82" column="12" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="4575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="11" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.5766129" vertical-offset="1753" max-vertical-offset="6060">
+        <state line="172" column="36" selection-start="2993" selection-end="2993" vertical-scroll-proportion="0.8768898" vertical-offset="1768" max-vertical-offset="6210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.39430448" vertical-offset="0" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>

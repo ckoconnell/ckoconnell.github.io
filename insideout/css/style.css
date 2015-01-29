@@ -96,6 +96,36 @@ a {
     background-image: url("../img/slide2.jpg");
     backtground-size: 100%;
     height: 100%; }
+  .slideWrap .slide3 {
+    background-image: url("../img/slide3.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
+  .slideWrap .slide4 {
+    background-image: url("../img/slide4.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
+  .slideWrap .slide5 {
+    background-image: url("../img/slide5.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
+  .slideWrap .slide6 {
+    background-image: url("../img/slide6.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
+  .slideWrap .slide7 {
+    background-image: url("../img/slide7.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
+  .slideWrap .slide8 {
+    background-image: url("../img/slide8.jpg");
+    backtground-size: 100%;
+    height: 100%;
+    background-position: center top; }
 
 .lowerWrap {
   position: absolute;
