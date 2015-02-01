@@ -1,5 +1,5 @@
 body {
-  font: 19px "Arial"; }
+  font: 19px "Roboto"; }
 
 a {
   text-decoration: none; }
@@ -13,7 +13,7 @@ a {
   background-color: #555;
   z-index: 100;
   opacity: 0.95; }
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .topWrap {
       height: 85px !important; } }
   .topWrap .menuWrap {
@@ -29,14 +29,14 @@ a {
       font-size: 50px;
       text-decoration: none;
       z-index: 1000; }
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
         .topWrap .menuWrap a {
           padding: 15px 20px 10px 25px; } }
   .topWrap .logoWrap {
     width: 150px;
     height: 50px;
     margin: 0 auto; }
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
       .topWrap .logoWrap {
         float: right;
         margin-right: 50px; } }
@@ -44,7 +44,7 @@ a {
       margin-top: -108px;
       width: 300px;
       margin-left: -70px; }
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
         .topWrap .logoWrap img {
           margin-top: 0px;
           margin-left: 0;
@@ -59,7 +59,7 @@ a {
   width: 100%;
   height: 80%;
   background-color: #333; }
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .slideWrap {
       height: 80%; } }
   .slideWrap .slide1 {
@@ -79,7 +79,7 @@ a {
       line-height: 80px;
       text-shadow: 10px 10px 30px #111;
       opacity: 1; }
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
         .slideWrap .slide1 h1 {
           margin-left: 10% !important;
           margin-top: 40% !important;
@@ -89,7 +89,7 @@ a {
       .slideWrap .slide1 h1 .outside {
         margin-top: 25px;
         margin-left: 70px; }
-        @media (max-width: 700px) {
+        @media (max-width: 768px) {
           .slideWrap .slide1 h1 .outside {
             margin-left: 30px; } }
   .slideWrap .slide2 {
@@ -139,11 +139,15 @@ a {
   top: 80%;
   left: 0;
   bottom: 0px;
-  color: #333; }
-  @media (max-width: 700px) {
+  color: #333;
+  display: inline-table; }
+  @media (max-width: 768px) {
     .lowerWrap {
       top: 80%;
-      min-height: 900px; } }
+      height: auto;
+      min-height: 900px;
+      background-repeat: repeat-y;
+      display: inline-table; } }
   .lowerWrap .contactBar {
     width: 100%;
     height: 80px;
@@ -151,8 +155,9 @@ a {
     color: #aaa;
     text-transform: uppercase;
     padding-top: 10px;
-    font-family: serif; }
-    @media (max-width: 700px) {
+    font-family: 'Roboto Slab';
+    overflow: hidden; }
+    @media (max-width: 768px) {
       .lowerWrap .contactBar {
         height: 190px;
         padding-top: 15px; } }
@@ -162,7 +167,7 @@ a {
       min-width: 700px;
       margin: 0 auto;
       box-sizing: border-box; }
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
         .lowerWrap .contactBar .contentWrap {
           width: 100%;
           min-width: 300px; } }
@@ -173,7 +178,7 @@ a {
         padding: 15px 10px;
         margin: 10px 10px;
         box-sizing: border-box; }
-        @media (max-width: 700px) {
+        @media (max-width: 768px) {
           .lowerWrap .contactBar .contentWrap .contactItem {
             width: 93%;
             padding: 10px 10px; } }
@@ -184,7 +189,7 @@ a {
           line-height: 1em; }
       .lowerWrap .contactBar .contentWrap .marginSides {
         margin: 10px 3%; }
-        @media (max-width: 700px) {
+        @media (max-width: 768px) {
           .lowerWrap .contactBar .contentWrap .marginSides {
             margin: 0 10px; } }
   .lowerWrap .contentWrap {
@@ -193,44 +198,79 @@ a {
     min-width: 700px;
     margin: 0 auto;
     box-sizing: border-box; }
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
       .lowerWrap .contentWrap {
         width: 100%;
         min-width: 300px; } }
     .lowerWrap .contentWrap .introWrap {
-      width: 40%;
-      max-width: 350px;
+      max-width: 300px;
       float: left;
-      margin-left: 7%; }
-      @media (max-width: 700px) {
+      margin-left: 7%;
+      padding-top: 30px; }
+      @media (max-width: 768px) {
         .lowerWrap .contentWrap .introWrap {
-          width: 100%;
-          max-width: 300px; } }
+          width: 80%;
+          max-width: 450px; } }
       .lowerWrap .contentWrap .introWrap h1 {
         font-size: 22px; }
       .lowerWrap .contentWrap .introWrap p {
         font-size: 16px; }
+        .lowerWrap .contentWrap .introWrap p .dropCap {
+          float: left;
+          font-family: 'Roboto Slab';
+          font-size: 3em;
+          margin: 0;
+          padding: 5px 3px 0 0;
+          text-indent: 10px;
+          line-height: 30px; }
+        .lowerWrap .contentWrap .introWrap p .heroText {
+          font-weight: 900;
+          font-style: italic; }
     .lowerWrap .contentWrap .sidebarWrap {
-      width: 30%;
-      max-width: 250px;
+      width: 45%;
+      min-width: 20%;
+      max-width: 450px;
       float: left;
       margin-top: 50px;
       margin-left: 5%; }
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
         .lowerWrap .contentWrap .sidebarWrap {
           width: 100%;
           margin-left: 7%; } }
-      .lowerWrap .contentWrap .sidebarWrap h1 {
-        font-size: 16px; }
-      .lowerWrap .contentWrap .sidebarWrap .testimonial {
-        font-style: italic;
-        font-size: 13px;
-        line-height: 16px; }
-      .lowerWrap .contentWrap .sidebarWrap .credit {
-        font-style: italic;
-        font-size: 13px;
-        line-height: 16px;
-        text-align: right; }
+      .lowerWrap .contentWrap .sidebarWrap ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        vertical-align: top; }
+        .lowerWrap .contentWrap .sidebarWrap ul .fullWidth {
+          width: 80% !important; }
+        .lowerWrap .contentWrap .sidebarWrap ul li {
+          float: left;
+          width: 45%;
+          display: inline-block;
+          margin: 5px 10px; }
+          @media (max-width: 900px) {
+            .lowerWrap .contentWrap .sidebarWrap ul li {
+              width: 100%;
+              margin-left: 7%; } }
+          @media (max-width: 768px) {
+            .lowerWrap .contentWrap .sidebarWrap ul li {
+              width: 80%;
+              margin-left: 0;
+              box-sizing: border-box; } }
+          .lowerWrap .contentWrap .sidebarWrap ul li h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-family: 'Roboto Slab'; }
+          .lowerWrap .contentWrap .sidebarWrap ul li p {
+            margin: 0;
+            padding: 0;
+            font-size: 12px; }
+            .lowerWrap .contentWrap .sidebarWrap ul li p .subhead {
+              text-transform: uppercase;
+              font-size: 10px;
+              font-weight: 900; }
 
 .slideout-menu {
   position: fixed;
@@ -241,13 +281,13 @@ a {
   background: #333;
   z-index: 100;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Roboto';
   color: #aaa; }
   .slideout-menu h3 {
     position: relative;
     padding: 12px 30px 0 0;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 400; }
     .slideout-menu h3 .closeText {
       font-size: 12px;
@@ -258,11 +298,16 @@ a {
     margin-top: 60px;
     margin-left: 30px;
     font-size: 24px;
+    font-family: 'Roboto Slab';
     line-height: 22px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ccc; }
   .slideout-menu p {
-    margin: 0 30px 15px 30px; }
+    margin: 0 30px 15px 30px;
+    font-size: .9em; }
+  .slideout-menu a {
+    color: #ccc;
+    text-decoration: none; }
   .slideout-menu .link {
     width: auto;
     height: auto;
@@ -275,7 +320,7 @@ a {
 .slideout-menu-toggle img {
   width: 50px;
   margin-top: 15px; }
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .slideout-menu-toggle img {
       width: 60px; } }
 
