@@ -171,6 +171,15 @@ a {
         .lowerWrap .contactBar .contentWrap {
           width: 100%;
           min-width: 300px; } }
+      .lowerWrap .contactBar .contentWrap a {
+        text-decoration: none;
+        color: #999;
+        width: 29%;
+        float: left;
+        background-color: #222;
+        padding: 15px 10px;
+        margin: 10px 10px;
+        box-sizing: border-box; }
       .lowerWrap .contactBar .contentWrap .contactItem {
         width: 29%;
         float: left;
@@ -182,6 +191,10 @@ a {
           .lowerWrap .contactBar .contentWrap .contactItem {
             width: 93%;
             padding: 10px 10px; } }
+        .lowerWrap .contactBar .contentWrap .contactItem h3 {
+          font-size: 18px;
+          margin: 0;
+          padding: 0; }
         .lowerWrap .contactBar .contentWrap .contactItem p {
           text-align: center;
           margin: 0;
