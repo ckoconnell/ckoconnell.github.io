@@ -25,12 +25,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5382353">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="127" selection-start="5337" selection-end="5337" vertical-scroll-proportion="0.701107" vertical-offset="1185" max-vertical-offset="2520">
+                <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.8892989" vertical-offset="1032" max-vertical-offset="2805">
                   <folding>
-                    <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -40,10 +40,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="549" column="20" selection-start="9172" selection-end="9172" vertical-scroll-proportion="0.8638132" vertical-offset="7569" max-vertical-offset="8400">
+                <state line="471" column="18" selection-start="8147" selection-end="8147" vertical-scroll-proportion="0.4733656" vertical-offset="6674" max-vertical-offset="9255">
                   <folding />
                 </state>
               </provider>
@@ -61,7 +61,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="398" column="0" selection-start="11166" selection-end="11166" vertical-scroll-proportion="0.0" vertical-offset="5775" max-vertical-offset="6060">
+                <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="6645">
                   <folding />
                 </state>
               </provider>
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/insideout/slick/slick.scss" />
         <option value="$PROJECT_DIR$/insideout/css/style.css" />
         <option value="$PROJECT_DIR$/insideout/scss/sasscommand.txt" />
-        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
         <option value="$PROJECT_DIR$/insideout/index.html" />
+        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -254,6 +254,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -385,7 +386,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="33" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2145">
           <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,7 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="19" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
           <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,7 +446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="960">
           <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -520,24 +521,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="0" selection-start="11166" selection-end="11166" vertical-scroll-proportion="0.0" vertical-offset="5775" max-vertical-offset="6060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="549" column="20" selection-start="9172" selection-end="9172" vertical-scroll-proportion="0.8638132" vertical-offset="7569" max-vertical-offset="8400">
+        <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="6645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="127" selection-start="5337" selection-end="5337" vertical-scroll-proportion="0.701107" vertical-offset="1185" max-vertical-offset="2520">
+        <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.8892989" vertical-offset="1032" max-vertical-offset="2805">
           <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="471" column="18" selection-start="8147" selection-end="8147" vertical-scroll-proportion="0.4733656" vertical-offset="6674" max-vertical-offset="9255">
+          <folding />
         </state>
       </provider>
     </entry>

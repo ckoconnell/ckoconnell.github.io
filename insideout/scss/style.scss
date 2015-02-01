@@ -290,6 +290,10 @@ a {
          font-size: 9px;
          color: #ccc;
 
+         @media #{$bp} {
+          font-size: 12px;
+         }
+
          a {
            padding: 0;
            margin: 2px 0;
@@ -445,8 +449,61 @@ a {
 
     }
 
+    .footer {
+      display: inline-block;
+      width: 100%;
+      max-width: 880px;
+      height: 140px;
+      border-top: 1px solid #777;
+      margin: 60px 30px 0 30px;
+      box-sizing:  border-box;
+      padding-left: 60px;
+      padding-bottom: 30px;
+
+      @media #{$bp1050} {
+        width: 94%;
+        height: auto;
+        margin: 30px 15px 0 15px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-top: 15px;
+      }
+
+      @media #{$bp} {
+        padding-left: 15px;
+      }
+
+
+      .topMargin {
+        padding-top: 20px !important;
+        font-weight: 900;
+      }
+
+      .col {
+        width: 250px;
+        float: left;
+        height: auto;
+        min-height: 100px;
+
+        h3 {
+          font-size: 15px;
+          margin-bottom: 0;
+        }
+        p{
+          font-size: 12px;
+          margin: 0 0 2px 0;
+          padding: 0 0;
+        }
+
+      }
+
+    }
 
   }
+
+
+
+
 }
 
 
