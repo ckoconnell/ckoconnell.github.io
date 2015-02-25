@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ckoconnell.github.io.iws" />
@@ -27,10 +28,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5382353">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.8253425" vertical-offset="1032" max-vertical-offset="2805">
+                <state line="73" column="109" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.44419134" vertical-offset="705" max-vertical-offset="2805">
                   <folding />
                 </state>
               </provider>
@@ -40,19 +41,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="-12.541667" vertical-offset="6674" max-vertical-offset="9255">
+                <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="0.0" vertical-offset="6975" max-vertical-offset="9255">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sasscommand.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="sasscommand.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="31" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="913">
+                <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <folding />
                 </state>
               </provider>
@@ -70,7 +71,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="6645">
+                <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6645">
                   <folding />
                 </state>
               </provider>
@@ -96,14 +97,14 @@
         <option value="$PROJECT_DIR$/insideout/slick/slick.scss" />
         <option value="$PROJECT_DIR$/insideout/css/style.css" />
         <option value="$PROJECT_DIR$/insideout/scss/sasscommand.txt" />
-        <option value="$PROJECT_DIR$/insideout/index.html" />
         <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
+        <option value="$PROJECT_DIR$/insideout/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="6" />
-    <option name="y" value="35" />
+    <option name="y" value="31" />
     <option name="width" value="1896" />
     <option name="height" value="1165" />
   </component>
@@ -238,20 +239,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ckoconnell.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ckoconnell.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcteryx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -273,6 +260,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -283,23 +278,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -358,11 +345,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="35" width="1896" height="1165" extended-state="1" />
+    <frame x="6" y="31" width="1896" height="1165" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077738516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12301957" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122790694" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.104792" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106133334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -392,6 +379,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/insideout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="0.0" vertical-offset="7770" max-vertical-offset="9255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/slick/slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="0.0" vertical-offset="6975" max-vertical-offset="9255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/slick/slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="0" selection-start="12445" selection-end="12445" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
@@ -515,9 +572,7 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/img/slide2.jpg">
@@ -525,9 +580,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/index.html">
+    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.8253425" vertical-offset="1032" max-vertical-offset="2805">
+        <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="0.0" vertical-offset="6975" max-vertical-offset="9255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <folding />
         </state>
       </provider>
@@ -546,16 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="465" column="33" selection-start="8034" selection-end="8034" vertical-scroll-proportion="-12.541667" vertical-offset="6674" max-vertical-offset="9255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="913">
+        <state line="73" column="109" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.44419134" vertical-offset="705" max-vertical-offset="2805">
           <folding />
         </state>
       </provider>
