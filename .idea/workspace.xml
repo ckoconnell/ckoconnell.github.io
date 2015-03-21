@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb58975d-8efc-4ed0-8dcd-63c395c77648" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/index.html" afterPath="$PROJECT_DIR$/insideout/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/666ca8a2aedf4ec8cb24af8b678606d5ce1b3f54/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css.map" afterPath="$PROJECT_DIR$/insideout/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css.map" afterPath="$PROJECT_DIR$/insideout/scss/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/css/style.css" afterPath="$PROJECT_DIR$/insideout/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.css" afterPath="$PROJECT_DIR$/insideout/scss/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insideout/scss/style.scss" afterPath="$PROJECT_DIR$/insideout/scss/style.scss" />
     </list>
     <ignored path="ckoconnell.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +35,9 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.44805196" vertical-offset="0" max-vertical-offset="2865">
+                <state line="39" column="24" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.74712646" vertical-offset="0" max-vertical-offset="2865">
                   <folding>
-                    <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-                    <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-                    <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-                    <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-                    <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-                    <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+                    <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="231" column="10" selection-start="4010" selection-end="4010" vertical-scroll-proportion="0.63873625" vertical-offset="3000" max-vertical-offset="9720">
+                <state line="169" column="11" selection-start="2814" selection-end="2814" vertical-scroll-proportion="0.65954775" vertical-offset="2010" max-vertical-offset="9765">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +59,7 @@
           <file leaf-file-name="sasscommand.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="18" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+                <state line="0" column="16" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <folding />
                 </state>
               </provider>
@@ -68,7 +68,7 @@
           <file leaf-file-name="slick.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/slick/slick.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="127" column="0" selection-start="2489" selection-end="2489" vertical-scroll-proportion="-54.375" vertical-offset="600" max-vertical-offset="4440">
+                <state line="102" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4440">
                   <folding />
                 </state>
               </provider>
@@ -77,7 +77,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="461" column="0" selection-start="13046" selection-end="13046" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="7005">
+                <state line="479" column="0" selection-start="13015" selection-end="13015" vertical-scroll-proportion="0.0" vertical-offset="7185" max-vertical-offset="7275">
                   <folding />
                 </state>
               </provider>
@@ -103,12 +103,13 @@
         <option value="$PROJECT_DIR$/insideout/slick/slick.scss" />
         <option value="$PROJECT_DIR$/insideout/css/style.css" />
         <option value="$PROJECT_DIR$/insideout/scss/sasscommand.txt" />
-        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
         <option value="$PROJECT_DIR$/insideout/index.html" />
+        <option value="$PROJECT_DIR$/insideout/scss/style.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="6" />
     <option name="y" value="23" />
     <option name="width" value="1896" />
     <option name="height" value="1057" />
@@ -139,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,7 +247,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,18 +351,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1896" height="1057" extended-state="1" />
+    <frame x="6" y="23" width="1896" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077738516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13650465" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12124352" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.104792" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106133334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.025742574" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16476683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16784452" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -386,49 +387,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2820">
-          <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="20" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="9270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/slick/slick.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="0" selection-start="12485" selection-end="12485" vertical-scroll-proportion="0.0" vertical-offset="6570" max-vertical-offset="6660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="56" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2805">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -465,12 +426,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="2805">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,12 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,12 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="26" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="2805">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -535,12 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="33" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2145">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -570,12 +511,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="19" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,12 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="960">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,44 +600,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insideout/slick/slick.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="2489" selection-end="2489" vertical-scroll-proportion="-54.375" vertical-offset="600" max-vertical-offset="4440">
+        <state line="102" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4440">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="461" column="0" selection-start="13046" selection-end="13046" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="7005">
+        <state line="479" column="0" selection-start="13015" selection-end="13015" vertical-scroll-proportion="0.0" vertical-offset="7185" max-vertical-offset="7275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insideout/scss/sasscommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="10" selection-start="4010" selection-end="4010" vertical-scroll-proportion="0.63873625" vertical-offset="3000" max-vertical-offset="9720">
+        <state line="169" column="11" selection-start="2814" selection-end="2814" vertical-scroll-proportion="0.65954775" vertical-offset="2010" max-vertical-offset="9765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insideout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.44805196" vertical-offset="0" max-vertical-offset="2835">
+        <state line="39" column="24" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.74712646" vertical-offset="0" max-vertical-offset="2865">
           <folding>
-            <marker date="1426973295000" expanded="true" signature="1357:1391" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1430:1464" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1503:1537" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1576:1610" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1649:1683" placeholder="..." />
-            <marker date="1426973295000" expanded="true" signature="1722:1756" placeholder="..." />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
