@@ -1,0 +1,201 @@
+/* line 1, ../scss/style.scss */
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Avenir;
+}
+
+/* line 7, ../scss/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../scss/style.scss */
+.contentWrap {
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+}
+
+/* line 18, ../scss/style.scss */
+.navWrap {
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background: black;
+  overflow: visible;
+}
+/* line 26, ../scss/style.scss */
+.navWrap .navLogo {
+  width: 180px;
+  height: 110px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  background: #000;
+  background-image: url("../img/arcLogo.jpg");
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: 30px 15px;
+}
+/* line 39, ../scss/style.scss */
+.navWrap .navMain {
+  float: left;
+  margin-top: 45px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+}
+/* line 46, ../scss/style.scss */
+.navWrap .navMain ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+/* line 52, ../scss/style.scss */
+.navWrap .navMain ul li {
+  color: white;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+/* line 63, ../scss/style.scss */
+.navWrap .navMain ul .menuBorder {
+  border-left: 1px solid white;
+}
+
+/* line 70, ../scss/style.scss */
+.athleteHeader {
+  z-index: 1;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background: black;
+  background-image: url("../img/athleteHead-1-2.jpg");
+  background-size: 100%;
+  background-position: right bottom;
+}
+
+/* line 81, ../scss/style.scss */
+.athletePortrait {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  float: left;
+  margin-top: -125px;
+  z-index: 2;
+  background-image: url("../img/Vikki-Weldon-Portrait.jpg");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: 15px solid white;
+}
+
+/* line 95, ../scss/style.scss */
+.athleteName {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #222;
+  float: left;
+  margin-top: 30px;
+}
+
+/* line 105, ../scss/style.scss */
+.athleteVitals {
+  text-transform: uppercase;
+  float: left;
+  margin-left: 45px;
+  margin-top: 35px;
+  font-size: 12px;
+}
+/* line 113, ../scss/style.scss */
+.athleteVitals ul li {
+  list-style: square;
+}
+
+/* line 119, ../scss/style.scss */
+.athleteBody {
+  margin-bottom: 120px;
+}
+/* line 122, ../scss/style.scss */
+.athleteBody p {
+  line-height: 28px;
+}
+/* line 126, ../scss/style.scss */
+.athleteBody .locationWrap {
+  width: 35%;
+  height: 250px;
+  float: right;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #ddd;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+/* line 136, ../scss/style.scss */
+.athleteBody .locationWrap dl {
+  margin: 10px 15px;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #999;
+}
+/* line 142, ../scss/style.scss */
+.athleteBody .locationWrap dt {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+/* line 148, ../scss/style.scss */
+.athleteBody .locationWrap dd {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: #666;
+}
+/* line 155, ../scss/style.scss */
+.athleteBody .locationWrap .tabBar {
+  width: 100%;
+  background: #bbb;
+  margin-top: -15px;
+}
+/* line 160, ../scss/style.scss */
+.athleteBody .locationWrap .tabBar span {
+  width: 48%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 170, ../scss/style.scss */
+.athleteBody .locationWrap .tabBar .tabOff {
+  border-left: 1px solid #999;
+}
+/* line 176, ../scss/style.scss */
+.athleteBody .locationWrap h3 {
+  width: 100%;
+  background: #333;
+  color: #bbb;
+  margin-top: 0;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/* line 189, ../scss/style.scss */
+.athleteBody h1 {
+  margin-top: 35px;
+  font-size: 16px;
+}
+/* line 194, ../scss/style.scss */
+.athleteBody p {
+  width: 70%;
+}
