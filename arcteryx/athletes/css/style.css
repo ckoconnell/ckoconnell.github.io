@@ -143,30 +143,29 @@ body {
 .athleteBody .locationWrap dl {
   margin: 10px 15px;
   padding: 0 0 5px 0;
-  border-bottom: 1px solid #999;
 }
 /* line 142, ../scss/style.scss */
 .athleteBody .locationWrap dt {
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
   font-size: 15px;
 }
-/* line 148, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .athleteBody .locationWrap dd {
   margin: 0;
   padding: 0;
   font-size: 13px;
   color: #666;
 }
-/* line 155, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .athleteBody .locationWrap .tabBar {
   width: 100%;
   background: #bbb;
   margin-top: -15px;
 }
-/* line 160, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .athleteBody .locationWrap .tabBar span {
-  width: 48%;
+  width: 49%;
   box-sizing: border-box;
   display: inline-block;
   padding: 5px 10px;
@@ -174,11 +173,11 @@ body {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 170, ../scss/style.scss */
-.athleteBody .locationWrap .tabBar .tabOff {
-  border-left: 1px solid #999;
+/* line 175, ../scss/style.scss */
+.athleteBody .locationWrap .tabBar .tabOn {
+  background: #ccc;
 }
-/* line 176, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .athleteBody .locationWrap h3 {
   width: 100%;
   background: #333;
@@ -190,12 +189,12 @@ body {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 189, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .athleteBody h1 {
   margin-top: 35px;
   font-size: 16px;
 }
-/* line 194, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .athleteBody p {
   width: 70%;
 }
