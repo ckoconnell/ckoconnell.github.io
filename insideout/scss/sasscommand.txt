@@ -1,1 +1,1 @@
-sass --watch insideout/scss:insideout/css
+sass --watch insideout/scss:insideout/css --style compressed
