@@ -1,18 +1,25 @@
-/* line 12, ../scss/style.scss */
+/* SASS / Social Media Brand Colors */
+/* line 36, ../scss/style.scss */
 html {
   width: 100%;
   height: 100%;
   font-family: Avenir;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 body {
   margin: 0;
   padding: 0;
   background: #efefef;
 }
 
-/* line 24, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
+img:hover {
+  transition: all 1s ease;
+  opacity: 0.8;
+}
+
+/* line 54, ../scss/style.scss */
 .contentWrap {
   position: relative;
   width: 930px;
@@ -20,13 +27,13 @@ body {
   box-sizing: border-box;
 }
 @media only screen and (max-width: 929px) {
-  /* line 24, ../scss/style.scss */
+  /* line 54, ../scss/style.scss */
   .contentWrap {
     width: 100%;
   }
 }
 
-/* line 35, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .navWrap {
   z-index: 10;
   width: 100%;
@@ -36,7 +43,7 @@ body {
   overflow: visible;
   box-sizing: border-box;
 }
-/* line 45, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .navWrap .navLogo {
   width: 160px;
   height: 90px;
@@ -49,7 +56,7 @@ body {
   background-size: 100px;
   background-position: 30px 15px;
 }
-/* line 58, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 .navWrap .navMain {
   float: left;
   margin-top: 30px;
@@ -57,13 +64,13 @@ body {
   display: inline-block;
   position: relative;
 }
-/* line 65, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .navWrap .navMain ul {
   display: inline-block;
   margin: 0;
   padding: 0 0 0 15px;
 }
-/* line 71, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .navWrap .navMain ul li {
   color: white;
   float: left;
@@ -74,12 +81,12 @@ body {
   text-transform: uppercase;
   padding: 0 20px;
 }
-/* line 82, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 .navWrap .navMain ul .menuBorder {
   border-left: 1px solid white;
 }
 
-/* line 89, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 .featureWrap {
   width: 100%;
   height: 650px;
@@ -87,12 +94,12 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
-/* line 96, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .featureWrap ul {
   list-style: none;
   z-index: 1000;
 }
-/* line 99, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .featureWrap ul li {
   width: 15px;
   height: 15px;
@@ -100,7 +107,7 @@ body {
   margin: 0 5px !important;
   overflow: hidden;
 }
-/* line 105, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .featureWrap ul li button {
   color: #666 !important;
   display: inline-block !important;
@@ -112,56 +119,56 @@ body {
   border: none;
   overflow: hidden !important;
 }
-/* line 119, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .featureWrap .featureSlide {
   width: 100%;
   height: 100%;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .feature1 {
   background: url("../img/featureslidebg-3.jpg");
   background-size: cover;
   background-position: center bottom;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 .feature2 {
   background: url("../img/featureslidebg-2.jpg");
   background-size: cover;
   background-position: center top;
 }
 
-/* line 139, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .feature3 {
   background: url("../img/featureslidebg-4.jpg");
   background-size: cover;
   background-position: left bottom;
 }
 
-/* line 145, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 .feature4 {
   background: url("../img/featureslidebg.jpg");
   background-size: cover;
   background-position: right top;
 }
 
-/* line 153, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .slick-dots {
   bottom: 20px !important;
   z-index: 100;
 }
-/* line 157, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 .slick-dots .slick-active {
   color: pink;
 }
-/* line 160, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .slick-dots .slick-active button {
   background: teal;
   color: teal;
 }
 
-/* line 169, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .socialLinkBar {
   width: 100%;
   height: 40px;
@@ -169,7 +176,7 @@ body {
   background: black;
 }
 
-/* line 177, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 .container {
   position: relative;
   display: block;
@@ -182,7 +189,7 @@ body {
   vertical-align: top;
 }
 
-/* line 189, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .postElement {
   position: relative;
   display: inline-block;
@@ -194,37 +201,37 @@ body {
   vertical-align: top;
 }
 
-/* line 200, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .blogPostWrap {
   width: 54%;
   min-width: 300px;
   max-width: 450px;
 }
-/* line 205, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 .blogPostWrap .blogImage {
   width: 100%;
   height: 230px;
   background: teal;
 }
-/* line 210, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .blogPostWrap .blogImage img {
   width: 100%;
   height: 230px;
 }
-/* line 216, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 .blogPostWrap h1, .blogPostWrap h3, .blogPostWrap p {
   margin: 2px 0;
   padding: 5px 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 223, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 .blogPostWrap h1 {
   font-size: 17px;
   text-transform: uppercase;
   margin-top: 5px;
 }
-/* line 228, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .blogPostWrap h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -232,50 +239,50 @@ body {
   color: #666;
   margin-top: -8px;
 }
-/* line 235, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 .blogPostWrap p {
   font-size: 13px;
   line-height: 17px;
 }
 
-/* line 242, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .tweetWrap {
   width: 18%;
   min-width: 250px;
   max-width: 250px;
 }
-/* line 247, ../scss/style.scss */
+/* line 277, ../scss/style.scss */
 .tweetWrap blockquote {
   margin: 0;
   padding: 0;
 }
-/* line 252, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .tweetWrap h1, .tweetWrap h3, .tweetWrap h4, .tweetWrap h2, .tweetWrap p {
   margin: 3px 0;
   padding: 0 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 259, ../scss/style.scss */
+/* line 289, ../scss/style.scss */
 .tweetWrap h1 {
   font-size: 15px;
   font-weight: 700;
   margin-top: 15px;
 }
-/* line 267, ../scss/style.scss */
+/* line 297, ../scss/style.scss */
 .tweetWrap h2 {
   font-size: 15px;
   font-weight: 500;
   color: #666;
 }
-/* line 274, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .tweetWrap h3 {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 300;
   color: #666;
 }
-/* line 281, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .tweetWrap h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -283,100 +290,159 @@ body {
   color: #666;
   margin-bottom: 10px;
 }
-/* line 288, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 .tweetWrap p {
   font-size: 15px;
   margin: 15px 0;
   line-height: 17px;
 }
-/* line 294, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .tweetWrap .tweetSharing {
   padding-left: 15px;
   display: none;
 }
 
-/* line 300, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 .tweetPhoto {
   width: 100%;
 }
-/* line 302, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .tweetPhoto img {
   width: 100%;
 }
 
-/* line 307, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .tweetContent {
   height: 175px;
 }
 
-/* line 313, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .pinterestWrap {
   width: 18%;
   min-width: 250px;
   max-width: 250px;
 }
-/* line 318, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .pinterestWrap .pinterestPhoto {
   width: 100%;
   height: 200px;
   overflow: hidden;
 }
-/* line 323, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 .pinterestWrap .pinterestPhoto img {
   width: auto;
   height: 200px;
 }
-/* line 330, ../scss/style.scss */
+/* line 360, ../scss/style.scss */
 .pinterestWrap .pinterestContent p {
   font-size: 13px;
   padding: 10px 15px 0 15px;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 367, ../scss/style.scss */
 .instagramWrap {
   width: 54%;
   min-width: 300px;
   max-width: 450px;
 }
-/* line 342, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 .instagramWrap h1, .instagramWrap h3, .instagramWrap h4, .instagramWrap h2, .instagramWrap p {
   margin: 3px 0;
   padding: 0 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 349, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .instagramWrap .instaPhoto {
   width: 100%;
   height: 300px;
   overflow: hidden;
   z-index: 100;
 }
-/* line 355, ../scss/style.scss */
+/* line 385, ../scss/style.scss */
 .instagramWrap .instaPhoto img {
   width: 100%;
   margin-top: -100px;
 }
-/* line 362, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .instagramWrap .instaContent h1 {
   font-size: 16px;
   line-height: 20px;
   margin-top: -20px;
 }
-/* line 367, ../scss/style.scss */
+/* line 397, ../scss/style.scss */
 .instagramWrap .instaContent p {
   font-size: 13px;
   line-height: 17px;
 }
 
-/* line 375, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
+.socialIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 1px #555;
+  top: 10px;
+  right: 10px;
+}
+/* line 417, ../scss/style.scss */
+.socialIcon svg {
+  margin-top: 6px;
+  width: 22px;
+  height: 22px;
+  margin-left: 2px;
+}
+
+/* line 425, ../scss/style.scss */
+.bird {
+  background: #212121;
+}
+
+/* line 430, ../scss/style.scss */
+.twitter svg {
+  margin-top: 7px;
+}
+
+/* line 436, ../scss/style.scss */
+.pinterest svg {
+  margin-left: 0px;
+}
+
+/* line 443, ../scss/style.scss */
+.youtube svg {
+  margin-left: 0px;
+}
+
+/* line 448, ../scss/style.scss */
+.socialInsta {
+  fill: #517fa4;
+}
+
+/* line 452, ../scss/style.scss */
+.socialTwitter {
+  fill: #00aced;
+}
+
+/* line 456, ../scss/style.scss */
+.socialPinterest {
+  fill: #cb2027;
+}
+
+/* line 460, ../scss/style.scss */
+.socialYoutube {
+  fill: #bb0000;
+}
+
+/* line 464, ../scss/style.scss */
 .vimeoWrap {
   width: 72%;
   min-width: 500px;
   max-width: 686px;
   background: black;
 }
-/* line 381, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 .vimeoWrap h1 {
   font-size: 30px;
   line-height: 36px;
@@ -386,7 +452,7 @@ body {
   text-shadow: 1px 1px 3px #000;
   margin-top: 90px;
 }
-/* line 392, ../scss/style.scss */
+/* line 481, ../scss/style.scss */
 .vimeoWrap h3 {
   color: white;
   font-size: 13px;
@@ -394,12 +460,12 @@ body {
   text-shadow: 1px 1px 3px #000;
   font-weight: 500;
 }
-/* line 401, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 .vimeoWrap a img {
   width: 80px;
 }
 
-/* line 407, ../scss/style.scss */
+/* line 496, ../scss/style.scss */
 .coastalVideo {
   background: url("http://images.arcteryx.com/campaign/definefeminine/S15WmnsVideoWinnerBG.jpg");
   background-size: cover;
