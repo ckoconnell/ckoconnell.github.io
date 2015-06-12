@@ -124,51 +124,115 @@ img:hover {
   width: 100%;
   height: 100%;
 }
-
+/* line 153, ../scss/style.scss */
+.featureWrap .featureSlide .slideContent {
+  position: relative;
+  text-align: left;
+}
 /* line 157, ../scss/style.scss */
+.featureWrap .featureSlide .slideContent h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 166, ../scss/style.scss */
+.featureWrap .featureSlide .slideContent h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 18px;
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 175, ../scss/style.scss */
+.featureWrap .featureSlide .slideContent a {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+/* line 187, ../scss/style.scss */
 .feature1 {
   background: url("../img/featureslidebg-3.jpg");
   background-size: cover;
   background-position: center bottom;
 }
+/* line 192, ../scss/style.scss */
+.feature1 .slideContent {
+  float: none;
+  margin-top: 200px;
+  text-align: center !important;
+}
 
-/* line 163, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .feature2 {
   background: url("../img/featureslidebg-2.jpg");
   background-size: cover;
   background-position: center top;
 }
+/* line 204, ../scss/style.scss */
+.feature2 .slideContent {
+  width: 390px;
+  float: right;
+  margin-top: 500px;
+  margin-right: 15%;
+  text-align: right !important;
+}
 
-/* line 169, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .feature3 {
   background: url("../img/featureslidebg-4.jpg");
   background-size: cover;
   background-position: left bottom;
 }
+/* line 218, ../scss/style.scss */
+.feature3 .slideContent {
+  width: 390px;
+  float: right;
+  margin-top: 500px;
+  margin-right: 15%;
+  text-align: right !important;
+}
 
-/* line 175, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 .feature4 {
   background: url("../img/featureslidebg.jpg");
   background-size: cover;
   background-position: right top;
 }
+/* line 232, ../scss/style.scss */
+.feature4 .slideContent {
+  width: 390px;
+  float: left;
+  margin-top: 500px;
+  margin-left: 15%;
+  text-align: right !important;
+}
+/* line 239, ../scss/style.scss */
+.feature4 .slideContent h1, .feature4 .slideContent h3, .feature4 .slideContent a {
+  color: teal !important;
+}
 
-/* line 183, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 .slick-dots {
   bottom: 20px !important;
   z-index: 100;
 }
-/* line 187, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .slick-dots .slick-active {
   color: pink;
 }
-/* line 190, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 .slick-dots .slick-active button {
   background: teal;
   color: teal;
 }
 
-/* line 199, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .socialLinkBar {
   width: 100%;
   height: 40px;
@@ -176,7 +240,7 @@ img:hover {
   background: black;
 }
 
-/* line 207, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .container {
   position: relative;
   display: block;
@@ -189,7 +253,7 @@ img:hover {
   vertical-align: top;
 }
 
-/* line 219, ../scss/style.scss */
+/* line 283, ../scss/style.scss */
 .postElement {
   position: relative;
   display: inline-block;
@@ -201,37 +265,37 @@ img:hover {
   vertical-align: top;
 }
 
-/* line 230, ../scss/style.scss */
+/* line 294, ../scss/style.scss */
 .blogPostWrap {
   width: 54%;
   min-width: 300px;
   max-width: 450px;
 }
-/* line 235, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 .blogPostWrap .blogImage {
   width: 100%;
   height: 230px;
   background: teal;
 }
-/* line 240, ../scss/style.scss */
+/* line 305, ../scss/style.scss */
 .blogPostWrap .blogImage img {
   width: 100%;
   height: 230px;
 }
-/* line 246, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .blogPostWrap h1, .blogPostWrap h3, .blogPostWrap p {
   margin: 2px 0;
   padding: 5px 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 253, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 .blogPostWrap h1 {
   font-size: 17px;
   text-transform: uppercase;
   margin-top: 5px;
 }
-/* line 258, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 .blogPostWrap h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -239,50 +303,50 @@ img:hover {
   color: #666;
   margin-top: -8px;
 }
-/* line 265, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 .blogPostWrap p {
   font-size: 13px;
   line-height: 17px;
 }
 
-/* line 272, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .tweetWrap {
   width: 18%;
   min-width: 250px;
   max-width: 250px;
 }
-/* line 277, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .tweetWrap blockquote {
   margin: 0;
   padding: 0;
 }
-/* line 282, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .tweetWrap h1, .tweetWrap h3, .tweetWrap h4, .tweetWrap h2, .tweetWrap p {
   margin: 3px 0;
   padding: 0 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 289, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .tweetWrap h1 {
   font-size: 15px;
   font-weight: 700;
   margin-top: 15px;
 }
-/* line 297, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .tweetWrap h2 {
   font-size: 15px;
   font-weight: 500;
   color: #666;
 }
-/* line 304, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 .tweetWrap h3 {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 300;
   color: #666;
 }
-/* line 311, ../scss/style.scss */
+/* line 377, ../scss/style.scss */
 .tweetWrap h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -290,93 +354,96 @@ img:hover {
   color: #666;
   margin-bottom: 10px;
 }
-/* line 318, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .tweetWrap p {
   font-size: 15px;
   margin: 15px 0;
   line-height: 17px;
 }
-/* line 324, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .tweetWrap .tweetSharing {
   padding-left: 15px;
   display: none;
 }
 
-/* line 330, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .tweetPhoto {
+  background-color: #00aced;
   width: 100%;
 }
-/* line 332, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 .tweetPhoto img {
   width: 100%;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 .tweetContent {
   height: 175px;
 }
 
-/* line 343, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 .pinterestWrap {
   width: 18%;
   min-width: 250px;
   max-width: 250px;
 }
-/* line 348, ../scss/style.scss */
+/* line 415, ../scss/style.scss */
 .pinterestWrap .pinterestPhoto {
   width: 100%;
   height: 200px;
   overflow: hidden;
+  background: #cb2027;
 }
-/* line 353, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .pinterestWrap .pinterestPhoto img {
   width: auto;
   height: 200px;
 }
-/* line 360, ../scss/style.scss */
+/* line 428, ../scss/style.scss */
 .pinterestWrap .pinterestContent p {
   font-size: 13px;
   padding: 10px 15px 0 15px;
 }
 
-/* line 367, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .instagramWrap {
   width: 54%;
   min-width: 300px;
   max-width: 450px;
 }
-/* line 372, ../scss/style.scss */
+/* line 440, ../scss/style.scss */
 .instagramWrap h1, .instagramWrap h3, .instagramWrap h4, .instagramWrap h2, .instagramWrap p {
   margin: 3px 0;
   padding: 0 15px;
   line-height: 1em;
   text-align: left;
 }
-/* line 379, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 .instagramWrap .instaPhoto {
   width: 100%;
   height: 300px;
   overflow: hidden;
   z-index: 100;
+  background-color: #517fa4;
 }
-/* line 385, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 .instagramWrap .instaPhoto img {
   width: 100%;
   margin-top: -100px;
 }
-/* line 392, ../scss/style.scss */
+/* line 461, ../scss/style.scss */
 .instagramWrap .instaContent h1 {
   font-size: 16px;
   line-height: 20px;
   margin-top: -20px;
 }
-/* line 397, ../scss/style.scss */
+/* line 466, ../scss/style.scss */
 .instagramWrap .instaContent p {
   font-size: 13px;
   line-height: 17px;
 }
 
-/* line 405, ../scss/style.scss */
+/* line 474, ../scss/style.scss */
 .socialIcon {
   width: 35px;
   height: 35px;
@@ -387,7 +454,7 @@ img:hover {
   top: 10px;
   right: 10px;
 }
-/* line 417, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 .socialIcon svg {
   margin-top: 6px;
   width: 22px;
@@ -395,54 +462,59 @@ img:hover {
   margin-left: 2px;
 }
 
-/* line 425, ../scss/style.scss */
+/* line 494, ../scss/style.scss */
 .bird {
   background: #212121;
 }
+/* line 496, ../scss/style.scss */
+.bird img {
+  width: 30px;
+  margin-top: 9px;
+}
 
-/* line 430, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 .twitter svg {
   margin-top: 7px;
 }
 
-/* line 436, ../scss/style.scss */
+/* line 509, ../scss/style.scss */
 .pinterest svg {
   margin-left: 0px;
 }
 
-/* line 443, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .youtube svg {
   margin-left: 0px;
 }
 
-/* line 448, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 .socialInsta {
   fill: #517fa4;
 }
 
-/* line 452, ../scss/style.scss */
+/* line 525, ../scss/style.scss */
 .socialTwitter {
   fill: #00aced;
 }
 
-/* line 456, ../scss/style.scss */
+/* line 529, ../scss/style.scss */
 .socialPinterest {
   fill: #cb2027;
 }
 
-/* line 460, ../scss/style.scss */
+/* line 533, ../scss/style.scss */
 .socialYoutube {
   fill: #bb0000;
 }
 
-/* line 464, ../scss/style.scss */
+/* line 537, ../scss/style.scss */
 .vimeoWrap {
   width: 72%;
   min-width: 500px;
   max-width: 686px;
   background: black;
 }
-/* line 470, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .vimeoWrap h1 {
   font-size: 30px;
   line-height: 36px;
@@ -452,7 +524,7 @@ img:hover {
   text-shadow: 1px 1px 3px #000;
   margin-top: 90px;
 }
-/* line 481, ../scss/style.scss */
+/* line 554, ../scss/style.scss */
 .vimeoWrap h3 {
   color: white;
   font-size: 13px;
@@ -460,12 +532,12 @@ img:hover {
   text-shadow: 1px 1px 3px #000;
   font-weight: 500;
 }
-/* line 490, ../scss/style.scss */
+/* line 563, ../scss/style.scss */
 .vimeoWrap a img {
   width: 80px;
 }
 
-/* line 496, ../scss/style.scss */
+/* line 569, ../scss/style.scss */
 .coastalVideo {
   background: url("http://images.arcteryx.com/campaign/definefeminine/S15WmnsVideoWinnerBG.jpg");
   background-size: cover;

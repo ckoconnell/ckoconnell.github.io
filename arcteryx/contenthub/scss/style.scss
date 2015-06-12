@@ -149,6 +149,36 @@ img:hover {
   .featureSlide {
     width: 100%;
     height: 100%;
+
+    .slideContent {
+      position: relative;
+      text-align: left;
+
+      h1 {
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 36px;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 18px;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+      }
+    }
   }
 }
 
@@ -158,24 +188,58 @@ img:hover {
   background: url('../img/featureslidebg-3.jpg');
   background-size: cover;
   background-position: center bottom;
+
+  .slideContent  {
+    float: none;
+    margin-top: 200px;
+    text-align: center !important;
+  }
 }
 
 .feature2 {
   background: url('../img/featureslidebg-2.jpg');
   background-size: cover;
   background-position: center top;
+
+  .slideContent  {
+    width: 390px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 15%;
+    text-align: right !important;
+  }
 }
 
 .feature3 {
   background: url('../img/featureslidebg-4.jpg');
   background-size: cover;
   background-position: left bottom;
+
+  .slideContent  {
+    width: 390px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 15%;
+    text-align: right !important;
+  }
 }
 
 .feature4 {
   background: url('../img/featureslidebg.jpg');
   background-size: cover;
   background-position: right top;
+
+  .slideContent  {
+    width: 390px;
+    float: left;
+    margin-top: 500px;
+    margin-left: 15%;
+    text-align: right !important;
+
+    h1, h3, a {
+      color: teal !important;
+    }
+  }
 }
 
 // Slick Overrides
@@ -232,6 +296,7 @@ img:hover {
   min-width: 300px;
   max-width: 450px;
 
+
   .blogImage {
     width: 100%;
     height: 230px;
@@ -273,6 +338,7 @@ img:hover {
   width: $widthSingle;
   min-width: 250px;
   max-width: 250px;
+
 
   blockquote {
     margin: 0;
@@ -328,6 +394,7 @@ img:hover {
 }
 
 .tweetPhoto {
+  background-color: $twitter;
   width: 100%;
   img {
     width: 100%;
@@ -349,6 +416,7 @@ img:hover {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    background: $pinterest;
 
     img {
       width: auto;
@@ -381,6 +449,7 @@ img:hover {
     height: 300px;
     overflow: hidden;
     z-index: 100;
+    background-color: $instagram;
 
     img {
       width: 100%;
@@ -424,6 +493,10 @@ img:hover {
 
 .bird {
   background: #212121;
+  img {
+    width: 30px;
+    margin-top: 9px;
+  }
 }
 
 .twitter {
