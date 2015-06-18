@@ -75,19 +75,7 @@ Main components
 	box-shadow: 0 1px 2px rgba(#000, .2);
 	z-index: index($main-elements, navigation); // see partials > _variables.scss
 
-
-	#cd-logo {
-		float: left;
-		margin: 13px 0 0 5%;
-
-		img {
-			display: block;
-		}
-	}
-
 	@include MQ(M) {
-
-
 		#cd-logo {
 			margin: 23px 0 0 5%;
 		}
@@ -143,11 +131,11 @@ Main components
 
 	h1, h2 {
 		position: absolute;
-		@include center;
-		width: 90%;
+		// @include center;
+		width: 60%;
 		max-width: 930px;
 
-		text-align: center;
+		text-align: right;
 		@include font-size(30px);
 		text-shadow: 0 1px 3px rgba(#000, .3);
 		color: $color-4;
