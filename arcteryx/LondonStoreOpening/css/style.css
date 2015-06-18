@@ -1,0 +1,244 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+/* line 14, ../scss/style.scss */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 23, ../scss/style.scss */
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: white;
+}
+
+/* line 32, ../scss/style.scss */
+body, html {
+  /* important */
+  height: 100%;
+}
+
+/* line 37, ../scss/style.scss */
+a {
+  color: #b4d7a8;
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+/* line 48, ../scss/style.scss */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+/* line 53, ../scss/style.scss */
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+/* line 66, ../scss/style.scss */
+.cd-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  overflow: hidden;
+  width: 100%;
+  background: #111 !important;
+  opacity: 0.8 !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+/* line 79, ../scss/style.scss */
+.cd-header #cd-logo {
+  float: left;
+  margin: 13px 0 0 5%;
+}
+/* line 83, ../scss/style.scss */
+.cd-header #cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  /* line 91, ../scss/style.scss */
+  .cd-header #cd-logo {
+    margin: 23px 0 0 5%;
+  }
+}
+
+/* line 97, ../scss/style.scss */
+.cd-main-nav {
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("../img/cd-icon-menu.svg") no-repeat center center;
+  background-size: 44px 44px;
+  cursor: pointer;
+}
+/* line 106, ../scss/style.scss */
+.cd-main-nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 117, ../scss/style.scss */
+.cd-main-nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #2f292a;
+  border-top: 1px solid #453c3d;
+  color: #8e7d7f;
+}
+
+/* line 129, ../scss/style.scss */
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 136, ../scss/style.scss */
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+/* line 144, ../scss/style.scss */
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  width: 90%;
+  max-width: 930px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+/* line 156, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/20150429_uk_34.jpg");
+}
+/* line 160, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/20150428_uk_239.jpg");
+}
+/* line 164, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/20150429_uk_70.jpg");
+}
+/* line 168, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/20150430_uk_55.jpg");
+}
+/* line 172, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("../img/20150501_uk_58.jpg");
+}
+/* line 176, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-6 {
+  background-image: url("../img/20150505_uk_61.jpg");
+}
+/* line 180, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url("../img/20150507_uk_90.jpg");
+}
+/* line 184, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-8 {
+  background-image: url("../img/20150508_uk_17.jpg");
+}
+/* line 188, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-9 {
+  background-image: url("../img/20150509_uk_41.jpg");
+}
+/* line 192, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-10 {
+  background-image: url("../img/20150509_uk_89.jpg");
+}
+/* line 196, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-11 {
+  background-image: url("../img/20150509_uk_145.jpg");
+}
+/* line 200, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-12 {
+  background-image: url("../img/20150509_uk_224.jpg");
+}
+@media only screen and (min-width: 768px) {
+  /* line 205, ../scss/style.scss */
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  /* line 136, ../scss/style.scss */
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  /* line 213, ../scss/style.scss */
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+}
+
+/* line 220, ../scss/style.scss */
+.cd-scrolling-bg {
+  position: relative;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+/* line 228, ../scss/style.scss */
+.cd-scrolling-bg.cd-color-1 {
+  background-color: #bbb;
+  color: #a6989a;
+}
+/* line 233, ../scss/style.scss */
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #222;
+  color: #3d3536;
+}
+/* line 238, ../scss/style.scss */
+.cd-scrolling-bg.cd-color-3 {
+  background-color: #ddd;
+  color: #3d3536;
+}
+@media only screen and (min-width: 768px) {
+  /* line 220, ../scss/style.scss */
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
