@@ -17,7 +17,6 @@ html * {
 }
 
 *, *:after, *:before {
-
 }
 
 body {
@@ -71,7 +70,7 @@ Main components
     overflow: hidden;
 	width: 100%;
 	background: #111 !important;
-  opacity: 0.8 !important;
+  	opacity: 0.8 !important;
 	box-shadow: 0 1px 2px rgba(#000, .2);
 	z-index: index($main-elements, navigation); // see partials > _variables.scss
 
@@ -80,6 +79,16 @@ Main components
 			margin: 23px 0 0 5%;
 		}
 	}
+
+  h1 {
+	color: white !important;
+	opacity: 1.0 !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: Avenir !important;
+	font-weight: 600;
+	padding: 12px 0 0 15px;
+  }
 }
 
 .cd-main-nav {
@@ -111,7 +120,6 @@ Main components
     border-top: 1px solid lighten($color-1, 3%);
     color: lighten($color-1, 30%);
   }
-
 }
 
 .cd-main-content {
