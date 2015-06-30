@@ -303,7 +303,7 @@ Main components
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 313, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
 }
@@ -318,7 +318,7 @@ Main components
   }
 }
 
-/* line 324, ../scss/style.scss */
+/* line 325, ../scss/style.scss */
 .bolder {
-  font-weight: 900;
+  font-weight: 800;
 }
