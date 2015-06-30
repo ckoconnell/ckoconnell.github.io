@@ -215,36 +215,44 @@ Main components
   color: #333;
   line-height: 1.5em;
 }
-/* line 227, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
+.cd-fixed-bg .withBG {
+  left: 5% !important;
+  width: 40%;
+  height: auto;
+  background: #222;
+  padding: 30px;
+}
+/* line 239, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-6 {
   background-image: url("../img/slide5.jpg");
 }
-/* line 231, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-7 {
   background-image: url("../img/comp3.jpg");
 }
-/* line 235, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-8 {
   background-image: url("../img/slide7.jpg");
 }
-/* line 239, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-9 {
   background-image: url("../img/comp4.jpg");
 }
-/* line 243, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-10 {
   background-image: url("../img/comp5.jpg");
 }
-/* line 247, ../scss/style.scss */
+/* line 259, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-11 {
   background-image: url("../img/20150509_uk_145.jpg");
 }
-/* line 251, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-12 {
   background-image: url("../img/20150509_uk_224.jpg");
 }
 @media only screen and (min-width: 768px) {
-  /* line 256, ../scss/style.scss */
+  /* line 268, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -254,34 +262,44 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  /* line 264, ../scss/style.scss */
+  /* line 276, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
     font-weight: 300;
   }
 }
 
-/* line 271, ../scss/style.scss */
+/* line 283, ../scss/style.scss */
 .bioWrap {
   text-align: center;
+  margin-bottom: 60px;
 }
-/* line 275, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
-  background: url("../img/ManleyBio.jpg") no-repeat;
-  background-position: center center;
-  background-size: 250px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
-/* line 286, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
+.bioWrap .manley {
+  background: url("../img/ManleyBio.jpg") no-repeat;
+  background-position: center center;
+  background-size: 250px;
+}
+/* line 301, ../scss/style.scss */
+.bioWrap .mina {
+  background: url("../img/MinaBio.jpg") no-repeat;
+  background-position: center center;
+  background-size: 250px;
+}
+/* line 307, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
 
-/* line 291, ../scss/style.scss */
+/* line 312, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 4em 0;
@@ -289,27 +307,28 @@ Main components
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 299, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 304, ../scss/style.scss */
+/* line 325, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #222;
   color: #3d3536;
+  background: url("../img/mapBW.jpg") no-repeat;
 }
-/* line 309, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 315, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
 }
 @media only screen and (min-width: 768px) {
-  /* line 291, ../scss/style.scss */
+  /* line 312, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -319,7 +338,7 @@ Main components
   }
 }
 
-/* line 326, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }

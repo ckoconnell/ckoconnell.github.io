@@ -224,6 +224,18 @@ Main components
     }
   }
 
+  .contentWrap {
+
+  }
+
+  .withBG {
+    left: 5% !important;
+    width: 40%;
+    height: auto;
+    background: #222;
+    padding: 30px;
+  }
+
   &.cd-bg-6 {
     background-image: url('../img/slide5.jpg');
   }
@@ -270,17 +282,26 @@ Main components
 
 .bioWrap {
   text-align: center;
-
+  margin-bottom: 60px;
 
   .bioPhoto {
     position: relative;
     margin: 0 auto;
-    background: url('../img/ManleyBio.jpg') no-repeat;
-    background-position: center center;
-    background-size: 250px;
     width: 200px;
     height: 200px;
     border-radius: 100px;
+  }
+
+  .manley {
+    background: url('../img/ManleyBio.jpg') no-repeat;
+    background-position: center center;
+    background-size: 250px;
+  }
+
+  .mina {
+    background: url('../img/MinaBio.jpg') no-repeat;
+    background-position: center center;
+    background-size: 250px;
   }
 
   .bioContent {
@@ -304,6 +325,7 @@ Main components
 	&.cd-color-2 {
 		background-color: #222;
 		color: $color-1;
+        background: url('../img/mapBW.jpg') no-repeat;
 	}
 
 	&.cd-color-3 {
