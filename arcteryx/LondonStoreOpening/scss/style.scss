@@ -137,6 +137,10 @@ Main components
 	background-position: center center;
 	z-index: index($bg-elements, fixed-bg); // see partials > _variables.scss
 
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      min-height: 60%;
+    }
+
 	h1, h2 {
 		position: absolute;
 		// @include center;
