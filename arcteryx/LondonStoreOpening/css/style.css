@@ -147,7 +147,7 @@ Main components
   font-family: 'Eczar', serif;
   text-align: right;
   font-style: italic;
-  color: #ccc;
+  color: #eee;
   position: absolute;
   display: inline-block;
   top: 15%;
@@ -215,7 +215,7 @@ Main components
   color: #333;
   line-height: 1.5em;
 }
-/* line 230, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .cd-fixed-bg .withBG {
   left: 5% !important;
   width: 40%;
@@ -223,36 +223,66 @@ Main components
   background: #222;
   padding: 30px;
 }
-/* line 238, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
+.cd-fixed-bg .metaWrap {
+  position: absolute;
+  bottom: 1%;
+  left: 3%;
+  width: 50px;
+  height: 80px;
+  background: url("../img/camera-icon.png") no-repeat;
+  background-size: 40px;
+}
+/* line 244, ../scss/style.scss */
+.cd-fixed-bg .metaWrap .metaInfo {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background: #ccc;
+  margin-top: -310px;
+  box-sizing: border-box;
+  padding: 15px;
+  opacity: .75;
+  display: none;
+}
+/* line 256, ../scss/style.scss */
+.cd-fixed-bg .metaWrap .metaInfo:after {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  color: teal;
+  content: '';
+}
+/* line 265, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-6 {
   background-image: url("../img/slide5.jpg");
 }
-/* line 243, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-7 {
   background-image: url("../img/comp3.jpg");
 }
-/* line 247, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-8 {
   background-image: url("../img/slide7.jpg");
 }
-/* line 251, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-9 {
   background-image: url("../img/comp4.jpg");
 }
-/* line 255, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-10 {
   background-image: url("../img/comp5.jpg");
 }
-/* line 259, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-11 {
   background-image: url("../img/20150509_uk_145.jpg");
 }
-/* line 263, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-12 {
   background-image: url("../img/20150509_uk_224.jpg");
 }
 @media only screen and (min-width: 768px) {
-  /* line 268, ../scss/style.scss */
+  /* line 295, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -262,19 +292,19 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  /* line 276, ../scss/style.scss */
+  /* line 303, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
     font-weight: 300;
   }
 }
 
-/* line 283, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .bioWrap {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 287, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
@@ -282,24 +312,24 @@ Main components
   height: 200px;
   border-radius: 100px;
 }
-/* line 295, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 .bioWrap .manley {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 301, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .bioWrap .mina {
   background: url("../img/MinaBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 307, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
 
-/* line 312, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 4em 0;
@@ -307,28 +337,28 @@ Main components
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 320, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 325, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #222;
   color: #3d3536;
   background: url("../img/mapBW.jpg") no-repeat;
 }
-/* line 331, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 337, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
 }
 @media only screen and (min-width: 768px) {
-  /* line 312, ../scss/style.scss */
+  /* line 339, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -338,7 +368,7 @@ Main components
   }
 }
 
-/* line 348, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }

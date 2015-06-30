@@ -155,7 +155,7 @@ Main components
       font-family: 'Eczar', serif;
       text-align: right;
       font-style: italic;
-      color: #ccc;
+      color: #eee;
       position: absolute;
       display: inline-block;
       top: 15%;
@@ -223,16 +223,43 @@ Main components
     }
   }
 
-  .contentWrap {
-
-  }
-
   .withBG {
     left: 5% !important;
     width: 40%;
     height: auto;
     background: #222;
     padding: 30px;
+  }
+
+  .metaWrap {
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+    width: 50px;
+    height: 80px;
+    background: url('../img/camera-icon.png') no-repeat;
+    background-size: 40px;
+
+
+    .metaInfo {
+      position: relative;
+      width: 200px;
+      height: 300px;
+      background: #ccc;
+      margin-top: -310px;
+      box-sizing: border-box;
+      padding: 15px;
+      opacity: .75;
+      display: none;
+    }
+
+    .metaInfo:after {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      color: teal;
+      content: '';
+    }
   }
 
   &.cd-bg-6 {
