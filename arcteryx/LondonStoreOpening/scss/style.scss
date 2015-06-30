@@ -66,7 +66,7 @@ Main components
 	position: fixed;
 	top: 0;
 	left: 0;
-    height: 40px;
+    height: 30px;
     overflow: hidden;
 	width: 100%;
 	background: #111 !important;
@@ -87,7 +87,7 @@ Main components
 	text-transform: uppercase;
 	font-family: Avenir !important;
 	font-weight: 600;
-	padding: 12px 0 0 15px;
+	padding: 8px 0 0 15px;
   }
 }
 
@@ -149,6 +149,24 @@ Main components
 		color: $color-4;
 	}
 
+    blockquote {
+      width: 50%;
+      max-width: 350px;
+      text-align: right;
+      font-style: italic;
+      color: #ccc;
+      // margin: 15% 5% 0 0;
+      position: absolute;
+      display: inline-block;
+      top: 15%;
+      right: 5%;
+      font-size: 30px;
+      font-family: Avenir;
+      font-weight: 500;
+      line-height: 32px;
+
+    }
+
 	&.cd-bg-1 {
 		background-image: url('../img/20150429_uk_34.jpg');
 	}
@@ -162,31 +180,67 @@ Main components
 	}
 
 	&.cd-bg-4 {
-		background-image: url('../img/20150430_uk_55.jpg');
+		background-image: url('../img/comp1.jpg');
+      .contentWrap {
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        color: #ccc;
+        width: 400px;
+
+        h2 {
+          width: 100%;
+          display: inline-block;
+          position: relative;
+          text-align: left;
+          margin-bottom: 30px;
+          font-size: 30px;
+          line-height: 1.3em;
+        }
+
+        p {
+          width: 100%;
+          display: inline-block;
+          position: relative;
+          line-height: 1.5em;
+        }
+      }
 	}
 
   &.cd-bg-5 {
-    background-image: url('../img/20150501_uk_58.jpg');
+    background-image: url('../img/comp2.jpg');
+    .contentWrap {
+      position: absolute;
+      top: 5%;
+      color: #ccc;
+      text-align: center;
+
+      p {
+        width: 400px;
+        color: #333;
+        line-height: 1.5em;
+      }
+    }
   }
 
   &.cd-bg-6 {
-    background-image: url('../img/20150505_uk_61.jpg');
+    background-image: url('../img/slide5.jpg');
   }
 
   &.cd-bg-7 {
-    background-image: url('../img/20150507_uk_90.jpg');
+    background-image: url('../img/comp3.jpg');
   }
 
   &.cd-bg-8 {
-    background-image: url('../img/20150508_uk_17.jpg');
+    background-image: url('../img/slide7.jpg');
   }
 
   &.cd-bg-9 {
-    background-image: url('../img/20150509_uk_41.jpg');
+    background-image: url('../img/comp4.jpg');
   }
 
   &.cd-bg-10 {
-    background-image: url('../img/20150509_uk_89.jpg');
+    background-image: url('../img/comp5.jpg');
   }
 
   &.cd-bg-11 {
@@ -213,12 +267,32 @@ Main components
 	}
 }
 
+.bioWrap {
+  text-align: center;
+
+
+  .bioPhoto {
+    position: relative;
+    margin: 0 auto;
+    background: url('../img/ManleyBio.jpg') no-repeat;
+    background-position: center center;
+    background-size: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+
+  .bioContent {
+    margin-top: 30px;
+  }
+}
+
 .cd-scrolling-bg {
 	position: relative;
 	// min-height: 100%;
 	padding: 4em 0;
 	line-height: 1.6;
-	box-shadow: 0 0 50px rgba(#000, .5);
+	box-shadow: 0 0 20px rgba(#000, .5);
 	z-index: index($bg-elements, scrolling-bg); // see partials > _variables.scss
 
 	&.cd-color-1 {
@@ -236,10 +310,17 @@ Main components
 		color: $color-1;
 	}
 
+    p {
+      color: #aaa;
+    }
 	@include MQ(M) {
-		padding: 8em 0;
+		padding: 6em 0;
 		@include font-size(20px);
 		line-height: 2;
 		font-weight: 300;
 	}
+}
+
+.bolder {
+  font-weight: 900;
 }
