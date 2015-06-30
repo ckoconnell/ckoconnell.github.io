@@ -151,19 +151,18 @@ Main components
 
     blockquote {
       width: 50%;
-      max-width: 350px;
+      max-width: 550px;
+      font-family: 'Eczar', serif;
       text-align: right;
       font-style: italic;
       color: #ccc;
-      // margin: 15% 5% 0 0;
       position: absolute;
       display: inline-block;
       top: 15%;
       right: 5%;
       font-size: 30px;
-      font-family: Avenir;
-      font-weight: 500;
-      line-height: 32px;
+      font-weight: 600;
+      line-height: 1.3em;
 
     }
 
