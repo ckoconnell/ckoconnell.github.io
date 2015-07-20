@@ -59,6 +59,11 @@ p {
     width: 100%;
     padding-left: 30px;
   }
+
+  @media screen and (max-width: 380px) {
+    width: 100%;
+    padding-left: 0px;
+  }
 }
 
 .headerWrap {
@@ -183,6 +188,10 @@ p {
   background-position: center bottom;
   opacity: .8;
 
+  @media screen and (max-width: 380px) {
+    margin-bottom: 200px;
+  }
+
   .contentWrap {
     width: 33%;
     min-width: 350px;
@@ -190,6 +199,13 @@ p {
     padding: 30px;
     background: black;
     margin-left: 0px;
+
+    @media screen and (max-width: 380px) {
+      width: 100%;
+      background: black;
+      margin-top: 110%;
+      margin-left: 0px;
+    }
 
     h1 {
       font-size: 20px;
@@ -227,6 +243,10 @@ p {
   height: 500px;
   opacity: .8;
 
+  @media screen and (max-width: 380px) {
+    margin-bottom: 200px;
+  }
+
   .contentWrap {
    width: 33%;
     min-width: 300px;
@@ -237,6 +257,13 @@ p {
     display: inline-block;
     margin-left: 0;
     opacity: 2 !important;
+
+    @media screen and (max-width: 380px) {
+      width: 100%;
+      background: black;
+      margin-top: 110%;
+      margin-left: 0px;
+    }
 
     h1 {
       font-size: 20px;
