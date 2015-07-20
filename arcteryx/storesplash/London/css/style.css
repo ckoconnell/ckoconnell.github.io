@@ -90,7 +90,7 @@ p {
     background-size: 130%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   /* line 78, ../scss/style.scss */
   .heroWrap {
     min-height: 250px;
