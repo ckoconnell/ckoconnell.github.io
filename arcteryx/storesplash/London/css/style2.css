@@ -188,19 +188,28 @@ p {
   background: black;
   margin-left: 30px;
 }
-/* line 184, ../scss/style2.scss */
+/* line 181, ../scss/style2.scss */
+.contestWrap .contentWrap h1 {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/* line 187, ../scss/style2.scss */
 .contestWrap .contentWrap .smaller {
   font-size: 14px;
   vertical-align: top;
 }
-/* line 189, ../scss/style2.scss */
+/* line 192, ../scss/style2.scss */
 .contestWrap .contentWrap p {
   margin-top: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
   line-height: 1.5em;
 }
-/* line 193, ../scss/style2.scss */
+/* line 198, ../scss/style2.scss */
 .contestWrap .contentWrap a {
   color: white;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 15px;
@@ -209,24 +218,24 @@ p {
   border: 1px solid white;
 }
 
-/* line 205, ../scss/style2.scss */
+/* line 211, ../scss/style2.scss */
 .manleyWrap {
   background: url("../img/manleyBG.jpg") no-repeat;
   background-size: cover;
-  background-position: right center;
+  background-position: 63% center;
   width: 45%;
   height: 500px;
   opacity: .8;
   display: inline-block;
 }
 @media screen and (max-width: 929px) {
-  /* line 205, ../scss/style2.scss */
+  /* line 211, ../scss/style2.scss */
   .manleyWrap {
     width: 100%;
     margin-top: 30px;
   }
 }
-/* line 220, ../scss/style2.scss */
+/* line 226, ../scss/style2.scss */
 .manleyWrap .contentWrap {
   width: 33%;
   min-width: 300px;
@@ -235,24 +244,34 @@ p {
   box-sizing: border-box;
   background: black;
   display: inline-block;
-  margin-left: 0;
+  margin-left: 30px;
   opacity: 2 !important;
+  margin-top: 0;
 }
-/* line 231, ../scss/style2.scss */
+/* line 238, ../scss/style2.scss */
 .manleyWrap .contentWrap h1 {
   font-size: 18px;
+  font-weight: 900;
   line-height: 1.5em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: right;
+  text-transform: uppercase;
 }
-/* line 239, ../scss/style2.scss */
+/* line 247, ../scss/style2.scss */
+.manleyWrap .contentWrap p {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 20px;
+}
+/* line 254, ../scss/style2.scss */
 .manleyWrap .contentWrap a {
   float: right;
   padding: 5px 12px 4px 12px;
   border: 1px solid white;
 }
 
-/* line 247, ../scss/style2.scss */
+/* line 262, ../scss/style2.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -263,12 +282,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 257, ../scss/style2.scss */
+/* line 272, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 33%;
   text-align: center;
 }
-/* line 262, ../scss/style2.scss */
+/* line 277, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -279,7 +298,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 273, ../scss/style2.scss */
+/* line 288, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
 }
