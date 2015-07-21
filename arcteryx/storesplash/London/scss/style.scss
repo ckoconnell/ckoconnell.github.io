@@ -257,12 +257,14 @@ p {
     display: inline-block;
     margin-left: 0;
     opacity: 2 !important;
+    text-align: right;
 
     @media screen and (max-width: 380px) {
       width: 100%;
       background: black;
       margin-top: 110%;
       margin-left: 0px;
+      text-align: left;
     }
 
     h1 {
@@ -270,7 +272,7 @@ p {
       font-weight: 900;
       line-height: 1.5em;
       margin-bottom: 10px;
-      text-align: right;
+      // text-align: right;
       text-transform: uppercase;
     }
 
@@ -278,7 +280,7 @@ p {
       font-size: 14px;
       line-height: 1.5em;
       margin-bottom: 20px;
-      text-align: right;
+      // text-align: right;
       text-transform: uppercase;
     }
 
@@ -287,6 +289,10 @@ p {
       padding: 5px 12px 4px 12px;
       border: 1px solid white;
       font-size: 14px;
+
+      @media screen and (max-width: 380px) {
+        float: left;
+      }
     }
   }
 }
