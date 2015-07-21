@@ -144,25 +144,51 @@ p {
   text-transform: uppercase;
 }
 /* line 140, ../scss/styleContest.scss */
+.contentWrap .rowWrap {
+  width: 100%;
+}
+/* line 144, ../scss/styleContest.scss */
+.contentWrap .socialLogos {
+  width: 30%;
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+/* line 151, ../scss/styleContest.scss */
+.contentWrap .socialLogos a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 157, ../scss/styleContest.scss */
+.contentWrap .socialLogos a img {
+  width: 35px;
+  height: 35px;
+}
+/* line 168, ../scss/styleContest.scss */
 .contentWrap .storeInfo {
+  width: 65%;
+  display: inline-block;
   margin: 45px 0;
 }
-/* line 142, ../scss/styleContest.scss */
+/* line 172, ../scss/styleContest.scss */
 .contentWrap .storeInfo h3, .contentWrap .storeInfo a {
   line-height: .8em;
 }
-/* line 148, ../scss/styleContest.scss */
+/* line 178, ../scss/styleContest.scss */
 .contentWrap .finePrint {
   margin: 60px 0px;
 }
-/* line 150, ../scss/styleContest.scss */
+/* line 180, ../scss/styleContest.scss */
 .contentWrap .finePrint p {
   font-size: 10px;
   line-height: 1.6em;
   text-align: center;
 }
 
-/* line 158, ../scss/styleContest.scss */
+/* line 188, ../scss/styleContest.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -172,13 +198,13 @@ p {
   height: 500px;
   opacity: 1;
 }
-/* line 167, ../scss/styleContest.scss */
+/* line 197, ../scss/styleContest.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
   min-width: 300px;
 }
-/* line 172, ../scss/styleContest.scss */
+/* line 202, ../scss/styleContest.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -189,7 +215,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 183, ../scss/styleContest.scss */
+/* line 213, ../scss/styleContest.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
 }
