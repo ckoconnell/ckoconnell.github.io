@@ -86,6 +86,10 @@ p {
   background: url('../img/deepwinterBlake.jpg');
   background-size: cover;
   background-position: center bottom;
+
+  @media screen and (max-width: 600px) {
+    height: 400px;
+  }
 }
 
 .contentWrap {
@@ -101,6 +105,7 @@ p {
 
   @media screen and (max-width: 600px) {
     padding: 30px;
+    margin-top: 400px;
   }
 
   h1, h3 {
@@ -147,6 +152,11 @@ p {
     display: inline-block;
     vertical-align: top;
     margin-top: 50px;
+
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      margin-top: 10px;
+    }
 
     a {
       width: 40px;
