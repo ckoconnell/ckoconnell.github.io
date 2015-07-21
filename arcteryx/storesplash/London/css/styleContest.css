@@ -106,56 +106,63 @@ p {
   padding: 60px;
   margin-top: 40%;
 }
-/* line 102, ../scss/styleContest.scss */
+@media screen and (max-width: 600px) {
+  /* line 91, ../scss/styleContest.scss */
+  .contentWrap {
+    padding: 30px;
+  }
+}
+/* line 106, ../scss/styleContest.scss */
 .contentWrap h1, .contentWrap h3 {
   text-transform: uppercase;
 }
-/* line 106, ../scss/styleContest.scss */
+/* line 110, ../scss/styleContest.scss */
 .contentWrap h1 {
   font-weight: 900;
   margin-bottom: 15px;
 }
-/* line 111, ../scss/styleContest.scss */
+/* line 115, ../scss/styleContest.scss */
 .contentWrap h3 {
   width: 80%;
   line-height: 1em;
   font-weight: 500;
   margin-bottom: 10px;
 }
-/* line 118, ../scss/styleContest.scss */
+/* line 122, ../scss/styleContest.scss */
 .contentWrap p {
   font-size: 14px;
   line-height: 1.7em;
 }
-/* line 124, ../scss/styleContest.scss */
+/* line 128, ../scss/styleContest.scss */
 .contentWrap ul li {
   width: 75%;
   margin-bottom: 10px;
+  font-size: 14px;
 }
-/* line 130, ../scss/styleContest.scss */
+/* line 135, ../scss/styleContest.scss */
 .contentWrap a {
   text-transform: uppercase;
 }
-/* line 135, ../scss/styleContest.scss */
+/* line 140, ../scss/styleContest.scss */
 .contentWrap .storeInfo {
   margin: 45px 0;
 }
-/* line 137, ../scss/styleContest.scss */
+/* line 142, ../scss/styleContest.scss */
 .contentWrap .storeInfo h3, .contentWrap .storeInfo a {
   line-height: .8em;
 }
-/* line 143, ../scss/styleContest.scss */
+/* line 148, ../scss/styleContest.scss */
 .contentWrap .finePrint {
   margin: 60px 0px;
 }
-/* line 145, ../scss/styleContest.scss */
+/* line 150, ../scss/styleContest.scss */
 .contentWrap .finePrint p {
   font-size: 10px;
   line-height: 1.6em;
   text-align: center;
 }
 
-/* line 153, ../scss/styleContest.scss */
+/* line 158, ../scss/styleContest.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -165,13 +172,13 @@ p {
   height: 500px;
   opacity: 1;
 }
-/* line 162, ../scss/styleContest.scss */
+/* line 167, ../scss/styleContest.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
   min-width: 300px;
 }
-/* line 167, ../scss/styleContest.scss */
+/* line 172, ../scss/styleContest.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -182,7 +189,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 178, ../scss/styleContest.scss */
+/* line 183, ../scss/styleContest.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
 }

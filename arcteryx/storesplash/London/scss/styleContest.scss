@@ -99,6 +99,10 @@ p {
   padding: 60px;
   margin-top: 40%;
 
+  @media screen and (max-width: 600px) {
+    padding: 30px;
+  }
+
   h1, h3 {
     text-transform: uppercase;
   }
@@ -124,6 +128,7 @@ p {
     li {
       width: 75%;
       margin-bottom: 10px;
+      font-size: 14px;
     }
   }
 
