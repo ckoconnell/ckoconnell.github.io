@@ -429,6 +429,11 @@ Main components
       font-weight: 600;
     }
 
+  .pullQuote {
+    font-style: italic;
+    font-weight: 500;
+  }
+
     p {
       color: #aaa;
     }
@@ -438,6 +443,12 @@ Main components
 		line-height: 2;
 		font-weight: 300;
 	}
+
+   h4 {
+     color: white;
+     text-align: center;
+     margin-bottom: 30px;
+   }
 }
 
 .bolder {

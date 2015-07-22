@@ -415,6 +415,11 @@ Main components
   font-weight: 600;
 }
 /* line 432, ../scss/style.scss */
+.cd-scrolling-bg .pullQuote {
+  font-style: italic;
+  font-weight: 500;
+}
+/* line 437, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
 }
@@ -428,8 +433,14 @@ Main components
     font-weight: 300;
   }
 }
+/* line 447, ../scss/style.scss */
+.cd-scrolling-bg h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-/* line 443, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
