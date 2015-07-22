@@ -93,6 +93,7 @@ Main components
 
 -------------------------------- */
 
+
 .cd-header {
 	position: fixed;
 	top: 0;
@@ -207,56 +208,97 @@ Main components
 	}
 
 	&.cd-bg-2 {
-		background-image: url('../img/20150428_uk_239.jpg');
+		background-image: url('../img/gritstone_hero.jpg');
 	}
 
 	&.cd-bg-3 {
-		background-image: url('../img/20150429_uk_70.jpg');
+		background-image: url('../img/gritstone_2.jpg');
 	}
 
 	&.cd-bg-4 {
-		background-image: url('../img/comp1a.jpg');
-      .contentWrap {
-        position: absolute;
-        top: 20%;
-        right: 10%;
-        color: #ccc;
-        width: 400px;
-
-        h2 {
-          width: 100%;
-          display: inline-block;
-          position: relative;
-          text-align: left;
-          margin-bottom: 30px;
-          font-size: 30px;
-          line-height: 1.3em;
-        }
-
-        p {
-          width: 100%;
-          display: inline-block;
-          position: relative;
-          line-height: 1.5em;
-        }
-      }
+		background-image: url('../img/gritstone_3.jpg');
 	}
 
-  &.cd-bg-5 {
-    background-image: url('../img/comp2.jpg');
-    .contentWrap {
-      position: absolute;
-      top: 5%;
-      color: #ccc;
-      text-align: center;
-
-      p {
-        width: 400px;
-        color: #333;
-        line-height: 1.5em;
-      }
+    &.cd-bg-5 {
+      background-image: url('../img/gritstone_hero2.jpg');
     }
+
+    &.cd-bg-6 {
+      background-image: url('../img/slate_hero.jpg');
+    }
+
+    &.cd-bg-7 {
+      background-image: url('../img/slate_2.jpg');
+    }
+
+    &.cd-bg-8 {
+      background-image: url('../img/slate_3.jpg');
+    }
+
+    &.cd-bg-9 {
+      background-image: url('../img/seacliff_hero.jpg');
+    }
+
+    &.cd-bg-10 {
+      background-image: url('../img/seacliff_2.jpg');
+    }
+
+    &.cd-bg-11 {
+      background-image: url('../img/seacliff_3.jpg');
+    }
+
+    &.cd-bg-12 {
+      background-image: url('../img/seacliff_hero2.jpg');
+    }
+
+    &.cd-bg-13 {
+      background-image: url('../img/rhyolite_hero.jpg');
+    }
+
+  &.cd-bg-14 {
+    background-image: url('../img/rhyolite_2.jpg');
   }
+
+  &.cd-bg-15 {
+    background-image: url('../img/rhyolite_3.jpg');
+  }
+
+  &.cd-bg-16 {
+    background-image: url('../img/rhyolite_4.jpg');
+  }
+
+  &.cd-bg-17 {
+    background-image: url('../img/rhyolite_hero2.jpg');
+  }
+
+  &.cd-bg-18 {
+    background-image: url('../img/sandstone_hero.jpg');
+  }
+
+  &.cd-bg-19 {
+    background-image: url('../img/sandstone_2.jpg');
+  }
+
+  &.cd-bg-20 {
+    background-image: url('../img/sandstone_3.jpg');
+  }
+
+  &.cd-bg-21 {
+    background-image: url('../img/sandstone_hero2.jpg');
+  }
+
+  &.cd-bg-22 {
+    background-image: url('../img/limestone_hero.jpg');
+  }
+
+  &.cd-bg-23 {
+    background-image: url('../img/limestone_2.jpg');
+  }
+
+  &.cd-bg-24 {
+    background-image: url('../img/limestone_3.jpg');
+  }
+
 
   .withBG {
     left: 5% !important;
@@ -312,34 +354,6 @@ Main components
     }
   }
 
-  &.cd-bg-6 {
-    background-image: url('../img/slide5.jpg');
-  }
-
-  // BG Comment
-  &.cd-bg-7 {
-    background-image: url('../img/comp3.jpg');
-  }
-
-  &.cd-bg-8 {
-    background-image: url('../img/slide7.jpg');
-  }
-
-  &.cd-bg-9 {
-    background-image: url('../img/comp4.jpg');
-  }
-
-  &.cd-bg-10 {
-    background-image: url('../img/comp5.jpg');
-  }
-
-  &.cd-bg-11 {
-    background-image: url('../img/20150509_uk_145.jpg');
-  }
-
-  &.cd-bg-12 {
-    background-image: url('../img/20150509_uk_224.jpg');
-  }
 
 	@include MQ(M) {
 		h1, h2 {
