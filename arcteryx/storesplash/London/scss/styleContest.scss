@@ -83,7 +83,7 @@ p {
 .headerWrap {
   width: 100%;
   height: 700px;
-  background: url('../img/deepwinterBlake.jpg');
+  background: url('../img/deepwinterHero.jpg');
   background-size: cover;
   background-position: center bottom;
 
@@ -140,6 +140,40 @@ p {
   a {
     text-transform: uppercase;
 
+  }
+
+  .howtoenter {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    ul {
+      list-style: none;
+      margin-left: -15px;
+      vertical-align: top;
+
+      li {
+        vertical-align: top;
+        font-weight: 500;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+
+        // Make these blocks
+
+        width: 40%;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-right: 50px;
+      }
+    }
+  }
+
+  .bolder {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .stepStyle {
+    text-transform: uppercase;
+    color: #aaa;
   }
 
   .rowWrap {
