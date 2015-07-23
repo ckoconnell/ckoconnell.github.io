@@ -347,7 +347,7 @@ p {
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
   text-align: center;
   border: 1px solid white;
@@ -357,4 +357,6 @@ p {
 /* line 325, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
+  line-height: 12px;
+  overflow: hidden;
 }
