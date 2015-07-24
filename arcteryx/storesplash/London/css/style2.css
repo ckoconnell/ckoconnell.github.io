@@ -87,7 +87,7 @@ p {
 @media screen and (max-width: 930px) {
   /* line 78, ../scss/style2.scss */
   .heroWrap {
-    background-size: 130%;
+    background-size: auto 110%;
   }
 }
 @media screen and (max-width: 500px) {
