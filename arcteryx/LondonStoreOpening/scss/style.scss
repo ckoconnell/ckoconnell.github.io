@@ -299,6 +299,9 @@ Main components
     background-image: url('../img/limestone_3.jpg');
   }
 
+  &.cd-bg-25 {
+    background-image: url('../img/gritstone_4.jpg');
+  }
 
   .withBG {
     left: 5% !important;
@@ -414,7 +417,7 @@ Main components
 	}
 
 	&.cd-color-2 {
-		background-color: #222;
+		background-color: #212121;
 		color: $color-1;
       // background: url('../img/mapBW.jpg') no-repeat;
 	}
@@ -435,7 +438,7 @@ Main components
 
   &.cd-color-5 {
     padding: 0 0 2em 0 !important;
-    background-color: #222;
+    background-color: #212121;
   }
 
   .heroImage {
@@ -513,6 +516,7 @@ Main components
     text-align: center;
     font-weight: 900;
     font-size: 1.3em;
+    font-style: italic;
     margin-bottom: 30px;
     text-shadow: 1px 1px 1px #000;
     text-transform: none !important;
