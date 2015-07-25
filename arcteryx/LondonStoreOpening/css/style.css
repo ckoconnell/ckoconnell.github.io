@@ -389,7 +389,7 @@ Main components
 /* line 403, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
-  padding: 4em 0;
+  padding: 3em 0 !important;
   line-height: 1.6;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -410,19 +410,68 @@ Main components
   color: #3d3536;
 }
 /* line 427, ../scss/style.scss */
-.cd-scrolling-bg .quoteWrap {
-  font-style: italic;
-  font-weight: 600;
+.cd-scrolling-bg.cd-color-4 {
+  background-color: #222;
+  color: #3d3536;
+  background: url("../img/20150429_uk_34.jpg") no-repeat;
+  background-size: 100% auto;
+  width: 100% !important;
+  height: 900px;
 }
-/* line 432, ../scss/style.scss */
+/* line 436, ../scss/style.scss */
+.cd-scrolling-bg.cd-color-5 {
+  padding: 0 0 2em 0 !important;
+  background-color: #222;
+}
+/* line 442, ../scss/style.scss */
+.cd-scrolling-bg .heroImage img {
+  width: 100%;
+  height: auto;
+}
+/* line 448, ../scss/style.scss */
+.cd-scrolling-bg .quoteAttr {
+  font-family: Georgia, sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 454, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
   font-weight: 500;
+  color: #fff !important;
+  position: relative;
+  font-size: 1.2em;
 }
-/* line 438, ../scss/style.scss */
+/* line 463, ../scss/style.scss */
+.cd-scrolling-bg .pullQuote:before {
+  content: '\201C';
+  font-size: 172px;
+  vertical-align: top;
+  line-height: 120px;
+  position: absolute;
+  color: #333;
+  top: 0%;
+  left: -15%;
+  font-family: Georgia, sans-serif !important;
+}
+/* line 475, ../scss/style.scss */
+.cd-scrolling-bg .pullQuote:after {
+  content: '\201D';
+  font-size: 172px;
+  vertical-align: top;
+  line-height: 120px;
+  position: absolute;
+  color: #333;
+  bottom: -20%;
+  right: -5%;
+  font-family: Georgia, sans-serif !important;
+}
+/* line 487, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
+  line-height: 1.9em;
+  font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
   /* line 403, ../scss/style.scss */
@@ -434,14 +483,40 @@ Main components
     font-weight: 300;
   }
 }
-/* line 448, ../scss/style.scss */
-.cd-scrolling-bg h4 {
+/* line 499, ../scss/style.scss */
+.cd-scrolling-bg h1 {
+  font-family: Georgia, sans-serif;
   color: white;
   text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-top: 45px;
+  text-shadow: 1px 1px 1px #000;
+}
+/* line 510, ../scss/style.scss */
+.cd-scrolling-bg h3 {
+  font-family: Georgia, sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.3em;
   margin-bottom: 30px;
+  text-shadow: 1px 1px 1px #000;
+  text-transform: none !important;
+}
+/* line 521, ../scss/style.scss */
+.cd-scrolling-bg h4 {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 45px;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  color: #bbb;
+  text-shadow: 1px 1px 1px #000;
 }
 
-/* line 455, ../scss/style.scss */
+/* line 533, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
