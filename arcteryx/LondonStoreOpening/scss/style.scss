@@ -384,6 +384,7 @@ Main components
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    margin-bottom: 30px;
   }
 
   .manley {
@@ -396,6 +397,12 @@ Main components
     background: url('../img/MinaBio.jpg') no-repeat;
     background-position: center center;
     background-size: 250px;
+  }
+
+  .katy {
+    background: url('../img/KatyBio.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 
   .bioContent {
