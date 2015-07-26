@@ -325,6 +325,9 @@ Main components
     }
   }
 
+  .showHide {
+    display: block !important;
+  }
 
   .metaWrap {
     position: absolute;
@@ -337,14 +340,17 @@ Main components
 
 
     .metaInfo {
-      position: relative;
+      position: absolute;
+      // display:block;
       width: 200px;
-      height: 300px;
+      height: auto;
       background: #ccc;
       margin-top: -310px;
       box-sizing: border-box;
       padding: 15px;
       opacity: .75;
+      min-height: 50px;
+      bottom: 90px;
       display: none;
     }
 
@@ -356,6 +362,7 @@ Main components
       content: '';
     }
   }
+
 
 
 	@include MQ(M) {
@@ -408,6 +415,27 @@ Main components
   .bioContent {
     margin-top: 30px;
   }
+
+  .bioLinks {
+
+    display: inline-block;
+    position: relative;
+
+    svg {
+      width: 40px;
+      height: 40px;
+      fill: white;
+      margin: 0 10px;
+    }
+  }
+}
+
+.socialInsta, .socialVimeo {
+  fill: #fff;
+}
+
+.socialVimeo {
+
 }
 
 .cd-scrolling-bg {
