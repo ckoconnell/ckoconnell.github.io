@@ -327,12 +327,12 @@ p {
   background-color: #222;
   height: 100%;
   width: 100%;
-  overflow: scroll;
+  // overflow: scroll;
   z-index: 100;
   color: #333;
 
   iframe {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -340,6 +340,8 @@ p {
     border: none;
     padding: 0;
     margin: 0;
+    overflow: scroll;
+
 
   }
 }
