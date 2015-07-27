@@ -635,6 +635,7 @@ Main components
     color: #fff !important;
     position: relative;
     font-size: 1.2em;
+    z-index: 120 !important;
   }
 
   .pullQuote:before {
@@ -647,6 +648,7 @@ Main components
     top: 0%;
     left: -15%;
     font-family: Georgia, sans-serif !important;
+    z-index: -1 !important;
   }
 
   .pullQuote:after {
@@ -659,6 +661,7 @@ Main components
     bottom: -20%;
     right: -5%;
     font-family: Georgia, sans-serif !important;
+    z-index: -1 !important;
   }
 
     p {

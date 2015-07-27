@@ -684,8 +684,9 @@ Main components
   color: #fff !important;
   position: relative;
   font-size: 1.2em;
+  z-index: 120 !important;
 }
-/* line 640, ../scss/style.scss */
+/* line 641, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -696,8 +697,9 @@ Main components
   top: 0%;
   left: -15%;
   font-family: Georgia, sans-serif !important;
+  z-index: -1 !important;
 }
-/* line 652, ../scss/style.scss */
+/* line 654, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -708,8 +710,9 @@ Main components
   bottom: -20%;
   right: -5%;
   font-family: Georgia, sans-serif !important;
+  z-index: -1 !important;
 }
-/* line 664, ../scss/style.scss */
+/* line 667, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
   line-height: 1.9em;
@@ -725,7 +728,7 @@ Main components
     font-weight: 300;
   }
 }
-/* line 676, ../scss/style.scss */
+/* line 679, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -736,7 +739,7 @@ Main components
   margin-top: 45px;
   text-shadow: 1px 1px 1px #000;
 }
-/* line 687, ../scss/style.scss */
+/* line 690, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -748,7 +751,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
   text-transform: none !important;
 }
-/* line 699, ../scss/style.scss */
+/* line 702, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -759,7 +762,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
 }
 
-/* line 711, ../scss/style.scss */
+/* line 714, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
