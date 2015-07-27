@@ -348,8 +348,9 @@ p {
   width: 100%;
   z-index: 100;
   color: #333;
+  transition: all 1s ease 1s;
 }
-/* line 334, ../scss/style2.scss */
+/* line 335, ../scss/style2.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -362,12 +363,12 @@ p {
   overflow: scroll;
 }
 
-/* line 349, ../scss/style2.scss */
+/* line 348, ../scss/style2.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 353, ../scss/style2.scss */
+/* line 352, ../scss/style2.scss */
 #fade {
   display: none;
   position: absolute;
@@ -382,7 +383,7 @@ p {
   z-index: 90;
 }
 
-/* line 367, ../scss/style2.scss */
+/* line 366, ../scss/style2.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -395,13 +396,13 @@ p {
   font-weight: 900;
 }
 
-/* line 380, ../scss/style2.scss */
+/* line 379, ../scss/style2.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 385, ../scss/style2.scss */
+/* line 384, ../scss/style2.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -412,12 +413,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 395, ../scss/style2.scss */
+/* line 394, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 399, ../scss/style2.scss */
+/* line 398, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -428,7 +429,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 410, ../scss/style2.scss */
+/* line 409, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
 }

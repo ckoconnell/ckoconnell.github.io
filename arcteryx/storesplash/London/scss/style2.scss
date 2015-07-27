@@ -330,6 +330,7 @@ p {
   // overflow: scroll;
   z-index: 100;
   color: #333;
+  transition: all 1s ease 1s;
 
   iframe {
     position: fixed;
@@ -341,8 +342,6 @@ p {
     padding: 0;
     margin: 0;
     overflow: scroll;
-
-
   }
 }
 
