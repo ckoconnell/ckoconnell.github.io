@@ -11,6 +11,8 @@ Primary style
 
 -------------------------------- */
 
+$imgbp: 1500px;
+
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -203,108 +205,187 @@ Main components
     }
 
 	&.cd-bg-1 {
-		background-image: url('../img/20150429_uk_34.jpg');
+
+      background-image: url('../img/20150429_uk_34.jpg');
       background-position: right center;
+
 	}
 
 	&.cd-bg-2 {
-		background-image: url('../img/gritstone_hero.jpg');
+      background-image: url('../img/sm/gritstone_hero.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/gritstone_hero.jpg');
+      }
 	}
 
 	&.cd-bg-3 {
-		background-image: url('../img/gritstone_2.jpg');
+      background-image: url('../img/sm/gritstone_2.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/gritstone_2.jpg');
+      }
+
 	}
 
 	&.cd-bg-4 {
-		background-image: url('../img/gritstone_3.jpg');
+		background-image: url('../img/sm/gritstone_3.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/gritstone_3.jpg');
+      }
+
 	}
 
     &.cd-bg-5 {
-      background-image: url('../img/gritstone_hero2.jpg');
+      background-image: url('../img/sm/gritstone_hero2.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/gritstone_hero2.jpg');
+      }
     }
 
     &.cd-bg-6 {
-      background-image: url('../img/slate_hero.jpg');
+      background-image: url('../img/sm/slate_hero.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/slate_hero.jpg');
+      }
     }
 
     &.cd-bg-7 {
-      background-image: url('../img/slate_2.jpg');
+      background-image: url('../img/sm/slate_2.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/slate_2.jpg');
+      }
     }
 
     &.cd-bg-8 {
-      background-image: url('../img/slate_3.jpg');
+      background-image: url('../img/sm/slate_3.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/slate_3.jpg');
+      }
     }
 
     &.cd-bg-9 {
-      background-image: url('../img/seacliff_hero.jpg');
+      background-image: url('../img/sm/seacliff_hero.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/seacliff_hero.jpg');
+      }
     }
 
     &.cd-bg-10 {
-      background-image: url('../img/seacliff_2.jpg');
+      background-image: url('../img/sm/seacliff_2.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/seacliff_2.jpg');
+      }
     }
 
     &.cd-bg-11 {
-      background-image: url('../img/seacliff_3.jpg');
+      background-image: url('../img/sm/seacliff_3.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/seacliff_3.jpg');
+      }
     }
 
     &.cd-bg-12 {
-      background-image: url('../img/seacliff_hero2.jpg');
+      background-image: url('../img/sm/seacliff_hero2.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/seacliff_hero2.jpg');
+      }
     }
 
     &.cd-bg-13 {
-      background-image: url('../img/rhyolite_hero.jpg');
+      background-image: url('../img/sm/rhyolite_hero.jpg');
+      @media screen and (min-width: $imgbp) {
+        background-image: url('../img/rhyolite_hero.jpg');
+      }
     }
 
   &.cd-bg-14 {
     background-image: url('../img/rhyolite_2.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/sm/rhyolite_2.jpg');
+    }
   }
 
   &.cd-bg-15 {
-    background-image: url('../img/rhyolite_3.jpg');
+    background-image: url('../img/sm/rhyolite_3.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/rhyolite_3.jpg');
+    }
   }
 
   &.cd-bg-16 {
-    background-image: url('../img/rhyolite_4.jpg');
+    background-image: url('../img/sm/rhyolite_4.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/rhyolite_4.jpg');
+    }
   }
 
   &.cd-bg-17 {
-    background-image: url('../img/rhyolite_hero2.jpg');
+    background-image: url('../img/sm/rhyolite_hero2.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/rhyolite_hero2.jpg');
+    }
   }
 
   &.cd-bg-18 {
-    background-image: url('../img/sandstone_hero.jpg');
+    background-image: url('../img/sm/sandstone_hero.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/sandstone_hero.jpg');
+    }
   }
 
   &.cd-bg-19 {
-    background-image: url('../img/sandstone_2.jpg');
+    background-image: url('../img/sm/sandstone_2.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/sandstone_2.jpg');
+    }
   }
 
   &.cd-bg-20 {
-    background-image: url('../img/sandstone_3.jpg');
+    background-image: url('../img/sm/sandstone_3.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/sandstone_3.jpg');
+    }
   }
 
   &.cd-bg-21 {
-    background-image: url('../img/sandstone_hero2.jpg');
+    background-image: url('../img/sm/sandstone_hero2.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/sandstone_hero2.jpg');
+    }
   }
 
   &.cd-bg-22 {
-    background-image: url('../img/limestone_hero.jpg');
+    background-image: url('../img/sm/limestone_hero.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/limestone_hero.jpg');
+    }
   }
 
   &.cd-bg-23 {
-    background-image: url('../img/limestone_2.jpg');
+    background-image: url('../img/sm/limestone_2.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/limestone_2.jpg');
+    }
   }
 
   &.cd-bg-24 {
-    background-image: url('../img/limestone_3.jpg');
+    background-image: url('../img/sm/limestone_3.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/limestone_3.jpg');
+    }
   }
 
   &.cd-bg-25 {
-    background-image: url('../img/gritstone_4.jpg');
+    background-image: url('../img/sm/gritstone_4.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/gritstone_4.jpg');
+    }
   }
 
   &.cd-bg-26 {
-    background-image: url('../img/gritstone_5.jpg');
+    background-image: url('../img/sm/gritstone_5.jpg');
+    @media screen and (min-width: $imgbp) {
+      background-image: url('../img/gritstone_5.jpg');
+    }
   }
 
 
