@@ -547,21 +547,26 @@ Main components
   font-family: Avenir, sans-serif;
   font-weight: 900;
   text-align: center;
-  color: #bbb;
+  color: white;
   display: inline-block;
   position: relative;
   text-transform: uppercase;
   font-size: 14px;
   border: 1px solid white;
-  padding: 5px 10px;
+  padding: 3px 10px;
 }
 
-/* line 508, ../scss/style.scss */
+/* line 506, ../scss/style.scss */
+.centered {
+  text-align: center !important;
+}
+
+/* line 510, ../scss/style.scss */
 .bioWrap {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 512, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
@@ -570,34 +575,34 @@ Main components
   border-radius: 100px;
   margin-bottom: 30px;
 }
-/* line 521, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 .bioWrap .manley {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 527, ../scss/style.scss */
+/* line 529, ../scss/style.scss */
 .bioWrap .mina {
   background: url("../img/MinaBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 533, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 .bioWrap .katy {
   background: url("../img/KatyBio.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 539, ../scss/style.scss */
+/* line 541, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
-/* line 543, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 .bioWrap .bioLinks {
   display: inline-block;
   position: relative;
 }
-/* line 548, ../scss/style.scss */
+/* line 550, ../scss/style.scss */
 .bioWrap .bioLinks svg {
   width: 40px;
   height: 40px;
@@ -605,12 +610,12 @@ Main components
   margin: 0 10px;
 }
 
-/* line 557, ../scss/style.scss */
+/* line 559, ../scss/style.scss */
 .socialInsta, .socialVimeo {
   fill: #fff;
 }
 
-/* line 565, ../scss/style.scss */
+/* line 567, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 3em 0 !important;
@@ -618,22 +623,22 @@ Main components
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 573, ../scss/style.scss */
+/* line 575, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 578, ../scss/style.scss */
+/* line 580, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #212121;
   color: #3d3536;
 }
-/* line 584, ../scss/style.scss */
+/* line 586, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 589, ../scss/style.scss */
+/* line 591, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-4 {
   background-color: #222;
   color: #3d3536;
@@ -642,23 +647,23 @@ Main components
   width: 100% !important;
   height: 900px;
 }
-/* line 598, ../scss/style.scss */
+/* line 600, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-5 {
   padding: 0 0 2em 0 !important;
   background-color: #212121;
 }
-/* line 604, ../scss/style.scss */
+/* line 606, ../scss/style.scss */
 .cd-scrolling-bg .heroImage img {
   width: 100%;
   height: auto;
 }
-/* line 610, ../scss/style.scss */
+/* line 612, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 616, ../scss/style.scss */
+/* line 618, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -667,7 +672,7 @@ Main components
   position: relative;
   font-size: 1.2em;
 }
-/* line 625, ../scss/style.scss */
+/* line 627, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -679,7 +684,7 @@ Main components
   left: -15%;
   font-family: Georgia, sans-serif !important;
 }
-/* line 637, ../scss/style.scss */
+/* line 639, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -691,14 +696,14 @@ Main components
   right: -5%;
   font-family: Georgia, sans-serif !important;
 }
-/* line 649, ../scss/style.scss */
+/* line 651, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
   line-height: 1.9em;
   font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
-  /* line 565, ../scss/style.scss */
+  /* line 567, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -707,7 +712,7 @@ Main components
     font-weight: 300;
   }
 }
-/* line 661, ../scss/style.scss */
+/* line 663, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -718,7 +723,7 @@ Main components
   margin-top: 45px;
   text-shadow: 1px 1px 1px #000;
 }
-/* line 672, ../scss/style.scss */
+/* line 674, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -730,7 +735,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
   text-transform: none !important;
 }
-/* line 684, ../scss/style.scss */
+/* line 686, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -741,7 +746,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
 }
 
-/* line 696, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
