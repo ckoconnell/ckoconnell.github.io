@@ -444,7 +444,15 @@ Main components
     background-image: url("../img/gritstone_5.jpg");
   }
 }
-/* line 392, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-27 {
+  background-image: url("../img/bioHeroMina.jpg");
+}
+/* line 395, ../scss/style.scss */
+.cd-fixed-bg.cd-bg-28 {
+  background-image: url("../img/bioHeroKaty.jpg");
+}
+/* line 400, ../scss/style.scss */
 .cd-fixed-bg .withBG {
   left: 5% !important;
   width: 40%;
@@ -452,26 +460,26 @@ Main components
   background: #222;
   padding: 30px;
 }
-/* line 399, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 .cd-fixed-bg .withBG p {
   margin-bottom: 15px;
   line-height: 2em;
   font-size: 20px;
   font-weight: 100;
 }
-/* line 406, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 .cd-fixed-bg .withBG blockquote {
   width: 100%;
   height: 100%;
   position: relative;
   display: block;
 }
-/* line 414, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 .cd-fixed-bg .showHide {
   left: 0px !important;
   transition: left 1s;
 }
-/* line 420, ../scss/style.scss */
+/* line 428, ../scss/style.scss */
 .cd-fixed-bg .metaWrap {
   position: absolute;
   bottom: 1%;
@@ -482,18 +490,18 @@ Main components
   background-size: 40px;
   cursor: pointer;
 }
-/* line 430, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .cd-fixed-bg .metaWrap svg {
   width: 20px;
   height: 20px;
 }
-/* line 434, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .land {
   fill: #fff;
   width: 50px;
   height: 50px;
 }
-/* line 440, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo {
   position: absolute;
   display: block;
@@ -510,13 +518,13 @@ Main components
   left: -350px;
   transition: all 1s;
 }
-/* line 457, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo h3 {
   font-size: 13px;
   font-weight: 900;
   line-height: 15px;
 }
-/* line 465, ../scss/style.scss */
+/* line 473, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo:after {
   position: absolute;
   width: 15px;
@@ -525,7 +533,7 @@ Main components
   content: '';
 }
 @media only screen and (min-width: 768px) {
-  /* line 477, ../scss/style.scss */
+  /* line 485, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -535,14 +543,14 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  /* line 485, ../scss/style.scss */
+  /* line 493, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
     font-weight: 300;
   }
 }
 
-/* line 493, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 .topCTA {
   font-family: Avenir, sans-serif;
   font-weight: 900;
@@ -556,17 +564,17 @@ Main components
   padding: 3px 10px;
 }
 
-/* line 506, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .centered {
   text-align: center !important;
 }
 
-/* line 510, ../scss/style.scss */
+/* line 518, ../scss/style.scss */
 .bioWrap {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 514, ../scss/style.scss */
+/* line 522, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
@@ -575,34 +583,34 @@ Main components
   border-radius: 100px;
   margin-bottom: 30px;
 }
-/* line 523, ../scss/style.scss */
+/* line 531, ../scss/style.scss */
 .bioWrap .manley {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 529, ../scss/style.scss */
+/* line 537, ../scss/style.scss */
 .bioWrap .mina {
   background: url("../img/MinaBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 535, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .bioWrap .katy {
   background: url("../img/KatyBio.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 541, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
-/* line 545, ../scss/style.scss */
+/* line 553, ../scss/style.scss */
 .bioWrap .bioLinks {
   display: inline-block;
   position: relative;
 }
-/* line 550, ../scss/style.scss */
+/* line 558, ../scss/style.scss */
 .bioWrap .bioLinks svg {
   width: 40px;
   height: 40px;
@@ -610,12 +618,12 @@ Main components
   margin: 0 10px;
 }
 
-/* line 559, ../scss/style.scss */
+/* line 567, ../scss/style.scss */
 .socialInsta, .socialVimeo {
   fill: #fff;
 }
 
-/* line 567, ../scss/style.scss */
+/* line 575, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 3em 0 !important;
@@ -623,22 +631,22 @@ Main components
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 575, ../scss/style.scss */
+/* line 583, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 580, ../scss/style.scss */
+/* line 588, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #212121;
   color: #3d3536;
 }
-/* line 586, ../scss/style.scss */
+/* line 594, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 591, ../scss/style.scss */
+/* line 599, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-4 {
   background-color: #222;
   color: #3d3536;
@@ -647,23 +655,28 @@ Main components
   width: 100% !important;
   height: 900px;
 }
-/* line 600, ../scss/style.scss */
+/* line 608, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-5 {
   padding: 0 0 2em 0 !important;
   background-color: #212121;
 }
-/* line 606, ../scss/style.scss */
+/* line 613, ../scss/style.scss */
+.cd-scrolling-bg.cd-color-9 {
+  padding: 2em 0 2em 0 !important;
+  background-color: #111;
+}
+/* line 619, ../scss/style.scss */
 .cd-scrolling-bg .heroImage img {
   width: 100%;
   height: auto;
 }
-/* line 612, ../scss/style.scss */
+/* line 625, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 618, ../scss/style.scss */
+/* line 631, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -672,7 +685,7 @@ Main components
   position: relative;
   font-size: 1.2em;
 }
-/* line 627, ../scss/style.scss */
+/* line 640, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -684,7 +697,7 @@ Main components
   left: -15%;
   font-family: Georgia, sans-serif !important;
 }
-/* line 639, ../scss/style.scss */
+/* line 652, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -696,14 +709,14 @@ Main components
   right: -5%;
   font-family: Georgia, sans-serif !important;
 }
-/* line 651, ../scss/style.scss */
+/* line 664, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #aaa;
   line-height: 1.9em;
   font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
-  /* line 567, ../scss/style.scss */
+  /* line 575, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -712,7 +725,7 @@ Main components
     font-weight: 300;
   }
 }
-/* line 663, ../scss/style.scss */
+/* line 676, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -723,7 +736,7 @@ Main components
   margin-top: 45px;
   text-shadow: 1px 1px 1px #000;
 }
-/* line 674, ../scss/style.scss */
+/* line 687, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   font-family: Georgia, sans-serif;
   color: white;
@@ -735,7 +748,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
   text-transform: none !important;
 }
-/* line 686, ../scss/style.scss */
+/* line 699, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -746,7 +759,7 @@ Main components
   text-shadow: 1px 1px 1px #000;
 }
 
-/* line 698, ../scss/style.scss */
+/* line 711, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
