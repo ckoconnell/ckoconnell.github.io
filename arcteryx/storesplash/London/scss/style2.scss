@@ -262,7 +262,22 @@ p {
       padding: 5px 12px 4px 12px;
       border: 1px solid white;
     }
+
+    .noborder {
+      border: none !important;
+      padding: 0 !important;
+      text-transform: none;
+      float: none !important;
+      margin-top: 0 !important;
+    }
   }
+}
+
+.finePrint {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 50px;
+  color: #ddd;
 }
 
 .manleyWrap {
@@ -306,9 +321,11 @@ p {
     h1 {
       font-size: 18px;
       font-weight: 900;
-      line-height: 1.5em;
+      line-height: 1.2em;
       margin-bottom: 10px;
       text-transform: uppercase;
+      padding-left: 50px;
+      box-sizing: border-box;
     }
 
     p {

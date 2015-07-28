@@ -281,8 +281,24 @@ p {
   padding: 5px 12px 4px 12px;
   border: 1px solid white;
 }
+/* line 266, ../scss/style2.scss */
+.contestWrap .contentWrap .noborder {
+  border: none !important;
+  padding: 0 !important;
+  text-transform: none;
+  float: none !important;
+  margin-top: 0 !important;
+}
 
-/* line 268, ../scss/style2.scss */
+/* line 276, ../scss/style2.scss */
+.finePrint {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 50px;
+  color: #ddd;
+}
+
+/* line 283, ../scss/style2.scss */
 .manleyWrap {
   background: url("../img/heroSm.jpg") no-repeat;
   background-size: cover;
@@ -292,21 +308,21 @@ p {
   display: inline-block;
 }
 @media screen and (max-width: 929px) {
-  /* line 268, ../scss/style2.scss */
+  /* line 283, ../scss/style2.scss */
   .manleyWrap {
     width: 100%;
     margin-top: 30px;
   }
 }
 @media screen and (max-width: 575px) {
-  /* line 268, ../scss/style2.scss */
+  /* line 283, ../scss/style2.scss */
   .manleyWrap {
     height: auto;
     background-size: auto 400px;
     background-position: right top;
   }
 }
-/* line 289, ../scss/style2.scss */
+/* line 304, ../scss/style2.scss */
 .manleyWrap .contentWrap {
   width: 40%;
   min-width: 300px;
@@ -319,27 +335,29 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 575px) {
-  /* line 289, ../scss/style2.scss */
+  /* line 304, ../scss/style2.scss */
   .manleyWrap .contentWrap {
     width: 100%;
     margin-top: 400px;
     text-align: left;
   }
 }
-/* line 306, ../scss/style2.scss */
+/* line 321, ../scss/style2.scss */
 .manleyWrap .contentWrap h1 {
   font-size: 18px;
   font-weight: 900;
-  line-height: 1.5em;
+  line-height: 1.2em;
   margin-bottom: 10px;
   text-transform: uppercase;
+  padding-left: 50px;
+  box-sizing: border-box;
 }
-/* line 314, ../scss/style2.scss */
+/* line 331, ../scss/style2.scss */
 .manleyWrap .contentWrap p {
   font-size: 14px;
   margin-bottom: 20px;
 }
-/* line 320, ../scss/style2.scss */
+/* line 337, ../scss/style2.scss */
 .manleyWrap .contentWrap a {
   float: right;
   font-size: 13px;
@@ -347,12 +365,12 @@ p {
   border: 1px solid white;
   text-transform: uppercase;
 }
-/* line 331, ../scss/style2.scss */
+/* line 348, ../scss/style2.scss */
 .manleyWrap .contentWrap .buttonWrap {
   text-decoration: none;
 }
 
-/* line 337, ../scss/style2.scss */
+/* line 354, ../scss/style2.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -367,7 +385,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 353, ../scss/style2.scss */
+/* line 370, ../scss/style2.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -380,12 +398,12 @@ p {
   overflow: scroll;
 }
 
-/* line 366, ../scss/style2.scss */
+/* line 383, ../scss/style2.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 370, ../scss/style2.scss */
+/* line 387, ../scss/style2.scss */
 #fade {
   display: none;
   position: absolute;
@@ -400,7 +418,7 @@ p {
   z-index: 90;
 }
 
-/* line 384, ../scss/style2.scss */
+/* line 401, ../scss/style2.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -413,13 +431,13 @@ p {
   font-weight: 900;
 }
 
-/* line 397, ../scss/style2.scss */
+/* line 414, ../scss/style2.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 402, ../scss/style2.scss */
+/* line 419, ../scss/style2.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -429,12 +447,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 411, ../scss/style2.scss */
+/* line 428, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 415, ../scss/style2.scss */
+/* line 432, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -445,7 +463,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 426, ../scss/style2.scss */
+/* line 443, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
