@@ -55,10 +55,10 @@ a {
   font-size: 13px;
   color: white;
   border: 1px solid white;
-  padding: 4px 12px;
+  padding: 5px 12px 3px;
 }
 
-/* line 58, ../scss/blogstyle.scss */
+/* line 57, ../scss/blogstyle.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -73,7 +73,7 @@ a {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 74, ../scss/blogstyle.scss */
+/* line 73, ../scss/blogstyle.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -86,12 +86,12 @@ a {
   overflow: scroll;
 }
 
-/* line 87, ../scss/blogstyle.scss */
+/* line 86, ../scss/blogstyle.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 91, ../scss/blogstyle.scss */
+/* line 90, ../scss/blogstyle.scss */
 #fade {
   display: none;
   position: absolute;
@@ -106,7 +106,7 @@ a {
   z-index: 90;
 }
 
-/* line 105, ../scss/blogstyle.scss */
+/* line 104, ../scss/blogstyle.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -119,7 +119,7 @@ a {
   font-weight: 900;
 }
 
-/* line 118, ../scss/blogstyle.scss */
+/* line 117, ../scss/blogstyle.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
