@@ -141,7 +141,6 @@ Main components
     width: 100%;
 
     &.is-visible {
-
     }
   }
 
@@ -157,7 +156,6 @@ Main components
 }
 
 .cd-main-content {
-	/* you need to assign a min-height to the main content so that the children can inherit it*/
 	height: 100%;
 	position: relative;
 	z-index: index($main-elements, main-content); // see partials > _variables.scss
@@ -387,7 +385,6 @@ Main components
     background-image: url('../img/bioHeroKaty.jpg');
   }
 
-
   .withBG {
     left: 5% !important;
     width: 40%;
@@ -411,7 +408,6 @@ Main components
   }
 
   .showHide {
-   // display: block !important;
     left: 0px !important;
     transition: left 1s;
   }
@@ -430,6 +426,7 @@ Main components
       width: 20px;
       height: 20px;
     }
+
     .land {
       fill: #fff;
       width: 50px;
@@ -659,6 +656,7 @@ Main components
       line-height: 1.9em;
       font-weight: 500;
     }
+
 	@include MQ(M) {
 		padding: 6em 0;
 		@include font-size(20px);
@@ -690,14 +688,13 @@ Main components
   }
 
    h4 {
-    font-size: 0.8em;
+     font-size: 0.8em;
      text-align: center;
      margin-bottom: 45px;
      font-family: Georgia, sans-serif;
      font-style: italic;
      color: #bbb;
      text-shadow: 1px 1px 1px #000;
-
    }
 }
 
