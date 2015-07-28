@@ -5,72 +5,75 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #000;
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir LT W01 55 Roman', sans-serif;
   color: white;
 }
 
-/* line 19, ../scss/style2.scss */
+/* line 20, ../scss/style2.scss */
 a {
   color: white;
   text-decoration: none;
 }
 
-/* line 24, ../scss/style2.scss */
+/* line 25, ../scss/style2.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 28, ../scss/style2.scss */
+/* line 29, ../scss/style2.scss */
 h1, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* line 33, ../scss/style2.scss */
+/* line 34, ../scss/style2.scss */
 h1 {
   font-weight: 300;
   line-height: 1em;
+  font-family: 'Avenir LT W01 85 Heavy', sans-serif;
 }
 
-/* line 38, ../scss/style2.scss */
+/* line 40, ../scss/style2.scss */
 h3 {
   font-weight: 100;
   line-height: 1em;
+  font-family: 'Avenir LT W01 85 Heavy', sans-serif;
 }
 
-/* line 43, ../scss/style2.scss */
+/* line 46, ../scss/style2.scss */
 p {
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.3em;
+  font-family: 'Avenir LT W01 55 Roman', sans-serif;
 }
 
-/* line 48, ../scss/style2.scss */
+/* line 52, ../scss/style2.scss */
 .highlight {
   color: #ed1d24;
 }
 
-/* line 53, ../scss/style2.scss */
+/* line 57, ../scss/style2.scss */
 .contentGrid {
   position: relative;
   width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 945px) {
-  /* line 53, ../scss/style2.scss */
+  /* line 57, ../scss/style2.scss */
   .contentGrid {
     width: 100%;
     padding-left: 30px;
   }
 }
 
-/* line 64, ../scss/style2.scss */
+/* line 68, ../scss/style2.scss */
 .headerWrap {
   position: absolute;
   width: 100%;
   z-index: 100;
   top: 0;
 }
-/* line 70, ../scss/style2.scss */
+/* line 74, ../scss/style2.scss */
 .headerWrap .logoWrap {
   width: 150px;
   height: 200px;
@@ -78,32 +81,32 @@ p {
   background-size: 150px;
 }
 
-/* line 78, ../scss/style2.scss */
+/* line 82, ../scss/style2.scss */
 .heroWrap {
   background: url("../img/bgLondon.jpg") no-repeat;
   background-size: cover;
   min-height: 350px;
 }
 @media screen and (max-width: 930px) {
-  /* line 78, ../scss/style2.scss */
+  /* line 82, ../scss/style2.scss */
   .heroWrap {
     background-size: auto 110%;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 78, ../scss/style2.scss */
+  /* line 82, ../scss/style2.scss */
   .heroWrap {
     min-height: 250px;
     background-size: cover !important;
   }
 }
 
-/* line 95, ../scss/style2.scss */
+/* line 99, ../scss/style2.scss */
 .heroContent {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 99, ../scss/style2.scss */
+/* line 103, ../scss/style2.scss */
 .heroContent h1 {
   font-size: 2.5em !important;
   line-height: 1em !important;
@@ -111,17 +114,17 @@ p {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-/* line 107, ../scss/style2.scss */
+/* line 111, ../scss/style2.scss */
 .heroContent h3 {
   font-weight: 600;
   line-height: 1.4em;
 }
 
-/* line 113, ../scss/style2.scss */
+/* line 117, ../scss/style2.scss */
 .mainWrap {
   margin-bottom: 60px;
 }
-/* line 116, ../scss/style2.scss */
+/* line 120, ../scss/style2.scss */
 .mainWrap .colWrap {
   width: 44%;
   box-sizing: border-box;
@@ -130,45 +133,53 @@ p {
   vertical-align: top;
 }
 @media screen and (max-width: 930px) {
-  /* line 116, ../scss/style2.scss */
+  /* line 120, ../scss/style2.scss */
   .mainWrap .colWrap {
     width: 46%;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 116, ../scss/style2.scss */
+  /* line 120, ../scss/style2.scss */
   .mainWrap .colWrap {
     width: 90%;
   }
 }
-/* line 134, ../scss/style2.scss */
+/* line 138, ../scss/style2.scss */
 .mainWrap h1 {
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 139, ../scss/style2.scss */
+/* line 143, ../scss/style2.scss */
 .mainWrap h3 {
   font-size: 1em;
   font-weight: 100 !important;
   margin-bottom: 10px;
   line-height: 1.3em;
 }
-/* line 146, ../scss/style2.scss */
+/* line 150, ../scss/style2.scss */
+.mainWrap p {
+  font-weight: 300 !important;
+}
+/* line 154, ../scss/style2.scss */
 .mainWrap ul {
   margin-bottom: 30px;
 }
-/* line 149, ../scss/style2.scss */
+/* line 157, ../scss/style2.scss */
 .mainWrap ul li {
   list-style: square;
   width: 70%;
   line-height: 1.5em;
   margin-bottom: 5px;
+  font-size: 15px;
 }
-/* line 157, ../scss/style2.scss */
+/* line 166, ../scss/style2.scss */
 .mainWrap a {
   display: block;
+  font-weight: 100 !important;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-/* line 161, ../scss/style2.scss */
+/* line 173, ../scss/style2.scss */
 .mainWrap .mapWrap {
   display: inline-block;
   position: relative;
@@ -179,20 +190,20 @@ p {
   background-position: center center;
 }
 
-/* line 172, ../scss/style2.scss */
+/* line 184, ../scss/style2.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 172, ../scss/style2.scss */
+  /* line 184, ../scss/style2.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 182, ../scss/style2.scss */
+/* line 194, ../scss/style2.scss */
 .contestWrap {
   vertical-align: top;
   width: 100%;
@@ -207,20 +218,20 @@ p {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 929px) {
-  /* line 182, ../scss/style2.scss */
+  /* line 194, ../scss/style2.scss */
   .contestWrap {
     width: 100%;
     margin-right: 0;
   }
 }
 @media screen and (max-width: 575px) {
-  /* line 182, ../scss/style2.scss */
+  /* line 194, ../scss/style2.scss */
   .contestWrap {
     height: auto;
     background-size: auto 400px;
   }
 }
-/* line 207, ../scss/style2.scss */
+/* line 219, ../scss/style2.scss */
 .contestWrap .contentWrap {
   width: 40%;
   min-width: 300px;
@@ -231,35 +242,35 @@ p {
   margin-top: 15%;
 }
 @media screen and (max-width: 575px) {
-  /* line 207, ../scss/style2.scss */
+  /* line 219, ../scss/style2.scss */
   .contestWrap .contentWrap {
     width: 100%;
     margin-top: 300px;
   }
 }
-/* line 222, ../scss/style2.scss */
+/* line 234, ../scss/style2.scss */
 .contestWrap .contentWrap h1 {
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 228, ../scss/style2.scss */
+/* line 240, ../scss/style2.scss */
 .contestWrap .contentWrap h3 {
   font-size: 15px;
   line-height: 1.2em;
 }
-/* line 232, ../scss/style2.scss */
+/* line 244, ../scss/style2.scss */
 .contestWrap .contentWrap .smaller {
   font-size: 14px;
   vertical-align: top;
 }
-/* line 237, ../scss/style2.scss */
+/* line 249, ../scss/style2.scss */
 .contestWrap .contentWrap p {
   margin-top: 15px;
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 243, ../scss/style2.scss */
+/* line 255, ../scss/style2.scss */
 .contestWrap .contentWrap a {
   color: white;
   font-size: 13px;
@@ -271,7 +282,7 @@ p {
   border: 1px solid white;
 }
 
-/* line 256, ../scss/style2.scss */
+/* line 268, ../scss/style2.scss */
 .manleyWrap {
   background: url("../img/manleyBG.jpg") no-repeat;
   background-size: cover;
@@ -281,21 +292,21 @@ p {
   display: inline-block;
 }
 @media screen and (max-width: 929px) {
-  /* line 256, ../scss/style2.scss */
+  /* line 268, ../scss/style2.scss */
   .manleyWrap {
     width: 100%;
     margin-top: 30px;
   }
 }
 @media screen and (max-width: 575px) {
-  /* line 256, ../scss/style2.scss */
+  /* line 268, ../scss/style2.scss */
   .manleyWrap {
     height: auto;
     background-size: auto 400px;
     background-position: right top;
   }
 }
-/* line 277, ../scss/style2.scss */
+/* line 289, ../scss/style2.scss */
 .manleyWrap .contentWrap {
   width: 40%;
   min-width: 300px;
@@ -308,14 +319,14 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 575px) {
-  /* line 277, ../scss/style2.scss */
+  /* line 289, ../scss/style2.scss */
   .manleyWrap .contentWrap {
     width: 100%;
     margin-top: 400px;
     text-align: left;
   }
 }
-/* line 294, ../scss/style2.scss */
+/* line 306, ../scss/style2.scss */
 .manleyWrap .contentWrap h1 {
   font-size: 18px;
   font-weight: 900;
@@ -323,12 +334,12 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 302, ../scss/style2.scss */
+/* line 314, ../scss/style2.scss */
 .manleyWrap .contentWrap p {
   font-size: 14px;
   margin-bottom: 20px;
 }
-/* line 308, ../scss/style2.scss */
+/* line 320, ../scss/style2.scss */
 .manleyWrap .contentWrap a {
   float: right;
   font-size: 13px;
@@ -336,12 +347,12 @@ p {
   border: 1px solid white;
   text-transform: uppercase;
 }
-/* line 319, ../scss/style2.scss */
+/* line 331, ../scss/style2.scss */
 .manleyWrap .contentWrap .buttonWrap {
   text-decoration: none;
 }
 
-/* line 325, ../scss/style2.scss */
+/* line 337, ../scss/style2.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -356,7 +367,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 341, ../scss/style2.scss */
+/* line 353, ../scss/style2.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -369,12 +380,12 @@ p {
   overflow: scroll;
 }
 
-/* line 354, ../scss/style2.scss */
+/* line 366, ../scss/style2.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 358, ../scss/style2.scss */
+/* line 370, ../scss/style2.scss */
 #fade {
   display: none;
   position: absolute;
@@ -389,7 +400,7 @@ p {
   z-index: 90;
 }
 
-/* line 372, ../scss/style2.scss */
+/* line 384, ../scss/style2.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -402,13 +413,13 @@ p {
   font-weight: 900;
 }
 
-/* line 385, ../scss/style2.scss */
+/* line 397, ../scss/style2.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 390, ../scss/style2.scss */
+/* line 402, ../scss/style2.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -419,12 +430,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 400, ../scss/style2.scss */
+/* line 412, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 404, ../scss/style2.scss */
+/* line 416, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -435,7 +446,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 415, ../scss/style2.scss */
+/* line 427, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
