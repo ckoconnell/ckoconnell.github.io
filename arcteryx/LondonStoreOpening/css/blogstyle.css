@@ -23,7 +23,7 @@ a {
   height: 100%;
   max-width: 1500px;
   background: url("../img/blogfullbleed.jpg");
-  background-position: center center;
+  background-position: center 65%;
   text-align: center;
 }
 /* line 25, ../scss/blogstyle.scss */
