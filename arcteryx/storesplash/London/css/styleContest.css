@@ -254,18 +254,23 @@ p {
     line-height: 1em;
   }
 }
-/* line 243, ../scss/styleContest.scss */
+/* line 241, ../scss/styleContest.scss */
 .contentWrap .finePrint {
   margin: 60px 0px;
 }
-/* line 245, ../scss/styleContest.scss */
+/* line 243, ../scss/styleContest.scss */
 .contentWrap .finePrint p {
   font-size: 10px;
   line-height: 1.6em;
   text-align: center;
 }
 
-/* line 253, ../scss/styleContest.scss */
+/* line 252, ../scss/styleContest.scss */
+.prizing li {
+  font-size: 15px !important;
+}
+
+/* line 258, ../scss/styleContest.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -275,13 +280,13 @@ p {
   height: 500px;
   opacity: 1;
 }
-/* line 262, ../scss/styleContest.scss */
+/* line 267, ../scss/styleContest.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
   min-width: 300px;
 }
-/* line 267, ../scss/styleContest.scss */
+/* line 272, ../scss/styleContest.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -292,7 +297,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 278, ../scss/styleContest.scss */
+/* line 283, ../scss/styleContest.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
@@ -300,7 +305,7 @@ p {
   vertical-align: top;
 }
 
-/* line 291, ../scss/styleContest.scss */
+/* line 296, ../scss/styleContest.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -316,17 +321,17 @@ p {
   color: #333;
   transition: all 2s linear 1s;
 }
-/* line 306, ../scss/styleContest.scss */
+/* line 311, ../scss/styleContest.scss */
 #overlay p {
   color: #666;
 }
-/* line 310, ../scss/styleContest.scss */
+/* line 315, ../scss/styleContest.scss */
 #overlay h1 {
   text-transform: uppercase;
   font-weight: 600;
   color: #333;
 }
-/* line 316, ../scss/styleContest.scss */
+/* line 321, ../scss/styleContest.scss */
 #overlay h3 {
   font-weight: 600;
   margin-top: 30px;
@@ -334,7 +339,7 @@ p {
   color: #666;
 }
 
-/* line 325, ../scss/styleContest.scss */
+/* line 330, ../scss/styleContest.scss */
 #fade {
   display: none;
   position: absolute;
@@ -349,7 +354,7 @@ p {
   z-index: 90 !important;
 }
 
-/* line 339, ../scss/styleContest.scss */
+/* line 344, ../scss/styleContest.scss */
 #closeLink {
   position: fixed;
   color: black;
@@ -362,18 +367,18 @@ p {
   background: #eee;
 }
 
-/* line 351, ../scss/styleContest.scss */
+/* line 356, ../scss/styleContest.scss */
 #closeLink a {
   text-decoration: none;
 }
 
-/* line 355, ../scss/styleContest.scss */
+/* line 360, ../scss/styleContest.scss */
 #buttonWrap {
   background: #000;
   color: white;
 }
 
-/* line 362, ../scss/styleContest.scss */
+/* line 367, ../scss/styleContest.scss */
 #buttonWrap a {
   color: #fff;
   text-decoration: none;
