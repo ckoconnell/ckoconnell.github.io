@@ -80,7 +80,7 @@ p {
 }
 
 .heroWrap {
-  background: url('../img/bgLondon.jpg') no-repeat;
+  background: url('../img/bgLondonSm.jpg') no-repeat;
   // background-size: 110% auto;
   background-size: cover;
   min-height: 350px;
@@ -198,7 +198,7 @@ p {
   display: inline-block;
   height: 500px;
   position: relative;
-  background: url('../img/deepwinterChad.jpg') no-repeat;
+  background: url('../img/deepwinterChadsm.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
   margin-right: 30px;
@@ -266,7 +266,7 @@ p {
 }
 
 .manleyWrap {
-  background: url('../img/manleyBG.jpg') no-repeat;
+  background: url('../img/heroSm.jpg') no-repeat;
   background-size: cover;
   background-position: 63% center;
   width: 100%;
@@ -400,10 +400,9 @@ p {
 }
 
 .nffWrap {
-  background: url('../img/newforfallhero.jpg') no-repeat;
-  background-color: rgba(255,255,255,.5);
+  background: url('../img/newforfallheroSm.jpg') no-repeat;
   background-size: cover;
-  background-position: center 30%;
+  background-position: center bottom;
   width: 100%;
   height: 350px;
   opacity: 1;

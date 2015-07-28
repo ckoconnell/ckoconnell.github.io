@@ -83,7 +83,7 @@ p {
 
 /* line 82, ../scss/style2.scss */
 .heroWrap {
-  background: url("../img/bgLondon.jpg") no-repeat;
+  background: url("../img/bgLondonSm.jpg") no-repeat;
   background-size: cover;
   min-height: 350px;
 }
@@ -210,7 +210,7 @@ p {
   display: inline-block;
   height: 500px;
   position: relative;
-  background: url("../img/deepwinterChad.jpg") no-repeat;
+  background: url("../img/deepwinterChadsm.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
   margin-right: 30px;
@@ -284,7 +284,7 @@ p {
 
 /* line 268, ../scss/style2.scss */
 .manleyWrap {
-  background: url("../img/manleyBG.jpg") no-repeat;
+  background: url("../img/heroSm.jpg") no-repeat;
   background-size: cover;
   background-position: 63% center;
   width: 100%;
@@ -421,21 +421,20 @@ p {
 
 /* line 402, ../scss/style2.scss */
 .nffWrap {
-  background: url("../img/newforfallhero.jpg") no-repeat;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
-  background-position: center 30%;
+  background-position: center bottom;
   width: 100%;
   height: 350px;
   opacity: 1;
   margin-top: 60px;
 }
-/* line 412, ../scss/style2.scss */
+/* line 411, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 416, ../scss/style2.scss */
+/* line 415, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -446,7 +445,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 427, ../scss/style2.scss */
+/* line 426, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;

@@ -1,11 +1,13 @@
 <html>
 <head>
     <title>London Flagship Store Grand Opening</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/a1fce17f-2d2d-4ce7-8a00-0f2382646d8b.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
+
+<div id="fade"></div>
 
 <div class="headerWrap">
     <div class="contentGrid">
@@ -13,20 +15,15 @@
         <div class="navWrap"></div>
     </div>
 </div>
-
-
 <div class="heroWrap">
     <div class="contentGrid">
     </div>
 </div>
-
 <div class="mainWrap">
     <div class="contentGrid"> <!-- 930px -->
-
         <div class="heroContent">
-            <h1>ARC'TERYX FLAGSHIP <br>STORE OPENS IN <span class="highlight">LONDON</span></h1>
+            <h1>ARC'TERYX FLAGSHIP<br>STORE OPENS IN <span class="highlight">LONDON</span></h1>
         </div>
-
         <div class="colWrap">
             <h3>GRAND OPENING EVENT<br><span class="highlight">SEPTEMBER 5 & 6</span></h3>
             <ul>
@@ -38,48 +35,47 @@
             </ul>
             <h3 class="">Saturday, 5 September, 10.00 - 19.00</h3>
             <h3 class="">Sunday, 6 September, 11.30 - 17.30</h3>
-
         </div>
-        <div class="colWrap mobilePad">
+        <div class="colWrap">
             <h3>212 Piccadilly, London</h3>
-            <p>facebook.com/arcteryxpiccadilly</p>
-            <p>#arcteryxpiccadilly</p>
-            <p>arcteryx.com</p>
-            <div class="mapWrap"></div>
+            <a href="http://facebook.com/arcteryxpiccadilly" target="_blank">facebook.com/arcteryxpiccadilly</a>
+            <a href="https://instagram.com/arcteryx/?hl=en" target="_blank">#arcteryxpiccadilly</a>
+            <a href="http://arcteryx.com" target="_blank">arcteryx.com</a>
+            <a class="mapWrap" target="_blank" href="https://www.google.ca/maps/place/212+Piccadilly,+St.+James's,+London+W1J,+UK/@51.5095057,-0.1353377,17z/data=!3m1!4b1!4m2!3m1!1s0x487604d6a978e7bf:0x3f5f7ca5b5bb128d"></a>
         </div>
     </div>
 </div>
-
-<div class="manleyWrap">
-    <div class="contentGrid">
+<div class="subWrap">
+    <div class="contestWrap">
         <div class="contentWrap">
-            <h1>Manley Headline</h1>
+            <h1>PICTURE YOURSELF IN WHISTLER!</h1>
+            <h3><span class="highlight">WIN A TRIP TO WHISTLER, BC</span> AND THE DEEP WINTER PHOTO CHALLENGE</h3>
+            <p>Tag an Instagram selfie in front of our new #ArcteryxPiccadilly brand store between 10-11am on 5 September for a chance to WIN!</p>
+            <a href="http://contests.arcteryx.com/piccadilly/" target="_blank">More Info</a>
+        </div>
+    </div>
+    <div class="manleyWrap">
+        <div class="contentWrap">
+            <h1>Lithic Telltale</h1>
             <p>Jordan Manley zig-zags across Northern England discovering the parallels between the versatility of UK climbers and the local rock they climb.</p>
-            <a>READ MORE</a>
+            <div id="galleryLink">
+                <div id="buttonWrap"><a onclick="document.getElementById('overlay').style.display='block';document.getElementById('fade').style.display='block'" href="javascript:void(0)">Read the Story</a></div>
+            </div>
         </div>
     </div>
 </div>
-
-
-<div class="contestWrap">
-    <div class="contentGrid">
-        <div class="contentWrap">
-            <h1>WIN A TRIP TO WHISTLER!<span class="smaller">*</span></h1>
-            <p>Instagram and win! Post a selfie from outside our Arc'teryx Piccadilly store on September 5 between 10am-11am and tag it #ArcteryxPiccadilly for a chance to win a trip to Whistler, BC and the Deep Winter Photo Challenge.</p>
-            <a href="#">More Info</a>
-        </div>
-    </div>
-</div>
-
-
+<div style="clear:both;"></div>
 <div class="nffWrap">
     <div class="contentGrid">
-        <a href="#" target="_blank">SHOP NEW FOR FALL/WINTER 2015</a>
+        <a href="http://arcteryx.com/ProductFind.aspx?language=EN&collection=New_For_Fall_2015&intro=Special-Collections" target="_blank">SHOP NEW FOR FALL/WINTER 2015</a>
         <h1>DESIGN | CRAFTSMANSHIP | PERFORMANCE</h1>
     </div>
 </div>
 
-
+<div id="overlay">
+    <a onclick="document.getElementById('overlay').style.display='none';document.getElementById('fade').style.display='none'" href="javascript:void(0)"><div id="closeLink">X</div></a>
+    <iframe seamless="seamless" src="http://ckoconnell.github.io/arcteryx/LondonStoreOpening/build.html"></iframe>
+</div>
 
 </body>
 </html>
