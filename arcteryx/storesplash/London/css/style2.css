@@ -166,6 +166,8 @@ p {
 }
 /* line 157, ../scss/style2.scss */
 .mainWrap .mapWrap {
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: 230px;
   margin-top: 15px;
@@ -173,20 +175,20 @@ p {
   background-position: center center;
 }
 
-/* line 166, ../scss/style2.scss */
+/* line 168, ../scss/style2.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 166, ../scss/style2.scss */
+  /* line 168, ../scss/style2.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 176, ../scss/style2.scss */
+/* line 178, ../scss/style2.scss */
 .contestWrap {
   vertical-align: top;
   width: 100%;
@@ -201,20 +203,20 @@ p {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 929px) {
-  /* line 176, ../scss/style2.scss */
+  /* line 178, ../scss/style2.scss */
   .contestWrap {
     width: 100%;
     margin-right: 0;
   }
 }
 @media screen and (max-width: 575px) {
-  /* line 176, ../scss/style2.scss */
+  /* line 178, ../scss/style2.scss */
   .contestWrap {
     height: auto;
     background-size: auto 400px;
   }
 }
-/* line 201, ../scss/style2.scss */
+/* line 203, ../scss/style2.scss */
 .contestWrap .contentWrap {
   width: 40%;
   min-width: 300px;
@@ -225,35 +227,35 @@ p {
   margin-top: 15%;
 }
 @media screen and (max-width: 575px) {
-  /* line 201, ../scss/style2.scss */
+  /* line 203, ../scss/style2.scss */
   .contestWrap .contentWrap {
     width: 100%;
     margin-top: 300px;
   }
 }
-/* line 216, ../scss/style2.scss */
+/* line 218, ../scss/style2.scss */
 .contestWrap .contentWrap h1 {
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 222, ../scss/style2.scss */
+/* line 224, ../scss/style2.scss */
 .contestWrap .contentWrap h3 {
   font-size: 15px;
   line-height: 1.2em;
 }
-/* line 226, ../scss/style2.scss */
+/* line 228, ../scss/style2.scss */
 .contestWrap .contentWrap .smaller {
   font-size: 14px;
   vertical-align: top;
 }
-/* line 231, ../scss/style2.scss */
+/* line 233, ../scss/style2.scss */
 .contestWrap .contentWrap p {
   margin-top: 15px;
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 237, ../scss/style2.scss */
+/* line 239, ../scss/style2.scss */
 .contestWrap .contentWrap a {
   color: white;
   font-size: 13px;
@@ -265,7 +267,7 @@ p {
   border: 1px solid white;
 }
 
-/* line 250, ../scss/style2.scss */
+/* line 252, ../scss/style2.scss */
 .manleyWrap {
   background: url("../img/manleyBG.jpg") no-repeat;
   background-size: cover;
@@ -275,21 +277,21 @@ p {
   display: inline-block;
 }
 @media screen and (max-width: 929px) {
-  /* line 250, ../scss/style2.scss */
+  /* line 252, ../scss/style2.scss */
   .manleyWrap {
     width: 100%;
     margin-top: 30px;
   }
 }
 @media screen and (max-width: 575px) {
-  /* line 250, ../scss/style2.scss */
+  /* line 252, ../scss/style2.scss */
   .manleyWrap {
     height: auto;
     background-size: auto 400px;
     background-position: right top;
   }
 }
-/* line 271, ../scss/style2.scss */
+/* line 273, ../scss/style2.scss */
 .manleyWrap .contentWrap {
   width: 40%;
   min-width: 300px;
@@ -302,14 +304,14 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 575px) {
-  /* line 271, ../scss/style2.scss */
+  /* line 273, ../scss/style2.scss */
   .manleyWrap .contentWrap {
     width: 100%;
     margin-top: 400px;
     text-align: left;
   }
 }
-/* line 288, ../scss/style2.scss */
+/* line 290, ../scss/style2.scss */
 .manleyWrap .contentWrap h1 {
   font-size: 18px;
   font-weight: 900;
@@ -317,12 +319,12 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 296, ../scss/style2.scss */
+/* line 298, ../scss/style2.scss */
 .manleyWrap .contentWrap p {
   font-size: 14px;
   margin-bottom: 20px;
 }
-/* line 302, ../scss/style2.scss */
+/* line 304, ../scss/style2.scss */
 .manleyWrap .contentWrap a {
   float: right;
   font-size: 13px;
@@ -330,12 +332,12 @@ p {
   border: 1px solid white;
   text-transform: uppercase;
 }
-/* line 313, ../scss/style2.scss */
+/* line 315, ../scss/style2.scss */
 .manleyWrap .contentWrap .buttonWrap {
   text-decoration: none;
 }
 
-/* line 319, ../scss/style2.scss */
+/* line 321, ../scss/style2.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -350,7 +352,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 335, ../scss/style2.scss */
+/* line 337, ../scss/style2.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -363,12 +365,12 @@ p {
   overflow: scroll;
 }
 
-/* line 348, ../scss/style2.scss */
+/* line 350, ../scss/style2.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 352, ../scss/style2.scss */
+/* line 354, ../scss/style2.scss */
 #fade {
   display: none;
   position: absolute;
@@ -383,7 +385,7 @@ p {
   z-index: 90;
 }
 
-/* line 366, ../scss/style2.scss */
+/* line 368, ../scss/style2.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -396,13 +398,13 @@ p {
   font-weight: 900;
 }
 
-/* line 379, ../scss/style2.scss */
+/* line 381, ../scss/style2.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 384, ../scss/style2.scss */
+/* line 386, ../scss/style2.scss */
 .nffWrap {
   background: url("../img/newforfallhero.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -413,12 +415,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 394, ../scss/style2.scss */
+/* line 396, ../scss/style2.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 398, ../scss/style2.scss */
+/* line 400, ../scss/style2.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -429,7 +431,10 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 409, ../scss/style2.scss */
+/* line 411, ../scss/style2.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
+  line-height: 13px;
+  vertical-align: bottom;
+  overflow: hidden;
 }
