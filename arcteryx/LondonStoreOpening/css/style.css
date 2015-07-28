@@ -198,7 +198,7 @@ Main components
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/sm/gritstone_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 214, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-2 {
     background-image: url("../img/gritstone_hero.jpg");
@@ -208,7 +208,7 @@ Main components
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../img/sm/gritstone_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 221, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-3 {
     background-image: url("../img/gritstone_2.jpg");
@@ -218,7 +218,7 @@ Main components
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/sm/gritstone_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 229, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-4 {
     background-image: url("../img/gritstone_3.jpg");
@@ -228,7 +228,7 @@ Main components
 .cd-fixed-bg.cd-bg-5 {
   background-image: url("../img/sm/gritstone_hero2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 237, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-5 {
     background-image: url("../img/gritstone_hero2.jpg");
@@ -238,7 +238,7 @@ Main components
 .cd-fixed-bg.cd-bg-6 {
   background-image: url("../img/sm/slate_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 244, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-6 {
     background-image: url("../img/slate_hero.jpg");
@@ -248,7 +248,7 @@ Main components
 .cd-fixed-bg.cd-bg-7 {
   background-image: url("../img/sm/slate_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 251, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-7 {
     background-image: url("../img/slate_2.jpg");
@@ -258,7 +258,7 @@ Main components
 .cd-fixed-bg.cd-bg-8 {
   background-image: url("../img/sm/slate_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 258, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-8 {
     background-image: url("../img/slate_3.jpg");
@@ -268,7 +268,7 @@ Main components
 .cd-fixed-bg.cd-bg-9 {
   background-image: url("../img/sm/seacliff_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 265, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-9 {
     background-image: url("../img/seacliff_hero.jpg");
@@ -278,7 +278,7 @@ Main components
 .cd-fixed-bg.cd-bg-10 {
   background-image: url("../img/sm/seacliff_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 272, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-10 {
     background-image: url("../img/seacliff_2.jpg");
@@ -288,7 +288,7 @@ Main components
 .cd-fixed-bg.cd-bg-11 {
   background-image: url("../img/sm/seacliff_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 279, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-11 {
     background-image: url("../img/seacliff_3.jpg");
@@ -298,7 +298,7 @@ Main components
 .cd-fixed-bg.cd-bg-12 {
   background-image: url("../img/sm/seacliff_hero2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 286, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-12 {
     background-image: url("../img/seacliff_hero2.jpg");
@@ -308,7 +308,7 @@ Main components
 .cd-fixed-bg.cd-bg-13 {
   background-image: url("../img/sm/rhyolite_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 293, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-13 {
     background-image: url("../img/rhyolite_hero.jpg");
@@ -318,7 +318,7 @@ Main components
 .cd-fixed-bg.cd-bg-14 {
   background-image: url("../img/rhyolite_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 300, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-14 {
     background-image: url("../img/sm/rhyolite_2.jpg");
@@ -328,7 +328,7 @@ Main components
 .cd-fixed-bg.cd-bg-15 {
   background-image: url("../img/sm/rhyolite_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 307, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-15 {
     background-image: url("../img/rhyolite_3.jpg");
@@ -338,7 +338,7 @@ Main components
 .cd-fixed-bg.cd-bg-16 {
   background-image: url("../img/sm/rhyolite_4.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 314, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-16 {
     background-image: url("../img/rhyolite_4.jpg");
@@ -348,7 +348,7 @@ Main components
 .cd-fixed-bg.cd-bg-17 {
   background-image: url("../img/sm/rhyolite_hero2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 321, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-17 {
     background-image: url("../img/rhyolite_hero2.jpg");
@@ -358,7 +358,7 @@ Main components
 .cd-fixed-bg.cd-bg-18 {
   background-image: url("../img/sm/sandstone_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 328, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-18 {
     background-image: url("../img/sandstone_hero.jpg");
@@ -368,7 +368,7 @@ Main components
 .cd-fixed-bg.cd-bg-19 {
   background-image: url("../img/sm/sandstone_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 335, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-19 {
     background-image: url("../img/sandstone_2.jpg");
@@ -378,7 +378,7 @@ Main components
 .cd-fixed-bg.cd-bg-20 {
   background-image: url("../img/sm/sandstone_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 342, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-20 {
     background-image: url("../img/sandstone_3.jpg");
@@ -388,7 +388,7 @@ Main components
 .cd-fixed-bg.cd-bg-21 {
   background-image: url("../img/sm/sandstone_hero2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 349, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-21 {
     background-image: url("../img/sandstone_hero2.jpg");
@@ -398,7 +398,7 @@ Main components
 .cd-fixed-bg.cd-bg-22 {
   background-image: url("../img/sm/limestone_hero.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 356, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-22 {
     background-image: url("../img/limestone_hero.jpg");
@@ -408,7 +408,7 @@ Main components
 .cd-fixed-bg.cd-bg-23 {
   background-image: url("../img/sm/limestone_2.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 363, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-23 {
     background-image: url("../img/limestone_2.jpg");
@@ -418,7 +418,7 @@ Main components
 .cd-fixed-bg.cd-bg-24 {
   background-image: url("../img/sm/limestone_3.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 370, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-24 {
     background-image: url("../img/limestone_3.jpg");
@@ -428,7 +428,7 @@ Main components
 .cd-fixed-bg.cd-bg-25 {
   background-image: url("../img/sm/gritstone_4.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 377, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-25 {
     background-image: url("../img/gritstone_4.jpg");
@@ -438,7 +438,7 @@ Main components
 .cd-fixed-bg.cd-bg-26 {
   background-image: url("../img/sm/gritstone_5.jpg");
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
   /* line 384, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-26 {
     background-image: url("../img/gritstone_5.jpg");
