@@ -766,3 +766,8 @@ Main components
 .bolder {
   font-weight: 800;
 }
+
+/* line 718, ../scss/style.scss */
+.spaceAbove {
+  padding-top: 60px;
+}
