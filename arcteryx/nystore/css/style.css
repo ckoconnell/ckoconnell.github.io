@@ -190,106 +190,96 @@ Main components
 }
 /* line 200, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../img/sm/_AJM1713-Edit.jpg");
+  background-image: url("../img/bg1.jpg");
   background-position: right center;
 }
 @media screen and (min-width: 1100px) {
   /* line 200, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-1 {
-    background-image: url("../img/_AJM1713-Edit.jpg");
+    background-image: url("../img/bg1.jpg");
   }
 }
 /* line 208, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../img/sm/_AJM8732-Edit-Edit.jpg");
+  background-image: url("../img/bg2.jpg");
 }
 @media screen and (min-width: 1100px) {
   /* line 208, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-2 {
-    background-image: url("../img/_AJM8732-Edit-Edit.jpg");
+    background-image: url("../img/bg2.jpg");
   }
 }
 /* line 215, ../scss/style.scss */
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/sm/_AJM1008.jpg");
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/bg4.jpg");
 }
 @media screen and (min-width: 1100px) {
   /* line 215, ../scss/style.scss */
-  .cd-fixed-bg.cd-bg-3 {
-    background-image: url("../img/_AJM1008.jpg");
+  .cd-fixed-bg.cd-bg-4 {
+    background-image: url("../img/bg4.jpg");
   }
 }
 /* line 222, ../scss/style.scss */
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/sm/_AJM9931.jpg");
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("../img/bg5.jpg");
 }
 @media screen and (min-width: 1100px) {
   /* line 222, ../scss/style.scss */
-  .cd-fixed-bg.cd-bg-4 {
-    background-image: url("../img/_AJM9931.jpg");
+  .cd-fixed-bg.cd-bg-5 {
+    background-image: url("../img/bg5.jpg");
   }
 }
 /* line 229, ../scss/style.scss */
-.cd-fixed-bg.cd-bg-5 {
-  background-image: url("../img/sm/_AJM3822-Edit-Edit.jpg");
+.cd-fixed-bg.cd-bg-6 {
+  background-image: url("../img/bg6.jpg");
 }
 @media screen and (min-width: 1100px) {
   /* line 229, ../scss/style.scss */
-  .cd-fixed-bg.cd-bg-5 {
-    background-image: url("../img/_AJM3822-Edit-Edit.jpg");
+  .cd-fixed-bg.cd-bg-6 {
+    background-image: url("../img/bg6.jpg");
   }
 }
 /* line 236, ../scss/style.scss */
-.cd-fixed-bg.cd-bg-6 {
-  background-image: url("../img/sm/_AJM2564-Edit-Edit.jpg");
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url("../img/bg7.jpg");
 }
 @media screen and (min-width: 1100px) {
   /* line 236, ../scss/style.scss */
-  .cd-fixed-bg.cd-bg-6 {
-    background-image: url("../img/_AJM2564-Edit-Edit.jpg");
+  .cd-fixed-bg.cd-bg-7 {
+    background-image: url("../img/bg7.jpg");
   }
 }
 /* line 243, ../scss/style.scss */
-.cd-fixed-bg.cd-bg-7 {
-  background-image: url("../img/sm/_AJM4645-Edit.jpg");
-}
-@media screen and (min-width: 1100px) {
-  /* line 243, ../scss/style.scss */
-  .cd-fixed-bg.cd-bg-7 {
-    background-image: url("../img/_AJM4645-Edit.jpg");
-  }
-}
-/* line 250, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-8 {
   background-image: url("");
 }
 @media screen and (min-width: 1100px) {
-  /* line 250, ../scss/style.scss */
+  /* line 243, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-8 {
     background-image: url("");
   }
 }
-/* line 257, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-9 {
   background-image: url("");
 }
 @media screen and (min-width: 1100px) {
-  /* line 257, ../scss/style.scss */
+  /* line 250, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-9 {
     background-image: url("");
   }
 }
-/* line 264, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .cd-fixed-bg.cd-bg-10 {
   background-image: url("");
 }
 @media screen and (min-width: 1100px) {
-  /* line 264, ../scss/style.scss */
+  /* line 257, ../scss/style.scss */
   .cd-fixed-bg.cd-bg-10 {
     background-image: url("");
   }
 }
-/* line 273, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .cd-fixed-bg .withBG {
   left: 5% !important;
   width: 40%;
@@ -297,26 +287,26 @@ Main components
   background: #222;
   padding: 30px;
 }
-/* line 280, ../scss/style.scss */
+/* line 273, ../scss/style.scss */
 .cd-fixed-bg .withBG p {
   margin-bottom: 15px;
   line-height: 2em;
   font-size: 20px;
   font-weight: 100;
 }
-/* line 287, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .cd-fixed-bg .withBG blockquote {
   width: 100%;
   height: 100%;
   position: relative;
   display: block;
 }
-/* line 295, ../scss/style.scss */
+/* line 288, ../scss/style.scss */
 .cd-fixed-bg .showHide {
   left: 0px !important;
   transition: left 1s;
 }
-/* line 300, ../scss/style.scss */
+/* line 293, ../scss/style.scss */
 .cd-fixed-bg .metaWrap {
   position: absolute;
   bottom: 1%;
@@ -327,18 +317,18 @@ Main components
   background-size: 40px;
   cursor: pointer;
 }
-/* line 310, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 .cd-fixed-bg .metaWrap svg {
   width: 20px;
   height: 20px;
 }
-/* line 315, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .land {
   fill: #fff;
   width: 50px;
   height: 50px;
 }
-/* line 321, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo {
   position: absolute;
   display: block;
@@ -356,14 +346,14 @@ Main components
   left: -550px;
   transition: all 1s;
 }
-/* line 338, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo h3 {
   font-size: 14px;
   font-weight: 900;
   line-height: 17px;
   color: #000 !important;
 }
-/* line 346, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo:after {
   position: absolute;
   width: 15px;
@@ -372,7 +362,7 @@ Main components
   content: '';
 }
 @media only screen and (min-width: 768px) {
-  /* line 356, ../scss/style.scss */
+  /* line 349, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -382,14 +372,14 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  /* line 364, ../scss/style.scss */
+  /* line 357, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
     font-weight: 300;
   }
 }
 
-/* line 371, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .topCTA {
   font-family: Avenir, sans-serif;
   font-weight: 900;
@@ -404,17 +394,17 @@ Main components
   padding: 4px 10px 2px 10px;
 }
 
-/* line 385, ../scss/style.scss */
+/* line 378, ../scss/style.scss */
 .centered {
   text-align: center !important;
 }
 
-/* line 389, ../scss/style.scss */
+/* line 382, ../scss/style.scss */
 .bioWrap {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 393, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
@@ -423,34 +413,34 @@ Main components
   border-radius: 100px;
   margin-bottom: 30px;
 }
-/* line 402, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 .bioWrap .manley {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 408, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 .bioWrap .mina {
   background: url("../img/MinaBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 414, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 .bioWrap .katy {
   background: url("../img/KatyBio2.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 420, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
-/* line 424, ../scss/style.scss */
+/* line 417, ../scss/style.scss */
 .bioWrap .bioLinks {
   display: inline-block;
   position: relative;
 }
-/* line 428, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .bioWrap .bioLinks svg {
   width: 40px;
   height: 40px;
@@ -458,23 +448,23 @@ Main components
   margin: 0 10px;
 }
 
-/* line 437, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 .socialInsta, .socialVimeo {
   fill: #fff;
 }
 
-/* line 441, ../scss/style.scss */
+/* line 434, ../scss/style.scss */
 .socialVimeo {
   width: 60px;
   height: 60px;
 }
-/* line 444, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 svg .socialVimeo {
   width: 60px;
   height: 60px;
 }
 
-/* line 450, ../scss/style.scss */
+/* line 443, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 3em 0 !important;
@@ -482,22 +472,22 @@ svg .socialVimeo {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 458, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 463, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #eee !important;
   color: black !important;
 }
-/* line 469, ../scss/style.scss */
+/* line 462, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 475, ../scss/style.scss */
+/* line 468, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-4 {
   background-color: #222;
   color: #3d3536;
@@ -506,26 +496,26 @@ svg .socialVimeo {
   width: 100% !important;
   height: 900px;
 }
-/* line 484, ../scss/style.scss */
+/* line 477, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-5 {
   padding: 0 0 2em 0 !important;
   background-color: #212121;
 }
-/* line 489, ../scss/style.scss */
+/* line 482, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-9 {
   padding: 2em 0 2em 0 !important;
   background-color: #111;
 }
-/* line 494, ../scss/style.scss */
+/* line 487, ../scss/style.scss */
 .cd-scrolling-bg .heroImage {
   margin: 0 0 -15px 0;
 }
-/* line 496, ../scss/style.scss */
+/* line 489, ../scss/style.scss */
 .cd-scrolling-bg .heroImage img {
   width: 100%;
   height: auto;
 }
-/* line 501, ../scss/style.scss */
+/* line 494, ../scss/style.scss */
 .cd-scrolling-bg .heroImage h3 {
   position: absolute;
   left: 5%;
@@ -541,7 +531,7 @@ svg .socialVimeo {
   opacity: .8;
   font-weight: 100;
 }
-/* line 517, ../scss/style.scss */
+/* line 510, ../scss/style.scss */
 .cd-scrolling-bg .heroImage .welcome {
   background: none !important;
   font-weight: 100;
@@ -549,13 +539,13 @@ svg .socialVimeo {
   top: 15% !important;
   left: 0%;
 }
-/* line 526, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 532, ../scss/style.scss */
+/* line 525, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -565,7 +555,7 @@ svg .socialVimeo {
   font-size: 1.2em;
   z-index: 120 !important;
 }
-/* line 542, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -578,7 +568,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 555, ../scss/style.scss */
+/* line 548, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -591,14 +581,14 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 568, ../scss/style.scss */
+/* line 561, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #222;
   line-height: 1.9em;
   font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
-  /* line 450, ../scss/style.scss */
+  /* line 443, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -607,7 +597,7 @@ svg .socialVimeo {
     font-weight: 300;
   }
 }
-/* line 581, ../scss/style.scss */
+/* line 574, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   color: #444;
   text-align: center;
@@ -616,7 +606,7 @@ svg .socialVimeo {
   line-height: 1.3em;
   margin-top: 45px;
 }
-/* line 592, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   color: white;
   text-align: center;
@@ -626,7 +616,7 @@ svg .socialVimeo {
   margin-bottom: 30px;
   text-transform: none !important;
 }
-/* line 604, ../scss/style.scss */
+/* line 597, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -634,17 +624,17 @@ svg .socialVimeo {
   font-style: italic;
 }
 
-/* line 615, ../scss/style.scss */
+/* line 608, ../scss/style.scss */
 .intro {
   padding: 0 0 !important;
 }
 
-/* line 619, ../scss/style.scss */
+/* line 612, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
 
-/* line 623, ../scss/style.scss */
+/* line 616, ../scss/style.scss */
 .spaceAbove {
   padding-top: 60px;
 }
