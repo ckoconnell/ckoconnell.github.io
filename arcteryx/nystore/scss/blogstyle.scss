@@ -1,0 +1,120 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Avenir, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fullbleedWrap {
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  background: url('../img/blogfullbleed.jpg');
+  background-position: center 65%;
+  text-align: center;
+
+  .ctaWrap {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 25%;
+
+    h1 {
+      font-weight: 900;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    p {
+      max-width: 400px;
+      margin: 20px 0 30px 0;
+      line-height: 1.3em;
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: white;
+      border: 1px solid white;
+      padding: 5px 12px 3px;
+    }
+  }
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0;
+  padding: 25px;
+  // border: 5px solid #666;
+  background-color: #222;
+  height: 100%;
+  width: 100%;
+  // overflow: scroll;
+  z-index: 100;
+  color: #333;
+  transition: all 1s ease 1s;
+
+  iframe {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+  }
+}
+
+#overlay p {
+  color: #666;
+}
+
+#fade {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: black;
+  -moz-opacity: 0.7;
+  opacity: .70;
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+}
+
+#closeLink {
+  position: fixed;
+  background: #000;
+  right: 2%;
+  top: 2%;
+  z-index: 200;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  // background: #eee;
+}
+
+#closeLink a {
+  color: #ff0000 !important;
+  text-decoration: none;
+}
