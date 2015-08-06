@@ -538,14 +538,15 @@ svg .socialVimeo {
   font-style: normal;
   top: 15% !important;
   left: 0%;
+  min-width: 350px !important;
 }
-/* line 519, ../scss/style.scss */
+/* line 520, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 525, ../scss/style.scss */
+/* line 526, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -555,7 +556,7 @@ svg .socialVimeo {
   font-size: 1.2em;
   z-index: 120 !important;
 }
-/* line 535, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -568,7 +569,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 548, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -581,7 +582,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 561, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #222;
   line-height: 1.9em;
@@ -597,7 +598,7 @@ svg .socialVimeo {
     font-weight: 300;
   }
 }
-/* line 574, ../scss/style.scss */
+/* line 575, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   color: #444;
   text-align: center;
@@ -606,7 +607,7 @@ svg .socialVimeo {
   line-height: 1.3em;
   margin-top: 45px;
 }
-/* line 585, ../scss/style.scss */
+/* line 586, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   color: white;
   text-align: center;
@@ -616,7 +617,7 @@ svg .socialVimeo {
   margin-bottom: 30px;
   text-transform: none !important;
 }
-/* line 597, ../scss/style.scss */
+/* line 598, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -624,17 +625,17 @@ svg .socialVimeo {
   font-style: italic;
 }
 
-/* line 608, ../scss/style.scss */
+/* line 609, ../scss/style.scss */
 .intro {
   padding: 0 0 !important;
 }
 
-/* line 612, ../scss/style.scss */
+/* line 613, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
 
-/* line 616, ../scss/style.scss */
+/* line 617, ../scss/style.scss */
 .spaceAbove {
   padding-top: 60px;
 }
