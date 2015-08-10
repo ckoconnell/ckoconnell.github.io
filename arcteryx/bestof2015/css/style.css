@@ -1,0 +1,161 @@
+/* line 1, ../scss/style.scss */
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Avenir, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 10, ../scss/style.scss */
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, ../scss/style.scss */
+header {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: #333;
+  top: -8px;
+  left: -8px;
+  background: url("../img/hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+/* line 28, ../scss/style.scss */
+header .logoWrap {
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+/* line 35, ../scss/style.scss */
+header .logoWrap .logoBest {
+  position: absolute;
+  font-weight: 500;
+  font-size: 72px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #111;
+}
+/* line 43, ../scss/style.scss */
+header .logoWrap .logoOf {
+  position: absolute;
+  font-weight: 100;
+  font-size: 36px;
+  left: 190px;
+  top: 35px;
+  text-shadow: 1px 1px 3px #111;
+}
+/* line 51, ../scss/style.scss */
+header .logoWrap .logo2015 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 72px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #111;
+  top: 60px;
+  left: 90px;
+}
+
+/* line 63, ../scss/style.scss */
+.contentWrap {
+  box-sizing: border-box;
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 930px) {
+  /* line 63, ../scss/style.scss */
+  .contentWrap {
+    width: 100%;
+  }
+}
+
+/* line 74, ../scss/style.scss */
+.controlWrap {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: #333;
+  top: 592px;
+  left: -8px;
+}
+/* line 82, ../scss/style.scss */
+.controlWrap .filter {
+  display: inline-block;
+  padding: 5px 15px;
+  background: #999;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+/* line 94, ../scss/style.scss */
+.controlWrap button {
+  display: inline-block;
+  padding: .4em .8em;
+  background: #666;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 103, ../scss/style.scss */
+.controlWrap button.active {
+  background: #68b8c4;
+}
+/* line 107, ../scss/style.scss */
+.controlWrap button:focus {
+  outline: 0 none;
+}
+/* line 111, ../scss/style.scss */
+.controlWrap label {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 3px 10px 0 0;
+  color: #ddd !important;
+}
+
+/* line 119, ../scss/style.scss */
+.bestOfWrap {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-top: 720px;
+}
+
+/* line 126, ../scss/style.scss */
+#mixWrap {
+  height: 100%;
+  width: 930px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* line 135, ../scss/style.scss */
+#mixWrap .mix {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2%;
+  border: 1px solid #999;
+  width: 30%;
+  height: 220px;
+  margin: 1%;
+}
+/* line 145, ../scss/style.scss */
+#mixWrap .mix h1 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* line 152, ../scss/style.scss */
+#mixWrap .mix {
+  display: none;
+}

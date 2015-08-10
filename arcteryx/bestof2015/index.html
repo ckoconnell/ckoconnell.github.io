@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Best Of 2015 Visuals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/a1fce17f-2d2d-4ce7-8a00-0f2382646d8b.css"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+
+<header>
+    <div class="contentWrap">
+        <div class="logoWrap">
+            <div class="logoBest">Best</div>
+            <div class="logoOf">of</div>
+            <div class="logo2015">2015</div>
+        </div>
+    </div>
+</header>
+
+<div class="controlWrap">
+    <div class="contentWrap">
+        <label>Filter:</label>
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter=".adventure">Adventure</button>
+        <button class="filter" data-filter=".community">Communuty</button>
+        <button class="filter" data-filter=".ourstory">Our Story</button>
+    </div>
+</div>
+
+<div class="bestOfWrap">
+    <div class="contentWrap" id="mixWrap">
+        <div class="mix adventure" data-myorder="1">
+            <h1>Adventure 1</h1>
+        </div>
+        <div class="mix ourstory" data-myorder="2">
+            <h1>Our Story 1</h1>
+        </div>
+        <div class="mix community" data-myorder="3">
+            <h1>Community 1</h1>
+        </div>
+        <div class="mix ourstory" data-myorder="4">
+            <h1>Our Story 2</h1>
+        </div>
+        <div class="mix community" data-myorder="5">
+            <h1>Community 2</h1>
+        </div>
+        <div class="mix adventure" data-myorder="6">
+            <h1>Adventure 2</h1>
+        </div>
+        <div class="mix community" data-myorder="7">
+            <h1>Community 3</h1>
+        </div>
+        <div class="mix adventure" data-myorder="8">
+            <h1>Adventure 3</h1>
+        </div>
+        <div class="mix ourstory" data-myorder="9">
+            <h1>Our Story 3</h1>
+        </div>
+        <div class="mix ourstory" data-myorder="10">
+            <h1>Our Story 4</h1>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+
+
+<script type="text/javascript">
+    $(function(){
+        $('#mixWrap').mixItUp();
+    });
+</script>2
+</body>
+</html>

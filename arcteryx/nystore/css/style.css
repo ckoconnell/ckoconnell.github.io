@@ -345,15 +345,16 @@ Main components
   bottom: 90px;
   left: -550px;
   transition: all 1s;
+  font-style: italic;
 }
-/* line 331, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo h3 {
   font-size: 14px;
   font-weight: 900;
   line-height: 17px;
   color: #000 !important;
 }
-/* line 339, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 .cd-fixed-bg .metaWrap .metaInfo:after {
   position: absolute;
   width: 15px;
@@ -362,7 +363,7 @@ Main components
   content: '';
 }
 @media only screen and (min-width: 768px) {
-  /* line 349, ../scss/style.scss */
+  /* line 350, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -372,14 +373,14 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  /* line 357, ../scss/style.scss */
+  /* line 358, ../scss/style.scss */
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
     font-weight: 300;
   }
 }
 
-/* line 364, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 .topCTA {
   font-family: Avenir, sans-serif;
   font-weight: 900;
@@ -394,17 +395,17 @@ Main components
   padding: 4px 10px 2px 10px;
 }
 
-/* line 378, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .centered {
   text-align: center !important;
 }
 
-/* line 382, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 .bioWrap {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 386, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .bioWrap .bioPhoto {
   position: relative;
   margin: 0 auto;
@@ -413,34 +414,34 @@ Main components
   border-radius: 100px;
   margin-bottom: 30px;
 }
-/* line 395, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .bioWrap .manley {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 401, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .bioWrap .mina {
   background: url("../img/MinaBio.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }
-/* line 407, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .bioWrap .katy {
   background: url("../img/KatyBio2.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 413, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 .bioWrap .bioContent {
   margin-top: 30px;
 }
-/* line 417, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 .bioWrap .bioLinks {
   display: inline-block;
   position: relative;
 }
-/* line 421, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 .bioWrap .bioLinks svg {
   width: 40px;
   height: 40px;
@@ -448,23 +449,23 @@ Main components
   margin: 0 10px;
 }
 
-/* line 430, ../scss/style.scss */
+/* line 431, ../scss/style.scss */
 .socialInsta, .socialVimeo {
   fill: #fff;
 }
 
-/* line 434, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .socialVimeo {
   width: 60px;
   height: 60px;
 }
-/* line 437, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 svg .socialVimeo {
   width: 60px;
   height: 60px;
 }
 
-/* line 443, ../scss/style.scss */
+/* line 444, ../scss/style.scss */
 .cd-scrolling-bg {
   position: relative;
   padding: 3em 0 !important;
@@ -472,22 +473,22 @@ svg .socialVimeo {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-/* line 451, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-1 {
   background-color: #bbb;
   color: #a6989a;
 }
-/* line 456, ../scss/style.scss */
+/* line 457, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-2 {
   background-color: #eee !important;
   color: black !important;
 }
-/* line 462, ../scss/style.scss */
+/* line 463, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-3 {
   background-color: #ddd;
   color: #3d3536;
 }
-/* line 468, ../scss/style.scss */
+/* line 469, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-4 {
   background-color: #222;
   color: #3d3536;
@@ -496,26 +497,26 @@ svg .socialVimeo {
   width: 100% !important;
   height: 900px;
 }
-/* line 477, ../scss/style.scss */
+/* line 478, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-5 {
   padding: 0 0 2em 0 !important;
   background-color: #212121;
 }
-/* line 482, ../scss/style.scss */
+/* line 483, ../scss/style.scss */
 .cd-scrolling-bg.cd-color-9 {
   padding: 2em 0 2em 0 !important;
   background-color: #111;
 }
-/* line 487, ../scss/style.scss */
+/* line 488, ../scss/style.scss */
 .cd-scrolling-bg .heroImage {
   margin: 0 0 -15px 0;
 }
-/* line 489, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 .cd-scrolling-bg .heroImage img {
   width: 100%;
   height: auto;
 }
-/* line 494, ../scss/style.scss */
+/* line 495, ../scss/style.scss */
 .cd-scrolling-bg .heroImage h3 {
   position: absolute;
   left: 5%;
@@ -531,7 +532,7 @@ svg .socialVimeo {
   opacity: .8;
   font-weight: 100;
 }
-/* line 510, ../scss/style.scss */
+/* line 511, ../scss/style.scss */
 .cd-scrolling-bg .heroImage .welcome {
   background: none !important;
   font-weight: 100;
@@ -541,13 +542,13 @@ svg .socialVimeo {
   left: 0%;
   min-width: 350px !important;
 }
-/* line 521, ../scss/style.scss */
+/* line 522, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 527, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -557,7 +558,7 @@ svg .socialVimeo {
   font-size: 1.2em;
   z-index: 120 !important;
 }
-/* line 537, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -570,7 +571,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 550, ../scss/style.scss */
+/* line 551, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -583,14 +584,14 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 563, ../scss/style.scss */
+/* line 564, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #222;
   line-height: 1.9em;
   font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
-  /* line 443, ../scss/style.scss */
+  /* line 444, ../scss/style.scss */
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -599,7 +600,7 @@ svg .socialVimeo {
     font-weight: 300;
   }
 }
-/* line 576, ../scss/style.scss */
+/* line 577, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   color: #444;
   text-align: center;
@@ -608,7 +609,7 @@ svg .socialVimeo {
   line-height: 1.3em;
   margin-top: 45px;
 }
-/* line 587, ../scss/style.scss */
+/* line 588, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   color: white;
   text-align: center;
@@ -618,7 +619,7 @@ svg .socialVimeo {
   margin-bottom: 30px;
   text-transform: none !important;
 }
-/* line 599, ../scss/style.scss */
+/* line 600, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
@@ -626,17 +627,17 @@ svg .socialVimeo {
   font-style: italic;
 }
 
-/* line 610, ../scss/style.scss */
+/* line 611, ../scss/style.scss */
 .intro {
   padding: 0 0 !important;
 }
 
-/* line 614, ../scss/style.scss */
+/* line 615, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
 
-/* line 618, ../scss/style.scss */
+/* line 619, ../scss/style.scss */
 .spaceAbove {
   padding-top: 60px;
 }
