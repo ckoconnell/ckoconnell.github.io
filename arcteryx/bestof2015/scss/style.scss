@@ -11,6 +11,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  background: #eee;
 }
 
 header {
@@ -130,23 +131,45 @@ header {
   width: 930px;
   margin: 0 auto;
   box-sizing: border-box;
+  text-align: center;
   // text-align: justify;
+
+  @media screen and (max-width: 930px) {
+    width: 100%;
+  }
 
   .mix {
     display: inline-block;
     box-sizing: border-box;
     padding: 2%;
-    border: 1px solid #999;
-    width: 30%;
-    height: 220px;
-    margin: 1%;
+    // border: 1px solid #999;
+    box-shadow: 1px 1px 2px #bbb;
+    // width: 30%;
+    height: 350px;
+    margin: 1% 10px;
+    background: white;
 
+    // Remove this after adding specific sizing breaks
+    min-width: 270px;
 
     h1 {
       font-size: 14px;
       font-weight: 100;
     }
   }
+
+  .wThird {
+    width: 30%;
+  }
+
+  .wHalf {
+    width: 47%;
+  }
+
+  .wFull {
+    width: 97%;
+  }
+
 }
 
 #mixWrap .mix{
