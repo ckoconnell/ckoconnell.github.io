@@ -151,32 +151,89 @@ header .logoWrap .logo2015 {
 #mixWrap .mix {
   display: inline-block;
   box-sizing: border-box;
-  padding: 2%;
+  padding: 0;
   box-shadow: 1px 1px 2px #bbb;
   height: 350px;
   margin: 1% 10px;
   background: white;
+  overflow: hidden;
   min-width: 270px;
 }
-/* line 155, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 #mixWrap .mix h1 {
   font-size: 14px;
   font-weight: 100;
 }
-/* line 161, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 #mixWrap .wThird {
   width: 30%;
 }
-/* line 165, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 #mixWrap .wHalf {
   width: 47%;
 }
-/* line 169, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #mixWrap .wFull {
   width: 97%;
 }
+/* line 174, ../scss/style.scss */
+#mixWrap .itemImg {
+  width: 100%;
+  max-height: 250px;
+}
+/* line 178, ../scss/style.scss */
+#mixWrap .itemImg img {
+  width: 100%;
+  height: auto;
+}
+/* line 184, ../scss/style.scss */
+#mixWrap .itemContent {
+  padding: 15px 3%;
+  text-align: left;
+}
+/* line 188, ../scss/style.scss */
+#mixWrap .itemContent h1 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+}
+/* line 199, ../scss/style.scss */
+#mixWrap .itemContent h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+}
+/* line 209, ../scss/style.scss */
+#mixWrap .itemContent h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+/* line 218, ../scss/style.scss */
+#mixWrap .itemContent h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+}
+/* line 228, ../scss/style.scss */
+#mixWrap .itemContent p {
+  font-size: 13px;
+}
 
-/* line 175, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
 #mixWrap .mix {
   display: none;
 }

@@ -141,13 +141,14 @@ header {
   .mix {
     display: inline-block;
     box-sizing: border-box;
-    padding: 2%;
+    padding: 0;
     // border: 1px solid #999;
     box-shadow: 1px 1px 2px #bbb;
     // width: 30%;
     height: 350px;
     margin: 1% 10px;
     background: white;
+    overflow: hidden;
 
     // Remove this after adding specific sizing breaks
     min-width: 270px;
@@ -170,6 +171,64 @@ header {
     width: 97%;
   }
 
+  .itemImg {
+    width: 100%;
+    max-height: 250px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .itemContent {
+    padding: 15px 3%;
+    text-align: left;
+
+    h1 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 15px;
+      // margin-left: 40px;
+      line-height: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    h2 {
+      font-size: 15px;
+      font-weight: 500;
+      color: #666;
+      // margin-left: 40px;
+      margin: 0;
+      padding: 0;
+      line-height: 15px;
+    }
+
+    h3 {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #666;
+      margin: 0;
+      padding: 0;
+    }
+
+    h4 {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #666;
+      margin-bottom: 10px;
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
 }
 
 #mixWrap .mix{
