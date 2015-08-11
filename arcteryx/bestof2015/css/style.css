@@ -79,7 +79,7 @@ header .logoWrap .logo2015 {
   }
 }
 
-/* line 75, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 .controlWrap {
   position: absolute;
   width: 100%;
@@ -88,7 +88,7 @@ header .logoWrap .logo2015 {
   top: 592px;
   left: -8px;
 }
-/* line 83, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .controlWrap .filter {
   display: inline-block;
   padding: 5px 15px;
@@ -100,7 +100,7 @@ header .logoWrap .logo2015 {
   font-weight: 600;
   font-size: 12px;
 }
-/* line 95, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .controlWrap button {
   display: inline-block;
   padding: .4em .8em;
@@ -109,15 +109,15 @@ header .logoWrap .logo2015 {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 104, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .controlWrap button.active {
   background: #68b8c4;
 }
-/* line 108, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 .controlWrap button:focus {
   outline: 0 none;
 }
-/* line 112, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .controlWrap label {
   text-transform: uppercase;
   font-size: 12px;
@@ -125,7 +125,7 @@ header .logoWrap .logo2015 {
   color: #ddd !important;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .bestOfWrap {
   width: 100%;
   height: 100%;
@@ -133,7 +133,7 @@ header .logoWrap .logo2015 {
   margin-top: 720px;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 128, ../scss/style.scss */
 #mixWrap {
   height: 100%;
   width: 930px;
@@ -142,12 +142,12 @@ header .logoWrap .logo2015 {
   text-align: center;
 }
 @media screen and (max-width: 930px) {
-  /* line 127, ../scss/style.scss */
+  /* line 128, ../scss/style.scss */
   #mixWrap {
     width: 100%;
   }
 }
-/* line 141, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 #mixWrap .mix {
   display: inline-block;
   box-sizing: border-box;
@@ -159,39 +159,39 @@ header .logoWrap .logo2015 {
   overflow: hidden;
   min-width: 270px;
 }
-/* line 156, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 #mixWrap .mix h1 {
   font-size: 14px;
   font-weight: 100;
 }
-/* line 162, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #mixWrap .wThird {
   width: 30%;
 }
-/* line 166, ../scss/style.scss */
+/* line 167, ../scss/style.scss */
 #mixWrap .wHalf {
   width: 47%;
 }
-/* line 170, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 #mixWrap .wFull {
   width: 97%;
 }
-/* line 174, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #mixWrap .itemImg {
   width: 100%;
   max-height: 250px;
 }
-/* line 178, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 #mixWrap .itemImg img {
   width: 100%;
   height: auto;
 }
-/* line 184, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 #mixWrap .itemContent {
   padding: 15px 3%;
   text-align: left;
 }
-/* line 188, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 #mixWrap .itemContent h1 {
   font-size: 15px;
   font-weight: 700;
@@ -200,7 +200,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 199, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 #mixWrap .itemContent h2 {
   font-size: 15px;
   font-weight: 500;
@@ -209,7 +209,7 @@ header .logoWrap .logo2015 {
   padding: 0;
   line-height: 15px;
 }
-/* line 209, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #mixWrap .itemContent h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -218,7 +218,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 218, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 #mixWrap .itemContent h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -228,12 +228,12 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 228, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 #mixWrap .itemContent p {
   font-size: 13px;
 }
 
-/* line 234, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 #mixWrap .mix {
   display: none;
 }
