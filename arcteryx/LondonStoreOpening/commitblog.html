@@ -36,34 +36,120 @@
     }
 
     .fullbleedWrap {
+        position: relative;
         width: 100%;
+        max-width: 1500px;
         height: 100%;
         margin-top: 60px;
+        margin-bottom: 60px;
     }
 
-    .fullbleedWrap h1 {
-        font-size: 24px;
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 600;
+        position: absolute;
+        top: 4%;
+        left: 10%;
+        line-height: 1em;
     }
 
     .fullbleedWrap p {
         font-size: 16px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: inline-block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+
     }
 
     .fullbleedWrap .pullquote {
         font-style: italic;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        width: 70%;
+        color: #555;
+        margin: 0 auto;
+        max-width: 700px !important;
+        padding-left: 0 !important;
+        display: block !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 1.3em;
     }
 
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        max-width: 1500px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fullbleedWrap .videoWrap {
+        width: 100%;
+        min-height: 400px;
+        max-width: 1500px;
+        background: #efefef;
+        box-sizing: border-box;
+        text-align: center;
+        color: #666;
+        padding-top: 100px;
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 24px;
+            font-weight: 600;
+            position: absolute;
+            line-height: 28px;
+            top: -20px;
+            left: 15px;
+        }
+
+        .fullbleedWrap p {
+
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+
+        }
+    }
 </style>
 
 <div class="fullbleedWrap">
     <div class="imgWrap">
-        <img src="gicommitHero.jpg" />
+        <h1>Unconventional<br>Tuesday's</h1>
+        <img src="http://blog-media.arcteryx.com/images/articles/commitHero.jpg" />
     </div>
-    <h1>Untitled</h1>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/commitImg1.jpg" />
+    </div>
+
     <p>Mike Blenkarn is an original, a creative thinker and a fixture in the R&D Department at Arc’teryx. A huge part of how he figures out what needs to be created and how to make it work best is through being outside and active.</p>
-    <p class="pullquote">“Making this equipment is an art form and you need to be a dedicated participant in order to do it right.”</p>
     <p>While his approach might be seen as unconventional to some, it has proven true for Mike, time and again. He goes out, he tries his own designs, he tinkers, he tests, he goes back to make revisions and then he heads out again. Some ideas he has pursued for over ten years. He doesn’t give up despite poor results, substandard materials or outright failures to hit the solution.</p>
     <p>If Mike believes there is a way to make something better, you can bet he will be out there, talking to people, researching fabrics and glues, making turns and trying out theories.</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/commitImg2.jpg" />
+    </div>
+
+    <p class="pullquote">“Making this equipment is an art form and you need to be a dedicated participant in order to do it right.”</p>
+
+
+    <div class="videoWrap">
+        <h1>Video Goes Here</h1>
+    </div>
+
     <p class="pullquote">“To be effective, you’ve got to be obsessed.”</p>
 
 </div>
