@@ -1,3 +1,6 @@
+$bpfull: 960px;
+
+
 html {
   margin: 0;
   padding: 0;
@@ -18,7 +21,7 @@ header {
   position: absolute;
   display: block;
   width: 100%;
-  height: 600px;
+  height: 650px;
   background: #333;
   top: -8px;
   left: -8px;
@@ -44,9 +47,9 @@ header {
     .logoOf {
       position: absolute;
       font-weight: 100;
-      font-size: 36px;
-      left: 190px;
-      top: 35px;
+      font-size: 28px;
+      left: 175px;
+      top: 43px;
       text-shadow: 1px 1px 3px #111;
     }
     .logo2015 {
@@ -56,19 +59,145 @@ header {
       letter-spacing: 1px;
       text-shadow: 1px 1px 3px #111;
       top: 60px;
-      left: 90px;
+      left: 50px;
     }
   }
 }
 
+.featureWrap {
+  width: 100%;
+  height: 650px;
+  background: #121212;
+  box-sizing: border-box;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    z-index: 1000;
+    li {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      margin: 0 5px !important;
+      overflow: hidden;
+      button {
+        color: #666 !important;
+        display: inline-block !important;
+        background: #666;
+        padding: 4px;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        border: none;
+        overflow: hidden !important;
+      }
+    }
+  }
+
+  .featureSlide {
+    width: 100%;
+    height: 100%;
+
+    .slideContent {
+      position: relative;
+      text-align: left;
+
+      h1 {
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 36px;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 18px;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+      }
+    }
+  }
+}
+
+
+.feature1 {
+  background: url('../img/featureslidebg-3.jpg');
+  background-size: cover;
+  background-position: center bottom;
+
+  .slideContent  {
+    float: none;
+    margin-top: 200px;
+    text-align: center !important;
+  }
+}
+
+.feature2 {
+  background: url('../img/featureslidebg-2.jpg');
+  background-size: cover;
+  background-position: center top;
+
+  .slideContent  {
+    width: 390px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 15%;
+    text-align: right !important;
+  }
+}
+
+.feature3 {
+  background: url('../img/featureslidebg-4.jpg');
+  background-size: cover;
+  background-position: left bottom;
+
+  .slideContent  {
+    width: 390px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 15%;
+    text-align: right !important;
+  }
+}
+
+.feature4 {
+  background: url('../img/featureslidebg.jpg');
+  background-size: cover;
+  background-position: right top;
+
+  .slideContent  {
+    width: 390px;
+    float: left;
+    margin-top: 500px;
+    margin-left: 15%;
+    text-align: right !important;
+
+    h1, h3, a {
+      color: teal !important;
+    }
+  }
+}
+
+
 .contentWrap {
   box-sizing: border-box;
   position: relative;
-  width: 930px;
+  width: $bpfull;
   margin: 0 auto;
   // border: 1px solid teal;
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: $bpfull) {
     width: 100%;
   }
 }
@@ -76,15 +205,28 @@ header {
 .controlWrap {
   position: absolute;
   width: 100%;
-  height: 60px;
+  height: auto;
+  padding-bottom: 15px;
   background: #333;
-  top: 592px;
+  top: 642px;
   left: -8px;
 
   .filter {
     display: inline-block;
     padding: 5px 15px;
     background: #999;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .sort {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #666;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 3px;
@@ -100,20 +242,27 @@ header {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 1s ease;
   }
 
   button.active{
-    background: #68b8c4;
+    // background: #68b8c4;
+    background: teal;
   }
 
   button:focus{
     outline: 0 none;
   }
 
+  button:hover {
+    background: lightblue;
+    transition: all 1s ease;
+  }
+
   label {
     text-transform: uppercase;
     font-size: 12px;
-    margin: 3px 10px 0 0;
+    margin: 3px 10px 0 20px;
     color: #ddd !important;
   }
 }
@@ -129,13 +278,14 @@ header {
   // display: inline-block;
   //background: #212121;
   height: 100%;
-  width: 930px;
+  width: $bpfull;
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
   // text-align: justify;
+  // border: 1px solid teal;
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: $bpfull) {
     width: 100%;
   }
 
@@ -146,7 +296,7 @@ header {
     // border: 1px solid #999;
     box-shadow: 1px 1px 2px #bbb;
     // width: 30%;
-    height: 350px;
+    height: 400px;
     margin: 1% 10px;
     background: white;
     overflow: hidden;
@@ -235,3 +385,4 @@ header {
 #mixWrap .mix{
   display: none;
 }
+
