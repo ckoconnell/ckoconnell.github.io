@@ -35,6 +35,10 @@
         font-family: Avenir, sans-serif;
     }
 
+    .node-unpublished {
+        background-color: #fff;
+    }
+
     .fullbleedWrap {
         position: relative;
         width: 100%;
@@ -47,22 +51,17 @@
     .fullbleedWrap .imgWrap h1 {
         font-size: 36px;
         font-weight: 600;
-        position: absolute;
-        top: 4%;
-        left: 10%;
         line-height: 1em;
-        width: 44%;
         color: #232323;
+        margin-bottom: 10px;
     }
 
     .fullbleedWrap .imgWrap h3 {
         font-size: 18px;
         font-weight: 100;
-        position: absolute;
         font-style: italic;
-        top: 15%;
-        left: 10%;
         line-height: 1em;
+        margin-top: 0;
         color: #555;
     }
 
@@ -89,7 +88,7 @@
     }
 
     .fullbleedWrap p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 100;
         box-sizing: border-box;
         display: inline-block;
@@ -124,6 +123,13 @@
         box-sizing: border-box;
         position: relative;
         display: block;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        top: 2%;
+        left: 15%;
+        width: 600px;
     }
 
     .fullbleedWrap .imgWrap img {
@@ -203,9 +209,11 @@
 
 <div class="fullbleedWrap">
     <div class="imgWrap">
-        <h1>Jonathan Siegrist Found Roots in Colorado’s Classic Routes</h1>
-        <h3>Byline & Photo Credit</h3>
-        <img src="http://blog-media.arcteryx.com/images/articles/denverBlog6.jpg" />
+        <div class="titleWrap">
+            <h1>Jonathan Siegrist Found Roots in Colorado’s Classic Routes</h1>
+            <h3>Byline & Photo Credit</h3>
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/denverBlog6_tall2.jpg" />
     </div>
 
     <p>When asked about his favourite routes in the Front Range of Colorado where he grew up and learned to climb, Jonathan Siegrist, clearly a history buff, had no trouble rattling off a dozen different routes at different crags—all with credit given to the first ascentionist.</p>
