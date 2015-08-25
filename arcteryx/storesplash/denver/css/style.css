@@ -208,11 +208,25 @@ p {
 /* line 197, ../scss/style.scss */
 .contestWrap {
   width: 100%;
-  margin: 30px 0 60;
-  background: url("../img/storeinterior.jpg");
+  margin: 30px 0 60px;
+  background: url("../img/storeexterior.jpg") no-repeat;
+  background-size: 100%;
   height: 450px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
 }
-/* line 203, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 197, ../scss/style.scss */
+  .contestWrap {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin-bottom: 100px;
+  }
+}
+/* line 219, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 300px;
   position: relative;
@@ -221,21 +235,33 @@ p {
   padding: 30px;
   margin-top: 150px;
 }
-/* line 212, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 219, ../scss/style.scss */
+  .contestWrap .blackBox {
+    width: 100%;
+    margin-top: 300px;
+    padding: 20px;
+  }
+}
+/* line 234, ../scss/style.scss */
 .contestWrap h1 {
   font-family: 'Avenir LT W01 85 Heavy', sans-serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
-/* line 219, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .contestWrap h3 {
-  font-size: 15px;
-  line-height: 1.3em;
+  font-size: 14px;
+  line-height: 1.4em;
   max-width: 500px;
 }
+/* line 247, ../scss/style.scss */
+.contestWrap sup {
+  line-height: 1em !important;
+}
 
-/* line 226, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .blogWrap {
   margin-top: 30px;
   width: 100%;
@@ -243,44 +269,75 @@ p {
   position: relative;
   box-sizing: border-box;
   background: #333;
+  background: url("../img/denverBlogSecondary2.jpg");
 }
-/* line 234, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 252, ../scss/style.scss */
+  .blogWrap {
+    width: 100%;
+  }
+}
+/* line 266, ../scss/style.scss */
 .blogWrap .blackBox {
-  width: 300px;
+  width: 330px;
   box-sizing: border-box;
   background: black;
   padding: 30px;
-  text-align: right;
+  text-align: left;
   position: relative;
   margin-top: 60px;
   display: inline-block;
+  float: right;
 }
-/* line 244, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 266, ../scss/style.scss */
+  .blogWrap .blackBox {
+    width: 100%;
+    margin-top: 350px;
+    padding: 20px;
+  }
+}
+/* line 283, ../scss/style.scss */
 .blogWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.3em;
 }
-/* line 253, ../scss/style.scss */
+/* line 292, ../scss/style.scss */
 .blogWrap .blackBox a {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 13px;
   color: white;
   border: 1px solid white;
-  padding: 6px 15px 5px 15px;
+  padding: 6px 15px 6px 15px;
   display: inline-block;
 }
 
-/* line 265, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .finePrint {
   text-align: center;
   font-size: 11px;
-  margin-top: 50px;
+  position: relative;
+  display: block;
   color: #ddd;
+  margin: 0 auto;
+}
+/* line 312, ../scss/style.scss */
+.finePrint p {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 60%;
+}
+@media screen and (max-width: 650px) {
+  /* line 312, ../scss/style.scss */
+  .finePrint p {
+    width: 90%;
+  }
 }
 
-/* line 272, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -295,7 +352,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 288, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -308,12 +365,12 @@ p {
   overflow: scroll;
 }
 
-/* line 301, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 305, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -328,7 +385,7 @@ p {
   z-index: 90;
 }
 
-/* line 319, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -341,13 +398,13 @@ p {
   font-weight: 900;
 }
 
-/* line 332, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 389, ../scss/style.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -357,12 +414,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 346, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 350, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -373,7 +430,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 361, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;

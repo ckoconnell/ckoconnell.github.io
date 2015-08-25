@@ -487,24 +487,27 @@ Main components
 
   .heroImage {
     margin: 0 0 -15px 0;
+    position: relative;
+    display: inline-block;
     img {
       width: 100%;
       height: auto;
     }
 
     h3 {
+      font-family: 'Bangers', cursive;
       position: absolute;
-      left: 5%;
-      top: 70%;
+      left: 7%;
+      bottom: 50%;
       width: 35%;
-      color: #333;
+      color: #ddd;
       text-align: right;
-      line-height: 1.2em;
-      font-size: 1.3em;
+      line-height: 0.9em;
+      font-size: 3em;
       box-sizing: border-box;
       padding: 30px;
       background: #ddd;
-      opacity: .8;
+      opacity: .95;
       font-weight: 100;
     }
 
@@ -512,9 +515,7 @@ Main components
       background: none !important;
       font-weight: 100;
       font-style: normal;
-      top: 15% !important;
       text-align: left !important;
-      left: 0%;
       min-width: 350px !important;
     }
   }
@@ -590,9 +591,11 @@ Main components
     color: white;
     text-align: center;
     font-weight: 900;
-    font-size: 1.3em;
+    font-size: 1.3em !important;
     font-style: italic;
     margin-bottom: 30px;
+    background: none !important;
+    font-family: 'Avenir', serif !important;
     // text-shadow: 1px 1px 1px #000;
     text-transform: none !important;
   }
@@ -600,6 +603,7 @@ Main components
    h4 {
      font-size: 0.8em;
      text-align: center;
+     margin-top: 50px;
      margin-bottom: 45px;
      // font-family: Georgia, sans-serif;
      font-style: italic;

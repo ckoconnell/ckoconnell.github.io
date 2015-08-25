@@ -510,45 +510,46 @@ svg .socialVimeo {
 /* line 488, ../scss/style.scss */
 .cd-scrolling-bg .heroImage {
   margin: 0 0 -15px 0;
+  position: relative;
+  display: inline-block;
 }
-/* line 490, ../scss/style.scss */
+/* line 492, ../scss/style.scss */
 .cd-scrolling-bg .heroImage img {
   width: 100%;
   height: auto;
 }
-/* line 495, ../scss/style.scss */
+/* line 497, ../scss/style.scss */
 .cd-scrolling-bg .heroImage h3 {
+  font-family: 'Bangers', cursive;
   position: absolute;
-  left: 5%;
-  top: 70%;
+  left: 7%;
+  bottom: 50%;
   width: 35%;
-  color: #333;
+  color: #ddd;
   text-align: right;
-  line-height: 1.2em;
-  font-size: 1.3em;
+  line-height: 0.9em;
+  font-size: 3em;
   box-sizing: border-box;
   padding: 30px;
   background: #ddd;
-  opacity: .8;
+  opacity: .95;
   font-weight: 100;
 }
-/* line 511, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .cd-scrolling-bg .heroImage .welcome {
   background: none !important;
   font-weight: 100;
   font-style: normal;
-  top: 15% !important;
   text-align: left !important;
-  left: 0%;
   min-width: 350px !important;
 }
-/* line 522, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 .cd-scrolling-bg .quoteAttr {
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 528, ../scss/style.scss */
+/* line 529, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote {
   font-family: Georgia, sans-serif;
   font-style: italic;
@@ -558,7 +559,7 @@ svg .socialVimeo {
   font-size: 1.2em;
   z-index: 120 !important;
 }
-/* line 538, ../scss/style.scss */
+/* line 539, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:before {
   content: '\201C';
   font-size: 172px;
@@ -571,7 +572,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 551, ../scss/style.scss */
+/* line 552, ../scss/style.scss */
 .cd-scrolling-bg .pullQuote:after {
   content: '\201D';
   font-size: 172px;
@@ -584,7 +585,7 @@ svg .socialVimeo {
   font-family: Georgia, sans-serif !important;
   z-index: -1 !important;
 }
-/* line 564, ../scss/style.scss */
+/* line 565, ../scss/style.scss */
 .cd-scrolling-bg p {
   color: #222;
   line-height: 1.9em;
@@ -600,7 +601,7 @@ svg .socialVimeo {
     font-weight: 300;
   }
 }
-/* line 577, ../scss/style.scss */
+/* line 578, ../scss/style.scss */
 .cd-scrolling-bg h1 {
   color: #444;
   text-align: center;
@@ -609,35 +610,38 @@ svg .socialVimeo {
   line-height: 1.3em;
   margin-top: 45px;
 }
-/* line 588, ../scss/style.scss */
+/* line 589, ../scss/style.scss */
 .cd-scrolling-bg h3 {
   color: white;
   text-align: center;
   font-weight: 900;
-  font-size: 1.3em;
+  font-size: 1.3em !important;
   font-style: italic;
   margin-bottom: 30px;
+  background: none !important;
+  font-family: 'Avenir', serif !important;
   text-transform: none !important;
 }
-/* line 600, ../scss/style.scss */
+/* line 603, ../scss/style.scss */
 .cd-scrolling-bg h4 {
   font-size: 0.8em;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 45px;
   font-style: italic;
 }
 
-/* line 611, ../scss/style.scss */
+/* line 615, ../scss/style.scss */
 .intro {
   padding: 0 0 !important;
 }
 
-/* line 615, ../scss/style.scss */
+/* line 619, ../scss/style.scss */
 .bolder {
   font-weight: 800;
 }
 
-/* line 619, ../scss/style.scss */
+/* line 623, ../scss/style.scss */
 .spaceAbove {
   padding-top: 60px;
 }

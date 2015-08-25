@@ -35,6 +35,10 @@
         font-family: Avenir, sans-serif;
     }
 
+    .node-unpublished {
+        background-color: white !important;
+    }
+
     .fullbleedWrap {
         position: relative;
         width: 100%;
@@ -45,16 +49,19 @@
     }
 
     .fullbleedWrap .imgWrap h1 {
-        font-size: 36px;
-        font-weight: 600;
+        font-size: 72px;
+        font-weight: 900;
         position: absolute;
         top: 4%;
-        left: 10%;
-        line-height: 1em;
+        left: 9%;
+        line-height: .8em;
+        text-transform: uppercase;
+        color: #222 !important;
+        opacity: 0.25;
     }
 
     .fullbleedWrap p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 100;
         box-sizing: border-box;
         display: inline-block;
@@ -68,16 +75,16 @@
     .fullbleedWrap .pullquote {
         font-style: italic;
         text-align: center;
-        font-weight: 600;
+        font-weight: 900;
         font-size: 24px;
         width: 70%;
-        color: #555;
+        color: #666;
         margin: 0 auto;
         max-width: 700px !important;
         padding-left: 0 !important;
         display: block !important;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         line-height: 1.3em;
     }
 
@@ -94,25 +101,36 @@
     }
 
     .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        min-height: 400px;
-        max-width: 1500px;
-        background: #efefef;
-        box-sizing: border-box;
-        text-align: center;
-        color: #666;
-        padding-top: 100px;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .fullbleedWrap .imgWrap h1 {
+            top: 30px;
+            left: 15px;
+        }
     }
 
     @media screen and (max-width: 500px) {
 
         .fullbleedWrap .imgWrap h1 {
-            font-size: 24px;
+            font-size: 54px;
             font-weight: 600;
             position: absolute;
-            line-height: 28px;
-            top: -20px;
+            line-height: 0.8em;
             left: 15px;
+            top: 5px;
         }
 
         .fullbleedWrap p {
@@ -127,7 +145,7 @@
 
 <div class="fullbleedWrap">
     <div class="imgWrap">
-        <h1>Unconventional<br>Tuesday's</h1>
+        <h1>Inspired<br>Design</h1>
         <img src="http://blog-media.arcteryx.com/images/articles/commitHero.jpg" />
     </div>
 
@@ -135,8 +153,9 @@
         <img src="http://blog-media.arcteryx.com/images/articles/commitImg1.jpg" />
     </div>
 
-    <p>Mike Blenkarn is an original, a creative thinker and a fixture in the R&D Department at Arc’teryx. A huge part of how he figures out what needs to be created and how to make it work best is through being outside and active.</p>
-    <p>While his approach might be seen as unconventional to some, it has proven true for Mike, time and again. He goes out, he tries his own designs, he tinkers, he tests, he goes back to make revisions and then he heads out again. Some ideas he has pursued for over ten years. He doesn’t give up despite poor results, substandard materials or outright failures to hit the solution.</p>
+    <p>Mike Blenkarn is an original, a creative thinker and a fixture in the R&D Department at Arc’teryx. A huge part of how he figures out what needs to be created and how to make it work best is through being outside and active. </p>
+    <p>Mike has working on GORE-TEX® jackets since 1977; that’s 38 years of trial and tinkering. He uses them skiing and fishing – his other full-time passion. A devoted flyfisherman, Mike is well acquainted with wet weather, leaks and the joy of something that works well every time he needs it to; hence his insistence on field tests and his personal relationships with industry professionals. He relies on and trusts their feedback to supplement his own observations.</p>
+    <p>While his approach might be seen as unconventional to some, it has proven true for Mike, time and again. He goes out, he tries his own designs, he tinkers, he tests, he goes back to make revisions and then he heads out again. He doesn’t give up despite poor results, substandard materials or outright failures to hit the solution. </p>
     <p>If Mike believes there is a way to make something better, you can bet he will be out there, talking to people, researching fabrics and glues, making turns and trying out theories.</p>
 
     <div class="imgWrap">
@@ -147,7 +166,7 @@
 
 
     <div class="videoWrap">
-        <h1>Video Goes Here</h1>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/F1OcZn6DN0s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <p class="pullquote">“To be effective, you’ve got to be obsessed.”</p>
