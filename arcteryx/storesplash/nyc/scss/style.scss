@@ -134,7 +134,7 @@ p {
     }
 
     @media screen and (max-width: 700px) {
-      width: 90%;
+      width: 95%;
     }
   }
 
@@ -179,8 +179,42 @@ p {
     width: 100%;
     height: 230px;
     margin-top: 15px;
-    background: url('../img/nycmap.jpg');
-    background-size: cover;
+    background: url('../img/nycmaplarge.jpg');
+    background-size: 700px;
+    background-position: 51% 60%;
+
+    .markerWrap {
+      position: absolute;
+      top: 42%;
+      left: 38%;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      background-color: #333;
+      background-image: url('../img/markerLogo.png');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      background-position: 50% 50%;
+      z-index: 100;
+
+      @media screen and (max-width: 700px) {
+        top: 42%;
+        left: 42%;
+      }
+    }
+
+    .markerWrap:after {
+      position: relative;
+      display: block;
+      height: 15px;
+      width: 15px;
+      content: '';
+      background: #333;
+      z-index: -1;
+      margin-left: 8px;
+      margin-top: 18px;
+      transform: rotate(45deg)
+    }
   }
 }
 
