@@ -121,6 +121,14 @@ p {
 .mainWrap {
   margin-bottom: 60px;
 
+  .margLeft {
+    margin-left: 30px;
+
+    @media screen and (max-width: 700px) {
+      margin-left: 0;
+    }
+  }
+
   .colWrap {
     width: 44%;
     box-sizing: border-box;
@@ -174,30 +182,47 @@ p {
     margin-bottom: 5px;
   }
 
+  .mapHead {
+    padding: 10px 15px;
+    background: #333;
+    margin-bottom: -15px;
+    font-size: 15px;
+
+    @media screen and (max-width: 700px) {
+      margin: 0 auto;
+      margin-bottom: -15px;
+      margin-top: 30px;
+    }
+  }
+
   .mapWrap {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 230px;
+    height: 290px;
     margin-top: 15px;
     background: url('../img/denverMap.jpg') no-repeat;
     background-size: 500px;
     background-position: 53% 63%;
+    z-index: 10;
 
+    @media screen and (max-width: 700px) {
+      background-size: 700px;
+
+    }
 
     .markerWrap {
       position: absolute;
       top: 39%;
       left: 51%;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 15px;
       background-color: #333;
-      background-image: url('../img/markerLogo.png');
+      background-image: url('../img/birdmarker.png');
       background-repeat: no-repeat;
       background-size: 20px;
       background-position: 50% 50%;
-      z-index: 100;
 
       @media screen and (max-width: 700px) {
         top: 40%;
@@ -206,18 +231,17 @@ p {
     }
 
     .markerWrap:after {
-      position: relative;
-      display: block;
-      height: 15px;
-      width: 15px;
+      height: 14px;
+      width: 14px;
       content: '';
       background: #333;
+      left: 7px;
+      top: 17px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      position: absolute;
       z-index: -1;
-      margin-left: 8px;
-      margin-top: 18px;
-      transform: rotate(45deg)
     }
-
   }
 }
 
@@ -240,9 +264,9 @@ p {
   box-sizing: border-box;
   margin-bottom: 0px;
 
-
-
-
+  @media screen and (max-width: 700px) {
+    height: 350px;
+  }
 
   @media screen and (max-width: 650px) {
     height: 350px;
@@ -350,11 +374,17 @@ p {
     text-align: center;
     margin: 0 auto;
     padding-top: 50px;
-    width: 60%;
+    width: 70%;
+
+    @media screen and (max-width: 700px) {
+      padding-top: 10px;
+    }
 
     @media screen and (max-width: 650px) {
-      width: 90%;
+      width: 80%;
     }
+
+
   }
 }
 

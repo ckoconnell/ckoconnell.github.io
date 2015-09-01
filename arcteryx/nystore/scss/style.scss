@@ -161,6 +161,140 @@ Main components
 	z-index: index($main-elements, main-content); // see partials > _variables.scss
 }
 
+.cd-bg-1 {
+  background-image: url('../img/bg1.jpg');
+  background-position: right center;
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg1.jpg');
+  }
+}
+
+.cd-bg-2 {
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg2.jpg');
+  }
+}
+
+.cd-bg-4 {
+  background-image: url('../img/bg4.jpg');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg4.jpg');
+  }
+}
+
+.cd-bg-5 {
+  background-image: url('../img/bg5.jpg');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg5.jpg');
+  }
+}
+
+.cd-bg-6 {
+  background-image: url('../img/bg6.jpg');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg6.jpg');
+  }
+}
+
+.cd-bg-7 {
+  background-image: url('../img/bg7.jpg');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('../img/bg7.jpg');
+  }
+}
+
+.cd-bg-8 {
+  background-image: url('');
+  background-size: cover;
+  @media screen and (min-width: $imgbp) {
+    background-image: url('');
+  }
+}
+
+.cd-bg-9 {
+  background-image: url('');
+  @media screen and (min-width: $imgbp) {
+    background-image: url('');
+  }
+}
+
+.cd-bg-10 {
+  background-image: url('');
+  @media screen and (min-width: $imgbp) {
+    background-image: url('');
+  }
+}
+
+.metaWrap {
+  position: absolute;
+  bottom: 1%;
+  left: 4%;
+  width: 50px;
+  height: 80px;
+  background: url('../img/camera-icon.png') no-repeat;
+  background-size: 40px;
+  cursor: pointer;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .land {
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+  }
+
+  .metaInfo {
+    position: absolute;
+    display:block;
+    width: auto;
+    min-width: 375px;
+    max-width: 450px;
+    height: auto;
+    background: #ccc;
+    margin-top: -310px;
+    box-sizing: border-box;
+    padding: 15px;
+    opacity: .85;
+    min-height: 50px;
+    bottom: 90px;
+    left: -550px;
+    transition: all 1s;
+    font-style: italic;
+
+    h3 {
+      font-size: 16px !important;
+      font-weight: 500 !important;
+      line-height: 24px !important;
+      color: #000 !important;
+      font-style: normal;
+      text-align: left;
+    }
+  }
+
+  .metaInfo:after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: teal;
+    content: '';
+  }
+}
+
+.showHide {
+  left: 0px !important;
+  transition: left 1s;
+}
+
 .cd-fixed-bg {
 	position: relative;
 	min-height: 100%;
@@ -197,72 +331,6 @@ Main components
       line-height: 1.3em;
     }
 
-	&.cd-bg-1 {
-      background-image: url('../img/bg1.jpg');
-      background-position: right center;
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg1.jpg');
-      }
-	}
-
-	&.cd-bg-2 {
-      background-image: url('../img/bg2.jpg');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg2.jpg');
-      }
-	}
-
-	&.cd-bg-4 {
-		background-image: url('../img/bg4.jpg');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg4.jpg');
-      }
-	}
-
-    &.cd-bg-5 {
-      background-image: url('../img/bg5.jpg');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg5.jpg');
-      }
-    }
-
-    &.cd-bg-6 {
-      background-image: url('../img/bg6.jpg');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg6.jpg');
-      }
-    }
-
-    &.cd-bg-7 {
-      background-image: url('../img/bg7.jpg');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('../img/bg7.jpg');
-      }
-    }
-
-    &.cd-bg-8 {
-      background-image: url('');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('');
-      }
-    }
-
-    &.cd-bg-9 {
-      background-image: url('');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('');
-      }
-    }
-
-    &.cd-bg-10 {
-      background-image: url('');
-      @media screen and (min-width: $imgbp) {
-        background-image: url('');
-      }
-    }
-
-
-
   .withBG {
     left: 5% !important;
     width: 40%;
@@ -285,66 +353,9 @@ Main components
     }
   }
 
-  .showHide {
-    left: 0px !important;
-    transition: left 1s;
-  }
 
-  .metaWrap {
-    position: absolute;
-    bottom: 1%;
-    left: 3%;
-    width: 50px;
-    height: 80px;
-    background: url('../img/camera-icon.png') no-repeat;
-    background-size: 40px;
-    cursor: pointer;
 
-    svg {
-      width: 20px;
-      height: 20px;
-    }
 
-    .land {
-      fill: #fff;
-      width: 50px;
-      height: 50px;
-    }
-
-    .metaInfo {
-      position: absolute;
-      display:block;
-      width: auto;
-      min-width: 375px;
-      max-width: 450px;
-      height: auto;
-      background: #ccc;
-      margin-top: -310px;
-      box-sizing: border-box;
-      padding: 15px;
-      opacity: .85;
-      min-height: 50px;
-      bottom: 90px;
-      left: -550px;
-      transition: all 1s;
-      font-style: italic;
-
-      h3 {
-        font-size: 14px;
-        font-weight: 900;
-        line-height: 17px;
-        color: #000 !important;
-      }
-    }
-
-    .metaInfo:after {
-      position: absolute;
-      width: 15px;
-      height: 15px;
-      color: teal;
-      content: '';
-    }
-  }
 
 	@include MQ(M) {
 		h1, h2 {
@@ -360,6 +371,11 @@ Main components
 			font-weight: 300;
 		}
 	}
+}
+
+.text {
+  height: auto !important;
+  min-height: 0 !important;
 }
 
 .topCTA {
@@ -442,12 +458,17 @@ Main components
 }
 
 .cd-scrolling-bg {
-	position: relative;
-	// min-height: 100%;
-	padding: 3em 0 !important;
-	line-height: 1.6;
-	box-shadow: 0 0 20px rgba(#000, .5);
-	z-index: index($bg-elements, scrolling-bg); // see partials > _variables.scss
+  position: relative;
+  font-size: 1.25rem;
+  line-height: 2;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 92%;
+  height: auto;
+  margin: 0 4%;
+  min-height: 100%;
+  margin-bottom: 4%;
+
 
 	&.cd-color-1 {
 		background-color: #bbb;
@@ -455,7 +476,7 @@ Main components
 	}
 
 	&.cd-color-2 {
-		background-color: #eee !important;
+		background-color: #fff !important;
 		color: black !important;
       // background: url('../img/mapBW.jpg') no-repeat;
 	}
@@ -495,7 +516,7 @@ Main components
     }
 
     h3 {
-      font-family: 'Bangers', cursive;
+      // font-family: 'Bangers', cursive;
       position: absolute;
       left: 7%;
       bottom: 50%;
@@ -503,7 +524,7 @@ Main components
       color: #ddd;
       text-align: right;
       line-height: 0.9em;
-      font-size: 3em;
+      font-size: 1em;
       box-sizing: border-box;
       padding: 30px;
       background: #ddd;
@@ -569,7 +590,7 @@ Main components
     }
 
 	@include MQ(M) {
-		padding: 6em 0;
+		padding: 2em 0;
 		@include font-size(20px);
 		line-height: 2;
 		font-weight: 300;
@@ -591,7 +612,7 @@ Main components
     color: white;
     text-align: center;
     font-weight: 900;
-    font-size: 1.3em !important;
+    font-size: 1.3em;
     font-style: italic;
     margin-bottom: 30px;
     background: none !important;
@@ -611,6 +632,7 @@ Main components
      // text-shadow: 1px 1px 1px #000;
    }
 }
+
 
 .intro {
   padding: 0 0 !important;

@@ -127,6 +127,16 @@ p {
   margin-bottom: 60px;
 }
 /* line 124, ../scss/style.scss */
+.mainWrap .margLeft {
+  margin-left: 30px;
+}
+@media screen and (max-width: 700px) {
+  /* line 124, ../scss/style.scss */
+  .mainWrap .margLeft {
+    margin-left: 0;
+  }
+}
+/* line 132, ../scss/style.scss */
 .mainWrap .colWrap {
   width: 44%;
   box-sizing: border-box;
@@ -135,38 +145,38 @@ p {
   vertical-align: top;
 }
 @media screen and (max-width: 930px) {
-  /* line 124, ../scss/style.scss */
+  /* line 132, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 46%;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 124, ../scss/style.scss */
+  /* line 132, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 95%;
   }
 }
-/* line 142, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 .mainWrap h1 {
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 147, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .mainWrap h3 {
   font-size: 1em;
   font-weight: 100 !important;
   margin-bottom: 10px;
   line-height: 1.3em;
 }
-/* line 154, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 .mainWrap p {
   font-weight: 300 !important;
 }
-/* line 158, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 .mainWrap ul {
   margin-bottom: 30px;
 }
-/* line 161, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .mainWrap ul li {
   list-style: square;
   width: 70%;
@@ -174,74 +184,95 @@ p {
   margin-bottom: 5px;
   font-size: 15px;
 }
-/* line 170, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .mainWrap a {
   display: block;
   font-weight: 100 !important;
   font-size: 14px;
   margin-bottom: 5px;
 }
-/* line 177, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
+.mainWrap .mapHead {
+  padding: 10px 15px;
+  background: #333;
+  margin-bottom: -15px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  /* line 185, ../scss/style.scss */
+  .mainWrap .mapHead {
+    margin: 0 auto;
+    margin-bottom: -15px;
+    margin-top: 30px;
+  }
+}
+/* line 198, ../scss/style.scss */
 .mainWrap .mapWrap {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 290px;
   margin-top: 15px;
   background: url("../img/denverMap.jpg") no-repeat;
   background-size: 500px;
   background-position: 53% 63%;
+  z-index: 10;
 }
-/* line 188, ../scss/style.scss */
+@media screen and (max-width: 700px) {
+  /* line 198, ../scss/style.scss */
+  .mainWrap .mapWrap {
+    background-size: 700px;
+  }
+}
+/* line 214, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap {
   position: absolute;
   top: 39%;
   left: 51%;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 15px;
   background-color: #333;
-  background-image: url("../img/markerLogo.png");
+  background-image: url("../img/birdmarker.png");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: 50% 50%;
-  z-index: 100;
 }
 @media screen and (max-width: 700px) {
-  /* line 188, ../scss/style.scss */
+  /* line 214, ../scss/style.scss */
   .mainWrap .mapWrap .markerWrap {
     top: 40%;
     left: 52%;
   }
 }
-/* line 208, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap:after {
-  position: relative;
-  display: block;
-  height: 15px;
-  width: 15px;
+  height: 14px;
+  width: 14px;
   content: '';
   background: #333;
-  z-index: -1;
-  margin-left: 8px;
-  margin-top: 18px;
+  left: 7px;
+  top: 17px;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  z-index: -1;
 }
 
-/* line 224, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 224, ../scss/style.scss */
+  /* line 248, ../scss/style.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 234, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .contestWrap {
   width: 100%;
   margin: 30px 0 60px;
@@ -251,8 +282,14 @@ p {
   box-sizing: border-box;
   margin-bottom: 0px;
 }
+@media screen and (max-width: 700px) {
+  /* line 258, ../scss/style.scss */
+  .contestWrap {
+    height: 350px;
+  }
+}
 @media screen and (max-width: 650px) {
-  /* line 234, ../scss/style.scss */
+  /* line 258, ../scss/style.scss */
   .contestWrap {
     height: 350px;
     width: 100%;
@@ -262,7 +299,7 @@ p {
     margin-bottom: 100px;
   }
 }
-/* line 256, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 300px;
   position: relative;
@@ -272,32 +309,32 @@ p {
   margin-top: 150px;
 }
 @media screen and (max-width: 650px) {
-  /* line 256, ../scss/style.scss */
+  /* line 280, ../scss/style.scss */
   .contestWrap .blackBox {
     width: 100%;
     margin-top: 300px;
     padding: 20px;
   }
 }
-/* line 271, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .contestWrap h1 {
   font-family: 'Avenir LT W01 85 Heavy', sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 15px;
 }
-/* line 278, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 .contestWrap h3 {
   font-size: 14px;
   line-height: 1.4em;
   max-width: 500px;
 }
-/* line 284, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 .contestWrap sup {
   line-height: 1em !important;
 }
 
-/* line 289, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 .blogWrap {
   margin-top: 60px;
   width: 100%;
@@ -308,12 +345,12 @@ p {
   background: url("../img/denverBlogSecondary2.jpg");
 }
 @media screen and (max-width: 650px) {
-  /* line 289, ../scss/style.scss */
+  /* line 313, ../scss/style.scss */
   .blogWrap {
     width: 100%;
   }
 }
-/* line 303, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .blogWrap .blackBox {
   width: 330px;
   box-sizing: border-box;
@@ -326,21 +363,21 @@ p {
   float: right;
 }
 @media screen and (max-width: 650px) {
-  /* line 303, ../scss/style.scss */
+  /* line 327, ../scss/style.scss */
   .blogWrap .blackBox {
     width: 100%;
     margin-top: 350px;
     padding: 20px;
   }
 }
-/* line 320, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 .blogWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.3em;
 }
-/* line 329, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 .blogWrap .blackBox a {
   margin-top: 20px;
   font-size: 13px;
@@ -350,7 +387,7 @@ p {
   display: inline-block;
 }
 
-/* line 341, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 .finePrint {
   text-align: center;
   font-size: 11px;
@@ -359,21 +396,27 @@ p {
   color: #ddd;
   margin: 0 auto;
 }
-/* line 349, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 .finePrint p {
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
-  width: 60%;
+  width: 70%;
+}
+@media screen and (max-width: 700px) {
+  /* line 373, ../scss/style.scss */
+  .finePrint p {
+    padding-top: 10px;
+  }
 }
 @media screen and (max-width: 650px) {
-  /* line 349, ../scss/style.scss */
+  /* line 373, ../scss/style.scss */
   .finePrint p {
-    width: 90%;
+    width: 80%;
   }
 }
 
-/* line 361, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -388,7 +431,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 377, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -401,12 +444,12 @@ p {
   overflow: scroll;
 }
 
-/* line 390, ../scss/style.scss */
+/* line 420, ../scss/style.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 394, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -421,7 +464,7 @@ p {
   z-index: 90;
 }
 
-/* line 408, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -434,13 +477,13 @@ p {
   font-weight: 900;
 }
 
-/* line 421, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 426, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -450,12 +493,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 435, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 439, ../scss/style.scss */
+/* line 469, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -466,7 +509,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 450, ../scss/style.scss */
+/* line 480, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;

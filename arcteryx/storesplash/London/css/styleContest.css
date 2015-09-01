@@ -169,17 +169,27 @@ p {
   text-transform: uppercase;
 }
 /* line 155, ../scss/styleContest.scss */
+.contentWrap .wbLogoWrap {
+  width: 120px;
+  height: 60px;
+  background: url("../img/wbLogo.png") no-repeat;
+  background-size: 105px;
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+/* line 166, ../scss/styleContest.scss */
 .contentWrap .howtoenter {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 158, ../scss/styleContest.scss */
+/* line 169, ../scss/styleContest.scss */
 .contentWrap .howtoenter ul {
   list-style: none;
   margin-left: -15px;
   vertical-align: top;
 }
-/* line 163, ../scss/styleContest.scss */
+/* line 174, ../scss/styleContest.scss */
 .contentWrap .howtoenter ul li {
   vertical-align: top;
   font-weight: 500;
@@ -191,26 +201,26 @@ p {
   margin-right: 50px;
 }
 @media screen and (max-width: 700px) {
-  /* line 163, ../scss/styleContest.scss */
+  /* line 174, ../scss/styleContest.scss */
   .contentWrap .howtoenter ul li {
     width: 80%;
   }
 }
-/* line 183, ../scss/styleContest.scss */
+/* line 194, ../scss/styleContest.scss */
 .contentWrap .bolder {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 188, ../scss/styleContest.scss */
+/* line 199, ../scss/styleContest.scss */
 .contentWrap .stepStyle {
   text-transform: uppercase;
   color: #aaa;
 }
-/* line 193, ../scss/styleContest.scss */
+/* line 204, ../scss/styleContest.scss */
 .contentWrap .rowWrap {
   width: 100%;
 }
-/* line 197, ../scss/styleContest.scss */
+/* line 208, ../scss/styleContest.scss */
 .contentWrap .socialLogos {
   width: 30%;
   height: 40px;
@@ -219,13 +229,13 @@ p {
   margin-top: 50px;
 }
 @media screen and (max-width: 700px) {
-  /* line 197, ../scss/styleContest.scss */
+  /* line 208, ../scss/styleContest.scss */
   .contentWrap .socialLogos {
     width: 100%;
     margin-top: 10px;
   }
 }
-/* line 209, ../scss/styleContest.scss */
+/* line 220, ../scss/styleContest.scss */
 .contentWrap .socialLogos a {
   width: 80px;
   height: 80px;
@@ -233,44 +243,44 @@ p {
   margin-right: 15px;
   margin-top: -10px;
 }
-/* line 216, ../scss/styleContest.scss */
+/* line 227, ../scss/styleContest.scss */
 .contentWrap .socialLogos a img {
   width: 70px;
   height: 70px;
 }
-/* line 227, ../scss/styleContest.scss */
+/* line 238, ../scss/styleContest.scss */
 .contentWrap .storeInfo {
   width: 65%;
   display: inline-block;
   margin: 45px 0;
 }
-/* line 231, ../scss/styleContest.scss */
+/* line 242, ../scss/styleContest.scss */
 .contentWrap .storeInfo h3, .contentWrap .storeInfo a {
   line-height: 0.8em;
 }
 @media screen and (max-width: 700px) {
-  /* line 231, ../scss/styleContest.scss */
+  /* line 242, ../scss/styleContest.scss */
   .contentWrap .storeInfo h3, .contentWrap .storeInfo a {
     line-height: 1em;
   }
 }
-/* line 241, ../scss/styleContest.scss */
+/* line 252, ../scss/styleContest.scss */
 .contentWrap .finePrint {
   margin: 60px 0px;
 }
-/* line 243, ../scss/styleContest.scss */
+/* line 254, ../scss/styleContest.scss */
 .contentWrap .finePrint p {
   font-size: 10px;
   line-height: 1.6em;
   text-align: center;
 }
 
-/* line 252, ../scss/styleContest.scss */
+/* line 263, ../scss/styleContest.scss */
 .prizing li {
   font-size: 15px !important;
 }
 
-/* line 258, ../scss/styleContest.scss */
+/* line 269, ../scss/styleContest.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
@@ -280,13 +290,13 @@ p {
   height: 500px;
   opacity: 1;
 }
-/* line 267, ../scss/styleContest.scss */
+/* line 278, ../scss/styleContest.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
   min-width: 300px;
 }
-/* line 272, ../scss/styleContest.scss */
+/* line 283, ../scss/styleContest.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -297,7 +307,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 283, ../scss/styleContest.scss */
+/* line 294, ../scss/styleContest.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
@@ -305,7 +315,7 @@ p {
   vertical-align: top;
 }
 
-/* line 296, ../scss/styleContest.scss */
+/* line 307, ../scss/styleContest.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -321,17 +331,17 @@ p {
   color: #333;
   transition: all 2s linear 1s;
 }
-/* line 311, ../scss/styleContest.scss */
+/* line 322, ../scss/styleContest.scss */
 #overlay p {
   color: #666;
 }
-/* line 315, ../scss/styleContest.scss */
+/* line 326, ../scss/styleContest.scss */
 #overlay h1 {
   text-transform: uppercase;
   font-weight: 600;
   color: #333;
 }
-/* line 321, ../scss/styleContest.scss */
+/* line 332, ../scss/styleContest.scss */
 #overlay h3 {
   font-weight: 600;
   margin-top: 30px;
@@ -339,7 +349,7 @@ p {
   color: #666;
 }
 
-/* line 330, ../scss/styleContest.scss */
+/* line 341, ../scss/styleContest.scss */
 #fade {
   display: none;
   position: absolute;
@@ -354,7 +364,7 @@ p {
   z-index: 90 !important;
 }
 
-/* line 344, ../scss/styleContest.scss */
+/* line 355, ../scss/styleContest.scss */
 #closeLink {
   position: fixed;
   color: black;
@@ -367,18 +377,18 @@ p {
   background: #eee;
 }
 
-/* line 356, ../scss/styleContest.scss */
+/* line 367, ../scss/styleContest.scss */
 #closeLink a {
   text-decoration: none;
 }
 
-/* line 360, ../scss/styleContest.scss */
+/* line 371, ../scss/styleContest.scss */
 #buttonWrap {
   background: #000;
   color: white;
 }
 
-/* line 367, ../scss/styleContest.scss */
+/* line 378, ../scss/styleContest.scss */
 #buttonWrap a {
   color: #fff;
   text-decoration: none;

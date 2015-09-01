@@ -269,6 +269,16 @@ p {
       float: none !important;
       margin-top: 0 !important;
     }
+
+    .wbLogo {
+      width: 120px;
+      height: 60px;
+      background: url('../img/wbLogo.png') no-repeat;
+      background-size: 105px;
+      position: absolute;
+      bottom: 0px;
+      right: 40px;
+    }
   }
 }
 
