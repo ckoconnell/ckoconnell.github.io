@@ -77,6 +77,12 @@ p {
     height: 200px;
     background: url('../img/logoNY.jpg') no-repeat;
     background-size: 150px;
+
+    @media screen and (max-width: 500px) {
+      width: 100px;
+      height: 150px;
+      background-size: 100px;
+    }
   }
 }
 
