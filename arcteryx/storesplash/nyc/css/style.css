@@ -290,7 +290,14 @@ p {
   background: url("../img/storeexterior.jpg");
   height: 450px;
 }
-/* line 273, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 267, ../scss/style.scss */
+  .contestWrap {
+    width: 100%;
+    background-position: 50% 25%;
+  }
+}
+/* line 278, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 300px;
   position: relative;
@@ -299,21 +306,21 @@ p {
   padding: 30px;
   margin-top: 150px;
 }
-/* line 282, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .contestWrap h1 {
   font-family: 'Avenir LT W01 85 Heavy', sans-serif;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 15px;
 }
-/* line 289, ../scss/style.scss */
+/* line 294, ../scss/style.scss */
 .contestWrap h3 {
   font-size: 15px;
   line-height: 1.3em;
   max-width: 500px;
 }
 
-/* line 296, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 .blogWrap {
   margin-top: 30px;
   width: 100%;
@@ -324,7 +331,14 @@ p {
   background: url("../img/gunksblog.jpg");
   background-size: cover;
 }
-/* line 306, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 301, ../scss/style.scss */
+  .blogWrap {
+    width: 100%;
+    background-position: 50% 25%;
+  }
+}
+/* line 316, ../scss/style.scss */
 .blogWrap .blackBox {
   width: 300px;
   box-sizing: border-box;
@@ -335,14 +349,23 @@ p {
   margin-top: 60px;
   display: inline-block;
 }
-/* line 316, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 316, ../scss/style.scss */
+  .blogWrap .blackBox {
+    width: 100%;
+    margin-top: 350px;
+    padding: 20px;
+    text-align: left;
+  }
+}
+/* line 333, ../scss/style.scss */
 .blogWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3em;
 }
-/* line 325, ../scss/style.scss */
+/* line 342, ../scss/style.scss */
 .blogWrap .blackBox a {
   margin-top: 20px;
   font-size: 14px;
@@ -352,7 +375,7 @@ p {
   display: inline-block;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .finePrint {
   text-align: center;
   font-size: 11px;
@@ -362,7 +385,7 @@ p {
   margin: 0 auto;
   margin-bottom: 60px;
 }
-/* line 346, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .finePrint p {
   text-align: center;
   margin: 0 auto;
@@ -370,19 +393,19 @@ p {
   width: 70%;
 }
 @media screen and (max-width: 700px) {
-  /* line 346, ../scss/style.scss */
+  /* line 363, ../scss/style.scss */
   .finePrint p {
     padding-top: 10px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 346, ../scss/style.scss */
+  /* line 363, ../scss/style.scss */
   .finePrint p {
     width: 80%;
   }
 }
 
-/* line 362, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -392,12 +415,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 371, ../scss/style.scss */
+/* line 388, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 375, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -408,7 +431,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 386, ../scss/style.scss */
+/* line 403, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
