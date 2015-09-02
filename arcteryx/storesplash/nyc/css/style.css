@@ -123,10 +123,37 @@ p {
 }
 
 /* line 120, ../scss/style.scss */
+.socialLink img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  padding-top: 15px;
+  vertical-align: bottom;
+}
+
+/* line 128, ../scss/style.scss */
+.socialText {
+  font-size: 20px;
+  vertical-align: baseline;
+  margin-top: 0px;
+  line-height: 16px;
+}
+
+/* line 135, ../scss/style.scss */
 .mainWrap {
   margin-bottom: 60px;
 }
-/* line 123, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
+.mainWrap .margLeft {
+  margin-left: 30px;
+}
+@media screen and (max-width: 700px) {
+  /* line 138, ../scss/style.scss */
+  .mainWrap .margLeft {
+    margin-left: 0;
+  }
+}
+/* line 146, ../scss/style.scss */
 .mainWrap .colWrap {
   width: 44%;
   box-sizing: border-box;
@@ -135,38 +162,38 @@ p {
   vertical-align: top;
 }
 @media screen and (max-width: 930px) {
-  /* line 123, ../scss/style.scss */
+  /* line 146, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 46%;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 123, ../scss/style.scss */
+  /* line 146, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 95%;
   }
 }
-/* line 141, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 .mainWrap h1 {
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 146, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .mainWrap h3 {
   font-size: 1em;
   font-weight: 100 !important;
   margin-bottom: 10px;
   line-height: 1.3em;
 }
-/* line 153, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .mainWrap p {
   font-weight: 300 !important;
 }
-/* line 157, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .mainWrap ul {
   margin-bottom: 30px;
 }
-/* line 160, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .mainWrap ul li {
   list-style: square;
   width: 70%;
@@ -174,81 +201,96 @@ p {
   margin-bottom: 5px;
   font-size: 15px;
 }
-/* line 169, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 .mainWrap a {
   display: block;
   font-weight: 100 !important;
   font-size: 14px;
   margin-bottom: 5px;
 }
-/* line 176, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
+.mainWrap .mapHead {
+  padding: 10px 15px;
+  background: #333;
+  margin-bottom: -15px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  /* line 199, ../scss/style.scss */
+  .mainWrap .mapHead {
+    margin: 0 auto;
+    margin-bottom: -15px;
+    margin-top: 30px;
+  }
+}
+/* line 212, ../scss/style.scss */
 .mainWrap .mapWrap {
+  background: url("../img/nycmaplarge.jpg") no-repeat;
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 290px;
   margin-top: 15px;
-  background: url("../img/nycmaplarge.jpg");
-  background-size: 700px;
-  background-position: 51% 60%;
+  background-size: 750px;
+  background-position: 53% 63%;
+  z-index: 10;
 }
-/* line 186, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap {
   position: absolute;
-  top: 42%;
-  left: 38%;
-  width: 30px;
-  height: 30px;
+  top: 44%;
+  left: 35%;
+  width: 28px;
+  height: 28px;
   border-radius: 15px;
   background-color: #333;
-  background-image: url("../img/markerLogo.png");
+  background-image: url("../img/birdmarker.png");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: 50% 50%;
-  z-index: 100;
 }
 @media screen and (max-width: 700px) {
-  /* line 186, ../scss/style.scss */
+  /* line 223, ../scss/style.scss */
   .mainWrap .mapWrap .markerWrap {
     top: 42%;
     left: 42%;
   }
 }
-/* line 206, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap:after {
-  position: relative;
-  display: block;
-  height: 15px;
-  width: 15px;
+  height: 14px;
+  width: 14px;
   content: '';
   background: #333;
-  z-index: -1;
-  margin-left: 8px;
-  margin-top: 18px;
+  left: 7px;
+  top: 17px;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  z-index: -1;
 }
 
-/* line 221, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 221, ../scss/style.scss */
+  /* line 257, ../scss/style.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 231, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .contestWrap {
   width: 100%;
   margin: 30px 0 60;
   background: url("../img/storeexterior.jpg");
   height: 450px;
 }
-/* line 237, ../scss/style.scss */
+/* line 273, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 300px;
   position: relative;
@@ -257,21 +299,21 @@ p {
   padding: 30px;
   margin-top: 150px;
 }
-/* line 246, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .contestWrap h1 {
   font-family: 'Avenir LT W01 85 Heavy', sans-serif;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 15px;
 }
-/* line 253, ../scss/style.scss */
+/* line 289, ../scss/style.scss */
 .contestWrap h3 {
   font-size: 15px;
   line-height: 1.3em;
   max-width: 500px;
 }
 
-/* line 260, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .blogWrap {
   margin-top: 30px;
   width: 100%;
@@ -282,7 +324,7 @@ p {
   background: url("../img/gunksblog.jpg");
   background-size: cover;
 }
-/* line 270, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 .blogWrap .blackBox {
   width: 300px;
   box-sizing: border-box;
@@ -293,14 +335,14 @@ p {
   margin-top: 60px;
   display: inline-block;
 }
-/* line 280, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .blogWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3em;
 }
-/* line 289, ../scss/style.scss */
+/* line 325, ../scss/style.scss */
 .blogWrap .blackBox a {
   margin-top: 20px;
   font-size: 14px;
@@ -310,7 +352,7 @@ p {
   display: inline-block;
 }
 
-/* line 301, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .finePrint {
   text-align: center;
   font-size: 11px;
@@ -318,7 +360,7 @@ p {
   color: #ddd;
 }
 
-/* line 308, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -333,7 +375,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 324, ../scss/style.scss */
+/* line 360, ../scss/style.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -346,12 +388,12 @@ p {
   overflow: scroll;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 341, ../scss/style.scss */
+/* line 377, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -366,7 +408,7 @@ p {
   z-index: 90;
 }
 
-/* line 355, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -379,13 +421,13 @@ p {
   font-weight: 900;
 }
 
-/* line 368, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 373, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -395,12 +437,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 382, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 386, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -411,7 +453,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 397, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
