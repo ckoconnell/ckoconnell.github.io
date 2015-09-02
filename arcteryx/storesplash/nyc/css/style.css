@@ -99,15 +99,16 @@ p {
   .heroWrap {
     min-height: 250px;
     background-size: cover !important;
+    background-position: 70%;
   }
 }
 
-/* line 101, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 .heroContent {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 105, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .heroContent h1 {
   font-size: 2.5em !important;
   line-height: 1em !important;
@@ -116,13 +117,13 @@ p {
   margin-bottom: 30px;
   max-width: 700px;
 }
-/* line 114, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 .heroContent h3 {
   font-weight: 600;
   line-height: 1.4em;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .socialLink img {
   width: 25px;
   height: 25px;
@@ -131,7 +132,7 @@ p {
   vertical-align: bottom;
 }
 
-/* line 128, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .socialText {
   font-size: 20px;
   vertical-align: baseline;
@@ -139,21 +140,21 @@ p {
   line-height: 16px;
 }
 
-/* line 135, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .mainWrap {
   margin-bottom: 60px;
 }
-/* line 138, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 .mainWrap .margLeft {
   margin-left: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 138, ../scss/style.scss */
+  /* line 139, ../scss/style.scss */
   .mainWrap .margLeft {
     margin-left: 0;
   }
 }
-/* line 146, ../scss/style.scss */
+/* line 147, ../scss/style.scss */
 .mainWrap .colWrap {
   width: 44%;
   box-sizing: border-box;
@@ -162,38 +163,38 @@ p {
   vertical-align: top;
 }
 @media screen and (max-width: 930px) {
-  /* line 146, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 46%;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 146, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .mainWrap .colWrap {
     width: 95%;
   }
 }
-/* line 164, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 .mainWrap h1 {
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 169, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .mainWrap h3 {
   font-size: 1em;
   font-weight: 100 !important;
   margin-bottom: 10px;
   line-height: 1.3em;
 }
-/* line 176, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 .mainWrap p {
   font-weight: 300 !important;
 }
-/* line 180, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 .mainWrap ul {
   margin-bottom: 30px;
 }
-/* line 183, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .mainWrap ul li {
   list-style: square;
   width: 70%;
@@ -201,14 +202,14 @@ p {
   margin-bottom: 5px;
   font-size: 15px;
 }
-/* line 192, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .mainWrap a {
   display: block;
   font-weight: 100 !important;
   font-size: 14px;
   margin-bottom: 5px;
 }
-/* line 199, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .mainWrap .mapHead {
   padding: 10px 15px;
   background: #333;
@@ -216,14 +217,14 @@ p {
   font-size: 15px;
 }
 @media screen and (max-width: 700px) {
-  /* line 199, ../scss/style.scss */
+  /* line 200, ../scss/style.scss */
   .mainWrap .mapHead {
     margin: 0 auto;
     margin-bottom: -15px;
     margin-top: 30px;
   }
 }
-/* line 212, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .mainWrap .mapWrap {
   background: url("../img/nycmaplarge.jpg") no-repeat;
   display: inline-block;
@@ -235,7 +236,7 @@ p {
   background-position: 53% 63%;
   z-index: 10;
 }
-/* line 223, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap {
   position: absolute;
   top: 44%;
@@ -250,13 +251,13 @@ p {
   background-position: 50% 50%;
 }
 @media screen and (max-width: 700px) {
-  /* line 223, ../scss/style.scss */
+  /* line 224, ../scss/style.scss */
   .mainWrap .mapWrap .markerWrap {
     top: 44%;
     left: 40%;
   }
 }
-/* line 242, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap:after {
   height: 14px;
   width: 14px;
@@ -270,20 +271,20 @@ p {
   z-index: -1;
 }
 
-/* line 257, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 257, ../scss/style.scss */
+  /* line 258, ../scss/style.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 267, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .contestWrap {
   width: 100%;
   margin: 30px 0 0;
@@ -291,13 +292,13 @@ p {
   height: 450px;
 }
 @media screen and (max-width: 650px) {
-  /* line 267, ../scss/style.scss */
+  /* line 268, ../scss/style.scss */
   .contestWrap {
     width: 100%;
     background-position: 50% 25%;
   }
 }
-/* line 278, ../scss/style.scss */
+/* line 279, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 300px;
   position: relative;
@@ -306,21 +307,21 @@ p {
   padding: 30px;
   margin-top: 150px;
 }
-/* line 287, ../scss/style.scss */
+/* line 288, ../scss/style.scss */
 .contestWrap h1 {
   font-family: 'Avenir LT W01 85 Heavy', sans-serif;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 15px;
 }
-/* line 294, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .contestWrap h3 {
   font-size: 15px;
   line-height: 1.3em;
   max-width: 500px;
 }
 
-/* line 301, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 .blogWrap {
   margin-top: 30px;
   width: 100%;
@@ -332,13 +333,13 @@ p {
   background-size: cover;
 }
 @media screen and (max-width: 650px) {
-  /* line 301, ../scss/style.scss */
+  /* line 302, ../scss/style.scss */
   .blogWrap {
     width: 100%;
     background-position: 50% 25%;
   }
 }
-/* line 316, ../scss/style.scss */
+/* line 317, ../scss/style.scss */
 .blogWrap .blackBox {
   width: 300px;
   box-sizing: border-box;
@@ -350,7 +351,7 @@ p {
   display: inline-block;
 }
 @media screen and (max-width: 650px) {
-  /* line 316, ../scss/style.scss */
+  /* line 317, ../scss/style.scss */
   .blogWrap .blackBox {
     width: 100%;
     margin-top: 350px;
@@ -358,14 +359,14 @@ p {
     text-align: left;
   }
 }
-/* line 333, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .blogWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3em;
 }
-/* line 342, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .blogWrap .blackBox a {
   margin-top: 20px;
   font-size: 14px;
@@ -375,7 +376,7 @@ p {
   display: inline-block;
 }
 
-/* line 354, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .finePrint {
   text-align: center;
   font-size: 11px;
@@ -385,7 +386,7 @@ p {
   margin: 0 auto;
   margin-bottom: 60px;
 }
-/* line 363, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .finePrint p {
   text-align: center;
   margin: 0 auto;
@@ -393,19 +394,19 @@ p {
   width: 70%;
 }
 @media screen and (max-width: 700px) {
-  /* line 363, ../scss/style.scss */
+  /* line 364, ../scss/style.scss */
   .finePrint p {
     padding-top: 10px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 363, ../scss/style.scss */
+  /* line 364, ../scss/style.scss */
   .finePrint p {
     width: 80%;
   }
 }
 
-/* line 379, ../scss/style.scss */
+/* line 380, ../scss/style.scss */
 .nffWrap {
   background: url("../img/newforfallheroSm.jpg") no-repeat;
   background-size: cover;
@@ -415,12 +416,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 388, ../scss/style.scss */
+/* line 389, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 392, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -431,7 +432,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 403, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
