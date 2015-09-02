@@ -252,8 +252,8 @@ p {
 @media screen and (max-width: 700px) {
   /* line 223, ../scss/style.scss */
   .mainWrap .mapWrap .markerWrap {
-    top: 42%;
-    left: 42%;
+    top: 44%;
+    left: 40%;
   }
 }
 /* line 242, ../scss/style.scss */
