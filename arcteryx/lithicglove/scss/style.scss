@@ -126,12 +126,14 @@ p {
   p {
     font-size: .9em;
     line-height: 1.8em;
+    text-align: right;
   }
 
   h3 {
     font-size: 1.3em;
     line-height: 1em;
     margin-bottom: 0;
+    text-align: right;
   }
 
   .detailWrap {
@@ -207,12 +209,14 @@ p {
   p {
     font-size: .9em;
     line-height: 1.8em;
+    text-align: right;
   }
 
   h3 {
     font-size: 1.3em;
     line-height: 1em;
     margin-bottom: 0;
+    text-align: right;
   }
 
   .detailWrap {
@@ -271,43 +275,54 @@ p {
   }
 }
 
-.austin {
+.athlete {
   margin-top: 120px;
+  padding-left: 5%;
+
+  .athleteImg {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+    }
+
+    h3 {
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+      margin-left: -15px;
+      margin-top: 0;
+    }
+  }
 
    .copyWrap {
-     width: 60%;
-     margin-left: 10%;
+     position: relative;
+     display: inline-block;
+     width: 800px;
+     margin-left: 1%;
      border-bottom: none !important;
+     vertical-align: top;
+     border-left: 1px solid #aaa;
+     padding-left: 45px;
    }
    p {
      font-style: italic;
-     font-size: 1.5em;
+     font-size: 1.1em;
+     line-height: 1.6em;
      width: 90%;
    }
    h4 {
-     font-size: 1.2em;
+     font-size: 1em;
      width: 100%;
      text-align: right;
    }
  }
 
-.mattias {
-  margin-top: 120px;
-
-  .copyWrap {
-    width: 60%;
-    margin-left: 10%;
-    border-bottom: none !important;
-  }
-  p {
-    font-style: italic;
-    font-size: 1.5em;
-    width: 90%;
-
-  }
-  h4 {
-    font-size: 1.2em;
-    width: 100%;
-    text-align: right;
-  }
-}

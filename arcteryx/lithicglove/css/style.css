@@ -135,14 +135,16 @@ p {
 .two p {
   font-size: .9em;
   line-height: 1.8em;
+  text-align: right;
 }
-/* line 131, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .two h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  text-align: right;
 }
-/* line 137, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 .two .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-102.jpg");
   background-position: 50%;
@@ -154,7 +156,7 @@ p {
   box-sizing: border-box;
 }
 
-/* line 149, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .three {
   margin-top: 120px;
   width: 100%;
@@ -164,7 +166,7 @@ p {
   background-position: 50%;
   box-sizing: border-box;
 }
-/* line 158, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 .three .copyWrap {
   width: 30%;
   float: right;
@@ -172,18 +174,18 @@ p {
   margin-right: 20%;
   box-sizing: border-box;
 }
-/* line 166, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 .three p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 171, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 .three h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
 }
-/* line 177, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .three .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-20.jpg");
   background-position: 50% 11%;
@@ -197,7 +199,7 @@ p {
   box-sizing: border-box;
 }
 
-/* line 191, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .four {
   width: 100%;
   height: auto;
@@ -207,25 +209,27 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 }
-/* line 200, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .four .copyWrap {
   width: 30%;
   float: left;
   margin-top: 120px;
   box-sizing: border-box;
 }
-/* line 207, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 .four p {
   font-size: .9em;
   line-height: 1.8em;
+  text-align: right;
 }
-/* line 212, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .four h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  text-align: right;
 }
-/* line 218, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .four .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-63.jpg");
   background-position: 50%;
@@ -239,7 +243,7 @@ p {
   box-sizing: border-box;
 }
 
-/* line 232, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .five {
   margin-top: 120px;
   width: 100%;
@@ -249,7 +253,7 @@ p {
   background-position: 50%;
   box-sizing: border-box;
 }
-/* line 241, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .five .copyWrap {
   width: 30%;
   float: right;
@@ -257,18 +261,18 @@ p {
   margin-right: 20%;
   box-sizing: border-box;
 }
-/* line 249, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 .five p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 254, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .five h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
 }
-/* line 260, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .five .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-81.jpg");
   background-position: 50% 11%;
@@ -282,48 +286,56 @@ p {
   box-sizing: border-box;
 }
 
-/* line 274, ../scss/style.scss */
-.austin {
+/* line 278, ../scss/style.scss */
+.athlete {
   margin-top: 120px;
-}
-/* line 277, ../scss/style.scss */
-.austin .copyWrap {
-  width: 60%;
-  margin-left: 10%;
-  border-bottom: none !important;
+  padding-left: 5%;
 }
 /* line 282, ../scss/style.scss */
-.austin p {
-  font-style: italic;
-  font-size: 1.5em;
-  width: 90%;
+.athlete .athleteImg {
+  width: 150px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 20px;
 }
-/* line 287, ../scss/style.scss */
-.austin h4 {
-  font-size: 1.2em;
-  width: 100%;
-  text-align: right;
-}
-
-/* line 294, ../scss/style.scss */
-.mattias {
-  margin-top: 120px;
+/* line 291, ../scss/style.scss */
+.athlete .athleteImg img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
 }
 /* line 297, ../scss/style.scss */
-.mattias .copyWrap {
-  width: 60%;
-  margin-left: 10%;
-  border-bottom: none !important;
+.athlete .athleteImg h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  margin-left: -15px;
+  margin-top: 0;
 }
-/* line 302, ../scss/style.scss */
-.mattias p {
+/* line 306, ../scss/style.scss */
+.athlete .copyWrap {
+  position: relative;
+  display: inline-block;
+  width: 800px;
+  margin-left: 1%;
+  border-bottom: none !important;
+  vertical-align: top;
+  border-left: 1px solid #aaa;
+  padding-left: 45px;
+}
+/* line 316, ../scss/style.scss */
+.athlete p {
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.6em;
   width: 90%;
 }
-/* line 308, ../scss/style.scss */
-.mattias h4 {
-  font-size: 1.2em;
+/* line 322, ../scss/style.scss */
+.athlete h4 {
+  font-size: 1em;
   width: 100%;
   text-align: right;
 }
