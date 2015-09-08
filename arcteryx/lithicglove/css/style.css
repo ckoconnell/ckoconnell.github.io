@@ -1,0 +1,329 @@
+/* line 1, ../scss/style.scss */
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, ../scss/style.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-weight: 100;
+  margin: 0px;
+}
+
+/* line 18, ../scss/style.scss */
+div {
+  box-sizing: border-box;
+}
+
+/* line 22, ../scss/style.scss */
+.contentWrap {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 31, ../scss/style.scss */
+.section {
+  width: 100%;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 38, ../scss/style.scss */
+.copyWrap {
+  border-bottom: 1px solid #aaa;
+}
+
+/* line 42, ../scss/style.scss */
+p {
+  color: #ddd;
+}
+
+/* line 46, ../scss/style.scss */
+.top {
+  background-image: url("../img/Lithic-Glove-Crimson-Flame-121.jpg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 750px;
+  box-sizing: border-box;
+}
+/* line 53, ../scss/style.scss */
+.top .copyWrap {
+  width: 33%;
+  min-width: 350px;
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+  box-sizing: border-box;
+}
+/* line 63, ../scss/style.scss */
+.top h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+/* line 68, ../scss/style.scss */
+.top p {
+  font-size: 1em;
+  line-height: 1.8em;
+}
+/* line 73, ../scss/style.scss */
+.top h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+/* line 80, ../scss/style.scss */
+.top a {
+  font-size: 13px;
+  padding: 5px 15px 4px;
+  border: 1px solid #fff;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-right: 15px;
+}
+/* line 93, ../scss/style.scss */
+.top .invertButton {
+  border: none;
+  background: #FFF;
+  color: #000;
+}
+/* line 99, ../scss/style.scss */
+.top .arrowDown {
+  font-size: 8px;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-right: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 110, ../scss/style.scss */
+.two {
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  margin-top: 120px;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+/* line 119, ../scss/style.scss */
+.two .copyWrap {
+  width: 30%;
+  float: left;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+/* line 126, ../scss/style.scss */
+.two p {
+  font-size: .9em;
+  line-height: 1.8em;
+}
+/* line 131, ../scss/style.scss */
+.two h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+/* line 137, ../scss/style.scss */
+.two .detailWrap {
+  background-image: url("../img/Lithic-Glove-Crimson-Flame-102.jpg");
+  background-position: 50%;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  float: right;
+  margin-right: 20%;
+  box-sizing: border-box;
+}
+
+/* line 149, ../scss/style.scss */
+.three {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+/* line 158, ../scss/style.scss */
+.three .copyWrap {
+  width: 30%;
+  float: right;
+  margin-top: 120px;
+  margin-right: 20%;
+  box-sizing: border-box;
+}
+/* line 166, ../scss/style.scss */
+.three p {
+  font-size: .9em;
+  line-height: 1.8em;
+}
+/* line 171, ../scss/style.scss */
+.three h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+/* line 177, ../scss/style.scss */
+.three .detailWrap {
+  background-image: url("../img/Lithic-Glove-Crimson-Flame-20.jpg");
+  background-position: 50% 11%;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  float: left;
+  margin-left: 0%;
+  box-sizing: border-box;
+}
+
+/* line 191, ../scss/style.scss */
+.four {
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+/* line 200, ../scss/style.scss */
+.four .copyWrap {
+  width: 30%;
+  float: left;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+/* line 207, ../scss/style.scss */
+.four p {
+  font-size: .9em;
+  line-height: 1.8em;
+}
+/* line 212, ../scss/style.scss */
+.four h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+/* line 218, ../scss/style.scss */
+.four .detailWrap {
+  background-image: url("../img/Lithic-Glove-Crimson-Flame-63.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  float: right;
+  margin-right: 20%;
+  box-sizing: border-box;
+}
+
+/* line 232, ../scss/style.scss */
+.five {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+/* line 241, ../scss/style.scss */
+.five .copyWrap {
+  width: 30%;
+  float: right;
+  margin-top: 120px;
+  margin-right: 20%;
+  box-sizing: border-box;
+}
+/* line 249, ../scss/style.scss */
+.five p {
+  font-size: .9em;
+  line-height: 1.8em;
+}
+/* line 254, ../scss/style.scss */
+.five h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+/* line 260, ../scss/style.scss */
+.five .detailWrap {
+  background-image: url("../img/Lithic-Glove-Crimson-Flame-81.jpg");
+  background-position: 50% 11%;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  float: left;
+  margin-left: 0%;
+  box-sizing: border-box;
+}
+
+/* line 274, ../scss/style.scss */
+.austin {
+  margin-top: 120px;
+}
+/* line 277, ../scss/style.scss */
+.austin .copyWrap {
+  width: 60%;
+  margin-left: 10%;
+  border-bottom: none !important;
+}
+/* line 282, ../scss/style.scss */
+.austin p {
+  font-style: italic;
+  font-size: 1.5em;
+  width: 90%;
+}
+/* line 287, ../scss/style.scss */
+.austin h4 {
+  font-size: 1.2em;
+  width: 100%;
+  text-align: right;
+}
+
+/* line 294, ../scss/style.scss */
+.mattias {
+  margin-top: 120px;
+}
+/* line 297, ../scss/style.scss */
+.mattias .copyWrap {
+  width: 60%;
+  margin-left: 10%;
+  border-bottom: none !important;
+}
+/* line 302, ../scss/style.scss */
+.mattias p {
+  font-style: italic;
+  font-size: 1.5em;
+  width: 90%;
+}
+/* line 308, ../scss/style.scss */
+.mattias h4 {
+  font-size: 1.2em;
+  width: 100%;
+  text-align: right;
+}

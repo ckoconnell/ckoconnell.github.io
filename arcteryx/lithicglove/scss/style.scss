@@ -1,0 +1,313 @@
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-weight: 100;
+  margin: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.contentWrap {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.copyWrap {
+  border-bottom: 1px solid #aaa;
+}
+
+p {
+  color: #ddd;
+}
+
+.top {
+  background-image: url('../img/Lithic-Glove-Crimson-Flame-121.jpg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 750px;
+  box-sizing: border-box;
+
+  .copyWrap {
+    width: 33%;
+    min-width: 350px;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: 13px;
+    padding: 5px 15px 4px;
+    border: 1px solid #fff;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .invertButton {
+    border: none;
+    background: #FFF;
+    color: #000;
+  }
+
+  .arrowDown {
+    font-size: 8px;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right:2px;
+    position: relative;
+    display: inline-block;
+  }
+
+}
+
+.two {
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  margin-top: 120px;
+  background-position: 50%;
+  box-sizing: border-box;
+
+  .copyWrap {
+    width: 30%;
+    float: left;
+    margin-top: 120px;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: .9em;
+    line-height: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  .detailWrap {
+    background-image: url('../img/Lithic-Glove-Crimson-Flame-102.jpg');
+    background-position: 50%;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    float: right;
+    margin-right: 20%;
+    box-sizing: border-box;
+  }
+}
+
+.three {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+
+  .copyWrap {
+    width: 30%;
+    float: right;
+    margin-top: 120px;
+    margin-right: 20%;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: .9em;
+    line-height: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  .detailWrap {
+    background-image: url('../img/Lithic-Glove-Crimson-Flame-20.jpg');
+    background-position: 50% 11%;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    float: left;
+    margin-left: 0%;
+    box-sizing: border-box;
+  }
+}
+
+.four {
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+  margin-top: 60px;
+
+  .copyWrap {
+    width: 30%;
+    float: left;
+    margin-top: 120px;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: .9em;
+    line-height: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  .detailWrap {
+    background-image: url('../img/Lithic-Glove-Crimson-Flame-63.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    float: right;
+    margin-right: 20%;
+    box-sizing: border-box;
+  }
+}
+
+.five {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 250px;
+  margin-left: 10%;
+  background-position: 50%;
+  box-sizing: border-box;
+
+  .copyWrap {
+    width: 30%;
+    float: right;
+    margin-top: 120px;
+    margin-right: 20%;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: .9em;
+    line-height: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  .detailWrap {
+    background-image: url('../img/Lithic-Glove-Crimson-Flame-81.jpg');
+    background-position: 50% 11%;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    float: left;
+    margin-left: 0%;
+    box-sizing: border-box;
+  }
+}
+
+.austin {
+  margin-top: 120px;
+
+   .copyWrap {
+     width: 60%;
+     margin-left: 10%;
+     border-bottom: none !important;
+   }
+   p {
+     font-style: italic;
+     font-size: 1.5em;
+     width: 90%;
+   }
+   h4 {
+     font-size: 1.2em;
+     width: 100%;
+     text-align: right;
+   }
+ }
+
+.mattias {
+  margin-top: 120px;
+
+  .copyWrap {
+    width: 60%;
+    margin-left: 10%;
+    border-bottom: none !important;
+  }
+  p {
+    font-style: italic;
+    font-size: 1.5em;
+    width: 90%;
+
+  }
+  h4 {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: right;
+  }
+}
