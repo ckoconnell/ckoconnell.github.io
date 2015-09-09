@@ -50,6 +50,10 @@ p {
   height: 750px;
   box-sizing: border-box;
 
+  @media screen and (max-width: 767px) {
+    background-size: 130%;
+  }
+
   .copyWrap {
     width: 36%;
     min-width: 350px;
@@ -123,13 +127,17 @@ p {
 .two {
   width: 100%;
   max-width: 960px;
-  height: 500px;
+  height: 450px;
   position: relative;
   display: inline-block;
   margin-left: 10%;
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: 30px;
+  }
 
   .copyWrap {
     position: relative;
@@ -138,19 +146,25 @@ p {
     float: left;
     margin-top: 150px;
     box-sizing: border-box;
+    text-align: right;
+
+    @media screen and (max-width: 767px) {
+      width: 60%;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
   }
 
   p {
     font-size: .9em;
     line-height: 1.8em;
-    text-align: right;
   }
 
   h3 {
     font-size: 1.3em;
     line-height: 1em;
     margin-bottom: 0;
-    text-align: right;
   }
 
   .detailWrap {
@@ -167,6 +181,10 @@ p {
     margin-top: 60px;
     box-sizing: border-box;
 
+    @media screen and (max-width: 767px) {
+
+    }
+
   }
 }
 
@@ -174,13 +192,17 @@ p {
 .three {
   width: 100%;
   max-width: 960px;
-  height: 500px;
+  height: 450px;
   position: relative;
   display: inline-block;
   margin-left: 10%;
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: 30px;
+  }
 
   .copyWrap {
     position: relative;
@@ -189,6 +211,13 @@ p {
     float: left;
     margin-top: 100px;
     box-sizing: border-box;
+
+    @media screen and (max-width: 767px) {
+      width: 60%;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
   }
 
   p {
@@ -220,13 +249,17 @@ p {
 .four {
   width: 100%;
   max-width: 960px;
-  height: 500px;
+  height: 450px;
   position: relative;
   display: inline-block;
   margin-left: 10%;
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: 30px;
+  }
 
   .copyWrap {
     position: relative;
@@ -235,19 +268,26 @@ p {
     float: left;
     margin-top: 150px;
     box-sizing: border-box;
+    text-align: right;
+
+    @media screen and (max-width: 767px) {
+      width: 60%;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      float: left;
+    }
   }
 
   p {
     font-size: .9em;
     line-height: 1.8em;
-    text-align: right;
   }
 
   h3 {
     font-size: 1.3em;
     line-height: 1em;
     margin-bottom: 0;
-    text-align: right;
   }
 
   .detailWrap {
@@ -263,20 +303,28 @@ p {
     margin-left: 5%;
     margin-top: 60px;
     box-sizing: border-box;
+    float: none;
 
+    @media screen and (max-width: 767px) {
+      // float: left;
+    }
   }
 }
 
 .five {
   width: 100%;
   max-width: 960px;
-  height: 500px;
   position: relative;
   display: inline-block;
   margin-left: 10%;
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: 30px;
+  }
+
 
   .copyWrap {
     position: relative;
@@ -285,6 +333,13 @@ p {
     float: left;
     margin-top: 100px;
     box-sizing: border-box;
+
+    @media screen and (max-width: 767px) {
+      width: 60%;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
   }
 
   p {
