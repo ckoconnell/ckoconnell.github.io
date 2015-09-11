@@ -27,19 +27,18 @@ div, span, p, h1, h2, h3 {
 .localeWrap {
   width: 100%;
   max-width: 960px;
-  height: 600px;
   position: relative;
   display: block;
   margin: 0 auto;
+  margin-bottom: 120px;
 
   h1 {
     position: absolute;
     top: 60px;
     left: 30px;
+    width: 50%;
   }
 }
-
-
 
 .laydownWrap {
   width: 100%;
@@ -48,7 +47,6 @@ div, span, p, h1, h2, h3 {
     width: 100%;
   }
 }
-
 
 .itemWrap {
   position: relative;

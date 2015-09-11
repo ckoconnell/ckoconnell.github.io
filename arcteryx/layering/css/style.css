@@ -32,34 +32,35 @@ div, span, p, h1, h2, h3 {
 .localeWrap {
   width: 100%;
   max-width: 960px;
-  height: 600px;
   position: relative;
   display: block;
   margin: 0 auto;
+  margin-bottom: 120px;
 }
 /* line 35, ../scss/style.scss */
 .localeWrap h1 {
   position: absolute;
   top: 60px;
   left: 30px;
+  width: 50%;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .laydownWrap {
   width: 100%;
 }
-/* line 47, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 .laydownWrap img {
   width: 100%;
 }
 
-/* line 53, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
 .itemWrap {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 58, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .itemWrap h2 {
   position: relative;
   display: block;
@@ -69,7 +70,7 @@ div, span, p, h1, h2, h3 {
   line-height: 1em;
   text-transform: uppercase;
 }
-/* line 68, ../scss/style.scss */
+/* line 66, ../scss/style.scss */
 .itemWrap h3 {
   font-size: 14px;
   color: #666;
@@ -77,16 +78,16 @@ div, span, p, h1, h2, h3 {
   line-height: 1em;
   text-transform: uppercase;
 }
-/* line 77, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .itemWrap p {
   font-size: 13px;
 }
-/* line 81, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .itemWrap ul {
   width: 100%;
   vertical-align: top;
 }
-/* line 85, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .itemWrap ul li {
   list-style: none;
   width: 20%;
