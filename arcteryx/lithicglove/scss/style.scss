@@ -49,6 +49,7 @@ p {
   background-size: 90%;
   height: 750px;
   box-sizing: border-box;
+  max-width: 1200px;
 
   @media screen and (max-width: 767px) {
     background-size: 130%;
