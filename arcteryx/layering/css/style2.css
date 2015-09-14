@@ -51,9 +51,8 @@ section h1 {
   line-height: 1em;
   font-size: 1.4em;
   margin-left: 60px;
-  color: white;
+  color: #222;
   font-weight: 100;
-  text-shadow: 1px 1px 3px #111;
 }
 /* line 53, ../scss/style2.scss */
 section ul {
@@ -86,8 +85,7 @@ section ul li .imgWrap h3 {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #fff;
-  text-shadow: 1px 1px 3px #111;
+  color: #222;
   padding-left: 15px;
   text-align: center;
 }
@@ -107,9 +105,6 @@ section ul li p {
 
 /* line 109, ../scss/style2.scss */
 .europe {
-  background: url("../img/europeBG.jpg") no-repeat;
-  background-size: 100%;
-  background-position: top center;
   box-sizing: border-box;
   padding-top: 60px;
 }
@@ -159,6 +154,13 @@ section ul li p {
 /* line 155, ../scss/style2.scss */
 .psiphon {
   background: url("../img/F15-Psiphon-SL-Pullover-Iron-Anvil.png") no-repeat;
+  background-size: 93%;
+  background-position: left bottom;
+}
+
+/* line 161, ../scss/style2.scss */
+.alpha {
+  background: url("../img/F15-Alpha-FL-Jacket-Iron-Anvil.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
