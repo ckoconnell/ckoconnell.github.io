@@ -86,8 +86,7 @@ section ul li .imgWrap h3 {
   font-weight: 500;
   text-transform: uppercase;
   color: #222;
-  padding-left: 15px;
-  text-align: center;
+  padding-left: 60px;
 }
 /* line 89, ../scss/style2.scss */
 section ul li h2 {
@@ -133,8 +132,8 @@ section ul li p {
 /* line 137, ../scss/style2.scss */
 .lithic {
   background: url("../img/F15-Lithic-Comp-Pant-Echo-Blue.png") no-repeat;
-  background-size: 100px;
-  background-position: 40% top;
+  background-size: 90px;
+  background-position: 40% 30px;
 }
 
 /* line 143, ../scss/style2.scss */
