@@ -1,0 +1,351 @@
+<style>
+
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: #fff;
+    }
+
+
+    /* line 17, ../scss/style2.scss */
+    .introWrap {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        background: url("http://blog-media.arcteryx.com/images/articles/layeringHero.jpg") no-repeat;
+        background-size: 600px;
+        background-position: top left;
+    }
+
+    @media screen and (max-width: 900px) {
+        /* line 17, ../scss/style2.scss */
+        .introWrap {
+            background-size: 100%;
+        }
+    }
+
+    /* line 25, ../scss/style2.scss */
+    .introWrap .introCopy {
+        position: relative;
+        display: inline-block;
+        background: #000;
+        width: 50%;
+        max-width: 500px;
+        min-width: 350px;
+        margin-left: 50%;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+    @media screen and (max-width: 900px) {
+        /* line 29, ../scss/style2.scss */
+        .introWrap .introCopy {
+            margin-top: 400px;
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        /* line 29, ../scss/style2.scss */
+        .introWrap .introCopy {
+            margin-top: 300px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        /* line 29, ../scss/style2.scss */
+        .introWrap .introCopy {
+            margin-top: 200px;
+        }
+    }
+
+
+    /* line 36, ../scss/style2.scss */
+    .introWrap .introCopy h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        color: white;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+    /* line 46, ../scss/style2.scss */
+    .introWrap .introCopy p {
+        width: 90%;
+        padding: 0;
+        color: white;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* line 35, ../scss/style2.scss */
+    section {
+        position: relative;
+        display: block;
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    /* line 44, ../scss/style2.scss */
+    section h1 {
+        line-height: 1em;
+        font-size: 1.4em;
+        margin-left: 60px;
+        color: #222;
+        font-weight: 100;
+    }
+    /* line 52, ../scss/style2.scss */
+    section ul {
+        width: 100%;
+        position: relative;
+        display: block;
+        vertical-align: top;
+    }
+    /* line 59, ../scss/style2.scss */
+    section ul li {
+        list-style: none;
+        position: relative;
+        display: inline-block;
+        width: 23%;
+        min-width: 200px;
+        height: auto;
+        margin-right: 1%;
+        vertical-align: top;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    /* line 71, ../scss/style2.scss */
+    section ul li .imgWrap {
+        width: 100%;
+        position: relative;
+        height: 350px;
+    }
+    /* line 77, ../scss/style2.scss */
+    section ul li .imgWrap h3 {
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #222;
+        padding-left: 60px;
+    }
+    /* line 87, ../scss/style2.scss */
+    section ul li h2 {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #333;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    /* line 95, ../scss/style2.scss */
+    section ul li p {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    /* line 107, ../scss/style2.scss */
+    .europe {
+        box-sizing: border-box;
+        padding-top: 60px;
+    }
+
+    /* line 114, ../scss/style2.scss */
+    .stikine {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Stikine-Jacket-Hinto.jpg") no-repeat;
+        background-size: 100%;
+        background-position: left bottom;
+    }
+
+    /* line 120, ../scss/style2.scss */
+    .stryka {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Stryka-Hoody-Tropos-Blue.jpg") no-repeat;
+        background-size: 90%;
+        background-position: left bottom;
+    }
+
+    /* line 126, ../scss/style2.scss */
+    .procline {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Procline-Hybrid-Hoody-Carbon-Copy.jpg") no-repeat;
+        background-size: 100%;
+        background-position: left bottom;
+    }
+
+    /* line 132, ../scss/style2.scss */
+    .lithic {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Lithic-Comp-Pant-Echo-Blue.jpg") no-repeat;
+        background-size: 90px;
+        background-position: 40% 30px;
+    }
+
+    /* line 138, ../scss/style2.scss */
+    .nuclei {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Nuclei-FL-Jacket-Adriatic-Blue.jpg") no-repeat;
+        background-size: 100%;
+        background-position: left bottom;
+    }
+
+    /* line 144, ../scss/style2.scss */
+    .phase {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Phase-SL-Zip-Neck-LS-Black.jpg") no-repeat;
+        background-size: 93%;
+        background-position: left bottom;
+    }
+
+    /* line 150, ../scss/style2.scss */
+    .psiphon {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Psiphon-SL-Pullover-Iron-Anvil.jpg") no-repeat;
+        background-size: 93%;
+        background-position: left bottom;
+    }
+
+    /* line 156, ../scss/style2.scss */
+    .alpha {
+        background: url("http://blog-media.arcteryx.com/images/articles/F15-Alpha-FL-Jacket-Iron-Anvil.jpg") no-repeat;
+        background-size: 93%;
+        background-position: left bottom;
+    }
+
+</style>
+
+
+<div class="introWrap">
+    <div class="introCopy">
+        <h1>Location Based Layering</h1>
+        <p>Whether you are ski touring in the Coastal Mountains of British Columbia or the Western Alps of Europe, proper layering is a crucial for regulating body temperature while shielding you from the elements.</p>
+        <p>The below info will hopefully give you a starting-off point when researching new gear or sorting through your gear closest while packing for your next mission.</p>
+        <p>The conditions you face differ as you move around the globe in search of fresh powder and new lines. Arc’teryx Product Line Manager, Jonathon Wong provides a bit of advice on layering for ski touring depending on where your search takes you.</p>
+    </div>
+</div>
+
+<section class="coast">
+    <h1>Coast Mountains<br>North America</h1>
+    <ul>
+        <li>
+            <div class="imgWrap stikine">
+                <h3>Insulation Layer </h3>
+            </div>
+            <div class="descWrap">
+                <h2>Stikine Jacket</h2>
+                <p>Very weight efficient, packable piece.  The Stikine is great for descents and rest stops. It is an insulated hardshell perfect for stormy conditions with a 2L GORE® outer and DWR treated Thermatek™ insulation that keeps you dry and warm.</p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap stryka">
+                <h3>Base Layer</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Stryka Hoody</h2>
+                <p>The Stryka has a balaclava style hood with no neck gap that provides some face protection and warmth during stormy conditions. The Stryka is a soft, comfortable piece that can doubles as a light sweater in mountain huts and lodges.  The material is performs well as base layer or mid layer.</p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap procline">
+                <h3>Mid Layer</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Procline Hybrid Hoody</h2>
+                <p>rocline Hybrid Hoody is a great mid layer that is thermally protective and versatile with good breathability on the skin track up.  Great comfort and feel with good packability.</p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap lithic">
+                <h3>Pant</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Lithic Comp</h2>
+                <p> The Lithic Comp pant is made up of versatile materials and uses a composite build that provides a broad thermal range of comfort in stormy weather conditions. The 3L GORE® Fabric Technology provides wind and water protection during the off lift ride up.  The large dump pockets are quick and efficient for touring.</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="europe">
+    <h1>Western Alps<br>Classic Haute Route</h1>
+    <ul>
+        <li>
+            <div class="imgWrap alpha">
+                <h3>Jacket</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Alpha Jacket</h2>
+                <p>Super light weight, and packable weather protection great for year round use. Highly breathable and waterproof using 3L GORE®  </p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap nuclei">
+                <h3>Insulation Layer </h3>
+            </div>
+            <div class="descWrap">
+                <h2>Nuclei FL</h2>
+                <p>Weighing in at 280g’s the Nuclei FL offer moisture resistant insulation providing wind and snow protection in light storm conditions.</p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap phase">
+                <h3>Base Layer</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Phase SL Zip T</h2>
+                <p>This technical baselayer with the zip neck allows for great ventilation in warmer conditions. The fabric is lightweight with a comfortable next-of-skin feel making it ideal for late season/spring, sunny ski touring. </p>
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap psiphon">
+                <h3>Mid Layer</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Psiphon FL Pullover</h2>
+                <p>Lightweight, breathable wind and snow protection ideal for skinning uphill in a variety of conditions. Great packability makes it easy to bring along on any mission.</p>
+
+            </div>
+        </li>
+        <li>
+            <div class="imgWrap lithic">
+                <h3>Pant</h3>
+            </div>
+            <div class="descWrap">
+                <h2>Lithic Comp</h2>
+                <p> The Lithic Comp pant is made up of versatile materials and uses a composite build that provides a broad thermal range of comfort in stormy weather conditions. The 3L GORE® Fabric Technology provides wind and water protection during the off lift ride up.  The large dump pockets are quick and efficient for touring.</p>
+            </div>
+        </li>
+    </ul>
+</section>

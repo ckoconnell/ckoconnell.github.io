@@ -22,21 +22,70 @@ div, span, p, h1, h2, h3 {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  background: url("../img/layeringHero.jpg") no-repeat;
+  background-size: 600px;
+  background-position: top left;
 }
-/* line 22, ../scss/style2.scss */
-.introWrap h1 {
-  width: 50%;
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 900px) {
+  /* line 17, ../scss/style2.scss */
+  .introWrap {
+    background-size: 100%;
+  }
 }
 /* line 29, ../scss/style2.scss */
-.introWrap p {
-  width: 70%;
+.introWrap .introCopy {
+  position: relative;
+  display: inline-block;
+  background: #000;
+  width: 50%;
+  max-width: 500px;
+  min-width: 350px;
+  margin-left: 50%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+@media screen and (max-width: 900px) {
+  /* line 29, ../scss/style2.scss */
+  .introWrap .introCopy {
+    margin-top: 400px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 29, ../scss/style2.scss */
+  .introWrap .introCopy {
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 29, ../scss/style2.scss */
+  .introWrap .introCopy {
+    margin-top: 200px;
+  }
+}
+/* line 56, ../scss/style2.scss */
+.introWrap .introCopy h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0;
   padding: 0;
+  color: white;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+/* line 66, ../scss/style2.scss */
+.introWrap .introCopy p {
+  width: 90%;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-/* line 35, ../scss/style2.scss */
+/* line 76, ../scss/style2.scss */
 section {
   position: relative;
   display: block;
@@ -46,7 +95,7 @@ section {
   margin-bottom: 60px;
   margin-top: 30px;
 }
-/* line 44, ../scss/style2.scss */
+/* line 85, ../scss/style2.scss */
 section h1 {
   line-height: 1em;
   font-size: 1.4em;
@@ -54,14 +103,14 @@ section h1 {
   color: #222;
   font-weight: 100;
 }
-/* line 53, ../scss/style2.scss */
+/* line 93, ../scss/style2.scss */
 section ul {
   width: 100%;
   position: relative;
   display: block;
   vertical-align: top;
 }
-/* line 60, ../scss/style2.scss */
+/* line 99, ../scss/style2.scss */
 section ul li {
   list-style: none;
   position: relative;
@@ -74,13 +123,13 @@ section ul li {
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-/* line 72, ../scss/style2.scss */
+/* line 111, ../scss/style2.scss */
 section ul li .imgWrap {
   width: 100%;
   position: relative;
   height: 350px;
 }
-/* line 78, ../scss/style2.scss */
+/* line 117, ../scss/style2.scss */
 section ul li .imgWrap h3 {
   font-size: 13px;
   font-weight: 500;
@@ -88,7 +137,7 @@ section ul li .imgWrap h3 {
   color: #222;
   padding-left: 60px;
 }
-/* line 89, ../scss/style2.scss */
+/* line 127, ../scss/style2.scss */
 section ul li h2 {
   font-size: 1.2em;
   text-transform: uppercase;
@@ -96,68 +145,68 @@ section ul li h2 {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 97, ../scss/style2.scss */
+/* line 135, ../scss/style2.scss */
 section ul li p {
   font-size: 13px;
   margin-top: 0;
 }
 
-/* line 109, ../scss/style2.scss */
+/* line 147, ../scss/style2.scss */
 .europe {
   box-sizing: border-box;
   padding-top: 60px;
 }
 
-/* line 119, ../scss/style2.scss */
+/* line 154, ../scss/style2.scss */
 .stikine {
   background: url("../img/F15-Stikine-Jacket-Hinto.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 125, ../scss/style2.scss */
+/* line 160, ../scss/style2.scss */
 .stryka {
   background: url("../img/F15-Stryka-Hoody-Tropos-Blue.png") no-repeat;
   background-size: 90%;
   background-position: left bottom;
 }
 
-/* line 131, ../scss/style2.scss */
+/* line 166, ../scss/style2.scss */
 .procline {
   background: url("../img/F15-Procline-Hybrid-Hoody-Carbon-Copy.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 137, ../scss/style2.scss */
+/* line 172, ../scss/style2.scss */
 .lithic {
   background: url("../img/F15-Lithic-Comp-Pant-Echo-Blue.png") no-repeat;
   background-size: 90px;
   background-position: 40% 30px;
 }
 
-/* line 143, ../scss/style2.scss */
+/* line 178, ../scss/style2.scss */
 .nuclei {
   background: url("../img/F15-Nuclei-FL-Jacket-Adriatic-Blue.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 149, ../scss/style2.scss */
+/* line 184, ../scss/style2.scss */
 .phase {
   background: url("../img/F15-Phase-SL-Zip-Neck-LS-Black.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
 
-/* line 155, ../scss/style2.scss */
+/* line 190, ../scss/style2.scss */
 .psiphon {
   background: url("../img/F15-Psiphon-SL-Pullover-Iron-Anvil.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
 
-/* line 161, ../scss/style2.scss */
+/* line 196, ../scss/style2.scss */
 .alpha {
   background: url("../img/F15-Alpha-FL-Jacket-Iron-Anvil.png") no-repeat;
   background-size: 93%;

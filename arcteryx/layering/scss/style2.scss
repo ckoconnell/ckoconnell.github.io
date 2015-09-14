@@ -18,17 +18,58 @@ div, span, p, h1, h2, h3 {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  background: url('../img/layeringHero.jpg') no-repeat;
+  background-size: 600px;
+  background-position: top left;
 
-  h1 {
-    width: 50%;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
+  @media screen and (max-width: 900px) {
+    background-size: 100%;
   }
 
-  p {
-    width: 70%;
-    padding: 0;
+  .introCopy {
+    position: relative;
+    display: inline-block;
+    background: #000;
+    width: 50%;
+    max-width: 500px;
+    min-width: 350px;
+    margin-left: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+
+    @media screen and (max-width: 900px) {
+      margin-top: 400px;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      margin-top: 300px;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin-top: 200px;
+    }
+
+    h1 {
+      font-size: 1.2em;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+      color: white;
+      line-height: 1em;
+      text-transform: uppercase;
+    }
+
+    p {
+      width: 90%;
+      padding: 0;
+      color: white;
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
 }
 
@@ -47,7 +88,6 @@ section {
     margin-left: 60px;
     color: #222;
     font-weight: 100;
-    // text-shadow: 1px 1px 3px #111;
   }
 
   ul {
@@ -55,7 +95,6 @@ section {
     position: relative;
     display: block;
     vertical-align: top;
-
 
     li {
       list-style: none;
@@ -80,7 +119,6 @@ section {
           font-weight: 500;
           text-transform: uppercase;
           color: #222;
-          // text-shadow: 1px 1px 3px #111;
           padding-left: 60px;
 
         }
@@ -107,9 +145,6 @@ section {
 .coast {}
 
 .europe {
-  // background: url('../img/europeBG.jpg') no-repeat;
-  // background-size: 100%;
- //  background-position: top center;
   box-sizing: border-box;
   padding-top: 60px;
 }
