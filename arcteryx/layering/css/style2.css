@@ -25,7 +25,7 @@ div, span, p, h1, h2, h3 {
 }
 /* line 22, ../scss/style2.scss */
 .introWrap h1 {
-  width: 80%;
+  width: 50%;
   font-size: 1.5em;
   margin: 0;
   padding: 0;
@@ -44,15 +44,25 @@ section {
   max-width: 960px;
   margin: 0 auto;
   margin-bottom: 60px;
+  margin-top: 30px;
 }
-/* line 43, ../scss/style2.scss */
+/* line 44, ../scss/style2.scss */
+section h1 {
+  line-height: 1em;
+  font-size: 1.4em;
+  margin-left: 60px;
+  color: white;
+  font-weight: 100;
+  text-shadow: 1px 1px 3px #111;
+}
+/* line 53, ../scss/style2.scss */
 section ul {
   width: 100%;
   position: relative;
   display: block;
   vertical-align: top;
 }
-/* line 50, ../scss/style2.scss */
+/* line 60, ../scss/style2.scss */
 section ul li {
   list-style: none;
   position: relative;
@@ -65,20 +75,23 @@ section ul li {
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-/* line 62, ../scss/style2.scss */
+/* line 72, ../scss/style2.scss */
 section ul li .imgWrap {
   width: 100%;
   position: relative;
   height: 350px;
 }
-/* line 68, ../scss/style2.scss */
+/* line 78, ../scss/style2.scss */
 section ul li .imgWrap h3 {
   font-size: 13px;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #aaa;
+  color: #fff;
+  text-shadow: 1px 1px 3px #111;
   padding-left: 15px;
+  text-align: center;
 }
-/* line 76, ../scss/style2.scss */
+/* line 89, ../scss/style2.scss */
 section ul li h2 {
   font-size: 1.2em;
   text-transform: uppercase;
@@ -86,54 +99,64 @@ section ul li h2 {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 84, ../scss/style2.scss */
+/* line 97, ../scss/style2.scss */
 section ul li p {
   font-size: 13px;
+  margin-top: 0;
 }
 
-/* line 100, ../scss/style2.scss */
+/* line 109, ../scss/style2.scss */
+.europe {
+  background: url("../img/europeBG.jpg") no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+/* line 119, ../scss/style2.scss */
 .stikine {
   background: url("../img/F15-Stikine-Jacket-Hinto.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 106, ../scss/style2.scss */
+/* line 125, ../scss/style2.scss */
 .stryka {
   background: url("../img/F15-Stryka-Hoody-Tropos-Blue.png") no-repeat;
   background-size: 90%;
   background-position: left bottom;
 }
 
-/* line 112, ../scss/style2.scss */
+/* line 131, ../scss/style2.scss */
 .procline {
   background: url("../img/F15-Procline-Hybrid-Hoody-Carbon-Copy.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 118, ../scss/style2.scss */
+/* line 137, ../scss/style2.scss */
 .lithic {
   background: url("../img/F15-Lithic-Comp-Pant-Echo-Blue.png") no-repeat;
   background-size: 100px;
   background-position: 40% top;
 }
 
-/* line 124, ../scss/style2.scss */
+/* line 143, ../scss/style2.scss */
 .nuclei {
   background: url("../img/F15-Nuclei-FL-Jacket-Adriatic-Blue.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 130, ../scss/style2.scss */
+/* line 149, ../scss/style2.scss */
 .phase {
   background: url("../img/F15-Phase-SL-Zip-Neck-LS-Black.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
 
-/* line 136, ../scss/style2.scss */
+/* line 155, ../scss/style2.scss */
 .psiphon {
   background: url("../img/F15-Psiphon-SL-Pullover-Iron-Anvil.png") no-repeat;
   background-size: 93%;
