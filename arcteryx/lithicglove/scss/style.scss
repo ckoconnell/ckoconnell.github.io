@@ -200,6 +200,7 @@ p {
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+  margin-bottom: 60px;
 
   @media screen and (max-width: 767px) {
     margin-left: 30px;
@@ -369,9 +370,29 @@ p {
   }
 }
 
+ .videoWrap {
+   width: auto;
+   height: 80%;
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 */
+   margin: 60px;
+
+   @media screen and (max-width: 767px) {
+     margin-top: 400px;
+   }
+}
+
+.videoWrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .athlete {
-  margin-top: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding-left: 5%;
 
   .athleteImg {
@@ -395,6 +416,20 @@ p {
       font-weight: 500;
       margin-left: -15px;
       margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    a {
+      width: 100%;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 11px;
+      margin-top: -15px;
+      padding-top: 0;
+      margin-left: 35px;
     }
   }
 

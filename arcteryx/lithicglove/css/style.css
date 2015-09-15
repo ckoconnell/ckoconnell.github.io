@@ -213,6 +213,7 @@ p {
   background-position: 50%;
   box-sizing: border-box;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 @media screen and (max-width: 767px) {
   /* line 193, ../scss/style.scss */
@@ -220,7 +221,7 @@ p {
     margin-left: 30px;
   }
 }
-/* line 208, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 .three .copyWrap {
   position: relative;
   display: inline-block;
@@ -230,7 +231,7 @@ p {
   box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
-  /* line 208, ../scss/style.scss */
+  /* line 209, ../scss/style.scss */
   .three .copyWrap {
     width: 60%;
     margin: 0;
@@ -238,18 +239,18 @@ p {
     text-align: left;
   }
 }
-/* line 224, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .three p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 229, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .three h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
 }
-/* line 235, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .three .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-20.jpg");
   background-position: 50% 11%;
@@ -264,7 +265,7 @@ p {
   float: left;
 }
 
-/* line 250, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .four {
   width: 100%;
   max-width: 960px;
@@ -277,12 +278,12 @@ p {
   margin-top: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 250, ../scss/style.scss */
+  /* line 251, ../scss/style.scss */
   .four {
     margin-left: 30px;
   }
 }
-/* line 265, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .four .copyWrap {
   position: relative;
   display: inline-block;
@@ -293,7 +294,7 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 265, ../scss/style.scss */
+  /* line 266, ../scss/style.scss */
   .four .copyWrap {
     width: 60%;
     margin: 0;
@@ -302,18 +303,18 @@ p {
     float: left;
   }
 }
-/* line 283, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 .four p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 288, ../scss/style.scss */
+/* line 289, ../scss/style.scss */
 .four h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
 }
-/* line 294, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .four .detailWrap {
   position: relative;
   display: inline-block;
@@ -330,7 +331,7 @@ p {
   float: none;
 }
 
-/* line 315, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .five {
   width: 100%;
   max-width: 960px;
@@ -342,12 +343,12 @@ p {
   margin-top: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 315, ../scss/style.scss */
+  /* line 316, ../scss/style.scss */
   .five {
     margin-left: 30px;
   }
 }
-/* line 330, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .five .copyWrap {
   position: relative;
   display: inline-block;
@@ -357,7 +358,7 @@ p {
   box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
-  /* line 330, ../scss/style.scss */
+  /* line 331, ../scss/style.scss */
   .five .copyWrap {
     width: 60%;
     margin: 0;
@@ -365,18 +366,18 @@ p {
     text-align: left;
   }
 }
-/* line 346, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .five p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 351, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .five h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
 }
-/* line 357, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .five .detailWrap {
   background-image: url("../img/Lithic-Glove-Crimson-Flame-81.jpg");
   background-position: 50% 11%;
@@ -392,11 +393,37 @@ p {
 }
 
 /* line 373, ../scss/style.scss */
+.videoWrap {
+  width: auto;
+  height: 80%;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  margin: 60px;
+}
+@media screen and (max-width: 767px) {
+  /* line 373, ../scss/style.scss */
+  .videoWrap {
+    margin-top: 400px;
+  }
+}
+
+/* line 385, ../scss/style.scss */
+.videoWrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 393, ../scss/style.scss */
 .athlete {
-  margin-top: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding-left: 5%;
 }
-/* line 377, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .athlete .athleteImg {
   width: 150px;
   height: 200px;
@@ -406,21 +433,35 @@ p {
   box-sizing: border-box;
   padding-top: 20px;
 }
-/* line 386, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 .athlete .athleteImg img {
   width: 120px;
   height: 120px;
   border-radius: 60px;
 }
-/* line 392, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .athlete .athleteImg h3 {
   width: 100%;
   text-align: center;
   font-weight: 500;
   margin-left: -15px;
   margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-/* line 401, ../scss/style.scss */
+/* line 423, ../scss/style.scss */
+.athlete .athleteImg a {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: -15px;
+  padding-top: 0;
+  margin-left: 35px;
+}
+/* line 436, ../scss/style.scss */
 .athlete .copyWrap {
   position: relative;
   display: inline-block;
@@ -431,14 +472,14 @@ p {
   border-left: 1px solid #aaa;
   padding-left: 45px;
 }
-/* line 411, ../scss/style.scss */
+/* line 446, ../scss/style.scss */
 .athlete p {
   font-style: italic;
   font-size: 1.1em;
   line-height: 1.6em;
   width: 90%;
 }
-/* line 417, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 .athlete h4 {
   font-size: 1em;
   width: 100%;

@@ -84,10 +84,16 @@ section {
 
   h1 {
     line-height: 1em;
-    font-size: 1.4em;
-    margin-left: 60px;
+    font-size: 1.5em;
+    margin-left: 0;
     color: #222;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .lighter {
     font-weight: 100;
+    color: #666;
   }
 
   ul {
@@ -100,10 +106,10 @@ section {
       list-style: none;
       position: relative;
       display: inline-block;
-      width: 23%;
-      min-width: 200px;
+      width: 25%;
+      min-width: 220px;
       height: auto;
-      margin-right: 1%;
+      margin-right: 5%;
       vertical-align: top;
       box-sizing: border-box;
       margin-bottom: 30px;
@@ -116,11 +122,9 @@ section {
 
         h3 {
           font-size: 13px;
-          font-weight: 500;
+          font-weight: 100;
           text-transform: uppercase;
-          color: #222;
-          padding-left: 60px;
-
+          color: #666;
         }
       }
 
@@ -130,11 +134,25 @@ section {
         color: #333;
         font-weight: 500;
         margin-bottom: 0;
+        line-height: 1.1em;
       }
 
       p {
         font-size: 13px;
         margin-top: 0;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        padding-top: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      .arrow {
+        font-size: 10px;
+        color: #666;
       }
     }
   }
@@ -153,13 +171,13 @@ section {
 
 .stikine {
   background: url('../img/F15-Stikine-Jacket-Hinto.png') no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: left bottom;
 }
 
 .stryka {
   background: url('../img/F15-Stryka-Hoody-Tropos-Blue.png') no-repeat;
-  background-size: 90%;
+  background-size: 85%;
   background-position: left bottom;
 }
 
@@ -198,4 +216,11 @@ section {
   background-size: 93%;
   background-position: left bottom;
 }
+
+.baseBottom {
+  background: url('../img/F15-Phase-AR-Bottom-Black.jpg') no-repeat;
+  background-size: 35%;
+  background-position: center bottom;
+}
+
 

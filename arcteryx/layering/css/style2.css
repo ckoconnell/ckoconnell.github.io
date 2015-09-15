@@ -98,117 +98,143 @@ section {
 /* line 85, ../scss/style2.scss */
 section h1 {
   line-height: 1em;
-  font-size: 1.4em;
-  margin-left: 60px;
+  font-size: 1.5em;
+  margin-left: 0;
   color: #222;
-  font-weight: 100;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-/* line 93, ../scss/style2.scss */
+/* line 94, ../scss/style2.scss */
+section .lighter {
+  font-weight: 100;
+  color: #666;
+}
+/* line 99, ../scss/style2.scss */
 section ul {
   width: 100%;
   position: relative;
   display: block;
   vertical-align: top;
 }
-/* line 99, ../scss/style2.scss */
+/* line 105, ../scss/style2.scss */
 section ul li {
   list-style: none;
   position: relative;
   display: inline-block;
-  width: 23%;
-  min-width: 200px;
+  width: 25%;
+  min-width: 220px;
   height: auto;
-  margin-right: 1%;
+  margin-right: 5%;
   vertical-align: top;
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-/* line 111, ../scss/style2.scss */
+/* line 117, ../scss/style2.scss */
 section ul li .imgWrap {
   width: 100%;
   position: relative;
   height: 350px;
 }
-/* line 117, ../scss/style2.scss */
+/* line 123, ../scss/style2.scss */
 section ul li .imgWrap h3 {
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 100;
   text-transform: uppercase;
-  color: #222;
-  padding-left: 60px;
+  color: #666;
 }
-/* line 127, ../scss/style2.scss */
+/* line 131, ../scss/style2.scss */
 section ul li h2 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: #333;
   font-weight: 500;
   margin-bottom: 0;
+  line-height: 1.1em;
 }
-/* line 135, ../scss/style2.scss */
+/* line 140, ../scss/style2.scss */
 section ul li p {
   font-size: 13px;
   margin-top: 0;
 }
+/* line 145, ../scss/style2.scss */
+section ul li a {
+  color: #333;
+  text-decoration: none;
+  padding-top: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 153, ../scss/style2.scss */
+section ul li .arrow {
+  font-size: 10px;
+  color: #666;
+}
 
-/* line 147, ../scss/style2.scss */
+/* line 165, ../scss/style2.scss */
 .europe {
   box-sizing: border-box;
   padding-top: 60px;
 }
 
-/* line 154, ../scss/style2.scss */
+/* line 172, ../scss/style2.scss */
 .stikine {
   background: url("../img/F15-Stikine-Jacket-Hinto.png") no-repeat;
-  background-size: 100%;
-  background-position: left bottom;
-}
-
-/* line 160, ../scss/style2.scss */
-.stryka {
-  background: url("../img/F15-Stryka-Hoody-Tropos-Blue.png") no-repeat;
   background-size: 90%;
   background-position: left bottom;
 }
 
-/* line 166, ../scss/style2.scss */
+/* line 178, ../scss/style2.scss */
+.stryka {
+  background: url("../img/F15-Stryka-Hoody-Tropos-Blue.png") no-repeat;
+  background-size: 85%;
+  background-position: left bottom;
+}
+
+/* line 184, ../scss/style2.scss */
 .procline {
   background: url("../img/F15-Procline-Hybrid-Hoody-Carbon-Copy.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 172, ../scss/style2.scss */
+/* line 190, ../scss/style2.scss */
 .lithic {
   background: url("../img/F15-Lithic-Comp-Pant-Echo-Blue.png") no-repeat;
   background-size: 90px;
   background-position: 40% 30px;
 }
 
-/* line 178, ../scss/style2.scss */
+/* line 196, ../scss/style2.scss */
 .nuclei {
   background: url("../img/F15-Nuclei-FL-Jacket-Adriatic-Blue.png") no-repeat;
   background-size: 100%;
   background-position: left bottom;
 }
 
-/* line 184, ../scss/style2.scss */
+/* line 202, ../scss/style2.scss */
 .phase {
   background: url("../img/F15-Phase-SL-Zip-Neck-LS-Black.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
 
-/* line 190, ../scss/style2.scss */
+/* line 208, ../scss/style2.scss */
 .psiphon {
   background: url("../img/F15-Psiphon-SL-Pullover-Iron-Anvil.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
 }
 
-/* line 196, ../scss/style2.scss */
+/* line 214, ../scss/style2.scss */
 .alpha {
   background: url("../img/F15-Alpha-FL-Jacket-Iron-Anvil.png") no-repeat;
   background-size: 93%;
   background-position: left bottom;
+}
+
+/* line 220, ../scss/style2.scss */
+.baseBottom {
+  background: url("../img/F15-Phase-AR-Bottom-Black.jpg") no-repeat;
+  background-size: 35%;
+  background-position: center bottom;
 }
