@@ -1,0 +1,824 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    @media screen and (max-width: 500px) {
+        #content {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: #000;
+    }
+
+    .contextual-links-region {
+        margin-top: 50px !important;
+    }
+
+
+
+    /* line 18, ../scss/style.scss */
+    div {
+        box-sizing: border-box;
+    }
+
+    /* line 22, ../scss/style.scss */
+    .contentWrap {
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    /* line 31, ../scss/style.scss */
+    .section {
+        width: 100%;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    /* line 38, ../scss/style.scss */
+    .copyWrap {
+        border-bottom: 1px solid #aaa;
+    }
+
+    /* line 42, ../scss/style.scss */
+    p {
+        color: #ddd;
+    }
+
+    /* line 46, ../scss/style.scss */
+    .top {
+        background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-121.jpg");
+        background-repeat: no-repeat;
+        background-size: 90%;
+        height: 750px;
+        box-sizing: border-box;
+        max-width: 1200px;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 46, ../scss/style.scss */
+        .top {
+            background-size: 130%;
+        }
+    }
+    /* line 58, ../scss/style.scss */
+    .top .copyWrap {
+        width: 36%;
+        min-width: 350px;
+        position: relative;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10%;
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+    @media screen and (max-width: 900px) {
+        /* line 58, ../scss/style.scss */
+        .top .copyWrap {
+            width: 80%;
+            float: left;
+            margin-left: 30px;
+            padding-top: 350px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        /* line 58, ../scss/style.scss */
+        .top .copyWrap {
+            width: 90%;
+            min-width: 90%;
+            float: left;
+            padding-top: 400px;
+        }
+    }
+    /* line 83, ../scss/style.scss */
+    .top h1 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: white;
+    }
+    /* line 89, ../scss/style.scss */
+    .top p {
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+    /* line 94, ../scss/style.scss */
+    .top h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: white;
+    }
+    /* line 103, ../scss/style.scss */
+    .top a {
+        font-size: 13px;
+        padding: 5px 15px 4px;
+        border: 1px solid #fff;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    /* line 116, ../scss/style.scss */
+    .top .invertButton {
+        border: none;
+        background: #FFF;
+        color: #000;
+    }
+    /* line 122, ../scss/style.scss */
+    .top .arrowDown {
+        font-size: 8px;
+        vertical-align: top;
+        margin-top: 3px;
+        margin-right: 2px;
+        position: relative;
+        display: inline-block;
+    }
+
+    /* line 133, ../scss/style.scss */
+    .two {
+        width: 100%;
+        max-width: 960px;
+        height: 450px;
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        background-position: 50%;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 133, ../scss/style.scss */
+        .two {
+            margin-left: 0;
+            padding-left: 30px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 133, ../scss/style.scss */
+        .two {
+            margin-top: 0 !important;
+        }
+    }
+    /* line 154, ../scss/style.scss */
+    .two .copyWrap {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-top: 150px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 154, ../scss/style.scss */
+        .two .copyWrap {
+            width: 90%;
+            margin: 0;
+            text-align: left;
+            padding-left: 190px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 154, ../scss/style.scss */
+        .two .copyWrap {
+            padding-left: 0;
+        }
+    }
+    /* line 175, ../scss/style.scss */
+    .two p {
+        font-size: .9em;
+        line-height: 1.8em;
+    }
+    /* line 180, ../scss/style.scss */
+    .two h3 {
+        font-size: 1.3em;
+        line-height: 1em;
+        margin-bottom: 0;
+        color: white;
+    }
+    /* line 187, ../scss/style.scss */
+    .two .detailWrap {
+        position: relative;
+        display: inline-block;
+        background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-102.jpg");
+        background-position: 50% 60%;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        margin-left: 5%;
+        margin-top: 60px;
+        box-sizing: border-box;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 187, ../scss/style.scss */
+        .two .detailWrap {
+            position: absolute;
+            width: 150px;
+            border-radius: 75px;
+            height: 150px;
+            display: inline-block;
+            left: 0px;
+            top: -60px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 187, ../scss/style.scss */
+        .two .detailWrap {
+            display: none !important;
+        }
+    }
+
+    /* line 219, ../scss/style.scss */
+    .three {
+        width: 100%;
+        max-width: 960px;
+        height: 450px;
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        background-position: 50%;
+        box-sizing: border-box;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 219, ../scss/style.scss */
+        .three {
+            margin-left: 0;
+            padding-left: 30px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 219, ../scss/style.scss */
+        .three {
+            margin-top: 0 !important;
+        }
+    }
+    /* line 241, ../scss/style.scss */
+    .three .copyWrap {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-top: 100px;
+        box-sizing: border-box;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 241, ../scss/style.scss */
+        .three .copyWrap {
+            width: 90%;
+            margin: 0;
+            text-align: left;
+            padding-left: 190px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 241, ../scss/style.scss */
+        .three .copyWrap {
+            padding-left: 0;
+        }
+    }
+    /* line 261, ../scss/style.scss */
+    .three p {
+        font-size: .9em;
+        line-height: 1.8em;
+    }
+    /* line 266, ../scss/style.scss */
+    .three h3 {
+        font-size: 1.3em;
+        line-height: 1em;
+        margin-bottom: 0;
+        color: white;
+    }
+    /* line 273, ../scss/style.scss */
+    .three .detailWrap {
+        background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-20.jpg");
+        background-position: 50% 11%;
+        background-repeat: no-repeat;
+        background-size: 95%;
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        margin-right: 5%;
+        margin-top: 60px;
+        box-sizing: border-box;
+        float: left;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 273, ../scss/style.scss */
+        .three .detailWrap {
+            position: absolute;
+            width: 180px;
+            border-radius: 90px;
+            height: 180px;
+            display: inline-block;
+            left: 30px;
+            top: -30px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 273, ../scss/style.scss */
+        .three .detailWrap {
+            display: none !important;
+        }
+    }
+
+    /* line 303, ../scss/style.scss */
+    .four {
+        width: 100%;
+        max-width: 960px;
+        height: 450px;
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        background-position: 50%;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 303, ../scss/style.scss */
+        .four {
+            margin-left: 0;
+            padding-left: 30px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 303, ../scss/style.scss */
+        .four {
+            margin-top: 0 !important;
+        }
+    }
+    /* line 324, ../scss/style.scss */
+    .four .copyWrap {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-top: 150px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 324, ../scss/style.scss */
+        .four .copyWrap {
+            width: 90%;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            float: left;
+            padding-left: 190px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 324, ../scss/style.scss */
+        .four .copyWrap {
+            padding-left: 0;
+        }
+    }
+    /* line 347, ../scss/style.scss */
+    .four p {
+        font-size: .9em;
+        line-height: 1.8em;
+    }
+    /* line 352, ../scss/style.scss */
+    .four h3 {
+        font-size: 1.3em;
+        line-height: 1em;
+        margin-bottom: 0;
+        color: white;
+    }
+    /* line 359, ../scss/style.scss */
+    .four .detailWrap {
+        position: relative;
+        display: inline-block;
+        background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-63.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        margin-left: 5%;
+        margin-top: 60px;
+        box-sizing: border-box;
+        float: none;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 359, ../scss/style.scss */
+        .four .detailWrap {
+            position: absolute;
+            width: 180px;
+            border-radius: 90px;
+            height: 180px;
+            display: inline-block;
+            left: 0px;
+            top: -60px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 359, ../scss/style.scss */
+        .four .detailWrap {
+            display: none !important;
+        }
+    }
+
+    /* line 391, ../scss/style.scss */
+    .five {
+        width: 100%;
+        max-width: 960px;
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        background-position: 50%;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 391, ../scss/style.scss */
+        .five {
+            margin-left: 0;
+            padding-left: 30px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 391, ../scss/style.scss */
+        .five {
+            margin-top: 0 !important;
+        }
+    }
+    /* line 411, ../scss/style.scss */
+    .five .copyWrap {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-top: 100px;
+        box-sizing: border-box;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 411, ../scss/style.scss */
+        .five .copyWrap {
+            width: 90%;
+            margin: 0;
+            text-align: left;
+            padding-left: 190px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 411, ../scss/style.scss */
+        .five .copyWrap {
+            padding-left: 0;
+        }
+    }
+    /* line 431, ../scss/style.scss */
+    .five p {
+        font-size: .9em;
+        line-height: 1.8em;
+    }
+    /* line 436, ../scss/style.scss */
+    .five h3 {
+        font-size: 1.3em;
+        line-height: 1em;
+        margin-bottom: 0;
+        color: white;
+    }
+    /* line 443, ../scss/style.scss */
+    .five .detailWrap {
+        background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-81.jpg");
+        background-position: 50% 11%;
+        background-repeat: no-repeat;
+        background-size: 95%;
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        margin-right: 5%;
+        margin-top: 60px;
+        box-sizing: border-box;
+        float: left;
+    }
+    @media screen and (max-width: 767px) {
+        /* line 443, ../scss/style.scss */
+        .five .detailWrap {
+            position: absolute;
+            width: 160px;
+            border-radius: 80px;
+            height: 160px;
+            display: inline-block;
+            left: 30px;
+            top: -100px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        /* line 443, ../scss/style.scss */
+        .five .detailWrap {
+            display: none !important;
+        }
+    }
+
+    /* line 473, ../scss/style.scss */
+    .videoWrap {
+        width: auto;
+        height: 80%;
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 */
+        margin: 60px;
+    }
+
+    /* line 485, ../scss/style.scss */
+    .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* line 495, ../scss/style.scss */
+    .austin {
+        background: url("http://blog-media.arcteryx.com/images/articles/austinAction.jpg") no-repeat;
+        background-size: auto 120%;
+        background-position: right top;
+    }
+    @media screen and (max-width: 850px) {
+        /* line 495, ../scss/style.scss */
+        .austin {
+            background-position: -240px top;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        /* line 495, ../scss/style.scss */
+        .austin {
+            background-position: -350px top;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        /* line 495, ../scss/style.scss */
+        .austin {
+            background-position: top left;
+            background-size: 100%;
+        }
+    }
+
+    /* line 514, ../scss/style.scss */
+    .matthias {
+        background: url("http://blog-media.arcteryx.com/images/articles/matthiasAction.jpg") no-repeat;
+        background-size: auto 120%;
+        background-position: right top;
+    }
+    @media screen and (max-width: 720px) {
+        /* line 514, ../scss/style.scss */
+        .matthias {
+            background-position: top left;
+            background-size: 100%;
+        }
+    }
+
+    /* line 525, ../scss/style.scss */
+    .athleteBG {
+        position: relative;
+        width: 94%;
+        height: auto;
+        max-width: 900px;
+        box-sizing: border-box;
+        padding: 30px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    @media screen and (max-width: 720px) {
+        /* line 525, ../scss/style.scss */
+        .athleteBG {
+            padding: 0;
+            padding-top: 55.6%;
+        }
+    }
+    /* line 540, ../scss/style.scss */
+    .athleteBG .copyWrap {
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        background: #000;
+        box-sizing: border-box;
+        padding: 30px;
+        text-align: center;
+        border-bottom: none;
+        min-width: 290px;
+    }
+    @media screen and (max-width: 720px) {
+        /* line 540, ../scss/style.scss */
+        .athleteBG .copyWrap {
+            width: 100%;
+            min-width: 100%;
+        }
+    }
+    /* line 556, ../scss/style.scss */
+    .athleteBG .copyWrap .linkArrow {
+        font-size: 8px;
+        color: #999;
+    }
+    /* line 561, ../scss/style.scss */
+    .athleteBG .copyWrap img {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+    }
+    /* line 570, ../scss/style.scss */
+    .athleteBG .copyWrap h3 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        padding-top: 0;
+        color: white;
+        font-weight: 600;
+    }
+    /* line 579, ../scss/style.scss */
+    .athleteBG .copyWrap p {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 22px;
+        color: white;
+        text-align: left;
+    }
+    /* line 587, ../scss/style.scss */
+    .athleteBG .copyWrap a {
+        color: #999;
+        text-decoration: none;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /* line 598, ../scss/style.scss */
+    .shopWrap {
+        width: 50%;
+        padding-left: 5%;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    @media screen and (max-width: 600px) {
+        /* line 598, ../scss/style.scss */
+        .shopWrap {
+            width: 90%;
+        }
+    }
+    /* line 613, ../scss/style.scss */
+    .shopWrap a {
+        font-size: 13px;
+        padding: 5px 15px 4px;
+        border: 1px solid #fff;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
+</style>
+
+<div class="contentWrap">
+    <div class="section top">
+        <div class="copyWrap">
+            <h1>Lithic Glove</h1>
+            <h3>A New Level Of Performance</h3>
+            <p>Gloves are one of the most complicated products to build. The hand has a range of motion that enables us to accomplish a wide variety of tasks with precision and dexterity unmatched by any other body part.  Constructing a glove that can move with such an unrestricted range of motion is a challenge and requires a level of craftsmanship and pattern making well beyond that of other products we wear.</p>
+            <p>In 2010 Arc’teryx invented a entirely new way to of constructing waterproof gloves. TriDex™ Glove Technology created a glove with unprecedented levels of dexterity and breathability.</p>
+            <p>Jump ahead to today and we have taken gloves to the next level.  Introducing the  2015 Lithic Glove.</p>
+            <!-- <a class="invertButton" href="#one" target="_blank"> <span class="arrowDown">&#x25BC;</span> Learn More</a>
+            <a href="#" target="_blank">Shop Collection</a> -->
+        </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <a name="one"></a>
+    <div class="section four">
+        <div class="copyWrap">
+            <h3>Dexterity</h3>
+            <p>Primaloft™ with Grip Control Technology is designed to minimize slippage between glove layers. This process increases dexterity and grip control by using a resin that stiffens up the insulation strands creating less movement between fabrics. </p>
+        </div>
+        <div class="detailWrap"></div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="section five">
+        <div class="detailWrap"></div>
+        <div class="copyWrap">
+            <h3>Fit</h3>
+            <p>Crucial to the functionality to any glove, the Lithic Glove pattern has been created for the intended fit needed for ultimate performance.</p>
+        </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="section two">
+        <div class="copyWrap">
+            <h3>Durability/Longevity</h3>
+            <p>N333p-X Face Fabric is a very durable fabric. With the addition of TPU(thermoplastic polyurethane) laminated to the palm and fingers improve durability and grip, protect against abrasions and help enhance grip.</p>
+        </div>
+        <div class="detailWrap">
+        </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="section three">
+        <div class="detailWrap"></div>
+        <div class="copyWrap">
+            <h3>Warmth</h3>
+            <p>Primaloft™ Gold insulation Eco is incredibly compressible with impressive rebound, meaning the insulation is less succeptible packing out over time. This feature provides the continued loft needed for greater warmth. The Face Fabric is made of N333p-X which is highly hydrophobic(repels water) which is laminted to the GORE-TEX®. Dryer gloves = dry hands means greater warmth.</p>
+        </div>
+
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="videoWrap">
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/F1OcZn6DN0s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="section athleteBG austin">
+        <div class="copyWrap">
+            <img src="http://blog-media.arcteryx.com/images/articles/Austin-Ross.jpg" />
+            <h3>Austin Ross</h3>
+            <a href="http://arcteryx.com/Athlete.aspx?EN/AustinRoss" target="_blank"><span class="linkArrow">&#x25B6;</span> Read Bio</a>
+            <p>"I've used the Lithic on ski trips in an array of different conditions and climates; from arctic couloir descents in Norway to long spring touring missions in the Coast Mountains of BC. From the moment I slide my hands in I know that I'm covered with a cozy, warm and durable glove that keeps me cranking throughout the day and sometimes well into the night. Keeping the hands happy is key to a successful day in the mountains and with the Lithic that's the only option."</p>
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+
+    <div class="section athleteBG matthias">
+        <div class="copyWrap">
+            <img src="http://blog-media.arcteryx.com/images/articles/Matthias-Scherer.jpg" />
+            <h3>Mattias Scherer</h3>
+            <a href="http://arcteryx.com/Athlete.aspx?EN/MatthiasScherer" target="_blank"><span class="linkArrow">&#x25B6;</span> Read Bio</a>
+            <p>"In over twenty years of iceclimbing I have been going through a lot of gloves. Lithic gloves were the first gloves I could not destroy! I used them over a whole season for belaying and abseiling from the Rockies, to the Alps, to Norway.Wet and frozen ropes, countless pitches of abseiling and they still show no real signs of abuse."</p>
+            <p>"Lithic gloves are the first gloves I ever used that resisted perfectly the harsh reality of a full season of iceclimbing. Countless pitches abseiling on wet and frozen ropes - no problem for the Lithic - they are ready for another season to go!"</p>
+        </div>
+    </div>
+
+    <div class="shopWrap">
+        <p>To learn more about our new glove technology and to see the full lineup...</p>
+        <a href="http://arcteryx.com/ProductFind.aspx?language=EN&category=Accessories&subcat=Gloves" target="_blank">Shop Collection</a>
+    </div>
+</div>

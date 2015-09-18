@@ -1,0 +1,332 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  z-index: 1;
+  background: #212121;
+  font-family: Avenir, Arial, sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.navWrap {
+  width: 100%;
+  height: 80px;
+  // position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 100;
+
+  .navContent {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: black;
+  }
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.contentWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.topWrap {
+  margin-top: 0;
+  height: 70%;
+  min-height: 600px;
+  background: url('../img/heroTopBW.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.darkLayer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 600px;
+  background-color: #000;
+  opacity: 1;
+}
+
+.opacityChange {
+  opacity: 0.4 !important;
+  transition: all 6s !important;
+  transition-delay: 2s;
+}
+
+
+.news {
+  position: relative;
+  display: block;
+  height: 220px;
+  overflow: hidden;
+  transition: height 2s;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .readAllLink {
+    // position: absolute;
+    // top: 200px;
+    // left: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #999;
+  }
+
+  .newsWrap {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    border-right: 1px solid #999;
+    padding: 0 15px 0 0;
+    margin-bottom: 60px;
+
+    h1 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      text-transform: none;
+      padding-bottom: 0;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 18px;
+      color: #ccc;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    a {
+      color: #aaa;
+      text-decoration: none;
+      padding: 3px 12px 2px;
+      border: 1px solid #aaa;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+  .newsWrap:nth-child(5) {
+    border-right: none;
+  }
+
+  .newsWrap:nth-child(1) {
+    border-right: none;
+  }
+}
+
+
+.photogs {
+  position: relative;
+  min-height: 600px;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .photogItem {
+    width: 29%;
+    height: 360px;
+    margin: 3% 2%;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    background-color: #333;
+    vertical-align: top;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+
+    .photoImg {
+      width: 100%;
+      height: 250px;
+      position: relative;
+      max-width: 300px;
+    }
+
+    .jordan {
+      background: url('../img/ManleyBio.jpg') no-repeat;
+      background-size: 100%;
+      background-position: top center;
+    }
+
+    .paul {
+      background: url('../img/paul.jpg') no-repeat;
+      background-size: cover;
+      background-position: top center;
+    }
+
+    .ashley {
+      background: url('../img/ashley.jpg') no-repeat;
+      background-size: cover;
+      background-position: top center;
+    }
+
+    .robin {
+      background: url('../img/robin.jpg') no-repeat;
+      background-size: 100%;
+      background-position: top center;
+    }
+
+    .dalby {
+      background: url('../img/dalby.jpg') no-repeat;
+      background-size: cover;
+      background-position: top center;
+    }
+
+    .blake {
+      background: url('../img/blake.jpg') no-repeat;
+      background-size: 100%;
+      background-position: top center;
+    }
+
+
+    .photogDetails {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      padding: 15px;
+      background: #000;
+      vertical-align: bottom;
+      height: 100%;
+      text-align: center;
+      max-width: 300px;
+
+      .bioFull {
+        display: none;
+        transition: all 2.5s;
+
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          text-align: left;
+        }
+      }
+
+      h1 {
+        color: white;
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 600;
+      }
+
+      a {
+        color: #ccc;
+        text-decoration: none;
+        padding: 3px 12px 3px;
+        border: 1px solid white;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
+
+    .bioImages {
+      width: 660px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 300px;
+      display: none;
+      background-color: teal;
+      transition: 3s all;
+    }
+  }
+}
+
+// Photog Hero Images
+
+.jordanHero {
+  background: url('../img/ManleyBio.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.paulHero {
+  background: url('../img/paulHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.ashleyHero {
+  background: url('../img/ashleyHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.dalbyHero {
+  background: url('../img/dalbyHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+.robinHero {
+  background: url('../img/robinHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.blakeHero {
+  background: url('../img/blakeHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+// JS Clases for Photog Section
+
+.showHide {
+  display: none !important;
+  transition: all 1s;
+}
+
+.hideShow {
+  display: inline-block !important;
+  transition: all 1s;
+}
+
+.expand {
+  width: 96% !important;
+  height: 600px !important;
+  transition: all 2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.autoHeight {
+  height: 450px !important;
+  transition: height 2s !important;
+}
+

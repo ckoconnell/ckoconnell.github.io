@@ -17,12 +17,12 @@ body {
   margin: 0px;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 21, ../scss/style.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 22, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 .contentWrap {
   width: 100%;
   max-width: 1500px;
@@ -32,7 +32,7 @@ div {
   box-sizing: border-box;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 34, ../scss/style.scss */
 .section {
   width: 100%;
   display: block;
@@ -40,19 +40,19 @@ div {
   box-sizing: border-box;
 }
 
-/* line 38, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 .copyWrap {
   border-bottom: 1px solid #aaa;
 }
 
-/* line 42, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 p {
   color: #ddd;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .top {
-  background-image: url("../img/Lithic-Glove-Crimson-Flame-121.jpg");
+  background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-121.jpg");
   background-repeat: no-repeat;
   background-size: 90%;
   height: 750px;
@@ -60,12 +60,12 @@ p {
   max-width: 1200px;
 }
 @media screen and (max-width: 767px) {
-  /* line 46, ../scss/style.scss */
+  /* line 49, ../scss/style.scss */
   .top {
     background-size: 130%;
   }
 }
-/* line 58, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 .top .copyWrap {
   width: 36%;
   min-width: 350px;
@@ -77,39 +77,43 @@ p {
   padding-top: 0px;
 }
 @media screen and (max-width: 900px) {
-  /* line 58, ../scss/style.scss */
+  /* line 61, ../scss/style.scss */
   .top .copyWrap {
-    width: 65%;
+    width: 80%;
     float: left;
     margin-left: 30px;
     padding-top: 350px;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 58, ../scss/style.scss */
+  /* line 61, ../scss/style.scss */
   .top .copyWrap {
     width: 90%;
+    min-width: 90%;
     float: left;
+    padding-top: 400px;
   }
 }
-/* line 81, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .top h1 {
   text-transform: uppercase;
   margin-bottom: 0;
+  color: white;
 }
-/* line 86, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .top p {
   font-size: 1em;
   line-height: 1.8em;
 }
-/* line 91, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .top h3 {
   margin-top: 0;
   font-size: 1.2em;
   font-weight: 100;
   text-transform: uppercase;
+  color: white;
 }
-/* line 98, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .top a {
   font-size: 13px;
   padding: 5px 15px 4px;
@@ -122,13 +126,13 @@ p {
   text-align: center;
   margin-right: 15px;
 }
-/* line 111, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 .top .invertButton {
   border: none;
   background: #FFF;
   color: #000;
 }
-/* line 117, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .top .arrowDown {
   font-size: 8px;
   vertical-align: top;
@@ -138,7 +142,7 @@ p {
   display: inline-block;
 }
 
-/* line 128, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .two {
   width: 100%;
   max-width: 960px;
@@ -151,12 +155,20 @@ p {
   margin-top: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 128, ../scss/style.scss */
+  /* line 136, ../scss/style.scss */
   .two {
-    margin-left: 30px;
+    margin-left: 0;
+    padding-left: 30px;
+    height: auto;
   }
 }
-/* line 143, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 136, ../scss/style.scss */
+  .two {
+    margin-top: 0 !important;
+  }
+}
+/* line 157, ../scss/style.scss */
 .two .copyWrap {
   position: relative;
   display: inline-block;
@@ -167,30 +179,37 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 143, ../scss/style.scss */
+  /* line 157, ../scss/style.scss */
   .two .copyWrap {
-    width: 60%;
+    width: 90%;
     margin: 0;
-    padding: 0;
     text-align: left;
+    padding-left: 190px;
   }
 }
-/* line 160, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 157, ../scss/style.scss */
+  .two .copyWrap {
+    padding-left: 0;
+  }
+}
+/* line 178, ../scss/style.scss */
 .two p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 165, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .two h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  color: white;
 }
-/* line 171, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .two .detailWrap {
   position: relative;
   display: inline-block;
-  background-image: url("../img/Lithic-Glove-Crimson-Flame-102.jpg");
+  background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-102.jpg");
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: 120%;
@@ -201,8 +220,26 @@ p {
   margin-top: 60px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+  /* line 190, ../scss/style.scss */
+  .two .detailWrap {
+    position: absolute;
+    width: 150px;
+    border-radius: 75px;
+    height: 150px;
+    display: inline-block;
+    left: 0px;
+    top: -60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 190, ../scss/style.scss */
+  .two .detailWrap {
+    display: none !important;
+  }
+}
 
-/* line 193, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .three {
   width: 100%;
   max-width: 960px;
@@ -216,12 +253,20 @@ p {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 193, ../scss/style.scss */
+  /* line 222, ../scss/style.scss */
   .three {
-    margin-left: 30px;
+    margin-left: 0;
+    padding-left: 30px;
+    height: auto;
   }
 }
-/* line 209, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 222, ../scss/style.scss */
+  .three {
+    margin-top: 0 !important;
+  }
+}
+/* line 244, ../scss/style.scss */
 .three .copyWrap {
   position: relative;
   display: inline-block;
@@ -231,28 +276,35 @@ p {
   box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
-  /* line 209, ../scss/style.scss */
+  /* line 244, ../scss/style.scss */
   .three .copyWrap {
-    width: 60%;
+    width: 90%;
     margin: 0;
-    padding: 0;
     text-align: left;
+    padding-left: 190px;
   }
 }
-/* line 225, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 244, ../scss/style.scss */
+  .three .copyWrap {
+    padding-left: 0;
+  }
+}
+/* line 264, ../scss/style.scss */
 .three p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 230, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 .three h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  color: white;
 }
-/* line 236, ../scss/style.scss */
+/* line 276, ../scss/style.scss */
 .three .detailWrap {
-  background-image: url("../img/Lithic-Glove-Crimson-Flame-20.jpg");
+  background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-20.jpg");
   background-position: 50% 11%;
   background-repeat: no-repeat;
   background-size: 95%;
@@ -264,8 +316,26 @@ p {
   box-sizing: border-box;
   float: left;
 }
+@media screen and (max-width: 767px) {
+  /* line 276, ../scss/style.scss */
+  .three .detailWrap {
+    position: absolute;
+    width: 180px;
+    border-radius: 90px;
+    height: 180px;
+    display: inline-block;
+    left: 30px;
+    top: -30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 276, ../scss/style.scss */
+  .three .detailWrap {
+    display: none !important;
+  }
+}
 
-/* line 251, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 .four {
   width: 100%;
   max-width: 960px;
@@ -278,12 +348,20 @@ p {
   margin-top: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 251, ../scss/style.scss */
+  /* line 306, ../scss/style.scss */
   .four {
-    margin-left: 30px;
+    margin-left: 0;
+    padding-left: 30px;
+    height: auto;
   }
 }
-/* line 266, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 306, ../scss/style.scss */
+  .four {
+    margin-top: 0 !important;
+  }
+}
+/* line 327, ../scss/style.scss */
 .four .copyWrap {
   position: relative;
   display: inline-block;
@@ -294,31 +372,39 @@ p {
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 266, ../scss/style.scss */
+  /* line 327, ../scss/style.scss */
   .four .copyWrap {
-    width: 60%;
+    width: 90%;
     margin: 0;
     padding: 0;
     text-align: left;
     float: left;
+    padding-left: 190px;
   }
 }
-/* line 284, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 327, ../scss/style.scss */
+  .four .copyWrap {
+    padding-left: 0;
+  }
+}
+/* line 350, ../scss/style.scss */
 .four p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 289, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .four h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  color: white;
 }
-/* line 295, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 .four .detailWrap {
   position: relative;
   display: inline-block;
-  background-image: url("../img/Lithic-Glove-Crimson-Flame-63.jpg");
+  background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-63.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 90%;
@@ -330,8 +416,26 @@ p {
   box-sizing: border-box;
   float: none;
 }
+@media screen and (max-width: 767px) {
+  /* line 362, ../scss/style.scss */
+  .four .detailWrap {
+    position: absolute;
+    width: 180px;
+    border-radius: 90px;
+    height: 180px;
+    display: inline-block;
+    left: 0px;
+    top: -60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 362, ../scss/style.scss */
+  .four .detailWrap {
+    display: none !important;
+  }
+}
 
-/* line 316, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .five {
   width: 100%;
   max-width: 960px;
@@ -343,12 +447,20 @@ p {
   margin-top: 60px;
 }
 @media screen and (max-width: 767px) {
-  /* line 316, ../scss/style.scss */
+  /* line 394, ../scss/style.scss */
   .five {
-    margin-left: 30px;
+    margin-left: 0;
+    padding-left: 30px;
+    height: auto;
   }
 }
-/* line 331, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 394, ../scss/style.scss */
+  .five {
+    margin-top: 0 !important;
+  }
+}
+/* line 414, ../scss/style.scss */
 .five .copyWrap {
   position: relative;
   display: inline-block;
@@ -358,28 +470,35 @@ p {
   box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
-  /* line 331, ../scss/style.scss */
+  /* line 414, ../scss/style.scss */
   .five .copyWrap {
-    width: 60%;
+    width: 90%;
     margin: 0;
-    padding: 0;
     text-align: left;
+    padding-left: 190px;
   }
 }
-/* line 347, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 414, ../scss/style.scss */
+  .five .copyWrap {
+    padding-left: 0;
+  }
+}
+/* line 434, ../scss/style.scss */
 .five p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 352, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 .five h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
+  color: white;
 }
-/* line 358, ../scss/style.scss */
+/* line 446, ../scss/style.scss */
 .five .detailWrap {
-  background-image: url("../img/Lithic-Glove-Crimson-Flame-81.jpg");
+  background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-81.jpg");
   background-position: 50% 11%;
   background-repeat: no-repeat;
   background-size: 95%;
@@ -391,8 +510,26 @@ p {
   box-sizing: border-box;
   float: left;
 }
+@media screen and (max-width: 767px) {
+  /* line 446, ../scss/style.scss */
+  .five .detailWrap {
+    position: absolute;
+    width: 160px;
+    border-radius: 80px;
+    height: 160px;
+    display: inline-block;
+    left: 30px;
+    top: -100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 446, ../scss/style.scss */
+  .five .detailWrap {
+    display: none !important;
+  }
+}
 
-/* line 373, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 .videoWrap {
   width: auto;
   height: 80%;
@@ -401,14 +538,8 @@ p {
   /* 16:9 */
   margin: 60px;
 }
-@media screen and (max-width: 767px) {
-  /* line 373, ../scss/style.scss */
-  .videoWrap {
-    margin-top: 400px;
-  }
-}
 
-/* line 385, ../scss/style.scss */
+/* line 488, ../scss/style.scss */
 .videoWrap iframe {
   position: absolute;
   top: 0;
@@ -417,71 +548,149 @@ p {
   height: 100%;
 }
 
-/* line 393, ../scss/style.scss */
-.athlete {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding-left: 5%;
+/* line 498, ../scss/style.scss */
+.austin {
+  background: url("http://blog-media.arcteryx.com/images/articles/austinAction.jpg") no-repeat;
+  background-size: auto 120%;
+  background-position: right top;
 }
-/* line 398, ../scss/style.scss */
-.athlete .athleteImg {
-  width: 150px;
-  height: 200px;
-  display: inline-block;
+@media screen and (max-width: 850px) {
+  /* line 498, ../scss/style.scss */
+  .austin {
+    background-position: -240px top;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 498, ../scss/style.scss */
+  .austin {
+    background-position: -350px top;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 498, ../scss/style.scss */
+  .austin {
+    background-position: top left;
+    background-size: 100%;
+  }
+}
+
+/* line 517, ../scss/style.scss */
+.matthias {
+  background: url("http://blog-media.arcteryx.com/images/articles/matthiasAction.jpg") no-repeat;
+  background-size: auto 120%;
+  background-position: right top;
+}
+@media screen and (max-width: 720px) {
+  /* line 517, ../scss/style.scss */
+  .matthias {
+    background-position: top left;
+    background-size: 100%;
+  }
+}
+
+/* line 528, ../scss/style.scss */
+.athleteBG {
   position: relative;
-  vertical-align: top;
+  width: 94%;
+  height: auto;
+  max-width: 900px;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
-/* line 407, ../scss/style.scss */
-.athlete .athleteImg img {
+@media screen and (max-width: 720px) {
+  /* line 528, ../scss/style.scss */
+  .athleteBG {
+    padding: 0;
+    padding-top: 55.6%;
+  }
+}
+/* line 543, ../scss/style.scss */
+.athleteBG .copyWrap {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  background: #000;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  border-bottom: none;
+  min-width: 290px;
+}
+@media screen and (max-width: 720px) {
+  /* line 543, ../scss/style.scss */
+  .athleteBG .copyWrap {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+/* line 559, ../scss/style.scss */
+.athleteBG .copyWrap .linkArrow {
+  font-size: 8px;
+  color: #999;
+}
+/* line 564, ../scss/style.scss */
+.athleteBG .copyWrap img {
   width: 120px;
   height: 120px;
   border-radius: 60px;
-}
-/* line 413, ../scss/style.scss */
-.athlete .athleteImg h3 {
-  width: 100%;
   text-align: center;
-  font-weight: 500;
-  margin-left: -15px;
-  margin-top: 0;
+  display: inline-block;
+  position: relative;
+}
+/* line 573, ../scss/style.scss */
+.athleteBG .copyWrap h3 {
   margin-bottom: 0;
   padding-bottom: 0;
-}
-/* line 423, ../scss/style.scss */
-.athlete .athleteImg a {
-  width: 100%;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 11px;
-  margin-top: -15px;
+  margin-top: 0;
   padding-top: 0;
-  margin-left: 35px;
+  color: white;
+  font-weight: 600;
 }
-/* line 436, ../scss/style.scss */
-.athlete .copyWrap {
-  position: relative;
-  display: inline-block;
-  width: 800px;
-  margin-left: 1%;
-  border-bottom: none !important;
-  vertical-align: top;
-  border-left: 1px solid #aaa;
-  padding-left: 45px;
-}
-/* line 446, ../scss/style.scss */
-.athlete p {
+/* line 582, ../scss/style.scss */
+.athleteBG .copyWrap p {
   font-style: italic;
-  font-size: 1.1em;
-  line-height: 1.6em;
-  width: 90%;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  text-align: left;
 }
-/* line 452, ../scss/style.scss */
-.athlete h4 {
-  font-size: 1em;
-  width: 100%;
-  text-align: right;
+/* line 590, ../scss/style.scss */
+.athleteBG .copyWrap a {
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 601, ../scss/style.scss */
+.shopWrap {
+  width: 50%;
+  padding-left: 5%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  /* line 601, ../scss/style.scss */
+  .shopWrap {
+    width: 90%;
+  }
+}
+/* line 616, ../scss/style.scss */
+.shopWrap a {
+  font-size: 13px;
+  padding: 5px 15px 4px;
+  border: 1px solid #fff;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-align: center;
 }
