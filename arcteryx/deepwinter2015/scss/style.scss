@@ -1,3 +1,6 @@
+// $highlight: slategray;
+$highlight: #545454;
+
 html, body {
   width: 100%;
   height: 100%;
@@ -15,7 +18,7 @@ div {
 
 .navWrap {
   width: 100%;
-  height: 80px;
+  height: 50px;
   // position: fixed;
   display: block;
   top: 0;
@@ -51,8 +54,8 @@ div {
 
 .topWrap {
   margin-top: 0;
-  height: 70%;
-  min-height: 600px;
+  height: 8m0%;
+  min-height: 400px;
   background: url('../img/heroTopBW.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
@@ -63,14 +66,14 @@ div {
   top: 0;
   width: 100%;
   left: 0;
-  height: 600px;
+  height: 100%;
   background-color: #000;
   opacity: 1;
 }
 
 .opacityChange {
   opacity: 0.4 !important;
-  transition: all 6s !important;
+  transition: opacity 5s ease-out 1s !important;
   transition-delay: 2s;
 }
 
@@ -78,27 +81,26 @@ div {
 .news {
   position: relative;
   display: block;
-  height: 220px;
+  max-height: 220px;
   overflow: hidden;
-  transition: height 2s;
+  transition: max-height 2s;
 
   h1 {
     font-size: 15px;
     line-height: 18px;
     text-transform: uppercase;
     font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
   }
 
   .readAllLink {
-    // position: absolute;
-    // top: 200px;
-    // left: 20px;
     position: relative;
     display: inline-block;
     font-size: 13px;
     margin-left: 15px;
     cursor: pointer;
-    color: #999;
+    color: $highlight;
   }
 
   .newsWrap {
@@ -107,7 +109,6 @@ div {
     display: inline-block;
     width: 31%;
     margin-right: 2%;
-    border-right: 1px solid #999;
     padding: 0 15px 0 0;
     margin-bottom: 60px;
 
@@ -117,6 +118,7 @@ div {
       line-height: 20px;
       text-transform: none;
       padding-bottom: 0;
+      border-bottom: none;
     }
 
     p {
@@ -128,22 +130,13 @@ div {
     }
 
     a {
-      color: #aaa;
+      color: $highlight;
       text-decoration: none;
-      padding: 3px 12px 2px;
-      border: 1px solid #aaa;
       text-transform: uppercase;
       font-size: 13px;
     }
   }
 
-  .newsWrap:nth-child(5) {
-    border-right: none;
-  }
-
-  .newsWrap:nth-child(1) {
-    border-right: none;
-  }
 }
 
 
@@ -156,6 +149,8 @@ div {
     line-height: 18px;
     text-transform: uppercase;
     font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
   }
 
   .photogItem {
@@ -171,7 +166,7 @@ div {
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 2s ease-out 2s;
 
     .photoImg {
       width: 100%;
@@ -244,6 +239,7 @@ div {
         font-size: 16px;
         text-transform: none;
         font-weight: 600;
+        border-bottom: none;
       }
 
       a {
@@ -264,8 +260,55 @@ div {
       left: 300px;
       display: none;
       background-color: teal;
-      transition: 3s all;
+      transition: all 2s ease-out 2s;
     }
+  }
+}
+
+.judges {
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 13px;
+  }
+
+  .judgeWrap {
+    position: relative;
+    display: inline-block;
+    width: 29%;
+    margin: 3% 2%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    background: #111;
+
+    img {
+      width: 90px;
+      height: 90px;
+      border-radius: 45px;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+    }
+
+    h1 {
+      border-bottom: none;
+    }
+
+    p {
+      text-align: left;
+    }
+
   }
 }
 
@@ -307,18 +350,18 @@ div {
 
 .showHide {
   display: none !important;
-  transition: all 1s;
+  transition: all 2s ease-in 3s;
 }
 
 .hideShow {
   display: inline-block !important;
-  transition: all 1s;
+  transition: all 2s ease-out 3s;
 }
 
 .expand {
   width: 96% !important;
   height: 600px !important;
-  transition: all 2s;
+  transition: all 2s ease-out 2s;
   position: absolute;
   top: 0;
   left: 0;
@@ -326,7 +369,7 @@ div {
 }
 
 .autoHeight {
-  height: 450px !important;
-  transition: height 2s !important;
+  max-height: 450px !important;
+  transition: max-height ease-out 2s !important;
 }
 

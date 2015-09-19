@@ -1,4 +1,4 @@
-/* line 1, ../scss/style.scss */
+/* line 4, ../scss/style.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -10,22 +10,22 @@ html, body {
   font-family: Avenir, Arial, sans-serif;
 }
 
-/* line 12, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 .navWrap {
   width: 100%;
-  height: 80px;
+  height: 50px;
   display: block;
   top: 0;
   left: 0;
   background: black;
   z-index: 100;
 }
-/* line 26, ../scss/style.scss */
+/* line 29, ../scss/style.scss */
 .navWrap .navContent {
   width: 100%;
   max-width: 960px;
@@ -35,7 +35,7 @@ div {
   background: black;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 .section {
   position: relative;
   width: 100%;
@@ -43,7 +43,7 @@ div {
   box-sizing: border-box;
 }
 
-/* line 43, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 .contentWrap {
   position: relative;
   width: 100%;
@@ -53,78 +53,80 @@ div {
   padding: 30px;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .topWrap {
   margin-top: 0;
-  height: 70%;
-  min-height: 600px;
+  height: 8m0%;
+  min-height: 400px;
   background: url("../img/heroTopBW.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .darkLayer {
   position: absolute;
   top: 0;
   width: 100%;
   left: 0;
-  height: 600px;
+  height: 100%;
   background-color: #000;
   opacity: 1;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 .opacityChange {
   opacity: 0.4 !important;
-  transition: all 6s !important;
+  transition: opacity 5s ease-out 1s !important;
   transition-delay: 2s;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .news {
   position: relative;
   display: block;
-  height: 220px;
+  max-height: 220px;
   overflow: hidden;
-  transition: height 2s;
+  transition: max-height 2s;
 }
-/* line 85, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 .news h1 {
   font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 300;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #545454;
 }
-/* line 92, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .news .readAllLink {
   position: relative;
   display: inline-block;
   font-size: 13px;
   margin-left: 15px;
   cursor: pointer;
-  color: #999;
+  color: #545454;
 }
-/* line 104, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .news .newsWrap {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
   width: 31%;
   margin-right: 2%;
-  border-right: 1px solid #999;
   padding: 0 15px 0 0;
   margin-bottom: 60px;
 }
-/* line 114, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 .news .newsWrap h1 {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   text-transform: none;
   padding-bottom: 0;
+  border-bottom: none;
 }
-/* line 122, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .news .newsWrap p {
   font-size: 13px;
   line-height: 18px;
@@ -132,37 +134,29 @@ div {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 130, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .news .newsWrap a {
-  color: #aaa;
+  color: #545454;
   text-decoration: none;
-  padding: 3px 12px 2px;
-  border: 1px solid #aaa;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 140, ../scss/style.scss */
-.news .newsWrap:nth-child(5) {
-  border-right: none;
-}
-/* line 144, ../scss/style.scss */
-.news .newsWrap:nth-child(1) {
-  border-right: none;
-}
 
-/* line 150, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 .photogs {
   position: relative;
   min-height: 600px;
 }
-/* line 154, ../scss/style.scss */
+/* line 147, ../scss/style.scss */
 .photogs h1 {
   font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 300;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #545454;
 }
-/* line 161, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .photogs .photogItem {
   width: 29%;
   height: 360px;
@@ -176,52 +170,52 @@ div {
   box-sizing: border-box;
   overflow: hidden;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 2s ease-out 2s;
 }
-/* line 176, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .photogs .photogItem .photoImg {
   width: 100%;
   height: 250px;
   position: relative;
   max-width: 300px;
 }
-/* line 183, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .photogs .photogItem .jordan {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 189, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .photogs .photogItem .paul {
   background: url("../img/paul.jpg") no-repeat;
   background-size: cover;
   background-position: top center;
 }
-/* line 195, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .photogs .photogItem .ashley {
   background: url("../img/ashley.jpg") no-repeat;
   background-size: cover;
   background-position: top center;
 }
-/* line 201, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .photogs .photogItem .robin {
   background: url("../img/robin.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 207, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .photogs .photogItem .dalby {
   background: url("../img/dalby.jpg") no-repeat;
   background-size: cover;
   background-position: top center;
 }
-/* line 213, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 .photogs .photogItem .blake {
   background: url("../img/blake.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 220, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .photogs .photogItem .photogDetails {
   position: relative;
   display: block;
@@ -233,25 +227,26 @@ div {
   text-align: center;
   max-width: 300px;
 }
-/* line 231, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .photogs .photogItem .photogDetails .bioFull {
   display: none;
   transition: all 2.5s;
 }
-/* line 235, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .photogs .photogItem .photogDetails .bioFull p {
   font-size: 13px;
   line-height: 20px;
   text-align: left;
 }
-/* line 242, ../scss/style.scss */
+/* line 237, ../scss/style.scss */
 .photogs .photogItem .photogDetails h1 {
   color: white;
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
+  border-bottom: none;
 }
-/* line 249, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .photogs .photogItem .photogDetails a {
   color: #ccc;
   text-decoration: none;
@@ -260,7 +255,7 @@ div {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 259, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .photogs .photogItem .bioImages {
   width: 660px;
   height: 100%;
@@ -269,76 +264,120 @@ div {
   left: 300px;
   display: none;
   background-color: teal;
-  transition: 3s all;
+  transition: all 2s ease-out 2s;
 }
 
-/* line 274, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
+.judges h1 {
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #545454;
+}
+/* line 279, ../scss/style.scss */
+.judges p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 13px;
+}
+/* line 285, ../scss/style.scss */
+.judges .judgeWrap {
+  position: relative;
+  display: inline-block;
+  width: 29%;
+  margin: 3% 2%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 30px 15px;
+  background: #111;
+}
+/* line 295, ../scss/style.scss */
+.judges .judgeWrap img {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+/* line 304, ../scss/style.scss */
+.judges .judgeWrap h1 {
+  border-bottom: none;
+}
+/* line 308, ../scss/style.scss */
+.judges .judgeWrap p {
+  text-align: left;
+}
+
+/* line 317, ../scss/style.scss */
 .jordanHero {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 280, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 .paulHero {
   background: url("../img/paulHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 285, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .ashleyHero {
   background: url("../img/ashleyHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 290, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .dalbyHero {
   background: url("../img/dalbyHero.jpg") no-repeat;
   background-size: cover;
   background-position: center right;
 }
 
-/* line 295, ../scss/style.scss */
+/* line 338, ../scss/style.scss */
 .robinHero {
   background: url("../img/robinHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 300, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .blakeHero {
   background: url("../img/blakeHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 308, ../scss/style.scss */
+/* line 351, ../scss/style.scss */
 .showHide {
   display: none !important;
-  transition: all 1s;
+  transition: all 2s ease-in 3s;
 }
 
-/* line 313, ../scss/style.scss */
+/* line 356, ../scss/style.scss */
 .hideShow {
   display: inline-block !important;
-  transition: all 1s;
+  transition: all 2s ease-out 3s;
 }
 
-/* line 318, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 .expand {
   width: 96% !important;
   height: 600px !important;
-  transition: all 2s;
+  transition: all 2s ease-out 2s;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2000;
 }
 
-/* line 328, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 .autoHeight {
-  height: 450px !important;
-  transition: height 2s !important;
+  max-height: 450px !important;
+  transition: max-height ease-out 2s !important;
 }
