@@ -1,5 +1,6 @@
 // $highlight: slategray;
-$highlight: #545454;
+$highlight: #656565;
+
 
 html, body {
   width: 100%;
@@ -73,7 +74,7 @@ div {
 
 .opacityChange {
   opacity: 0.4 !important;
-  transition: opacity 5s ease-out 1s !important;
+  transition: all 6s !important;
   transition-delay: 2s;
 }
 
@@ -90,11 +91,15 @@ div {
     line-height: 18px;
     text-transform: uppercase;
     font-weight: 300;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: 1px solid $highlight;
   }
 
   .readAllLink {
+    // position: absolute;
+    // top: 200px;
+    // left: 20px;
     position: relative;
     display: inline-block;
     font-size: 13px;
@@ -119,6 +124,7 @@ div {
       text-transform: none;
       padding-bottom: 0;
       border-bottom: none;
+      margin-bottom: 5px;
     }
 
     p {
@@ -127,6 +133,8 @@ div {
       color: #ccc;
       margin-top: 0;
       padding-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
 
     a {
@@ -149,7 +157,7 @@ div {
     line-height: 18px;
     text-transform: uppercase;
     font-weight: 300;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px solid $highlight;
   }
 
@@ -166,13 +174,20 @@ div {
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
-    transition: all 2s ease-out 2s;
+    transition: all 1s;
 
     .photoImg {
       width: 100%;
       height: 250px;
       position: relative;
       max-width: 300px;
+      transition: all 2s;
+    }
+
+    .photoImg:hover {
+      background-size: 150% !important;
+      transition: all 1s;
+
     }
 
     .jordan {
@@ -183,13 +198,13 @@ div {
 
     .paul {
       background: url('../img/paul.jpg') no-repeat;
-      background-size: cover;
+      background-size: 145%;
       background-position: top center;
     }
 
     .ashley {
       background: url('../img/ashley.jpg') no-repeat;
-      background-size: cover;
+      background-size: 145%;
       background-position: top center;
     }
 
@@ -201,7 +216,7 @@ div {
 
     .dalby {
       background: url('../img/dalby.jpg') no-repeat;
-      background-size: cover;
+      background-size: 145%;
       background-position: top center;
     }
 
@@ -240,6 +255,7 @@ div {
         text-transform: none;
         font-weight: 600;
         border-bottom: none;
+        padding-bottom: 0;
       }
 
       a {
@@ -260,7 +276,7 @@ div {
       left: 300px;
       display: none;
       background-color: teal;
-      transition: all 2s ease-out 2s;
+      transition: 3s all;
     }
   }
 }
@@ -350,18 +366,18 @@ div {
 
 .showHide {
   display: none !important;
-  transition: all 2s ease-in 3s;
+  transition: all 1s;
 }
 
 .hideShow {
   display: inline-block !important;
-  transition: all 2s ease-out 3s;
+  transition: all 1s;
 }
 
 .expand {
   width: 96% !important;
   height: 600px !important;
-  transition: all 2s ease-out 2s;
+  transition: all 2s;
   position: absolute;
   top: 0;
   left: 0;

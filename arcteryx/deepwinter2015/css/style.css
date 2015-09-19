@@ -1,4 +1,4 @@
-/* line 4, ../scss/style.scss */
+/* line 5, ../scss/style.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -10,12 +10,12 @@ html, body {
   font-family: Avenir, Arial, sans-serif;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 19, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 .navWrap {
   width: 100%;
   height: 50px;
@@ -25,7 +25,7 @@ div {
   background: black;
   z-index: 100;
 }
-/* line 29, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 .navWrap .navContent {
   width: 100%;
   max-width: 960px;
@@ -35,7 +35,7 @@ div {
   background: black;
 }
 
-/* line 39, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .section {
   position: relative;
   width: 100%;
@@ -43,7 +43,7 @@ div {
   box-sizing: border-box;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .contentWrap {
   position: relative;
   width: 100%;
@@ -53,7 +53,7 @@ div {
   padding: 30px;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .topWrap {
   margin-top: 0;
   height: 80%;
@@ -63,7 +63,7 @@ div {
   background-position: center center;
 }
 
-/* line 64, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .darkLayer {
   position: absolute;
   top: 0;
@@ -74,14 +74,14 @@ div {
   opacity: 1;
 }
 
-/* line 74, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .opacityChange {
   opacity: 0.4 !important;
-  transition: opacity 5s ease-out 1s !important;
+  transition: all 6s !important;
   transition-delay: 2s;
 }
 
-/* line 81, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 .news {
   position: relative;
   display: block;
@@ -89,25 +89,26 @@ div {
   overflow: hidden;
   transition: max-height 2s;
 }
-/* line 88, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .news h1 {
   font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 300;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #545454;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #656565;
 }
-/* line 97, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .news .readAllLink {
   position: relative;
   display: inline-block;
   font-size: 13px;
   margin-left: 15px;
   cursor: pointer;
-  color: #545454;
+  color: #656565;
 }
-/* line 106, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .news .newsWrap {
   box-sizing: border-box;
   position: relative;
@@ -117,7 +118,7 @@ div {
   padding: 0 15px 0 0;
   margin-bottom: 60px;
 }
-/* line 115, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .news .newsWrap h1 {
   font-size: 16px;
   font-weight: 600;
@@ -125,38 +126,41 @@ div {
   text-transform: none;
   padding-bottom: 0;
   border-bottom: none;
+  margin-bottom: 5px;
 }
-/* line 124, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .news .newsWrap p {
   font-size: 13px;
   line-height: 18px;
   color: #ccc;
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-/* line 132, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .news .newsWrap a {
-  color: #545454;
+  color: #656565;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 13px;
 }
 
-/* line 143, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .photogs {
   position: relative;
   min-height: 600px;
 }
-/* line 147, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .photogs h1 {
   font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 300;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #545454;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #656565;
 }
-/* line 156, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 .photogs .photogItem {
   width: 29%;
   height: 360px;
@@ -170,52 +174,58 @@ div {
   box-sizing: border-box;
   overflow: hidden;
   cursor: pointer;
-  transition: all 2s ease-out 2s;
+  transition: all 1s;
 }
-/* line 171, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .photogs .photogItem .photoImg {
   width: 100%;
   height: 250px;
   position: relative;
   max-width: 300px;
+  transition: all 2s;
 }
-/* line 178, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
+.photogs .photogItem .photoImg:hover {
+  background-size: 150% !important;
+  transition: all 1s;
+}
+/* line 193, ../scss/style.scss */
 .photogs .photogItem .jordan {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 184, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .photogs .photogItem .paul {
   background: url("../img/paul.jpg") no-repeat;
-  background-size: cover;
+  background-size: 145%;
   background-position: top center;
 }
-/* line 190, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .photogs .photogItem .ashley {
   background: url("../img/ashley.jpg") no-repeat;
-  background-size: cover;
+  background-size: 145%;
   background-position: top center;
 }
-/* line 196, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .photogs .photogItem .robin {
   background: url("../img/robin.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 202, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .photogs .photogItem .dalby {
   background: url("../img/dalby.jpg") no-repeat;
-  background-size: cover;
+  background-size: 145%;
   background-position: top center;
 }
-/* line 208, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .photogs .photogItem .blake {
   background: url("../img/blake.jpg") no-repeat;
   background-size: 100%;
   background-position: top center;
 }
-/* line 215, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .photogs .photogItem .photogDetails {
   position: relative;
   display: block;
@@ -227,26 +237,27 @@ div {
   text-align: center;
   max-width: 300px;
 }
-/* line 226, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .photogs .photogItem .photogDetails .bioFull {
   display: none;
   transition: all 2.5s;
 }
-/* line 230, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .photogs .photogItem .photogDetails .bioFull p {
   font-size: 13px;
   line-height: 20px;
   text-align: left;
 }
-/* line 237, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .photogs .photogItem .photogDetails h1 {
   color: white;
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
   border-bottom: none;
+  padding-bottom: 0;
 }
-/* line 245, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .photogs .photogItem .photogDetails a {
   color: #ccc;
   text-decoration: none;
@@ -255,7 +266,7 @@ div {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 255, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .photogs .photogItem .bioImages {
   width: 660px;
   height: 100%;
@@ -264,25 +275,25 @@ div {
   left: 300px;
   display: none;
   background-color: teal;
-  transition: all 2s ease-out 2s;
+  transition: 3s all;
 }
 
-/* line 270, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 .judges h1 {
   font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 300;
   padding-bottom: 5px;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid #656565;
 }
-/* line 279, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .judges p {
   margin-top: 0;
   padding-top: 0;
   font-size: 13px;
 }
-/* line 285, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 .judges .judgeWrap {
   position: relative;
   display: inline-block;
@@ -293,7 +304,7 @@ div {
   padding: 30px 15px;
   background: #111;
 }
-/* line 295, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .judges .judgeWrap img {
   width: 90px;
   height: 90px;
@@ -302,81 +313,81 @@ div {
   position: relative;
   text-align: center;
 }
-/* line 304, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 .judges .judgeWrap h1 {
   border-bottom: none;
 }
-/* line 308, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .judges .judgeWrap p {
   text-align: left;
 }
 
-/* line 317, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .jordanHero {
   background: url("../img/ManleyBio.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 323, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .paulHero {
   background: url("../img/paulHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 328, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 .ashleyHero {
   background: url("../img/ashleyHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 333, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 .dalbyHero {
   background: url("../img/dalbyHero.jpg") no-repeat;
   background-size: cover;
   background-position: center right;
 }
 
-/* line 338, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .robinHero {
   background: url("../img/robinHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 343, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 .blakeHero {
   background: url("../img/blakeHero.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 351, ../scss/style.scss */
+/* line 367, ../scss/style.scss */
 .showHide {
   display: none !important;
-  transition: all 2s ease-in 3s;
+  transition: all 1s;
 }
 
-/* line 356, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 .hideShow {
   display: inline-block !important;
-  transition: all 2s ease-out 3s;
+  transition: all 1s;
 }
 
-/* line 361, ../scss/style.scss */
+/* line 377, ../scss/style.scss */
 .expand {
   width: 96% !important;
   height: 600px !important;
-  transition: all 2s ease-out 2s;
+  transition: all 2s;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2000;
 }
 
-/* line 371, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .autoHeight {
   max-height: 450px !important;
   transition: max-height ease-out 2s !important;
