@@ -17,9 +17,34 @@
     </div>
 </div>
 
+<!-- <div class="crestWrap"></div> -->
+
+<div class="eventDetails windowDetail full">
+    <div class="closeLink">X</div>
+    <h1></h1>
+    <p>lisis nisl. Curabitur bibendum facilisis venenatis. Mauris elementum iaculis tellus, nec consectetur velit aliquam vel. Vestibulum eget pharetra mi. Morbi elementum, turpis ut pellentesque tristique, lacus metus bibendum diam, eget bibendum nunc mi ac diam. Nunc id finibus neque.</p>
+</div>
+
 <div class="section topWrap">
     <div class="darkLayer"></div>
+
     <div class="contentWrap">
+        <div class="detailWrap">
+            <ul>
+                <li class="event details">
+                    <h1>Event Details</h1>
+                    <div class="fullDetail details"></div>
+                </li>
+                <li class="event tickets">
+                    <h1>Tickets</h1>
+                    <div class="fullDetail details"></div>
+                </li>
+                <li class="event contest">
+                    <h1>Win</h1>
+                    <div class="fullDetail details"></div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -149,8 +174,12 @@
 <div class="section judges">
     <div class="contentWrap">
         <h1>Judges</h1>
-        <p>Judges Description.</p>
         <div style="clear: both;"></div>
+        <div class="judgeWrap intro">
+            <div class="judgeIntro">
+                <p>Judges Description.</p>
+            </div>
+        </div>
         <div class="judgeWrap">
             <div class="judgeBio">
                 <img src="img/judgeHead.jpg" />
@@ -188,38 +217,68 @@
 </div>
 
 <div class="section sponsors">
-    <div class="contentWrap">Sponsors</div>
+    <div class="contentWrap">
+        <h1>Sponsors</h1>
+        <div class="sponsorWrap">
+            <ul>
+                <li class="sponsor"><a href="http://www.whistlerblackcomb.com" target="_blank"><img src="img/sponsorWhistler.png"/></a></li>
+                <li class="sponsor"><a href="http://www.atomic.com" target="_blank"><img src="img/sponsorAtomic.png"/></a></li>
+                <li class="sponsor"><a href="http://www.fairmont.com/whistler/" target="_blank"><img src="img/sponsorFairmont.png"/></a></li>
+                <li class="sponsor"><a href="http://mountainculturegroup.com/magazines/coast/" target="_blank"><img src="img/sponsorCoastMountain.png"/></a></li>
+                <li class="sponsor"><a href="http://www.kokaneebeer.ca/" target="_blank"><img src="img/sponsorKokanee.png"/></a></li>
+                <li class="sponsor"><a href="http://www.smirnoff.com/en-ca/" target="_blank"><img src="img/sponsorSmirnoff.png"/></a></li>
+                <li class="sponsor"><a href="http://www.piquenewsmagazine.com/" target="_blank"><img src="img/sponsorPique.png"/></a></li>
+                <li class="sponsor"><a href="http://www.whistlerheliskiing.com/" target="_blank"><img src="img/sponsorWhistlerHeli.png"/></a></li>
+                <li class="sponsor"><a href="http://www.avalanche.ca/" target="_blank"><img src="img/sponsorAvalancheCanada.png"/></a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
-<div class="section contact">
-    <div class="contentWrap">Contact + Any Accommodation/Extra Details</div>
+<div style="clear: both;"></div>
+
+<div class="section footer">
+    <div class="contact">
+        <div class="contentWrap">Contact + Any Accommodation/Extra Details</div>
+    </div>
+
+    <div class="newsletter">
+        <div class="contentWrap">Newsletter Signup</div>
+    </div>
 </div>
 
-<div class="section newsletter">
-    <div class="contentWrap">Newsletter Signup</div>
-</div>
 
-
-<script>
-    $( ".photogItem" ).click(function() {
-        $(this).toggleClass( "expand" );
-        $( ".readMoreLink" ).toggleClass( "showHide" );
-        $( ".bioFull" ).toggleClass( "hideShow" );
-        $(this).siblings().toggleClass( "showHide" );
-        $( ".bioImages" ).toggleClass( "hideShow" );
-    });
-</script>
-
-<script>
-    $( ".readAllLink" ).click(function() {
-        $( ".news" ).toggleClass( "autoHeight" );
-    });
-</script>
 
 <script>
     $(document).ready(function(){
         $( ".darkLayer" ).addClass( "opacityChange" );
+        $( ".detailWrap" ).addClass( "slideUp" );
     });
+
+    $( ".photogItem" ).click(function() {
+        $(this).siblings().toggleClass( "showHide" );
+        $( ".readMoreLink" ).toggleClass( "showHide" );
+        $(this).toggleClass( "expand" );
+        $( ".bioFull" ).toggleClass( "hideShow" );
+        $( ".bioImages" ).toggleClass( "hideShow" );
+    });
+
+    $( ".readAllLink" ).click(function() {
+        $( ".news" ).toggleClass( "autoHeight" );
+    });
+
+    $( ".event" ).click(function() {
+        $(this).toggleClass( "opaque" );
+        $(this).siblings().toggleClass( "opacityFade" );
+        $( ".windowDetail" ).toggleClass( "hideShowLeft" );
+    });
+
+    $( ".closeLink" ).click(function() {
+        $( ".windowDetail" ).toggleClass( "hideShowLeft" );
+        $(".event").toggleClass( "opacityFade" );
+        $(".event").removeClass( "opacityFade" );
+    });
+
 </script>
 
 </body>
