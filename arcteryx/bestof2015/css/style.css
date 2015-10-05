@@ -563,3 +563,21 @@ header .logoWrap .logo2015 {
   background: url("../img/itemChamonixWaiting.jpg") no-repeat;
   background-size: cover;
 }
+
+/* line 586, ../scss/style.scss */
+.itemChiaroLuna .itemImg {
+  background: url("../img/itemChiaroLuna.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 593, ../scss/style.scss */
+.itemBananaRepublik .itemImg {
+  background: url("../img/itemBananaRepublik.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 600, ../scss/style.scss */
+.itemFamilyCroatia .itemImg {
+  background: url("../img/itemFamilyCroatia.jpg") no-repeat;
+  background-size: cover;
+}
