@@ -17,6 +17,15 @@ body {
   background: #eee;
 }
 
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+a:visited {
+  color: #212121;
+}
+
 header {
   position: absolute;
   display: block;
@@ -130,6 +139,7 @@ header {
   }
 }
 
+// Top of Page Hero Image Slider
 
 .feature1 {
   background: url('../img/featureslidebg-3.jpg');
@@ -296,10 +306,11 @@ header {
     // border: 1px solid #999;
     box-shadow: 1px 1px 2px #bbb;
     // width: 30%;
-    height: 400px;
+    height: 450px;
     margin: 1% 10px;
     background: white;
     overflow: hidden;
+    position: relative;
 
     // Remove this after adding specific sizing breaks
     min-width: 270px;
@@ -310,27 +321,11 @@ header {
     }
   }
 
-  .wThird {
-    width: 30%;
-  }
-
-  .wHalf {
-    width: 47%;
-  }
-
-  .wFull {
-    width: 97%;
-  }
 
   .itemImg {
     width: 100%;
-    max-height: 250px;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
   }
+
 
   .itemContent {
     padding: 15px 3%;
@@ -341,20 +336,21 @@ header {
       font-weight: 700;
       margin-top: 15px;
       // margin-left: 40px;
-      line-height: 15px;
+      line-height: 16px;
       margin: 0;
       padding: 0;
+      text-transform: uppercase;
     }
 
-
     h2 {
-      font-size: 15px;
-      font-weight: 500;
+      font-size: 12px;
+      font-weight: 100;
       color: #666;
       // margin-left: 40px;
       margin: 0;
       padding: 0;
       line-height: 15px;
+      padding-top: 5px;
     }
 
     h3 {
@@ -380,9 +376,208 @@ header {
       font-size: 13px;
     }
   }
+
+  .wThird {
+    width: 30%;
+    .itemImg {
+      height: 225px;
+    }
+  }
+
+  .wHalf {
+    width: 47%;
+    .itemImg {
+      height: 300px;
+    }
+  }
+
+  .wGroup {
+    width: 97%;
+  }
+
+  .wFull {
+    width: 65%;
+    .itemImg {
+      height: 480px;
+    }
+
+    .itemContent {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      display: inline-block;
+      box-sizing: border-box;
+      padding: 15px;
+      background: #fff;
+      bottom: 30px;
+      left: 30px;
+    }
+  }
+
 }
 
 #mixWrap .mix{
   display: none;
 }
 
+// Item Specific Styles
+
+.itemMexicoVolcano {
+   .itemImg {
+     background:url('../img/itemMexicoVolcano.jpg') no-repeat;
+     background-size: cover;
+   }
+ }
+
+.itemHojiAfterglow {
+  .itemImg {
+    background:url('../img/itemHojiAfterglow.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemManleyUK {
+  .itemImg {
+    background:url('../img/itemManleyUK.jpg') no-repeat;
+    background-size: cover;
+    background-position: -250px top;
+  }
+}
+
+.itemTrueSpirit {
+  .itemImg {
+    background:url('../img/itemTrueSpirit.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemBurkardRoss {
+  .itemImg {
+    background:url('../img/itemBurkardRoss.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemOffGrid {
+  .itemImg {
+    background:url('../img/itemOffGrid.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemLithicGlove {
+  .itemImg {
+    background:url('../img/itemLithicGlove.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemGoreCare {
+  .itemImg {
+    background:url('../img/itemGoreCare.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemInspiredDesign {
+  .itemImg {
+    background:url('../img/itemInspiredDesign.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemColoradoClassics {
+  .itemImg {
+    background:url('../img/itemColoradoClassics.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemEverestGroup {
+  height: 640px !important;
+  .itemImg {
+    height: 640px !important;
+    background:url('../img/itemEverestGroup.jpg') no-repeat;
+    background-size: cover;
+  }
+
+  .groupContent {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 97%;
+    min-width: 300px;
+    text-align: left;
+
+    .groupIntro {
+
+    }
+
+    .itemContent {
+      position: relative;
+      display: inline-block;
+      width: 22%;
+      height: 190px !important;
+      background: white !important;
+      opacity: 0.9;
+      margin-bottom: 5px;
+      vertical-align: top;
+      transition: all 1s;
+    }
+
+    .itemContent:hover {
+      background: #bbb !important;
+      transition: all 1s;
+    }
+
+  }
+}
+
+.itemIzzyJapan {
+  .itemImg {
+    background:url('../img/itemIzzyJapan.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemStanhopeGear {
+  .itemImg {
+    background:url('../img/itemStanhopeGear.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemGranParadiso{
+  .itemImg {
+    background:url('../img/itemGranParadiso.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemWeldonCasa{
+  .itemImg {
+    background:url('../img/itemWeldonCasa.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemBrideNorway{
+  .itemImg {
+    background:url('../img/itemBrideNorway.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemNinaTrying{
+  .itemImg {
+    background:url('../img/itemNinaTrying.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemChamonixWaiting{
+  .itemImg {
+    background:url('../img/itemChamonixWaiting.jpg') no-repeat;
+    background-size: cover;
+  }
+}

@@ -17,6 +17,17 @@ body {
 }
 
 /* line 20, ../scss/style.scss */
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/* line 25, ../scss/style.scss */
+a:visited {
+  color: #212121;
+}
+
+/* line 29, ../scss/style.scss */
 header {
   position: absolute;
   display: block;
@@ -29,7 +40,7 @@ header {
   background-size: cover;
   background-position: center bottom;
 }
-/* line 32, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 header .logoWrap {
   color: white;
   position: relative;
@@ -37,7 +48,7 @@ header .logoWrap {
   margin-top: 60px;
   text-transform: uppercase;
 }
-/* line 39, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 header .logoWrap .logoBest {
   position: absolute;
   font-weight: 500;
@@ -45,7 +56,7 @@ header .logoWrap .logoBest {
   letter-spacing: 1px;
   text-shadow: 1px 1px 3px #111;
 }
-/* line 47, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 header .logoWrap .logoOf {
   position: absolute;
   font-weight: 100;
@@ -54,7 +65,7 @@ header .logoWrap .logoOf {
   top: 43px;
   text-shadow: 1px 1px 3px #111;
 }
-/* line 55, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 header .logoWrap .logo2015 {
   position: absolute;
   font-weight: 500;
@@ -65,7 +76,7 @@ header .logoWrap .logo2015 {
   left: 50px;
 }
 
-/* line 67, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 .featureWrap {
   width: 100%;
   height: 650px;
@@ -73,12 +84,12 @@ header .logoWrap .logo2015 {
   box-sizing: border-box;
   text-align: center;
 }
-/* line 74, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .featureWrap ul {
   list-style: none;
   z-index: 1000;
 }
-/* line 77, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .featureWrap ul li {
   width: 15px;
   height: 15px;
@@ -86,7 +97,7 @@ header .logoWrap .logo2015 {
   margin: 0 5px !important;
   overflow: hidden;
 }
-/* line 83, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .featureWrap ul li button {
   color: #666 !important;
   display: inline-block !important;
@@ -98,17 +109,17 @@ header .logoWrap .logo2015 {
   border: none;
   overflow: hidden !important;
 }
-/* line 97, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .featureWrap .featureSlide {
   width: 100%;
   height: 100%;
 }
-/* line 101, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .featureWrap .featureSlide .slideContent {
   position: relative;
   text-align: left;
 }
-/* line 105, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 .featureWrap .featureSlide .slideContent h1 {
   color: white;
   font-size: 36px;
@@ -117,7 +128,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   text-transform: uppercase;
 }
-/* line 114, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 .featureWrap .featureSlide .slideContent h3 {
   color: white;
   font-size: 18px;
@@ -126,7 +137,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   text-transform: uppercase;
 }
-/* line 123, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .featureWrap .featureSlide .slideContent a {
   color: white;
   font-size: 15px;
@@ -134,26 +145,26 @@ header .logoWrap .logo2015 {
   line-height: 18px;
 }
 
-/* line 134, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .feature1 {
   background: url("../img/featureslidebg-3.jpg");
   background-size: cover;
   background-position: center bottom;
 }
-/* line 139, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .feature1 .slideContent {
   float: none;
   margin-top: 200px;
   text-align: center !important;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .feature2 {
   background: url("../img/featureslidebg-2.jpg");
   background-size: cover;
   background-position: center top;
 }
-/* line 151, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .feature2 .slideContent {
   width: 390px;
   float: right;
@@ -162,13 +173,13 @@ header .logoWrap .logo2015 {
   text-align: right !important;
 }
 
-/* line 160, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .feature3 {
   background: url("../img/featureslidebg-4.jpg");
   background-size: cover;
   background-position: left bottom;
 }
-/* line 165, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 .feature3 .slideContent {
   width: 390px;
   float: right;
@@ -177,13 +188,13 @@ header .logoWrap .logo2015 {
   text-align: right !important;
 }
 
-/* line 174, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .feature4 {
   background: url("../img/featureslidebg.jpg");
   background-size: cover;
   background-position: right top;
 }
-/* line 179, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .feature4 .slideContent {
   width: 390px;
   float: left;
@@ -191,12 +202,12 @@ header .logoWrap .logo2015 {
   margin-left: 15%;
   text-align: right !important;
 }
-/* line 186, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .feature4 .slideContent h1, .feature4 .slideContent h3, .feature4 .slideContent a {
   color: teal !important;
 }
 
-/* line 193, ../scss/style.scss */
+/* line 203, ../scss/style.scss */
 .contentWrap {
   box-sizing: border-box;
   position: relative;
@@ -204,13 +215,13 @@ header .logoWrap .logo2015 {
   margin: 0 auto;
 }
 @media screen and (max-width: 960px) {
-  /* line 193, ../scss/style.scss */
+  /* line 203, ../scss/style.scss */
   .contentWrap {
     width: 100%;
   }
 }
 
-/* line 205, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .controlWrap {
   position: absolute;
   width: 100%;
@@ -220,7 +231,7 @@ header .logoWrap .logo2015 {
   top: 642px;
   left: -8px;
 }
-/* line 214, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .controlWrap .filter {
   display: inline-block;
   padding: 5px 15px;
@@ -232,7 +243,7 @@ header .logoWrap .logo2015 {
   font-weight: 600;
   font-size: 12px;
 }
-/* line 226, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .controlWrap .sort {
   display: inline-block;
   padding: 5px 15px;
@@ -244,7 +255,7 @@ header .logoWrap .logo2015 {
   font-weight: 600;
   font-size: 12px;
 }
-/* line 238, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .controlWrap button {
   display: inline-block;
   padding: .4em .8em;
@@ -254,20 +265,20 @@ header .logoWrap .logo2015 {
   cursor: pointer;
   transition: all 1s ease;
 }
-/* line 248, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .controlWrap button.active {
   background: teal;
 }
-/* line 253, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .controlWrap button:focus {
   outline: 0 none;
 }
-/* line 257, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .controlWrap button:hover {
   background: lightblue;
   transition: all 1s ease;
 }
-/* line 262, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .controlWrap label {
   text-transform: uppercase;
   font-size: 12px;
@@ -275,7 +286,7 @@ header .logoWrap .logo2015 {
   color: #ddd !important;
 }
 
-/* line 270, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .bestOfWrap {
   width: 100%;
   height: 100%;
@@ -283,7 +294,7 @@ header .logoWrap .logo2015 {
   margin-top: 720px;
 }
 
-/* line 277, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 #mixWrap {
   height: 100%;
   width: 960px;
@@ -292,74 +303,59 @@ header .logoWrap .logo2015 {
   text-align: center;
 }
 @media screen and (max-width: 960px) {
-  /* line 277, ../scss/style.scss */
+  /* line 287, ../scss/style.scss */
   #mixWrap {
     width: 100%;
   }
 }
-/* line 292, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 #mixWrap .mix {
   display: inline-block;
   box-sizing: border-box;
   padding: 0;
   box-shadow: 1px 1px 2px #bbb;
-  height: 400px;
+  height: 450px;
   margin: 1% 10px;
   background: white;
   overflow: hidden;
+  position: relative;
   min-width: 270px;
 }
-/* line 307, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 #mixWrap .mix h1 {
   font-size: 14px;
   font-weight: 100;
 }
-/* line 313, ../scss/style.scss */
-#mixWrap .wThird {
-  width: 30%;
-}
-/* line 317, ../scss/style.scss */
-#mixWrap .wHalf {
-  width: 47%;
-}
-/* line 321, ../scss/style.scss */
-#mixWrap .wFull {
-  width: 97%;
-}
 /* line 325, ../scss/style.scss */
 #mixWrap .itemImg {
   width: 100%;
-  max-height: 250px;
 }
-/* line 329, ../scss/style.scss */
-#mixWrap .itemImg img {
-  width: 100%;
-  height: auto;
-}
-/* line 335, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 #mixWrap .itemContent {
   padding: 15px 3%;
   text-align: left;
 }
-/* line 339, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 #mixWrap .itemContent h1 {
   font-size: 15px;
   font-weight: 700;
   margin-top: 15px;
-  line-height: 15px;
+  line-height: 16px;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
-/* line 350, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 #mixWrap .itemContent h2 {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 100;
   color: #666;
   margin: 0;
   padding: 0;
   line-height: 15px;
+  padding-top: 5px;
 }
-/* line 360, ../scss/style.scss */
+/* line 356, ../scss/style.scss */
 #mixWrap .itemContent h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -368,7 +364,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 369, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 #mixWrap .itemContent h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -378,12 +374,192 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 379, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 #mixWrap .itemContent p {
   font-size: 13px;
 }
+/* line 380, ../scss/style.scss */
+#mixWrap .wThird {
+  width: 30%;
+}
+/* line 382, ../scss/style.scss */
+#mixWrap .wThird .itemImg {
+  height: 225px;
+}
+/* line 387, ../scss/style.scss */
+#mixWrap .wHalf {
+  width: 47%;
+}
+/* line 389, ../scss/style.scss */
+#mixWrap .wHalf .itemImg {
+  height: 300px;
+}
+/* line 394, ../scss/style.scss */
+#mixWrap .wGroup {
+  width: 97%;
+}
+/* line 398, ../scss/style.scss */
+#mixWrap .wFull {
+  width: 65%;
+}
+/* line 400, ../scss/style.scss */
+#mixWrap .wFull .itemImg {
+  height: 480px;
+}
+/* line 404, ../scss/style.scss */
+#mixWrap .wFull .itemContent {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #fff;
+  bottom: 30px;
+  left: 30px;
+}
 
-/* line 385, ../scss/style.scss */
+/* line 419, ../scss/style.scss */
 #mixWrap .mix {
   display: none;
+}
+
+/* line 426, ../scss/style.scss */
+.itemMexicoVolcano .itemImg {
+  background: url("../img/itemMexicoVolcano.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 433, ../scss/style.scss */
+.itemHojiAfterglow .itemImg {
+  background: url("../img/itemHojiAfterglow.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 440, ../scss/style.scss */
+.itemManleyUK .itemImg {
+  background: url("../img/itemManleyUK.jpg") no-repeat;
+  background-size: cover;
+  background-position: -250px top;
+}
+
+/* line 448, ../scss/style.scss */
+.itemTrueSpirit .itemImg {
+  background: url("../img/itemTrueSpirit.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 455, ../scss/style.scss */
+.itemBurkardRoss .itemImg {
+  background: url("../img/itemBurkardRoss.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 462, ../scss/style.scss */
+.itemOffGrid .itemImg {
+  background: url("../img/itemOffGrid.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 469, ../scss/style.scss */
+.itemLithicGlove .itemImg {
+  background: url("../img/itemLithicGlove.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 476, ../scss/style.scss */
+.itemGoreCare .itemImg {
+  background: url("../img/itemGoreCare.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 483, ../scss/style.scss */
+.itemInspiredDesign .itemImg {
+  background: url("../img/itemInspiredDesign.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 490, ../scss/style.scss */
+.itemColoradoClassics .itemImg {
+  background: url("../img/itemColoradoClassics.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 496, ../scss/style.scss */
+.itemEverestGroup {
+  height: 640px !important;
+}
+/* line 498, ../scss/style.scss */
+.itemEverestGroup .itemImg {
+  height: 640px !important;
+  background: url("../img/itemEverestGroup.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 504, ../scss/style.scss */
+.itemEverestGroup .groupContent {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 97%;
+  min-width: 300px;
+  text-align: left;
+}
+/* line 516, ../scss/style.scss */
+.itemEverestGroup .groupContent .itemContent {
+  position: relative;
+  display: inline-block;
+  width: 22%;
+  height: 190px !important;
+  background: white !important;
+  opacity: 0.9;
+  margin-bottom: 5px;
+  vertical-align: top;
+  transition: all 1s;
+}
+/* line 528, ../scss/style.scss */
+.itemEverestGroup .groupContent .itemContent:hover {
+  background: #bbb !important;
+  transition: all 1s;
+}
+
+/* line 537, ../scss/style.scss */
+.itemIzzyJapan .itemImg {
+  background: url("../img/itemIzzyJapan.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 544, ../scss/style.scss */
+.itemStanhopeGear .itemImg {
+  background: url("../img/itemStanhopeGear.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 551, ../scss/style.scss */
+.itemGranParadiso .itemImg {
+  background: url("../img/itemGranParadiso.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 558, ../scss/style.scss */
+.itemWeldonCasa .itemImg {
+  background: url("../img/itemWeldonCasa.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 565, ../scss/style.scss */
+.itemBrideNorway .itemImg {
+  background: url("../img/itemBrideNorway.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 572, ../scss/style.scss */
+.itemNinaTrying .itemImg {
+  background: url("../img/itemNinaTrying.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 579, ../scss/style.scss */
+.itemChamonixWaiting .itemImg {
+  background: url("../img/itemChamonixWaiting.jpg") no-repeat;
+  background-size: cover;
 }

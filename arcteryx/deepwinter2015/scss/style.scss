@@ -52,19 +52,6 @@ div {
   z-index: 2000;
 }
 
-.windowDetail {
-  transition: all 3s ease-in 1s;
-  background: black;
-  left: 0%;
-}
-
-.closeLink {
-  cursor: pointer;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-}
-
 .section {
   position: relative;
   width: 100%;
@@ -161,19 +148,26 @@ div {
   }
 }
 
-.eventDetails {
-  position: absolute;
+.eventDetails, .eventTickets, .eventContest {
+  position: fixed;
   top: 10%;
-  // left: 10%;
   width: 80%;
   right: 10%;
   bottom: 10%;
-  // background: teal;
   z-index: 9000;
   box-sizing: border-box;
   padding: 30px;
-  transition: all 1s;
-  left: -1500px;
+  left: -2000px;
+  opacity: .7;
+  transition: all 1.5s ease-in;
+  background: black;
+}
+
+.closeLinkDetails, .closeLinkTickets, .closeLinkContest {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 
@@ -194,8 +188,19 @@ div {
 
 .opacityChange {
   opacity: 0 !important;
-  transition: all 6s ease-out 1s !important;
+  transition: all 0.5s ease-out !important;
   transition-delay: 2s;
+}
+
+.opacityChangeLong {
+  opacity: 0 !important;
+  transition: all 5s ease-out !important;
+  transition-delay: 2s;
+}
+
+.hideShowLeft {
+  left: 10% !important;
+  transition: all 1s ease-in;
 }
 
 
@@ -295,7 +300,7 @@ div {
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 1.5s;
 
     .photoImg {
       width: 100%;
@@ -312,41 +317,6 @@ div {
 
     }
 
-    .jordan {
-      background: url('../img/ManleyBio.jpg') no-repeat;
-      background-size: 100%;
-      background-position: top center;
-    }
-
-    .paul {
-      background: url('../img/paul.jpg') no-repeat;
-      background-size: 145%;
-      background-position: top center;
-    }
-
-    .ashley {
-      background: url('../img/ashley.jpg') no-repeat;
-      background-size: 145%;
-      background-position: top center;
-    }
-
-    .robin {
-      background: url('../img/robin.jpg') no-repeat;
-      background-size: 100%;
-      background-position: top center;
-    }
-
-    .dalby {
-      background: url('../img/dalby.jpg') no-repeat;
-      background-size: 145%;
-      background-position: top center;
-    }
-
-    .blake {
-      background: url('../img/blake.jpg') no-repeat;
-      background-size: 100%;
-      background-position: top center;
-    }
 
 
     .photogDetails {
@@ -403,6 +373,142 @@ div {
   }
 }
 
+// Photog Full Bio Modals
+
+
+.jordan {
+  background: url('../img/ManleyBio.jpg') no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.paul {
+  background: url('../img/paul.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.ashley {
+  background: url('../img/ashley.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.robin {
+  background: url('../img/robin.jpg') no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.dalby {
+  background: url('../img/dalby.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.blake {
+  background: url('../img/blake.jpg') no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.jordanBioFull, .ashleyBioFull, .paulBioFull, .blakeBioFull, .dalbyBioFull, .robinBioFull {
+  position: fixed;
+  top: 10%;
+  width: 80%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 9000;
+  box-sizing: border-box;
+  padding: 30px;
+  left: -2000px;
+  opacity: 1;
+  transition: all 1s ease-in;
+  background: #222;
+
+  .jordanCloseLinkBio, .ashleyCloseLinkBio, .blakeCloseLinkBio, .robinCloseLinkBio, .dalbyCloseLinkBio, .paulCloseLinkBio {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .bioLeftWrap {
+    width: 30%;
+    height: 90%;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+
+    .photoImg {
+      vertical-align: top;
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 75%;
+    }
+
+    .bioFull {
+      vertical-align: top;
+      width: 100%;
+      display: inline-block;
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .bioImages {
+    position: relative;
+    width: 65%;
+    height: 90%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+
+// JS Clases for Photog Section
+
+.showHide {
+  display: none !important;
+  transition: all 1s;
+}
+
+.hideShow {
+  display: inline-block !important;
+  transition: all 1s ease-in 2s;
+}
+
+.hideShowDelay {
+  display: inline-block !important;
+  transition: all 1s ease-in 4s;
+}
+
+.expand {
+  width: 96% !important;
+  max-width: 960px;
+  height: 600px !important;
+  transition: all ease-in 2s;
+  position: fixed !important;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 2000;
+}
+
+.autoHeight {
+  max-height: 450px !important;
+  transition: max-height ease-out 2s !important;
+}
+
+
 .judges {
 
   h1 {
@@ -429,7 +535,6 @@ div {
     display: inline-block;
     width: 47%;
     min-width: 250px;
-    max-width: 400px;
     height: auto;
     margin: 1% 1% 1% 15px;
     box-sizing: border-box;
@@ -473,8 +578,6 @@ div {
       padding-left: 120px;
     }
 
-
-
     .judgeIntro {
       // background: #111 !important;
       vertical-align: top;
@@ -484,12 +587,61 @@ div {
       width: 100%;
       height: 100%;
 
+      h1 {
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $highlight;
+        margin-left: 15px;
+        padding-left: 0;
+        font-size: 18px !important;
+      }
+
       p {
         padding-left: 15px !important;
         vertical-align: top;
       }
     }
+  }
+}
 
+// After Party Styles
+
+.afterparty {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 30%;
+  max-width: 880px;
+  background: url('../img/afterparty3BW.jpg') no-repeat;
+  background-size: cover;
+  background-position: 300px 50px;
+  margin-bottom: 60px;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  .contentWrap {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 100%;
+    background: #111;
+
+    h1 {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 13px;
+
+    }
   }
 }
 
@@ -527,36 +679,43 @@ div {
   background-position: center center;
 }
 
-// JS Clases for Photog Section
+// Contest Section
 
-.showHide {
-  display: none !important;
-  transition: all 1s;
+.contest {
+  height: 480px;
+  max-width: 880px;
+
+  .contentWrap {
+    background: #222;
+
+    h1 {
+      font-size: 15px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $highlight;
+    }
+  }
 }
 
-.hideShow {
-  display: inline-block !important;
-  transition: all 1s;
-}
 
-.hideShowLeft {
-  left: 10% !important;
-  transition: all 1s ease-in;
-}
+.charity {
+  margin-top: 90px;
 
-.expand {
-  width: 96% !important;
-  height: 600px !important;
-  transition: all 2s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
+  .contentWrap {
+    background: #222;
+    max-width: 880px;
 
-.autoHeight {
-  max-height: 450px !important;
-  transition: max-height ease-out 2s !important;
+    h1 {
+      font-size: 15px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $highlight;
+    }
+  }
 }
 
 // Sponsors Section
@@ -609,4 +768,30 @@ div {
 
 .footer {
   background: #232323;
+  font-size: 13px;
+  text-transform: uppercase;
+
+  .contact {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+    // border: 1px solid teal;
+    padding-top: 0;
+    margin-top: 0;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+
+  }
+
+  .newsletter {
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    // border: 1px solid teal;
+  }
 }

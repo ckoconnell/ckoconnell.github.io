@@ -17,7 +17,6 @@ body {
 
 // Start Copy
 
-
 div {
   box-sizing: border-box;
 }
@@ -54,7 +53,7 @@ p {
   box-sizing: border-box;
   max-width: 1200px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     background-size: 130%;
   }
 
@@ -144,7 +143,7 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     margin-left: 0;
     padding-left: 30px;
     height: auto;
@@ -163,11 +162,12 @@ p {
     box-sizing: border-box;
     text-align: right;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       width: 90%;
       margin: 0;
       text-align: left;
       padding-left: 190px;
+      padding-bottom: 50px;
     }
 
     @media screen and (max-width: 500px) {
@@ -201,7 +201,7 @@ p {
     margin-top: 60px;
     box-sizing: border-box;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       // display: none !important;
       position: absolute;
       width: 150px;
@@ -231,7 +231,7 @@ p {
   margin-top: 60px;
   margin-bottom: 60px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     margin-left: 0;
     padding-left: 30px;
     height: auto;
@@ -249,11 +249,12 @@ p {
     margin-top: 100px;
     box-sizing: border-box;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       width: 90%;
       margin: 0;
       text-align: left;
       padding-left: 190px;
+      padding-bottom: 50px;
     }
 
     @media screen and (max-width: 500px) {
@@ -286,7 +287,7 @@ p {
     box-sizing: border-box;
     float: left;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       // display: none !important;
       position: absolute;
       width: 180px;
@@ -314,7 +315,7 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     margin-left: 0;
     padding-left: 30px;
     height: auto;
@@ -333,13 +334,14 @@ p {
     box-sizing: border-box;
     text-align: right;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       width: 90%;
       margin: 0;
       padding: 0;
       text-align: left;
       float: left;
       padding-left: 190px;
+      padding-bottom: 50px;
     }
 
     @media screen and (max-width: 500px) {
@@ -374,7 +376,7 @@ p {
     box-sizing: border-box;
     float: none;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       // display: none !important;
       position: absolute;
       width: 180px;
@@ -401,7 +403,7 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     margin-left: 0;
     padding-left: 30px;
     height: auto;
@@ -419,11 +421,12 @@ p {
     margin-top: 100px;
     box-sizing: border-box;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       width: 90%;
       margin: 0;
       text-align: left;
       padding-left: 190px;
+      padding-bottom: 50px;
     }
 
     @media screen and (max-width: 500px) {
@@ -456,7 +459,7 @@ p {
     box-sizing: border-box;
     float: left;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
       // display: none !important;
       position: absolute;
       width: 160px;
@@ -480,7 +483,7 @@ p {
    padding-bottom: 56.25%; /* 16:9 */
    margin: 60px;
 
-   @media screen and (max-width: 767px) {
+   @media screen and (max-width: 800px) {
      // margin-top: 400px;
    }
 }
@@ -596,6 +599,44 @@ p {
       padding-top: 0;
     }
   }
+
+  .photoCredit {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    display: block;
+
+    @media screen and (max-width: 720px) {
+      top: 3%;
+      left: 5%;
+    }
+
+    @media screen and (max-width: 500px) {
+      top: 1%;
+      left: 5%;
+
+      p {
+        font-size: 9px;
+      }
+    }
+
+    p {
+      color: #333;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+
+    .photog {
+      font-weight: 900;
+      color: #111;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+  }
+
 }
 
 .shopWrap {

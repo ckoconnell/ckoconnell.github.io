@@ -17,12 +17,12 @@ body {
   margin: 0px;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 25, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .contentWrap {
   width: 100%;
   max-width: 1500px;
@@ -32,7 +32,7 @@ div {
   box-sizing: border-box;
 }
 
-/* line 34, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 .section {
   width: 100%;
   display: block;
@@ -40,17 +40,17 @@ div {
   box-sizing: border-box;
 }
 
-/* line 41, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .copyWrap {
   border-bottom: 1px solid #aaa;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 p {
   color: #ddd;
 }
 
-/* line 49, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .top {
   background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-121.jpg");
   background-repeat: no-repeat;
@@ -59,13 +59,13 @@ p {
   box-sizing: border-box;
   max-width: 1200px;
 }
-@media screen and (max-width: 767px) {
-  /* line 49, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 48, ../scss/style.scss */
   .top {
     background-size: 130%;
   }
 }
-/* line 61, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .top .copyWrap {
   width: 36%;
   min-width: 350px;
@@ -77,7 +77,7 @@ p {
   padding-top: 0px;
 }
 @media screen and (max-width: 900px) {
-  /* line 61, ../scss/style.scss */
+  /* line 60, ../scss/style.scss */
   .top .copyWrap {
     width: 80%;
     float: left;
@@ -86,7 +86,7 @@ p {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 61, ../scss/style.scss */
+  /* line 60, ../scss/style.scss */
   .top .copyWrap {
     width: 90%;
     min-width: 90%;
@@ -94,18 +94,18 @@ p {
     padding-top: 400px;
   }
 }
-/* line 86, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .top h1 {
   text-transform: uppercase;
   margin-bottom: 0;
   color: white;
 }
-/* line 92, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .top p {
   font-size: 1em;
   line-height: 1.8em;
 }
-/* line 97, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .top h3 {
   margin-top: 0;
   font-size: 1.2em;
@@ -113,7 +113,7 @@ p {
   text-transform: uppercase;
   color: white;
 }
-/* line 106, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .top a {
   font-size: 13px;
   padding: 5px 15px 4px;
@@ -126,13 +126,13 @@ p {
   text-align: center;
   margin-right: 15px;
 }
-/* line 119, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .top .invertButton {
   border: none;
   background: #FFF;
   color: #000;
 }
-/* line 125, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .top .arrowDown {
   font-size: 8px;
   vertical-align: top;
@@ -142,7 +142,7 @@ p {
   display: inline-block;
 }
 
-/* line 136, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .two {
   width: 100%;
   max-width: 960px;
@@ -154,8 +154,8 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 }
-@media screen and (max-width: 767px) {
-  /* line 136, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 135, ../scss/style.scss */
   .two {
     margin-left: 0;
     padding-left: 30px;
@@ -163,12 +163,12 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 136, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   .two {
     margin-top: 0 !important;
   }
 }
-/* line 157, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .two .copyWrap {
   position: relative;
   display: inline-block;
@@ -178,17 +178,18 @@ p {
   box-sizing: border-box;
   text-align: right;
 }
-@media screen and (max-width: 767px) {
-  /* line 157, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 156, ../scss/style.scss */
   .two .copyWrap {
     width: 90%;
     margin: 0;
     text-align: left;
     padding-left: 190px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 157, ../scss/style.scss */
+  /* line 156, ../scss/style.scss */
   .two .copyWrap {
     padding-left: 0;
   }
@@ -220,7 +221,7 @@ p {
   margin-top: 60px;
   box-sizing: border-box;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   /* line 190, ../scss/style.scss */
   .two .detailWrap {
     position: absolute;
@@ -252,7 +253,7 @@ p {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   /* line 222, ../scss/style.scss */
   .three {
     margin-left: 0;
@@ -275,13 +276,14 @@ p {
   margin-top: 100px;
   box-sizing: border-box;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   /* line 244, ../scss/style.scss */
   .three .copyWrap {
     width: 90%;
     margin: 0;
     text-align: left;
     padding-left: 190px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -290,19 +292,19 @@ p {
     padding-left: 0;
   }
 }
-/* line 264, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 .three p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 269, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 .three h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
   color: white;
 }
-/* line 276, ../scss/style.scss */
+/* line 277, ../scss/style.scss */
 .three .detailWrap {
   background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-20.jpg");
   background-position: 50% 11%;
@@ -316,8 +318,8 @@ p {
   box-sizing: border-box;
   float: left;
 }
-@media screen and (max-width: 767px) {
-  /* line 276, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 277, ../scss/style.scss */
   .three .detailWrap {
     position: absolute;
     width: 180px;
@@ -329,13 +331,13 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 276, ../scss/style.scss */
+  /* line 277, ../scss/style.scss */
   .three .detailWrap {
     display: none !important;
   }
 }
 
-/* line 306, ../scss/style.scss */
+/* line 307, ../scss/style.scss */
 .four {
   width: 100%;
   max-width: 960px;
@@ -347,8 +349,8 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 }
-@media screen and (max-width: 767px) {
-  /* line 306, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 307, ../scss/style.scss */
   .four {
     margin-left: 0;
     padding-left: 30px;
@@ -356,12 +358,12 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 306, ../scss/style.scss */
+  /* line 307, ../scss/style.scss */
   .four {
     margin-top: 0 !important;
   }
 }
-/* line 327, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .four .copyWrap {
   position: relative;
   display: inline-block;
@@ -371,8 +373,8 @@ p {
   box-sizing: border-box;
   text-align: right;
 }
-@media screen and (max-width: 767px) {
-  /* line 327, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 328, ../scss/style.scss */
   .four .copyWrap {
     width: 90%;
     margin: 0;
@@ -380,27 +382,28 @@ p {
     text-align: left;
     float: left;
     padding-left: 190px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 327, ../scss/style.scss */
+  /* line 328, ../scss/style.scss */
   .four .copyWrap {
     padding-left: 0;
   }
 }
-/* line 350, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .four p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 355, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 .four h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
   color: white;
 }
-/* line 362, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .four .detailWrap {
   position: relative;
   display: inline-block;
@@ -416,8 +419,8 @@ p {
   box-sizing: border-box;
   float: none;
 }
-@media screen and (max-width: 767px) {
-  /* line 362, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 364, ../scss/style.scss */
   .four .detailWrap {
     position: absolute;
     width: 180px;
@@ -429,13 +432,13 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 362, ../scss/style.scss */
+  /* line 364, ../scss/style.scss */
   .four .detailWrap {
     display: none !important;
   }
 }
 
-/* line 394, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .five {
   width: 100%;
   max-width: 960px;
@@ -446,8 +449,8 @@ p {
   box-sizing: border-box;
   margin-top: 60px;
 }
-@media screen and (max-width: 767px) {
-  /* line 394, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 396, ../scss/style.scss */
   .five {
     margin-left: 0;
     padding-left: 30px;
@@ -455,12 +458,12 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 394, ../scss/style.scss */
+  /* line 396, ../scss/style.scss */
   .five {
     margin-top: 0 !important;
   }
 }
-/* line 414, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 .five .copyWrap {
   position: relative;
   display: inline-block;
@@ -469,34 +472,35 @@ p {
   margin-top: 100px;
   box-sizing: border-box;
 }
-@media screen and (max-width: 767px) {
-  /* line 414, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 416, ../scss/style.scss */
   .five .copyWrap {
     width: 90%;
     margin: 0;
     text-align: left;
     padding-left: 190px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 414, ../scss/style.scss */
+  /* line 416, ../scss/style.scss */
   .five .copyWrap {
     padding-left: 0;
   }
 }
-/* line 434, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 .five p {
   font-size: .9em;
   line-height: 1.8em;
 }
-/* line 439, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 .five h3 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0;
   color: white;
 }
-/* line 446, ../scss/style.scss */
+/* line 449, ../scss/style.scss */
 .five .detailWrap {
   background-image: url("http://blog-media.arcteryx.com/images/articles/Lithic-Glove-Crimson-Flame-81.jpg");
   background-position: 50% 11%;
@@ -510,8 +514,8 @@ p {
   box-sizing: border-box;
   float: left;
 }
-@media screen and (max-width: 767px) {
-  /* line 446, ../scss/style.scss */
+@media screen and (max-width: 800px) {
+  /* line 449, ../scss/style.scss */
   .five .detailWrap {
     position: absolute;
     width: 160px;
@@ -523,13 +527,13 @@ p {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 446, ../scss/style.scss */
+  /* line 449, ../scss/style.scss */
   .five .detailWrap {
     display: none !important;
   }
 }
 
-/* line 476, ../scss/style.scss */
+/* line 479, ../scss/style.scss */
 .videoWrap {
   width: auto;
   height: 80%;
@@ -539,7 +543,7 @@ p {
   margin: 60px;
 }
 
-/* line 488, ../scss/style.scss */
+/* line 491, ../scss/style.scss */
 .videoWrap iframe {
   position: absolute;
   top: 0;
@@ -548,47 +552,47 @@ p {
   height: 100%;
 }
 
-/* line 498, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 .austin {
   background: url("http://blog-media.arcteryx.com/images/articles/austinAction.jpg") no-repeat;
   background-size: auto 120%;
   background-position: right top;
 }
 @media screen and (max-width: 850px) {
-  /* line 498, ../scss/style.scss */
+  /* line 501, ../scss/style.scss */
   .austin {
     background-position: -240px top;
   }
 }
 @media screen and (max-width: 750px) {
-  /* line 498, ../scss/style.scss */
+  /* line 501, ../scss/style.scss */
   .austin {
     background-position: -350px top;
   }
 }
 @media screen and (max-width: 720px) {
-  /* line 498, ../scss/style.scss */
+  /* line 501, ../scss/style.scss */
   .austin {
     background-position: top left;
     background-size: 100%;
   }
 }
 
-/* line 517, ../scss/style.scss */
+/* line 520, ../scss/style.scss */
 .matthias {
   background: url("http://blog-media.arcteryx.com/images/articles/matthiasAction.jpg") no-repeat;
   background-size: auto 120%;
   background-position: right top;
 }
 @media screen and (max-width: 720px) {
-  /* line 517, ../scss/style.scss */
+  /* line 520, ../scss/style.scss */
   .matthias {
     background-position: top left;
     background-size: 100%;
   }
 }
 
-/* line 528, ../scss/style.scss */
+/* line 531, ../scss/style.scss */
 .athleteBG {
   position: relative;
   width: 94%;
@@ -600,13 +604,13 @@ p {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 720px) {
-  /* line 528, ../scss/style.scss */
+  /* line 531, ../scss/style.scss */
   .athleteBG {
     padding: 0;
     padding-top: 55.6%;
   }
 }
-/* line 543, ../scss/style.scss */
+/* line 546, ../scss/style.scss */
 .athleteBG .copyWrap {
   position: relative;
   display: inline-block;
@@ -619,18 +623,18 @@ p {
   min-width: 290px;
 }
 @media screen and (max-width: 720px) {
-  /* line 543, ../scss/style.scss */
+  /* line 546, ../scss/style.scss */
   .athleteBG .copyWrap {
     width: 100%;
     min-width: 100%;
   }
 }
-/* line 559, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 .athleteBG .copyWrap .linkArrow {
   font-size: 8px;
   color: #999;
 }
-/* line 564, ../scss/style.scss */
+/* line 567, ../scss/style.scss */
 .athleteBG .copyWrap img {
   width: 120px;
   height: 120px;
@@ -639,7 +643,7 @@ p {
   display: inline-block;
   position: relative;
 }
-/* line 573, ../scss/style.scss */
+/* line 576, ../scss/style.scss */
 .athleteBG .copyWrap h3 {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -648,7 +652,7 @@ p {
   color: white;
   font-weight: 600;
 }
-/* line 582, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 .athleteBG .copyWrap p {
   font-style: italic;
   font-size: 14px;
@@ -656,7 +660,7 @@ p {
   color: white;
   text-align: left;
 }
-/* line 590, ../scss/style.scss */
+/* line 593, ../scss/style.scss */
 .athleteBG .copyWrap a {
   color: #999;
   text-decoration: none;
@@ -665,8 +669,49 @@ p {
   margin-top: 0;
   padding-top: 0;
 }
+/* line 603, ../scss/style.scss */
+.athleteBG .photoCredit {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: block;
+}
+@media screen and (max-width: 720px) {
+  /* line 603, ../scss/style.scss */
+  .athleteBG .photoCredit {
+    top: 3%;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 603, ../scss/style.scss */
+  .athleteBG .photoCredit {
+    top: 1%;
+    left: 5%;
+  }
+  /* line 618, ../scss/style.scss */
+  .athleteBG .photoCredit p {
+    font-size: 9px;
+  }
+}
+/* line 623, ../scss/style.scss */
+.athleteBG .photoCredit p {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+/* line 629, ../scss/style.scss */
+.athleteBG .photoCredit .photog {
+  font-weight: 900;
+  color: #111;
+}
+/* line 634, ../scss/style.scss */
+.athleteBG .photoCredit a {
+  color: #111;
+  text-decoration: none;
+}
 
-/* line 601, ../scss/style.scss */
+/* line 642, ../scss/style.scss */
 .shopWrap {
   width: 50%;
   padding-left: 5%;
@@ -677,12 +722,12 @@ p {
   padding-bottom: 30px;
 }
 @media screen and (max-width: 600px) {
-  /* line 601, ../scss/style.scss */
+  /* line 642, ../scss/style.scss */
   .shopWrap {
     width: 90%;
   }
 }
-/* line 616, ../scss/style.scss */
+/* line 657, ../scss/style.scss */
 .shopWrap a {
   font-size: 13px;
   padding: 5px 15px 4px;
