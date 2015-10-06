@@ -321,14 +321,12 @@ header {
     }
   }
 
-
   .itemImg {
     width: 100%;
   }
 
-
   .itemContent {
-    padding: 15px 3%;
+    padding: 15px;
     text-align: left;
 
     h1 {
@@ -367,7 +365,6 @@ header {
       text-transform: uppercase;
       font-weight: 300;
       color: #666;
-      margin-bottom: 10px;
       margin: 0;
       padding: 0;
     }
@@ -382,12 +379,19 @@ header {
     .itemImg {
       height: 225px;
     }
+    @media screen and (max-width: 768px) {
+      height: 500px;
+    }
   }
 
   .wHalf {
     width: 47%;
     .itemImg {
       height: 300px;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 500px;
     }
   }
 
@@ -399,6 +403,11 @@ header {
     width: 65%;
     .itemImg {
       height: 480px;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 450px;
+      width: 97%;
     }
 
     .itemContent {
@@ -441,6 +450,10 @@ header {
     background:url('../img/itemManleyUK.jpg') no-repeat;
     background-size: cover;
     background-position: -250px top;
+
+    @media screen and (max-width: 768px) {
+      background-size: cover;
+    }
   }
 }
 
@@ -495,41 +508,73 @@ header {
 
 .itemEverestGroup {
   height: 640px !important;
+
   .itemImg {
     height: 640px !important;
     background:url('../img/itemEverestGroup.jpg') no-repeat;
     background-size: cover;
   }
 
-  .groupContent {
+  .groupWrap {
     position: absolute;
+    display: block;
     bottom: 30px;
     left: 30px;
     width: 97%;
     min-width: 300px;
     text-align: left;
+    height: 450px;
 
     .groupIntro {
-
-    }
-
-    .itemContent {
       position: relative;
       display: inline-block;
-      width: 22%;
-      height: 190px !important;
-      background: white !important;
-      opacity: 0.9;
-      margin-bottom: 5px;
+      width: 27%;
+      height: 100%;
+      background: #fff;
       vertical-align: top;
-      transition: all 1s;
+      box-sizing: border-box;
+      padding: 30px;
+      opacity: 0.9;
+
+      h4 {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+      }
     }
 
-    .itemContent:hover {
-      background: #bbb !important;
-      transition: all 1s;
-    }
+    .groupContent {
+      width: 63%;
+      position: relative;
+      display: inline-block;
 
+      .itemContent {
+        position: relative;
+        display: inline-block;
+        width: 43%;
+        height: 190px !important;
+        background: white !important;
+        opacity: 0.9;
+        margin-bottom: 5px;
+        vertical-align: top;
+        transition: all 1s;
+      }
+
+      .itemContent:hover {
+        background: #bbb !important;
+        transition: all 1s;
+      }
+    }
   }
 }
 
@@ -600,5 +645,162 @@ header {
   .itemImg {
     background:url('../img/itemFamilyCroatia.jpg') no-repeat;
     background-size: cover;
+  }
+}
+
+.itemManleyYukon{
+  .itemImg {
+    background:url('../img/itemManleyYukon.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemWomenAdmire{
+  .itemImg {
+    background:url('../img/itemWomenAdmire.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemNorwayQuest{
+  .itemImg {
+    background:url('../img/itemNorwayQuest.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemKatySetbacks{
+  .itemImg {
+    background:url('../img/itemKatySetbacks.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemLocationLayering{
+  .itemImg {
+    background:url('../img/itemLocationLayering.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemBurkardReal{
+  .itemImg {
+    background:url('../img/itemBurkardReal.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemMorganWild{
+  .itemImg {
+    background:url('../img/itemMorganWild.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemFootwear {
+  height: 600px !important;
+
+  .itemImg {
+    background:url('../img/itemFootwear2.jpg') no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    height: 100%;
+  }
+
+  .groupWrap {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30%;
+  }
+
+  .groupIntro {
+    text-align: left;
+    width: 100%;
+    color: white;
+
+    h4 {
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    h5 {
+      font-weight: 100;
+      margin-top: 10px;
+    }
+
+    a {
+      border: 1px solid white;
+      padding: 5px 12px 3px 12px;
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+  }
+
+  .groupContent {
+
+    .itemContent {
+      color: white;
+      padding: 0 !important;
+      margin-top: 30px;
+      width: 100%;
+
+      ul {
+        margin-left: -25px;
+
+        li {
+          list-style: none;
+          color: white;
+          font-size: 13px;
+          margin-left: -5px;
+          margin-bottom: 10px;
+
+          a {
+            color: white;
+
+            .bolder {
+              font-weight: 900;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemPiaGregJapan{
+  .itemImg {
+    background:url('../img/itemPiaGregJapan.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemLukaPatagonia{
+   .itemImg {
+     background:url('../img/itemLukaPatagonia.jpg') no-repeat;
+     background-size: cover;
+   }
+}
+
+.itemMountainRules {
+  .itemImg {
+    background:url('../img/itemMountainRules.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemDownCare {
+  .itemImg {
+    background:url('../img/itemDownCare.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.itemDeepWinter {
+  .itemImg {
+    background:url('../img/itemDeepWinter.jpg') no-repeat;
+    background-size: 140%;
+    background-position: right top;
   }
 }
