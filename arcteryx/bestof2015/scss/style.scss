@@ -1,4 +1,8 @@
+// Variables
+
 $bpfull: 960px;
+$phoneBP: 450px;
+
 
 
 html {
@@ -29,20 +33,14 @@ a:visited {
 header {
   position: absolute;
   display: block;
-  width: 100%;
-  height: 650px;
-  background: #333;
-  top: -8px;
-  left: -8px;
-  background: url('../img/hero.jpg') no-repeat;
-  background-size: cover;
-  background-position: center bottom;
+  top: 10%;
+  left: 10%;
+  z-index: 1000;
 
   .logoWrap {
     color: white;
     position: relative;
     display: inline-block;
-    margin-top: 60px;
     text-transform: uppercase;
 
     .logoBest {
@@ -75,11 +73,14 @@ header {
 
 .featureWrap {
   width: 100%;
-  height: 650px;
+  height: 75%;
   background: #121212;
   box-sizing: border-box;
   text-align: center;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  // padding-bottom: 55%;
   ul {
     list-style: none;
     z-index: 1000;
@@ -210,38 +211,53 @@ header {
   @media screen and (max-width: $bpfull) {
     width: 100%;
   }
+
+  @media screen and (max-width: 850px) {
+    text-align: center;
+  }
 }
 
+.mobileClear {
+  display: none;
+
+  @media screen and (max-width: 850px) {
+    display: block;
+    clear: both !important;
+  }
+
+}
+
+
 .controlWrap {
-  position: absolute;
   width: 100%;
   height: auto;
   padding-bottom: 15px;
   background: #333;
-  top: 642px;
-  left: -8px;
+  margin-left: -8px;
+  margin-top: 0px;
+  text-align: center;
 
   .filter {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 3px 10px;
     background: #999;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 12px;
   }
 
   .sort {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 3px 10px;
     background: #666;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 12px;
   }
 
@@ -250,7 +266,7 @@ header {
     padding: .4em .8em;
     background: #666;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0px !important;
     cursor: pointer;
     transition: all 1s ease;
   }
@@ -258,6 +274,7 @@ header {
   button.active{
     // background: #68b8c4;
     background: teal;
+    font-weight: 600;
   }
 
   button:focus{
@@ -265,7 +282,7 @@ header {
   }
 
   button:hover {
-    background: lightblue;
+    background: #ddd;
     transition: all 1s ease;
   }
 
@@ -281,38 +298,34 @@ header {
   width: 100%;
   height: 100%;
   display: inline-block;
-  margin-top: 720px;
+  margin-top: 80px;
 }
 
 #mixWrap {
-  // display: inline-block;
-  //background: #212121;
   height: 100%;
-  width: $bpfull;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
-  // text-align: justify;
-  // border: 1px solid teal;
 
   @media screen and (max-width: $bpfull) {
     width: 100%;
+  }
+
+  @media screen and (max-width: $phoneBP) {
+    text-align: left;
   }
 
   .mix {
     display: inline-block;
     box-sizing: border-box;
     padding: 0;
-    // border: 1px solid #999;
     box-shadow: 1px 1px 2px #bbb;
-    // width: 30%;
     height: 450px;
     margin: 1% 10px;
     background: white;
     overflow: hidden;
     position: relative;
-
-    // Remove this after adding specific sizing breaks
     min-width: 270px;
 
     h1 {
@@ -376,22 +389,36 @@ header {
 
   .wThird {
     width: 30%;
+    max-width: 300px;
     .itemImg {
       height: 225px;
     }
     @media screen and (max-width: 768px) {
       height: 500px;
     }
+
+    @media screen and (max-width: $phoneBP) {
+      width: 90%;
+      max-width: 90%;
+      height: auto !important;
+    }
   }
 
   .wHalf {
     width: 47%;
+    max-width: 425px;
     .itemImg {
       height: 300px;
     }
 
     @media screen and (max-width: 768px) {
       height: 500px;
+    }
+
+    @media screen and (max-width: $phoneBP) {
+      width: 90%;
+      max-width: 90%;
+      height: auto !important;
     }
   }
 
@@ -401,13 +428,20 @@ header {
 
   .wFull {
     width: 65%;
+    max-width: 630px;
     .itemImg {
       height: 480px;
     }
 
     @media screen and (max-width: 768px) {
       height: 450px;
-      width: 97%;
+      width: 90%;
+    }
+
+    @media screen and (max-width: $phoneBP) {
+      width: 90%;
+      max-width: 90%;
+      height: auto !important;
     }
 
     .itemContent {
@@ -803,4 +837,10 @@ header {
     background-size: 140%;
     background-position: right top;
   }
+}
+
+.slick-slider {
+  margin-left: -8px !important;
+  padding: 0 !important;
+  margin-top: -8px !important;
 }

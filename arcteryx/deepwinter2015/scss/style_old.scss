@@ -1,0 +1,797 @@
+// $highlight: slategray;
+$highlight: #656565;
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  z-index: 1;
+  background: #111;
+  font-family: Avenir, Arial, sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.navWrap {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  // display: block;
+  display: none;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 100;
+  opacity: .6;
+
+  .navContent {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: black;
+  }
+}
+
+.crestWrap {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: -35px;
+  left: -35px;
+  text-align: center;
+  background: url('../img/deepWinterCrestWhite.png') no-repeat;
+  background-size: 300px;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.contentWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.topWrap {
+  position: relative;
+  margin-top: 0;
+  height: 85%;
+  min-height: 400px;
+  background: url('../img/heroTopBW.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+
+  .detailWrap {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 76%;
+    margin-top: 200px;
+
+    .event {
+      cursor: pointer;
+      transition: all 2s;
+
+      h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+
+    .details {
+
+    }
+
+    .tickets {
+
+    }
+
+    .contest {
+
+    }
+
+    .opacityFade {
+      opacity: 0 !important;
+      transition: all 2s;
+    }
+
+    .opaque {
+      opacity: 1 !important;
+      transition: all 2s;
+    }
+
+    ul {
+      display: block;
+      position: relative;
+      height: 100%;
+      box-sizing: border-box;
+      // margin-top: 0;
+      margin-left: 0;
+      padding-left: 0;
+
+      li {
+        list-style: none;
+        position: relative;
+        display: inline-block;
+        width: 31%;
+        height: 100%;
+        margin-right: 2%;
+        background: #212121;
+        box-sizing: border-box;
+        opacity: .8;
+        padding: 20px;
+        text-align: center;
+
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+.eventDetails, .eventTickets, .eventContest {
+  position: fixed;
+  top: 10%;
+  width: 80%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 9000;
+  box-sizing: border-box;
+  padding: 30px;
+  left: -2000px;
+  opacity: .7;
+  transition: all 1.5s ease-in;
+  background: black;
+}
+
+.closeLinkDetails, .closeLinkTickets, .closeLinkContest {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+
+.slideUp {
+  margin-top: 0px !important;
+  transition: all 1.3s ease-in 2.5s;
+}
+
+.darkLayer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  background-color: #000;
+  opacity: 1;
+}
+
+.opacityChange {
+  opacity: 0 !important;
+  transition: all 0.5s ease-out !important;
+  transition-delay: 2s;
+}
+
+.opacityChangeLong {
+  opacity: 0 !important;
+  transition: all 5s ease-out !important;
+  transition-delay: 2s;
+}
+
+.hideShowLeft {
+  left: 10% !important;
+  transition: all 1s ease-in;
+}
+
+
+.news {
+  margin-top: 60px;
+  position: relative;
+  display: block;
+  max-height: 220px;
+  overflow: hidden;
+  transition: max-height 2s;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  .readAllLink {
+    // position: absolute;
+    // top: 200px;
+    // left: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: $highlight;
+  }
+
+  .newsWrap {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    padding: 0 15px 0 0;
+    margin-bottom: 60px;
+
+    h1 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      text-transform: none;
+      padding-bottom: 0;
+      border-bottom: none;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 18px;
+      color: #ccc;
+      margin-top: 0;
+      padding-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    a {
+      color: $highlight;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+}
+
+
+.photogs {
+  position: relative;
+  min-height: 600px;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  .photogItem {
+    width: 29%;
+    height: 360px;
+    margin: 3% 2%;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    background-color: #333;
+    vertical-align: top;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1.5s;
+
+    .photoImg {
+      width: 100%;
+      height: 250px;
+      position: relative;
+      max-width: 300px;
+      transition: all 2s;
+      -webkit-filter: grayscale(100%)
+    }
+
+    .photoImg:hover {
+      -webkit-filter: grayscale(0%)  !important;
+      transition: all 1s;
+
+    }
+
+
+
+    .photogDetails {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      padding: 15px;
+      background: #000;
+      vertical-align: bottom;
+      height: 100%;
+      text-align: center;
+      max-width: 300px;
+
+      .bioFull {
+        display: none;
+        transition: all 2.5s;
+
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          text-align: left;
+        }
+      }
+
+      h1 {
+        color: white;
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 600;
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      a {
+        color: #ccc;
+        text-decoration: none;
+        padding: 3px 12px 3px;
+        border: 1px solid white;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
+
+    .bioImages {
+      width: 660px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 300px;
+      display: none;
+      background-color: teal;
+      transition: 3s all;
+    }
+  }
+}
+
+// Photog Full Bio Modals
+
+
+.jordan {
+  background: url('../img/ManleyBio.jpg') no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.paul {
+  background: url('../img/paul.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.ashley {
+  background: url('../img/ashley.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.robin {
+  background: url('../img/robin.jpg') no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.dalby {
+  background: url('../img/dalby.jpg') no-repeat;
+  background-size: 145%;
+  background-position: top center;
+}
+
+.blake {
+  background: url('../img/blake.jpg') no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.jordanBioFull, .ashleyBioFull, .paulBioFull, .blakeBioFull, .dalbyBioFull, .robinBioFull {
+  position: fixed;
+  top: 10%;
+  width: 80%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 9000;
+  box-sizing: border-box;
+  padding: 30px;
+  left: -2000px;
+  opacity: 1;
+  transition: all 1s ease-in;
+  background: #222;
+
+  .jordanCloseLinkBio, .ashleyCloseLinkBio, .blakeCloseLinkBio, .robinCloseLinkBio, .dalbyCloseLinkBio, .paulCloseLinkBio {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .bioLeftWrap {
+    width: 30%;
+    height: 90%;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+
+    .photoImg {
+      vertical-align: top;
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 75%;
+    }
+
+    .bioFull {
+      vertical-align: top;
+      width: 100%;
+      display: inline-block;
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .bioImages {
+    position: relative;
+    width: 65%;
+    height: 90%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+
+// JS Clases for Photog Section
+
+.showHide {
+  display: none !important;
+  transition: all 1s;
+}
+
+.hideShow {
+  display: inline-block !important;
+  transition: all 1s ease-in 2s;
+}
+
+.hideShowDelay {
+  display: inline-block !important;
+  transition: all 1s ease-in 4s;
+}
+
+.expand {
+  width: 96% !important;
+  max-width: 960px;
+  height: 600px !important;
+  transition: all ease-in 2s;
+  position: fixed !important;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 2000;
+}
+
+.autoHeight {
+  max-height: 450px !important;
+  transition: max-height ease-out 2s !important;
+}
+
+
+.judges {
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 13px;
+  }
+
+  .intro {
+    background: #111 !important;
+  }
+
+  .judgeWrap {
+    position: relative;
+    display: inline-block;
+    width: 47%;
+    min-width: 250px;
+    height: auto;
+    margin: 1% 1% 1% 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    overflow: hidden;
+    text-align: left;
+    background: #232323;
+
+    @media screen and (max-width: 850px) {
+      width: 43%;
+      min-width: 250px;
+    }
+
+    img {
+      width: 90px;
+      height: 90px;
+      left: 20px;
+      top: 20px;
+      border-radius: 45px;
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      -webkit-filter: grayscale(100%);
+      transition: all 2s;
+    }
+
+    img:hover {
+      -webkit-filter: grayscale(0%);
+      transition: all 2s;
+    }
+
+    h1 {
+      border-bottom: none;
+      padding-left: 120px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    p {
+      text-align: left;
+      padding-left: 120px;
+    }
+
+    .judgeIntro {
+      // background: #111 !important;
+      vertical-align: top;
+      display: inline-block;
+      position: relative;
+      min-height: 200px;
+      width: 100%;
+      height: 100%;
+
+      h1 {
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $highlight;
+        margin-left: 15px;
+        padding-left: 0;
+        font-size: 18px !important;
+      }
+
+      p {
+        padding-left: 15px !important;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+// After Party Styles
+
+.afterparty {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 30%;
+  max-width: 880px;
+  background: url('../img/afterparty3BW.jpg') no-repeat;
+  background-size: cover;
+  background-position: 300px 50px;
+  margin-bottom: 60px;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  .contentWrap {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 100%;
+    background: #111;
+
+    h1 {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 13px;
+
+    }
+  }
+}
+
+// Photog Hero Images
+
+.jordanHero {
+  background: url('../img/ManleyBio.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.paulHero {
+  background: url('../img/paulHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.ashleyHero {
+  background: url('../img/ashleyHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.dalbyHero {
+  background: url('../img/dalbyHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+.robinHero {
+  background: url('../img/robinHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.blakeHero {
+  background: url('../img/blakeHero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+// Contest Section
+
+.contest {
+  height: 480px;
+  max-width: 880px;
+
+  .contentWrap {
+    background: #222;
+
+    h1 {
+      font-size: 15px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $highlight;
+    }
+  }
+}
+
+
+.charity {
+  margin-top: 90px;
+
+  .contentWrap {
+    background: #222;
+    max-width: 880px;
+
+    h1 {
+      font-size: 15px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $highlight;
+    }
+  }
+}
+
+// Sponsors Section
+
+.sponsors {
+  margin-bottom: 90px;
+
+  h1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $highlight;
+  }
+
+  .sponsorWrap {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 60px;
+
+    ul {
+      position: relative;
+      text-align: center;
+      vertical-align: top;
+      li {
+        position: relative;
+        list-style: none;
+        display: inline-block;
+        width: 140px;
+        height: 60px;
+        vertical-align: top;
+        margin: 5px 12px;
+      }
+    }
+
+  }
+
+  .sponsor {
+    a {
+      img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.footer {
+  background: #232323;
+  font-size: 13px;
+  text-transform: uppercase;
+
+  .contact {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+    // border: 1px solid teal;
+    padding-top: 0;
+    margin-top: 0;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+
+  }
+
+  .newsletter {
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    // border: 1px solid teal;
+  }
+}
