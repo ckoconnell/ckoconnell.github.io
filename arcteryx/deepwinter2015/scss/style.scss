@@ -1,6 +1,13 @@
+
+// Variables
+
 // $highlight: slategray;
 $highlight: #656565;
+$bodyCopy: 14px;
+$linkColor: teal;
 
+
+// Global Styles
 
 html, body {
   width: 100%;
@@ -9,18 +16,46 @@ html, body {
   margin: 0;
   color: white;
   z-index: 1;
-  background: #111;
+  background: #121212;
   font-family: Avenir, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $linkColor;
 }
 
 div {
   box-sizing: border-box;
 }
 
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+// Global Type Styles
+
+h1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #666;
+}
+
+
+// Section Styles Start
+
 .featureWrap {
   position: absolute;
   display: block;
-  border: 1px solid teal;
   width: 100%;
   height: 90%;
   top: 0;
@@ -29,26 +64,359 @@ div {
 
 .featureSlide {
   width: 100%;
-  height: 100% !important;
-  padding-bottom: 55%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .slide1 {
-  background-image: url('../img/heroTop.jpg');
+  background: url('../img/heroTop.jpg') no-repeat;
   background-size: cover;
+
+  // Add some fade or hover animation here
+  opacity: .6;
 }
 
 .slide2 {
-  background-color: teal;
+  background: url('../img/dalbyHero.jpg') no-repeat;
+  background-size: cover;
+  opacity: .6;
 }
 
 .slide3 {
-  background-color: lightblue;
+  background: url('../img/robinHero.jpg') no-repeat;
+  background-size: cover;
+  opacity: .6;
 }
 
 .slide4 {
-  background-color: navy;
+  background: url('../img/blakeHero.jpg') no-repeat;
+  background-size: cover;
+  opacity: .6;
 }
 
 
+.sponsors {
+  margin-top: 30px;
 
+  h1 {
+
+  }
+
+  ul {
+    text-align: center;
+
+   li {
+
+     list-style: none;
+     display: inline-block;
+     padding-right: 30px;
+   }
+  }
+
+  .sponsor {
+    width: 11%;
+  }
+    a {
+      img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+
+  .mainSponsor {
+    width: 13%;
+    margin-bottom: 40px;
+    padding-right: 45px !important;
+    a {
+      img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        vertical-align: top;
+        }
+      }
+  }
+
+  .whistler {
+    width: 15%;
+    a {
+      img {
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+.news {
+  margin-top: 60px;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .newsWrap {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    .newsItem {
+      position: relative;
+      width: 25%;
+      display: inline-block;
+      margin-left: 60px;
+      margin-bottom: 60px;
+      vertical-align: top;
+
+      h1 {
+        font-weight: 900;
+        text-align: left;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      h3 {
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: $bodyCopy;
+        line-height: 1.7em;
+        margin: 0;
+        color: #ccc ;
+      }
+    }
+  }
+}
+
+.contestants {
+  margin-top: 30px;
+
+  .contestantWrap {
+    width: 100%;
+
+    .sideMargins {
+      margin: 0 20px;
+    }
+
+    .one {
+      background: url('../img/blakeHero.jpg') no-repeat !important;
+      background-size: 414px auto !important;
+    }
+
+    .contestantItem {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      background: #222;
+      box-sizing: border-box;
+      padding: 30px;
+      text-align: center;
+      padding-top: 180px;
+      margin-bottom: 30px;
+
+      .headshot {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        display: block;
+        background: teal;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+        text-align: center;
+        margin: 45px auto;
+        overflow: hidden;
+        box-shadow: 0px 0px 1px #999;
+
+        img {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          width: 143px;
+          margin-top: -25px;
+          margin-left: -5px;
+        }
+      }
+
+      h1 {
+        font-weight: 900;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      h3 {
+        font-weight: 100;
+        margin: 15px 0;
+        padding: 0;
+        font-size: $bodyCopy;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: $bodyCopy;
+        line-height: 1.7em;
+        margin: 0;
+        color: #ccc;
+      }
+
+      .contestSocial {
+        line-height: 10px;
+      }
+
+      a {
+        position: relative;
+        font-size: 13px;
+        line-height: 10px;
+        display: inline-block;
+        padding: 0 7px;
+      }
+    }
+  }
+}
+
+
+.winners {
+  margin-top: 60px;
+
+  .winnersWrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .winnersItem {
+    position:relative;
+    display: inline-block;
+    width: 190px;
+    background: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 1%;
+    margin-bottom: 2%;
+
+
+    .winnersImg {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background: teal;
+      border-radius: 50px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-top: 25px;
+      color: white;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    h3 {
+      font-weight: 100;
+      font-size: 13px;
+    }
+
+  }
+
+  .marginFlex {
+    margin: 0 2%;
+  }
+}
+
+.afterparty {
+  margin-top: 60px;
+  width: 100%;
+  padding-bottom: 15%;
+  background: #333;
+  background: url('../img/afterparty1BW.jpg') no-repeat;
+  background-size: 100% auto;
+  padding-top: 15%;
+
+  .partyWrap {
+
+    h1 {
+      font-size: 30px;
+      line-height: 25px;
+      color: white;
+      font-weight: 900;
+      text-align: left;
+      padding: 5px 20px;
+      background: #000;
+      display: inline-block;
+      margin:0;
+    }
+
+    h3 {
+      line-height: .9em;
+      text-align: left;
+      padding: 5px 20px;
+      background: #000;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 5px 0 0 0;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background: white;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 8px 15px 4px 15px;
+    }
+  }
+}
+
+.judges {
+  margin-top: 60px;
+}
+
+.contest {
+  margin-top: 60px;
+}
+
+.charity {
+  margin-top: 60px;
+}
+
+footer {
+  margin-top: 60px;
+  width: 100%;
+  background: #232323;
+  padding-top: 60px;
+  vertical-align: top;
+  padding-bottom: 60px;
+
+  .footerCol {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+
+    ul {
+      vertical-align: top;
+
+      li {
+        vertical-align: top;
+        list-style: none;
+        font-size: 12px;
+        color: #aaa;
+        font-weight: 500;
+        margin-bottom: 15px;
+        line-height: 1.5em;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-/* line 5, ../scss/style.scss */
+/* line 12, ../scss/style.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -6,50 +6,405 @@ html, body {
   margin: 0;
   color: white;
   z-index: 1;
-  background: #111;
+  background: #121212;
   font-family: Avenir, Arial, sans-serif;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+/* line 28, ../scss/style.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 20, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 37, ../scss/style.scss */
+.grid {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 45, ../scss/style.scss */
+h1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #666;
+}
+
+/* line 56, ../scss/style.scss */
 .featureWrap {
   position: absolute;
   display: block;
-  border: 1px solid teal;
   width: 100%;
   height: 90%;
   top: 0;
   left: 0;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .featureSlide {
   width: 100%;
-  height: 100% !important;
-  padding-bottom: 55%;
+  height: 100%;
+  overflow: hidden;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .slide1 {
-  background-image: url("../img/heroTop.jpg");
+  background: url("../img/heroTop.jpg") no-repeat;
   background-size: cover;
+  opacity: .6;
 }
 
-/* line 41, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .slide2 {
-  background-color: teal;
+  background: url("../img/dalbyHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: .6;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .slide3 {
-  background-color: lightblue;
+  background: url("../img/robinHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: .6;
 }
 
-/* line 49, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .slide4 {
-  background-color: navy;
+  background: url("../img/blakeHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: .6;
+}
+
+/* line 98, ../scss/style.scss */
+.sponsors {
+  margin-top: 30px;
+}
+/* line 105, ../scss/style.scss */
+.sponsors ul {
+  text-align: center;
+}
+/* line 108, ../scss/style.scss */
+.sponsors ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 30px;
+}
+/* line 116, ../scss/style.scss */
+.sponsors .sponsor {
+  width: 11%;
+}
+/* line 120, ../scss/style.scss */
+.sponsors a img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 127, ../scss/style.scss */
+.sponsors .mainSponsor {
+  width: 13%;
+  margin-bottom: 40px;
+  padding-right: 45px !important;
+}
+/* line 132, ../scss/style.scss */
+.sponsors .mainSponsor a img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  vertical-align: top;
+}
+/* line 141, ../scss/style.scss */
+.sponsors .whistler {
+  width: 15%;
+}
+/* line 144, ../scss/style.scss */
+.sponsors .whistler a img {
+  padding-top: 30px;
+}
+
+/* line 151, ../scss/style.scss */
+.news {
+  margin-top: 60px;
+  position: relative;
+}
+/* line 155, ../scss/style.scss */
+.news h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* line 160, ../scss/style.scss */
+.news .newsWrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+/* line 165, ../scss/style.scss */
+.news .newsWrap .newsItem {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  vertical-align: top;
+}
+/* line 173, ../scss/style.scss */
+.news .newsWrap .newsItem h1 {
+  font-weight: 900;
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/* line 181, ../scss/style.scss */
+.news .newsWrap .newsItem h3 {
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 189, ../scss/style.scss */
+.news .newsWrap .newsItem p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 0;
+  color: #ccc;
+}
+
+/* line 200, ../scss/style.scss */
+.contestants {
+  margin-top: 30px;
+}
+/* line 203, ../scss/style.scss */
+.contestants .contestantWrap {
+  width: 100%;
+}
+/* line 206, ../scss/style.scss */
+.contestants .contestantWrap .sideMargins {
+  margin: 0 20px;
+}
+/* line 210, ../scss/style.scss */
+.contestants .contestantWrap .one {
+  background: url("../img/blakeHero.jpg") no-repeat !important;
+  background-size: 414px auto !important;
+}
+/* line 215, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  background: #222;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  padding-top: 180px;
+  margin-bottom: 30px;
+}
+/* line 226, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem .headshot {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: block;
+  background: teal;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  text-align: center;
+  margin: 45px auto;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px #999;
+}
+/* line 240, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem .headshot img {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 143px;
+  margin-top: -25px;
+  margin-left: -5px;
+}
+/* line 250, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem h1 {
+  font-weight: 900;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/* line 257, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem h3 {
+  font-weight: 100;
+  margin: 15px 0;
+  padding: 0;
+  font-size: 14px;
+}
+/* line 264, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 0;
+  color: #ccc;
+}
+/* line 272, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem .contestSocial {
+  line-height: 10px;
+}
+/* line 276, ../scss/style.scss */
+.contestants .contestantWrap .contestantItem a {
+  position: relative;
+  font-size: 13px;
+  line-height: 10px;
+  display: inline-block;
+  padding: 0 7px;
+}
+
+/* line 288, ../scss/style.scss */
+.winners {
+  margin-top: 60px;
+}
+/* line 291, ../scss/style.scss */
+.winners .winnersWrap {
+  width: 100%;
+  text-align: center;
+}
+/* line 296, ../scss/style.scss */
+.winners .winnersItem {
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  background: #222;
+  text-align: center;
+  padding: 15px;
+  margin: 0 1%;
+  margin-bottom: 2%;
+}
+/* line 307, ../scss/style.scss */
+.winners .winnersItem .winnersImg {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: teal;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+/* line 316, ../scss/style.scss */
+.winners .winnersItem h1 {
+  margin-top: 25px;
+  color: white;
+  font-weight: 900;
+  font-size: 13px;
+}
+/* line 323, ../scss/style.scss */
+.winners .winnersItem h3 {
+  font-weight: 100;
+  font-size: 13px;
+}
+/* line 330, ../scss/style.scss */
+.winners .marginFlex {
+  margin: 0 2%;
+}
+
+/* line 335, ../scss/style.scss */
+.afterparty {
+  margin-top: 60px;
+  width: 100%;
+  padding-bottom: 15%;
+  background: #333;
+  background: url("../img/afterparty1BW.jpg") no-repeat;
+  background-size: 100% auto;
+  padding-top: 15%;
+}
+/* line 346, ../scss/style.scss */
+.afterparty .partyWrap h1 {
+  font-size: 30px;
+  line-height: 25px;
+  color: white;
+  font-weight: 900;
+  text-align: left;
+  padding: 5px 20px;
+  background: #000;
+  display: inline-block;
+  margin: 0;
+}
+/* line 358, ../scss/style.scss */
+.afterparty .partyWrap h3 {
+  line-height: .9em;
+  text-align: left;
+  padding: 5px 20px;
+  background: #000;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 5px 0 0 0;
+}
+/* line 368, ../scss/style.scss */
+.afterparty .partyWrap a {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 8px 15px 4px 15px;
+}
+
+/* line 382, ../scss/style.scss */
+.judges {
+  margin-top: 60px;
+}
+
+/* line 386, ../scss/style.scss */
+.contest {
+  margin-top: 60px;
+}
+
+/* line 390, ../scss/style.scss */
+.charity {
+  margin-top: 60px;
+}
+
+/* line 394, ../scss/style.scss */
+footer {
+  margin-top: 60px;
+  width: 100%;
+  background: #232323;
+  padding-top: 60px;
+  vertical-align: top;
+  padding-bottom: 60px;
+}
+/* line 402, ../scss/style.scss */
+footer .footerCol {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+/* line 407, ../scss/style.scss */
+footer .footerCol ul {
+  vertical-align: top;
+}
+/* line 410, ../scss/style.scss */
+footer .footerCol ul li {
+  vertical-align: top;
+  list-style: none;
+  font-size: 12px;
+  color: #aaa;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1.5em;
+  text-transform: uppercase;
 }
