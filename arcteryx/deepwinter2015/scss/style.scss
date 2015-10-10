@@ -349,7 +349,7 @@ h1 {
       color: white;
       font-weight: 900;
       text-align: left;
-      padding: 5px 20px;
+      padding: 5px 20px 3px;
       background: #000;
       display: inline-block;
       margin:0;
@@ -363,7 +363,7 @@ h1 {
     h3 {
       line-height: .9em;
       text-align: left;
-      padding: 5px 20px;
+      padding: 6px 20px 3px;
       background: #000;
       text-transform: uppercase;
       display: inline-block;
@@ -390,6 +390,14 @@ h1 {
       3px 3px 0px #444,
       4px 4px 0px #444,
       5px 5px 0px #444;
+      transition: all 0.5s;
+    }
+
+    a:hover {
+      margin-left: 10px;
+      margin-top: 21px;
+      box-shadow: none;
+      transition: all 0.5s;
     }
   }
 }

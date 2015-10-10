@@ -335,7 +335,7 @@ h1 {
   color: white;
   font-weight: 900;
   text-align: left;
-  padding: 5px 20px;
+  padding: 5px 20px 3px;
   background: #000;
   display: inline-block;
   margin: 0;
@@ -345,7 +345,7 @@ h1 {
 .afterparty .partyWrap h3 {
   line-height: .9em;
   text-align: left;
-  padding: 5px 20px;
+  padding: 6px 20px 3px;
   background: #000;
   text-transform: uppercase;
   display: inline-block;
@@ -364,24 +364,32 @@ h1 {
   line-height: 30px;
   padding: 8px 15px 4px 15px;
   box-shadow: 1px 1px 0px #444444, 2px 2px 0px #444444, 3px 3px 0px #444444, 4px 4px 0px #444444, 5px 5px 0px #444444;
+  transition: all 0.5s;
+}
+/* line 396, ../scss/style.scss */
+.afterparty .partyWrap a:hover {
+  margin-left: 10px;
+  margin-top: 21px;
+  box-shadow: none;
+  transition: all 0.5s;
 }
 
-/* line 397, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 .judges {
   margin-top: 60px;
 }
 
-/* line 401, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 .contest {
   margin-top: 60px;
 }
 
-/* line 405, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .charity {
   margin-top: 60px;
 }
 
-/* line 409, ../scss/style.scss */
+/* line 417, ../scss/style.scss */
 footer {
   margin-top: 60px;
   width: 100%;
@@ -390,17 +398,17 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 417, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 422, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 425, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
