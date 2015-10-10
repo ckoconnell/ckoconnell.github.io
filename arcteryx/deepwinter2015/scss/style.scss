@@ -353,6 +353,11 @@ h1 {
       background: #000;
       display: inline-block;
       margin:0;
+      box-shadow: 1px 1px 0px #666,
+       2px 2px 0px #666,
+       3px 3px 0px #666,
+       4px 4px 0px #666,
+       5px 5px 0px #666;
     }
 
     h3 {
@@ -363,6 +368,11 @@ h1 {
       text-transform: uppercase;
       display: inline-block;
       margin: 5px 0 0 0;
+      box-shadow: 1px 1px 0px #666,
+      2px 2px 0px #666,
+      3px 3px 0px #666,
+      4px 4px 0px #666,
+      5px 5px 0px #666;
     }
 
     a {
@@ -375,6 +385,11 @@ h1 {
       font-size: 30px;
       line-height: 30px;
       padding: 8px 15px 4px 15px;
+      box-shadow: 1px 1px 0px #444,
+      2px 2px 0px #444,
+      3px 3px 0px #444,
+      4px 4px 0px #444,
+      5px 5px 0px #444;
     }
   }
 }

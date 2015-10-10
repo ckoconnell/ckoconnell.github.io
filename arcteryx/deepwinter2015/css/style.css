@@ -339,8 +339,9 @@ h1 {
   background: #000;
   display: inline-block;
   margin: 0;
+  box-shadow: 1px 1px 0px #666666, 2px 2px 0px #666666, 3px 3px 0px #666666, 4px 4px 0px #666666, 5px 5px 0px #666666;
 }
-/* line 358, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .afterparty .partyWrap h3 {
   line-height: .9em;
   text-align: left;
@@ -349,8 +350,9 @@ h1 {
   text-transform: uppercase;
   display: inline-block;
   margin: 5px 0 0 0;
+  box-shadow: 1px 1px 0px #666666, 2px 2px 0px #666666, 3px 3px 0px #666666, 4px 4px 0px #666666, 5px 5px 0px #666666;
 }
-/* line 368, ../scss/style.scss */
+/* line 378, ../scss/style.scss */
 .afterparty .partyWrap a {
   display: inline-block;
   margin-top: 20px;
@@ -361,24 +363,25 @@ h1 {
   font-size: 30px;
   line-height: 30px;
   padding: 8px 15px 4px 15px;
+  box-shadow: 1px 1px 0px #444444, 2px 2px 0px #444444, 3px 3px 0px #444444, 4px 4px 0px #444444, 5px 5px 0px #444444;
 }
 
-/* line 382, ../scss/style.scss */
+/* line 397, ../scss/style.scss */
 .judges {
   margin-top: 60px;
 }
 
-/* line 386, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 .contest {
   margin-top: 60px;
 }
 
-/* line 390, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 .charity {
   margin-top: 60px;
 }
 
-/* line 394, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 footer {
   margin-top: 60px;
   width: 100%;
@@ -387,17 +390,17 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 402, ../scss/style.scss */
+/* line 417, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 407, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 410, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
