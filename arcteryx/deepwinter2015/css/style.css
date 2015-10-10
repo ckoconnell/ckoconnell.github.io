@@ -339,7 +339,7 @@ h1 {
   background: #000;
   display: inline-block;
   margin: 0;
-  box-shadow: 1px 1px 0px #666666, 2px 2px 0px #666666, 3px 3px 0px #666666, 4px 4px 0px #666666, 5px 5px 0px #666666;
+  box-shadow: 1px 1px 0px #444444, 2px 2px 0px #444444, 3px 3px 0px #444444, 4px 4px 0px #444444, 5px 5px 0px #444444;
 }
 /* line 363, ../scss/style.scss */
 .afterparty .partyWrap h3 {
@@ -350,7 +350,7 @@ h1 {
   text-transform: uppercase;
   display: inline-block;
   margin: 5px 0 0 0;
-  box-shadow: 1px 1px 0px #666666, 2px 2px 0px #666666, 3px 3px 0px #666666, 4px 4px 0px #666666, 5px 5px 0px #666666;
+  box-shadow: 1px 1px 0px #444444, 2px 2px 0px #444444, 3px 3px 0px #444444, 4px 4px 0px #444444, 5px 5px 0px #333333;
 }
 /* line 378, ../scss/style.scss */
 .afterparty .partyWrap a {
