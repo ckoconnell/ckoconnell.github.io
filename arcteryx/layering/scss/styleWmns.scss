@@ -1,0 +1,243 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Avenir, Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+div, span, p, h1, h2, h3 {
+  box-sizing: border-box;
+}
+
+.introWrap {
+  width: 100%;
+  max-width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  background: url('../img/wmnsHero.jpg') no-repeat;
+  background-size: 960px;
+  background-position: bottom left;
+  position: relative;
+
+  @media screen and (max-width: 900px) {
+    background-size: cover;
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 30px;
+    right: 90px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+    font-size: 11px;
+  }
+}
+
+.introCopy {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 400px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-top: 300px;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin-top: 200px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0 0 0 5%;
+    margin: 0;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+
+  p {
+    width: 65%;
+    padding: 0 0 0 5%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 30px;
+
+  h1 {
+    line-height: 1em;
+    font-size: 1.5em;
+    margin-left: 0;
+    color: #222;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .lighter {
+    font-weight: 100;
+    color: #666;
+  }
+
+  ul {
+    width: 100%;
+    position: relative;
+    display: block;
+    vertical-align: top;
+
+    li {
+      list-style: none;
+      position: relative;
+      display: inline-block;
+      width: 25%;
+      min-width: 220px;
+      height: auto;
+      margin-right: 5%;
+      vertical-align: top;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+
+      .imgWrap {
+        width: 100%;
+        position: relative;
+        height: 350px;
+
+
+        h3 {
+          font-size: 13px;
+          font-weight: 100;
+          text-transform: uppercase;
+          color: #666;
+        }
+      }
+
+      h2 {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #333;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: 1.1em;
+      }
+
+      p {
+        font-size: 13px;
+        margin-top: 0;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        padding-top: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      .arrow {
+        font-size: 10px;
+        color: #666;
+      }
+    }
+  }
+}
+
+// Section Styling
+
+.northShore {}
+
+.southAmerica {
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+// Women's Products
+
+.proclineComp {
+  background: url('../img/F15-Procline-Comp-Jacket-W-Riptide.png') no-repeat;
+  background-size: 80%;
+  background-position: left bottom;
+}
+
+.nevus {
+  background: url('../img/F15-Nevus-Pant-W-Black.png') no-repeat;
+  background-size: 45%;
+  background-position: left bottom;
+}
+
+.vertices {
+  background: url('../img/F15-Vertices-Hoody-W-Aegean-Blue.png') no-repeat;
+  background-size: 70%;
+  background-position: left bottom;
+}
+
+.ceriumSL {
+  background: url('../img/F15-Cerium-SL-Jacket-W-Tanzanite.png') no-repeat;
+  background-size: 85%;
+  background-position: left bottom;
+}
+
+.phaseGroup {
+  background: url('../img/F15-Phase-SL-Camisole-W-Pink-Lotus.png') no-repeat;
+  background-size: 60%;
+  background-position: left bottom;
+}
+
+.scimitar {
+  background: url('../img/F15-Scimitar-Jacket-W-Golden-Poppy.png') no-repeat;
+  background-size: 80%;
+  background-position: left bottom;
+}
+
+.azetta {
+  background: url('../img/F15-Azetta-Pant-W-Pink-Tulip.png') no-repeat;
+  background-size: 50%;
+  background-position: left bottom;
+}
+
+.phaseSL {
+  background: url('../img/') no-repeat;
+  background-size: 90%;
+  background-position: left bottom;
+}
+
+.proclineHybrid {
+  background: url('../img/F15-Procline-Hybrid-Hoody-W-Carbon-Copy.png') no-repeat;
+  background-size: 80%;
+  background-position: left bottom;
+
+}
+
+.phaseWmns {
+  background: url('../img/F15-Phase-AR-Bottom-W-Andromedae.png') no-repeat;
+  background-size: 40%;
+  background-position: left bottom;
+}
