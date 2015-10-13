@@ -197,14 +197,14 @@ section ul li .arrow {
 
 /* line 190, ../scss/styleWmns.scss */
 .nevus {
-  background: url("../img/F15-Nevus-Pant-W-Black.png") no-repeat;
+  background: url("../img/F15-Nevus-Pant-W-Clementine.png") no-repeat;
   background-size: 45%;
   background-position: left bottom;
 }
 
 /* line 196, ../scss/styleWmns.scss */
 .vertices {
-  background: url("../img/F15-Vertices-Hoody-W-Aegean-Blue.png") no-repeat;
+  background: url("../img/F15-Vertices-Hoody-W-Chandra-Purple.png") no-repeat;
   background-size: 70%;
   background-position: left bottom;
 }
@@ -217,43 +217,50 @@ section ul li .arrow {
 }
 
 /* line 208, ../scss/styleWmns.scss */
-.phaseGroup {
-  background: url("../img/F15-Phase-SL-Camisole-W-Pink-Lotus.png") no-repeat;
-  background-size: 60%;
+.ceriumSLRip {
+  background: url("../img/F15-Cerium-SL-Jacket-W-Riptide.png") no-repeat;
+  background-size: 85%;
   background-position: left bottom;
 }
 
 /* line 214, ../scss/styleWmns.scss */
+.phaseGroup {
+  background: url("../img/F15-Phase-SL-Camisole-W-Black.png") no-repeat;
+  background-size: 55%;
+  background-position: left bottom;
+}
+
+/* line 220, ../scss/styleWmns.scss */
 .scimitar {
   background: url("../img/F15-Scimitar-Jacket-W-Golden-Poppy.png") no-repeat;
   background-size: 80%;
   background-position: left bottom;
 }
 
-/* line 220, ../scss/styleWmns.scss */
+/* line 226, ../scss/styleWmns.scss */
 .azetta {
   background: url("../img/F15-Azetta-Pant-W-Pink-Tulip.png") no-repeat;
   background-size: 50%;
   background-position: left bottom;
 }
 
-/* line 226, ../scss/styleWmns.scss */
+/* line 232, ../scss/styleWmns.scss */
 .phaseSL {
   background: url("../img/") no-repeat;
-  background-size: 90%;
+  background-size: 85%;
   background-position: left bottom;
 }
 
-/* line 232, ../scss/styleWmns.scss */
+/* line 238, ../scss/styleWmns.scss */
 .proclineHybrid {
   background: url("../img/F15-Procline-Hybrid-Hoody-W-Carbon-Copy.png") no-repeat;
   background-size: 80%;
   background-position: left bottom;
 }
 
-/* line 239, ../scss/styleWmns.scss */
+/* line 245, ../scss/styleWmns.scss */
 .phaseWmns {
-  background: url("../img/F15-Phase-AR-Bottom-W-Andromedae.png") no-repeat;
-  background-size: 40%;
+  background: url("../img/F15-Phase-AR-Bottom-W-Black.png") no-repeat;
+  background-size: 35%;
   background-position: left bottom;
 }
