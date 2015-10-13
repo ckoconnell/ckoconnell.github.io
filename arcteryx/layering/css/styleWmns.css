@@ -24,9 +24,10 @@ div, span, p, h1, h2, h3 {
   height: 600px;
   margin: 0 auto;
   background: url("../img/wmnsHero.jpg") no-repeat;
-  background-size: 960px;
+  background-size: 1100px;
   background-position: bottom left;
   position: relative;
+  overflow: hidden;
 }
 @media screen and (max-width: 900px) {
   /* line 18, ../scss/styleWmns.scss */
@@ -34,11 +35,11 @@ div, span, p, h1, h2, h3 {
     background-size: cover;
   }
 }
-/* line 32, ../scss/styleWmns.scss */
+/* line 33, ../scss/styleWmns.scss */
 .introWrap h3 {
   position: absolute;
-  bottom: 30px;
-  right: 90px;
+  bottom: 15px;
+  right: 30px;
   text-align: right;
   text-transform: uppercase;
   font-weight: 100;
@@ -46,7 +47,7 @@ div, span, p, h1, h2, h3 {
   font-size: 11px;
 }
 
-/* line 44, ../scss/styleWmns.scss */
+/* line 45, ../scss/styleWmns.scss */
 .introCopy {
   display: block;
   position: relative;
@@ -59,7 +60,7 @@ div, span, p, h1, h2, h3 {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 900px) {
-  /* line 44, ../scss/styleWmns.scss */
+  /* line 45, ../scss/styleWmns.scss */
   .introCopy {
     margin-top: 400px;
     width: 100%;
@@ -69,18 +70,18 @@ div, span, p, h1, h2, h3 {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 44, ../scss/styleWmns.scss */
+  /* line 45, ../scss/styleWmns.scss */
   .introCopy {
     margin-top: 300px;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 44, ../scss/styleWmns.scss */
+  /* line 45, ../scss/styleWmns.scss */
   .introCopy {
     margin-top: 200px;
   }
 }
-/* line 71, ../scss/styleWmns.scss */
+/* line 72, ../scss/styleWmns.scss */
 .introCopy h1 {
   font-size: 1.2em;
   font-weight: 500;
@@ -89,7 +90,7 @@ div, span, p, h1, h2, h3 {
   line-height: 1em;
   text-transform: uppercase;
 }
-/* line 80, ../scss/styleWmns.scss */
+/* line 81, ../scss/styleWmns.scss */
 .introCopy p {
   width: 65%;
   padding: 0 0 0 5%;
@@ -97,7 +98,7 @@ div, span, p, h1, h2, h3 {
   line-height: 24px;
 }
 
-/* line 88, ../scss/styleWmns.scss */
+/* line 89, ../scss/styleWmns.scss */
 section {
   position: relative;
   display: block;
@@ -107,7 +108,7 @@ section {
   margin-bottom: 60px;
   margin-top: 30px;
 }
-/* line 97, ../scss/styleWmns.scss */
+/* line 98, ../scss/styleWmns.scss */
 section h1 {
   line-height: 1em;
   font-size: 1.5em;
@@ -116,19 +117,19 @@ section h1 {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 106, ../scss/styleWmns.scss */
+/* line 107, ../scss/styleWmns.scss */
 section .lighter {
   font-weight: 100;
   color: #666;
 }
-/* line 111, ../scss/styleWmns.scss */
+/* line 112, ../scss/styleWmns.scss */
 section ul {
   width: 100%;
   position: relative;
   display: block;
   vertical-align: top;
 }
-/* line 117, ../scss/styleWmns.scss */
+/* line 118, ../scss/styleWmns.scss */
 section ul li {
   list-style: none;
   position: relative;
@@ -141,20 +142,20 @@ section ul li {
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-/* line 129, ../scss/styleWmns.scss */
+/* line 130, ../scss/styleWmns.scss */
 section ul li .imgWrap {
   width: 100%;
   position: relative;
   height: 350px;
 }
-/* line 135, ../scss/styleWmns.scss */
+/* line 136, ../scss/styleWmns.scss */
 section ul li .imgWrap h3 {
   font-size: 13px;
   font-weight: 100;
   text-transform: uppercase;
   color: #666;
 }
-/* line 143, ../scss/styleWmns.scss */
+/* line 144, ../scss/styleWmns.scss */
 section ul li h2 {
   font-size: 1.2em;
   text-transform: uppercase;
@@ -163,12 +164,12 @@ section ul li h2 {
   margin-bottom: 0;
   line-height: 1.1em;
 }
-/* line 152, ../scss/styleWmns.scss */
+/* line 153, ../scss/styleWmns.scss */
 section ul li p {
   font-size: 13px;
   margin-top: 0;
 }
-/* line 157, ../scss/styleWmns.scss */
+/* line 158, ../scss/styleWmns.scss */
 section ul li a {
   color: #333;
   text-decoration: none;
@@ -176,89 +177,82 @@ section ul li a {
   font-size: 12px;
   text-transform: uppercase;
 }
-/* line 165, ../scss/styleWmns.scss */
+/* line 166, ../scss/styleWmns.scss */
 section ul li .arrow {
   font-size: 10px;
   color: #666;
 }
 
-/* line 177, ../scss/styleWmns.scss */
+/* line 178, ../scss/styleWmns.scss */
 .southAmerica {
   box-sizing: border-box;
   padding-top: 60px;
 }
 
-/* line 184, ../scss/styleWmns.scss */
+/* line 185, ../scss/styleWmns.scss */
 .proclineComp {
   background: url("../img/F15-Procline-Comp-Jacket-W-Riptide.jpg") no-repeat;
   background-size: 80%;
   background-position: left bottom;
 }
 
-/* line 190, ../scss/styleWmns.scss */
+/* line 191, ../scss/styleWmns.scss */
 .nevus {
   background: url("../img/F15-Nevus-Pant-W-Clementine.jpg") no-repeat;
   background-size: 45%;
   background-position: 30px bottom;
 }
 
-/* line 196, ../scss/styleWmns.scss */
+/* line 197, ../scss/styleWmns.scss */
 .vertices {
   background: url("../img/F15-Vertices-Hoody-W-Chandra-Purple.jpg") no-repeat;
   background-size: 73%;
   background-position: left bottom;
 }
 
-/* line 202, ../scss/styleWmns.scss */
+/* line 203, ../scss/styleWmns.scss */
 .ceriumSL {
   background: url("../img/F15-Cerium-SL-Jacket-W-Tanzanite.jpg") no-repeat;
   background-size: 85%;
   background-position: left bottom;
 }
 
-/* line 208, ../scss/styleWmns.scss */
+/* line 209, ../scss/styleWmns.scss */
 .ceriumLTVest {
   background: url("../img/F15-Cerium-LT-Vest-W-Pink-Guava.jpg") no-repeat;
   background-size: 60%;
   background-position: 15px bottom;
 }
 
-/* line 214, ../scss/styleWmns.scss */
+/* line 215, ../scss/styleWmns.scss */
 .phaseGroup {
   background: url("../img/F15-Phase-SL-Camisole-W-Black.jpg") no-repeat;
   background-size: 52%;
   background-position: left 70px;
 }
 
-/* line 220, ../scss/styleWmns.scss */
+/* line 221, ../scss/styleWmns.scss */
 .scimitar {
   background: url("../img/F15-Scimitar-Jacket-W-Golden-Poppy.jpg") no-repeat;
   background-size: 80%;
   background-position: left bottom;
 }
 
-/* line 226, ../scss/styleWmns.scss */
+/* line 227, ../scss/styleWmns.scss */
 .azetta {
   background: url("../img/F15-Azetta-Pant-W-Pink-Tulip.jpg") no-repeat;
   background-size: 50%;
   background-position: 30px bottom;
 }
 
-/* line 232, ../scss/styleWmns.scss */
-.phaseSL {
-  background: url("../img/") no-repeat;
-  background-size: 85%;
-  background-position: left bottom;
-}
-
-/* line 238, ../scss/styleWmns.scss */
+/* line 233, ../scss/styleWmns.scss */
 .proclineHybrid {
   background: url("../img/F15-Procline-Hybrid-Hoody-W-Carbon-Copy.jpg") no-repeat;
   background-size: 80%;
   background-position: left bottom;
 }
 
-/* line 245, ../scss/styleWmns.scss */
+/* line 240, ../scss/styleWmns.scss */
 .phaseWmns {
   background: url("../img/F15-Phase-SL-Camisole-W-Black.jpg") no-repeat;
   background-size: 52%;

@@ -21,9 +21,10 @@ div, span, p, h1, h2, h3 {
   height: 600px;
   margin: 0 auto;
   background: url('../img/wmnsHero.jpg') no-repeat;
-  background-size: 960px;
+  background-size: 1100px;
   background-position: bottom left;
   position: relative;
+  overflow: hidden;
 
   @media screen and (max-width: 900px) {
     background-size: cover;
@@ -31,8 +32,8 @@ div, span, p, h1, h2, h3 {
 
   h3 {
     position: absolute;
-    bottom: 30px;
-    right: 90px;
+    bottom: 15px;
+    right: 30px;
     text-align: right;
     text-transform: uppercase;
     font-weight: 100;
@@ -227,12 +228,6 @@ section {
   background: url('../img/F15-Azetta-Pant-W-Pink-Tulip.jpg') no-repeat;
   background-size: 50%;
   background-position: 30px bottom;
-}
-
-.phaseSL {
-  background: url('../img/') no-repeat;
-  background-size: 85%;
-  background-position: left bottom;
 }
 
 .proclineHybrid {
