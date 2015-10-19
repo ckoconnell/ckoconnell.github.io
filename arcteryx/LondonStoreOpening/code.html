@@ -1,0 +1,34 @@
+<a class="sideVideo" href="http://www.youtube.com/embed/OVr_jAhzbM4?autoplay=1" target="_blank"><img src="http://images.arcteryx.com/campaign/gloves/glovesVideo3.jpg" border="0" width="100%" height="100%"></a>
+
+
+<script>
+    $(document).ready(function(){
+
+        $('.sideVideo').click(function(){
+            $('.sideVideo').html('<iframe width="100%" height="100%" src="' + $(this).attr('href') + '" frameborder="0" allowfullscreen></iframe>');
+            GTMdataLayer.push({'event': 'lithic-glove-video-play'});
+            return false;
+            // This prevents the browser from navigating to the link.
+        });
+    });
+</script>
+
+
+// Doubleclick Tag
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Blenkarn Video Tracking Pixel - from Further Faster Media
+URL of the webpage where the tag is expected to be placed: http://blog.arcteryx.com/inspired-design/videooverlayimage
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 10/08/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="https://4390389.fls.doubleclick.net/activityi;src=4390389;type=commi0;cat=blenk0;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="https://4390389.fls.doubleclick.net/activityi;src=4390389;type=commi0;cat=blenk0;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove —>

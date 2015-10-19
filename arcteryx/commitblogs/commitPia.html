@@ -1,0 +1,473 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 64px;
+        font-weight: 900;
+        position: absolute;
+        top: 6%;
+        right: 9%;
+        line-height: .9em;
+        text-transform: uppercase;
+        color: #fff !important;
+        opacity: 0.9;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: inline-block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+
+    }
+
+    .fullbleedWrap .pullquote {
+        font-style: italic;
+        text-align: center;
+        font-weight: 900;
+        font-size: 24px;
+        width: 70%;
+        color: #666;
+        margin: 0 auto;
+        max-width: 700px !important;
+        padding-left: 0 !important;
+        display: block !important;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        line-height: 1.3em;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        max-width: 1500px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/piaBio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 0;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .fullbleedWrap .imgWrap h1 {
+            top: 30px;
+            left: 15px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 54px;
+            font-weight: 600;
+            position: absolute;
+            line-height: 0.8em;
+            left: 15px;
+            top: 5px;
+        }
+
+        .fullbleedWrap p {
+
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+
+        }
+    }
+</style>
+
+<div class="fullbleedWrap">
+    <div class="imgWrap">
+        <h1>Personal<br>Velocity</h1>
+        <img src="http://blog-media.arcteryx.com/images/articles/commitPiaHero.jpg" />
+    </div>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/commitPia1.jpg" />
+    </div>
+
+    <p>Main Copy Block</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/commitPia2.jpg" />
+    </div>
+
+    <p class="pullquote"></p>
+
+    <a class="videoPoster" href="https://www.youtube.com/embed/iv4QDofpWko?autoplay=1" target="_blank">
+        <div class="playButton">
+            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e" fill-opacity="0.9"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/commitPiaPosterFrame.jpg" border="0">
+    </a>
+
+    <p class="pullquote"></p>
+
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+    </div>
+
+    <div class="athleteWrap">
+        <div class="athleteImgWrap">
+            <div class="athleteImg"></div>
+        </div>
+        <div class="athleteBio">
+            <h1>Pia Nic Gunderson</h1>
+            <p>I grew up in Vesterålen, North of Norway, surrounded with high mountain peaks, midnight sun and northern lights. In my fathers bag pack I early got the feeling of sliding on snow in the local skiresort. At the age of two I got my first pair of skis, and since then skiing has been an essential part of my life...</p>
+            <div style="clear: both;"></div>
+            <a href="http://arcteryx.com/Athlete.aspx?EN/PiaNicGundersen" target="_blank">Read More</a>
+            <div class="socialLinks">
+                <a class="socialLink" href="http://instagram.com/piagu/" target="_blank">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<path class="socialInsta" display="inline" d="M266.371,13.193c0,0,119.198,286.488,172.449,411.441c14.53,33.695,31.741,66.315,36.017,71.547
+		c11.158,13.686,12.861,13.346,12.861,13.346s-41.65-1.262-62.575-1.262c-21.01,0-33.064,2.829-32.679,1.262
+		c4.646-12.51,3.873-25.02-2.753-41.484c-1.325-3.34-10.51-25.803-14.646-36.336C338.756,344.786,258.05,150.204,258.05,150.204
+		c-5.279-13.745-0.872-13.745-7.228,0c0,0-80.633,194.582-116.921,281.503c-4.202,10.532-13.403,32.995-14.687,36.336
+		c-6.618,16.464-7.4,28.974-2.747,41.484c0.419,1.567-7.779-1.262-28.738-1.262c-21.034,0-62.584,1.262-62.584,1.262
+		s1.66,0.34,12.836-13.346c4.235-5.232,21.445-37.852,35.942-71.547C127.199,299.681,246.407,13.193,246.407,13.193
+		C252.5-1.592,259.217-2.631,266.371,13.193z"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="32.667" y="33.333" width="447.667" height="447.667"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path class="socialInsta" clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#221F1F" d="M428.017,222.386h-38.905
+			c2.835,11.004,4.509,22.501,4.509,34.389c0,75.955-61.56,137.511-137.503,137.511c-75.939,0-137.503-61.556-137.503-137.511
+			c0-11.888,1.682-23.385,4.517-34.389H84.223v189.089c0,9.48,7.699,17.174,17.206,17.174h309.382
+			c9.507,0,17.206-7.695,17.206-17.174V222.386z M428.017,102.074c0-9.487-7.699-17.186-17.206-17.186h-51.555
+			c-9.495,0-17.186,7.699-17.186,17.186v51.575c0,9.487,7.691,17.186,17.186,17.186h51.555c9.507,0,17.206-7.699,17.206-17.186
+			V102.074z M256.118,170.835c-47.469,0-85.944,38.471-85.944,85.94c0,47.461,38.475,85.952,85.944,85.952
+			s85.952-38.491,85.952-85.952C342.07,209.306,303.587,170.835,256.118,170.835 M428.017,480.233H84.223
+			c-28.47,0-51.555-23.093-51.555-51.583V84.887c0-28.474,23.085-51.555,51.555-51.555h343.794
+			c28.474,0,51.555,23.081,51.555,51.555V428.65C479.573,457.14,456.492,480.233,428.017,480.233"/>
+	</g>
+</g>
+</svg>
+                </a>
+                <a class="socialLink" href="https://twitter.com/piakng" target="_blank">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<path class="socialTwitter" display="inline" d="M266.371,13.193c0,0,119.198,286.488,172.449,411.441c14.53,33.695,31.741,66.315,36.017,71.547
+		c11.158,13.686,12.861,13.346,12.861,13.346s-41.65-1.262-62.575-1.262c-21.01,0-33.064,2.829-32.679,1.262
+		c4.646-12.51,3.873-25.02-2.753-41.484c-1.325-3.34-10.51-25.803-14.646-36.336C338.756,344.786,258.05,150.204,258.05,150.204
+		c-5.279-13.745-0.872-13.745-7.228,0c0,0-80.633,194.582-116.921,281.503c-4.202,10.532-13.403,32.995-14.687,36.336
+		c-6.618,16.464-7.4,28.974-2.747,41.484c0.419,1.567-7.779-1.262-28.738-1.262c-21.034,0-62.584,1.262-62.584,1.262
+		s1.66,0.34,12.836-13.346c4.235-5.232,21.445-37.852,35.942-71.547C127.199,299.681,246.407,13.193,246.407,13.193
+		C252.5-1.592,259.217-2.631,266.371,13.193z"/>
+</g>
+<g id="Layer_2" display="none">
+	<g display="inline">
+		<defs>
+			<rect id="SVGID_1_" x="32.667" y="33.333" width="447.667" height="447.667"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path class="socialTwitter" clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#221F1F" d="M428.017,222.386h-38.905
+			c2.835,11.004,4.509,22.501,4.509,34.389c0,75.955-61.56,137.511-137.503,137.511c-75.939,0-137.503-61.556-137.503-137.511
+			c0-11.888,1.682-23.385,4.517-34.389H84.223v189.089c0,9.48,7.699,17.174,17.206,17.174h309.382
+			c9.507,0,17.206-7.695,17.206-17.174V222.386z M428.017,102.074c0-9.487-7.699-17.186-17.206-17.186h-51.555
+			c-9.495,0-17.186,7.699-17.186,17.186v51.575c0,9.487,7.691,17.186,17.186,17.186h51.555c9.507,0,17.206-7.699,17.206-17.186
+			V102.074z M256.118,170.835c-47.469,0-85.944,38.471-85.944,85.94c0,47.461,38.475,85.952,85.944,85.952
+			s85.952-38.491,85.952-85.952C342.07,209.306,303.587,170.835,256.118,170.835 M428.017,480.233H84.223
+			c-28.47,0-51.555-23.093-51.555-51.583V84.887c0-28.474,23.085-51.555,51.555-51.555h343.794
+			c28.474,0,51.555,23.081,51.555,51.555V428.65C479.573,457.14,456.492,480.233,428.017,480.233"/>
+	</g>
+</g>
+<g id="Layer_3">
+	<path class="socialTwitter" d="M505,97.506c-18.405,8.163-38.184,13.681-58.947,16.161c21.191-12.701,37.464-32.815,45.127-56.781
+		c-19.829,11.761-41.794,20.303-65.172,24.906c-18.721-19.947-45.395-32.411-74.913-32.411c-56.683,0-102.635,45.952-102.635,102.63
+		c0,8.045,0.908,15.877,2.657,23.389c-85.297-4.28-160.921-45.139-211.54-107.233c-8.834,15.158-13.895,32.788-13.895,51.597
+		c0,35.606,18.119,67.02,45.657,85.425c-16.824-0.532-32.649-5.15-46.487-12.837c-0.007,0.429-0.009,0.858-0.009,1.29
+		c0,49.727,35.377,91.209,82.329,100.636c-8.613,2.345-17.68,3.599-27.04,3.599c-6.613,0-13.043-0.643-19.31-1.841
+		c13.061,40.774,50.963,70.447,95.873,71.277c-35.125,27.526-79.378,43.933-127.462,43.933c-8.284,0-16.454-0.486-24.483-1.433
+		c45.42,29.12,99.367,46.109,157.325,46.109c188.779,0,292.009-156.387,292.009-292.011c0-4.449-0.1-8.876-0.297-13.277
+		C473.84,136.164,491.241,118.087,505,97.506z"/>
+</g>
+</svg>
+                </a>
+                <a class="socialFacebook" href="https://www.facebook.com/pianicgu" target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="Layer_1_1_" display="none">
+	<path display="inline" d="M318.4,105.8c0,0,142.5,342.4,206.1,491.8c17.4,40.3,37.9,79.3,43.1,85.5c13.3,16.4,15.4,16,15.4,16
+		s-49.8-1.5-74.8-1.5c-25.1,0-39.5,3.4-39.1,1.5c5.6-15,4.6-29.9-3.3-49.6c-1.6-4-12.6-30.8-17.5-43.4
+		c-43.4-103.9-139.8-336.5-139.8-336.5c-6.3-16.4-1-16.4-8.6,0c0,0-96.4,232.6-139.8,336.5c-5,12.6-16,39.4-17.6,43.4
+		c-7.9,19.7-8.8,34.6-3.3,49.6c0.5,1.9-9.3-1.5-34.4-1.5c-25.1,0-74.8,1.5-74.8,1.5s2,0.4,15.3-16c5.1-6.3,25.6-45.2,43-85.5
+		C152,448.2,294.5,105.8,294.5,105.8C301.8,88.1,309.8,86.9,318.4,105.8z"/>
+</g>
+<path id="f" d="M347.4,664.5V420.1h82l12.3-95.2h-94.3V264c0-27.6,7.7-46.4,47.2-46.4l50.4,0v-85.2c-8.7-1.2-38.7-3.8-73.5-3.8
+	c-72.7,0-122.5,44.4-122.5,125.9v70.2h-82.2v95.2H249v244.4H347.4z"/>
+</svg></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+    $('.videoPoster').click(function(){
+        $('.videoPoster').html('<iframe width="100%" height="100%" src="' + $(this).attr('href') + '" frameborder="0"></iframe>');
+        // GTMdataLayer.push({'event': 'inspired-design-video-play'});
+        return false;
+        // This prevents the browser from navigating to the link.
+    });
+</script>

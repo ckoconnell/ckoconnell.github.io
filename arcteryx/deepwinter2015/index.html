@@ -11,13 +11,27 @@
 </head>
 <body>
 
+<div style="clear: both;"></div>
+
+<div class="nav">
+    <div class="grid">
+        <a href="#topLink" class="eventLink">Event Details</a>
+        <a href="#contestantLink" class="competitorsLink">Contestants</a>
+        <a href="#pastwinnersLink" class="pastwinnersLink">Past Winners</a>
+        <a href="#afterpartyLink" class="afterpartyLink">After Party</a>
+        <a href="#judgesLink" class="judgesLink">Judges</a>
+        <a href="#contestLink" class="contestLink">Contest</a>
+    </div>
+</div>
+
 <div class="watermark"></div>
 
 <header>
     <div class="logoWrap"></div>
 </header>
 
-<section class="featureWrap">
+<a name="topLink"></a>
+<section class="featureWrap" id="eventLink">
     <div class="featureSlide slide1"></div>
 
     <div class="featureSlide slide2"></div>
@@ -87,6 +101,7 @@
     </div>
 </section>
 
+<a name="contestantLink" class="anchorPad"></a>
 <section class="contestants grid">
     <h1>CONTESTANTS</h1>
     <div class="contestantWrap">
@@ -165,6 +180,8 @@
     </div>
 </section>
 
+
+<a name="pastwinnersLink" class="anchorPad"></a>
 <section class="winners grid">
     <h1>Past Winners</h1>
     <div class="winnersWrap">
@@ -214,6 +231,7 @@
     </div>
 </section>
 
+<a name="afterpartyLink" class="anchorPad"></a>
 <section class="afterparty">
     <div class="partyWrap grid">
         <h1>Deep Winter 2016</h1>
@@ -230,12 +248,45 @@
     </div>
 </section>
 
+
+<a name="judgesLink" class="anchorPad"></a>
 <section class="judges">
     <h1>Judges</h1>
 </section>
 
+
+<a name="contestLink" class="anchorPad"></a>
 <section class="contest">
-    <h1>Contest</h1>
+    <h1>ENTER TO WIN</h1>
+    <h5 class="grid">What Does Your Deep Winter Look Like?</h5>
+    <div class="contestIntro grid">
+        <div class="contestCol addPad">
+
+            <h3>How to Enter</h3>
+            <p>To celebrate the Deep Winter Photo Challenge, we invite you to tag your images of what Deep Winter means to you.  Share your photos on Instagram or Twitter including the hashtags #DEEPWINTER15 and #ARCTERYX  and your photo will show up in our gallery giving you a chance to win some sweet Arc’teryx gear.
+            <p>Tagged posts will be shown in our Deep Winter gallery (any inappropriate images will be removed ;)
+            <p>The top 5 photos each month (chosen by our photographers) will be posted for voting by the public.  Get the most votes and you WIN an ATOM LT jacket or hoody.
+        </div>
+
+        <div class="contestCol">
+            <h3>Contest Dates:</h3>
+            <ul>
+                <li>Contest begins Dec 02, 2014</li>
+                <li>Round one January 2, 2015</li>
+                <li>Round two February 2, 2015</li>
+                <li>Round three March 2, 2015</li>
+                <li>Eligible submissions end March 2, 2015</li>
+            </ul>
+            <p>*No photos will carry over month to month and must be submitted after the 1st of each month to be eligible</p>
+        </div>
+    </div>
+
+    <div class="galleryWrap grid">
+        <div id="pixlee_container"></div>
+        <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:"sWGIZwsNM17xfXjgmc"});Pixlee.addSimpleWidget({albumId:118459,recipeId:241,displayOptionsId:7994,type:"mosaic",accountId:707,setMetaTags:true});};</script>
+        <script src="//assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+    </div>
+
 </section>
 
 <section class="charity">
@@ -264,6 +315,8 @@
 </footer>
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+<script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
+
 
 <script type="text/javascript">
     $('.featureWrap').slick({
@@ -276,6 +329,23 @@
         lazyload: 'ondemand'
     });
 </script>
+
+<script>
+    $(document).on("scroll", function(){
+       $(".nav").toggleClass("navDisplay", $(document).scrollTop() > 700);
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        $('.nav a').smoothScroll();
+
+    });
+
+</script>
+
 
 </body>
 </html>

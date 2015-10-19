@@ -1,0 +1,26 @@
+<script>
+    $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        // if the page is scrolled more than 880px and the nav element doesn’t already exist create one
+        if(height  > 880 && !$('.nav').length) {
+            $('body').prepend("<div class='nav'><!----></div>");
+        }
+        // if the page is scrolled less than 880px check to see if the nav element exists and remove it if it does
+        if(height  < 880 && $('.nav').length) {
+            $('.nav').remove();
+        }
+    });
+
+</script>
+
+
+
+<script>
+    $('a[href*=#]').click(function(event){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        event.preventDefault();
+    });
+
+</script>
