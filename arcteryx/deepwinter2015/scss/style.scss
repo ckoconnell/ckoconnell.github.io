@@ -32,12 +32,16 @@ div {
 section {
   position: relative;
   overflow: hidden;
+  border-top: 1px solid #333;
+  padding-bottom: 30px;
+  padding-top: 120px;
 }
 
 .grid {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 // Global Type Styles
@@ -48,6 +52,16 @@ h1 {
   font-weight: 100;
   text-transform: uppercase;
   color: #666;
+}
+
+.sectionHeadline {
+  position: absolute;
+  top: -132px;
+  left: 0;
+  width: 150px;
+  padding: 4px 12px;
+  background: #333;
+  color: white !important;
 }
 
 // Nav
@@ -145,6 +159,9 @@ a.anchorPad {
   min-height: 500px;
   top: 0;
   left: 0;
+  border-top: none !important;
+  padding-bottom: 30px;
+  padding-top: 0 !important;
 }
 
 .featureSlide {
@@ -460,8 +477,8 @@ a.anchorPad {
 
 
 .sponsors {
-  margin-top: 30px;
-
+  border-top: none !important;
+  padding-top: 30px !important;
   h1 {
 
   }
@@ -522,7 +539,7 @@ a.anchorPad {
 }
 
 .news {
-  margin-top: 60px;
+  margin-top: 120px;
   position: relative;
 
   h1 {
@@ -537,11 +554,12 @@ a.anchorPad {
 
     .newsItem {
       position: relative;
-      width: 25%;
+      width: 30%;
       display: inline-block;
-      margin-left: 60px;
       margin-bottom: 60px;
       vertical-align: top;
+      box-sizing: border-box;
+      padding: 0 15px;
 
       h1 {
         font-weight: 900;
@@ -567,11 +585,15 @@ a.anchorPad {
         color: #ccc ;
       }
     }
+
+    .newsItem:nth-of-type(2) {
+      margin: 0 30px;
+    }
   }
 }
 
 .contestants {
-  margin-top: 30px;
+  margin-top: 90px;
 
   .contestantWrap {
     width: 100%;
@@ -665,7 +687,8 @@ a.anchorPad {
 
 
 .winners {
-  margin-top: 60px;
+  margin-top: 120px;
+  border-bottom: none !important;
 
   .winnersWrap {
     width: 100%;
@@ -712,11 +735,11 @@ a.anchorPad {
 }
 
 .afterparty {
-  margin-top: 60px;
+  margin-top: 120px;
   width: 100%;
   padding-bottom: 15%;
   background: #333;
-  background: url('../img/afterparty1BW.jpg') no-repeat;
+  background: url('../img/afterparty1BWfade.jpg') no-repeat;
   background-size: 100% auto;
   padding-top: 15%;
 
@@ -782,7 +805,10 @@ a.anchorPad {
 }
 
 .judges {
-  margin-top: 60px;
+
+  .sectionHeadline {
+    top: -133px;
+  }
 
   .marginSides {
     margin: 0 30px;
@@ -830,8 +856,13 @@ a.anchorPad {
 }
 
 .contest {
-  margin-top: 60px;
+  margin-top: 120px;
   text-align: left;
+  padding-top: 60px !important;
+
+  .sectionHeadline {
+    top: -113px;
+  }
 
   h5 {
     text-align: left;
@@ -915,7 +946,11 @@ a.anchorPad {
 }
 
 .charity {
-  margin-top: 60px;
+  margin-top: 120px;
+
+  .sectionHeadline {
+
+  }
 
   .charityWrap {
     height: 500px;
@@ -972,7 +1007,7 @@ a.anchorPad {
 }
 
 footer {
-  margin-top: 60px;
+  padding-top: 60px;
   width: 100%;
   background: #232323;
   padding-top: 60px;
