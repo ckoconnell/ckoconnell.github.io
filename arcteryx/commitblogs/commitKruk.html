@@ -1,4 +1,24 @@
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Blenkarn Blog Post
+URL of the webpage where the tag is expected to be placed: http://blog.arcteryx.com/inspired-design
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 09/29/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="https://4390389.fls.doubleclick.net/activityi;src=4390389;type=blenk0;cat=blenk0;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="https://4390389.fls.doubleclick.net/activityi;src=4390389;type=blenk0;cat=blenk0;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+
 <style>
+
     .sidebars {
         display: none !important;
     }
@@ -52,7 +72,7 @@
         font-size: 64px;
         font-weight: 900;
         position: absolute;
-        top: 8%;
+        top: 4%;
         left: 9%;
         line-height: .9em;
         text-transform: uppercase;
@@ -115,21 +135,6 @@
         width: 100%;
         height: auto;
     }
-
-    .fullbleedWrap .videoWrap {
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 */
-        height: 0;
-    }
-
-    .fullbleedWrap .videoWrap iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
 
     .fullbleedWrap .athleteWrap {
         width: 100%;
@@ -238,6 +243,60 @@
         height: 50px;
     }
 
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 25%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+
     @media screen and (max-width: 768px) {
         .fullbleedWrap .imgWrap h1 {
             top: 30px;
@@ -257,11 +316,9 @@
         }
 
         .fullbleedWrap p {
-
             padding-left: 0;
             padding-right: 0;
             margin: 1em 0 1.3em;
-
         }
     }
 </style>
@@ -269,7 +326,7 @@
 <div class="fullbleedWrap">
     <div class="imgWrap">
         <h1>Theoretical<br>Objective</h1>
-        <img src="http://blog-media.arcteryx.com/images/articles/commitKrukHero.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/commitKrukHero3.jpg" />
     </div>
 
     <div class="imgWrap">
@@ -284,10 +341,18 @@
 
     <p class="pullquote"></p>
 
+    <a class="videoPoster" href="https://www.youtube.com/embed/3MTN3_Ftwi4?autoplay=1" target="_blank">
+        <div class="playButton">
+            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e" fill-opacity="0.9"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/commitKrukPosterFrame.jpg" border="0">
+    </a>
+
+    <!--
     <div class="videoWrap">
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/3MTN3_Ftwi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
-
+    -->
     <p class="pullquote"></p>
 
     <div class="dividerWrap">
@@ -396,3 +461,14 @@
     </div>
 
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+    $('.videoPoster').click(function(){
+        $('.videoPoster').html('<iframe width="100%" height="100%" src="' + $(this).attr('href') + '" frameborder="0"></iframe>');
+        // GTMdataLayer.push({'event': 'inspired-design-video-play'});
+        return false;
+        // This prevents the browser from navigating to the link.
+    });
+</script>

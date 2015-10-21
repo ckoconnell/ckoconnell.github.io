@@ -24,3 +24,22 @@
     });
 
 </script>
+
+
+
+
+<script>
+    // $(document).ready(function() {
+    //  $('a').smoothScroll();
+    // });
+
+    $('.nav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+            scrollTarget: hash
+        });
+    });
+
+
+</script>

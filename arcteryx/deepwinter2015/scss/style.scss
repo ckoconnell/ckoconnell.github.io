@@ -56,7 +56,7 @@ a.anchorPad {
   display: block;
   position: relative;
   margin-top: 0px !important;
-  margin-bottom: 100px !important;
+  margin-bottom: 30px !important;
 }
 
 .nav {
@@ -70,6 +70,20 @@ a.anchorPad {
   // display: none;
   transition: height .5s;
   overflow: hidden;
+
+  .eventTitle {
+    font-size: 13px;
+    font-weight: 900;
+    color: black;
+    position: absolute;
+    // display: block;
+    width: 200px;
+    left: 15px;
+    top: 6px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-transform: uppercase;
+  }
 
   div {
     width: 100%;
@@ -85,6 +99,8 @@ a.anchorPad {
       font-size: 14px;
       cursor: pointer;
       transition: all 1.5s;
+      font-weight: 400;
+      letter-spacing: -1px;
     }
 
     a:hover {
@@ -126,6 +142,7 @@ a.anchorPad {
   display: block;
   width: 100%;
   height: 90%;
+  min-height: 500px;
   top: 0;
   left: 0;
 }
@@ -134,32 +151,311 @@ a.anchorPad {
   width: 100%;
   height: 100%;
   overflow: hidden;
+
+  .slideContent {
+    box-sizing: border-box;
+    padding-top: 8%;
+    vertical-align: top;
+
+    h1 {
+      color: white;
+      text-align: left;
+      font-size: 30px;
+      font-weight: 900;
+      background: #111;
+      display: inline-block;
+      width: auto;
+      padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+    }
+
+    h3 {
+      color: white;
+      text-transform: uppercase;
+      background: #111;
+      display: inline-block;
+      width: auto;
+      font-size: 18px;
+      padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+    }
+
+    h5 {
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+      background: #111;
+      display: inline-block;
+      width: auto;
+      padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      min-width: 200px;
+      vertical-align: top;
+    }
+
+    a {
+      display: inline-block;
+      position: relative;
+      background: white;
+      color: black;
+      padding: 15px;
+      margin-top: 15px;
+      width: auto;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 900;
+      transition: all 1s;
+    }
+
+    a:hover {
+      color: white;
+      background: #222;
+      transition: all .5s;
+    }
+  }
+
+  .slideContent2 {
+    box-sizing: border-box;
+    padding-top: 8%;
+    vertical-align: top;
+
+    h1 {
+      color: white;
+      text-align: left;
+      font-size: 30px;
+      line-height: 24px;
+      font-weight: 900;
+      display: inline-block;
+      width: auto;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    h3 {
+      color: white;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      font-size: 18px;
+      line-height: 18px;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    h5 {
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      min-width: 200px;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    a {
+      display: inline-block;
+      position: relative;
+      color: white;
+      padding: 5px 10px 3px 10px;
+      margin-top: 15px;
+      width: auto;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 900;
+      transition: all 1s;
+      border: 1px solid white;
+    }
+
+    a:hover {
+      color: white;
+      background: #222;
+      transition: all .5s;
+    }
+  }
+
+  .slideContent3 {
+    box-sizing: border-box;
+    width: 400px;
+    vertical-align: top;
+    bottom: 0;
+    right: 10%;
+    background: black;
+    padding: 30px;
+    margin-top: 5%;
+
+    h1 {
+      color: white;
+      text-align: left;
+      font-size: 30px;
+      font-weight: 900;
+      display: inline-block;
+      width: auto;
+      line-height: 24px;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    h3 {
+      color: white;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      font-size: 18px;
+      line-height: 18px;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    h5 {
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      line-height: 14px;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      min-width: 200px;
+      vertical-align: top;
+      text-shadow: 2px 2px 0 #111;
+    }
+
+    a {
+      display: inline-block;
+      position: relative;
+      color: white;
+      padding: 5px 10px 3px 10px;
+      margin-top: 15px;
+      width: auto;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 900;
+      transition: all 1s;
+      border: 1px solid white;
+    }
+
+    a:hover {
+      color: white;
+      background: #222;
+      transition: all .5s;
+    }
+  }
+
+  .slideContent4 {
+    box-sizing: border-box;
+    padding-top: 8%;
+    vertical-align: top;
+
+    h1 {
+      color: white;
+      text-align: left;
+      font-size: 36px;
+      line-height: 30px;
+      font-weight: 900;
+      display: inline-block;
+      width: auto;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 1px 1px 0px #222,
+      2px 2px 0px #222,
+      3px 3px 0px #222,
+      4px 4px 0px #222
+    }
+
+    h3 {
+      color: white;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      font-size: 24px;
+      line-height: 26px;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      vertical-align: top;
+      text-shadow: 1px 1px 0px #222,
+      2px 2px 0px #222,
+      3px 3px 0px #222,
+      4px 4px 0px #222
+    }
+
+    h5 {
+      color: white;
+      font-size: 20px;
+      line-height: 23px;
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      // padding: 10px 10px 10px 10px;
+      margin: 5px 0 0 0;
+      min-width: 200px;
+      vertical-align: top;
+      text-shadow: 1px 1px 0px #222,
+      2px 2px 0px #222,
+      3px 3px 0px #222,
+      4px 4px 0px #222
+    }
+
+    a {
+      display: inline-block;
+      position: relative;
+      color: white;
+      padding: 5px 10px 3px 10px;
+      margin-top: 15px;
+      width: auto;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 900;
+      transition: all 1s;
+      border: 1px solid white;
+    }
+
+    a:hover {
+      color: white;
+      background: #222;
+      transition: all .5s;
+    }
+  }
+
 }
 
 .slide1 {
-  background: url('../img/heroTop.jpg') no-repeat;
+  background: url('../img/heroTopDesaturate.jpg') no-repeat;
   background-size: cover;
 
   // Add some fade or hover animation here
-  opacity: .6;
+  opacity: 1;
 }
 
 .slide2 {
   background: url('../img/dalbyHero.jpg') no-repeat;
   background-size: cover;
-  opacity: .6;
+  opacity: 1;
 }
 
 .slide3 {
   background: url('../img/robinHero.jpg') no-repeat;
   background-size: cover;
-  opacity: .6;
+  opacity: 1;
 }
 
 .slide4 {
   background: url('../img/blakeHero.jpg') no-repeat;
   background-size: cover;
-  opacity: .6;
+  opacity: 1;
 }
 
 
@@ -211,6 +507,15 @@ a.anchorPad {
     a {
       img {
         padding-top: 30px;
+      }
+    }
+  }
+
+  .gore {
+    width: 10%;
+    a {
+      img {
+        padding-top: 15px;
       }
     }
   }
@@ -427,11 +732,11 @@ a.anchorPad {
       background: #000;
       display: inline-block;
       margin:0;
-      box-shadow: 1px 1px 0px #444,
-       2px 2px 0px #444,
-       3px 3px 0px #444,
-       4px 4px 0px #444,
-       5px 5px 0px #444;
+      box-shadow: 1px 1px 0px #222,
+       2px 2px 0px #222,
+       3px 3px 0px #222,
+       4px 4px 0px #222,
+       5px 5px 0px #222;
     }
 
     h3 {
@@ -442,10 +747,10 @@ a.anchorPad {
       text-transform: uppercase;
       display: inline-block;
       margin: 5px 0 0 0;
-      box-shadow: 1px 1px 0px #444,
-      2px 2px 0px #444,
-      3px 3px 0px #444,
-      4px 4px 0px #444,
+      box-shadow: 1px 1px 0px #222,
+      2px 2px 0px #222,
+      3px 3px 0px #222,
+      4px 4px 0px #222,
       5px 5px 0px #333;
     }
 
@@ -459,11 +764,11 @@ a.anchorPad {
       font-size: 30px;
       line-height: 30px;
       padding: 8px 15px 4px 15px;
-      box-shadow: 1px 1px 0px #444,
-      2px 2px 0px #444,
-      3px 3px 0px #444,
-      4px 4px 0px #444,
-      5px 5px 0px #444;
+      box-shadow: 1px 1px 0px #222,
+      2px 2px 0px #222,
+      3px 3px 0px #222,
+      4px 4px 0px #222,
+      5px 5px 0px #222;
       transition: all 0.5s;
     }
 
@@ -478,16 +783,67 @@ a.anchorPad {
 
 .judges {
   margin-top: 60px;
+
+  .marginSides {
+    margin: 0 30px;
+  }
+
+  .judgeWrap {
+    text-align: center;
+
+    .judgeItem {
+      position: relative;
+      display: inline-block;
+      width: 30%;
+      background: #222;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 30px;
+
+      .judgeBio {
+        display: block;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: teal;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin-top: 15px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      h3 {
+        color: white;
+        font-size: 13px;
+        font-weight: 100;
+      }
+
+    }
+
+  }
 }
 
 .contest {
   margin-top: 60px;
+  text-align: left;
 
   h5 {
-    text-align: center;
+    text-align: left;
+    line-height: .9em;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 45%;
+    padding-left: 7%;
+    display: block;
   }
 
   .contestIntro {
@@ -508,6 +864,7 @@ a.anchorPad {
     p {
       font-size: 13px;
       text-align: left;
+      line-height: 1.7em;
     }
 
     ul {
@@ -559,6 +916,59 @@ a.anchorPad {
 
 .charity {
   margin-top: 60px;
+
+  .charityWrap {
+    height: 500px;
+    vertical-align: top;
+
+    .charityHeroWrap {
+      position: relative;
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      vertical-align: top;
+      margin: 0;
+      background: url('../img/charityHeroBW.jpg');
+      background-size: cover;
+      // background: #222;
+    }
+
+    .charityCopyWrap {
+      position: relative;
+      display: inline-block;
+      width: 45%;
+      height: 100%;
+      vertical-align: top;
+      margin: 0;
+      margin-left: 3%;
+
+      h1 {
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 100;
+        text-align: left;
+        padding-right: 30px;
+      }
+
+      a {
+        color: white;
+        margin-top: -30px;
+      }
+
+      img {
+        width: 120px;
+      }
+    }
+
+
+  }
 }
 
 footer {
