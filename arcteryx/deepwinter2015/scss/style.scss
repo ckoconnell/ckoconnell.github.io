@@ -447,6 +447,93 @@ a.anchorPad {
     }
   }
 
+  .slideContent5 {
+    width: 400px;
+    height: 0px;
+    position: absolute;
+    right: 0%;
+    top: 350px;
+    display: inline-block;
+
+    .headline {
+      background: black;
+      padding: 10px;
+      text-align: left;
+      margin: 0;
+
+      h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 30px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+      }
+
+      h3 {
+        color: white;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        line-height: .8em;
+
+        sup {
+          box-sizing: border-box;
+          font-size: 10px;
+          padding-top: 3px;
+        }
+      }
+    }
+
+    .subheadline {
+      background: black;
+      padding: 5px 10px 5px;
+      text-align: left;
+      margin: 0;
+      margin-top: 5px;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 14px;
+
+        sup {
+          font-size: 8px;
+          margin-top: 3px;
+        }
+      }
+    }
+
+    a {
+      float: left;
+      display: inline-block;
+      position: relative;
+      color: black;
+      background: white;
+      padding: 5px 10px 3px 10px;
+      margin-top: 5px;
+      width: auto;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 900;
+      transition: all 1s;
+      border: 1px solid white;
+      text-align: left;
+    }
+
+    a:hover {
+      color: white;
+      background: #222;
+      transition: all .5s;
+    }
+  }
 }
 
 .slide1 {
@@ -475,6 +562,13 @@ a.anchorPad {
   opacity: 1;
 }
 
+.slide5 {
+  background: url('../img/heroTopDesaturate.jpg') no-repeat;
+  background-size: cover;
+
+  // Add some fade or hover animation here
+  opacity: 1;
+}
 
 .sponsors {
   border-top: none !important;
@@ -872,9 +966,11 @@ a.anchorPad {
     font-size: 24px;
     width: 100%;
     box-sizing: border-box;
-    padding-right: 45%;
-    padding-left: 7%;
+    padding-right: 65%;
     display: block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
   }
 
   .contestIntro {
@@ -909,11 +1005,9 @@ a.anchorPad {
     }
 
     .contestCol {
-
-      width: 37%;
+      width: 46%;
       display: inline-block;
       position: relative;
-      margin: 0 auto;
       vertical-align: top;
       margin-bottom: 30px;
 
