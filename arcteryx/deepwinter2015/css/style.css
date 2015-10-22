@@ -59,14 +59,46 @@ h1 {
 }
 
 /* line 69, ../scss/style.scss */
-a.anchorPad {
+a.anchorPadContestant {
   display: block;
   position: relative;
-  margin-top: 0px !important;
+  margin-top: 50px !important;
   margin-bottom: 30px !important;
 }
 
-/* line 76, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
+a.anchorPadWinners {
+  display: block;
+  position: relative;
+  margin-top: 80px !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 84, ../scss/style.scss */
+a.anchorPadParty {
+  display: block;
+  position: relative;
+  margin-top: 80px !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 91, ../scss/style.scss */
+a.anchorPadJudges {
+  display: block;
+  position: relative;
+  margin-top: -90px !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 98, ../scss/style.scss */
+a.anchorPadContest {
+  display: block;
+  position: relative;
+  margin-top: 80px !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 105, ../scss/style.scss */
 .nav {
   position: fixed;
   height: 0;
@@ -78,7 +110,7 @@ a.anchorPad {
   transition: height .5s;
   overflow: hidden;
 }
-/* line 88, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 .nav .eventTitle {
   font-size: 13px;
   font-weight: 900;
@@ -91,13 +123,13 @@ a.anchorPad {
   text-align: left;
   text-transform: uppercase;
 }
-/* line 102, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 .nav div {
   width: 100%;
   margin: 0 auto;
   padding-top: 5px;
 }
-/* line 107, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .nav div a {
   list-style: none;
   display: inline-block;
@@ -110,20 +142,20 @@ a.anchorPad {
   font-weight: 400;
   letter-spacing: -1px;
 }
-/* line 120, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .nav div a:hover {
   background-color: #ddd;
   color: black;
   transition: all 1s;
 }
 
-/* line 128, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .navDisplay {
   height: 40px !important;
   transition: height .5s;
 }
 
-/* line 136, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 .watermark {
   position: absolute;
   background: url("../img/deepWinterCrestWhite.png") no-repeat;
@@ -138,7 +170,7 @@ a.anchorPad {
   display: none;
 }
 
-/* line 154, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .featureWrap {
   position: absolute;
   display: block;
@@ -152,19 +184,19 @@ a.anchorPad {
   padding-top: 0 !important;
 }
 
-/* line 167, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .featureSlide {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 172, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 .featureSlide .slideContent {
   box-sizing: border-box;
   padding-top: 8%;
   vertical-align: top;
 }
-/* line 177, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .featureSlide .slideContent h1 {
   color: white;
   text-align: left;
@@ -177,7 +209,7 @@ a.anchorPad {
   margin: 5px 0 0 0;
   vertical-align: top;
 }
-/* line 190, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .featureSlide .slideContent h3 {
   color: white;
   text-transform: uppercase;
@@ -189,7 +221,7 @@ a.anchorPad {
   margin: 5px 0 0 0;
   vertical-align: top;
 }
-/* line 202, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 .featureSlide .slideContent h5 {
   color: white;
   font-size: 15px;
@@ -202,7 +234,7 @@ a.anchorPad {
   min-width: 200px;
   vertical-align: top;
 }
-/* line 215, ../scss/style.scss */
+/* line 244, ../scss/style.scss */
 .featureSlide .slideContent a {
   display: inline-block;
   position: relative;
@@ -216,19 +248,19 @@ a.anchorPad {
   font-weight: 900;
   transition: all 1s;
 }
-/* line 229, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .featureSlide .slideContent a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
-/* line 236, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 .featureSlide .slideContent2 {
   box-sizing: border-box;
   padding-top: 8%;
   vertical-align: top;
 }
-/* line 241, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 .featureSlide .slideContent2 h1 {
   color: white;
   text-align: left;
@@ -241,7 +273,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 255, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 .featureSlide .slideContent2 h3 {
   color: white;
   text-transform: uppercase;
@@ -253,7 +285,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 268, ../scss/style.scss */
+/* line 297, ../scss/style.scss */
 .featureSlide .slideContent2 h5 {
   color: white;
   font-size: 15px;
@@ -265,7 +297,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 281, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .featureSlide .slideContent2 a {
   display: inline-block;
   position: relative;
@@ -279,13 +311,13 @@ a.anchorPad {
   transition: all 1s;
   border: 1px solid white;
 }
-/* line 295, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .featureSlide .slideContent2 a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
-/* line 302, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .featureSlide .slideContent3 {
   box-sizing: border-box;
   width: 400px;
@@ -296,7 +328,7 @@ a.anchorPad {
   padding: 30px;
   margin-top: 5%;
 }
-/* line 312, ../scss/style.scss */
+/* line 341, ../scss/style.scss */
 .featureSlide .slideContent3 h1 {
   color: white;
   text-align: left;
@@ -309,7 +341,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 326, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .featureSlide .slideContent3 h3 {
   color: white;
   text-transform: uppercase;
@@ -321,7 +353,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 339, ../scss/style.scss */
+/* line 368, ../scss/style.scss */
 .featureSlide .slideContent3 h5 {
   color: white;
   font-size: 15px;
@@ -334,7 +366,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 2px 2px 0 #111;
 }
-/* line 353, ../scss/style.scss */
+/* line 382, ../scss/style.scss */
 .featureSlide .slideContent3 a {
   display: inline-block;
   position: relative;
@@ -348,19 +380,19 @@ a.anchorPad {
   transition: all 1s;
   border: 1px solid white;
 }
-/* line 367, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .featureSlide .slideContent3 a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
-/* line 374, ../scss/style.scss */
+/* line 403, ../scss/style.scss */
 .featureSlide .slideContent4 {
   box-sizing: border-box;
   padding-top: 8%;
   vertical-align: top;
 }
-/* line 379, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .featureSlide .slideContent4 h1 {
   color: white;
   text-align: left;
@@ -373,7 +405,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222;
 }
-/* line 396, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .featureSlide .slideContent4 h3 {
   color: white;
   text-transform: uppercase;
@@ -385,7 +417,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222;
 }
-/* line 412, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 .featureSlide .slideContent4 h5 {
   color: white;
   font-size: 20px;
@@ -398,7 +430,7 @@ a.anchorPad {
   vertical-align: top;
   text-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222;
 }
-/* line 429, ../scss/style.scss */
+/* line 458, ../scss/style.scss */
 .featureSlide .slideContent4 a {
   display: inline-block;
   position: relative;
@@ -412,13 +444,13 @@ a.anchorPad {
   transition: all 1s;
   border: 1px solid white;
 }
-/* line 443, ../scss/style.scss */
+/* line 472, ../scss/style.scss */
 .featureSlide .slideContent4 a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
-/* line 450, ../scss/style.scss */
+/* line 479, ../scss/style.scss */
 .featureSlide .slideContent5 {
   width: 400px;
   height: 0px;
@@ -427,14 +459,14 @@ a.anchorPad {
   top: 350px;
   display: inline-block;
 }
-/* line 458, ../scss/style.scss */
+/* line 487, ../scss/style.scss */
 .featureSlide .slideContent5 .headline {
   background: black;
   padding: 10px;
   text-align: left;
   margin: 0;
 }
-/* line 464, ../scss/style.scss */
+/* line 493, ../scss/style.scss */
 .featureSlide .slideContent5 .headline h1 {
   color: white;
   font-weight: 900;
@@ -444,7 +476,7 @@ a.anchorPad {
   padding: 0;
   line-height: 1em;
 }
-/* line 474, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 .featureSlide .slideContent5 .headline h3 {
   color: white;
   font-weight: 900;
@@ -455,13 +487,13 @@ a.anchorPad {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 484, ../scss/style.scss */
+/* line 513, ../scss/style.scss */
 .featureSlide .slideContent5 .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 492, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 .featureSlide .slideContent5 .subheadline {
   background: black;
   padding: 5px 10px 5px;
@@ -469,7 +501,7 @@ a.anchorPad {
   margin: 0;
   margin-top: 5px;
 }
-/* line 499, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 .featureSlide .slideContent5 .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -478,12 +510,12 @@ a.anchorPad {
   font-size: 14px;
   line-height: 14px;
 }
-/* line 507, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .featureSlide .slideContent5 .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 514, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .featureSlide .slideContent5 a {
   float: left;
   display: inline-block;
@@ -500,120 +532,120 @@ a.anchorPad {
   border: 1px solid white;
   text-align: left;
 }
-/* line 531, ../scss/style.scss */
+/* line 560, ../scss/style.scss */
 .featureSlide .slideContent5 a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
 
-/* line 539, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 .slide1 {
   background: url("../img/heroTopDesaturate.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 547, ../scss/style.scss */
+/* line 576, ../scss/style.scss */
 .slide2 {
   background: url("../img/dalbyHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 553, ../scss/style.scss */
+/* line 582, ../scss/style.scss */
 .slide3 {
   background: url("../img/robinHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 559, ../scss/style.scss */
+/* line 588, ../scss/style.scss */
 .slide4 {
   background: url("../img/blakeHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 565, ../scss/style.scss */
+/* line 594, ../scss/style.scss */
 .slide5 {
   background: url("../img/heroTopDesaturate.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 573, ../scss/style.scss */
+/* line 602, ../scss/style.scss */
 .sponsors {
   border-top: none !important;
   padding-top: 30px !important;
 }
-/* line 580, ../scss/style.scss */
+/* line 609, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 583, ../scss/style.scss */
+/* line 612, ../scss/style.scss */
 .sponsors ul li {
   list-style: none;
   display: inline-block;
   padding-right: 30px;
 }
-/* line 591, ../scss/style.scss */
+/* line 620, ../scss/style.scss */
 .sponsors .sponsor {
   width: 11%;
 }
-/* line 595, ../scss/style.scss */
+/* line 624, ../scss/style.scss */
 .sponsors a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 602, ../scss/style.scss */
+/* line 631, ../scss/style.scss */
 .sponsors .mainSponsor {
   width: 13%;
   margin-bottom: 40px;
   padding-right: 45px !important;
 }
-/* line 607, ../scss/style.scss */
+/* line 636, ../scss/style.scss */
 .sponsors .mainSponsor a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   vertical-align: top;
 }
-/* line 616, ../scss/style.scss */
+/* line 645, ../scss/style.scss */
 .sponsors .whistler {
   width: 15%;
 }
-/* line 619, ../scss/style.scss */
+/* line 648, ../scss/style.scss */
 .sponsors .whistler a img {
   padding-top: 30px;
 }
-/* line 625, ../scss/style.scss */
+/* line 654, ../scss/style.scss */
 .sponsors .gore {
   width: 10%;
 }
-/* line 628, ../scss/style.scss */
+/* line 657, ../scss/style.scss */
 .sponsors .gore a img {
   padding-top: 15px;
 }
 
-/* line 635, ../scss/style.scss */
+/* line 664, ../scss/style.scss */
 .news {
   margin-top: 120px;
   position: relative;
 }
-/* line 639, ../scss/style.scss */
+/* line 668, ../scss/style.scss */
 .news h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 644, ../scss/style.scss */
+/* line 673, ../scss/style.scss */
 .news .newsWrap {
   position: relative;
   display: inline-block;
   width: 100%;
 }
-/* line 649, ../scss/style.scss */
+/* line 678, ../scss/style.scss */
 .news .newsWrap .newsItem {
   position: relative;
   width: 30%;
@@ -623,7 +655,7 @@ a.anchorPad {
   box-sizing: border-box;
   padding: 0 15px;
 }
-/* line 658, ../scss/style.scss */
+/* line 687, ../scss/style.scss */
 .news .newsWrap .newsItem h1 {
   font-weight: 900;
   text-align: left;
@@ -631,7 +663,7 @@ a.anchorPad {
   margin: 0;
   padding: 0;
 }
-/* line 666, ../scss/style.scss */
+/* line 695, ../scss/style.scss */
 .news .newsWrap .newsItem h3 {
   font-weight: 100;
   margin: 0;
@@ -639,7 +671,7 @@ a.anchorPad {
   font-size: 12px;
   text-transform: uppercase;
 }
-/* line 674, ../scss/style.scss */
+/* line 703, ../scss/style.scss */
 .news .newsWrap .newsItem p {
   font-weight: 300;
   font-size: 14px;
@@ -647,29 +679,29 @@ a.anchorPad {
   margin: 0;
   color: #ccc;
 }
-/* line 683, ../scss/style.scss */
+/* line 712, ../scss/style.scss */
 .news .newsWrap .newsItem:nth-of-type(2) {
   margin: 0 30px;
 }
 
-/* line 689, ../scss/style.scss */
+/* line 718, ../scss/style.scss */
 .contestants {
   margin-top: 90px;
 }
-/* line 692, ../scss/style.scss */
+/* line 721, ../scss/style.scss */
 .contestants .contestantWrap {
   width: 100%;
 }
-/* line 695, ../scss/style.scss */
+/* line 724, ../scss/style.scss */
 .contestants .contestantWrap .sideMargins {
   margin: 0 20px;
 }
-/* line 699, ../scss/style.scss */
+/* line 728, ../scss/style.scss */
 .contestants .contestantWrap .one {
   background: url("../img/blakeHero.jpg") no-repeat !important;
   background-size: 414px auto !important;
 }
-/* line 708, ../scss/style.scss */
+/* line 737, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem {
   position: relative;
   display: inline-block;
@@ -681,7 +713,7 @@ a.anchorPad {
   padding-top: 180px;
   margin-bottom: 30px;
 }
-/* line 721, ../scss/style.scss */
+/* line 750, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot {
   width: 100px;
   height: 100px;
@@ -696,7 +728,7 @@ a.anchorPad {
   overflow: hidden;
   box-shadow: 0px 0px 1px #999;
 }
-/* line 735, ../scss/style.scss */
+/* line 764, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot img {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -705,21 +737,21 @@ a.anchorPad {
   margin-top: -25px;
   margin-left: -5px;
 }
-/* line 745, ../scss/style.scss */
+/* line 774, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h1 {
   font-weight: 900;
   color: white;
   margin: 0;
   padding: 0;
 }
-/* line 752, ../scss/style.scss */
+/* line 781, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h3 {
   font-weight: 100;
   margin: 15px 0;
   padding: 0;
   font-size: 14px;
 }
-/* line 759, ../scss/style.scss */
+/* line 788, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem p {
   font-weight: 300;
   font-size: 14px;
@@ -727,11 +759,11 @@ a.anchorPad {
   margin: 0;
   color: #ccc;
 }
-/* line 767, ../scss/style.scss */
+/* line 796, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .contestSocial {
   line-height: 10px;
 }
-/* line 771, ../scss/style.scss */
+/* line 800, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem a {
   position: relative;
   font-size: 13px;
@@ -740,17 +772,17 @@ a.anchorPad {
   padding: 0 7px;
 }
 
-/* line 783, ../scss/style.scss */
+/* line 812, ../scss/style.scss */
 .winners {
   margin-top: 120px;
   border-bottom: none !important;
 }
-/* line 787, ../scss/style.scss */
+/* line 816, ../scss/style.scss */
 .winners .winnersWrap {
   width: 100%;
   text-align: center;
 }
-/* line 792, ../scss/style.scss */
+/* line 821, ../scss/style.scss */
 .winners .winnersItem {
   position: relative;
   display: inline-block;
@@ -761,7 +793,7 @@ a.anchorPad {
   margin: 0 1%;
   margin-bottom: 2%;
 }
-/* line 803, ../scss/style.scss */
+/* line 832, ../scss/style.scss */
 .winners .winnersItem .winnersImg {
   position: relative;
   width: 100px;
@@ -770,92 +802,132 @@ a.anchorPad {
   border-radius: 50px;
   margin: 0 auto;
 }
-/* line 812, ../scss/style.scss */
+/* line 841, ../scss/style.scss */
 .winners .winnersItem h1 {
   margin-top: 25px;
   color: white;
   font-weight: 900;
   font-size: 13px;
 }
-/* line 819, ../scss/style.scss */
+/* line 848, ../scss/style.scss */
 .winners .winnersItem h3 {
   font-weight: 100;
   font-size: 13px;
 }
-/* line 826, ../scss/style.scss */
+/* line 855, ../scss/style.scss */
 .winners .marginFlex {
   margin: 0 2%;
 }
 
-/* line 831, ../scss/style.scss */
+/* line 860, ../scss/style.scss */
 .afterparty {
   margin-top: 120px;
   width: 100%;
-  padding-bottom: 15%;
+  padding-bottom: 35%;
   background: #333;
   background: url("../img/afterparty1BWfade.jpg") no-repeat;
   background-size: 100% auto;
   padding-top: 15%;
 }
-/* line 842, ../scss/style.scss */
-.afterparty .partyWrap h1 {
-  font-size: 30px;
-  line-height: 25px;
-  color: white;
-  font-weight: 900;
-  text-align: left;
-  padding: 5px 20px 3px;
-  background: #000;
-  display: inline-block;
-  margin: 0;
-  box-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222, 5px 5px 0px #222222;
-}
-/* line 859, ../scss/style.scss */
-.afterparty .partyWrap h3 {
-  line-height: .9em;
-  text-align: left;
-  padding: 6px 20px 3px;
-  background: #000;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 5px 0 0 0;
-  box-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222, 5px 5px 0px #333333;
+/* line 869, ../scss/style.scss */
+.afterparty .partyWrap {
+  width: 400px;
+  position: absolute;
+  right: 0%;
 }
 /* line 874, ../scss/style.scss */
-.afterparty .partyWrap a {
-  display: inline-block;
-  margin-top: 20px;
-  background: white;
-  color: #000;
-  text-transform: uppercase;
+.afterparty .partyWrap .headline {
+  background: black;
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}
+/* line 880, ../scss/style.scss */
+.afterparty .partyWrap .headline h1 {
+  color: white;
   font-weight: 900;
   font-size: 30px;
-  line-height: 30px;
-  padding: 8px 15px 4px 15px;
-  box-shadow: 1px 1px 0px #222222, 2px 2px 0px #222222, 3px 3px 0px #222222, 4px 4px 0px #222222, 5px 5px 0px #222222;
-  transition: all 0.5s;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
 }
-/* line 892, ../scss/style.scss */
+/* line 890, ../scss/style.scss */
+.afterparty .partyWrap .headline h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: .8em;
+}
+/* line 900, ../scss/style.scss */
+.afterparty .partyWrap .headline h3 sup {
+  box-sizing: border-box;
+  font-size: 10px;
+  padding-top: 3px;
+}
+/* line 908, ../scss/style.scss */
+.afterparty .partyWrap .subheadline {
+  background: black;
+  padding: 5px 10px 5px;
+  text-align: left;
+  margin: 0;
+  margin-top: 5px;
+}
+/* line 915, ../scss/style.scss */
+.afterparty .partyWrap .subheadline h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 14px;
+}
+/* line 923, ../scss/style.scss */
+.afterparty .partyWrap .subheadline h3 sup {
+  font-size: 8px;
+  margin-top: 3px;
+}
+/* line 930, ../scss/style.scss */
+.afterparty .partyWrap a {
+  float: left;
+  display: inline-block;
+  position: relative;
+  color: black;
+  background: white;
+  padding: 5px 10px 3px 10px;
+  margin-top: 5px;
+  width: auto;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  transition: all 1s;
+  border: 1px solid white;
+  text-align: left;
+}
+/* line 947, ../scss/style.scss */
 .afterparty .partyWrap a:hover {
-  margin-left: 8px;
-  margin-top: 21px;
-  box-shadow: none;
-  transition: all 0.3s;
+  color: white;
+  background: #222;
+  transition: all .5s;
 }
 
-/* line 903, ../scss/style.scss */
+/* line 957, ../scss/style.scss */
 .judges .sectionHeadline {
   top: -133px;
 }
-/* line 907, ../scss/style.scss */
+/* line 961, ../scss/style.scss */
 .judges .marginSides {
   margin: 0 30px;
 }
-/* line 911, ../scss/style.scss */
+/* line 965, ../scss/style.scss */
 .judges .judgeWrap {
   text-align: center;
 }
-/* line 914, ../scss/style.scss */
+/* line 968, ../scss/style.scss */
 .judges .judgeWrap .judgeItem {
   position: relative;
   display: inline-block;
@@ -865,7 +937,7 @@ a.anchorPad {
   box-sizing: border-box;
   padding: 30px;
 }
-/* line 923, ../scss/style.scss */
+/* line 977, ../scss/style.scss */
 .judges .judgeWrap .judgeItem .judgeBio {
   display: block;
   position: relative;
@@ -875,7 +947,7 @@ a.anchorPad {
   background: teal;
   margin: 0 auto;
 }
-/* line 933, ../scss/style.scss */
+/* line 987, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h1 {
   margin-top: 15px;
   color: white;
@@ -883,24 +955,24 @@ a.anchorPad {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 941, ../scss/style.scss */
+/* line 995, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h3 {
   color: white;
   font-size: 13px;
   font-weight: 100;
 }
 
-/* line 952, ../scss/style.scss */
+/* line 1006, ../scss/style.scss */
 .contest {
   margin-top: 120px;
   text-align: left;
   padding-top: 60px !important;
 }
-/* line 957, ../scss/style.scss */
+/* line 1011, ../scss/style.scss */
 .contest .sectionHeadline {
   top: -113px;
 }
-/* line 961, ../scss/style.scss */
+/* line 1015, ../scss/style.scss */
 .contest h5 {
   text-align: left;
   line-height: .9em;
@@ -914,36 +986,36 @@ a.anchorPad {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 976, ../scss/style.scss */
+/* line 1030, ../scss/style.scss */
 .contest .contestIntro {
   text-align: center;
 }
-/* line 979, ../scss/style.scss */
+/* line 1033, ../scss/style.scss */
 .contest .contestIntro h1 {
   text-transform: uppecase;
   color: white;
   font-weight: 900;
 }
-/* line 985, ../scss/style.scss */
+/* line 1039, ../scss/style.scss */
 .contest .contestIntro h3 {
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
 }
-/* line 991, ../scss/style.scss */
+/* line 1045, ../scss/style.scss */
 .contest .contestIntro p {
   font-size: 13px;
   text-align: left;
   line-height: 1.7em;
 }
-/* line 999, ../scss/style.scss */
+/* line 1053, ../scss/style.scss */
 .contest .contestIntro ul li {
   list-style: square;
   font-size: 13px;
   text-align: left;
   margin-left: -20px;
 }
-/* line 1007, ../scss/style.scss */
+/* line 1061, ../scss/style.scss */
 .contest .contestIntro .contestCol {
   width: 46%;
   display: inline-block;
@@ -951,11 +1023,11 @@ a.anchorPad {
   vertical-align: top;
   margin-bottom: 30px;
 }
-/* line 1016, ../scss/style.scss */
+/* line 1070, ../scss/style.scss */
 .contest .contestIntro .addPad {
   margin-right: 7%;
 }
-/* line 1029, ../scss/style.scss */
+/* line 1083, ../scss/style.scss */
 .contest .galleryWrap iframe #widget #widget_header #hashtag_holder li {
   color: white !important;
   font-size: 30px;
@@ -965,16 +1037,16 @@ a.anchorPad {
   font-weight: 900;
 }
 
-/* line 1042, ../scss/style.scss */
+/* line 1096, ../scss/style.scss */
 .charity {
   margin-top: 120px;
 }
-/* line 1049, ../scss/style.scss */
+/* line 1103, ../scss/style.scss */
 .charity .charityWrap {
   height: 500px;
   vertical-align: top;
 }
-/* line 1053, ../scss/style.scss */
+/* line 1107, ../scss/style.scss */
 .charity .charityWrap .charityHeroWrap {
   position: relative;
   display: inline-block;
@@ -985,7 +1057,7 @@ a.anchorPad {
   background: url("../img/charityHeroBW.jpg");
   background-size: cover;
 }
-/* line 1065, ../scss/style.scss */
+/* line 1119, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap {
   position: relative;
   display: inline-block;
@@ -995,14 +1067,14 @@ a.anchorPad {
   margin: 0;
   margin-left: 3%;
 }
-/* line 1074, ../scss/style.scss */
+/* line 1128, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap h1 {
   color: white;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
 }
-/* line 1081, ../scss/style.scss */
+/* line 1135, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap p {
   font-size: 14px;
   line-height: 24px;
@@ -1010,17 +1082,17 @@ a.anchorPad {
   text-align: left;
   padding-right: 30px;
 }
-/* line 1089, ../scss/style.scss */
+/* line 1143, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap a {
   color: white;
   margin-top: -30px;
 }
-/* line 1094, ../scss/style.scss */
+/* line 1148, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap img {
   width: 120px;
 }
 
-/* line 1103, ../scss/style.scss */
+/* line 1157, ../scss/style.scss */
 footer {
   padding-top: 60px;
   width: 100%;
@@ -1029,17 +1101,17 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 1111, ../scss/style.scss */
+/* line 1165, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 1116, ../scss/style.scss */
+/* line 1170, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 1119, ../scss/style.scss */
+/* line 1173, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
