@@ -701,7 +701,7 @@ a.anchorPadContest {
   background: url("../img/blakeHero.jpg") no-repeat !important;
   background-size: 414px auto !important;
 }
-/* line 737, ../scss/style.scss */
+/* line 736, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem {
   position: relative;
   display: inline-block;
@@ -713,7 +713,7 @@ a.anchorPadContest {
   padding-top: 180px;
   margin-bottom: 30px;
 }
-/* line 750, ../scss/style.scss */
+/* line 747, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot {
   width: 100px;
   height: 100px;
@@ -728,7 +728,7 @@ a.anchorPadContest {
   overflow: hidden;
   box-shadow: 0px 0px 1px #999;
 }
-/* line 764, ../scss/style.scss */
+/* line 761, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot img {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -737,21 +737,21 @@ a.anchorPadContest {
   margin-top: -25px;
   margin-left: -5px;
 }
-/* line 774, ../scss/style.scss */
+/* line 771, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h1 {
   font-weight: 900;
   color: white;
   margin: 0;
   padding: 0;
 }
-/* line 781, ../scss/style.scss */
+/* line 778, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h3 {
   font-weight: 100;
   margin: 15px 0;
   padding: 0;
   font-size: 14px;
 }
-/* line 788, ../scss/style.scss */
+/* line 785, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem p {
   font-weight: 300;
   font-size: 14px;
@@ -759,11 +759,7 @@ a.anchorPadContest {
   margin: 0;
   color: #ccc;
 }
-/* line 796, ../scss/style.scss */
-.contestants .contestantWrap .contestantItem .contestSocial {
-  line-height: 10px;
-}
-/* line 800, ../scss/style.scss */
+/* line 793, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem a {
   position: relative;
   font-size: 13px;
@@ -772,17 +768,17 @@ a.anchorPadContest {
   padding: 0 7px;
 }
 
-/* line 812, ../scss/style.scss */
+/* line 805, ../scss/style.scss */
 .winners {
   margin-top: 120px;
   border-bottom: none !important;
 }
-/* line 816, ../scss/style.scss */
+/* line 809, ../scss/style.scss */
 .winners .winnersWrap {
   width: 100%;
   text-align: center;
 }
-/* line 821, ../scss/style.scss */
+/* line 814, ../scss/style.scss */
 .winners .winnersItem {
   position: relative;
   display: inline-block;
@@ -793,7 +789,7 @@ a.anchorPadContest {
   margin: 0 1%;
   margin-bottom: 2%;
 }
-/* line 832, ../scss/style.scss */
+/* line 824, ../scss/style.scss */
 .winners .winnersItem .winnersImg {
   position: relative;
   width: 100px;
@@ -802,24 +798,24 @@ a.anchorPadContest {
   border-radius: 50px;
   margin: 0 auto;
 }
-/* line 841, ../scss/style.scss */
+/* line 833, ../scss/style.scss */
 .winners .winnersItem h1 {
   margin-top: 25px;
   color: white;
   font-weight: 900;
   font-size: 13px;
 }
-/* line 848, ../scss/style.scss */
+/* line 840, ../scss/style.scss */
 .winners .winnersItem h3 {
   font-weight: 100;
   font-size: 13px;
 }
-/* line 855, ../scss/style.scss */
+/* line 847, ../scss/style.scss */
 .winners .marginFlex {
   margin: 0 2%;
 }
 
-/* line 860, ../scss/style.scss */
+/* line 852, ../scss/style.scss */
 .afterparty {
   margin-top: 120px;
   width: 100%;
@@ -829,20 +825,20 @@ a.anchorPadContest {
   background-size: 100% auto;
   padding-top: 15%;
 }
-/* line 869, ../scss/style.scss */
+/* line 861, ../scss/style.scss */
 .afterparty .partyWrap {
   width: 400px;
   position: absolute;
   right: 0%;
 }
-/* line 874, ../scss/style.scss */
+/* line 866, ../scss/style.scss */
 .afterparty .partyWrap .headline {
   background: black;
   padding: 10px;
   text-align: left;
   margin: 0;
 }
-/* line 880, ../scss/style.scss */
+/* line 872, ../scss/style.scss */
 .afterparty .partyWrap .headline h1 {
   color: white;
   font-weight: 900;
@@ -852,7 +848,7 @@ a.anchorPadContest {
   padding: 0;
   line-height: 1em;
 }
-/* line 890, ../scss/style.scss */
+/* line 882, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 {
   color: white;
   font-weight: 900;
@@ -863,13 +859,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 900, ../scss/style.scss */
+/* line 892, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 908, ../scss/style.scss */
+/* line 900, ../scss/style.scss */
 .afterparty .partyWrap .subheadline {
   background: black;
   padding: 5px 10px 5px;
@@ -877,7 +873,7 @@ a.anchorPadContest {
   margin: 0;
   margin-top: 5px;
 }
-/* line 915, ../scss/style.scss */
+/* line 907, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -886,12 +882,12 @@ a.anchorPadContest {
   font-size: 14px;
   line-height: 14px;
 }
-/* line 923, ../scss/style.scss */
+/* line 915, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 930, ../scss/style.scss */
+/* line 922, ../scss/style.scss */
 .afterparty .partyWrap a {
   float: left;
   display: inline-block;
@@ -908,26 +904,26 @@ a.anchorPadContest {
   border: 1px solid white;
   text-align: left;
 }
-/* line 947, ../scss/style.scss */
+/* line 939, ../scss/style.scss */
 .afterparty .partyWrap a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
 
-/* line 957, ../scss/style.scss */
+/* line 949, ../scss/style.scss */
 .judges .sectionHeadline {
   top: -133px;
 }
-/* line 961, ../scss/style.scss */
+/* line 953, ../scss/style.scss */
 .judges .marginSides {
   margin: 0 30px;
 }
-/* line 965, ../scss/style.scss */
+/* line 957, ../scss/style.scss */
 .judges .judgeWrap {
   text-align: center;
 }
-/* line 968, ../scss/style.scss */
+/* line 960, ../scss/style.scss */
 .judges .judgeWrap .judgeItem {
   position: relative;
   display: inline-block;
@@ -937,7 +933,7 @@ a.anchorPadContest {
   box-sizing: border-box;
   padding: 30px;
 }
-/* line 977, ../scss/style.scss */
+/* line 969, ../scss/style.scss */
 .judges .judgeWrap .judgeItem .judgeBio {
   display: block;
   position: relative;
@@ -947,7 +943,7 @@ a.anchorPadContest {
   background: teal;
   margin: 0 auto;
 }
-/* line 987, ../scss/style.scss */
+/* line 979, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h1 {
   margin-top: 15px;
   color: white;
@@ -955,24 +951,24 @@ a.anchorPadContest {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 995, ../scss/style.scss */
+/* line 987, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h3 {
   color: white;
   font-size: 13px;
   font-weight: 100;
 }
 
-/* line 1006, ../scss/style.scss */
+/* line 998, ../scss/style.scss */
 .contest {
   margin-top: 120px;
   text-align: left;
   padding-top: 60px !important;
 }
-/* line 1011, ../scss/style.scss */
+/* line 1003, ../scss/style.scss */
 .contest .sectionHeadline {
   top: -113px;
 }
-/* line 1015, ../scss/style.scss */
+/* line 1007, ../scss/style.scss */
 .contest h5 {
   text-align: left;
   line-height: .9em;
@@ -986,36 +982,36 @@ a.anchorPadContest {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 1030, ../scss/style.scss */
+/* line 1022, ../scss/style.scss */
 .contest .contestIntro {
   text-align: center;
 }
-/* line 1033, ../scss/style.scss */
+/* line 1025, ../scss/style.scss */
 .contest .contestIntro h1 {
   text-transform: uppecase;
   color: white;
   font-weight: 900;
 }
-/* line 1039, ../scss/style.scss */
+/* line 1031, ../scss/style.scss */
 .contest .contestIntro h3 {
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
 }
-/* line 1045, ../scss/style.scss */
+/* line 1037, ../scss/style.scss */
 .contest .contestIntro p {
   font-size: 13px;
   text-align: left;
   line-height: 1.7em;
 }
-/* line 1053, ../scss/style.scss */
+/* line 1045, ../scss/style.scss */
 .contest .contestIntro ul li {
   list-style: square;
   font-size: 13px;
   text-align: left;
   margin-left: -20px;
 }
-/* line 1061, ../scss/style.scss */
+/* line 1053, ../scss/style.scss */
 .contest .contestIntro .contestCol {
   width: 46%;
   display: inline-block;
@@ -1023,11 +1019,56 @@ a.anchorPadContest {
   vertical-align: top;
   margin-bottom: 30px;
 }
-/* line 1070, ../scss/style.scss */
+/* line 1060, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial {
+  line-height: 10px;
+  position: relative;
+  text-align: left;
+}
+/* line 1065, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink {
+  padding: 8px 12px 8px 12px;
+  background: #555;
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: left;
+  font-weight: 900;
+  border-radius: 2px;
+  transition: all 1s;
+}
+/* line 1078, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+}
+/* line 1084, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg {
+  width: 100%;
+  height: auto;
+}
+/* line 1088, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter {
+  fill: white;
+}
+/* line 1092, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta {
+  fill: white;
+}
+/* line 1099, ../scss/style.scss */
+.contest .contestIntro .contestCol .contestSocial a.socialLink:hover {
+  background: teal;
+  transition: all 1s;
+}
+/* line 1107, ../scss/style.scss */
 .contest .contestIntro .addPad {
   margin-right: 7%;
 }
-/* line 1083, ../scss/style.scss */
+/* line 1120, ../scss/style.scss */
 .contest .galleryWrap iframe #widget #widget_header #hashtag_holder li {
   color: white !important;
   font-size: 30px;
@@ -1037,16 +1078,16 @@ a.anchorPadContest {
   font-weight: 900;
 }
 
-/* line 1096, ../scss/style.scss */
+/* line 1133, ../scss/style.scss */
 .charity {
   margin-top: 120px;
 }
-/* line 1103, ../scss/style.scss */
+/* line 1140, ../scss/style.scss */
 .charity .charityWrap {
   height: 500px;
   vertical-align: top;
 }
-/* line 1107, ../scss/style.scss */
+/* line 1144, ../scss/style.scss */
 .charity .charityWrap .charityHeroWrap {
   position: relative;
   display: inline-block;
@@ -1057,7 +1098,7 @@ a.anchorPadContest {
   background: url("../img/charityHeroBW.jpg");
   background-size: cover;
 }
-/* line 1119, ../scss/style.scss */
+/* line 1156, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap {
   position: relative;
   display: inline-block;
@@ -1067,14 +1108,14 @@ a.anchorPadContest {
   margin: 0;
   margin-left: 3%;
 }
-/* line 1128, ../scss/style.scss */
+/* line 1165, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap h1 {
   color: white;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
 }
-/* line 1135, ../scss/style.scss */
+/* line 1172, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap p {
   font-size: 14px;
   line-height: 24px;
@@ -1082,17 +1123,17 @@ a.anchorPadContest {
   text-align: left;
   padding-right: 30px;
 }
-/* line 1143, ../scss/style.scss */
+/* line 1180, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap a {
   color: white;
   margin-top: -30px;
 }
-/* line 1148, ../scss/style.scss */
+/* line 1185, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap img {
   width: 120px;
 }
 
-/* line 1157, ../scss/style.scss */
+/* line 1194, ../scss/style.scss */
 footer {
   padding-top: 60px;
   width: 100%;
@@ -1101,23 +1142,23 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 1165, ../scss/style.scss */
+/* line 1202, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 1170, ../scss/style.scss */
+/* line 1207, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 1173, ../scss/style.scss */
+/* line 1210, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
-  font-size: 12px;
+  font-size: 11px;
   color: #aaa;
-  font-weight: 500;
+  font-weight: 100;
   margin-bottom: 15px;
   line-height: 1.5em;
   text-transform: uppercase;

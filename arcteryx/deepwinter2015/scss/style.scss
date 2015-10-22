@@ -638,8 +638,8 @@ a.anchorPadContest {
         height: 100%;
         overflow: hidden;
         vertical-align: top;
-        }
       }
+    }
   }
 
   .whistler {
@@ -731,7 +731,6 @@ a.anchorPadContest {
     }
 
     .contestantItem:hover {
-  //    transform: perspective(0em) rotateY(0deg);
     }
 
     .contestantItem {
@@ -744,8 +743,6 @@ a.anchorPadContest {
       text-align: center;
       padding-top: 180px;
       margin-bottom: 30px;
-//      transform: perspective(90em) rotateY(10deg);
-
 
       .headshot {
         width: 100px;
@@ -793,10 +790,6 @@ a.anchorPadContest {
         color: #ccc;
       }
 
-      .contestSocial {
-        line-height: 10px;
-      }
-
       a {
         position: relative;
         font-size: 13px;
@@ -827,7 +820,6 @@ a.anchorPadContest {
     padding: 15px;
     margin: 0 1%;
     margin-bottom: 2%;
-
 
     .winnersImg {
       position: relative;
@@ -1065,6 +1057,51 @@ a.anchorPadContest {
       vertical-align: top;
       margin-bottom: 30px;
 
+      .contestSocial {
+        line-height: 10px;
+        position: relative;
+        text-align: left;
+
+        a.socialLink {
+          padding: 8px 12px 8px 12px;
+          background: #555;
+          display: inline-block;
+          position: relative;
+          color: white;
+          text-transform: uppercase;
+          font-size: 13px;
+          text-align: left;
+          font-weight: 900;
+          border-radius: 2px;
+          transition: all 1s;
+
+          .socialIcon {
+            position: relative;
+            display: inline-block;
+            width: 12px;
+            margin-right: 8px;
+
+            svg {
+              width: 100%;
+              height: auto;
+
+              .socialTwitter {
+                fill: white;
+              }
+
+              .socialInsta {
+                fill: white;
+              }
+            }
+          }
+        }
+
+        a.socialLink:hover {
+          background: teal;
+          transition: all 1s;
+        }
+      }
+
     }
 
     .addPad {
@@ -1173,9 +1210,9 @@ footer {
       li {
         vertical-align: top;
         list-style: none;
-        font-size: 12px;
+        font-size: 11px;
         color: #aaa;
-        font-weight: 500;
+        font-weight: 100;
         margin-bottom: 15px;
         line-height: 1.5em;
         text-transform: uppercase;
