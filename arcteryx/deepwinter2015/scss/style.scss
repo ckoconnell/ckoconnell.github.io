@@ -114,6 +114,10 @@ a.anchorPadContest {
   transition: height .5s;
   overflow: hidden;
 
+  @media screen and (max-width: 1060px) {
+    text-align: right;
+  }
+
   .eventTitle {
     font-size: 13px;
     font-weight: 900;
@@ -199,290 +203,16 @@ a.anchorPadContest {
   overflow: hidden;
 
   .slideContent {
-    box-sizing: border-box;
-    padding-top: 8%;
-    vertical-align: top;
-
-    h1 {
-      color: white;
-      text-align: left;
-      font-size: 30px;
-      font-weight: 900;
-      background: #111;
-      display: inline-block;
-      width: auto;
-      padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-    }
-
-    h3 {
-      color: white;
-      text-transform: uppercase;
-      background: #111;
-      display: inline-block;
-      width: auto;
-      font-size: 18px;
-      padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-    }
-
-    h5 {
-      color: white;
-      font-size: 15px;
-      text-transform: uppercase;
-      background: #111;
-      display: inline-block;
-      width: auto;
-      padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      min-width: 200px;
-      vertical-align: top;
-    }
-
-    a {
-      display: inline-block;
-      position: relative;
-      background: white;
-      color: black;
-      padding: 15px;
-      margin-top: 15px;
-      width: auto;
-      font-size: 30px;
-      text-transform: uppercase;
-      font-weight: 900;
-      transition: all 1s;
-    }
-
-    a:hover {
-      color: white;
-      background: #222;
-      transition: all .5s;
-    }
-  }
-
-  .slideContent2 {
-    box-sizing: border-box;
-    padding-top: 8%;
-    vertical-align: top;
-
-    h1 {
-      color: white;
-      text-align: left;
-      font-size: 30px;
-      line-height: 24px;
-      font-weight: 900;
-      display: inline-block;
-      width: auto;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    h3 {
-      color: white;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      font-size: 18px;
-      line-height: 18px;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    h5 {
-      color: white;
-      font-size: 15px;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      min-width: 200px;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    a {
-      display: inline-block;
-      position: relative;
-      color: white;
-      padding: 5px 10px 3px 10px;
-      margin-top: 15px;
-      width: auto;
-      font-size: 24px;
-      text-transform: uppercase;
-      font-weight: 900;
-      transition: all 1s;
-      border: 1px solid white;
-    }
-
-    a:hover {
-      color: white;
-      background: #222;
-      transition: all .5s;
-    }
-  }
-
-  .slideContent3 {
-    box-sizing: border-box;
-    width: 400px;
-    vertical-align: top;
-    bottom: 0;
-    right: 10%;
-    background: black;
-    padding: 30px;
-    margin-top: 5%;
-
-    h1 {
-      color: white;
-      text-align: left;
-      font-size: 30px;
-      font-weight: 900;
-      display: inline-block;
-      width: auto;
-      line-height: 24px;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    h3 {
-      color: white;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      font-size: 18px;
-      line-height: 18px;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    h5 {
-      color: white;
-      font-size: 15px;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      line-height: 14px;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      min-width: 200px;
-      vertical-align: top;
-      text-shadow: 2px 2px 0 #111;
-    }
-
-    a {
-      display: inline-block;
-      position: relative;
-      color: white;
-      padding: 5px 10px 3px 10px;
-      margin-top: 15px;
-      width: auto;
-      font-size: 18px;
-      text-transform: uppercase;
-      font-weight: 900;
-      transition: all 1s;
-      border: 1px solid white;
-    }
-
-    a:hover {
-      color: white;
-      background: #222;
-      transition: all .5s;
-    }
-  }
-
-  .slideContent4 {
-    box-sizing: border-box;
-    padding-top: 8%;
-    vertical-align: top;
-
-    h1 {
-      color: white;
-      text-align: left;
-      font-size: 36px;
-      line-height: 30px;
-      font-weight: 900;
-      display: inline-block;
-      width: auto;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 1px 1px 0px #222,
-      2px 2px 0px #222,
-      3px 3px 0px #222,
-      4px 4px 0px #222
-    }
-
-    h3 {
-      color: white;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      font-size: 24px;
-      line-height: 26px;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      vertical-align: top;
-      text-shadow: 1px 1px 0px #222,
-      2px 2px 0px #222,
-      3px 3px 0px #222,
-      4px 4px 0px #222
-    }
-
-    h5 {
-      color: white;
-      font-size: 20px;
-      line-height: 23px;
-      text-transform: uppercase;
-      display: inline-block;
-      width: auto;
-      // padding: 10px 10px 10px 10px;
-      margin: 5px 0 0 0;
-      min-width: 200px;
-      vertical-align: top;
-      text-shadow: 1px 1px 0px #222,
-      2px 2px 0px #222,
-      3px 3px 0px #222,
-      4px 4px 0px #222
-    }
-
-    a {
-      display: inline-block;
-      position: relative;
-      color: white;
-      padding: 5px 10px 3px 10px;
-      margin-top: 15px;
-      width: auto;
-      font-size: 24px;
-      text-transform: uppercase;
-      font-weight: 900;
-      transition: all 1s;
-      border: 1px solid white;
-    }
-
-    a:hover {
-      color: white;
-      background: #222;
-      transition: all .5s;
-    }
-  }
-
-  .slideContent5 {
     width: 400px;
     height: 0px;
     position: absolute;
     right: 0%;
-    top: 350px;
+    top: 50%;
     display: inline-block;
+
+    @media screen and (max-height: 475px) {
+      top: 25%;
+    }
 
     .headline {
       background: black;
@@ -520,7 +250,7 @@ a.anchorPadContest {
 
     .subheadline {
       background: black;
-      padding: 5px 10px 5px;
+      padding: 8px 10px 8px;
       text-align: left;
       margin: 0;
       margin-top: 5px;
@@ -532,6 +262,7 @@ a.anchorPadContest {
         font-weight: 100;
         font-size: 14px;
         line-height: 14px;
+
 
         sup {
           font-size: 8px;
@@ -547,9 +278,9 @@ a.anchorPadContest {
       color: black;
       background: white;
       padding: 5px 10px 3px 10px;
-      margin-top: 5px;
+      margin-top: 7px;
       width: auto;
-      font-size: 24px;
+      font-size: 18px;
       text-transform: uppercase;
       font-weight: 900;
       transition: all 1s;
@@ -559,7 +290,7 @@ a.anchorPadContest {
 
     a:hover {
       color: white;
-      background: #222;
+      background: none;
       transition: all .5s;
     }
   }
@@ -603,7 +334,7 @@ a.anchorPadContest {
   border-top: none !important;
   padding-top: 30px !important;
   h1 {
-
+    padding-left: 40px;
   }
 
   ul {
@@ -928,7 +659,7 @@ a.anchorPadContest {
       padding: 5px 10px 3px 10px;
       margin-top: 5px;
       width: auto;
-      font-size: 24px;
+      font-size: 18px;
       text-transform: uppercase;
       font-weight: 900;
       transition: all 1s;
