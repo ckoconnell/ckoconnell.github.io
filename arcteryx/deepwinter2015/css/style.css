@@ -110,7 +110,7 @@ a.anchorPadContest {
   transition: height .5s;
   overflow: hidden;
 }
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1080px) {
   /* line 105, ../scss/style.scss */
   .nav {
     text-align: right;
