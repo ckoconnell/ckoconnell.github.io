@@ -715,16 +715,91 @@ a.anchorPadContest {
 }
 
 /* line 729, ../scss/style.scss */
+#overlay {
+  display: none;
+  position: fixed;
+  left: 2%;
+  right: 2%;
+  top: 2%;
+  padding: 25px;
+  border: 5px solid #666;
+  background-color: #ffffff;
+  height: 95%;
+  overflow: scroll;
+  z-index: 9000;
+  color: #333;
+}
+
+/* line 744, ../scss/style.scss */
+#overlay p {
+  color: #666;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+/* line 750, ../scss/style.scss */
+#overlay h1 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+/* line 755, ../scss/style.scss */
+#overlay h3 {
+  max-width: 75%;
+}
+
+/* line 759, ../scss/style.scss */
+#overlay h5 {
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* line 765, ../scss/style.scss */
+#fade {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: black;
+  -moz-opacity: 0.7;
+  opacity: .70;
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+}
+
+/* line 779, ../scss/style.scss */
+#closeLink {
+  position: fixed;
+  background: #000;
+  right: 5%;
+  top: 5%;
+  z-index: 200;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 11px;
+  background: #eee;
+}
+
+/* line 791, ../scss/style.scss */
+#closeLink a {
+  color: #fc561d !important;
+  text-decoration: none;
+}
+
+/* line 797, ../scss/style.scss */
 .contest {
   margin-top: 120px;
   text-align: left;
   padding-top: 60px !important;
 }
-/* line 734, ../scss/style.scss */
+/* line 802, ../scss/style.scss */
 .contest .sectionHeadline {
   top: -113px;
 }
-/* line 738, ../scss/style.scss */
+/* line 806, ../scss/style.scss */
 .contest h5 {
   text-align: left;
   line-height: .9em;
@@ -738,36 +813,36 @@ a.anchorPadContest {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 753, ../scss/style.scss */
+/* line 821, ../scss/style.scss */
 .contest .contestIntro {
   text-align: center;
 }
-/* line 756, ../scss/style.scss */
+/* line 824, ../scss/style.scss */
 .contest .contestIntro h1 {
   text-transform: uppecase;
   color: white;
   font-weight: 900;
 }
-/* line 762, ../scss/style.scss */
+/* line 830, ../scss/style.scss */
 .contest .contestIntro h3 {
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
 }
-/* line 768, ../scss/style.scss */
+/* line 836, ../scss/style.scss */
 .contest .contestIntro p {
   font-size: 13px;
   text-align: left;
   line-height: 1.7em;
 }
-/* line 776, ../scss/style.scss */
+/* line 844, ../scss/style.scss */
 .contest .contestIntro ul li {
   list-style: square;
   font-size: 13px;
   text-align: left;
   margin-left: -20px;
 }
-/* line 784, ../scss/style.scss */
+/* line 852, ../scss/style.scss */
 .contest .contestIntro .contestCol {
   width: 46%;
   display: inline-block;
@@ -775,13 +850,35 @@ a.anchorPadContest {
   vertical-align: top;
   margin-bottom: 30px;
 }
-/* line 791, ../scss/style.scss */
+/* line 859, ../scss/style.scss */
+.contest .contestIntro .contestCol #rulesLink {
+  color: white;
+  text-align: left;
+  display: block;
+}
+/* line 864, ../scss/style.scss */
+.contest .contestIntro .contestCol #rulesLink a {
+  color: white;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  text-decoration: underline;
+}
+/* line 873, ../scss/style.scss */
+.contest .contestIntro .contestCol a.rulesLink {
+  color: white;
+  text-align: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+}
+/* line 881, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial {
   line-height: 10px;
   position: relative;
   text-align: left;
 }
-/* line 796, ../scss/style.scss */
+/* line 886, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink {
   padding: 8px 12px 8px 12px;
   background: #555;
@@ -795,36 +892,36 @@ a.anchorPadContest {
   border-radius: 2px;
   transition: all 1s;
 }
-/* line 809, ../scss/style.scss */
+/* line 899, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon {
   position: relative;
   display: inline-block;
   width: 12px;
   margin-right: 8px;
 }
-/* line 815, ../scss/style.scss */
+/* line 905, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg {
   width: 100%;
   height: auto;
 }
-/* line 819, ../scss/style.scss */
+/* line 909, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter {
   fill: white;
 }
-/* line 823, ../scss/style.scss */
+/* line 913, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta {
   fill: white;
 }
-/* line 830, ../scss/style.scss */
+/* line 920, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink:hover {
   background: teal;
   transition: all 1s;
 }
-/* line 838, ../scss/style.scss */
+/* line 928, ../scss/style.scss */
 .contest .contestIntro .addPad {
   margin-right: 7%;
 }
-/* line 851, ../scss/style.scss */
+/* line 941, ../scss/style.scss */
 .contest .galleryWrap iframe #widget #widget_header #hashtag_holder li {
   color: white !important;
   font-size: 30px;
@@ -834,16 +931,16 @@ a.anchorPadContest {
   font-weight: 900;
 }
 
-/* line 864, ../scss/style.scss */
+/* line 954, ../scss/style.scss */
 .charity {
   margin-top: 120px;
 }
-/* line 871, ../scss/style.scss */
+/* line 961, ../scss/style.scss */
 .charity .charityWrap {
   height: 500px;
   vertical-align: top;
 }
-/* line 875, ../scss/style.scss */
+/* line 965, ../scss/style.scss */
 .charity .charityWrap .charityHeroWrap {
   position: relative;
   display: inline-block;
@@ -854,7 +951,7 @@ a.anchorPadContest {
   background: url("../img/charityHeroBW.jpg");
   background-size: cover;
 }
-/* line 887, ../scss/style.scss */
+/* line 977, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap {
   position: relative;
   display: inline-block;
@@ -864,14 +961,14 @@ a.anchorPadContest {
   margin: 0;
   margin-left: 3%;
 }
-/* line 896, ../scss/style.scss */
+/* line 986, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap h1 {
   color: white;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
 }
-/* line 903, ../scss/style.scss */
+/* line 993, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap p {
   font-size: 14px;
   line-height: 24px;
@@ -879,17 +976,17 @@ a.anchorPadContest {
   text-align: left;
   padding-right: 30px;
 }
-/* line 911, ../scss/style.scss */
+/* line 1001, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap a {
   color: white;
   margin-top: -30px;
 }
-/* line 916, ../scss/style.scss */
+/* line 1006, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap img {
   width: 120px;
 }
 
-/* line 925, ../scss/style.scss */
+/* line 1015, ../scss/style.scss */
 footer {
   padding-top: 60px;
   width: 100%;
@@ -898,17 +995,17 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 933, ../scss/style.scss */
+/* line 1023, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 938, ../scss/style.scss */
+/* line 1028, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 941, ../scss/style.scss */
+/* line 1031, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;

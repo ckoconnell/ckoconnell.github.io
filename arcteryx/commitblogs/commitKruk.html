@@ -1,7 +1,7 @@
 
 <!--
 Start of DoubleClick Floodlight Tag: Please do not remove
-Activity name of this tag: Theoretical  Lines Blog Post Floodlight Tag
+Activity name of this tag: Theoretical Lines Blog Post Floodlight Tag
 URL of the webpage where the tag is expected to be placed: http://blog.arcteryx.com/theoretical-lines
 This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
 Creation Date: 10/21/2015
@@ -78,6 +78,20 @@ Creation Date: 10/21/2015
         text-transform: uppercase;
         color: #eee !important;
         opacity: 0.9;
+    }
+
+    .fullbleedWrap h5 {
+        position: relative;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        font-weight: 100;
+        padding-left: 10%;
+        margin: 30px 0 20px 0;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
     }
 
     .fullbleedWrap p {
@@ -326,8 +340,10 @@ Creation Date: 10/21/2015
 <div class="fullbleedWrap">
     <div class="imgWrap">
         <h1>Theoretical<br>Objective</h1>
-        <img src="http://blog-media.arcteryx.com/images/articles/commitKrukHero3.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/commitKrukHero3Edit.jpg" />
     </div>
+
+    <h5>Words by: <span class="bolder">Jason Kruk</span> | Photos by: <span class="bolder">Angela Percival</span></h5>
 
     <p>The realization it was no longer a ski mission was disheartening. We were deep in the central coast mountains of BC to film a video piece with my sponsor of an attempt to climb and ski the line of my dreams. The plan I had so confidently pitched to the marketing crew in charge had completely fallen apart. How was it I had gotten myself into this situation?</p>
     <p>Filming with high production value, successfully, in the big mountains requires either large amounts of money or a lot of luck. Before my career as a professional athlete took off, I supported my climbing habit by working for mainstream film and television. </p>
@@ -339,7 +355,7 @@ Creation Date: 10/21/2015
 
     <p>You can imagine the awkward exchange between myself and my partner Paul as we sat perched on the side of a Himalayan-style ridge of gargoyled snow, our skis strapped to our packs, making slow, terrifying progress upward to a non-existent ski descent. The look in Paul's eyes told me he had experienced enough. I had already asked too much of my friend and we needed to go down.</p>
     <p>At first light the next morning I was bumped back onto the ridge just beyond our high point by a helicopter, while another buzzed around me, filming me climb solo to the summit with the latest gyro-stabilized camera system. Helicopters - the cause and solution to all our problems in the mountains this time. </p>
-    <p class="pullquote">The plan I had so confidently pitched to the marketing crew in charge had completely fallen apart. How was it I had gotten myself into this situation?</p>
+    <p class="pullquote">"The plan I had so confidently pitched to the marketing crew in charge had completely fallen apart. How was it I had gotten myself into this situation?"</p>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/commitKrukImg2.jpg" />
@@ -356,7 +372,7 @@ Creation Date: 10/21/2015
         <img src="http://blog-media.arcteryx.com/images/articles/commitKrukPosterFrame.jpg" border="0">
     </a>
 
-    <p class="pullquote">Laying out my speedwing canopy and clipping into my skis alone on the summit, I was overwhelmed with appreciation for my life and the experiences I am privileged to have in the mountains.</p>
+    <p class="pullquote">"Laying out my speedwing canopy and clipping into my skis alone on the summit, I was overwhelmed with appreciation for my life and the experiences I am privileged to have in the mountains."</p>
 
     <div class="dividerWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
@@ -369,6 +385,7 @@ Creation Date: 10/21/2015
         <div class="athleteBio">
             <h1>Jason Kruk</h1>
             <p>My roots in the sport trace back to the local, chalk-dust-filled, indoor climbing gym. I was nine. For several years to follow, I'd read the classic mountain literature, pour over the climbing mags, poke around the rocks up the road in Squamish, and start to dream big dreams. But I sure wasn't thinking too hard about any of that at the time, I was happiest simply climbing for the sake of climbing...</p>
+            <div style="clear:both;"></div>
             <a href="http://arcteryx.com/Athlete.aspx?EN/JasonKruk" target="_blank">Read More</a>
             <div class="socialLinks">
                 <a class="socialLink" href="https://instagram.com/jason_kruk/" target="_blank">
@@ -470,7 +487,7 @@ Creation Date: 10/21/2015
 <script>
     $('.videoPoster').click(function(){
         $('.videoPoster').html('<iframe width="100%" height="100%" src="' + $(this).attr('href') + '" frameborder="0"></iframe>');
-        GTMdataLayer.push({'event': 'theoretical-objectives-video-play'});
+        GTMdataLayer.push({'event': 'theoretical-objective-video-play'});
         return false;
     });
 </script>
