@@ -100,9 +100,11 @@ a.anchorPadContest {
 
 /* line 105, ../scss/style.scss */
 .nav {
-  position: fixed;
-  height: 0;
+  position: absolute;
+  height: 40px;
   width: 100%;
+  top: 80%;
+  margin-top: 30px;
   text-align: center;
   background: #eee;
   opacity: .9;
@@ -116,7 +118,7 @@ a.anchorPadContest {
     text-align: right;
   }
 }
-/* line 121, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 .nav .eventTitle {
   font-size: 13px;
   font-weight: 900;
@@ -129,13 +131,13 @@ a.anchorPadContest {
   text-align: left;
   text-transform: uppercase;
 }
-/* line 135, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .nav div {
   width: 100%;
   margin: 0 auto;
   padding-top: 5px;
 }
-/* line 140, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 .nav div a {
   list-style: none;
   display: inline-block;
@@ -148,35 +150,37 @@ a.anchorPadContest {
   font-weight: 400;
   letter-spacing: -1px;
 }
-/* line 153, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .nav div a:hover {
   background-color: #ddd;
   color: black;
   transition: all 1s;
 }
 
-/* line 161, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 .navDisplay {
-  height: 40px !important;
   transition: height .5s;
+  position: fixed;
+  top: 0;
+  margin-top: 0 !important;
 }
 
-/* line 169, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 .watermark {
   position: absolute;
-  background: url("../img/deepWinterCrestWhite.png") no-repeat;
+  background: url("../img/deepwintercrestallwhite.png") no-repeat;
   background-size: 500px;
-  background-position: 200px 100px;
+  background-position: -90px 200px;
   width: 100%;
-  height: 90%;
-  left: -7%;
-  z-index: 1000;
+  height: 100%;
+  margin-top: 5px;
   opacity: 0.4;
+  padding: 0;
   overflow: hidden;
-  display: none;
+  box-sizing: border-box;
 }
 
-/* line 187, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .featureWrap {
   position: absolute;
   display: block;
@@ -186,17 +190,16 @@ a.anchorPadContest {
   top: 0;
   left: 0;
   border-top: none !important;
-  padding-bottom: 30px;
   padding-top: 0 !important;
 }
 
-/* line 200, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .featureSlide {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 205, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 .featureSlide .slideContent {
   width: 400px;
   height: 0px;
@@ -206,19 +209,19 @@ a.anchorPadContest {
   display: inline-block;
 }
 @media screen and (max-height: 475px) {
-  /* line 205, ../scss/style.scss */
+  /* line 210, ../scss/style.scss */
   .featureSlide .slideContent {
     top: 25%;
   }
 }
-/* line 217, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .featureSlide .slideContent .headline {
   background: black;
   padding: 10px;
   text-align: left;
   margin: 0;
 }
-/* line 223, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .featureSlide .slideContent .headline h1 {
   color: white;
   font-weight: 900;
@@ -228,7 +231,7 @@ a.anchorPadContest {
   padding: 0;
   line-height: 1em;
 }
-/* line 233, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .featureSlide .slideContent .headline h3 {
   color: white;
   font-weight: 900;
@@ -239,13 +242,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 243, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .featureSlide .slideContent .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 251, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .featureSlide .slideContent .subheadline {
   background: black;
   padding: 8px 10px 8px;
@@ -253,7 +256,7 @@ a.anchorPadContest {
   margin: 0;
   margin-top: 5px;
 }
-/* line 258, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .featureSlide .slideContent .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -262,12 +265,12 @@ a.anchorPadContest {
   font-size: 14px;
   line-height: 14px;
 }
-/* line 267, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .featureSlide .slideContent .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 274, ../scss/style.scss */
+/* line 279, ../scss/style.scss */
 .featureSlide .slideContent a {
   float: left;
   display: inline-block;
@@ -284,124 +287,124 @@ a.anchorPadContest {
   border: 1px solid white;
   text-align: left;
 }
-/* line 291, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .featureSlide .slideContent a:hover {
   color: white;
   background: none;
   transition: all .5s;
 }
 
-/* line 299, ../scss/style.scss */
-.slide1 {
-  background: url("../img/heroTopDesaturate.jpg") no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-/* line 307, ../scss/style.scss */
-.slide2 {
-  background: url("../img/dalbyHero.jpg") no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-/* line 313, ../scss/style.scss */
-.slide3 {
-  background: url("../img/robinHero.jpg") no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-/* line 319, ../scss/style.scss */
-.slide4 {
-  background: url("../img/blakeHero.jpg") no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-/* line 325, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .slide5 {
   background: url("../img/heroTopDesaturate.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 333, ../scss/style.scss */
+/* line 312, ../scss/style.scss */
+.slide1 {
+  background: url("../img/heroTopDesaturate.jpg") no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* line 320, ../scss/style.scss */
+.slide3 {
+  background: url("../img/dalbyHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* line 326, ../scss/style.scss */
+.slide2 {
+  background: url("../img/robinHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* line 332, ../scss/style.scss */
+.slide4 {
+  background: url("../img/blakeHero.jpg") no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* line 340, ../scss/style.scss */
 .sponsors {
   border-top: none !important;
   padding-top: 30px !important;
 }
-/* line 336, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .sponsors h1 {
   padding-left: 40px;
 }
-/* line 340, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 343, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 .sponsors ul li {
   list-style: none;
   display: inline-block;
   padding-right: 30px;
 }
-/* line 351, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .sponsors .sponsor {
   width: 11%;
 }
-/* line 355, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 .sponsors a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 362, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 .sponsors .mainSponsor {
   width: 13%;
   margin-bottom: 40px;
   padding-right: 45px !important;
 }
-/* line 367, ../scss/style.scss */
+/* line 374, ../scss/style.scss */
 .sponsors .mainSponsor a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   vertical-align: top;
 }
-/* line 376, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 .sponsors .whistler {
   width: 15%;
 }
-/* line 379, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 .sponsors .whistler a img {
   padding-top: 30px;
 }
-/* line 385, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .sponsors .gore {
   width: 10%;
 }
-/* line 388, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 .sponsors .gore a img {
   padding-top: 15px;
 }
 
-/* line 395, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .news {
   margin-top: 120px;
   position: relative;
 }
-/* line 399, ../scss/style.scss */
+/* line 406, ../scss/style.scss */
 .news h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 404, ../scss/style.scss */
+/* line 411, ../scss/style.scss */
 .news .newsWrap {
   position: relative;
   display: inline-block;
   width: 100%;
 }
-/* line 409, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 .news .newsWrap .newsItem {
   position: relative;
   width: 30%;
@@ -411,7 +414,7 @@ a.anchorPadContest {
   box-sizing: border-box;
   padding: 0 15px;
 }
-/* line 418, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .news .newsWrap .newsItem h1 {
   font-weight: 900;
   text-align: left;
@@ -419,7 +422,7 @@ a.anchorPadContest {
   margin: 0;
   padding: 0;
 }
-/* line 426, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 .news .newsWrap .newsItem h3 {
   font-weight: 100;
   margin: 0;
@@ -427,7 +430,7 @@ a.anchorPadContest {
   font-size: 12px;
   text-transform: uppercase;
 }
-/* line 434, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 .news .newsWrap .newsItem p {
   font-weight: 300;
   font-size: 14px;
@@ -435,29 +438,29 @@ a.anchorPadContest {
   margin: 0;
   color: #ccc;
 }
-/* line 443, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
 .news .newsWrap .newsItem:nth-of-type(2) {
   margin: 0 30px;
 }
 
-/* line 449, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 .contestants {
   margin-top: 90px;
 }
-/* line 452, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 .contestants .contestantWrap {
   width: 100%;
 }
-/* line 455, ../scss/style.scss */
+/* line 462, ../scss/style.scss */
 .contestants .contestantWrap .sideMargins {
   margin: 0 20px;
 }
-/* line 459, ../scss/style.scss */
+/* line 466, ../scss/style.scss */
 .contestants .contestantWrap .one {
   background: url("../img/blakeHero.jpg") no-repeat !important;
   background-size: 414px auto !important;
 }
-/* line 467, ../scss/style.scss */
+/* line 474, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem {
   position: relative;
   display: inline-block;
@@ -469,7 +472,7 @@ a.anchorPadContest {
   padding-top: 180px;
   margin-bottom: 30px;
 }
-/* line 478, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot {
   width: 100px;
   height: 100px;
@@ -484,7 +487,7 @@ a.anchorPadContest {
   overflow: hidden;
   box-shadow: 0px 0px 1px #999;
 }
-/* line 492, ../scss/style.scss */
+/* line 499, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot img {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -493,21 +496,21 @@ a.anchorPadContest {
   margin-top: -25px;
   margin-left: -5px;
 }
-/* line 502, ../scss/style.scss */
+/* line 509, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h1 {
   font-weight: 900;
   color: white;
   margin: 0;
   padding: 0;
 }
-/* line 509, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h3 {
   font-weight: 100;
   margin: 15px 0;
   padding: 0;
   font-size: 14px;
 }
-/* line 516, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem p {
   font-weight: 300;
   font-size: 14px;
@@ -515,7 +518,7 @@ a.anchorPadContest {
   margin: 0;
   color: #ccc;
 }
-/* line 524, ../scss/style.scss */
+/* line 531, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem a {
   position: relative;
   font-size: 13px;
@@ -524,17 +527,17 @@ a.anchorPadContest {
   padding: 0 7px;
 }
 
-/* line 536, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .winners {
   margin-top: 120px;
   border-bottom: none !important;
 }
-/* line 540, ../scss/style.scss */
+/* line 547, ../scss/style.scss */
 .winners .winnersWrap {
   width: 100%;
   text-align: center;
 }
-/* line 545, ../scss/style.scss */
+/* line 552, ../scss/style.scss */
 .winners .winnersItem {
   position: relative;
   display: inline-block;
@@ -545,7 +548,7 @@ a.anchorPadContest {
   margin: 0 1%;
   margin-bottom: 2%;
 }
-/* line 555, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 .winners .winnersItem .winnersImg {
   position: relative;
   width: 100px;
@@ -554,24 +557,24 @@ a.anchorPadContest {
   border-radius: 50px;
   margin: 0 auto;
 }
-/* line 564, ../scss/style.scss */
+/* line 571, ../scss/style.scss */
 .winners .winnersItem h1 {
   margin-top: 25px;
   color: white;
   font-weight: 900;
   font-size: 13px;
 }
-/* line 571, ../scss/style.scss */
+/* line 578, ../scss/style.scss */
 .winners .winnersItem h3 {
   font-weight: 100;
   font-size: 13px;
 }
-/* line 578, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 .winners .marginFlex {
   margin: 0 2%;
 }
 
-/* line 583, ../scss/style.scss */
+/* line 590, ../scss/style.scss */
 .afterparty {
   margin-top: 120px;
   width: 100%;
@@ -581,20 +584,20 @@ a.anchorPadContest {
   background-size: 100% auto;
   padding-top: 15%;
 }
-/* line 592, ../scss/style.scss */
+/* line 599, ../scss/style.scss */
 .afterparty .partyWrap {
   width: 400px;
   position: absolute;
   right: 0%;
 }
-/* line 597, ../scss/style.scss */
+/* line 604, ../scss/style.scss */
 .afterparty .partyWrap .headline {
   background: black;
   padding: 10px;
   text-align: left;
   margin: 0;
 }
-/* line 603, ../scss/style.scss */
+/* line 610, ../scss/style.scss */
 .afterparty .partyWrap .headline h1 {
   color: white;
   font-weight: 900;
@@ -604,7 +607,7 @@ a.anchorPadContest {
   padding: 0;
   line-height: 1.2em;
 }
-/* line 613, ../scss/style.scss */
+/* line 620, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 {
   color: white;
   font-weight: 900;
@@ -615,13 +618,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 623, ../scss/style.scss */
+/* line 630, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 631, ../scss/style.scss */
+/* line 638, ../scss/style.scss */
 .afterparty .partyWrap .subheadline {
   background: black;
   padding: 5px 10px 5px;
@@ -629,7 +632,7 @@ a.anchorPadContest {
   margin: 0;
   margin-top: 5px;
 }
-/* line 638, ../scss/style.scss */
+/* line 645, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -638,12 +641,12 @@ a.anchorPadContest {
   font-size: 14px;
   line-height: 14px;
 }
-/* line 646, ../scss/style.scss */
+/* line 653, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 653, ../scss/style.scss */
+/* line 660, ../scss/style.scss */
 .afterparty .partyWrap a {
   float: left;
   display: inline-block;
@@ -660,26 +663,26 @@ a.anchorPadContest {
   border: 1px solid white;
   text-align: left;
 }
-/* line 670, ../scss/style.scss */
+/* line 677, ../scss/style.scss */
 .afterparty .partyWrap a:hover {
   color: white;
   background: none;
   transition: all .5s;
 }
 
-/* line 680, ../scss/style.scss */
+/* line 687, ../scss/style.scss */
 .judges .sectionHeadline {
   top: -133px;
 }
-/* line 684, ../scss/style.scss */
+/* line 691, ../scss/style.scss */
 .judges .marginSides {
   margin: 0 30px;
 }
-/* line 688, ../scss/style.scss */
+/* line 695, ../scss/style.scss */
 .judges .judgeWrap {
   text-align: center;
 }
-/* line 691, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 .judges .judgeWrap .judgeItem {
   position: relative;
   display: inline-block;
@@ -689,7 +692,7 @@ a.anchorPadContest {
   box-sizing: border-box;
   padding: 30px;
 }
-/* line 700, ../scss/style.scss */
+/* line 707, ../scss/style.scss */
 .judges .judgeWrap .judgeItem .judgeBio {
   display: block;
   position: relative;
@@ -699,7 +702,7 @@ a.anchorPadContest {
   background: teal;
   margin: 0 auto;
 }
-/* line 710, ../scss/style.scss */
+/* line 717, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h1 {
   margin-top: 15px;
   color: white;
@@ -707,55 +710,56 @@ a.anchorPadContest {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 718, ../scss/style.scss */
+/* line 725, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h3 {
   color: white;
   font-size: 13px;
   font-weight: 100;
 }
 
-/* line 729, ../scss/style.scss */
+/* line 736, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
-  left: 2%;
-  right: 2%;
-  top: 2%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   padding: 25px;
   border: 5px solid #666;
   background-color: #ffffff;
-  height: 95%;
+  height: 100%;
   overflow: scroll;
   z-index: 9000;
   color: #333;
 }
 
-/* line 744, ../scss/style.scss */
+/* line 752, ../scss/style.scss */
 #overlay p {
   color: #666;
   max-width: 75%;
   margin: 0 auto;
 }
 
-/* line 750, ../scss/style.scss */
+/* line 758, ../scss/style.scss */
 #overlay h1 {
   font-weight: 900;
   font-size: 18px;
 }
 
-/* line 755, ../scss/style.scss */
+/* line 763, ../scss/style.scss */
 #overlay h3 {
   max-width: 75%;
 }
 
-/* line 759, ../scss/style.scss */
+/* line 767, ../scss/style.scss */
 #overlay h5 {
   font-weight: 900;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-/* line 765, ../scss/style.scss */
+/* line 773, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -770,7 +774,7 @@ a.anchorPadContest {
   z-index: 90;
 }
 
-/* line 779, ../scss/style.scss */
+/* line 787, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -783,23 +787,23 @@ a.anchorPadContest {
   background: #eee;
 }
 
-/* line 791, ../scss/style.scss */
+/* line 799, ../scss/style.scss */
 #closeLink a {
   color: #fc561d !important;
   text-decoration: none;
 }
 
-/* line 797, ../scss/style.scss */
+/* line 805, ../scss/style.scss */
 .contest {
   margin-top: 120px;
   text-align: left;
   padding-top: 60px !important;
 }
-/* line 802, ../scss/style.scss */
+/* line 810, ../scss/style.scss */
 .contest .sectionHeadline {
   top: -113px;
 }
-/* line 806, ../scss/style.scss */
+/* line 814, ../scss/style.scss */
 .contest h5 {
   text-align: left;
   line-height: .9em;
@@ -813,36 +817,36 @@ a.anchorPadContest {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 821, ../scss/style.scss */
+/* line 829, ../scss/style.scss */
 .contest .contestIntro {
   text-align: center;
 }
-/* line 824, ../scss/style.scss */
+/* line 832, ../scss/style.scss */
 .contest .contestIntro h1 {
   text-transform: uppecase;
   color: white;
   font-weight: 900;
 }
-/* line 830, ../scss/style.scss */
+/* line 838, ../scss/style.scss */
 .contest .contestIntro h3 {
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
 }
-/* line 836, ../scss/style.scss */
+/* line 844, ../scss/style.scss */
 .contest .contestIntro p {
   font-size: 13px;
   text-align: left;
   line-height: 1.7em;
 }
-/* line 844, ../scss/style.scss */
+/* line 852, ../scss/style.scss */
 .contest .contestIntro ul li {
   list-style: square;
   font-size: 13px;
   text-align: left;
   margin-left: -20px;
 }
-/* line 852, ../scss/style.scss */
+/* line 860, ../scss/style.scss */
 .contest .contestIntro .contestCol {
   width: 46%;
   display: inline-block;
@@ -850,13 +854,13 @@ a.anchorPadContest {
   vertical-align: top;
   margin-bottom: 30px;
 }
-/* line 859, ../scss/style.scss */
+/* line 867, ../scss/style.scss */
 .contest .contestIntro .contestCol #rulesLink {
   color: white;
   text-align: left;
   display: block;
 }
-/* line 864, ../scss/style.scss */
+/* line 872, ../scss/style.scss */
 .contest .contestIntro .contestCol #rulesLink a {
   color: white;
   font-size: 14px;
@@ -864,7 +868,7 @@ a.anchorPadContest {
   text-align: left;
   text-decoration: underline;
 }
-/* line 873, ../scss/style.scss */
+/* line 881, ../scss/style.scss */
 .contest .contestIntro .contestCol a.rulesLink {
   color: white;
   text-align: left;
@@ -872,13 +876,13 @@ a.anchorPadContest {
   font-size: 14px;
   text-decoration: underline;
 }
-/* line 881, ../scss/style.scss */
+/* line 889, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial {
   line-height: 10px;
   position: relative;
   text-align: left;
 }
-/* line 886, ../scss/style.scss */
+/* line 894, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink {
   padding: 8px 12px 8px 12px;
   background: #555;
@@ -892,36 +896,36 @@ a.anchorPadContest {
   border-radius: 2px;
   transition: all 1s;
 }
-/* line 899, ../scss/style.scss */
+/* line 907, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon {
   position: relative;
   display: inline-block;
   width: 12px;
   margin-right: 8px;
 }
-/* line 905, ../scss/style.scss */
+/* line 913, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg {
   width: 100%;
   height: auto;
 }
-/* line 909, ../scss/style.scss */
+/* line 917, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter {
   fill: white;
 }
-/* line 913, ../scss/style.scss */
+/* line 921, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta {
   fill: white;
 }
-/* line 920, ../scss/style.scss */
+/* line 928, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink:hover {
   background: teal;
   transition: all 1s;
 }
-/* line 928, ../scss/style.scss */
+/* line 936, ../scss/style.scss */
 .contest .contestIntro .addPad {
   margin-right: 7%;
 }
-/* line 941, ../scss/style.scss */
+/* line 949, ../scss/style.scss */
 .contest .galleryWrap iframe #widget #widget_header #hashtag_holder li {
   color: white !important;
   font-size: 30px;
@@ -931,16 +935,16 @@ a.anchorPadContest {
   font-weight: 900;
 }
 
-/* line 954, ../scss/style.scss */
+/* line 962, ../scss/style.scss */
 .charity {
   margin-top: 120px;
 }
-/* line 961, ../scss/style.scss */
+/* line 969, ../scss/style.scss */
 .charity .charityWrap {
   height: 500px;
   vertical-align: top;
 }
-/* line 965, ../scss/style.scss */
+/* line 973, ../scss/style.scss */
 .charity .charityWrap .charityHeroWrap {
   position: relative;
   display: inline-block;
@@ -951,7 +955,7 @@ a.anchorPadContest {
   background: url("../img/charityHeroBW.jpg");
   background-size: cover;
 }
-/* line 977, ../scss/style.scss */
+/* line 985, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap {
   position: relative;
   display: inline-block;
@@ -961,14 +965,14 @@ a.anchorPadContest {
   margin: 0;
   margin-left: 3%;
 }
-/* line 986, ../scss/style.scss */
+/* line 994, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap h1 {
   color: white;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
 }
-/* line 993, ../scss/style.scss */
+/* line 1001, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap p {
   font-size: 14px;
   line-height: 24px;
@@ -976,17 +980,17 @@ a.anchorPadContest {
   text-align: left;
   padding-right: 30px;
 }
-/* line 1001, ../scss/style.scss */
+/* line 1009, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap a {
   color: white;
   margin-top: -30px;
 }
-/* line 1006, ../scss/style.scss */
+/* line 1014, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap img {
   width: 120px;
 }
 
-/* line 1015, ../scss/style.scss */
+/* line 1023, ../scss/style.scss */
 footer {
   padding-top: 60px;
   width: 100%;
@@ -995,17 +999,17 @@ footer {
   vertical-align: top;
   padding-bottom: 60px;
 }
-/* line 1023, ../scss/style.scss */
+/* line 1031, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 1028, ../scss/style.scss */
+/* line 1036, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 1031, ../scss/style.scss */
+/* line 1039, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
