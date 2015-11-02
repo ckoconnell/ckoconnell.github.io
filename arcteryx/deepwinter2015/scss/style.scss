@@ -198,6 +198,7 @@ a.anchorPadContest {
   right: 0;
   overflow: hidden;
   box-sizing: border-box;
+  display: none;
 }
 
 
@@ -333,7 +334,8 @@ a.anchorPadContest {
 
 .slide5 {
   // background: url('../img/heroTopDesaturate.jpg') no-repeat;
-  background: url('../img/dwHeroAshley.jpg') no-repeat;
+  // background: url('../img/dwHeroAshley.jpg') no-repeat;
+  background: url('../img/featureHeroBlake.jpg') no-repeat;
   background-size: cover;
 
   // Add some fade or hover animation here
@@ -1102,12 +1104,11 @@ a.anchorPadContest {
 }
 
 footer {
-  padding-top: 60px;
   width: 100%;
   background: #232323;
-  padding-top: 60px;
   vertical-align: top;
-  padding-bottom: 60px;
+  padding: 10px 0;
+  margin-top: 90px;
 
   .footerCol {
     display: inline-block;
@@ -1121,11 +1122,16 @@ footer {
         vertical-align: top;
         list-style: none;
         font-size: 11px;
-        color: #aaa;
-        font-weight: 100;
+        color: #eee;
+        font-weight: 700;
         margin-bottom: 15px;
         line-height: 1.5em;
         text-transform: uppercase;
+
+        .lighter {
+          color: #aaa;
+          font-weight: 300;
+        }
       }
     }
   }
