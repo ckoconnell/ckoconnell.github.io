@@ -201,7 +201,31 @@ a.anchorPadContest {
   display: none;
 }
 
+.tagline {
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 12%;
+  text-transform: uppercase;
+  display: none;
+}
 
+.crestSmall {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  right: 45%;
+  background: url('../img/deepwintercrestallwhite.png') no-repeat;
+  background-size: 100px;
+  display: none;
+}
 
 // Section Styles Start
 
@@ -227,7 +251,7 @@ a.anchorPadContest {
     height: 0px;
     position: absolute;
     right: 0%;
-    top: 50%;
+    top: 40%;
     display: inline-block;
     opacity: 0.85;
 
@@ -241,6 +265,7 @@ a.anchorPadContest {
       text-align: left;
       margin: 0;
       position: relative;
+      margin-top: 5px;
 
       .crestSmall {
         margin: 0;
@@ -281,6 +306,17 @@ a.anchorPadContest {
           font-size: 10px;
           padding-top: 3px;
         }
+      }
+
+      h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 14px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        vertical-align: top;
       }
     }
 
