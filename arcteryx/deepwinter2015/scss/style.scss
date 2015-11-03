@@ -31,6 +31,7 @@ div {
 
 section {
   position: relative;
+  display: block;
   overflow: hidden;
   border-top: 1px solid #333;
   padding-bottom: 30px;
@@ -91,7 +92,7 @@ a.anchorPadParty {
 a.anchorPadJudges {
   display: block;
   position: relative;
-  margin-top: -90px !important;
+  margin-top: -30px !important;
   margin-bottom: 30px !important;
 }
 
@@ -672,12 +673,16 @@ a.anchorPadContest {
   }
 }
 
+
+
 .afterparty {
   margin-top: 120px;
   width: 100%;
   padding-bottom: 35%;
   background: #333;
-  background: url('../img/afterparty1BWfade.jpg') no-repeat;
+  // background: url('../img/afterparty1BWfade.jpg') no-repeat;
+  // background: url('../img/1920x1080GLCoutsideCorner.jpg') no-repeat;
+  background: url('../img/1920x1080GLCevent.jpg') no-repeat;
   background-size: 100% auto;
   padding-top: 15%;
 
@@ -735,6 +740,8 @@ a.anchorPadContest {
         color: #aaa;
         margin: 0;
         padding: 0;
+        line-height: 15px;
+        margin-top: -10px;
 
         a {
           color: $linkColor;
@@ -926,7 +933,14 @@ a.anchorPadContest {
   padding-top: 60px !important;
 
   .sectionHeadline {
-    top: -113px;
+    top: -97px;
+  }
+
+  h4 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   h5 {
@@ -941,6 +955,8 @@ a.anchorPadContest {
     display: block;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
 
   }
 
