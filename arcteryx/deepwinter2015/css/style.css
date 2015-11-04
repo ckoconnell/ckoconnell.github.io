@@ -100,6 +100,53 @@ a.anchorPadContest {
 }
 
 /* line 106, ../scss/style.scss */
+.navMobile {
+  display: none;
+}
+@media screen and (max-width: 570px) {
+  /* line 106, ../scss/style.scss */
+  .navMobile {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 10000;
+    background: #ddd;
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+/* line 127, ../scss/style.scss */
+.navMobile a {
+  display: inline-block;
+  position: relative;
+  padding: 5px 10px;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 137, ../scss/style.scss */
+.navMobile .crestSmall {
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  display: inline-block;
+  left: 5px;
+  top: 2px;
+  background: url("../img/deepWinterCrest.png") no-repeat;
+  background-size: cover;
+}
+
+/* line 153, ../scss/style.scss */
 .nav {
   position: absolute;
   height: 40px;
@@ -113,13 +160,13 @@ a.anchorPadContest {
   transition: height .5s;
   overflow: hidden;
 }
-@media screen and (max-width: 1080px) {
-  /* line 106, ../scss/style.scss */
+@media screen and (max-width: 570px) {
+  /* line 153, ../scss/style.scss */
   .nav {
-    text-align: right;
+    display: none;
   }
 }
-/* line 123, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 .nav .eventTitle {
   font-size: 13px;
   font-weight: 900;
@@ -133,13 +180,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   display: none;
 }
-/* line 138, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .nav div {
   width: 100%;
   margin: 0 auto;
   padding-top: 5px;
 }
-/* line 143, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .nav div a {
   list-style: none;
   display: inline-block;
@@ -152,14 +199,14 @@ a.anchorPadContest {
   font-weight: 400;
   letter-spacing: -1px;
 }
-/* line 156, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 .nav div a:hover {
   background-color: #ddd;
   color: black;
   transition: all 1s;
 }
 
-/* line 164, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 .navDisplay {
   transition: height .5s;
   position: fixed;
@@ -167,7 +214,7 @@ a.anchorPadContest {
   margin-top: 0 !important;
 }
 
-/* line 173, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .watermark {
   position: absolute;
   background: url("../img/deepwintercrestallwhite.png") no-repeat;
@@ -183,7 +230,7 @@ a.anchorPadContest {
   display: none;
 }
 
-/* line 189, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .watermarkBehind {
   position: absolute;
   background: url("../img/deepwintercrestallwhite.png") no-repeat;
@@ -200,7 +247,7 @@ a.anchorPadContest {
   display: none;
 }
 
-/* line 205, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .tagline {
   font-size: 20px;
   line-height: 24px;
@@ -212,7 +259,7 @@ a.anchorPadContest {
   display: none;
 }
 
-/* line 216, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .crestSmall {
   margin: 0;
   padding: 0;
@@ -224,30 +271,36 @@ a.anchorPadContest {
   left: 45%;
   right: 45%;
   background: url("../img/deepwintercrestallwhite.png") no-repeat;
-  background-size: 100px;
+  background-size: 20px;
   display: none;
 }
 
-/* line 233, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 .featureWrap {
   position: absolute;
   display: block;
   width: 100%;
   height: 90%;
-  min-height: 500px;
+  min-height: 675px;
   top: 0;
   left: 0;
   border-top: none !important;
   padding-top: 0 !important;
 }
+@media screen and (max-width: 600px) {
+  /* line 285, ../scss/style.scss */
+  .featureWrap {
+    height: 50%;
+  }
+}
 
-/* line 245, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 .featureSlide {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 250, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 .featureSlide .slideContent {
   width: 450px;
   height: 0px;
@@ -258,12 +311,21 @@ a.anchorPadContest {
   opacity: 0.85;
 }
 @media screen and (max-height: 475px) {
-  /* line 250, ../scss/style.scss */
+  /* line 306, ../scss/style.scss */
   .featureSlide .slideContent {
     top: 25%;
   }
 }
-/* line 263, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 306, ../scss/style.scss */
+  .featureSlide .slideContent {
+    width: 90%;
+    position: relative;
+    display: inline-block;
+    margin-left: 10%;
+  }
+}
+/* line 326, ../scss/style.scss */
 .featureSlide .slideContent .headline {
   background: black;
   padding: 10px;
@@ -272,7 +334,7 @@ a.anchorPadContest {
   position: relative;
   margin-top: 5px;
 }
-/* line 271, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .featureSlide .slideContent .headline .crestSmall {
   margin: 0;
   padding: 0;
@@ -286,7 +348,7 @@ a.anchorPadContest {
   opacity: .4;
   display: none;
 }
-/* line 285, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .featureSlide .slideContent .headline h1 {
   color: white;
   font-weight: 900;
@@ -296,7 +358,7 @@ a.anchorPadContest {
   padding: 0;
   line-height: 1em;
 }
-/* line 295, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .featureSlide .slideContent .headline h3 {
   color: white;
   font-weight: 900;
@@ -307,13 +369,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 305, ../scss/style.scss */
+/* line 368, ../scss/style.scss */
 .featureSlide .slideContent .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 312, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 .featureSlide .slideContent .headline h5 {
   font-weight: 600;
   font-size: 16px;
@@ -324,7 +386,7 @@ a.anchorPadContest {
   text-transform: uppercase;
   vertical-align: top;
 }
-/* line 324, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .featureSlide .slideContent .subheadline {
   background: black;
   padding: 8px 10px 8px;
@@ -332,7 +394,7 @@ a.anchorPadContest {
   margin: 0;
   margin-top: 5px;
 }
-/* line 331, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .featureSlide .slideContent .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -341,12 +403,12 @@ a.anchorPadContest {
   font-size: 14px;
   line-height: 14px;
 }
-/* line 340, ../scss/style.scss */
+/* line 403, ../scss/style.scss */
 .featureSlide .slideContent .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 347, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 .featureSlide .slideContent a {
   float: left;
   display: inline-block;
@@ -363,134 +425,185 @@ a.anchorPadContest {
   border: 1px solid white;
   text-align: left;
 }
-/* line 364, ../scss/style.scss */
+/* line 427, ../scss/style.scss */
 .featureSlide .slideContent a:hover {
   color: white;
   background: #222;
   transition: all .5s;
 }
 
-/* line 372, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .slide5 {
   background: url("../img/featureHeroBlake.jpg") no-repeat;
   background-size: cover;
+  background-position: center center;
   opacity: 1;
 }
 
-/* line 382, ../scss/style.scss */
+/* line 445, ../scss/style.scss */
 .slide1 {
   background: url("../img/heroTopDesaturate.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 390, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 .slide3 {
   background: url("../img/dalbyHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 396, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 .slide2 {
   background: url("../img/robinHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 402, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .slide4 {
   background: url("../img/blakeHero.jpg") no-repeat;
   background-size: cover;
   opacity: 1;
 }
 
-/* line 410, ../scss/style.scss */
+/* line 473, ../scss/style.scss */
 .sponsors {
   border-top: none !important;
   padding-top: 30px !important;
 }
-/* line 413, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 .sponsors h1 {
   padding-left: 40px;
 }
-/* line 417, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 476, ../scss/style.scss */
+  .sponsors h1 {
+    padding-left: 0;
+  }
+}
+/* line 484, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 420, ../scss/style.scss */
+/* line 487, ../scss/style.scss */
 .sponsors ul li {
   list-style: none;
   display: inline-block;
   padding-right: 30px;
 }
-/* line 428, ../scss/style.scss */
+/* line 495, ../scss/style.scss */
 .sponsors .sponsor {
   width: 11%;
+  min-width: 100px;
 }
-/* line 432, ../scss/style.scss */
+/* line 500, ../scss/style.scss */
 .sponsors a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 439, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 .sponsors .mainSponsor {
   width: 13%;
+  min-width: 100px;
   margin-bottom: 40px;
   padding-right: 45px !important;
 }
-/* line 444, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 507, ../scss/style.scss */
+  .sponsors .mainSponsor {
+    margin-bottom: 10px;
+  }
+}
+/* line 518, ../scss/style.scss */
 .sponsors .mainSponsor a img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   vertical-align: top;
 }
-/* line 453, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .sponsors .whistler {
   width: 15%;
 }
-/* line 456, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 .sponsors .whistler a img {
   padding-top: 30px;
 }
-/* line 462, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .sponsors .gore {
   width: 10%;
 }
-/* line 465, ../scss/style.scss */
+/* line 539, ../scss/style.scss */
 .sponsors .gore a img {
   padding-top: 15px;
 }
 
-/* line 472, ../scss/style.scss */
+/* line 546, ../scss/style.scss */
 .news {
   margin-top: 120px;
   position: relative;
 }
-/* line 476, ../scss/style.scss */
+/* line 550, ../scss/style.scss */
 .news h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 481, ../scss/style.scss */
+/* line 555, ../scss/style.scss */
 .news .newsWrap {
   position: relative;
   display: inline-block;
   width: 100%;
 }
-/* line 486, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 555, ../scss/style.scss */
+  .news .newsWrap {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 555, ../scss/style.scss */
+  .news .newsWrap {
+    padding-left: 30px;
+  }
+}
+/* line 568, ../scss/style.scss */
 .news .newsWrap .newsItem {
   position: relative;
   width: 30%;
+  min-width: 275px;
   display: inline-block;
   margin-bottom: 60px;
   vertical-align: top;
   box-sizing: border-box;
   padding: 0 15px;
 }
-/* line 495, ../scss/style.scss */
+@media screen and (max-width: 960px) {
+  /* line 568, ../scss/style.scss */
+  .news .newsWrap .newsItem {
+    width: 30%;
+    min-width: 200px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 568, ../scss/style.scss */
+  .news .newsWrap .newsItem {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 568, ../scss/style.scss */
+  .news .newsWrap .newsItem {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+/* line 596, ../scss/style.scss */
 .news .newsWrap .newsItem h1 {
   font-weight: 900;
   text-align: left;
@@ -498,7 +611,7 @@ a.anchorPadContest {
   margin: 0;
   padding: 0;
 }
-/* line 503, ../scss/style.scss */
+/* line 604, ../scss/style.scss */
 .news .newsWrap .newsItem h3 {
   font-weight: 100;
   margin: 0;
@@ -506,7 +619,7 @@ a.anchorPadContest {
   font-size: 12px;
   text-transform: uppercase;
 }
-/* line 511, ../scss/style.scss */
+/* line 612, ../scss/style.scss */
 .news .newsWrap .newsItem p {
   font-weight: 300;
   font-size: 14px;
@@ -514,36 +627,60 @@ a.anchorPadContest {
   margin: 0;
   color: #ccc;
 }
-/* line 520, ../scss/style.scss */
+/* line 621, ../scss/style.scss */
 .news .newsWrap .newsItem:nth-of-type(2) {
   margin: 0 30px;
 }
+@media screen and (max-width: 650px) {
+  /* line 621, ../scss/style.scss */
+  .news .newsWrap .newsItem:nth-of-type(2) {
+    margin-bottom: 30px;
+    margin-left: 0 !important;
+  }
+}
 
-/* line 526, ../scss/style.scss */
+/* line 632, ../scss/style.scss */
 .contestants {
   margin-top: 90px;
 }
-/* line 529, ../scss/style.scss */
+/* line 635, ../scss/style.scss */
 .contestants .contestantWrap {
   width: 100%;
   vertical-align: top;
+  text-align: left;
 }
-/* line 533, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 635, ../scss/style.scss */
+  .contestants .contestantWrap {
+    text-align: center;
+  }
+}
+/* line 644, ../scss/style.scss */
 .contestants .contestantWrap .sideMargins {
   margin: 0 20px;
 }
-/* line 537, ../scss/style.scss */
+/* line 648, ../scss/style.scss */
+.contestants .contestantWrap .sideMarginsResp {
+  margin: 0;
+}
+@media screen and (max-width: 959px) {
+  /* line 648, ../scss/style.scss */
+  .contestants .contestantWrap .sideMarginsResp {
+    margin: 0 20px;
+  }
+}
+/* line 656, ../scss/style.scss */
 .contestants .contestantWrap .bioAshley {
   background: url("../img/ashleyBioHero.jpg") no-repeat !important;
   background-size: 414px auto !important;
 }
-/* line 542, ../scss/style.scss */
+/* line 661, ../scss/style.scss */
 .contestants .contestantWrap .bioZoya {
   background: url("../img/zoyaBioHero.jpg") no-repeat !important;
   background-size: 414px auto !important;
   background-position: right top;
 }
-/* line 551, ../scss/style.scss */
+/* line 670, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem {
   position: relative;
   display: inline-block;
@@ -558,7 +695,19 @@ a.anchorPadContest {
   overflow: hidden;
   vertical-align: top;
 }
-/* line 565, ../scss/style.scss */
+@media screen and (max-width: 650px) {
+  /* line 670, ../scss/style.scss */
+  .contestants .contestantWrap .contestantItem {
+    width: 275px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 670, ../scss/style.scss */
+  .contestants .contestantWrap .contestantItem {
+    width: 80%;
+  }
+}
+/* line 692, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot {
   width: 100px;
   height: 100px;
@@ -573,7 +722,7 @@ a.anchorPadContest {
   overflow: hidden;
   box-shadow: 0px 0px 1px #999;
 }
-/* line 579, ../scss/style.scss */
+/* line 706, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot img {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -582,27 +731,27 @@ a.anchorPadContest {
   margin-top: -25px;
   margin-left: -5px;
 }
-/* line 588, ../scss/style.scss */
+/* line 715, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem .headshot .headshotAshley {
   width: 160px;
   margin-top: -30px;
   margin-left: -20px;
 }
-/* line 595, ../scss/style.scss */
+/* line 722, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h1 {
   font-weight: 900;
   color: white;
   margin: 0;
   padding: 0;
 }
-/* line 602, ../scss/style.scss */
+/* line 729, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem h3 {
   font-weight: 100;
   margin: 15px 0;
   padding: 0;
   font-size: 14px;
 }
-/* line 609, ../scss/style.scss */
+/* line 736, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem p {
   font-weight: 300;
   font-size: 14px;
@@ -610,7 +759,7 @@ a.anchorPadContest {
   margin: 0;
   color: #ccc;
 }
-/* line 617, ../scss/style.scss */
+/* line 744, ../scss/style.scss */
 .contestants .contestantWrap .contestantItem a {
   position: relative;
   font-size: 13px;
@@ -619,17 +768,17 @@ a.anchorPadContest {
   padding: 0 7px;
 }
 
-/* line 629, ../scss/style.scss */
+/* line 756, ../scss/style.scss */
 .winners {
   margin-top: 120px;
   border-bottom: none !important;
 }
-/* line 633, ../scss/style.scss */
+/* line 760, ../scss/style.scss */
 .winners .winnersWrap {
   width: 100%;
   text-align: center;
 }
-/* line 638, ../scss/style.scss */
+/* line 765, ../scss/style.scss */
 .winners .winnersItem {
   position: relative;
   display: inline-block;
@@ -640,7 +789,7 @@ a.anchorPadContest {
   margin: 0 1%;
   margin-bottom: 2%;
 }
-/* line 648, ../scss/style.scss */
+/* line 775, ../scss/style.scss */
 .winners .winnersItem .winnersImg {
   position: relative;
   width: 100px;
@@ -649,48 +798,82 @@ a.anchorPadContest {
   border-radius: 50px;
   margin: 0 auto;
 }
-/* line 657, ../scss/style.scss */
+/* line 784, ../scss/style.scss */
 .winners .winnersItem h1 {
   margin-top: 25px;
   color: white;
   font-weight: 900;
   font-size: 13px;
 }
-/* line 664, ../scss/style.scss */
+/* line 791, ../scss/style.scss */
 .winners .winnersItem h3 {
   font-weight: 100;
   font-size: 13px;
 }
-/* line 671, ../scss/style.scss */
+/* line 798, ../scss/style.scss */
 .winners .marginFlex {
   margin: 0 2%;
 }
 
-/* line 678, ../scss/style.scss */
+/* line 805, ../scss/style.scss */
 .afterparty {
   margin-top: 120px;
   width: 100%;
-  padding-bottom: 35%;
+  height: 540px;
   background: #333;
   background: url("../img/1920x1080GLCevent.jpg") no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   padding-top: 15%;
+  overflow: hidden;
 }
-/* line 689, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 805, ../scss/style.scss */
+  .afterparty {
+    min-height: 550px;
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 805, ../scss/style.scss */
+  .afterparty {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 805, ../scss/style.scss */
+  .afterparty {
+    height: auto;
+    min-height: 200px;
+    background-size: 120%;
+  }
+}
+/* line 833, ../scss/style.scss */
 .afterparty .partyWrap {
   width: 40%;
   min-width: 400px;
   position: absolute;
   right: 0%;
 }
-/* line 695, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 833, ../scss/style.scss */
+  .afterparty .partyWrap {
+    width: 100%;
+    min-width: 70%;
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    padding-left: 30px;
+  }
+}
+/* line 849, ../scss/style.scss */
 .afterparty .partyWrap .headline {
   background: black;
   padding: 10px;
   text-align: left;
   margin: 0;
 }
-/* line 701, ../scss/style.scss */
+/* line 855, ../scss/style.scss */
 .afterparty .partyWrap .headline h1 {
   color: white;
   font-weight: 900;
@@ -700,7 +883,7 @@ a.anchorPadContest {
   padding: 0;
   line-height: 1.2em;
 }
-/* line 711, ../scss/style.scss */
+/* line 865, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 {
   color: white;
   font-weight: 900;
@@ -711,13 +894,13 @@ a.anchorPadContest {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 721, ../scss/style.scss */
+/* line 875, ../scss/style.scss */
 .afterparty .partyWrap .headline h3 sup {
   box-sizing: border-box;
   font-size: 10px;
   padding-top: 3px;
 }
-/* line 729, ../scss/style.scss */
+/* line 883, ../scss/style.scss */
 .afterparty .partyWrap .subheadline {
   background: black;
   padding: 5px 10px 5px;
@@ -725,7 +908,7 @@ a.anchorPadContest {
   margin: 0;
   margin-top: 5px;
 }
-/* line 736, ../scss/style.scss */
+/* line 890, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h5 {
   font-style: italic;
   font-weight: 100;
@@ -736,7 +919,7 @@ a.anchorPadContest {
   line-height: 15px;
   margin-top: -10px;
 }
-/* line 746, ../scss/style.scss */
+/* line 902, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h5 a {
   color: teal;
   background: none;
@@ -750,7 +933,7 @@ a.anchorPadContest {
   margin-left: 0;
   padding-left: 5px;
 }
-/* line 763, ../scss/style.scss */
+/* line 919, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 {
   margin: 0;
   padding: 0;
@@ -759,19 +942,25 @@ a.anchorPadContest {
   font-size: 18px;
   line-height: 14px;
 }
-/* line 771, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 919, ../scss/style.scss */
+  .afterparty .partyWrap .subheadline h3 {
+    font-size: 14px;
+  }
+}
+/* line 931, ../scss/style.scss */
 .afterparty .partyWrap .subheadline h3 sup {
   font-size: 8px;
   margin-top: 3px;
 }
-/* line 777, ../scss/style.scss */
+/* line 937, ../scss/style.scss */
 .afterparty .partyWrap .subheadline p {
   font-size: 13px;
   font-weight: 100;
   line-height: 19px;
   max-width: 350px;
 }
-/* line 785, ../scss/style.scss */
+/* line 945, ../scss/style.scss */
 .afterparty .partyWrap a {
   float: left;
   display: inline-block;
@@ -788,26 +977,38 @@ a.anchorPadContest {
   border: 1px solid white;
   text-align: left;
 }
-/* line 802, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 945, ../scss/style.scss */
+  .afterparty .partyWrap a {
+    margin-left: 15px;
+  }
+}
+/* line 966, ../scss/style.scss */
 .afterparty .partyWrap a:hover {
   color: white;
   background: none;
   transition: all .5s;
 }
 
-/* line 812, ../scss/style.scss */
+/* line 977, ../scss/style.scss */
 .judges .sectionHeadline {
   top: -133px;
 }
-/* line 816, ../scss/style.scss */
+/* line 981, ../scss/style.scss */
 .judges .marginSides {
   margin: 0 30px;
 }
-/* line 820, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 981, ../scss/style.scss */
+  .judges .marginSides {
+    margin: 0 auto;
+  }
+}
+/* line 989, ../scss/style.scss */
 .judges .judgeWrap {
   text-align: center;
 }
-/* line 823, ../scss/style.scss */
+/* line 992, ../scss/style.scss */
 .judges .judgeWrap .judgeItem {
   position: relative;
   display: inline-block;
@@ -817,7 +1018,22 @@ a.anchorPadContest {
   box-sizing: border-box;
   padding: 30px;
 }
-/* line 832, ../scss/style.scss */
+@media screen and (max-width: 768px) {
+  /* line 992, ../scss/style.scss */
+  .judges .judgeWrap .judgeItem {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 992, ../scss/style.scss */
+  .judges .judgeWrap .judgeItem {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+/* line 1012, ../scss/style.scss */
 .judges .judgeWrap .judgeItem .judgeBio {
   display: block;
   position: relative;
@@ -827,7 +1043,7 @@ a.anchorPadContest {
   background: teal;
   margin: 0 auto;
 }
-/* line 842, ../scss/style.scss */
+/* line 1022, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h1 {
   margin-top: 15px;
   color: white;
@@ -835,14 +1051,14 @@ a.anchorPadContest {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 850, ../scss/style.scss */
+/* line 1030, ../scss/style.scss */
 .judges .judgeWrap .judgeItem h3 {
   color: white;
   font-size: 13px;
   font-weight: 100;
 }
 
-/* line 861, ../scss/style.scss */
+/* line 1041, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -859,32 +1075,32 @@ a.anchorPadContest {
   color: #333;
 }
 
-/* line 877, ../scss/style.scss */
+/* line 1057, ../scss/style.scss */
 #overlay p {
   color: #666;
   max-width: 75%;
   margin: 0 auto;
 }
 
-/* line 883, ../scss/style.scss */
+/* line 1063, ../scss/style.scss */
 #overlay h1 {
   font-weight: 900;
   font-size: 18px;
 }
 
-/* line 888, ../scss/style.scss */
+/* line 1068, ../scss/style.scss */
 #overlay h3 {
   max-width: 75%;
 }
 
-/* line 892, ../scss/style.scss */
+/* line 1072, ../scss/style.scss */
 #overlay h5 {
   font-weight: 900;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-/* line 898, ../scss/style.scss */
+/* line 1078, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -899,7 +1115,7 @@ a.anchorPadContest {
   z-index: 90;
 }
 
-/* line 912, ../scss/style.scss */
+/* line 1092, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -912,30 +1128,44 @@ a.anchorPadContest {
   background: #eee;
 }
 
-/* line 924, ../scss/style.scss */
+/* line 1104, ../scss/style.scss */
 #closeLink a {
   color: #fc561d !important;
   text-decoration: none;
 }
 
-/* line 930, ../scss/style.scss */
+/* line 1110, ../scss/style.scss */
 .contest {
   margin-top: 120px;
   text-align: left;
   padding-top: 60px !important;
 }
-/* line 935, ../scss/style.scss */
+/* line 1115, ../scss/style.scss */
 .contest .sectionHeadline {
-  top: -97px;
+  top: -73px;
 }
-/* line 939, ../scss/style.scss */
+/* line 1119, ../scss/style.scss */
 .contest h4 {
   font-weight: 100;
   font-size: 18px;
   margin-bottom: 0;
   padding-bottom: 0;
+  display: inline-block;
 }
-/* line 946, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 1119, ../scss/style.scss */
+  .contest h4 {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 1119, ../scss/style.scss */
+  .contest h4 {
+    padding-left: 40px;
+    width: 40%;
+  }
+}
+/* line 1136, ../scss/style.scss */
 .contest h5 {
   text-align: left;
   line-height: .9em;
@@ -951,36 +1181,50 @@ a.anchorPadContest {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 963, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 1136, ../scss/style.scss */
+  .contest h5 {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 1136, ../scss/style.scss */
+  .contest h5 {
+    padding-left: 40px;
+    width: 100%;
+    padding-right: 15%;
+  }
+}
+/* line 1162, ../scss/style.scss */
 .contest .contestIntro {
   text-align: center;
 }
-/* line 966, ../scss/style.scss */
+/* line 1165, ../scss/style.scss */
 .contest .contestIntro h1 {
   text-transform: uppecase;
   color: white;
   font-weight: 900;
 }
-/* line 972, ../scss/style.scss */
+/* line 1171, ../scss/style.scss */
 .contest .contestIntro h3 {
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
 }
-/* line 978, ../scss/style.scss */
+/* line 1177, ../scss/style.scss */
 .contest .contestIntro p {
   font-size: 13px;
   text-align: left;
   line-height: 1.7em;
 }
-/* line 986, ../scss/style.scss */
+/* line 1185, ../scss/style.scss */
 .contest .contestIntro ul li {
   list-style: square;
   font-size: 13px;
   text-align: left;
   margin-left: -20px;
 }
-/* line 994, ../scss/style.scss */
+/* line 1193, ../scss/style.scss */
 .contest .contestIntro .contestCol {
   width: 46%;
   display: inline-block;
@@ -988,13 +1232,35 @@ a.anchorPadContest {
   vertical-align: top;
   margin-bottom: 30px;
 }
-/* line 1001, ../scss/style.scss */
+@media screen and (max-width: 959px) {
+  /* line 1193, ../scss/style.scss */
+  .contest .contestIntro .contestCol {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 1193, ../scss/style.scss */
+  .contest .contestIntro .contestCol {
+    width: 90%;
+  }
+}
+/* line 1209, ../scss/style.scss */
+.contest .contestIntro .contestCol #pixlee_container {
+  padding-right: 30px;
+}
+@media screen and (max-width: 650px) {
+  /* line 1209, ../scss/style.scss */
+  .contest .contestIntro .contestCol #pixlee_container {
+    padding-left: -30px !important;
+  }
+}
+/* line 1217, ../scss/style.scss */
 .contest .contestIntro .contestCol #rulesLink {
   color: white;
   text-align: left;
   display: block;
 }
-/* line 1006, ../scss/style.scss */
+/* line 1222, ../scss/style.scss */
 .contest .contestIntro .contestCol #rulesLink a {
   color: white;
   font-size: 14px;
@@ -1002,7 +1268,7 @@ a.anchorPadContest {
   text-align: left;
   text-decoration: underline;
 }
-/* line 1015, ../scss/style.scss */
+/* line 1231, ../scss/style.scss */
 .contest .contestIntro .contestCol a.rulesLink {
   color: white;
   text-align: left;
@@ -1010,13 +1276,13 @@ a.anchorPadContest {
   font-size: 14px;
   text-decoration: underline;
 }
-/* line 1023, ../scss/style.scss */
+/* line 1239, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial {
   line-height: 10px;
   position: relative;
   text-align: left;
 }
-/* line 1028, ../scss/style.scss */
+/* line 1244, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink {
   padding: 8px 12px 8px 12px;
   background: #555;
@@ -1030,36 +1296,41 @@ a.anchorPadContest {
   border-radius: 2px;
   transition: all 1s;
 }
-/* line 1041, ../scss/style.scss */
+/* line 1257, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon {
   position: relative;
   display: inline-block;
   width: 12px;
   margin-right: 8px;
 }
-/* line 1047, ../scss/style.scss */
+/* line 1263, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg {
   width: 100%;
   height: auto;
 }
-/* line 1051, ../scss/style.scss */
+/* line 1267, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter {
   fill: white;
 }
-/* line 1055, ../scss/style.scss */
+/* line 1271, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta {
   fill: white;
 }
-/* line 1062, ../scss/style.scss */
+/* line 1278, ../scss/style.scss */
 .contest .contestIntro .contestCol .contestSocial a.socialLink:hover {
   background: teal;
   transition: all 1s;
 }
-/* line 1070, ../scss/style.scss */
+/* line 1286, ../scss/style.scss */
 .contest .contestIntro .addPad {
   margin-right: 7%;
 }
-/* line 1083, ../scss/style.scss */
+/* line 1291, ../scss/style.scss */
+.contest .galleryWrap {
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+/* line 1301, ../scss/style.scss */
 .contest .galleryWrap iframe #widget #widget_header #hashtag_holder li {
   color: white !important;
   font-size: 30px;
@@ -1069,16 +1340,23 @@ a.anchorPadContest {
   font-weight: 900;
 }
 
-/* line 1096, ../scss/style.scss */
+/* line 1314, ../scss/style.scss */
 .charity {
   margin-top: 120px;
 }
-/* line 1103, ../scss/style.scss */
+/* line 1321, ../scss/style.scss */
 .charity .charityWrap {
   height: 400px;
   vertical-align: top;
 }
-/* line 1107, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 1321, ../scss/style.scss */
+  .charity .charityWrap {
+    height: auto;
+    padding-right: 30px;
+  }
+}
+/* line 1332, ../scss/style.scss */
 .charity .charityWrap .charityHeroWrap {
   position: relative;
   display: inline-block;
@@ -1086,11 +1364,20 @@ a.anchorPadContest {
   height: 100%;
   vertical-align: top;
   margin: 0;
-  background: url("../img/charityHeroBWFinal.jpg");
+  background: url("../img/charityHeroBWFinal.jpg") no-repeat;
   background-size: cover;
   background-position: -40px 0;
 }
-/* line 1120, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 1332, ../scss/style.scss */
+  .charity .charityWrap .charityHeroWrap {
+    width: 90%;
+    height: 300px;
+    margin-left: 30px;
+    background-size: cover;
+  }
+}
+/* line 1352, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap {
   position: relative;
   display: inline-block;
@@ -1100,14 +1387,23 @@ a.anchorPadContest {
   margin: 0;
   margin-left: 3%;
 }
-/* line 1129, ../scss/style.scss */
+@media screen and (max-width: 600px) {
+  /* line 1352, ../scss/style.scss */
+  .charity .charityWrap .charityCopyWrap {
+    width: 90%;
+    padding-left: 30px;
+    height: 400px;
+    margin-left: 0;
+  }
+}
+/* line 1369, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap h1 {
   color: white;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
 }
-/* line 1136, ../scss/style.scss */
+/* line 1376, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap p {
   font-size: 14px;
   line-height: 24px;
@@ -1115,17 +1411,17 @@ a.anchorPadContest {
   text-align: left;
   padding-right: 30px;
 }
-/* line 1144, ../scss/style.scss */
+/* line 1384, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap a {
   color: white;
   margin-top: -30px;
 }
-/* line 1149, ../scss/style.scss */
+/* line 1389, ../scss/style.scss */
 .charity .charityWrap .charityCopyWrap img {
   width: 120px;
 }
 
-/* line 1158, ../scss/style.scss */
+/* line 1398, ../scss/style.scss */
 footer {
   width: 100%;
   background: #232323;
@@ -1133,17 +1429,23 @@ footer {
   padding: 10px 0;
   margin-top: 90px;
 }
-/* line 1165, ../scss/style.scss */
+/* line 1405, ../scss/style.scss */
 footer .footerCol {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
-/* line 1170, ../scss/style.scss */
+@media screen and (max-width: 500px) {
+  /* line 1405, ../scss/style.scss */
+  footer .footerCol {
+    width: 90%;
+  }
+}
+/* line 1414, ../scss/style.scss */
 footer .footerCol ul {
   vertical-align: top;
 }
-/* line 1173, ../scss/style.scss */
+/* line 1417, ../scss/style.scss */
 footer .footerCol ul li {
   vertical-align: top;
   list-style: none;
@@ -1154,7 +1456,7 @@ footer .footerCol ul li {
   line-height: 1.5em;
   text-transform: uppercase;
 }
-/* line 1183, ../scss/style.scss */
+/* line 1427, ../scss/style.scss */
 footer .footerCol ul li .lighter {
   color: #aaa;
   font-weight: 300;

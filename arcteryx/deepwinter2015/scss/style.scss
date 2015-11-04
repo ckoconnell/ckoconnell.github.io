@@ -103,6 +103,53 @@ a.anchorPadContest {
   margin-bottom: 30px !important;
 }
 
+.navMobile {
+    display: none;
+
+  @media screen and (max-width: 570px) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 10000;
+    background: #ddd;
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 12px;
+
+  }
+
+  .crestSmall {
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: inline-block;
+    left: 5px;
+    top: 2px;
+    background: url('../img/deepWinterCrest.png') no-repeat;
+    background-size: cover;
+
+  }
+
+}
+
 .nav {
   position: absolute;
   height: 40px;
@@ -116,8 +163,13 @@ a.anchorPadContest {
   transition: height .5s;
   overflow: hidden;
 
-  @media screen and (max-width: 1080px) {
-    text-align: right;
+  @media screen and (max-width: 900px) {
+    // text-align: left;
+  }
+
+  @media screen and (max-width: 570px) {
+    display: none;
+
   }
 
   .eventTitle {
@@ -224,7 +276,7 @@ a.anchorPadContest {
   left: 45%;
   right: 45%;
   background: url('../img/deepwintercrestallwhite.png') no-repeat;
-  background-size: 100px;
+  background-size: 20px;
   display: none;
 }
 
@@ -235,11 +287,15 @@ a.anchorPadContest {
   display: block;
   width: 100%;
   height: 90%;
-  min-height: 500px;
+  min-height: 675px;
   top: 0;
   left: 0;
   border-top: none !important;
   padding-top: 0 !important;
+
+  @media screen and (max-width: 600px) {
+    height: 50%;
+  }
 }
 
 .featureSlide {
@@ -258,6 +314,13 @@ a.anchorPadContest {
 
     @media screen and (max-height: 475px) {
       top: 25%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 90%;
+      position: relative;
+      display: inline-block;
+      margin-left: 10%;
     }
 
     .headline {
@@ -374,7 +437,7 @@ a.anchorPadContest {
   // background: url('../img/dwHeroAshley.jpg') no-repeat;
   background: url('../img/featureHeroBlake.jpg') no-repeat;
   background-size: cover;
-
+  background-position: center center;
   // Add some fade or hover animation here
   opacity: 1;
 }
@@ -412,6 +475,10 @@ a.anchorPadContest {
   padding-top: 30px !important;
   h1 {
     padding-left: 40px;
+
+    @media screen and (max-width: 600px) {
+      padding-left: 0;
+    }
   }
 
   ul {
@@ -427,6 +494,7 @@ a.anchorPadContest {
 
   .sponsor {
     width: 11%;
+    min-width: 100px;
   }
     a {
       img {
@@ -438,8 +506,14 @@ a.anchorPadContest {
 
   .mainSponsor {
     width: 13%;
+    min-width: 100px;
     margin-bottom: 40px;
     padding-right: 45px !important;
+
+    @media screen and (max-width: 600px) {
+      margin-bottom: 10px;
+    }
+
     a {
       img {
         width: 100%;
@@ -483,14 +557,41 @@ a.anchorPadContest {
     display: inline-block;
     width: 100%;
 
+    @media screen and (max-width: 959px) {
+      padding-left: 15px;
+    }
+
+    @media screen and (max-width: 650px) {
+      padding-left: 30px;
+    }
+
     .newsItem {
       position: relative;
       width: 30%;
+      min-width: 275px;
       display: inline-block;
       margin-bottom: 60px;
       vertical-align: top;
       box-sizing: border-box;
       padding: 0 15px;
+
+      @media screen and (max-width: 960px) {
+        width: 30%;
+        min-width: 200px;
+        margin-bottom: 30px;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 45%;
+
+      }
+
+      @media screen and (max-width: 650px) {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        padding-left: 0;
+      }
 
       h1 {
         font-weight: 900;
@@ -519,6 +620,11 @@ a.anchorPadContest {
 
     .newsItem:nth-of-type(2) {
       margin: 0 30px;
+
+      @media screen and (max-width: 650px) {
+        margin-bottom: 30px;
+        margin-left: 0 !important;
+      }
     }
   }
 }
@@ -529,9 +635,22 @@ a.anchorPadContest {
   .contestantWrap {
     width: 100%;
     vertical-align: top;
+    text-align: left;
+
+    @media screen and (max-width: 959px) {
+      text-align: center;
+    }
 
     .sideMargins {
       margin: 0 20px;
+    }
+
+    .sideMarginsResp {
+      margin: 0;
+
+      @media screen and (max-width: 959px) {
+        margin: 0 20px;
+      }
     }
 
     .bioAshley {
@@ -561,6 +680,14 @@ a.anchorPadContest {
       margin-bottom: 30px;
       overflow: hidden;
       vertical-align: top;
+
+      @media screen and (max-width: 650px) {
+        width: 275px;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 80%;
+      }
 
       .headshot {
         width: 100px;
@@ -678,19 +805,46 @@ a.anchorPadContest {
 .afterparty {
   margin-top: 120px;
   width: 100%;
-  padding-bottom: 35%;
+  height: 540px;
+  // padding-bottom: 35%;
   background: #333;
   // background: url('../img/afterparty1BWfade.jpg') no-repeat;
   // background: url('../img/1920x1080GLCoutsideCorner.jpg') no-repeat;
   background: url('../img/1920x1080GLCevent.jpg') no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   padding-top: 15%;
+  overflow: hidden;
+
+  @media screen and (max-width: 959px) {
+    min-height: 550px;
+    padding-top: 200px;
+  }
+
+  @media screen and (max-width: 650px) {
+    height: 400px;
+  }
+
+  @media screen and (max-width: 500px) {
+    height: auto;
+    min-height: 200px;
+    background-size: 120%;
+  }
 
   .partyWrap {
     width: 40%;
     min-width: 400px;
     position: absolute;
     right: 0%;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      min-width: 70%;
+      background: black;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      position: relative;
+      padding-left: 30px;
+    }
 
     .headline {
       background: black;
@@ -743,6 +897,8 @@ a.anchorPadContest {
         line-height: 15px;
         margin-top: -10px;
 
+
+
         a {
           color: $linkColor;
           background: none;
@@ -767,6 +923,10 @@ a.anchorPadContest {
         font-weight: 600;
         font-size: 18px;
         line-height: 14px;
+
+        @media screen and (max-width: 500px) {
+          font-size: 14px;
+        }
 
         sup {
           font-size: 8px;
@@ -797,6 +957,10 @@ a.anchorPadContest {
       transition: all 1s;
       border: 1px solid white;
       text-align: left;
+
+      @media screen and (max-width: 500px) {
+       margin-left: 15px;
+      }
     }
 
     a:hover {
@@ -808,6 +972,7 @@ a.anchorPadContest {
 }
 
 .judges {
+  // display: none !important;
 
   .sectionHeadline {
     top: -133px;
@@ -815,6 +980,10 @@ a.anchorPadContest {
 
   .marginSides {
     margin: 0 30px;
+
+    @media screen and (max-width: 500px) {
+      margin: 0 auto;
+    }
   }
 
   .judgeWrap {
@@ -828,6 +997,17 @@ a.anchorPadContest {
       text-align: center;
       box-sizing: border-box;
       padding: 30px;
+
+      @media screen and (max-width: 768px) {
+        width: 40%;
+        margin-bottom: 30px;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
 
       .judgeBio {
         display: block;
@@ -933,7 +1113,7 @@ a.anchorPadContest {
   padding-top: 60px !important;
 
   .sectionHeadline {
-    top: -97px;
+    top: -73px;
   }
 
   h4 {
@@ -941,7 +1121,17 @@ a.anchorPadContest {
     font-size: 18px;
     margin-bottom: 0;
     padding-bottom: 0;
-  }
+    display: inline-block;
+
+    @media screen and (max-width: 959px) {
+      padding-left: 30px;
+    }
+
+    @media screen and (max-width: 650px) {
+      padding-left: 40px;
+      width: 40%;
+    }
+   }
 
   h5 {
     text-align: left;
@@ -958,6 +1148,15 @@ a.anchorPadContest {
     margin-top: 0;
     padding-top: 0;
 
+    @media screen and (max-width: 959px) {
+      padding-left: 30px;
+    }
+
+    @media screen and (max-width: 650px) {
+      padding-left: 40px;
+      width: 100%;
+      padding-right: 15%;
+    }
   }
 
   .contestIntro {
@@ -997,6 +1196,23 @@ a.anchorPadContest {
       position: relative;
       vertical-align: top;
       margin-bottom: 30px;
+
+      @media screen and (max-width: 959px) {
+        padding-left: 30px;
+      }
+
+      @media screen and (max-width: 650px) {
+        width: 90%;
+
+      }
+
+      #pixlee_container {
+        padding-right: 30px;
+
+        @media screen and (max-width: 650px) {
+          padding-left: -30px !important;
+        }
+      }
 
       #rulesLink {
         color: white;
@@ -1073,6 +1289,8 @@ a.anchorPadContest {
   }
 
   .galleryWrap {
+    padding-right: 15px;
+    box-sizing: border-box;
 
     iframe {
       // background: teal;
@@ -1104,6 +1322,13 @@ a.anchorPadContest {
     height: 400px;
     vertical-align: top;
 
+    @media screen and (max-width: 600px) {
+     height: auto;
+      padding-right: 30px;
+    }
+
+
+
     .charityHeroWrap {
       position: relative;
       display: inline-block;
@@ -1111,10 +1336,17 @@ a.anchorPadContest {
       height: 100%;
       vertical-align: top;
       margin: 0;
-      background: url('../img/charityHeroBWFinal.jpg');
+      background: url('../img/charityHeroBWFinal.jpg') no-repeat;
       background-size: cover;
       background-position: -40px 0;
       // background: #222;
+
+      @media screen and (max-width: 600px) {
+        width: 90%;
+        height: 300px;
+        margin-left: 30px;
+        background-size: cover;
+      }
     }
 
     .charityCopyWrap {
@@ -1125,6 +1357,14 @@ a.anchorPadContest {
       vertical-align: top;
       margin: 0;
       margin-left: 3%;
+
+      @media screen and (max-width: 600px) {
+        width: 90%;
+        padding-left: 30px;
+        height: 400px;
+        margin-left: 0;
+
+      }
 
       h1 {
         color: white;
@@ -1166,6 +1406,10 @@ footer {
     display: inline-block;
     width: 40%;
     vertical-align: top;
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+    }
 
     ul {
       vertical-align: top;
