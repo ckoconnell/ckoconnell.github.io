@@ -65,6 +65,10 @@ h1 {
   color: white !important;
 }
 
+.contestantLinkSpace {
+  top: -151px !important;
+}
+
 // Nav
 
 a.anchorPadContestant {
@@ -550,6 +554,9 @@ a.anchorPadContest {
       vertical-align: top;
       box-sizing: border-box;
       padding: 0 10px;
+      transition: all .3s ease-in;
+      // transition: all 5s ease-in 2s;
+
 
       @media screen and (max-width: 960px) {
         width: 30%;
@@ -559,7 +566,6 @@ a.anchorPadContest {
 
       @media screen and (max-width: 767px) {
         width: 45%;
-
       }
 
       @media screen and (max-width: 650px) {
@@ -601,6 +607,16 @@ a.anchorPadContest {
         position: relative;
         margin-top: 15px;
       }
+
+      .newsLink {
+        cursor: pointer;
+        color: $linkColor;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 15px;
+        display: block;
+      }
+
     }
 
     .newsItem:nth-of-type(2) {
@@ -612,6 +628,95 @@ a.anchorPadContest {
       }
     }
   }
+}
+
+.newsFull {
+  position: fixed !important;
+  top: 40px !important;
+  bottom: 0% !important;
+  left: 0% !important;
+  right: 0% !important;
+  background: #222222 !important;
+  min-width: 100%;
+  width: 100% !important;
+  height: 100%;
+  display: block !important;
+  z-index: 10000;
+  padding: 30px !important;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all .5s ease-in;
+  margin: 0 !important;
+}
+
+.newsItemFull {
+  display: none;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: all 2s ease-in 3s;
+
+  .newsArticleFull {
+    position: relative;
+    display: block;
+    background: #222;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 40px;
+    column-width: 300px;
+    -webkit-column-width: 300px;
+    -webkit-column-gap: 40px;
+    overflow: hidden;
+
+//    border: 1px solid pink;
+
+    @media screen and (max-width: 600px) {
+
+    }
+
+    img {
+      width: 100%;
+      display: inline-block;
+      position: relative;
+      -webkit-column-span: all;
+      column-span: all;
+      margin-bottom: 30px;
+    }
+
+    p {
+      padding: 10px 30px 0 0;
+    }
+  }
+}
+
+.newsLinkClose {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.displayLink {
+  display: block;
+}
+
+.displayLinkHide {
+  display: none !important;
+  transition: all 1s ease 1s;
+}
+
+.displayFull {
+  display: block !important;
+  transition: all 2s;
+}
+
+.showReadMore {
+  display: block !important;
 }
 
 .contestants {
@@ -638,31 +743,53 @@ a.anchorPadContest {
       }
     }
 
-    .bioAshley {
-      background: url('../img/ashleyBioHero.jpg') no-repeat !important;
-      background-size: 414px auto !important;
+    .heroAshley {
+      background: url('../img/ashleyBioHero.jpg');
+      background-size: cover;
+      background-position: center center;
     }
 
-    .bioZoya {
-      background: url('../img/zoyaBioHero.jpg') no-repeat !important;
-      background-size: 414px auto !important;
-      background-position: right top;
+    .heroZoya {
+      background: url('../img/zoyaBioHero.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .contestantIntro {
+      text-align: left;
+      display: block;
+      margin-bottom: 60px;
+      padding: 0 20%;
+
+      @media screen and (max-width: 550px) {
+        padding: 0 10%;
+      }
+
+      h1 {
+        font-weight: 900;
+        font-size: 16px;
+      }
+
+      p {
+        font-weight: 100;
+        font-size: 14px;
+      }
     }
 
     .contestantItem:hover {
+      margin-top: -5px;
+      transition: all .2s;
     }
 
     .contestantItem {
       position: relative;
       display: inline-block;
       width: 300px;
-      height: 650px;
+      height: 550px;
       // background: #212121;
-      background: linear-gradient(#000, #333);
+      background: linear-gradient(#151515, #272727);
       box-sizing: border-box;
-      padding: 30px;
       text-align: center;
-      padding-top: 180px;
       margin-bottom: 30px;
       overflow: hidden;
       vertical-align: top;
@@ -671,8 +798,17 @@ a.anchorPadContest {
         width: 275px;
       }
 
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 550px) {
         width: 80%;
+      }
+
+      .contestantHero {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 275px;
+        margin: 0;
+        padding: 0;
       }
 
       .headshot {
@@ -680,12 +816,12 @@ a.anchorPadContest {
         height: 100px;
         position: relative;
         display: block;
-        background: black;
+        background: #333;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         transform: rotate(45deg);
-        text-align: center;
-        margin: 45px auto;
+        margin-top: -50px;
+        margin-left: 30px;
         overflow: hidden;
 
         img {
@@ -695,35 +831,74 @@ a.anchorPadContest {
           width: 143px;
           margin-top: -25px;
           margin-left: -5px;
+
+          filter: grayscale(90%);
+          -webkit-filter: grayscale(90%);
+          -moz-filter: grayscale(90%);
+          transition: all .5s;
+        }
+
+        img:hover {
+          filter: grayscale(40%);
+          -webkit-filter: grayscale(40%);
+          -moz-filter: grayscale(40%);
+          transition: all 1s;
         }
 
         .headshotAshley {
-          width: 160px;
+          width: 125px;
           margin-top: -30px;
           margin-left: -20px;
         }
       }
 
+
       h1 {
         font-weight: 900;
         color: white;
-        margin: 0;
-        padding: 0;
+        margin-top: -15px;
+        text-align: right;
+        padding-right: 30px;
       }
 
       h3 {
         font-weight: 100;
         margin: 15px 0;
-        padding: 0;
+        padding: 0 30px;
         font-size: $bodyCopy;
       }
 
+
+       .comingSoon {
+        text-align: center;
+        margin-top: 250px;
+         font-weight: 900;
+         text-transform: uppercase;
+      }
+
+      .bioLinkAshley, .bioLinkZoya {
+        text-transform: uppercase;
+        border: 1px solid #ccc;
+        font-size: 12px;
+        display: inline-block;
+        padding: 3px 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+
+      .lighter {
+        font-weight: 100;
+      }
+
       p {
+        position: relative;
+        display: block;
         font-weight: 300;
         font-size: $bodyCopy;
         line-height: 1.7em;
         margin: 0;
         color: #ccc;
+        padding: 0 30px;
       }
 
       a {
@@ -733,9 +908,131 @@ a.anchorPadContest {
         display: inline-block;
         padding: 0 7px;
       }
+
+
     }
   }
 }
+
+.hideShow {
+  left: 3% !important;
+  transition: all .5s;
+}
+
+.contestantBioAshley, .contestantBioZoya {
+  // display: none;
+  position: fixed;
+  top: 40px;
+  bottom: 3%;
+  left: -120%;
+  width: 94%;
+  background: #333;
+  z-index: 10000;
+  transition: all 2s;
+
+  .bioWrap {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    background: black;
+    height: 100%;
+    padding: 30px;
+    margin: 0;
+    vertical-align: top;
+
+    .biofullAshley {
+      background: url('../img/headshotAshley.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .biofullZoya {
+      background: url('../img/headshotZoya.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .headshotFull {
+      width: 100%;
+      height: 250px;
+    }
+
+    h1 {
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 900;
+      text-align: center;
+      color: white;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      margin-top: 25px;
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 100;
+      font-size: 16px;
+      line-height: 16px;
+      text-transform: uppercase;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    p {
+      text-align: left;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .socialLinks {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+
+  .galleryWrap {
+    position: relative;
+    display: inline-block;
+    width: 69.9%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+
+  }
+
+  .closeLinkAshley, .closeLinkZoya {
+    position: absolute;
+    display: inline-block;
+    top: 3%;
+    right: 3%;
+    font-size: 24px;
+    font-weight: 100;
+    color: black;
+    // background: #444;
+    padding: 5px 15px 4px;
+    cursor: pointer;
+    transition: all .5s;
+    z-index: 10000;
+  }
+
+  .closeLinkAshley:hover, .closeLinkZoya:hover {
+    background: #444;
+    color: white;
+    transition: all .5s;
+  }
+}
+
+.galleryAshley {
+  background: url('../img/dwHeroAshley.jpg');
+  background-size: cover;
+}
+
+.galleryZoya {
+  background: url('../img/zoyaBioHero.jpg');
+  background-size: cover;
+}
+
 
 
 .winners {
@@ -790,7 +1087,7 @@ a.anchorPadContest {
 .afterparty {
   margin-top: 120px;
   width: 100%;
-  height: 540px;
+  height: 400px;
   // padding-bottom: 35%;
   background: #333;
   // background: url('../img/afterparty1BWfade.jpg') no-repeat;
@@ -801,7 +1098,7 @@ a.anchorPadContest {
   overflow: hidden;
 
   @media screen and (max-width: 959px) {
-    min-height: 550px;
+    min-height: 500px;
     padding-top: 200px;
   }
 
@@ -1387,6 +1684,12 @@ footer {
   padding: 10px 0;
   margin-top: 90px;
 
+  .right {
+    text-align: right;
+    float: right;
+  }
+
+
   .footerCol {
     display: inline-block;
     width: 40%;
@@ -1403,7 +1706,7 @@ footer {
         vertical-align: top;
         list-style: none;
         font-size: 11px;
-        color: #eee;
+        color: #ccc;
         font-weight: 700;
         margin-bottom: 15px;
         line-height: 1.5em;
