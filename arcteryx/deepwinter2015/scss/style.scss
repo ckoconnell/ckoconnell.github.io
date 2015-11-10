@@ -642,11 +642,11 @@ a.anchorPadContest {
   height: 100%;
   display: block !important;
   z-index: 10000;
-  padding: 30px !important;
   box-sizing: border-box;
   overflow: hidden;
-  transition: all .5s ease-in;
+  transition: all 2s ease-in;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 .newsItemFull {
@@ -654,35 +654,36 @@ a.anchorPadContest {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  transition: all 2s ease-in 3s;
+  transition: all 5s;
 
   .newsArticleFull {
     position: relative;
     display: block;
-    background: #222;
+    // background: #222;
     width: 90%;
     height: 80%;
     margin: 0 auto;
-    column-count: 2;
-    -webkit-column-count: 2;
-    column-gap: 40px;
-    column-width: 300px;
-    -webkit-column-width: 300px;
-    -webkit-column-gap: 40px;
     overflow: hidden;
 
 //    border: 1px solid pink;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
 
+    }
+
+
+    .articleWrap {
+      width: 40%;
+      height: auto;
+      padding: 30px;
+      background: #212121;
+      overflow: visible;
     }
 
     img {
       width: 100%;
       display: inline-block;
       position: relative;
-      -webkit-column-span: all;
-      column-span: all;
       margin-bottom: 30px;
     }
 
