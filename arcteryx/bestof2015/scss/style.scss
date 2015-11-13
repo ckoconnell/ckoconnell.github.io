@@ -452,8 +452,6 @@ header {
       box-sizing: border-box;
       padding: 15px;
       background: #fff;
-      bottom: 30px;
-      left: 30px;
     }
   }
 
@@ -488,6 +486,11 @@ header {
     @media screen and (max-width: 768px) {
       background-size: cover;
     }
+  }
+
+  .itemContent {
+    bottom: 30px;
+    left: 30px;
   }
 }
 
@@ -837,7 +840,75 @@ header {
     background-size: 140%;
     background-position: right top;
   }
+
+  .itemContent {
+    bottom: 30px;
+    left: 30px;
+  }
 }
+
+.itemTheoreticalObjective {
+  .itemImg {
+    background:url('../img/itemTheoreticalObjective.jpg') no-repeat;
+    background-size: 140%;
+    background-position: left bottom;
+  }
+}
+
+.itemPigeonSpire {
+  .itemImg {
+    background:url('../img/itemPebbleshooPigeonSpire.jpg') no-repeat;
+    background-size: 140%;
+    background-position: left bottom;
+  }
+}
+
+.itemWhitney {
+  .itemImg {
+    background:url('../img/itemWhitney.jpg') no-repeat;
+    background-size: 140%;
+    background-position: center center;
+  }
+
+  .itemContent {
+    top: 30px;
+    left: 30px;
+  }
+}
+
+.itemJustinChile {
+  .itemImg {
+    background:url('../img/itemJustinChile.jpg') no-repeat;
+    background-size: 110%;
+    background-position: right top;
+  }
+
+  .itemContent {
+    left: 30px;
+    top: 30px;
+  }
+}
+
+.itemRogerStrongPatience {
+  .itemImg {
+    background:url('../img/itemRogerStrongPatience.jpg') no-repeat;
+    background-size: 140%;
+    background-position: right center;
+  }
+}
+
+.itemCommitPersonalVelocity {
+  .itemImg {
+    background:url('../img/itemPersonalVelocity.jpg') no-repeat;
+    background-size: 140%;
+    background-position: center center;
+  }
+
+}
+
+
+
+
 
 .slick-slider {
   margin-left: -8px !important;

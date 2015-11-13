@@ -244,18 +244,22 @@ a.anchorPadContest {
 
 .watermarkBehind {
   position: absolute;
-  background: url('../img/deepwintercrestallwhite.png') no-repeat;
-  background-size: 400px;
-  background-position: 75% 85%;
+  background: url("../img/deepwintercrestallwhite.png") no-repeat;
+  background-size: 500px;
+  background-position: -8% 125%;
   width: 100%;
   height: 100%;
   margin-top: 5px;
-  opacity: 0.6;
+  opacity: 0.2;
   padding: 0;
   right: 0;
   overflow: hidden;
   box-sizing: border-box;
-  display: none;
+
+  @media screen and (max-width: 600px) {
+    background-size: 300px;
+    background-position: -2% 66%;
+  }
 }
 
 .tagline {
@@ -321,10 +325,11 @@ a.anchorPadContest {
     }
 
     @media screen and (max-width: 600px) {
-      width: 90%;
+      width: 70%;
       position: relative;
       display: inline-block;
       margin-left: 10%;
+      float: right;
     }
 
     .headline {
@@ -740,7 +745,7 @@ a.anchorPadContest {
       margin: 0;
 
       @media screen and (max-width: 959px) {
-        margin: 0 20px;
+        margin: 0 20px 0 -20px;
       }
     }
 
@@ -756,11 +761,21 @@ a.anchorPadContest {
       background-position: center center;
     }
 
+    .heroGuy {
+      background: url('../img/heroGuy.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
     .contestantIntro {
       text-align: left;
       display: block;
       margin-bottom: 60px;
       padding: 0 20%;
+
+      @media screen and (max-width: 800px) {
+        padding: 0 10%;
+      }
 
       @media screen and (max-width: 550px) {
         padding: 0 10%;
@@ -851,6 +866,12 @@ a.anchorPadContest {
           margin-top: -30px;
           margin-left: -20px;
         }
+
+        .headshotGuy {
+          width: 140px;
+          margin-top: -28px;
+          margin-left: -7px;
+        }
       }
 
 
@@ -871,13 +892,14 @@ a.anchorPadContest {
 
 
        .comingSoon {
-        text-align: center;
-        margin-top: 250px;
+         text-align: center;
+         margin-top: 250px;
          font-weight: 900;
          text-transform: uppercase;
       }
 
-      .bioLinkAshley, .bioLinkZoya {
+
+      .bioLinkAshley, .bioLinkZoya, .bioLinkGuy {
         text-transform: uppercase;
         border: 1px solid #ccc;
         font-size: 12px;
@@ -916,30 +938,38 @@ a.anchorPadContest {
 }
 
 .hideShow {
-  left: 3% !important;
+  left: 0% !important;
   transition: all .5s;
 }
 
-.contestantBioAshley, .contestantBioZoya {
-  // display: none;
+.contestantBioAshley, .contestantBioZoya, .contestantBioGuy {
   position: fixed;
   top: 40px;
-  bottom: 3%;
+  bottom: 0;
   left: -120%;
-  width: 94%;
+  width: 100%;
   background: #333;
   z-index: 10000;
   transition: all 2s;
+  box-sizing: border-box;
 
   .bioWrap {
     box-sizing: border-box;
     display: inline-block;
+    position: relative;
     width: 30%;
+    min-width: 300px;
     background: black;
     height: 100%;
     padding: 30px;
     margin: 0;
     vertical-align: top;
+
+    @media screen and (max-width: 780px) {
+      width: 100% !important;
+      min-width: 100% !important;
+      height: auto !important;
+    }
 
     .biofullAshley {
       background: url('../img/headshotAshley.jpg');
@@ -953,9 +983,21 @@ a.anchorPadContest {
       background-position: center center;
     }
 
+    .biofullGuy {
+      background: url('../img/headshotGuy.jpg');
+      background-size: cover;
+      background-position: left top;
+    }
+
     .headshotFull {
       width: 100%;
       height: 250px;
+
+      @media screen and (max-width: 780px) {
+        width: 30%;
+        float: left;
+        margin: 30px;
+      }
     }
 
     h1 {
@@ -967,6 +1009,11 @@ a.anchorPadContest {
       margin-bottom: 0;
       padding-bottom: 0;
       margin-top: 25px;
+
+      @media screen and (max-width: 780px) {
+        text-align: left;
+      }
+
     }
 
     h3 {
@@ -977,6 +1024,10 @@ a.anchorPadContest {
       text-transform: uppercase;
       margin-top: 0;
       padding-top: 0;
+
+      @media screen and (max-width: 780px) {
+        text-align: left;
+      }
     }
 
     p {
@@ -991,6 +1042,12 @@ a.anchorPadContest {
     }
   }
 
+  .wider {
+    width: 30%;
+    overflow-y: scroll;
+    height: 100%;
+  }
+
   .galleryWrap {
     position: relative;
     display: inline-block;
@@ -1002,7 +1059,7 @@ a.anchorPadContest {
 
   }
 
-  .closeLinkAshley, .closeLinkZoya {
+  .closeLinkAshley, .closeLinkZoya, .closeLinkGuy, .closeLinkDalby {
     position: absolute;
     display: inline-block;
     top: 3%;
@@ -1015,9 +1072,13 @@ a.anchorPadContest {
     cursor: pointer;
     transition: all .5s;
     z-index: 10000;
+
+    @media screen and (max-width: 780px) {
+      background: #444;
+    }
   }
 
-  .closeLinkAshley:hover, .closeLinkZoya:hover {
+  .closeLinkAshley:hover, .closeLinkZoya:hover, .closeLinkGuy:hover {
     background: #444;
     color: white;
     transition: all .5s;
@@ -1025,15 +1086,35 @@ a.anchorPadContest {
 }
 
 .galleryAshley {
-  background: url('../img/dwHeroAshley.jpg');
+  background: url('../img/dwHeroAshley.jpg') no-repeat;
   background-size: cover;
+  background-position: 300px;
+
+  @media screen and (max-width: 780px) {
+    background-position: 0 0;
+  }
 }
 
 .galleryZoya {
-  background: url('../img/zoyaBioHero.jpg');
+  background: url('../img/zoyaBioHero.jpg') no-repeat;
   background-size: cover;
+  background-position: 300px;
+
+  @media screen and (max-width: 780px) {
+    background-position: 0 0;
+  }
 }
 
+.galleryGuy {
+  background: url('../img/heroGuy.jpg') no-repeat;
+  background-size: cover;
+  background-position: 300px;
+
+  @media screen and (max-width: 780px) {
+    background-position: 0px 300px;
+  }
+
+}
 
 
 .winners {
@@ -1133,7 +1214,7 @@ a.anchorPadContest {
       background: black;
       padding: 10px;
       text-align: left;
-      margin: 0;
+      margin: 5px 0;
 
       h1 {
         color: white;
@@ -1168,7 +1249,7 @@ a.anchorPadContest {
       padding: 5px 10px 5px;
       text-align: left;
       margin: 0;
-      margin-top: 5px;
+      margin-top: 10px;
 
       h5 {
         font-style: italic;
@@ -1197,15 +1278,18 @@ a.anchorPadContest {
         }
       }
 
-
+      .extraBottom {
+        margin-bottom: 4px;
+        margin-top: -5px;
+      }
 
       h3 {
-        margin: 0;
+        margin: 5px 0;
         padding: 0;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 18px;
-        line-height: 14px;
+        line-height: 18px;
 
         @media screen and (max-width: 500px) {
           font-size: 14px;
@@ -1218,7 +1302,7 @@ a.anchorPadContest {
       }
 
       p {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 100;
         line-height: 19px;
         max-width: 350px;
@@ -1248,7 +1332,7 @@ a.anchorPadContest {
 
     a:hover {
       color: white;
-      background: none;
+      background: #222;
       transition: all .5s;
     }
   }
@@ -1461,6 +1545,10 @@ a.anchorPadContest {
       font-size: 13px;
       text-align: left;
       line-height: 1.7em;
+    }
+
+    .bolder {
+      font-weight: 900;
     }
 
     ul {
