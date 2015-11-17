@@ -117,7 +117,7 @@ a.anchorPadContest {
     left: 0;
     width: 100%;
     height: 40px;
-    z-index: 10000;
+    z-index: 1000;
     background: #ddd;
     padding-left: 45px;
     padding-top: 8px;
@@ -270,6 +270,15 @@ a.anchorPadContest {
     background-size: 300px;
     background-position: -2% 66%;
   }
+
+  @media screen and (max-width: 570px) and (orientation: landscape) {
+    background-size: 200px;
+    background-position: -2% 36%;
+  }
+
+  @media screen and (max-width: 400px) and (orientation: portrait) {
+    display: none !important;
+  }
 }
 
 .photoCred {
@@ -357,6 +366,10 @@ a.anchorPadContest {
       float: right;
     }
 
+    @media screen and (max-width: 400px) and (orientation: portrait) {
+      width: 90%;
+    }
+
     .headline {
       background: black;
       padding: 10px;
@@ -398,6 +411,10 @@ a.anchorPadContest {
         padding: 0;
         text-transform: uppercase;
         line-height: .8em;
+
+        @media screen and (max-width: 360px) and (orientation: portrait) {
+          font-size: 24px;
+        }
 
         sup {
           box-sizing: border-box;
@@ -473,11 +490,17 @@ a.anchorPadContest {
 .slide5 {
   // background: url('../img/heroTopDesaturate.jpg') no-repeat;
   // background: url('../img/dwHeroAshley.jpg') no-repeat;
-  background: url('../img/featureHeroBlake.jpg') no-repeat;
+  background: url('../img/featureHeroBlake_sm.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   // Add some fade or hover animation here
   opacity: 1;
+
+  @media screen and (min-width: 960px) {
+    background: url('../img/featureHeroBlake.jpg') no-repeat;
+    background-size: cover;
+  }
+
 }
 
 .sponsors {
@@ -772,6 +795,14 @@ a.anchorPadContest {
       @media screen and (max-width: 959px) {
         margin: 0 20px 0 0px;
       }
+
+      @media screen and (max-width: 570px) and (orientation: landscape) {
+        margin: 0 20px 0 20px;
+      }
+
+      @media screen and (max-width: 340px) and (orientation: portrait) {
+        margin: 0px 20px 0 20px !important;
+      }
     }
 
     .sideMarginPush {
@@ -780,24 +811,55 @@ a.anchorPadContest {
         margin: 0 20px 0 -20px !important;
       }
 
+      @media screen and (max-width: 570px) and (orientation: landscape) {
+        margin: 0 20px 20px 20px !important;
+      }
+
+      @media screen and (max-width: 360px) and (orientation: portrait) {
+        margin: 0px 0 20px 20px !important;
+      }
+    }
+
+    .sideMarginPhone {
+
+      @media screen and (max-width: 360px) and (orientation: portrait) {
+        margin: 20px 0 0 0 !important;
+      }
+    }
+
+    .sideMarginPhoneSingle {
+
+      @media screen and (max-width: 360px) and (orientation: portrait) {
+        margin: 20px 0 20px 0px !important;
+      }
     }
 
     .heroAshley {
-      background: url('../img/ashleyBioHero.jpg');
+      background: url('../img/ashleyBioHero_sm.jpg');
       background-size: cover;
       background-position: center center;
+
     }
 
     .heroZoya {
-      background: url('../img/zoyaBioHero.jpg');
+      background: url('../img/zoyaBioHero_sm.jpg');
       background-size: cover;
       background-position: center center;
+
     }
 
     .heroGuy {
-      background: url('../img/heroGuy.jpg');
+      background: url('../img/heroGuy_sm.jpg');
       background-size: cover;
       background-position: center center;
+
+    }
+
+    .heroDalby {
+      background: url('../img/bioDalbyHero.jpg');
+      background-size: cover;
+      background-position: center center;
+
     }
 
     .contestantIntro {
@@ -829,6 +891,14 @@ a.anchorPadContest {
         font-weight: 100;
         font-size: 14px;
        // padding-right: 25%;
+
+        @media screen and (max-width: 580px) and (orientation: landscape) {
+          font-size: .6em !important;
+        }
+
+        @media screen and (max-width: 360px) and (orientation: portrait) {
+          font-size: .8em;
+        }
       }
     }
 
@@ -880,6 +950,13 @@ a.anchorPadContest {
         margin-left: 30px;
         overflow: hidden;
 
+        @media screen and (max-width: 360px) and (orientation: portrait) {
+          width: 80px;
+          height: 80px;
+          margin-top: -40px;
+          margin-left: 20px;
+        }
+
         img {
           -webkit-transform: rotate(-45deg);
           -moz-transform: rotate(-45deg);
@@ -888,9 +965,9 @@ a.anchorPadContest {
           margin-top: -25px;
           margin-left: -5px;
 
-          filter: grayscale(90%);
-          -webkit-filter: grayscale(90%);
-          -moz-filter: grayscale(90%);
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -moz-filter: grayscale(100%);
           transition: all .5s;
         }
 
@@ -911,6 +988,12 @@ a.anchorPadContest {
           width: 140px;
           margin-top: -28px;
           margin-left: -7px;
+        }
+
+        .headshotDalby {
+          width: 147px;
+          margin-top: -31px;
+          margin-left: 5px;
         }
       }
 
@@ -939,7 +1022,7 @@ a.anchorPadContest {
       }
 
 
-      .bioLinkAshley, .bioLinkZoya, .bioLinkGuy {
+      .bioLinkAshley, .bioLinkZoya, .bioLinkGuy, .bioLinkDalby {
         text-transform: uppercase;
         border: 1px solid #ccc;
         font-size: 12px;
@@ -951,6 +1034,11 @@ a.anchorPadContest {
         bottom: 15px;
         left: 35%;
         right: 35%;
+
+        @media screen and (max-width: 340px) and (orientation: portrait) {
+          left: 30%;
+          right: 30%;
+        }
       }
 
       .lighter {
@@ -986,7 +1074,7 @@ a.anchorPadContest {
   transition: all .5s;
 }
 
-.contestantBioAshley, .contestantBioZoya, .contestantBioGuy {
+.contestantBioAshley, .contestantBioZoya, .contestantBioGuy, .contestantBioDalby {
   position: fixed;
   top: 40px;
   bottom: 0;
@@ -1029,6 +1117,12 @@ a.anchorPadContest {
 
     .biofullGuy {
       background: url('../img/headshotGuy.jpg');
+      background-size: cover;
+      background-position: left top;
+    }
+
+    .biofullDalby {
+      background: url('../img/headshotDalby.jpg');
       background-size: cover;
       background-position: left top;
     }
@@ -1124,18 +1218,20 @@ a.anchorPadContest {
     font-size: 24px;
     font-weight: 100;
     color: black;
-    // background: #444;
+    background: #222 !important;
     padding: 5px 15px 4px;
     cursor: pointer;
     transition: all .5s;
     z-index: 10000;
+    opacity: .75;
 
     @media screen and (max-width: 780px) {
       background: #444;
+      opacity: 1;
     }
   }
 
-  .closeLinkAshley:hover, .closeLinkZoya:hover, .closeLinkGuy:hover {
+  .closeLinkAshley:hover, .closeLinkZoya:hover, .closeLinkGuy:hover, .closeLinkDalby:hover {
     background: #444;
     color: white;
     transition: all .5s;
@@ -1143,7 +1239,7 @@ a.anchorPadContest {
 }
 
 .galleryAshley {
-  background: url('../img/dwHeroAshley.jpg') no-repeat;
+  background: url('../img/ashleyBioHero.jpg') no-repeat;
   background-size: cover;
   background-position: 300px;
 
@@ -1155,10 +1251,11 @@ a.anchorPadContest {
 .galleryZoya {
   background: url('../img/zoyaBioHero.jpg') no-repeat;
   background-size: cover;
-  background-position: 300px;
+  background-position: 0px;
 
   @media screen and (max-width: 780px) {
-    background-position: 0 0;
+    background-size: 120%;
+    background-position: -100px 350px !important;
   }
 }
 
@@ -1170,8 +1267,18 @@ a.anchorPadContest {
   @media screen and (max-width: 780px) {
     background-position: 0px 300px;
   }
-
 }
+
+.galleryDalby {
+  background: url('../img/bioDalbyHero.jpg') no-repeat;
+  background-size: 80%;
+  background-position: 300px;
+
+  @media screen and (max-width: 780px) {
+    background-position: 0px 300px;
+  }
+}
+
 
 
 .winners {
@@ -1264,7 +1371,7 @@ a.anchorPadContest {
       padding-top: 30px;
       padding-bottom: 60px;
       position: relative;
-      padding-left: 30px;
+      padding-left: 20px;
     }
 
     .headline {
@@ -1276,7 +1383,7 @@ a.anchorPadContest {
       h1 {
         color: white;
         font-weight: 900;
-        font-size: 36px;
+        font-size: 24px;
         text-align: left;
         margin: 0 0 -10px 0;
         padding: 0;
@@ -1285,8 +1392,8 @@ a.anchorPadContest {
 
       h3 {
         color: white;
-        font-weight: 900;
-        font-size: 24px;
+        font-weight: 100;
+        font-size: 18px;
         text-align: left;
         margin: 0;
         padding: 0;
@@ -1344,9 +1451,9 @@ a.anchorPadContest {
         margin: 5px 0;
         padding: 0;
         text-transform: uppercase;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 18px;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 12px;
 
         @media screen and (max-width: 500px) {
           font-size: 14px;
@@ -1363,6 +1470,7 @@ a.anchorPadContest {
         font-weight: 100;
         line-height: 19px;
         max-width: 350px;
+        margin-top: 5px;
       }
     }
 
@@ -1729,10 +1837,8 @@ a.anchorPadContest {
     box-sizing: border-box;
 
     iframe {
-      // background: teal;
 
       #widget {
-        // background: green;
 
         #widget_header #hashtag_holder li {
           color: white !important;
@@ -1750,20 +1856,18 @@ a.anchorPadContest {
 .charity {
   margin-top: 120px;
 
-  .sectionHeadline {
-
-  }
-
   .charityWrap {
-    height: 400px;
+    height: 450px;
     vertical-align: top;
+
+    @media screen and (max-width: 780px) {
+      height: 600px;
+    }
 
     @media screen and (max-width: 600px) {
      height: auto;
       padding-right: 30px;
     }
-
-
 
     .charityHeroWrap {
       position: relative;
@@ -1777,12 +1881,22 @@ a.anchorPadContest {
       background-position: -40px 0;
       // background: #222;
 
+      @media screen and (max-width: 780px) {
+        margin: 0 0 0 30px;
+        width: 47%;
+      }
+
       @media screen and (max-width: 600px) {
         width: 90%;
         height: 300px;
         margin-left: 30px;
         background-size: cover;
       }
+
+      @media screen and (max-width: 570px) and (orientation: landscape) {
+        width: 100%;
+      }
+
     }
 
     .charityCopyWrap {
@@ -1794,12 +1908,19 @@ a.anchorPadContest {
       margin: 0;
       margin-left: 3%;
 
+      @media screen and (max-width: 780px) {
+        width: 40%;
+      }
+
       @media screen and (max-width: 600px) {
-        width: 90%;
+        width: 100%;
         padding-left: 30px;
         height: 400px;
         margin-left: 0;
+      }
 
+      @media screen and (max-width: 360px) and (orientation: portrait) {
+        height: 700px;
       }
 
       h1 {
@@ -1811,6 +1932,10 @@ a.anchorPadContest {
         margin-top: 0;
         padding-top: 0;
         vertical-align: top;
+
+        @media screen and (max-width: 600px) {
+          margin-top: 20px !important;
+        }
       }
 
       p {
@@ -1837,24 +1962,31 @@ a.anchorPadContest {
 
 footer {
   width: 100%;
-  background: #232323;
+  background: #010101;
   vertical-align: top;
   padding: 10px 0;
   margin-top: 90px;
+  height: 60px;
 
   .right {
     text-align: right;
     float: right;
-  }
 
+    @media screen and (max-width: 780px) {
+      float: left;
+      text-align: left;
+    }
+  }
 
   .footerCol {
     display: inline-block;
-    width: 40%;
+    width: 80%;
     vertical-align: top;
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 780px) {
       width: 90%;
+      height: 20px;
+      float: left;
     }
 
     ul {
