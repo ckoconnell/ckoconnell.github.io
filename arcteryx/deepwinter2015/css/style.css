@@ -1,4 +1,4 @@
-html, body { width: 100%; height: 100%; padding: 0; margin: 0; color: white; z-index: 1; background: #121212; font-family: Avenir, Arial, sans-serif; }
+html, body { width: 100%; height: 100%; padding: 0; margin: 0; color: white; z-index: 1; background: #121212; font-family: 'Avenir LT W01_55 Roman1475520', Arial, sans-serif; }
 
 a { text-decoration: none; color: teal; }
 
@@ -8,7 +8,7 @@ section { position: relative; display: block; overflow: hidden; border-top: 1px 
 
 .grid { width: 100%; max-width: 960px; margin: 0 auto; position: relative; }
 
-h1 { text-align: center; font-size: 15px; font-weight: 100; text-transform: uppercase; color: #666; }
+h1 { text-align: center; font-size: 15px; text-transform: uppercase; color: #666; }
 
 .sectionHeadline { position: absolute; top: -132px; left: 0; width: 150px; padding: 4px 12px; background: #333; color: white !important; }
 
@@ -48,7 +48,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 400px) and (orientation: portrait) { .watermarkBehind { display: none !important; } }
 
 .photoCred { position: absolute; z-index: 20000; right: 2%; top: 95%; font-size: 10px; text-transform: uppercase; opacity: .75; }
-.photoCred .bolder { font-weight: 900; margin-left: 6px; }
+.photoCred .bolder { margin-left: 6px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
 
 .tagline { font-size: 20px; line-height: 24px; color: white; font-weight: 100; text-align: center; margin-top: 12%; text-transform: uppercase; display: none; }
 
@@ -64,15 +64,15 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 400px) and (orientation: portrait) { .featureSlide .slideContent { width: 90%; } }
 .featureSlide .slideContent .headline { background: black; padding: 10px; text-align: left; margin: 0; position: relative; margin-top: 5px; }
 .featureSlide .slideContent .headline .crestSmall { margin: 0; padding: 0; width: 120px; height: 120px; position: absolute; right: 10px; top: 5px; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 100px; opacity: .4; display: none; }
-.featureSlide .slideContent .headline h1 { color: white; font-weight: 900; font-size: 36px; text-align: left; margin: 0; padding: 0; line-height: 1em; }
-.featureSlide .slideContent .headline h3 { color: white; font-weight: 900; font-size: 30px; text-align: left; margin: 0; padding: 0; text-transform: uppercase; line-height: .8em; }
+.featureSlide .slideContent .headline h1 { color: white; font-weight: 900; font-size: 36px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; text-align: left; margin: 0; padding: 0; line-height: 1em; }
+.featureSlide .slideContent .headline h3 { color: white; font-weight: 900; font-size: 30px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; text-align: left; margin: 0; padding: 0; text-transform: uppercase; line-height: .8em; }
 @media screen and (max-width: 360px) and (orientation: portrait) { .featureSlide .slideContent .headline h3 { font-size: 24px; } }
 .featureSlide .slideContent .headline h3 sup { box-sizing: border-box; font-size: 10px; padding-top: 3px; }
 .featureSlide .slideContent .headline h5 { font-weight: 600; font-size: 16px; line-height: 14px; overflow: hidden; margin: 0; padding: 0; text-transform: uppercase; vertical-align: top; }
 .featureSlide .slideContent .subheadline { background: black; padding: 8px 10px 8px; text-align: left; margin: 0; margin-top: 5px; }
-.featureSlide .slideContent .subheadline h3 { margin: 0; padding: 0; text-transform: uppercase; font-weight: 100; font-size: 14px; line-height: 14px; }
+.featureSlide .slideContent .subheadline h3 { margin: 0; padding: 0; text-transform: uppercase; font-weight: 100; font-size: 14px; line-height: 14px; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 .featureSlide .slideContent .subheadline h3 sup { font-size: 8px; margin-top: 3px; }
-.featureSlide .slideContent .subheadline .ticketMessaging { font-weight: 900; }
+.featureSlide .slideContent .subheadline .ticketMessaging { font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
 .featureSlide .slideContent a { float: left; display: inline-block; position: relative; color: black; background: white; padding: 5px 10px 3px 10px; margin-top: 7px; width: auto; font-size: 18px; text-transform: uppercase; font-weight: 900; transition: all 1s; border: 1px solid white; text-align: left; }
 .featureSlide .slideContent a:hover { color: white; background: #222; transition: all .5s; }
 
@@ -80,7 +80,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (min-width: 960px) { .slide5 { background: url("../img/featureHeroBlake.jpg") no-repeat; background-size: cover; } }
 
 .sponsors { border-top: none !important; padding-top: 30px !important; }
-.sponsors h1 { padding-left: 40px; }
+.sponsors h1 { padding-left: 40px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 @media screen and (max-width: 600px) { .sponsors h1 { padding-left: 0; } }
 .sponsors ul { text-align: center; }
 .sponsors ul li { list-style: none; display: inline-block; padding-right: 30px; }
@@ -93,6 +93,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .sponsors .whistler a img { padding-top: 30px; }
 .sponsors .gore { width: 10%; }
 .sponsors .gore a img { padding-top: 15px; }
+
+.sectionHeadline { font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 
 .news { margin-top: 120px; position: relative; }
 .news h1 { text-align: center; margin-bottom: 60px; }
@@ -150,15 +152,16 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .contestants .contestantWrap .contestantIntro { text-align: left; display: block; margin-bottom: 60px; padding: 0 23%; }
 @media screen and (max-width: 800px) { .contestants .contestantWrap .contestantIntro { padding: 0 10%; } }
 @media screen and (max-width: 550px) { .contestants .contestantWrap .contestantIntro { padding: 0 10%; } }
-.contestants .contestantWrap .contestantIntro h1 { font-weight: 900; font-size: 16px; }
-.contestants .contestantWrap .contestantIntro h3 { text-transform: uppercase; line-height: .9em; font-size: 24px; }
-.contestants .contestantWrap .contestantIntro p { font-weight: 100; font-size: 14px; }
+.contestants .contestantWrap .contestantIntro h1 { font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; font-size: 16px; }
+.contestants .contestantWrap .contestantIntro h3 { text-transform: uppercase; line-height: .9em; font-size: 24px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
+.contestants .contestantWrap .contestantIntro p { font-weight: 100; font-size: 14px; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 @media screen and (max-width: 580px) and (orientation: landscape) { .contestants .contestantWrap .contestantIntro p { font-size: .6em !important; } }
 @media screen and (max-width: 360px) and (orientation: portrait) { .contestants .contestantWrap .contestantIntro p { font-size: .8em; } }
 .contestants .contestantWrap .contestantItem:hover { margin-top: -5px; transition: all .2s; }
 .contestants .contestantWrap .contestantItem { position: relative; display: inline-block; width: 300px; height: 550px; background: linear-gradient(#151515, #272727); box-sizing: border-box; text-align: center; margin-bottom: 30px; overflow: hidden; vertical-align: top; }
 @media screen and (max-width: 650px) { .contestants .contestantWrap .contestantItem { width: 275px; } }
-@media screen and (max-width: 550px) { .contestants .contestantWrap .contestantItem { width: 80%; } }
+@media screen and (max-width: 600px) { .contestants .contestantWrap .contestantItem { width: 80%; } }
+@media screen and (max-width: 500px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem { height: auto; padding-bottom: 30px; min-height: 550px; } }
 .contestants .contestantWrap .contestantItem .contestantHero { position: relative; display: block; width: 100%; height: 275px; margin: 0; padding: 0; }
 .contestants .contestantWrap .contestantItem .headshot { width: 100px; height: 100px; position: relative; display: block; background: #333; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg); margin-top: -50px; margin-left: 30px; overflow: hidden; }
 @media screen and (max-width: 360px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .headshot { width: 80px; height: 80px; margin-top: -40px; margin-left: 20px; } }
@@ -167,12 +170,17 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .contestants .contestantWrap .contestantItem .headshot .headshotAshley { width: 125px; margin-top: -30px; margin-left: -20px; }
 .contestants .contestantWrap .contestantItem .headshot .headshotGuy { width: 140px; margin-top: -28px; margin-left: -7px; }
 .contestants .contestantWrap .contestantItem .headshot .headshotDalby { width: 147px; margin-top: -31px; margin-left: 5px; }
-.contestants .contestantWrap .contestantItem h1 { font-weight: 900; color: white; margin-top: -15px; text-align: right; padding-right: 30px; }
-.contestants .contestantWrap .contestantItem h3 { font-weight: 100; margin: 15px 0; padding: 0 30px; font-size: 14px; }
+.contestants .contestantWrap .contestantItem h1 { font-weight: 900; color: white; margin-top: -15px; text-align: right; padding-right: 30px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
+.contestants .contestantWrap .contestantItem h3 { font-weight: 100; margin: 15px 0; padding: 0 30px; font-size: 14px; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
+.contestants .contestantWrap .contestantItem .bioExcerpt { display: inline-block; }
+@media screen and (max-width: 500px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .bioExcerpt { display: none; } }
+.contestants .contestantWrap .contestantItem .bioFull { display: none; }
+@media screen and (max-width: 500px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .bioFull { display: inline-block; } }
+.contestants .contestantWrap .contestantItem .bioFull p { position: relative; display: block; font-weight: 300; font-size: 14px; line-height: 1.7em; margin: 0; color: #ccc; padding: 0 30px; }
 .contestants .contestantWrap .contestantItem .comingSoon { text-align: center; margin-top: 250px; font-weight: 900; text-transform: uppercase; }
 .contestants .contestantWrap .contestantItem .bioLinkAshley, .contestants .contestantWrap .contestantItem .bioLinkZoya, .contestants .contestantWrap .contestantItem .bioLinkGuy, .contestants .contestantWrap .contestantItem .bioLinkDalby { text-transform: uppercase; border: 1px solid #ccc; font-size: 12px; padding: 3px 10px; margin-bottom: 10px; cursor: pointer; position: absolute; bottom: 15px; left: 35%; right: 35%; }
-@media screen and (max-width: 340px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .bioLinkAshley, .contestants .contestantWrap .contestantItem .bioLinkZoya, .contestants .contestantWrap .contestantItem .bioLinkGuy, .contestants .contestantWrap .contestantItem .bioLinkDalby { left: 30%; right: 30%; } }
-.contestants .contestantWrap .contestantItem .lighter { font-weight: 100; }
+@media screen and (max-width: 500px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .bioLinkAshley, .contestants .contestantWrap .contestantItem .bioLinkZoya, .contestants .contestantWrap .contestantItem .bioLinkGuy, .contestants .contestantWrap .contestantItem .bioLinkDalby { display: none; } }
+.contestants .contestantWrap .contestantItem .lighter { font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 .contestants .contestantWrap .contestantItem p { position: relative; display: block; font-weight: 300; font-size: 14px; line-height: 1.7em; margin: 0; color: #ccc; padding: 0 30px; }
 .contestants .contestantWrap .contestantItem a { position: relative; font-size: 13px; line-height: 10px; display: inline-block; padding: 0 7px; }
 
@@ -211,7 +219,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 780px) { .galleryGuy { background-position: 0px 300px; } }
 
 .galleryDalby { background: url("../img/bioDalbyHero.jpg") no-repeat; background-size: 80%; background-position: 300px; }
-@media screen and (max-width: 780px) { .galleryDalby { background-position: 0px 300px; } }
+@media screen and (max-width: 780px) { .galleryDalby { background-size: 117%; background-position: 0px 380px; } }
 
 .winners { margin-top: 120px; border-bottom: none !important; }
 .winners .winnersWrap { width: 100%; text-align: center; }
@@ -221,25 +229,25 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .winners .winnersItem h3 { font-weight: 100; font-size: 13px; }
 .winners .marginFlex { margin: 0 2%; }
 
-.afterparty { margin-top: 120px; width: 100%; height: 400px; background: #333; background: url("../img/1920x1080GLCevent.jpg") no-repeat; background-size: cover; padding-top: 15%; overflow: hidden; }
+.afterparty { margin-top: 120px; width: 100%; height: 400px; background: #333; background: url("../img/1920x1080GLCeventEdit.jpg") no-repeat; background-size: cover; padding-top: 10%; padding-bottom: 10%; overflow: hidden; }
 @media screen and (max-width: 959px) { .afterparty { min-height: 500px; padding-top: 200px; } }
 @media screen and (max-width: 650px) { .afterparty { height: 400px; } }
 @media screen and (max-width: 500px) { .afterparty { height: auto; min-height: 200px; background-size: 120%; } }
 .afterparty .partyWrap { width: 40%; min-width: 400px; position: absolute; right: 0%; }
 @media screen and (max-width: 500px) { .afterparty .partyWrap { width: 100%; min-width: 70%; background: black; padding-top: 30px; padding-bottom: 60px; position: relative; padding-left: 20px; } }
-.afterparty .partyWrap .headline { background: black; padding: 10px; text-align: left; margin: 5px 0; }
-.afterparty .partyWrap .headline h1 { color: white; font-weight: 900; font-size: 24px; text-align: left; margin: 0 0 -10px 0; padding: 0; line-height: 1.2em; }
-.afterparty .partyWrap .headline h3 { color: white; font-weight: 100; font-size: 18px; text-align: left; margin: 0; padding: 0; text-transform: uppercase; line-height: .8em; }
+.afterparty .partyWrap .headline { background: black; padding: 20px 0 20px 15px; text-align: left; margin: 5px 0px; }
+.afterparty .partyWrap .headline h1 { color: white; font-weight: 900; font-size: 24px; text-align: left; margin: 0 0 -10px 0; padding: 0; line-height: 1.2em; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
+.afterparty .partyWrap .headline h3 { color: white; font-weight: 100; font-size: 18px; text-align: left; margin: 0; padding: 0; text-transform: uppercase; line-height: .8em; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 .afterparty .partyWrap .headline h3 sup { box-sizing: border-box; font-size: 10px; padding-top: 3px; }
-.afterparty .partyWrap .subheadline { background: black; padding: 5px 10px 5px; text-align: left; margin: 0; margin-top: 10px; }
-.afterparty .partyWrap .subheadline h5 { font-style: italic; font-weight: 100; font-size: 12px; color: #aaa; margin: 0; padding: 0; line-height: 15px; margin-top: -10px; }
-.afterparty .partyWrap .subheadline h5 a { color: teal; background: none; font-weight: 100; font-size: 13px; border: none; text-transform: none; float: none; display: inline-block; margin-top: 0; margin-left: 0; padding-left: 5px; }
+.afterparty .partyWrap .subheadline { background: black; padding: 10px 0 10px 15px; text-align: left; margin: 0; margin-top: 10px; }
+.afterparty .partyWrap .subheadline h5 { font-style: italic; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; font-size: 12px; color: #aaa; margin: 0; padding: 0; line-height: 12px; margin-top: 10px; max-width: 350px; }
+.afterparty .partyWrap .subheadline h5 a { color: deeppink; background: none; font-weight: 100; font-size: 13px; border: none; text-transform: none; float: none; display: inline-block; margin-top: 0; margin-left: -10px; }
 .afterparty .partyWrap .subheadline .extraBottom { margin-bottom: 4px; margin-top: -5px; }
-.afterparty .partyWrap .subheadline h3 { margin: 5px 0; padding: 0; text-transform: uppercase; font-weight: 100; font-size: 14px; line-height: 12px; }
+.afterparty .partyWrap .subheadline h3 { margin: 5px 0; padding: 0; text-transform: uppercase; font-weight: 600; font-size: 16px; line-height: 12px; }
 @media screen and (max-width: 500px) { .afterparty .partyWrap .subheadline h3 { font-size: 14px; } }
 .afterparty .partyWrap .subheadline h3 sup { font-size: 8px; margin-top: 3px; }
-.afterparty .partyWrap .subheadline p { font-size: 15px; font-weight: 100; line-height: 19px; max-width: 350px; margin-top: 5px; }
-.afterparty .partyWrap a { float: left; display: inline-block; position: relative; color: black; background: white; padding: 5px 10px 3px 10px; margin-top: 10px; width: auto; font-size: 18px; text-transform: uppercase; font-weight: 900; transition: all 1s; border: 1px solid white; text-align: left; }
+.afterparty .partyWrap .subheadline p { font-size: 14px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; line-height: 20px; max-width: 350px; margin-top: 10px; }
+.afterparty .partyWrap a { float: left; display: inline-block; position: relative; color: black; background: white; padding: 5px 10px 3px 10px; margin-top: 10px; width: auto; font-size: 18px; text-transform: uppercase; font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; transition: all 1s; border: 1px solid white; text-align: left; }
 @media screen and (max-width: 500px) { .afterparty .partyWrap a { margin-left: 15px; } }
 .afterparty .partyWrap a:hover { color: white; background: #222; transition: all .5s; }
 
@@ -272,16 +280,16 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 
 .contest { margin-top: 120px; text-align: left; padding-top: 60px !important; }
 .contest .sectionHeadline { top: -73px; }
-.contest h4 { font-weight: 100; font-size: 18px; margin-bottom: 0; padding-bottom: 0; display: inline-block; }
+.contest h4 { font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; font-size: 18px; margin-bottom: 0; padding-bottom: 0; display: inline-block; }
 @media screen and (max-width: 959px) { .contest h4 { padding-left: 30px; } }
 @media screen and (max-width: 650px) { .contest h4 { padding-left: 40px; width: 40%; } }
-.contest h5 { text-align: left; line-height: .9em; font-weight: 900; text-transform: uppercase; font-size: 24px; width: 100%; box-sizing: border-box; padding-right: 65%; display: block; padding-bottom: 0; margin-bottom: 0; margin-top: 0; padding-top: 0; }
+.contest h5 { text-align: left; line-height: .9em; font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; text-transform: uppercase; font-size: 24px; width: 100%; box-sizing: border-box; padding-right: 65%; display: block; padding-bottom: 0; margin-bottom: 0; margin-top: 0; padding-top: 0; }
 @media screen and (max-width: 959px) { .contest h5 { padding-left: 30px; } }
 @media screen and (max-width: 650px) { .contest h5 { padding-left: 40px; width: 100%; padding-right: 15%; } }
 .contest .contestIntro { text-align: center; }
 .contest .contestIntro h1 { text-transform: uppecase; color: white; font-weight: 900; }
 .contest .contestIntro h3 { text-transform: uppercase; font-weight: 500; text-align: left; }
-.contest .contestIntro p { font-size: 13px; text-align: left; line-height: 1.7em; }
+.contest .contestIntro p { font-size: 14px; text-align: left; line-height: 24px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
 .contest .contestIntro .bolder { font-weight: 900; }
 .contest .contestIntro ul li { list-style: square; font-size: 13px; text-align: left; margin-left: -20px; }
 .contest .contestIntro .contestCol { width: 46%; display: inline-block; position: relative; vertical-align: top; margin-bottom: 30px; }
@@ -316,9 +324,9 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 780px) { .charity .charityWrap .charityCopyWrap { width: 40%; } }
 @media screen and (max-width: 600px) { .charity .charityWrap .charityCopyWrap { width: 100%; padding-left: 30px; height: 400px; margin-left: 0; } }
 @media screen and (max-width: 360px) and (orientation: portrait) { .charity .charityWrap .charityCopyWrap { height: 700px; } }
-.charity .charityWrap .charityCopyWrap h1 { color: white; font-size: 24px; line-height: .9em; font-weight: 700; text-align: left; margin-top: 0; padding-top: 0; vertical-align: top; }
+.charity .charityWrap .charityCopyWrap h1 { color: white; font-size: 24px; line-height: .9em; font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; text-align: left; margin-top: 0; padding-top: 0; vertical-align: top; }
 @media screen and (max-width: 600px) { .charity .charityWrap .charityCopyWrap h1 { margin-top: 20px !important; } }
-.charity .charityWrap .charityCopyWrap p { font-size: 14px; line-height: 24px; font-weight: 100; text-align: left; padding-right: 30px; }
+.charity .charityWrap .charityCopyWrap p { font-size: 14px; line-height: 24px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; text-align: left; padding-right: 30px; }
 .charity .charityWrap .charityCopyWrap a { color: white; margin-top: -30px; }
 .charity .charityWrap .charityCopyWrap img { width: 120px; }
 

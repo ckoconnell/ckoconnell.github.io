@@ -17,7 +17,7 @@ html, body {
   color: white;
   z-index: 1;
   background: #121212;
-  font-family: Avenir, Arial, sans-serif;
+  font-family:'Avenir LT W01_55 Roman1475520', Arial, sans-serif;
 }
 
 a {
@@ -50,7 +50,6 @@ section {
 h1 {
   text-align: center;
   font-size: 15px;
-  font-weight: 100;
   text-transform: uppercase;
   color: #666;
 }
@@ -291,8 +290,8 @@ a.anchorPadContest {
   opacity: .75;
 
   .bolder {
-    font-weight: 900;
     margin-left: 6px;
+    font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
   }
 }
 
@@ -396,6 +395,7 @@ a.anchorPadContest {
         color: white;
         font-weight: 900;
         font-size: 36px;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
         text-align: left;
         margin: 0;
         padding: 0;
@@ -406,6 +406,7 @@ a.anchorPadContest {
         color: white;
         font-weight: 900;
         font-size: 30px;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
         text-align: left;
         margin: 0;
         padding: 0;
@@ -449,7 +450,7 @@ a.anchorPadContest {
         font-weight: 100;
         font-size: 14px;
         line-height: 14px;
-
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
 
         sup {
           font-size: 8px;
@@ -459,6 +460,7 @@ a.anchorPadContest {
 
       .ticketMessaging {
         font-weight: 900;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
       }
     }
 
@@ -508,6 +510,8 @@ a.anchorPadContest {
   padding-top: 30px !important;
   h1 {
     padding-left: 40px;
+    font-weight: 100;
+    font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
 
     @media screen and (max-width: 600px) {
       padding-left: 0;
@@ -574,6 +578,10 @@ a.anchorPadContest {
       }
     }
   }
+}
+
+.sectionHeadline {
+  font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
 }
 
 .news {
@@ -878,6 +886,7 @@ a.anchorPadContest {
 
       h1 {
         font-weight: 900;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
         font-size: 16px;
       }
 
@@ -885,12 +894,15 @@ a.anchorPadContest {
         text-transform: uppercase;
         line-height: .9em;
         font-size: 24px;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
+
       }
 
       p {
         font-weight: 100;
         font-size: 14px;
-       // padding-right: 25%;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
+        // padding-right: 25%;
 
         @media screen and (max-width: 580px) and (orientation: landscape) {
           font-size: .6em !important;
@@ -924,8 +936,14 @@ a.anchorPadContest {
         width: 275px;
       }
 
-      @media screen and (max-width: 550px) {
+      @media screen and (max-width: 600px) {
         width: 80%;
+      }
+
+      @media screen and (max-width: 500px) and (orientation: portrait) {
+        height: auto;
+        padding-bottom: 30px;
+        min-height: 550px;
       }
 
       .contestantHero {
@@ -997,13 +1015,13 @@ a.anchorPadContest {
         }
       }
 
-
       h1 {
         font-weight: 900;
         color: white;
         margin-top: -15px;
         text-align: right;
         padding-right: 30px;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
       }
 
       h3 {
@@ -1011,8 +1029,36 @@ a.anchorPadContest {
         margin: 15px 0;
         padding: 0 30px;
         font-size: $bodyCopy;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
       }
 
+      .bioExcerpt {
+        display: inline-block;
+
+        @media screen and (max-width: 500px) and (orientation: portrait) {
+          display: none;
+        }
+      }
+
+      .bioFull {
+        display: none;
+
+        @media screen and (max-width: 500px) and (orientation: portrait) {
+          display: inline-block;
+        }
+
+        p {
+          position: relative;
+          display: block;
+          font-weight: 300;
+          font-size: $bodyCopy;
+          line-height: 1.7em;
+          margin: 0;
+          color: #ccc;
+          padding: 0 30px;
+        }
+
+      }
 
        .comingSoon {
          text-align: center;
@@ -1020,7 +1066,6 @@ a.anchorPadContest {
          font-weight: 900;
          text-transform: uppercase;
       }
-
 
       .bioLinkAshley, .bioLinkZoya, .bioLinkGuy, .bioLinkDalby {
         text-transform: uppercase;
@@ -1035,14 +1080,14 @@ a.anchorPadContest {
         left: 35%;
         right: 35%;
 
-        @media screen and (max-width: 340px) and (orientation: portrait) {
-          left: 30%;
-          right: 30%;
+        @media screen and (max-width: 500px) and (orientation: portrait) {
+          display: none;
         }
       }
 
       .lighter {
         font-weight: 100;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
       }
 
       p {
@@ -1063,8 +1108,6 @@ a.anchorPadContest {
         display: inline-block;
         padding: 0 7px;
       }
-
-
     }
   }
 }
@@ -1073,6 +1116,8 @@ a.anchorPadContest {
   left: 0% !important;
   transition: all .5s;
 }
+
+// Photographer Bio Modal Containers
 
 .contestantBioAshley, .contestantBioZoya, .contestantBioGuy, .contestantBioDalby {
   position: fixed;
@@ -1275,11 +1320,10 @@ a.anchorPadContest {
   background-position: 300px;
 
   @media screen and (max-width: 780px) {
-    background-position: 0px 300px;
+    background-size: 117%;
+    background-position: 0px 380px;
   }
 }
-
-
 
 .winners {
   margin-top: 120px;
@@ -1320,7 +1364,6 @@ a.anchorPadContest {
       font-weight: 100;
       font-size: 13px;
     }
-
   }
 
   .marginFlex {
@@ -1328,19 +1371,15 @@ a.anchorPadContest {
   }
 }
 
-
-
 .afterparty {
   margin-top: 120px;
   width: 100%;
   height: 400px;
-  // padding-bottom: 35%;
   background: #333;
-  // background: url('../img/afterparty1BWfade.jpg') no-repeat;
-  // background: url('../img/1920x1080GLCoutsideCorner.jpg') no-repeat;
-  background: url('../img/1920x1080GLCevent.jpg') no-repeat;
+  background: url('../img/1920x1080GLCeventEdit.jpg') no-repeat;
   background-size: cover;
-  padding-top: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   overflow: hidden;
 
   @media screen and (max-width: 959px) {
@@ -1376,9 +1415,9 @@ a.anchorPadContest {
 
     .headline {
       background: black;
-      padding: 10px;
+      padding: 20px 0 20px 15px;
       text-align: left;
-      margin: 5px 0;
+      margin: 5px 0px;
 
       h1 {
         color: white;
@@ -1388,6 +1427,8 @@ a.anchorPadContest {
         margin: 0 0 -10px 0;
         padding: 0;
         line-height: 1.2em;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
+
       }
 
       h3 {
@@ -1399,6 +1440,7 @@ a.anchorPadContest {
         padding: 0;
         text-transform: uppercase;
         line-height: .8em;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
 
         sup {
           box-sizing: border-box;
@@ -1410,7 +1452,7 @@ a.anchorPadContest {
 
     .subheadline {
       background: black;
-      padding: 5px 10px 5px;
+      padding: 10px 0 10px 15px;
       text-align: left;
       margin: 0;
       margin-top: 10px;
@@ -1418,17 +1460,20 @@ a.anchorPadContest {
       h5 {
         font-style: italic;
         font-weight: 100;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
         font-size: 12px;
         color: #aaa;
         margin: 0;
         padding: 0;
-        line-height: 15px;
-        margin-top: -10px;
+        line-height: 12px;
+        margin-top: 10px;
+        max-width: 350px;
 
 
 
         a {
-          color: $linkColor;
+          // color: $linkColor;
+          color: deeppink;
           background: none;
           font-weight: 100;
           font-size: 13px;
@@ -1437,8 +1482,8 @@ a.anchorPadContest {
           float: none;
           display: inline-block;
           margin-top: 0;
-          margin-left: 0;
-          padding-left: 5px;
+          margin-left: -10px;
+
         }
       }
 
@@ -1451,8 +1496,8 @@ a.anchorPadContest {
         margin: 5px 0;
         padding: 0;
         text-transform: uppercase;
-        font-weight: 100;
-        font-size: 14px;
+        font-weight: 600;
+        font-size: 16px;
         line-height: 12px;
 
         @media screen and (max-width: 500px) {
@@ -1466,11 +1511,12 @@ a.anchorPadContest {
       }
 
       p {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 100;
-        line-height: 19px;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
+        line-height: 20px;
         max-width: 350px;
-        margin-top: 5px;
+        margin-top: 10px;
       }
     }
 
@@ -1486,6 +1532,7 @@ a.anchorPadContest {
       font-size: 18px;
       text-transform: uppercase;
       font-weight: 900;
+      font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
       transition: all 1s;
       border: 1px solid white;
       text-align: left;
@@ -1650,6 +1697,7 @@ a.anchorPadContest {
 
   h4 {
     font-weight: 100;
+    font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -1669,6 +1717,7 @@ a.anchorPadContest {
     text-align: left;
     line-height: .9em;
     font-weight: 900;
+    font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 24px;
     width: 100%;
@@ -1707,9 +1756,11 @@ a.anchorPadContest {
     }
 
     p {
-      font-size: 13px;
+      font-size: 14px;
       text-align: left;
-      line-height: 1.7em;
+      line-height: 24px;
+      font-weight: 100;
+      font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
     }
 
     .bolder {
@@ -1927,7 +1978,8 @@ a.anchorPadContest {
         color: white;
         font-size: 24px;
         line-height: .9em;
-        font-weight: 700;
+        font-weight: 900;
+        font-family:'Avenir LT W01_85 Heavy1475544', Arial, sans-serif;
         text-align: left;
         margin-top: 0;
         padding-top: 0;
@@ -1942,6 +1994,7 @@ a.anchorPadContest {
         font-size: 14px;
         line-height: 24px;
         font-weight: 100;
+        font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
         text-align: left;
         padding-right: 30px;
       }
