@@ -946,6 +946,12 @@ a.anchorPadContest {
         min-height: 550px;
       }
 
+      @media screen and (max-height: 400px) and (orientation: landscape) {
+        height: auto;
+        padding-bottom: 30px;
+        min-height: 550px;
+      }
+
       .contestantHero {
         position: relative;
         display: block;
@@ -1038,6 +1044,10 @@ a.anchorPadContest {
         @media screen and (max-width: 500px) and (orientation: portrait) {
           display: none;
         }
+
+        @media screen and (max-height: 400px) and (orientation: landscape) {
+          display: none;
+        }
       }
 
       .bioFull {
@@ -1047,15 +1057,20 @@ a.anchorPadContest {
           display: inline-block;
         }
 
+        @media screen and (max-height: 400px) and (orientation: landscape) {
+          display: inline-block;
+        }
+
         p {
           position: relative;
           display: block;
           font-weight: 300;
-          font-size: $bodyCopy;
-          line-height: 1.7em;
+          font-size: 14px;
+          line-height: 1.5em;
           margin: 0;
           color: #ccc;
           padding: 0 30px;
+          text-align: left;
         }
 
       }
@@ -1081,6 +1096,10 @@ a.anchorPadContest {
         right: 35%;
 
         @media screen and (max-width: 500px) and (orientation: portrait) {
+          display: none;
+        }
+
+        @media screen and (max-height: 400px) and (orientation: landscape) {
           display: none;
         }
       }
