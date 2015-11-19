@@ -40,8 +40,6 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .navDisplay { transition: height .5s; position: fixed; top: 0 !important; margin-top: 0 !important; }
 @media screen and (max-height: 705px) { .navDisplay { top: 0px !important; } }
 
-.watermark { position: absolute; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 500px; background-position: -90px 200px; width: 100%; height: 100%; margin-top: 5px; opacity: 0.6; padding: 0; overflow: hidden; box-sizing: border-box; display: none; }
-
 .watermarkBehind { position: absolute; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 500px; background-position: -5% 125%; width: 100%; height: 100%; margin-top: 5px; opacity: 0.2; padding: 0; right: 0; overflow: hidden; box-sizing: border-box; }
 @media screen and (max-width: 600px) { .watermarkBehind { background-size: 300px; background-position: -2% 66%; } }
 @media screen and (max-width: 570px) and (orientation: landscape) { .watermarkBehind { background-size: 200px; background-position: -2% 36%; } }
@@ -85,7 +83,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .sponsors ul { text-align: center; }
 .sponsors ul li { list-style: none; display: inline-block; padding-right: 30px; }
 .sponsors .sponsor { width: 11%; min-width: 100px; }
-.sponsors a img { width: 100%; height: 100%; overflow: hidden; }
+.sponsors a { border: none; outline: none; }
+.sponsors a img { width: 100%; height: 100%; overflow: hidden; border: none; outline: none; text-decoration: none; }
 .sponsors .mainSponsor { width: 13%; min-width: 100px; margin-bottom: 40px; padding-right: 45px !important; }
 @media screen and (max-width: 600px) { .sponsors .mainSponsor { margin-bottom: 10px; } }
 .sponsors .mainSponsor a img { width: 100%; height: 100%; overflow: hidden; vertical-align: top; }
@@ -185,6 +184,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 500px) and (orientation: portrait) { .contestants .contestantWrap .contestantItem .bioLinkAshley, .contestants .contestantWrap .contestantItem .bioLinkZoya, .contestants .contestantWrap .contestantItem .bioLinkGuy, .contestants .contestantWrap .contestantItem .bioLinkDalby { display: none; } }
 @media screen and (max-height: 400px) and (orientation: landscape) { .contestants .contestantWrap .contestantItem .bioLinkAshley, .contestants .contestantWrap .contestantItem .bioLinkZoya, .contestants .contestantWrap .contestantItem .bioLinkGuy, .contestants .contestantWrap .contestantItem .bioLinkDalby { display: none; } }
 .contestants .contestantWrap .contestantItem .lighter { font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
+.contestants .contestantWrap .contestantItem .lighter a { color: white; padding: 0 0px; font-size: 15px; transition: all .5s; }
+.contestants .contestantWrap .contestantItem .lighter a:hover { color: teal; transition: all 1s; }
 .contestants .contestantWrap .contestantItem p { position: relative; display: block; font-weight: 300; font-size: 14px; line-height: 1.7em; margin: 0; color: #ccc; padding: 0 30px; }
 .contestants .contestantWrap .contestantItem a { position: relative; font-size: 13px; line-height: 10px; display: inline-block; padding: 0 7px; }
 
@@ -223,7 +224,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 @media screen and (max-width: 780px) { .galleryGuy { background-position: 0px 300px; } }
 
 .galleryDalby { background: url("../img/bioDalbyHero.jpg") no-repeat; background-size: 80%; background-position: 300px; }
-@media screen and (max-width: 780px) { .galleryDalby { background-size: 117%; background-position: 0px 380px; } }
+@media screen and (max-width: 780px) { .galleryDalby { background-size: 117%; background-position: 0 340px; } }
 
 .winners { margin-top: 120px; border-bottom: none !important; }
 .winners .winnersWrap { width: 100%; text-align: center; }
@@ -307,10 +308,10 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .contest .contestIntro .contestCol a.rulesLink { color: white; text-align: left; display: block; font-size: 14px; text-decoration: underline; }
 .contest .contestIntro .contestCol .contestSocial { line-height: 10px; position: relative; text-align: left; }
 .contest .contestIntro .contestCol .contestSocial a.socialLink { padding: 8px 12px 8px 12px; background: #555; display: inline-block; position: relative; color: white; text-transform: uppercase; font-size: 13px; text-align: left; font-weight: 900; border-radius: 2px; transition: all 1s; }
-.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon { position: relative; display: inline-block; width: 12px; margin-right: 8px; }
-.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg { width: 100%; height: auto; }
-.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter { fill: white; }
-.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta { fill: white; }
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon { position: relative; display: inline-block; width: 12px; height: 15px; margin-right: 8px; }
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg { width: 100%; height: 15px; }
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialTwitter { fill: white; height: 15px; }
+.contest .contestIntro .contestCol .contestSocial a.socialLink .socialIcon svg .socialInsta { fill: white; height: 15px; }
 .contest .contestIntro .contestCol .contestSocial a.socialLink:hover { background: teal; transition: all 1s; }
 .contest .contestIntro .addPad { margin-right: 7%; }
 .contest .galleryWrap { padding-right: 15px; box-sizing: border-box; }
@@ -331,8 +332,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .charity .charityWrap .charityCopyWrap h1 { color: white; font-size: 24px; line-height: .9em; font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; text-align: left; margin-top: 0; padding-top: 0; vertical-align: top; }
 @media screen and (max-width: 600px) { .charity .charityWrap .charityCopyWrap h1 { margin-top: 20px !important; } }
 .charity .charityWrap .charityCopyWrap p { font-size: 14px; line-height: 24px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; text-align: left; padding-right: 30px; }
-.charity .charityWrap .charityCopyWrap a { color: white; margin-top: -30px; }
-.charity .charityWrap .charityCopyWrap img { width: 120px; }
+.charity .charityWrap .charityCopyWrap a { color: white; margin-top: -30px; border: none; outline: none; }
+.charity .charityWrap .charityCopyWrap img { width: 120px; border: none; outline: none; }
 
 footer { width: 100%; background: #010101; vertical-align: top; padding: 10px 0; margin-top: 90px; height: 60px; }
 footer .right { text-align: right; float: right; }
