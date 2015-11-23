@@ -206,7 +206,6 @@ header {
   position: relative;
   width: $bpfull;
   margin: 0 auto;
-  // border: 1px solid teal;
 
   @media screen and (max-width: $bpfull) {
     width: 100%;
@@ -901,7 +900,7 @@ header {
 .itemRogerStrongPatience {
   .itemImg {
     background:url('../img/itemRogerStrongPatience.jpg') no-repeat;
-    background-size: 140%;
+    background-size: 120%;
     background-position: right center;
   }
 }
@@ -909,7 +908,7 @@ header {
 .itemCommitPersonalVelocity {
   .itemImg {
     background:url('../img/itemPersonalVelocity.jpg') no-repeat;
-    background-size: 140%;
+    background-size: 110%;
     background-position: center center;
   }
 
@@ -952,6 +951,88 @@ header {
     background:url('../img/itemAltai.jpg') no-repeat;
     background-size: 120%;
     background-position: center center;
+  }
+}
+
+.itemWmnsLayering{
+   .itemImg {
+     background:url('../img/itemWmnsLayering.jpg') no-repeat;
+     background-size: 120%;
+     background-position: center center;
+   }
+}
+
+.itemKOD{
+  .itemImg {
+    background:url('../img/itemKOD.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
+}
+
+.itemClimbingAcademy{
+  .itemImg {
+    background:url('../img/itemClimbingAcademy2.jpg') no-repeat;
+    background-size: 110%;
+    background-position: center center;
+  }
+}
+
+.itemAlpineAcademy{
+  .itemImg {
+    background:url('../img/itemAlpineAcademyFull.jpg') no-repeat;
+    background-size: 115%;
+    background-position: center center;
+  }
+  .itemContent {
+    right: 30px;
+    bottom: 30px;
+    width: 220px !important;
+  }
+}
+
+.itemRedditAMA {
+  .itemImg {
+    background:url('../img/itemRedditAMA.jpg') no-repeat;
+    background-size: 115%;
+    background-position: center center;
+  }
+}
+
+.itemDarkWild{
+  .itemImg {
+    background:url('../img/itemDarkWildFull.jpg') no-repeat;
+    background-size: 115%;
+    background-position: center center;
+  }
+  .itemContent {
+    right: 30px;
+    bottom: 30px;
+    width: 220px !important;
+  }
+}
+
+.itemOverExposure {
+  .itemImg {
+    background:url('../img/itemOverExposure.jpg') no-repeat;
+    background-size: 115%;
+    background-position: center center;
+  }
+}
+
+.itemIdentityLost {
+  .itemImg {
+    background:url('../img/itemIdentityLost.jpg') no-repeat;
+    background-size: 115%;
+    background-position: center center;
+  }
+}
+
+.itemSelfPropelled {
+  .itemImg {
+    background:url('../img/itemSelfPropelled.jpg') no-repeat;
+    background-size: 115%;
+    background-position: right center;
   }
 }
 
