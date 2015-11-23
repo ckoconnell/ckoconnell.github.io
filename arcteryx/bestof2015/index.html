@@ -636,6 +636,17 @@
 
 
 <script type="text/javascript">
+    var filterOnLoad = window.location.hash ? '.'+(window.location.hash).replace('#','') : 'all';
+    $(function(){
+    $("#mixWrap").mixItUp({
+        load: {
+            filter: filterOnLoad
+        }
+    });
+});
+</script>
+
+<script type="text/javascript">
     $(function(){
         $('#mixWrap').mixItUp();
     });
