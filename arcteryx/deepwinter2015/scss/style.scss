@@ -780,13 +780,9 @@ a.anchorPadContest {
         margin: 0 20px 0 0px;
       }
 
-      @media screen and (max-width: 570px) and (orientation: landscape) {
-        margin: 0 20px 0 20px;
-      }
-
-      @media screen and (max-width: 340px) and (orientation: portrait) {
-        margin: 0px 20px 0 20px !important;
-      }
+     @media screen and (max-width: 600px) {
+       margin: 0;
+     }
     }
 
     .sideMarginPush {
@@ -813,8 +809,8 @@ a.anchorPadContest {
 
     .sideMarginPhoneSingle {
 
-      @media screen and (max-width: 360px) and (orientation: portrait) {
-        margin: 20px 0 20px 0px !important;
+      @media screen and (max-width: 600px) {
+        margin: 0 0 30px 0px !important;
       }
     }
 
@@ -1287,7 +1283,7 @@ a.anchorPadContest {
   background-position: 300px;
 
   @media screen and (max-width: 780px) {
-    background-position: 0 0;
+    background-position: center !important;
   }
 }
 
@@ -1474,6 +1470,7 @@ a.anchorPadContest {
           font-size: 13px;
           border: none;
           text-transform: none;
+          font-family:'Avenir LT W01_35 Light1475496', Arial, sans-serif;
           float: none;
           display: inline-block;
           margin-top: 0;
