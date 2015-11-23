@@ -343,24 +343,25 @@ header .logoWrap .logo2015 {
   position: relative;
   min-width: 270px;
   cursor: pointer;
+  vertical-align: top;
 }
-/* line 332, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 #mixWrap .mix h1 {
   font-size: 14px;
   font-weight: 100;
 }
-/* line 338, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 #mixWrap .itemImg {
   width: 100%;
   cursor: pointer;
 }
-/* line 343, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 #mixWrap .itemContent {
   padding: 15px;
   text-align: left;
   cursor: pointer;
 }
-/* line 348, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 #mixWrap .itemContent h1 {
   font-size: 15px;
   font-weight: 700;
@@ -371,7 +372,7 @@ header .logoWrap .logo2015 {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 360, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 #mixWrap .itemContent h2 {
   font-size: 12px;
   font-weight: 100;
@@ -382,7 +383,7 @@ header .logoWrap .logo2015 {
   padding-top: 5px;
   cursor: pointer;
 }
-/* line 372, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 #mixWrap .itemContent h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -392,7 +393,7 @@ header .logoWrap .logo2015 {
   padding: 0;
   cursor: pointer;
 }
-/* line 382, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 #mixWrap .itemContent h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -402,86 +403,86 @@ header .logoWrap .logo2015 {
   padding: 0;
   cursor: pointer;
 }
-/* line 392, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 #mixWrap .itemContent p {
   font-size: 13px;
   cursor: pointer;
 }
-/* line 398, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 #mixWrap .wThird {
   width: 30%;
   max-width: 300px;
 }
-/* line 401, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 #mixWrap .wThird .itemImg {
   height: 225px;
 }
 @media screen and (max-width: 768px) {
-  /* line 398, ../scss/style.scss */
+  /* line 399, ../scss/style.scss */
   #mixWrap .wThird {
     height: 500px;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 398, ../scss/style.scss */
+  /* line 399, ../scss/style.scss */
   #mixWrap .wThird {
     width: 90%;
     max-width: 90%;
     height: auto !important;
   }
 }
-/* line 415, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 #mixWrap .wHalf {
   width: 47%;
   max-width: 425px;
 }
-/* line 418, ../scss/style.scss */
+/* line 419, ../scss/style.scss */
 #mixWrap .wHalf .itemImg {
   height: 300px;
 }
 @media screen and (max-width: 768px) {
-  /* line 415, ../scss/style.scss */
+  /* line 416, ../scss/style.scss */
   #mixWrap .wHalf {
     height: 500px;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 415, ../scss/style.scss */
+  /* line 416, ../scss/style.scss */
   #mixWrap .wHalf {
     width: 90%;
     max-width: 90%;
     height: auto !important;
   }
 }
-/* line 433, ../scss/style.scss */
+/* line 434, ../scss/style.scss */
 #mixWrap .wGroup {
   width: 97%;
 }
-/* line 437, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 #mixWrap .wFull {
   width: 65%;
   max-width: 630px;
 }
-/* line 440, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 #mixWrap .wFull .itemImg {
   height: 480px;
 }
 @media screen and (max-width: 768px) {
-  /* line 437, ../scss/style.scss */
+  /* line 438, ../scss/style.scss */
   #mixWrap .wFull {
     height: 450px;
     width: 90%;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 437, ../scss/style.scss */
+  /* line 438, ../scss/style.scss */
   #mixWrap .wFull {
     width: 90%;
     max-width: 90%;
     height: auto !important;
   }
 }
-/* line 455, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 #mixWrap .wFull .itemContent {
   width: 300px;
   height: auto;
@@ -492,94 +493,94 @@ header .logoWrap .logo2015 {
   background: #fff;
 }
 
-/* line 468, ../scss/style.scss */
+/* line 469, ../scss/style.scss */
 #mixWrap .mix {
   display: none;
 }
 
-/* line 475, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 .itemMexicoVolcano .itemImg {
   background: url("../img/itemMexicoVolcano.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 482, ../scss/style.scss */
+/* line 483, ../scss/style.scss */
 .itemHojiAfterglow .itemImg {
   background: url("../img/itemHojiAfterglow.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 489, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 .itemManleyUK .itemImg {
   background: url("../img/itemManleyUK.jpg") no-repeat;
   background-size: cover;
   background-position: -250px top;
 }
 @media screen and (max-width: 768px) {
-  /* line 489, ../scss/style.scss */
+  /* line 490, ../scss/style.scss */
   .itemManleyUK .itemImg {
     background-size: cover;
   }
 }
-/* line 499, ../scss/style.scss */
+/* line 500, ../scss/style.scss */
 .itemManleyUK .itemContent {
   bottom: 30px;
   left: 30px;
 }
 
-/* line 506, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 .itemTrueSpirit .itemImg {
   background: url("../img/itemTrueSpirit.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 513, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .itemBurkardRoss .itemImg {
   background: url("../img/itemBurkardRoss.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 520, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 .itemOffGrid .itemImg {
   background: url("../img/itemOffGrid.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 527, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 .itemLithicGlove .itemImg {
   background: url("../img/itemLithicGlove.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 534, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 .itemGoreCare .itemImg {
   background: url("../img/itemGoreCare.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 541, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 .itemInspiredDesign .itemImg {
   background: url("../img/itemInspiredDesign.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 548, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 .itemColoradoClassics .itemImg {
   background: url("../img/itemColoradoClassics.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 554, ../scss/style.scss */
+/* line 555, ../scss/style.scss */
 .itemEverestGroup {
   height: 640px !important;
 }
-/* line 557, ../scss/style.scss */
+/* line 558, ../scss/style.scss */
 .itemEverestGroup .itemImg {
   height: 640px !important;
   background: url("../img/itemEverestGroup.jpg") no-repeat;
   background-size: cover;
 }
-/* line 563, ../scss/style.scss */
+/* line 564, ../scss/style.scss */
 .itemEverestGroup .groupWrap {
   position: absolute;
   display: block;
@@ -590,7 +591,7 @@ header .logoWrap .logo2015 {
   text-align: left;
   height: 450px;
 }
-/* line 573, ../scss/style.scss */
+/* line 574, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupIntro {
   position: relative;
   display: inline-block;
@@ -602,7 +603,7 @@ header .logoWrap .logo2015 {
   padding: 30px;
   opacity: 0.9;
 }
-/* line 584, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupIntro h4 {
   font-weight: 900;
   font-size: 18px;
@@ -610,7 +611,7 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 592, ../scss/style.scss */
+/* line 593, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupIntro h5 {
   font-weight: 400;
   font-size: 15px;
@@ -618,13 +619,13 @@ header .logoWrap .logo2015 {
   margin: 0;
   padding: 0;
 }
-/* line 601, ../scss/style.scss */
+/* line 602, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupContent {
   width: 63%;
   position: relative;
   display: inline-block;
 }
-/* line 606, ../scss/style.scss */
+/* line 607, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupContent .itemContent {
   position: relative;
   display: inline-block;
@@ -636,149 +637,149 @@ header .logoWrap .logo2015 {
   vertical-align: top;
   transition: all 1s;
 }
-/* line 618, ../scss/style.scss */
+/* line 619, ../scss/style.scss */
 .itemEverestGroup .groupWrap .groupContent .itemContent:hover {
   background: #bbb !important;
   transition: all 1s;
 }
 
-/* line 627, ../scss/style.scss */
+/* line 628, ../scss/style.scss */
 .itemIzzyJapan .itemImg {
   background: url("../img/itemIzzyJapan.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 634, ../scss/style.scss */
+/* line 635, ../scss/style.scss */
 .itemStanhopeGear .itemImg {
   background: url("../img/itemStanhopeGear.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 641, ../scss/style.scss */
+/* line 642, ../scss/style.scss */
 .itemGranParadiso .itemImg {
   background: url("../img/itemGranParadiso.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 648, ../scss/style.scss */
+/* line 649, ../scss/style.scss */
 .itemWeldonCasa .itemImg {
   background: url("../img/itemWeldonCasa.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 655, ../scss/style.scss */
+/* line 656, ../scss/style.scss */
 .itemBrideNorway .itemImg {
   background: url("../img/itemBrideNorway.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 662, ../scss/style.scss */
+/* line 663, ../scss/style.scss */
 .itemNinaTrying .itemImg {
   background: url("../img/itemNinaTrying.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 669, ../scss/style.scss */
+/* line 670, ../scss/style.scss */
 .itemChamonixWaiting .itemImg {
   background: url("../img/itemChamonixWaiting.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 676, ../scss/style.scss */
+/* line 677, ../scss/style.scss */
 .itemChiaroLuna .itemImg {
   background: url("../img/itemChiaroLuna.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 683, ../scss/style.scss */
+/* line 684, ../scss/style.scss */
 .itemBananaRepublik .itemImg {
   background: url("../img/itemBananaRepublik.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 690, ../scss/style.scss */
+/* line 691, ../scss/style.scss */
 .itemFamilyCroatia .itemImg {
   background: url("../img/itemFamilyCroatia.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 697, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 .itemManleyYukon .itemImg {
   background: url("../img/itemManleyYukon.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 704, ../scss/style.scss */
+/* line 705, ../scss/style.scss */
 .itemWomenAdmire .itemImg {
   background: url("../img/itemWomenAdmire.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 711, ../scss/style.scss */
+/* line 712, ../scss/style.scss */
 .itemNorwayQuest .itemImg {
   background: url("../img/itemNorwayQuest.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 718, ../scss/style.scss */
+/* line 719, ../scss/style.scss */
 .itemKatySetbacks .itemImg {
   background: url("../img/itemKatySetbacks.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 725, ../scss/style.scss */
+/* line 726, ../scss/style.scss */
 .itemLocationLayering .itemImg {
   background: url("../img/itemLocationLayering.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 732, ../scss/style.scss */
+/* line 733, ../scss/style.scss */
 .itemBurkardReal .itemImg {
   background: url("../img/itemBurkardReal.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 739, ../scss/style.scss */
+/* line 740, ../scss/style.scss */
 .itemMorganWild .itemImg {
   background: url("../img/itemMorganWild.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 745, ../scss/style.scss */
+/* line 746, ../scss/style.scss */
 .itemFootwear {
   height: 600px !important;
 }
-/* line 748, ../scss/style.scss */
+/* line 749, ../scss/style.scss */
 .itemFootwear .itemImg {
   background: url("../img/itemFootwear2.jpg") no-repeat;
   background-size: 100%;
   background-position: bottom center;
   height: 100%;
 }
-/* line 755, ../scss/style.scss */
+/* line 756, ../scss/style.scss */
 .itemFootwear .groupWrap {
   position: absolute;
   top: 30px;
   right: 30px;
   width: 30%;
 }
-/* line 762, ../scss/style.scss */
+/* line 763, ../scss/style.scss */
 .itemFootwear .groupIntro {
   text-align: left;
   width: 100%;
   color: white;
 }
-/* line 767, ../scss/style.scss */
+/* line 768, ../scss/style.scss */
 .itemFootwear .groupIntro h4 {
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 771, ../scss/style.scss */
+/* line 772, ../scss/style.scss */
 .itemFootwear .groupIntro h5 {
   font-weight: 100;
   margin-top: 10px;
 }
-/* line 776, ../scss/style.scss */
+/* line 777, ../scss/style.scss */
 .itemFootwear .groupIntro a {
   border: 1px solid white;
   padding: 5px 12px 3px 12px;
@@ -787,18 +788,18 @@ header .logoWrap .logo2015 {
   text-transform: uppercase;
   margin-right: 10px;
 }
-/* line 788, ../scss/style.scss */
+/* line 789, ../scss/style.scss */
 .itemFootwear .groupContent .itemContent {
   color: white;
   padding: 0 !important;
   margin-top: 30px;
   width: 100%;
 }
-/* line 794, ../scss/style.scss */
+/* line 795, ../scss/style.scss */
 .itemFootwear .groupContent .itemContent ul {
   margin-left: -25px;
 }
-/* line 797, ../scss/style.scss */
+/* line 798, ../scss/style.scss */
 .itemFootwear .groupContent .itemContent ul li {
   list-style: none;
   color: white;
@@ -806,139 +807,139 @@ header .logoWrap .logo2015 {
   margin-left: -5px;
   margin-bottom: 10px;
 }
-/* line 804, ../scss/style.scss */
+/* line 805, ../scss/style.scss */
 .itemFootwear .groupContent .itemContent ul li a {
   color: white;
 }
-/* line 807, ../scss/style.scss */
+/* line 808, ../scss/style.scss */
 .itemFootwear .groupContent .itemContent ul li a .bolder {
   font-weight: 900;
 }
 
-/* line 818, ../scss/style.scss */
+/* line 819, ../scss/style.scss */
 .itemPiaGregJapan .itemImg {
   background: url("../img/itemPiaGregJapan.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 825, ../scss/style.scss */
+/* line 826, ../scss/style.scss */
 .itemLukaPatagonia .itemImg {
   background: url("../img/itemLukaPatagonia.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 832, ../scss/style.scss */
+/* line 833, ../scss/style.scss */
 .itemMountainRules .itemImg {
   background: url("../img/itemMountainRules.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 839, ../scss/style.scss */
+/* line 840, ../scss/style.scss */
 .itemDownCare .itemImg {
   background: url("../img/itemDownCare.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 846, ../scss/style.scss */
+/* line 847, ../scss/style.scss */
 .itemDeepWinter .itemImg {
   background: url("../img/itemDeepWinter.jpg") no-repeat;
   background-size: 140%;
   background-position: right top;
 }
-/* line 852, ../scss/style.scss */
+/* line 853, ../scss/style.scss */
 .itemDeepWinter .itemContent {
   bottom: 30px;
   left: 30px;
 }
 
-/* line 859, ../scss/style.scss */
+/* line 860, ../scss/style.scss */
 .itemTheoreticalObjective .itemImg {
   background: url("../img/itemTheoreticalObjective.jpg") no-repeat;
   background-size: 140%;
   background-position: left bottom;
 }
 
-/* line 867, ../scss/style.scss */
+/* line 868, ../scss/style.scss */
 .itemPigeonSpire .itemImg {
   background: url("../img/itemPebbleshooPigeonSpire.jpg") no-repeat;
   background-size: 140%;
   background-position: left bottom;
 }
 
-/* line 875, ../scss/style.scss */
+/* line 876, ../scss/style.scss */
 .itemWhitney .itemImg {
   background: url("../img/itemWhitney.jpg") no-repeat;
   background-size: 140%;
   background-position: center center;
 }
-/* line 881, ../scss/style.scss */
+/* line 882, ../scss/style.scss */
 .itemWhitney .itemContent {
   top: 30px;
   left: 30px;
 }
 
-/* line 888, ../scss/style.scss */
+/* line 889, ../scss/style.scss */
 .itemJustinChile .itemImg {
   background: url("../img/itemJustinChile.jpg") no-repeat;
   background-size: 110%;
   background-position: right top;
 }
-/* line 894, ../scss/style.scss */
+/* line 895, ../scss/style.scss */
 .itemJustinChile .itemContent {
   left: 30px;
   top: 30px;
 }
 
-/* line 901, ../scss/style.scss */
+/* line 902, ../scss/style.scss */
 .itemRogerStrongPatience .itemImg {
   background: url("../img/itemRogerStrongPatience.jpg") no-repeat;
   background-size: 140%;
   background-position: right center;
 }
 
-/* line 909, ../scss/style.scss */
+/* line 910, ../scss/style.scss */
 .itemCommitPersonalVelocity .itemImg {
   background: url("../img/itemPersonalVelocity.jpg") no-repeat;
   background-size: 140%;
   background-position: center center;
 }
 
-/* line 918, ../scss/style.scss */
+/* line 919, ../scss/style.scss */
 .itemSixDayWindow .itemImg {
   background: url("../img/itemSixDayWindow.jpg") no-repeat;
   background-size: 120%;
   background-position: center center;
 }
 
-/* line 926, ../scss/style.scss */
+/* line 927, ../scss/style.scss */
 .itemEganMemorial .itemImg {
   background: url("../img/itemEganMemorial.jpg") no-repeat;
   background-size: 120%;
   background-position: center center;
 }
 
-/* line 934, ../scss/style.scss */
+/* line 935, ../scss/style.scss */
 .itemFlannAvy .itemImg {
   background: url("../img/itemFlannAvy.jpg") no-repeat;
   background-size: 120%;
   background-position: center center;
 }
 
-/* line 942, ../scss/style.scss */
+/* line 943, ../scss/style.scss */
 .itemProductLine .itemImg {
   background: url("../img/itemProductLine.jpg") no-repeat;
   background-size: 120%;
   background-position: center center;
 }
 
-/* line 950, ../scss/style.scss */
+/* line 951, ../scss/style.scss */
 .itemAltai .itemImg {
   background: url("../img/itemAltai.jpg") no-repeat;
   background-size: 120%;
   background-position: center center;
 }
 
-/* line 957, ../scss/style.scss */
+/* line 958, ../scss/style.scss */
 .slick-slider {
   margin-left: -8px !important;
   padding: 0 !important;
