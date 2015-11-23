@@ -327,6 +327,7 @@ header {
     overflow: hidden;
     position: relative;
     min-width: 270px;
+    cursor: pointer;
 
     h1 {
       font-size: 14px;
@@ -336,11 +337,13 @@ header {
 
   .itemImg {
     width: 100%;
+    cursor: pointer;
   }
 
   .itemContent {
     padding: 15px;
     text-align: left;
+    cursor: pointer;
 
     h1 {
       font-size: 15px;
@@ -351,6 +354,7 @@ header {
       margin: 0;
       padding: 0;
       text-transform: uppercase;
+      cursor: pointer;
     }
 
     h2 {
@@ -362,6 +366,7 @@ header {
       padding: 0;
       line-height: 15px;
       padding-top: 5px;
+      cursor: pointer;
     }
 
     h3 {
@@ -371,6 +376,7 @@ header {
       color: #666;
       margin: 0;
       padding: 0;
+      cursor: pointer;
     }
 
     h4 {
@@ -380,10 +386,12 @@ header {
       color: #666;
       margin: 0;
       padding: 0;
+      cursor: pointer;
     }
 
     p {
       font-size: 13px;
+      cursor: pointer;
     }
   }
 
@@ -904,6 +912,46 @@ header {
     background-position: center center;
   }
 
+}
+
+.itemSixDayWindow {
+  .itemImg {
+    background:url('../img/itemSixDayWindow.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
+}
+
+.itemEganMemorial {
+  .itemImg {
+    background:url('../img/itemEganMemorial.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
+}
+
+.itemFlannAvy{
+  .itemImg {
+    background:url('../img/itemFlannAvy.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
+}
+
+.itemProductLine{
+  .itemImg {
+    background:url('../img/itemProductLine.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
+}
+
+.itemAltai{
+  .itemImg {
+    background:url('../img/itemAltai.jpg') no-repeat;
+    background-size: 120%;
+    background-position: center center;
+  }
 }
 
 .slick-slider {
