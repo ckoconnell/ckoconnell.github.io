@@ -450,6 +450,10 @@ header {
         height: 225px;
         background-size: cover;
       }
+
+      @media screen and (max-width: $bpphone) {
+        height: 325px !important;
+      }
     }
 
     @media screen and (max-width: 768px) {

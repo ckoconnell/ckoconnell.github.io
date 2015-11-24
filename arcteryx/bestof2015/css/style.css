@@ -78,6 +78,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 #mixWrap .wHalf { width: 47%; max-width: 425px; }
 #mixWrap .wHalf .itemImg { height: 300px; }
 @media screen and (max-width: 767px) { #mixWrap .wHalf .itemImg { height: 225px; background-size: cover; } }
+@media screen and (max-width: 599px) { #mixWrap .wHalf .itemImg { height: 325px !important; } }
 @media screen and (max-width: 768px) { #mixWrap .wHalf { height: 500px; } }
 @media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; height: 470px; } }
 @media screen and (max-width: 599px) { #mixWrap .wHalf { width: 94%; max-width: 94%; height: auto !important; } }
