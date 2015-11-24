@@ -86,6 +86,10 @@ header {
     height: 400px;
   }
 
+  @media screen and (max-width: $bpphone) {
+    height: 300px;
+  }
+
 
   ul {
     list-style: none;
