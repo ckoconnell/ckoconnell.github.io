@@ -13,6 +13,7 @@ header .logoWrap .logoOf { position: absolute; font-weight: 100; font-size: 28px
 header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72px; letter-spacing: 1px; text-shadow: 1px 1px 3px #111; top: 60px; left: 50px; }
 
 .featureWrap { width: 100%; height: 75%; background: #121212; box-sizing: border-box; text-align: center; position: absolute; top: 0; left: 0; }
+@media screen and (max-width: 767px) { .featureWrap { height: 400px; } }
 .featureWrap ul { list-style: none; z-index: 1000; }
 .featureWrap ul li { width: 15px; height: 15px; display: inline-block; margin: 0 5px !important; overflow: hidden; }
 .featureWrap ul li button { color: #666 !important; display: inline-block !important; background: #666; padding: 4px; width: 10px; height: 10px; border-radius: 5px; border: none; overflow: hidden !important; }
