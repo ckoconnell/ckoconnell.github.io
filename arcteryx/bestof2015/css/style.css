@@ -14,7 +14,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 
 .mobileMenuWrap { display: none; }
 @media screen and (max-width: 599px) { .mobileMenuWrap { position: fixed; display: inline-block; z-index: 1000; width: 50px; height: 50px; left: 15px; bottom: 10px; overflow: hidden; transition: all .8s; } }
-.mobileMenuWrap .menuButton { position: relative; display: block; background: #333; opacity: .75; width: 100%; height: 50px; color: white; font-size: 30px; font-weight: 100; box-sizing: border-box; text-align: center; padding: 3px 10px 10px 10px; }
+.mobileMenuWrap .menuButton { position: relative; display: block; background: #333; opacity: .75; width: 100%; height: 50px; color: white; font-size: 30px; font-weight: 100; box-sizing: border-box; text-align: center; font-family: Arial, sans-serif; padding: 3px 10px 10px 10px; }
 .mobileMenuWrap .sortButton { position: relative; display: block; background: teal; width: 100%; height: 50px; margin-bottom: 5px; }
 .mobileMenuWrap .totopButton { position: relative; display: block; background: #222; opacity: .75; width: 100%; height: 50px; margin-bottom: 5px; color: white; padding: 15px 0 0 0; box-sizing: border-box; text-align: center; }
 .mobileMenuWrap .showNone { display: none; }
