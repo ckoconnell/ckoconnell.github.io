@@ -340,7 +340,7 @@ header {
     vertical-align: top;
 
     @media screen and (max-width: $bpphone) {
-      margin: 2% 10px;
+      margin: 2% 0px;
     }
 
     h1 {
@@ -473,7 +473,7 @@ header {
   }
 
   .wGroup {
-    width: 97%;
+    width: 94%;
   }
 
   .wFull {
@@ -574,6 +574,10 @@ header {
 
     @media screen and (max-width: $bptablet) {
       background-position: center center;
+    }
+
+    @media screen and (max-width: $bpphone) {
+      background-position: right center;
     }
   }
 }
@@ -701,6 +705,10 @@ header {
   .itemImg {
     background:url('../img/itemStanhopeGear.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: 60% center;
+    }
   }
 }
 
@@ -773,6 +781,10 @@ header {
   .itemImg {
     background:url('../img/itemFamilyCroatia.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -989,6 +1001,7 @@ header {
     background-position: center center;
 
     @media screen and (max-width: $bptablet) {
+      background-size: cover;
       background-position: right center;
     }
   }
@@ -1079,6 +1092,10 @@ header {
      background:url('../img/itemWmnsLayering.jpg') no-repeat;
      background-size: 120%;
      background-position: center center;
+
+     @media screen and (max-width: $bptablet) {
+       background-position: left bottom;
+     }
    }
 }
 

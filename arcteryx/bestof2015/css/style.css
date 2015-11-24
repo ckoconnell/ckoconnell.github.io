@@ -59,7 +59,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 960px) { #mixWrap { width: 100%; } }
 @media screen and (max-width: 599px) { #mixWrap { text-align: left; } }
 #mixWrap .mix { display: inline-block; box-sizing: border-box; padding: 0; box-shadow: 1px 1px 2px #bbb; height: 450px; margin: 1% 10px; background: white; overflow: hidden; position: relative; min-width: 270px; cursor: pointer; vertical-align: top; }
-@media screen and (max-width: 599px) { #mixWrap .mix { margin: 2% 10px; } }
+@media screen and (max-width: 599px) { #mixWrap .mix { margin: 2% 0px; } }
 #mixWrap .mix h1 { font-size: 14px; font-weight: 100; }
 #mixWrap .itemImg { width: 100%; cursor: pointer; }
 #mixWrap .itemContent { padding: 15px; text-align: left; cursor: pointer; }
@@ -82,7 +82,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 768px) { #mixWrap .wHalf { height: 500px; } }
 @media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; height: 470px; } }
 @media screen and (max-width: 599px) { #mixWrap .wHalf { width: 94%; max-width: 94%; height: auto !important; } }
-#mixWrap .wGroup { width: 97%; }
+#mixWrap .wGroup { width: 94%; }
 #mixWrap .wFull { width: 65%; max-width: 630px; }
 #mixWrap .wFull .itemImg { height: 480px; }
 @media screen and (max-width: 768px) { #mixWrap .wFull { height: 450px; width: 94%; } }
@@ -107,6 +107,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 
 .itemOffGrid .itemImg { background: url("../img/itemOffGrid.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemOffGrid .itemImg { background-position: center center; } }
+@media screen and (max-width: 599px) { .itemOffGrid .itemImg { background-position: right center; } }
 
 .itemLithicGlove .itemImg { background: url("../img/itemLithicGlove.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemLithicGlove .itemImg { background-position: center center; } }
@@ -132,6 +133,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemIzzyJapan .itemImg { background-position: right center; } }
 
 .itemStanhopeGear .itemImg { background: url("../img/itemStanhopeGear.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemStanhopeGear .itemImg { background-position: 60% center; } }
 
 .itemGranParadiso .itemImg { background: url("../img/itemGranParadiso.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemGranParadiso .itemImg { background-position: right center; } }
@@ -152,6 +154,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemBananaRepublik .itemImg { background-position: right center; } }
 
 .itemFamilyCroatia .itemImg { background: url("../img/itemFamilyCroatia.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemFamilyCroatia .itemImg { background-position: right center; } }
 
 .itemManleyYukon .itemImg { background: url("../img/itemManleyYukon.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemManleyYukon .itemImg { background-position: right center; } }
@@ -203,7 +206,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemPigeonSpire .itemImg { background: url("../img/itemPebbleshooPigeonSpire.jpg") no-repeat; background-size: 140%; background-position: left bottom; }
 
 .itemWhitney .itemImg { background: url("../img/itemWhitney.jpg") no-repeat; background-size: 140%; background-position: center center; }
-@media screen and (max-width: 767px) { .itemWhitney .itemImg { background-position: right center; } }
+@media screen and (max-width: 767px) { .itemWhitney .itemImg { background-size: cover; background-position: right center; } }
 .itemWhitney .itemContent { top: 30px; left: 30px; }
 
 .itemJustinChile .itemImg { background: url("../img/itemJustinChile.jpg") no-repeat; background-size: 110%; background-position: right top; }
@@ -225,6 +228,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemAltai .itemImg { background: url("../img/itemAltai.jpg") no-repeat; background-size: 120%; background-position: center center; }
 
 .itemWmnsLayering .itemImg { background: url("../img/itemWmnsLayering.jpg") no-repeat; background-size: 120%; background-position: center center; }
+@media screen and (max-width: 767px) { .itemWmnsLayering .itemImg { background-position: left bottom; } }
 
 .itemKOD .itemImg { background: url("../img/itemKOD.jpg") no-repeat; background-size: 120%; background-position: center center; }
 
