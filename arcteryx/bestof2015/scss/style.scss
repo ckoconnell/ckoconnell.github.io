@@ -541,6 +541,10 @@ header {
   .itemImg {
     background:url('../img/itemBurkardRoss.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -548,6 +552,10 @@ header {
   .itemImg {
     background:url('../img/itemOffGrid.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -555,6 +563,10 @@ header {
   .itemImg {
     background:url('../img/itemLithicGlove.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -569,6 +581,10 @@ header {
   .itemImg {
     background:url('../img/itemInspiredDesign.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -684,6 +700,10 @@ header {
   .itemImg {
     background:url('../img/itemWeldonCasa.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -698,6 +718,10 @@ header {
   .itemImg {
     background:url('../img/itemNinaTrying.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -719,6 +743,10 @@ header {
   .itemImg {
     background:url('../img/itemBananaRepublik.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -733,6 +761,10 @@ header {
   .itemImg {
     background:url('../img/itemManleyYukon.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -758,6 +790,10 @@ header {
   .itemImg {
     background:url('../img/itemKatySetbacks.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -772,6 +808,10 @@ header {
   .itemImg {
     background:url('../img/itemBurkardReal.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -779,6 +819,10 @@ header {
   .itemImg {
     background:url('../img/itemMorganWild.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center center;
+    }
   }
 }
 
@@ -869,6 +913,10 @@ header {
    .itemImg {
      background:url('../img/itemLukaPatagonia.jpg') no-repeat;
      background-size: cover;
+
+     @media screen and (max-width: $bptablet) {
+       background-position: right center;
+     }
    }
 }
 

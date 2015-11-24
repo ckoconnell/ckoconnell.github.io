@@ -99,14 +99,18 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemTrueSpirit .itemImg { background: url("../img/itemTrueSpirit.jpg") no-repeat; background-size: cover; }
 
 .itemBurkardRoss .itemImg { background: url("../img/itemBurkardRoss.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemBurkardRoss .itemImg { background-position: right center; } }
 
 .itemOffGrid .itemImg { background: url("../img/itemOffGrid.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemOffGrid .itemImg { background-position: center center; } }
 
 .itemLithicGlove .itemImg { background: url("../img/itemLithicGlove.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemLithicGlove .itemImg { background-position: center center; } }
 
 .itemGoreCare .itemImg { background: url("../img/itemGoreCare.jpg") no-repeat; background-size: cover; }
 
 .itemInspiredDesign .itemImg { background: url("../img/itemInspiredDesign.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemInspiredDesign .itemImg { background-position: right center; } }
 
 .itemColoradoClassics .itemImg { background: url("../img/itemColoradoClassics.jpg") no-repeat; background-size: cover; }
 
@@ -129,20 +133,24 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemGranParadiso .itemImg { background-position: right center; } }
 
 .itemWeldonCasa .itemImg { background: url("../img/itemWeldonCasa.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemWeldonCasa .itemImg { background-position: center center; } }
 
 .itemBrideNorway .itemImg { background: url("../img/itemBrideNorway.jpg") no-repeat; background-size: cover; }
 
 .itemNinaTrying .itemImg { background: url("../img/itemNinaTrying.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemNinaTrying .itemImg { background-position: center center; } }
 
 .itemChamonixWaiting .itemImg { background: url("../img/itemChamonixWaiting.jpg") no-repeat; background-size: cover; }
 
 .itemChiaroLuna .itemImg { background: url("../img/itemChiaroLuna.jpg") no-repeat; background-size: cover; }
 
 .itemBananaRepublik .itemImg { background: url("../img/itemBananaRepublik.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemBananaRepublik .itemImg { background-position: right center; } }
 
 .itemFamilyCroatia .itemImg { background: url("../img/itemFamilyCroatia.jpg") no-repeat; background-size: cover; }
 
 .itemManleyYukon .itemImg { background: url("../img/itemManleyYukon.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemManleyYukon .itemImg { background-position: right center; } }
 
 .itemWomenAdmire .itemImg { background: url("../img/itemWomenAdmire.jpg") no-repeat; background-size: cover; }
 
@@ -150,12 +158,15 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemNorwayQuest .itemImg { background-position: right center; } }
 
 .itemKatySetbacks .itemImg { background: url("../img/itemKatySetbacks.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemKatySetbacks .itemImg { background-position: center center; } }
 
 .itemLocationLayering .itemImg { background: url("../img/itemLocationLayering.jpg") no-repeat; background-size: cover; }
 
 .itemBurkardReal .itemImg { background: url("../img/itemBurkardReal.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemBurkardReal .itemImg { background-position: center center; } }
 
 .itemMorganWild .itemImg { background: url("../img/itemMorganWild.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemMorganWild .itemImg { background-position: center center; } }
 
 .itemFootwear { height: 600px !important; }
 .itemFootwear .itemImg { background: url("../img/itemFootwear2.jpg") no-repeat; background-size: 100%; background-position: bottom center; height: 100%; }
@@ -174,6 +185,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemPiaGregJapan .itemImg { background-position: center bottom; } }
 
 .itemLukaPatagonia .itemImg { background: url("../img/itemLukaPatagonia.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemLukaPatagonia .itemImg { background-position: right center; } }
 
 .itemMountainRules .itemImg { background: url("../img/itemMountainRules.jpg") no-repeat; background-size: cover; }
 
