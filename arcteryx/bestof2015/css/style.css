@@ -68,15 +68,16 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 #mixWrap .itemContent p { font-size: 13px; cursor: pointer; }
 #mixWrap .wThird { width: 30%; max-width: 300px; }
 #mixWrap .wThird .itemImg { height: 225px; }
+@media screen and (max-width: 767px) { #mixWrap .wThird .itemImg { background-size: cover; } }
 @media screen and (max-width: 599px) { #mixWrap .wThird .itemImg { height: 325px; } }
 @media screen and (max-width: 768px) { #mixWrap .wThird { height: 500px; } }
-@media screen and (max-width: 767px) { #mixWrap .wThird { width: 44%; max-width: 300px; height: 450px; } }
+@media screen and (max-width: 767px) { #mixWrap .wThird { width: 44%; max-width: 300px; height: 470px; } }
 @media screen and (max-width: 599px) { #mixWrap .wThird { width: 94%; max-width: 94%; height: auto !important; } }
 #mixWrap .wHalf { width: 47%; max-width: 425px; }
 #mixWrap .wHalf .itemImg { height: 300px; }
-@media screen and (max-width: 767px) { #mixWrap .wHalf .itemImg { height: 325px; } }
+@media screen and (max-width: 767px) { #mixWrap .wHalf .itemImg { height: 225px; background-size: cover; } }
 @media screen and (max-width: 768px) { #mixWrap .wHalf { height: 500px; } }
-@media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; height: 450px; } }
+@media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; height: 470px; } }
 @media screen and (max-width: 599px) { #mixWrap .wHalf { width: 94%; max-width: 94%; height: auto !important; } }
 #mixWrap .wGroup { width: 97%; }
 #mixWrap .wFull { width: 65%; max-width: 630px; }
@@ -216,14 +217,18 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemAlpineAcademy .itemContent { right: 30px; bottom: 30px; width: 220px !important; }
 
 .itemRedditAMA .itemImg { background: url("../img/itemRedditAMA.jpg") no-repeat; background-size: 115%; background-position: center center; }
+@media screen and (max-width: 767px) { .itemRedditAMA .itemImg { background-size: cover; background-position: center center; } }
 
 .itemDarkWild .itemImg { background: url("../img/itemDarkWildFull.jpg") no-repeat; background-size: 115%; background-position: center center; }
+@media screen and (max-width: 767px) { .itemDarkWild .itemImg { background-position: 30% center; background-size: cover; } }
 .itemDarkWild .itemContent { right: 30px; bottom: 30px; width: 220px !important; }
 
-.itemOverExposure .itemImg { background: url("../img/itemOverExposure.jpg") no-repeat; background-size: 115%; background-position: center center; }
+.itemOverExposure .itemImg { background: url("../img/itemOverExposure.jpg") no-repeat; background-size: cover%; background-position: center center; }
 
-.itemIdentityLost .itemImg { background: url("../img/itemIdentityLost.jpg") no-repeat; background-size: 115%; background-position: center center; }
+.itemIdentityLost .itemImg { background: url("../img/itemIdentityLost.jpg") no-repeat; background-size: cover; background-position: center center; }
+@media screen and (max-width: 767px) { .itemIdentityLost .itemImg { background-size: cover; background-position: center center; } }
 
 .itemSelfPropelled .itemImg { background: url("../img/itemSelfPropelled.jpg") no-repeat; background-size: 115%; background-position: right center; }
+@media screen and (max-width: 767px) { .itemSelfPropelled .itemImg { background-size: cover; background-position: right center; } }
 
 .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }

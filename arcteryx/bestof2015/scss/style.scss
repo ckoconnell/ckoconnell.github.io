@@ -406,6 +406,10 @@ header {
     .itemImg {
       height: 225px;
 
+      @media screen and (max-width: $bptablet) {
+        background-size: cover;
+      }
+
       @media screen and (max-width: $bpphone) {
         height: 325px;
       }
@@ -417,7 +421,7 @@ header {
     @media screen and (max-width: $bptablet) {
       width: 44%;
       max-width: 300px;
-      height: 450px;
+      height: 470px;
     }
 
     @media screen and (max-width: $bpphone) {
@@ -434,7 +438,8 @@ header {
       height: 300px;
 
       @media screen and (max-width: $bptablet) {
-        height: 325px;
+        height: 225px;
+        background-size: cover;
       }
     }
 
@@ -444,7 +449,7 @@ header {
 
     @media screen and (max-width: $bptablet) {
       width: 44%;
-      height: 450px;
+      height: 470px;
     }
 
     @media screen and (max-width: $bpphone) {
@@ -1039,6 +1044,11 @@ header {
     background:url('../img/itemRedditAMA.jpg') no-repeat;
     background-size: 115%;
     background-position: center center;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 }
 
@@ -1047,6 +1057,11 @@ header {
     background:url('../img/itemDarkWildFull.jpg') no-repeat;
     background-size: 115%;
     background-position: center center;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: 30% center;
+      background-size: cover;
+    }
   }
   .itemContent {
     right: 30px;
@@ -1058,7 +1073,7 @@ header {
 .itemOverExposure {
   .itemImg {
     background:url('../img/itemOverExposure.jpg') no-repeat;
-    background-size: 115%;
+    background-size: cover%;
     background-position: center center;
   }
 }
@@ -1066,8 +1081,13 @@ header {
 .itemIdentityLost {
   .itemImg {
     background:url('../img/itemIdentityLost.jpg') no-repeat;
-    background-size: 115%;
+    background-size: cover;
     background-position: center center;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 }
 
@@ -1076,6 +1096,11 @@ header {
     background:url('../img/itemSelfPropelled.jpg') no-repeat;
     background-size: 115%;
     background-position: right center;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: right center;
+    }
   }
 }
 
