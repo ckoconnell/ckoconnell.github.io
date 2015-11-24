@@ -21,6 +21,16 @@
     </div>
 </header>
 
+<div class="mobileMenuWrap">
+    <a class="sortButton showNone"></a>
+    <div style="clear: both;"></div>
+    <a class="totopButton showNone" href="#topLink">&#9650;</a>
+    <div style="clear: both;"></div>
+    <a class="menuButton">&#9776;</a>
+</div>
+
+<a name="topLink"></a>
+
 <div class="featureWrap">
     <div class="featureSlide feature1">
         <div class="slideContent">
@@ -675,6 +685,17 @@
         pauseOnHover: true,
         lazyload: 'ondemand'
     });
+</script>
+
+
+
+<script type="text/javascript">
+    $(".menuButton").click(function(){
+        $(".sortButton").toggleClass("showAll");
+        $(".totopButton").toggleClass("showAll");
+        $(this).parent(".mobileMenuWrap").toggleClass("mobileMenuFull");
+    });
+
 </script>
 
 <!-- Blank Mix Item Template
