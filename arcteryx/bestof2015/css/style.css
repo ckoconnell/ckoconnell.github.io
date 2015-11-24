@@ -94,9 +94,10 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemMexicoVolcano .itemImg { background: url("../img/itemMexicoVolcano.jpg") no-repeat; background-size: cover; }
 
 .itemHojiAfterglow .itemImg { background: url("../img/itemHojiAfterglow.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemHojiAfterglow .itemImg { background-size: cover; background-position: center center; } }
 
 .itemManleyUK .itemImg { background: url("../img/itemManleyUK.jpg") no-repeat; background-size: cover; background-position: -250px top; }
-@media screen and (max-width: 768px) { .itemManleyUK .itemImg { background-size: cover; } }
+@media screen and (max-width: 767px) { .itemManleyUK .itemImg { background-size: cover; background-position: 90% bottom; } }
 .itemManleyUK .itemContent { bottom: 30px; left: 30px; }
 
 .itemTrueSpirit .itemImg { background: url("../img/itemTrueSpirit.jpg") no-repeat; background-size: cover; }
@@ -206,6 +207,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemWhitney .itemContent { top: 30px; left: 30px; }
 
 .itemJustinChile .itemImg { background: url("../img/itemJustinChile.jpg") no-repeat; background-size: 110%; background-position: right top; }
+@media screen and (max-width: 767px) { .itemJustinChile .itemImg { background-size: cover; background-position: right center; } }
 .itemJustinChile .itemContent { left: 30px; top: 30px; }
 
 .itemRogerStrongPatience .itemImg { background: url("../img/itemRogerStrongPatience.jpg") no-repeat; background-size: 120%; background-position: right center; }
@@ -229,6 +231,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemClimbingAcademy .itemImg { background: url("../img/itemClimbingAcademy2.jpg") no-repeat; background-size: 106%; background-position: center center; }
 
 .itemAlpineAcademy .itemImg { background: url("../img/itemAlpineAcademyFull.jpg") no-repeat; background-size: 115%; background-position: center center; }
+@media screen and (max-width: 767px) { .itemAlpineAcademy .itemImg { background-size: cover; background-position: center center; } }
 .itemAlpineAcademy .itemContent { right: 30px; bottom: 30px; width: 220px !important; }
 
 .itemRedditAMA .itemImg { background: url("../img/itemRedditAMA.jpg") no-repeat; background-size: 115%; background-position: center center; }

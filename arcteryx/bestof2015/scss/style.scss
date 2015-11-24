@@ -523,6 +523,11 @@ header {
   .itemImg {
     background:url('../img/itemHojiAfterglow.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 }
 
@@ -532,8 +537,9 @@ header {
     background-size: cover;
     background-position: -250px top;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $bptablet) {
       background-size: cover;
+      background-position: 90% bottom;
     }
   }
 
@@ -998,6 +1004,11 @@ header {
     background:url('../img/itemJustinChile.jpg') no-repeat;
     background-size: 110%;
     background-position: right top;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: right center;
+    }
   }
 
   .itemContent {
@@ -1092,6 +1103,12 @@ header {
     background:url('../img/itemAlpineAcademyFull.jpg') no-repeat;
     background-size: 115%;
     background-position: center center;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: cover;
+      background-position: center center;
+    }
+
   }
   .itemContent {
     right: 30px;
