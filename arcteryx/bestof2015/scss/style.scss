@@ -330,6 +330,10 @@ header {
     cursor: pointer;
     vertical-align: top;
 
+    @media screen and (max-width: $bpphone) {
+      margin: 2% 10px;
+    }
+
     h1 {
       font-size: 14px;
       font-weight: 100;
@@ -412,12 +416,13 @@ header {
 
     @media screen and (max-width: $bptablet) {
       width: 44%;
-      max-width: 250px;
+      max-width: 300px;
+      height: 450px;
     }
 
     @media screen and (max-width: $bpphone) {
-      width: 90%;
-      max-width: 90%;
+      width: 94%;
+      max-width: 94%;
       height: auto !important;
     }
   }
@@ -427,6 +432,10 @@ header {
     max-width: 425px;
     .itemImg {
       height: 300px;
+
+      @media screen and (max-width: $bptablet) {
+        height: 225px;
+      }
     }
 
     @media screen and (max-width: 768px) {
@@ -435,11 +444,12 @@ header {
 
     @media screen and (max-width: $bptablet) {
       width: 44%;
+      height: 450px;
     }
 
     @media screen and (max-width: $bpphone) {
-      width: 90%;
-      max-width: 90%;
+      width: 94%;
+      max-width: 94%;
       height: auto !important;
     }
   }
@@ -457,12 +467,12 @@ header {
 
     @media screen and (max-width: 768px) {
       height: 450px;
-      width: 90%;
+      width: 94%;
     }
 
     @media screen and (max-width: $bpphone) {
-      width: 90%;
-      max-width: 90%;
+      width: 94%;
+      max-width: 94%;
       height: auto !important;
     }
 
@@ -640,6 +650,10 @@ header {
   .itemImg {
     background:url('../img/itemIzzyJapan.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -654,6 +668,10 @@ header {
   .itemImg {
     background:url('../img/itemGranParadiso.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -724,6 +742,10 @@ header {
   .itemImg {
     background:url('../img/itemNorwayQuest.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 }
 
@@ -831,6 +853,10 @@ header {
   .itemImg {
     background:url('../img/itemPiaGregJapan.jpg') no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: center bottom;
+    }
   }
 }
 
@@ -889,6 +915,10 @@ header {
     background:url('../img/itemWhitney.jpg') no-repeat;
     background-size: 140%;
     background-position: center center;
+
+    @media screen and (max-width: $bptablet) {
+      background-position: right center;
+    }
   }
 
   .itemContent {

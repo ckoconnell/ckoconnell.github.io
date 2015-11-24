@@ -57,6 +57,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 960px) { #mixWrap { width: 100%; } }
 @media screen and (max-width: 599px) { #mixWrap { text-align: left; } }
 #mixWrap .mix { display: inline-block; box-sizing: border-box; padding: 0; box-shadow: 1px 1px 2px #bbb; height: 450px; margin: 1% 10px; background: white; overflow: hidden; position: relative; min-width: 270px; cursor: pointer; vertical-align: top; }
+@media screen and (max-width: 599px) { #mixWrap .mix { margin: 2% 10px; } }
 #mixWrap .mix h1 { font-size: 14px; font-weight: 100; }
 #mixWrap .itemImg { width: 100%; cursor: pointer; }
 #mixWrap .itemContent { padding: 15px; text-align: left; cursor: pointer; }
@@ -69,18 +70,19 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 #mixWrap .wThird .itemImg { height: 225px; }
 @media screen and (max-width: 599px) { #mixWrap .wThird .itemImg { height: 325px; } }
 @media screen and (max-width: 768px) { #mixWrap .wThird { height: 500px; } }
-@media screen and (max-width: 767px) { #mixWrap .wThird { width: 44%; max-width: 250px; } }
-@media screen and (max-width: 599px) { #mixWrap .wThird { width: 90%; max-width: 90%; height: auto !important; } }
+@media screen and (max-width: 767px) { #mixWrap .wThird { width: 44%; max-width: 300px; height: 450px; } }
+@media screen and (max-width: 599px) { #mixWrap .wThird { width: 94%; max-width: 94%; height: auto !important; } }
 #mixWrap .wHalf { width: 47%; max-width: 425px; }
 #mixWrap .wHalf .itemImg { height: 300px; }
+@media screen and (max-width: 767px) { #mixWrap .wHalf .itemImg { height: 225px; } }
 @media screen and (max-width: 768px) { #mixWrap .wHalf { height: 500px; } }
-@media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; } }
-@media screen and (max-width: 599px) { #mixWrap .wHalf { width: 90%; max-width: 90%; height: auto !important; } }
+@media screen and (max-width: 767px) { #mixWrap .wHalf { width: 44%; height: 450px; } }
+@media screen and (max-width: 599px) { #mixWrap .wHalf { width: 94%; max-width: 94%; height: auto !important; } }
 #mixWrap .wGroup { width: 97%; }
 #mixWrap .wFull { width: 65%; max-width: 630px; }
 #mixWrap .wFull .itemImg { height: 480px; }
-@media screen and (max-width: 768px) { #mixWrap .wFull { height: 450px; width: 90%; } }
-@media screen and (max-width: 599px) { #mixWrap .wFull { width: 90%; max-width: 90%; height: auto !important; } }
+@media screen and (max-width: 768px) { #mixWrap .wFull { height: 450px; width: 94%; } }
+@media screen and (max-width: 599px) { #mixWrap .wFull { width: 94%; max-width: 94%; height: auto !important; } }
 #mixWrap .wFull .itemContent { width: 300px; height: auto; position: absolute; display: inline-block; box-sizing: border-box; padding: 15px; background: #fff; }
 
 #mixWrap .mix { display: none; }
@@ -118,10 +120,12 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemEverestGroup .groupWrap .groupContent .itemContent:hover { background: #bbb !important; transition: all 1s; }
 
 .itemIzzyJapan .itemImg { background: url("../img/itemIzzyJapan.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemIzzyJapan .itemImg { background-position: right center; } }
 
 .itemStanhopeGear .itemImg { background: url("../img/itemStanhopeGear.jpg") no-repeat; background-size: cover; }
 
 .itemGranParadiso .itemImg { background: url("../img/itemGranParadiso.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemGranParadiso .itemImg { background-position: right center; } }
 
 .itemWeldonCasa .itemImg { background: url("../img/itemWeldonCasa.jpg") no-repeat; background-size: cover; }
 
@@ -142,6 +146,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemWomenAdmire .itemImg { background: url("../img/itemWomenAdmire.jpg") no-repeat; background-size: cover; }
 
 .itemNorwayQuest .itemImg { background: url("../img/itemNorwayQuest.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemNorwayQuest .itemImg { background-position: right center; } }
 
 .itemKatySetbacks .itemImg { background: url("../img/itemKatySetbacks.jpg") no-repeat; background-size: cover; }
 
@@ -165,6 +170,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemFootwear .groupContent .itemContent ul li a .bolder { font-weight: 900; }
 
 .itemPiaGregJapan .itemImg { background: url("../img/itemPiaGregJapan.jpg") no-repeat; background-size: cover; }
+@media screen and (max-width: 767px) { .itemPiaGregJapan .itemImg { background-position: center bottom; } }
 
 .itemLukaPatagonia .itemImg { background: url("../img/itemLukaPatagonia.jpg") no-repeat; background-size: cover; }
 
@@ -180,6 +186,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .itemPigeonSpire .itemImg { background: url("../img/itemPebbleshooPigeonSpire.jpg") no-repeat; background-size: 140%; background-position: left bottom; }
 
 .itemWhitney .itemImg { background: url("../img/itemWhitney.jpg") no-repeat; background-size: 140%; background-position: center center; }
+@media screen and (max-width: 767px) { .itemWhitney .itemImg { background-position: right center; } }
 .itemWhitney .itemContent { top: 30px; left: 30px; }
 
 .itemJustinChile .itemImg { background: url("../img/itemJustinChile.jpg") no-repeat; background-size: 110%; background-position: right top; }
