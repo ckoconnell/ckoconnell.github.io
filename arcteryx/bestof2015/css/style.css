@@ -161,7 +161,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 
 .itemWomenAdmire .itemImg { background: url("../img/itemWomenAdmire.jpg") no-repeat; background-size: cover; }
 
-.itemNorwayQuest .itemImg { background: url("../img/itemNorwayQuest.jpg") no-repeat; background-size: cover; }
+.itemNorwayQuest .itemImg { background: url("../img/itemNorwayQuest.jpg") no-repeat; background-size: cover; background-position: right center; }
 @media screen and (max-width: 767px) { .itemNorwayQuest .itemImg { background-position: right center; } }
 
 .itemKatySetbacks .itemImg { background: url("../img/itemKatySetbacks.jpg") no-repeat; background-size: cover; }

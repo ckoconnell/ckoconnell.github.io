@@ -810,6 +810,7 @@ header {
   .itemImg {
     background:url('../img/itemNorwayQuest.jpg') no-repeat;
     background-size: cover;
+    background-position: right center;
 
     @media screen and (max-width: $bptablet) {
       background-position: right center;
