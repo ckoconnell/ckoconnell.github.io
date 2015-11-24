@@ -58,9 +58,11 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 #mixWrap { height: 100%; width: 100%; margin: 0 auto; box-sizing: border-box; text-align: center; }
 @media screen and (max-width: 960px) { #mixWrap { width: 100%; } }
 @media screen and (max-width: 599px) { #mixWrap { text-align: left; } }
-#mixWrap .mix { display: inline-block; box-sizing: border-box; padding: 0; box-shadow: 1px 1px 2px #bbb; height: 450px; margin: 1% 10px; background: white; overflow: hidden; position: relative; min-width: 270px; cursor: pointer; vertical-align: top; }
+#mixWrap .mix { display: inline-block; box-sizing: border-box; padding: 0; box-shadow: 1px 1px 2px #bbb; height: 450px; margin: 1% 10px; background: white; overflow: hidden; position: relative; min-width: 270px; cursor: pointer; vertical-align: top; transition: all .3s; }
 @media screen and (max-width: 599px) { #mixWrap .mix { margin: 2% 0px; } }
 #mixWrap .mix h1 { font-size: 14px; font-weight: 100; }
+#mixWrap .mix:hover { margin-top: .7%; transition: all .5s; }
+@media screen and (max-width: 767px) { #mixWrap .mix:hover { margin-top: 1%; } }
 #mixWrap .itemImg { width: 100%; cursor: pointer; }
 #mixWrap .itemContent { padding: 15px; text-align: left; cursor: pointer; }
 #mixWrap .itemContent h1 { font-size: 15px; font-weight: 700; margin-top: 15px; line-height: 16px; margin: 0; padding: 0; text-transform: uppercase; cursor: pointer; }
@@ -245,12 +247,14 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 @media screen and (max-width: 767px) { .itemDarkWild .itemImg { background-position: 30% center; background-size: cover; } }
 .itemDarkWild .itemContent { right: 30px; bottom: 30px; width: 220px !important; }
 
-.itemOverExposure .itemImg { background: url("../img/itemOverExposure.jpg") no-repeat; background-size: cover%; background-position: center center; }
+.itemOverExposure .itemImg { background: url("../img/itemOverExposure.jpg") no-repeat; background-size: cover; background-position: center center; }
 
 .itemIdentityLost .itemImg { background: url("../img/itemIdentityLost.jpg") no-repeat; background-size: cover; background-position: center center; }
 @media screen and (max-width: 767px) { .itemIdentityLost .itemImg { background-size: cover; background-position: center center; } }
 
 .itemSelfPropelled .itemImg { background: url("../img/itemSelfPropelled.jpg") no-repeat; background-size: 115%; background-position: right center; }
 @media screen and (max-width: 767px) { .itemSelfPropelled .itemImg { background-size: cover; background-position: right center; } }
+
+.itemSouthAfrica .itemImg { background: url("../img/itemSouthAfrica.jpg") no-repeat; background-size: cover; background-position: right bottom; }
 
 .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
