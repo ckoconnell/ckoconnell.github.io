@@ -294,6 +294,10 @@ p {
   }
 }
 /* line 287, ../scss/style.scss */
+.mainWrap .mapWrap .markerWrap:hover {
+  box-shadow: 0px 0px 2px red;
+}
+/* line 291, ../scss/style.scss */
 .mainWrap .mapWrap .markerWrap:after {
   height: 14px;
   width: 14px;
@@ -307,20 +311,20 @@ p {
   z-index: -1;
 }
 
-/* line 302, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 .subWrap {
   width: 930px;
   position: relative;
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 302, ../scss/style.scss */
+  /* line 306, ../scss/style.scss */
   .subWrap {
     width: 100%;
   }
 }
 
-/* line 312, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .contestWrap {
   width: 100%;
   margin: 30px 0 60px;
@@ -332,13 +336,13 @@ p {
   position: relative;
 }
 @media screen and (max-width: 700px) {
-  /* line 312, ../scss/style.scss */
+  /* line 316, ../scss/style.scss */
   .contestWrap {
     height: 350px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 312, ../scss/style.scss */
+  /* line 316, ../scss/style.scss */
   .contestWrap {
     height: 350px;
     width: 100%;
@@ -348,7 +352,7 @@ p {
     margin-bottom: 100px;
   }
 }
-/* line 336, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 .contestWrap .blackBox {
   width: 350px;
   position: relative;
@@ -359,14 +363,14 @@ p {
   height: 100%;
 }
 @media screen and (max-width: 650px) {
-  /* line 336, ../scss/style.scss */
+  /* line 340, ../scss/style.scss */
   .contestWrap .blackBox {
     width: 100%;
     margin-top: 300px;
     padding: 20px;
   }
 }
-/* line 351, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .contestWrap .blackBox .finePrint {
   position: absolute;
   width: 80%;
@@ -376,14 +380,14 @@ p {
   padding-right: 0 !important;
   font-size: 12px !important;
 }
-/* line 360, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .contestWrap .blackBox .finePrint p {
   width: 100%;
   padding: 0;
   padding-left: 0;
   margin-bottom: 5px !important;
 }
-/* line 367, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 .contestWrap .blackBox .finePrint a {
   border: none;
   margin-top: 0;
@@ -392,7 +396,7 @@ p {
   text-transform: none !important;
   text-decoration: underline;
 }
-/* line 379, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 .contestWrap h1 {
   font-weight: 600;
   font-size: 20px;
@@ -400,19 +404,19 @@ p {
   text-transform: uppercase;
   line-height: .8em;
 }
-/* line 388, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .contestWrap h3 {
   font-size: 14px;
   line-height: 1.4em;
   max-width: 500px;
 }
-/* line 394, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .contestWrap p {
   line-height: 1.5em;
   box-sizing: border-box;
   padding-right: 15%;
 }
-/* line 400, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 .contestWrap a {
   margin-top: 10px;
   display: inline-block;
@@ -422,12 +426,12 @@ p {
   text-transform: uppercase;
   font-size: .8em;
 }
-/* line 410, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 .contestWrap sup {
   line-height: 1em !important;
 }
 
-/* line 417, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .eventWrap {
   margin-top: 60px;
   width: 100%;
@@ -437,39 +441,47 @@ p {
   background: #666;
 }
 @media screen and (max-width: 650px) {
-  /* line 417, ../scss/style.scss */
+  /* line 421, ../scss/style.scss */
   .eventWrap {
     width: 100%;
   }
 }
-/* line 431, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .eventWrap .blackBox {
   width: 100%;
   height: 150px;
   box-sizing: border-box;
   background: black;
-  padding: 30px;
+  padding: 20px 30px 30px 30px;
   text-align: center;
   position: absolute;
   display: inline-block;
   bottom: 0;
 }
-@media screen and (max-width: 650px) {
-  /* line 431, ../scss/style.scss */
-  .eventWrap .blackBox {
-    width: 100%;
-    margin-top: 350px;
-    padding: 20px;
-  }
+/* line 451, ../scss/style.scss */
+.eventWrap .blackBox h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.2em;
+  margin-top: 0;
 }
-/* line 449, ../scss/style.scss */
+/* line 458, ../scss/style.scss */
 .eventWrap .blackBox h3 {
   font-family: 'Avenir LT W01 55 Roman', sans-serif;
   font-size: 14px;
-  font-weight: 300;
-  line-height: 1.3em;
+  font-weight: 600;
+  line-height: 1em;
+  text-transform: uppercase !important;
+  margin-bottom: 5px;
 }
-/* line 458, ../scss/style.scss */
+/* line 468, ../scss/style.scss */
+.eventWrap .blackBox p {
+  font-size: .7em !important;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+/* line 475, ../scss/style.scss */
 .eventWrap .blackBox a {
   margin-top: 20px;
   font-size: 13px;
@@ -479,7 +491,7 @@ p {
   display: inline-block;
 }
 
-/* line 469, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -494,7 +506,7 @@ p {
   color: #333;
   transition: all 1s ease 1s;
 }
-/* line 485, ../scss/style.scss */
+/* line 502, ../scss/style.scss */
 #overlay iframe {
   position: fixed;
   width: 100%;
@@ -507,12 +519,12 @@ p {
   overflow: scroll;
 }
 
-/* line 498, ../scss/style.scss */
+/* line 515, ../scss/style.scss */
 #overlay p {
   color: #666;
 }
 
-/* line 502, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 #fade {
   display: none;
   position: absolute;
@@ -527,7 +539,7 @@ p {
   z-index: 90;
 }
 
-/* line 516, ../scss/style.scss */
+/* line 533, ../scss/style.scss */
 #closeLink {
   position: fixed;
   background: #000;
@@ -540,15 +552,15 @@ p {
   font-weight: 900;
 }
 
-/* line 529, ../scss/style.scss */
+/* line 546, ../scss/style.scss */
 #closeLink a {
   color: #ff0000 !important;
   text-decoration: none;
 }
 
-/* line 534, ../scss/style.scss */
+/* line 551, ../scss/style.scss */
 .nffWrap {
-  background: darkslateblue;
+  background: #555;
   background-size: cover;
   background-position: center bottom;
   width: 100%;
@@ -556,12 +568,12 @@ p {
   opacity: 1;
   margin-top: 60px;
 }
-/* line 544, ../scss/style.scss */
+/* line 561, ../scss/style.scss */
 .nffWrap .contentGrid {
   width: 100%;
   text-align: center;
 }
-/* line 548, ../scss/style.scss */
+/* line 565, ../scss/style.scss */
 .nffWrap .contentGrid a {
   margin-top: 120px;
   margin-bottom: 30px;
@@ -572,7 +584,7 @@ p {
   padding: 8px 15px 7px 15px;
   display: inline-block;
 }
-/* line 559, ../scss/style.scss */
+/* line 576, ../scss/style.scss */
 .nffWrap .contentGrid h1 {
   font-size: 14px;
   line-height: 13px;
