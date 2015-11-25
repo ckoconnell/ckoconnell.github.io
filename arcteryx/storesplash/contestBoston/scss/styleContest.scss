@@ -285,12 +285,21 @@ p {
   position: relative;
   vertical-align: top;
 
+  @media screen and (max-width: 767px) {
+    height: 500px;
+  }
+
   .halfCol {
     width: 45%;
     height: 100%;
     display: inline-block;
     position: relative;
     vertical-align: top;
+
+    @media screen and (max-width: 767px) {
+      width: 95%;
+      height: 250px;
+    }
   }
 
   .prizingImage {
