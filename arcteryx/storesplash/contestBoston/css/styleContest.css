@@ -1,6 +1,6 @@
 html { height: 100%; }
 
-body { z-index: 1; margin: 0; padding: 0; box-sizing: border-box; background-color: #000; font-family: Avenir, sans-serif; color: white; height: 100%; }
+body { z-index: 1; margin: 0; padding: 0; box-sizing: border-box; background-color: #171717; font-family: Avenir, sans-serif; color: white; height: 100%; }
 
 a { color: white; text-decoration: none; }
 
@@ -27,7 +27,7 @@ p { font-weight: 300; line-height: 1.3em; }
 @media screen and (max-width: 930px) { .headerWrap { background-position: center bottom; } }
 @media screen and (max-width: 600px) { .headerWrap { height: 400px; } }
 
-.contentWrap { width: 100%; max-width: 800px; position: relative; display: block; z-index: 50; background: black; margin: 0 auto; padding: 60px; margin-top: 40%; }
+.contentWrap { width: 100%; max-width: 800px; position: relative; display: block; z-index: 50; background: #171717; margin: 0 auto; padding: 60px; margin-top: 40%; }
 @media screen and (max-width: 930px) { .contentWrap { margin-top: 450px; } }
 @media screen and (max-width: 600px) { .contentWrap { padding: 30px; margin-top: 350px; } }
 .contentWrap h1, .contentWrap h3 { text-transform: uppercase; }
