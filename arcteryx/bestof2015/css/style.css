@@ -11,6 +11,7 @@ header .logoWrap { color: white; position: relative; display: inline-block; text
 header .logoWrap .logoBest { position: absolute; font-weight: 500; font-size: 72px; letter-spacing: 1px; text-shadow: 1px 1px 3px #111; }
 header .logoWrap .logoOf { position: absolute; font-weight: 100; font-size: 28px; left: 175px; top: 43px; text-shadow: 1px 1px 3px #111; }
 header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72px; letter-spacing: 1px; text-shadow: 1px 1px 3px #111; top: 60px; left: 50px; }
+header .introWrap { position: relative; display: inline-block; color: white; width: 235px; font-size: 13px; line-height: 1.4em; margin-top: 150px; padding: 15px; box-sizing: border-box; }
 
 .mobileMenuWrap { display: none; }
 @media screen and (max-width: 599px) { .mobileMenuWrap { position: fixed; display: inline-block; z-index: 1000; width: 50px; height: 50px; left: 15px; bottom: 10px; overflow: hidden; transition: all .8s; } }
@@ -75,14 +76,14 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .mobileClear { display: none; }
 @media screen and (max-width: 850px) { .mobileClear { display: block; clear: both !important; } }
 
-.controlWrap { width: 100%; height: auto; padding-bottom: 15px; background: #333; margin-left: -8px; margin-top: 0px; text-align: center; }
-.controlWrap .filter { display: inline-block; padding: 3px 10px; background: #999; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; }
-.controlWrap .sort { display: inline-block; padding: 3px 10px; background: #666; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; }
+.controlWrap { width: 100%; height: auto; padding-bottom: 15px; background: #171717; margin-left: -8px; margin-top: 0px; text-align: center; }
+.controlWrap .filter { display: inline-block; padding: 3px 10px; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; background: #333; color: #ddd; }
+.controlWrap .sort { display: inline-block; padding: 3px 10px; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; background: #333; color: #ddd; }
 .controlWrap button { display: inline-block; padding: .4em .8em; background: #666; border: 0; border-radius: 0px !important; cursor: pointer; transition: all 1s ease; }
-.controlWrap button.active { background: teal; font-weight: 600; }
+.controlWrap button.active { background: #333; font-weight: 600; }
 .controlWrap button:focus { outline: 0 none; }
-.controlWrap button:hover { background: #ddd; transition: all 1s ease; }
-.controlWrap label { text-transform: uppercase; font-size: 12px; margin: 3px 10px 0 20px; color: #ddd !important; }
+.controlWrap button:hover { background: #aaa; transition: all 1s ease; }
+.controlWrap label { font-size: 12px; margin: 3px 10px 0 20px; color: #ddd !important; }
 
 .navFixed { position: fixed; z-index: 10000; top: 0; }
 

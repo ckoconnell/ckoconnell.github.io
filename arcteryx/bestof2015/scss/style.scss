@@ -71,6 +71,22 @@ header {
       left: 50px;
     }
   }
+
+  .introWrap {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 235px;
+    font-size: 13px;
+    line-height: 1.4em;
+    margin-top: 150px;
+    // text-shadow: 0px 0px 4px #171717;
+    padding: 15px;
+    box-sizing: border-box;
+    // background: #333;
+    // opacity: .6;
+  }
+
 }
 
 .mobileMenuWrap {
@@ -407,7 +423,7 @@ header {
   width: 100%;
   height: auto;
   padding-bottom: 15px;
-  background: #333;
+  background: #171717;
   margin-left: -8px;
   margin-top: 0px;
   text-align: center;
@@ -415,25 +431,33 @@ header {
   .filter {
     display: inline-block;
     padding: 3px 10px;
-    background: #999;
+    // background: #999;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 3px;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 12px;
+    // background: none;
+    background: #333;
+    // border: 1px solid #ddd;
+    color: #ddd;
   }
 
   .sort {
     display: inline-block;
     padding: 3px 10px;
-    background: #666;
+    // background: #666;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 3px;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 12px;
+    // background: none;
+    background: #333;
+    // border: 1px solid #ddd;
+    color: #ddd;
   }
 
   button{
@@ -448,7 +472,7 @@ header {
 
   button.active{
     // background: #68b8c4;
-    background: teal;
+    background: #333;
     font-weight: 600;
   }
 
@@ -457,12 +481,12 @@ header {
   }
 
   button:hover {
-    background: #ddd;
+    background: #aaa;
     transition: all 1s ease;
   }
 
   label {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-size: 12px;
     margin: 3px 10px 0 20px;
     color: #ddd !important;
