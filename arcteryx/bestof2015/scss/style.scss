@@ -38,6 +38,9 @@ header {
   top: 10%;
   left: 10%;
   z-index: 1000;
+  padding: 15px 30px;
+  background: #212121;
+  opacity: .75;
 
   .logoWrap {
     color: white;
@@ -77,13 +80,13 @@ header {
     display: inline-block;
     color: white;
     width: 215px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.4em;
     margin-top: 130px;
     text-shadow: 0 0 4px #171717;
-    padding: 15px 0 0 0;
     box-sizing: border-box;
     text-align: justify;
+    padding-top: 15px;
   }
 
 }

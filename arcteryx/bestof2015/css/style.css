@@ -6,12 +6,12 @@ a { text-decoration: none; color: #212121; }
 
 a:visited { color: #212121; }
 
-header { position: absolute; display: block; top: 10%; left: 10%; z-index: 1000; }
+header { position: absolute; display: block; top: 10%; left: 10%; z-index: 1000; padding: 15px 30px; background: #212121; opacity: .75; }
 header .logoWrap { color: white; position: relative; display: inline-block; text-transform: uppercase; }
 header .logoWrap .logoBest { position: absolute; font-weight: 500; font-size: 72px; letter-spacing: 1px; text-shadow: 1px 1px 3px #111; }
 header .logoWrap .logoOf { position: absolute; font-weight: 100; font-size: 28px; left: 175px; top: 43px; text-shadow: 1px 1px 3px #111; }
 header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72px; letter-spacing: 1px; text-shadow: 1px 1px 3px #111; top: 60px; left: 50px; }
-header .introWrap { position: relative; display: inline-block; color: white; width: 215px; font-size: 13px; line-height: 1.4em; margin-top: 130px; text-shadow: 0 0 4px #171717; padding: 15px 0 0 0; box-sizing: border-box; text-align: justify; }
+header .introWrap { position: relative; display: inline-block; color: white; width: 215px; font-size: 14px; line-height: 1.4em; margin-top: 130px; text-shadow: 0 0 4px #171717; box-sizing: border-box; text-align: justify; padding-top: 15px; }
 
 .mobileMenuWrap { display: none; }
 @media screen and (max-width: 599px) { .mobileMenuWrap { position: fixed; display: inline-block; z-index: 1000; width: 50px; height: 50px; left: 15px; bottom: 10px; overflow: hidden; transition: all .8s; } }
