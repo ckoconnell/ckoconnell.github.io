@@ -47,6 +47,27 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .feature4 .slideContent { width: 390px; float: left; margin-top: 500px; margin-left: 15%; text-align: right !important; }
 .feature4 .slideContent h1, .feature4 .slideContent h3, .feature4 .slideContent a { color: teal !important; }
 
+.feature5 { background: url("../img/featureslidebg-5.jpg"); background-size: cover; background-position: left bottom; }
+.feature5 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature6 { background: url("../img/featureslidebg-6.jpg"); background-size: cover; background-position: left bottom; }
+.feature6 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature7 { background: url("../img/featureslidebg-7.jpg"); background-size: cover; background-position: left bottom; }
+.feature7 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature8 { background: url("../img/featureslidebg-8.jpg"); background-size: cover; background-position: left bottom; }
+.feature8 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature9 { background: url("../img/featureslidebg-9.jpg"); background-size: cover; background-position: left bottom; }
+.feature9 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature10 { background: url("../img/featureslidebg-10.jpg"); background-size: cover; background-position: left bottom; }
+.feature10 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
+.feature11 { background: url("../img/featureslidebg-11.jpg"); background-size: cover; background-position: left bottom; }
+.feature11 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
+
 .contentWrap { box-sizing: border-box; position: relative; width: 960px; margin: 0 auto; }
 @media screen and (max-width: 960px) { .contentWrap { width: 100%; } }
 @media screen and (max-width: 850px) { .contentWrap { text-align: center; } }
