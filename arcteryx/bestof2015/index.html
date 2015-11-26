@@ -687,7 +687,16 @@
     });
 </script>
 
+<script type="text/javascript">
+    // Show & Hide the Nav Bar - Now fixed after top feature area
 
+    var featHeight;
+
+    $(document).on("scroll", function(){
+        featHeight = jQuery(window).height()*0.75;
+        $(".controlWrap").toggleClass("navFixed", $(document).scrollTop() > featHeight);
+    });
+</script>
 
 <script type="text/javascript">
     $(".menuButton").click(function(){

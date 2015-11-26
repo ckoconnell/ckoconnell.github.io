@@ -63,6 +63,8 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 .controlWrap button:hover { background: #ddd; transition: all 1s ease; }
 .controlWrap label { text-transform: uppercase; font-size: 12px; margin: 3px 10px 0 20px; color: #ddd !important; }
 
+.navFixed { position: fixed; z-index: 10000; top: 0; }
+
 .bestOfWrap { width: 100%; height: 100%; display: inline-block; margin-top: 80px; }
 
 #mixWrap { height: 100%; width: 100%; margin: 0 auto; box-sizing: border-box; text-align: center; }
