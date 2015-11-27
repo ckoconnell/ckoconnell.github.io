@@ -3,16 +3,119 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  font-family: arial, sans-serif;
-  background: #333;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 90px;
 }
 
-/* line 14, ../scss/style.scss */
-div, span {
+/* line 15, ../scss/style.scss */
+section, nav, div, span, p, h1, h3 {
   box-sizing: border-box;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  border-bottom: 1px dotted #ccc;
+}
+
+/* line 29, ../scss/style.scss */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 35px;
+  background: #000;
+  color: white;
+  z-index: 1000;
+  opacity: .8;
+}
+/* line 39, ../scss/style.scss */
+nav h1, nav h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+/* line 47, ../scss/style.scss */
+nav h1 {
+  font-size: .8em;
+}
+/* line 50, ../scss/style.scss */
+nav h3 {
+  font-size: .6em;
+  color: #ccc;
+  padding-left: 15px;
+}
+
+/* line 57, ../scss/style.scss */
+.wrap {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+/* line 68, ../scss/style.scss */
 h1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+
+/* line 72, ../scss/style.scss */
+h3 {
+  font-size: 1em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 79, ../scss/style.scss */
+p {
+  font-size: .8em;
+  max-width: 650px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* line 86, ../scss/style.scss */
+li {
+  font-size: .8em;
+  list-style: square;
+  max-width: 450px;
+}
+/* line 91, ../scss/style.scss */
+li h3 {
+  font-size: 1.2em;
+}
+/* line 95, ../scss/style.scss */
+li p {
+  font-size: 1em;
+}
+
+/* line 100, ../scss/style.scss */
+.productDetails {
+  margin-left: 2em !important;
+  list-style: none !important;
+}
+
+/* line 105, ../scss/style.scss */
+.date {
+  font-weight: 900;
+  text-align: right;
+  float: right;
+}
+@media screen and (max-width: 450px) {
+  /* line 105, ../scss/style.scss */
+  .date {
+    float: none;
+    text-align: left;
+    padding-left: 15px;
+  }
 }
