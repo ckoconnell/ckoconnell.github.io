@@ -1,0 +1,18 @@
+/* line 6, ../scss/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  font-family: arial, sans-serif;
+  background: #333;
+}
+
+/* line 14, ../scss/style.scss */
+div, span {
+  box-sizing: border-box;
+}
+
+/* line 21, ../scss/style.scss */
+h1 {
+  font-size: 1.5em;
+}
