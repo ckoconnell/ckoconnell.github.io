@@ -298,24 +298,34 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemSouthAfrica .itemImg { background: url("../img/itemSouthAfrica.jpg") no-repeat; background-size: cover; background-position: right bottom; }
 
 .itemInstaCerroPaine .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaCerroPaine .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaVoraKananaskis .itemImg { background: url("../img/itemInstaVoraKananaskis.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaVoraKananaskis .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaIceCaveHood .itemImg { background: url("../img/itemInstaIceCaveHood.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaIceCaveHood .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaIzzyYotei .itemImg { background: url("../img/itemInstaIzzyYotei.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaIzzyYotei .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaBurkard10 .itemImg { background: url("../img/itemInstaBurkard10.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaBurkard10 .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaWhiskeyTahoe .itemImg { background: url("../img/itemInstaWhiskeyTahoe.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaWhiskeyTahoe .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaBurkardMoments .itemImg { background: url("../img/itemInstaBurkardMoments.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaBurkardMoments .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaLustiRevy .itemImg { background: url("../img/itemInstaLustiRevy.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaLustiRevy .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaSnowpatchSpire .itemImg { background: url("../img/itemInstaSnowpatchSpire.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaSnowpatchSpire .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .itemInstaLustiRevy2 .itemImg { background: url("../img/itemInstaLustiRevy2.jpg"); background-size: cover; background-position: center bottom; }
+.itemInstaLustiRevy2 .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
 .youtubePlaylist { width: 96%; max-width: 960px; height: 500px !important; position: relative; display: block; }
 @media screen and (max-width: 767px) { .youtubePlaylist { height: 325px !important; } }
