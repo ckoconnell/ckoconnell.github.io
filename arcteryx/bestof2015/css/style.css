@@ -92,7 +92,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 
 #mixWrap { height: 100%; width: 100%; margin: 0 auto; box-sizing: border-box; text-align: center; }
 @media screen and (max-width: 960px) { #mixWrap { width: 100%; } }
-@media screen and (max-width: 599px) { #mixWrap { text-align: left; } }
+@media screen and (max-width: 599px) { #mixWrap { text-align: left; width: 96%; } }
 #mixWrap .mix { display: inline-block; box-sizing: border-box; padding: 0; box-shadow: 1px 1px 2px #bbb; height: 450px; margin: 1% 10px; background: white; overflow: hidden; position: relative; min-width: 270px; cursor: pointer; vertical-align: top; transition: all .3s; }
 @media screen and (max-width: 599px) { #mixWrap .mix { margin: 2% 0px; } }
 #mixWrap .mix h1 { font-size: 14px; font-weight: 100; }
