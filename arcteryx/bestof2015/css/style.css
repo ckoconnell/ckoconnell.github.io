@@ -318,6 +318,9 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemInstaLustiRevy2 .itemImg { background: url("../img/itemInstaLustiRevy2.jpg"); background-size: cover; background-position: center bottom; }
 
 .youtubePlaylist { width: 96%; max-width: 960px; height: 500px !important; position: relative; display: block; }
+@media screen and (max-width: 767px) { .youtubePlaylist { height: 325px !important; } }
 .youtubePlaylist iframe { width: 100% !important; height: 100% !important; }
+
+.itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg"); background-size: cover; background-position: center bottom; }
 
 .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }

@@ -1548,6 +1548,9 @@ header {
     position: relative;
     display: block;
 
+    @media screen and (max-width: $bptablet) {
+      height: 325px !important;
+    }
 
   iframe {
     width: 100% !important;
@@ -1556,9 +1559,16 @@ header {
   }
 }
 
+.itemCustomerLetters {
+  .itemImg {
+    background:url('../img/itemCustomerLetters.jpg');
+    background-size: cover;
+    background-position: center bottom;
+  }
+}
+
 .slick-slider {
   margin-left: -8px !important;
   padding: 0 !important;
   margin-top: -8px !important;
-
 }
