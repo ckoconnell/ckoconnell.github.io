@@ -1541,6 +1541,21 @@ header {
   }
 }
 
+.youtubePlaylist {
+    width: 96%;
+    max-width: 960px;
+    height: 500px !important;
+    position: relative;
+    display: block;
+
+
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+
+  }
+}
+
 .slick-slider {
   margin-left: -8px !important;
   padding: 0 !important;
