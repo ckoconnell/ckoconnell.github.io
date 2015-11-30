@@ -297,4 +297,24 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 
 .itemSouthAfrica .itemImg { background: url("../img/itemSouthAfrica.jpg") no-repeat; background-size: cover; background-position: right bottom; }
 
+.itemInstaCerroPaine .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInstaVoraKananaskis .itemImg { background: url("../img/itemInstaVoraKananaskis.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInstaIceCaveHood .itemImg { background: url("../img/itemInstaIceCaveHood.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInstaIzzyYotei .itemImg { background: url("../img/itemInstaIzzyYotei.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInstaBurkard10 .itemImg { background: url("../img/itemInstaBurkard10.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInsta .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInsta .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInsta .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInsta .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
+.itemInsta .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
+
 .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
