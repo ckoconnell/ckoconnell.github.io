@@ -1783,8 +1783,13 @@ header {
     display: block;
 
     @media screen and (max-width: $bptablet) {
-      height: 325px !important;
+      height: 450px !important;
     }
+
+    @media screen and (max-width: $bpphone) {
+      height: 450px !important;
+    }
+
 
   .videoHeader {
     width: 100%;
