@@ -367,7 +367,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemFootwearGroup .itemImg { height: 700px !important; background: url("../img/itemFootwearGroupAction.jpg") no-repeat; background-size: cover; background-position: left bottom; }
 @media screen and (max-width: 599px) { .itemFootwearGroup .itemImg { height: 300px !important; overflow: hidden; } }
 .itemFootwearGroup .groupWrap { position: absolute; display: inline-block; top: 30px; right: 30px; width: 100%; max-width: 425px; text-align: left; background: #000; opacity: 0.9; color: white !important; }
-@media screen and (max-width: 599px) { .itemFootwearGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; left: 0 !important; top: 0 !important; opacity: 1 !important; } }
+@media screen and (max-width: 599px) { .itemFootwearGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; right: 0 !important; top: 0 !important; opacity: 1 !important; } }
 .itemFootwearGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 100%; vertical-align: top; box-sizing: border-box; padding: 30px; }
 .itemFootwearGroup .groupWrap .groupIntro blockquote { font-weight: 900; padding: 0; margin: 0; font-style: italic; margin-bottom: 5px; font-size: 17px; line-height: 1.2em; }
 .itemFootwearGroup .groupWrap .groupIntro h1 { font-weight: 900 !important; font-size: 24px !important; line-height: 1em; margin: 0; padding: 0; text-transform: uppercase; }
