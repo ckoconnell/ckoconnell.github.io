@@ -1037,7 +1037,7 @@ header {
     max-width: 425px;
     text-align: left;
     background: #000;
-    opacity: 0.85;
+    opacity: 0.81;
     color: white !important;
 
     @media screen and (max-width: $bpphone) {
@@ -1046,6 +1046,7 @@ header {
       max-width: 100% !important;
       left: 0 !important;
       top: 0 !important;
+      opacity: 1 !important;
     }
 
     .groupIntro {
@@ -1134,6 +1135,7 @@ header {
         h1 {
           font-size: 12px !important;
           line-height: 1em !important;
+          font-weight: 100 !important;
           margin: 0;
           padding: 0;
           color: white !important;
