@@ -345,11 +345,14 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemInstaLustiRevy2 .itemImg { background: url("../img/itemInstaLustiRevy2.jpg"); background-size: cover; background-position: center bottom; }
 .itemInstaLustiRevy2 .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
 
-.youtubePlaylist { width: 96%; max-width: 960px; height: 500px !important; position: relative; display: block; }
+.youtubePlaylist { width: 96%; max-width: 960px; height: 650px !important; position: relative; display: block; }
 @media screen and (max-width: 767px) { .youtubePlaylist { height: 325px !important; } }
-.youtubePlaylist iframe { width: 100% !important; height: 100% !important; }
+.youtubePlaylist .videoHeader { width: 100%; height: 90px; background: #000; vertical-align: top; margin-top: -10px; text-align: left; box-sizing: border-box; padding: 30px; }
+.youtubePlaylist .videoHeader h1 { color: white; margin: 0; padding: 0; font-size: 15px !important; font-weight: 900 !important; text-transform: uppercase; }
+.youtubePlaylist .videoHeader p { color: white; margin: 0; padding: 0; font-size: 12px !important; }
+.youtubePlaylist iframe { width: 100% !important; height: calc(100% - 80px); height: -webkit-calc(100% - 80px); }
 
-.itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg"); background-size: cover; background-position: center bottom; }
+.itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg"); background-size: 100%; background-position: center bottom; }
 
 .itemFootwearGroup { height: 700px !important; max-width: 960px !important; }
 @media screen and (max-width: 700px) { .itemFootwearGroup { height: auto !important; } }

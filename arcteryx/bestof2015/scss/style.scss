@@ -1778,7 +1778,7 @@ header {
 .youtubePlaylist {
     width: 96%;
     max-width: 960px;
-    height: 500px !important;
+    height: 650px !important;
     position: relative;
     display: block;
 
@@ -1786,17 +1786,44 @@ header {
       height: 325px !important;
     }
 
+  .videoHeader {
+    width: 100%;
+    height: 90px;
+    background: #000;
+    vertical-align: top;
+    margin-top: -10px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 30px;
+
+    h1 {
+      color: white;
+      margin: 0;
+      padding: 0;
+      font-size: 15px !important;
+      font-weight: 900 !important;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: white;
+      margin: 0;
+      padding: 0;
+      font-size: 12px !important;
+    }
+  }
+
   iframe {
     width: 100% !important;
-    height: 100% !important;
-
+    height: calc(100% - 80px);
+    height: -webkit-calc(100% - 80px);
   }
 }
 
 .itemCustomerLetters {
   .itemImg {
     background:url('../img/itemCustomerLetters.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-position: center bottom;
   }
 }
