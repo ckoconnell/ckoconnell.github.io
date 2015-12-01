@@ -1337,78 +1337,6 @@ header {
   }
 }
 
-.itemFootwear {
-  height: 600px !important;
-
-  .itemImg {
-    background:url('../img/itemFootwear2.jpg') no-repeat;
-    background-size: 100%;
-    background-position: bottom center;
-    height: 100%;
-  }
-
-  .groupWrap {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 30%;
-  }
-
-  .groupIntro {
-    text-align: left;
-    width: 100%;
-    color: white;
-
-    h4 {
-      text-transform: uppercase;
-      margin-bottom: 0;
-    }
-    h5 {
-      font-weight: 100;
-      margin-top: 10px;
-    }
-
-    a {
-      border: 1px solid white;
-      padding: 5px 12px 3px 12px;
-      color: white;
-      font-size: 12px;
-      text-transform: uppercase;
-      margin-right: 10px;
-    }
-  }
-
-  .groupContent {
-
-    .itemContent {
-      color: white;
-      padding: 0 !important;
-      margin-top: 30px;
-      width: 100%;
-
-      ul {
-        margin-left: -25px;
-
-        li {
-          list-style: none;
-          color: white;
-          font-size: 13px;
-          margin-left: -5px;
-          margin-bottom: 10px;
-
-          a {
-            color: white;
-
-            .bolder {
-              font-weight: 900;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 .itemPiaGregJapan{
   .itemImg {
     background:url('../img/itemPiaGregJapan.jpg') no-repeat;
@@ -1694,6 +1622,7 @@ header {
     background-position: center bottom;
   }
 
+
   .itemContent {
     p {
       font-weight: 600 !important;
@@ -1893,7 +1822,7 @@ header {
     top: 30px;
     right: 30px;
     width: 100%;
-    max-width: 425px;
+    max-width: 350px;
     text-align: left;
     background: #000;
     opacity: 0.9;

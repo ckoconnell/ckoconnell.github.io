@@ -246,19 +246,6 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemMorganWild .itemImg { background: url("../img/itemMorganWild.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemMorganWild .itemImg { background-position: center center; } }
 
-.itemFootwear { height: 600px !important; }
-.itemFootwear .itemImg { background: url("../img/itemFootwear2.jpg") no-repeat; background-size: 100%; background-position: bottom center; height: 100%; }
-.itemFootwear .groupWrap { position: absolute; top: 30px; right: 30px; width: 30%; }
-.itemFootwear .groupIntro { text-align: left; width: 100%; color: white; }
-.itemFootwear .groupIntro h4 { text-transform: uppercase; margin-bottom: 0; }
-.itemFootwear .groupIntro h5 { font-weight: 100; margin-top: 10px; }
-.itemFootwear .groupIntro a { border: 1px solid white; padding: 5px 12px 3px 12px; color: white; font-size: 12px; text-transform: uppercase; margin-right: 10px; }
-.itemFootwear .groupContent .itemContent { color: white; padding: 0 !important; margin-top: 30px; width: 100%; }
-.itemFootwear .groupContent .itemContent ul { margin-left: -25px; }
-.itemFootwear .groupContent .itemContent ul li { list-style: none; color: white; font-size: 13px; margin-left: -5px; margin-bottom: 10px; }
-.itemFootwear .groupContent .itemContent ul li a { color: white; }
-.itemFootwear .groupContent .itemContent ul li a .bolder { font-weight: 900; }
-
 .itemPiaGregJapan .itemImg { background: url("../img/itemPiaGregJapan.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemPiaGregJapan .itemImg { background-position: center bottom; } }
 
@@ -366,7 +353,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 @media screen and (max-width: 599px) { .itemFootwearGroup { height: auto !important; } }
 .itemFootwearGroup .itemImg { height: 700px !important; background: url("../img/itemFootwearGroupAction.jpg") no-repeat; background-size: cover; background-position: left bottom; }
 @media screen and (max-width: 599px) { .itemFootwearGroup .itemImg { height: 300px !important; overflow: hidden; } }
-.itemFootwearGroup .groupWrap { position: absolute; display: inline-block; top: 30px; right: 30px; width: 100%; max-width: 425px; text-align: left; background: #000; opacity: 0.9; color: white !important; }
+.itemFootwearGroup .groupWrap { position: absolute; display: inline-block; top: 30px; right: 30px; width: 100%; max-width: 350px; text-align: left; background: #000; opacity: 0.9; color: white !important; }
 @media screen and (max-width: 599px) { .itemFootwearGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; right: 0 !important; top: 0 !important; opacity: 1 !important; } }
 .itemFootwearGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 100%; vertical-align: top; box-sizing: border-box; padding: 30px; }
 .itemFootwearGroup .groupWrap .groupIntro blockquote { font-weight: 900; padding: 0; margin: 0; font-style: italic; margin-bottom: 5px; font-size: 17px; line-height: 1.2em; }
