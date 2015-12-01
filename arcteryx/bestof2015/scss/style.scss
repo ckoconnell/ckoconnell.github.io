@@ -911,7 +911,6 @@ header {
       top: 0 !important;
     }
 
-
     .groupIntro {
       position: relative;
       display: inline-block;
@@ -990,7 +989,6 @@ header {
           line-height: 1em !important;
           margin: 0;
           padding: 0;
-
         }
       }
 
@@ -1007,6 +1005,167 @@ header {
     }
   }
 }
+
+.itemDefineFeminineGroup {
+  height: 750px !important;
+  max-width: 960px !important;
+
+  @media screen and (max-width: $bpphone) {
+    height: auto !important;
+  }
+
+  .itemImg {
+    height: 750px !important;
+    background:url('../img/itemDefineFeminineGroup.jpg') no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+
+    @media screen and (max-width: $bpphone) {
+      height: 300px !important;
+      overflow: hidden;
+
+    }
+  }
+
+  .groupWrap {
+    position: absolute;
+    display: inline-block;
+    // bottom: 30px;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    max-width: 425px;
+    text-align: left;
+    background: #000;
+    opacity: 0.85;
+    color: white !important;
+
+    @media screen and (max-width: $bpphone) {
+      position: relative;
+      width: 100%;
+      max-width: 100% !important;
+      left: 0 !important;
+      top: 0 !important;
+    }
+
+    .groupIntro {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      box-sizing: border-box;
+      padding: 30px;
+
+      blockquote {
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+        font-style: italic;
+        margin-bottom: 5px;
+        font-size: 17px;
+        line-height: 1.2em;
+      }
+
+      h1 {
+        font-weight: 900 !important;
+        font-size: 24px !important;
+        line-height: 1em;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+      }
+
+      h4 {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        margin-top: 5px;
+      }
+
+      h2 {
+        font-size: 12px;
+        font-weight: 100;
+        display: inline-block !important;
+        margin: 0;
+        padding: 0;
+        padding-top: 2px;
+      }
+
+      .channelTag {
+        display: inline-block;
+        color: white;
+        padding: 3px 5px 2px 5px;
+        font-size: 10px;
+        line-height: 10px;
+        text-transform: uppercase;
+        vertical-align: 1px;
+      }
+
+      .channelBlog {
+        // background: #888;
+        border: 1px solid #aaa;
+        color: white;
+      }
+
+      a {
+        border: 1px solid #333;
+        display: block;
+        font-weight: 600 !important;
+        line-height: 1em !important;
+        text-transform: uppercase;
+        padding: 7px 10px 5px;
+        margin: 0;
+        margin-bottom: 10px;
+        vertical-align: middle;
+        transition: all .5s;
+        color: white !important;
+
+        h1 {
+          font-size: 12px !important;
+          line-height: 1em !important;
+          margin: 0;
+          padding: 0;
+          color: white !important;
+        }
+      }
+
+      a:hover {
+        background: #ccc;
+        color: white;
+        transition: all .8s;
+        border: 1px solid #333;
+
+        h1 {
+          color: #171717 !important;
+        }
+      }
+
+      .youtubePlaylist {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 275px !important;
+
+        iframe {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
 
 .itemIzzyJapan {
   .itemImg {
