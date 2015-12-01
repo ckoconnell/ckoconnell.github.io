@@ -161,15 +161,14 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 
 .itemColoradoClassics .itemImg { background: url("../img/itemColoradoClassics.jpg") no-repeat; background-size: cover; }
 
-.itemEverestGroup { height: 640px !important; }
+.itemEverestGroup { height: 640px !important; max-width: 960px !important; }
 .itemEverestGroup .itemImg { height: 640px !important; background: url("../img/itemEverestGroup.jpg") no-repeat; background-size: cover; }
-.itemEverestGroup .groupWrap { position: absolute; display: block; bottom: 30px; left: 30px; width: 97%; min-width: 300px; text-align: left; height: 450px; }
-.itemEverestGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 27%; height: 100%; background: #fff; vertical-align: top; box-sizing: border-box; padding: 30px; opacity: 0.9; }
+.itemEverestGroup .groupWrap { position: absolute; display: block; top: 15px; left: 30px; width: 33%; max-width: 350px; text-align: left; height: 450px; background: #fff; opacity: 0.9; }
+.itemEverestGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 100%; height: 100%; max-width: 350px; vertical-align: top; box-sizing: border-box; padding: 30px; margin-bottom: 30px; padding-bottom: 60px; }
+.itemEverestGroup .groupWrap .groupIntro blockquote { font-weight: 900; padding: 0; margin: 0; font-style: italic; margin-bottom: 30px; font-size: 17px; line-height: 1.2em; }
 .itemEverestGroup .groupWrap .groupIntro h4 { font-weight: 900; font-size: 18px; line-height: 18px; margin: 0; padding: 0; }
-.itemEverestGroup .groupWrap .groupIntro h5 { font-weight: 400; font-size: 15px; line-height: 18px; margin: 0; padding: 0; }
-.itemEverestGroup .groupWrap .groupContent { width: 63%; position: relative; display: inline-block; }
-.itemEverestGroup .groupWrap .groupContent .itemContent { position: relative; display: inline-block; width: 43%; height: 190px !important; background: white !important; opacity: 0.9; margin-bottom: 5px; vertical-align: top; transition: all 1s; }
-.itemEverestGroup .groupWrap .groupContent .itemContent:hover { background: #bbb !important; transition: all 1s; }
+.itemEverestGroup .groupWrap .groupIntro h5 { font-weight: 400; font-size: 15px; line-height: 20px; margin: 0; padding: 0; }
+.itemEverestGroup .groupWrap .groupIntro a { border: 1px solid #333; display: inline-block; }
 
 .itemIzzyJapan .itemImg { background: url("../img/itemIzzyJapan.jpg") no-repeat; background-size: cover; }
 @media screen and (max-width: 767px) { .itemIzzyJapan .itemImg { background-position: right center; } }
