@@ -15,7 +15,7 @@ header .logoWrap .logo2015 { position: absolute; font-weight: 500; font-size: 72
 header .introWrap { position: relative; display: inline-block; color: white; width: 215px; font-size: 14px; line-height: 1.4em; margin-top: 130px; text-shadow: 0 0 4px #171717; box-sizing: border-box; text-align: justify; padding-top: 15px; }
 
 .mobileMenuWrap { display: none; }
-@media screen and (max-width: 599px) { .mobileMenuWrap { position: fixed; display: inline-block; z-index: 1000; width: 50px; height: 50px; left: 15px; bottom: 10px; overflow: hidden; transition: all .8s; } }
+@media screen and (max-width: 599px) { .mobileMenuWrap { position: fixed; z-index: 1000; width: 50px; height: 50px; left: 15px; bottom: 10px; overflow: hidden; transition: all .8s; } }
 .mobileMenuWrap .menuButton { position: relative; display: block; background: #333; opacity: .75; width: 100%; height: 50px; color: white; font-size: 30px; font-weight: 100; box-sizing: border-box; text-align: center; font-family: Arial, sans-serif; padding: 3px 10px 10px 10px; }
 .mobileMenuWrap .sortButton { position: relative; display: block; background: teal; width: 100%; height: 50px; margin-bottom: 5px; }
 .mobileMenuWrap .totopButton { position: relative; display: block; background: #222; opacity: .75; width: 100%; height: 50px; margin-bottom: 5px; color: white; padding: 15px 0 0 0; box-sizing: border-box; text-align: center; }
@@ -192,6 +192,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemDefineFeminineGroup .groupWrap .groupIntro h4 { font-weight: 900; font-size: 18px; line-height: 18px; margin: 0; padding: 0; }
 .itemDefineFeminineGroup .groupWrap .groupIntro h5 { font-weight: 400; font-size: 13px; line-height: 20px; margin: 0; padding: 0; margin-bottom: 15px; margin-top: 5px; }
 .itemDefineFeminineGroup .groupWrap .groupIntro h2 { font-size: 12px; font-weight: 100; display: inline-block !important; margin: 0; padding: 0; padding-top: 2px; }
+.itemDefineFeminineGroup .groupWrap .groupIntro .bolder { font-weight: 900 !important; }
 .itemDefineFeminineGroup .groupWrap .groupIntro .channelTag { display: inline-block; color: white; padding: 3px 5px 2px 5px; font-size: 10px; line-height: 10px; text-transform: uppercase; vertical-align: 1px; }
 .itemDefineFeminineGroup .groupWrap .groupIntro .channelBlog { border: 1px solid #aaa; color: white; }
 .itemDefineFeminineGroup .groupWrap .groupIntro a { border: 1px solid #333; display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; color: white !important; }
@@ -377,5 +378,29 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemFootwearGroup .groupWrap .groupIntro a:hover h1 { color: #171717 !important; }
 .itemFootwearGroup .groupWrap .groupIntro .youtubePlaylist { position: relative; display: inline-block; width: 100%; height: 275px !important; }
 .itemFootwearGroup .groupWrap .groupIntro .youtubePlaylist iframe { width: 100%; height: 100%; }
+
+.itemCommitGroup { height: 700px !important; max-width: 960px !important; }
+@media screen and (max-width: 700px) { .itemCommitGroup { height: auto !important; } }
+.itemCommitGroup .itemImg { height: 700px !important; background: url("../img/itemCommitGroup2.jpg") no-repeat; background-size: cover; background-position: left bottom; }
+@media screen and (max-width: 700px) { .itemCommitGroup .itemImg { height: 400px !important; overflow: hidden; } }
+@media screen and (max-width: 599px) { .itemCommitGroup .itemImg { height: 300px !important; overflow: hidden; } }
+.itemCommitGroup .groupWrap { position: absolute; display: inline-block; bottom: 30px; left: 30px; width: 100%; max-width: 350px; text-align: left; background: #000; opacity: 0.85; color: white !important; }
+@media screen and (max-width: 700px) { .itemCommitGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; right: 0 !important; bottom: 0 !important; opacity: 1 !important; } }
+.itemCommitGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 100%; vertical-align: top; box-sizing: border-box; padding: 30px; }
+.itemCommitGroup .groupWrap .groupIntro blockquote { font-weight: 900; padding: 0; margin: 0; font-style: italic; margin-bottom: 5px; font-size: 17px; line-height: 1.2em; }
+.itemCommitGroup .groupWrap .groupIntro h1 { font-weight: 900 !important; font-size: 24px !important; line-height: 1em; margin: 0; padding: 0; text-transform: uppercase; }
+.itemCommitGroup .groupWrap .groupIntro h3 { margin: 0; padding: 0; text-transform: uppercase; font-size: 18px; line-height: 1em; }
+.itemCommitGroup .groupWrap .groupIntro h4 { font-weight: 900; font-size: 18px; line-height: 18px; margin: 0; padding: 0; }
+.itemCommitGroup .groupWrap .groupIntro h5 { font-weight: 400; font-size: 13px; line-height: 20px; margin: 0; padding: 0; margin-bottom: 15px; margin-top: 5px; }
+.itemCommitGroup .groupWrap .groupIntro h2 { font-size: 12px; font-weight: 100; display: inline-block !important; margin: 0; padding: 0; padding-top: 2px; }
+.itemCommitGroup .groupWrap .groupIntro .bolder { font-weight: 900 !important; }
+.itemCommitGroup .groupWrap .groupIntro .channelTag { display: inline-block; color: white; padding: 3px 5px 2px 5px; font-size: 10px; line-height: 10px; text-transform: uppercase; vertical-align: 1px; margin-right: 5px; }
+.itemCommitGroup .groupWrap .groupIntro .channelBlog { border: 1px solid #aaa; color: white; }
+.itemCommitGroup .groupWrap .groupIntro a { border: 1px solid #333; display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; color: white !important; }
+.itemCommitGroup .groupWrap .groupIntro a h1 { font-size: 12px !important; line-height: 1em !important; font-weight: 100 !important; margin: 0; padding: 0; color: white !important; }
+.itemCommitGroup .groupWrap .groupIntro a:hover { background: #ccc; color: white; transition: all .8s; border: 1px solid #333; }
+.itemCommitGroup .groupWrap .groupIntro a:hover h1 { color: #171717 !important; }
+.itemCommitGroup .groupWrap .groupIntro .youtubePlaylist { position: relative; display: inline-block; width: 100%; height: 275px !important; }
+.itemCommitGroup .groupWrap .groupIntro .youtubePlaylist iframe { width: 100%; height: 100%; }
 
 .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
