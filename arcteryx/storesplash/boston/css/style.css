@@ -22,7 +22,7 @@ p { font-weight: 100; line-height: 1.3em; font-family: 'Avenir LT W01 55 Roman',
 .headerWrap .logoWrap svg { width: 150px; margin-top: 20px; }
 
 .heroWrap { background: #333; background: url("../img/bostonHero.jpg") no-repeat; background-size: cover; min-height: 350px; background-position: right 40%; }
-@media screen and (max-width: 930px) { .heroWrap { background-size: auto 110%; } }
+@media screen and (max-width: 930px) { .heroWrap { background-size: cover; } }
 @media screen and (max-width: 500px) { .heroWrap { min-height: 250px; background-size: cover !important; } }
 
 .heroContent { margin-top: 30px; margin-bottom: 30px; }
@@ -49,9 +49,9 @@ p { font-weight: 100; line-height: 1.3em; font-family: 'Avenir LT W01 55 Roman',
 .mainWrap a { display: block; font-weight: 100 !important; font-size: 14px; margin-bottom: 5px; }
 .mainWrap .mapHead { padding: 10px 15px; background: #000; margin-bottom: -15px; font-size: .9em !important; text-transform: none !important; line-height: 1.4em !important; }
 .mainWrap .mapHead a { font-size: 1em !important; line-height: 1em !important; }
-@media screen and (max-width: 700px) { .mainWrap .mapHead { margin: 0 auto; margin-bottom: -15px; margin-top: 30px; } }
+@media screen and (max-width: 700px) { .mainWrap .mapHead { margin: 0 auto; margin-bottom: -15px; } }
 .mainWrap .mapWrap { display: inline-block; position: relative; width: 100%; height: 220px; background: url("../img/bostonMap.jpg") no-repeat; background-size: 500px; background-position: 53% 31%; z-index: 10; }
-@media screen and (max-width: 700px) { .mainWrap .mapWrap { background-size: 700px; } }
+@media screen and (max-width: 700px) { .mainWrap .mapWrap { background-size: cover; height: 350px; } }
 .mainWrap .mapWrap .markerWrap { position: absolute; top: 37%; left: 51%; width: 28px; height: 28px; border-radius: 15px; background-color: #333; background-image: url("../img/birdmarker.png"); background-repeat: no-repeat; background-size: 20px; background-position: 50% 50%; }
 @media screen and (max-width: 700px) { .mainWrap .mapWrap .markerWrap { top: 40%; left: 52%; } }
 .mainWrap .mapWrap .markerWrap:hover { box-shadow: 0px 0px 2px red; }
