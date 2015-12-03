@@ -21,9 +21,10 @@ p { font-weight: 300; line-height: 1.3em; }
 @media screen and (max-width: 380px) { .contentGrid { width: 100%; padding-left: 0px; } }
 
 .headerWrap { position: absolute; width: 100%; z-index: 1; top: 0; }
-.headerWrap .logoWrap { width: 150px; height: 200px; background: url("http://stores.arcteryx.com/piccadilly/img/logoLondon.jpg") no-repeat; background-size: 150px; }
+.headerWrap .logoWrap { width: 200px; height: 140px; background: #000; text-align: center; box-sizing: border-box; }
+.headerWrap .logoWrap svg { width: 150px; margin-top: 20px; }
 
-.headerWrap { width: 100%; height: 700px; background: #555; background-size: cover; background-position: center center; }
+.headerWrap { width: 100%; height: 490px; background: #555; background: url("../img/bostonHero.jpg"); background-size: cover; background-position: center center; }
 @media screen and (max-width: 930px) { .headerWrap { background-position: center bottom; } }
 @media screen and (max-width: 600px) { .headerWrap { height: 400px; } }
 
@@ -36,15 +37,13 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap p { font-size: 14px; line-height: 1.7em; }
 .contentWrap ul li { width: 75%; margin-bottom: 10px; font-size: 14px; }
 .contentWrap a { text-transform: uppercase; }
-.contentWrap .wbLogoWrap { width: 120px; height: 60px; background: url("http://stores.arcteryx.com/piccadilly/img/wbLogo.png") no-repeat; background-size: 105px; position: absolute; top: 180px; right: 100px; }
-@media screen and (max-width: 768px) { .contentWrap .wbLogoWrap { position: relative; left: 0; display: inline-block; top: 15px; } }
 .contentWrap .howtoenter { margin-top: 30px; margin-bottom: 30px; }
 .contentWrap .howtoenter ul { list-style: none; margin-left: -15px; vertical-align: top; }
-.contentWrap .howtoenter ul li { vertical-align: top; font-weight: 100; margin-bottom: 20px; line-height: 1.5em; width: 40%; display: inline-block; box-sizing: border-box; margin-right: 50px; }
+.contentWrap .howtoenter ul li { vertical-align: top; font-weight: 100; margin-bottom: 20px; line-height: 1.5em; width: 60%; display: block; box-sizing: border-box; margin-right: 50px; }
 @media screen and (max-width: 700px) { .contentWrap .howtoenter ul li { width: 80%; } }
 .contentWrap .upper { text-transform: uppercase; }
-.contentWrap .bolder { font-weight: 600; text-transform: uppercase; }
-.contentWrap .rulesLink { font-size: .8em !important; text-decoration: underline; }
+.contentWrap .bolder { font-weight: 600; font-size: 1.2em; text-transform: uppercase; }
+.contentWrap .rulesLink { text-decoration: underline; text-transform: none !important; }
 .contentWrap .stepStyle { text-transform: uppercase; color: #aaa; padding-right: 10px; }
 .contentWrap .rowWrap { width: 100%; margin-top: 30px; }
 .contentWrap .socialLogos { width: 30%; height: 40px; display: inline-block; vertical-align: top; margin-top: 50px; }
@@ -52,6 +51,7 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap .socialLogos a { width: 80px; height: 80px; display: inline-block; margin-right: 15px; margin-top: -10px; }
 .contentWrap .socialLogos a img { width: 70px; height: 70px; }
 .contentWrap .storeInfo { width: 65%; display: inline-block; margin: 45px 0; }
+.contentWrap .storeInfo a { text-transform: none; text-decoration: underline; }
 .contentWrap .storeInfo h3, .contentWrap .storeInfo a { line-height: 0.8em; }
 @media screen and (max-width: 700px) { .contentWrap .storeInfo h3, .contentWrap .storeInfo a { line-height: 1em; } }
 .contentWrap .finePrint { margin: 60px 0px; }
@@ -66,12 +66,12 @@ p { font-weight: 300; line-height: 1.3em; }
 
 .prizing li { font-size: .8em !important; line-height: .7em; text-transform: uppercase; }
 
-.nffWrap { background: url("http://stores.arcteryx.com/piccadilly/img/newforfallheroSm.jpg") no-repeat; background-color: rgba(255, 255, 255, 0.5); background-size: cover; background-position: center bottom; width: 100%; height: 500px; opacity: 1; }
+.nffWrap { background: url("../img/newforfallheroSm.jpg") no-repeat; background-color: rgba(255, 255, 255, 0.5); background-size: cover; background-position: center bottom; width: 100%; height: 500px; opacity: 1; }
 .nffWrap .contentGrid { width: 100%; text-align: center; min-width: 300px; }
 .nffWrap .contentGrid a { margin-top: 120px; margin-bottom: 30px; font-size: 14px; color: white; text-align: center; border: 1px solid white; padding: 8px 15px 7px 15px; display: inline-block; }
 .nffWrap .contentGrid h1 { font-size: 14px; line-height: 13px; overflow: hidden; vertical-align: top; }
 
-#overlay { display: none; position: fixed; left: 10%; right: 10%; top: 5%; padding: 25px; border: 5px solid #666; background-color: #ffffff; height: 80%; overflow: scroll; z-index: 100; color: #333; transition: all 2s linear 1s; }
+#overlay { display: none; position: fixed; left: 10%; right: 10%; top: 5%; padding: 25px; border: 5px solid #666; background-color: #ffffff; height: 80%; overflow: scroll; z-index: 100; color: #333; transition: all 2s; }
 #overlay p { color: #666; }
 #overlay h1 { text-transform: uppercase; font-weight: 600; color: #333; }
 #overlay h3 { font-weight: 600; margin-top: 30px; marginb-bottom: 10px; color: #666; }
@@ -82,6 +82,6 @@ p { font-weight: 300; line-height: 1.3em; }
 
 #closeLink a { text-decoration: none; }
 
-#buttonWrap { background: #000; color: white; }
+#buttonWrap { background: #000; color: white; text-decoration: underline !important; }
 
 #buttonWrap a { color: #fff; text-decoration: none; text-transform: none !important; }
