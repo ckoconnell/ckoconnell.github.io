@@ -250,9 +250,17 @@ p {
     display: inline-block;
     margin: 45px 0;
 
+    @media screen and (max-width: 700px) {
+      width: 100%;
+    }
+
     a {
       text-transform: none;
       text-decoration: underline;
+    }
+
+    h3 {
+      width: 100% !important;
     }
 
     h3, a {

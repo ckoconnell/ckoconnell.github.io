@@ -51,7 +51,9 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap .socialLogos a { width: 80px; height: 80px; display: inline-block; margin-right: 15px; margin-top: -10px; }
 .contentWrap .socialLogos a img { width: 70px; height: 70px; }
 .contentWrap .storeInfo { width: 65%; display: inline-block; margin: 45px 0; }
+@media screen and (max-width: 700px) { .contentWrap .storeInfo { width: 100%; } }
 .contentWrap .storeInfo a { text-transform: none; text-decoration: underline; }
+.contentWrap .storeInfo h3 { width: 100% !important; }
 .contentWrap .storeInfo h3, .contentWrap .storeInfo a { line-height: 0.8em; }
 @media screen and (max-width: 700px) { .contentWrap .storeInfo h3, .contentWrap .storeInfo a { line-height: 1em; } }
 .contentWrap .finePrint { margin: 60px 0px; }
