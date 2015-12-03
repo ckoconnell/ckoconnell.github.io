@@ -15,7 +15,8 @@ body {
   box-sizing: border-box;
   background-color: #171717;
   // font-family: Avenir, sans-serif;
-  font-family:'Avenir LT W01 55 Roman', sans-serif;
+  // font-family:'Avenir LT W01 55 Roman', sans-serif;
+  font-family: Avenir, sans-serif;
   color: white;
 }
 
@@ -76,17 +77,22 @@ p {
   top: 0;
 
   .logoWrap {
-    width: 150px;
-    height: 100px;
-    background: #999;
-    // background: url('../img/logoDenver.jpg') no-repeat;
-    background-size: 150px;
+    width: 200px;
+    height: 140px;
+    background: #000;
+    text-align: center;
+    box-sizing: border-box;
+
+    svg {
+      width: 150px;
+      margin-top: 20px;
+    }
   }
 }
 
 .heroWrap {
   background: #333;
-  // background: url('../img/StoreHeroImageDenver.jpg') no-repeat;
+  background: url('../img/bostonHero.jpg') no-repeat;
   // background-size: 110% auto;
   background-size: cover;
   min-height: 350px;
@@ -123,6 +129,7 @@ p {
 }
 
 .mainWrap {
+  margin-top: 90px;
   margin-bottom: 60px;
 
   .margLeft {
@@ -151,23 +158,30 @@ p {
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
 
   h3 {
-    font-size: .8em;
-    font-weight: 100 !important;
+    font-size: 1em;
+    font-weight: 500 !important;
     margin-bottom: 10px;
     line-height: 1.3em;
     text-transform: uppercase;
     vertical-align: top;
   }
 
+  ul {
+
+    li {
+      font-weight: 600;
+    }
+  }
+
   p {
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     box-sizing: border-box;
     vertical-align: top;
 
@@ -175,6 +189,7 @@ p {
       text-transform: uppercase;
       vertical-align: top;
       font-size: .9em;
+      font-weight: 400 !important;
     }
   }
 
@@ -189,6 +204,7 @@ p {
     vertical-align: top;
     margin-right: 5px;
     border-radius: 2px;
+    font-weight: 900 !important;
 
     svg {
       width: 15px;
@@ -202,6 +218,7 @@ p {
   a {
     display: inline-block !important;
     text-decoration: underline;
+    font-weight: 900 !important;
   }
 
   .paddingRight {
@@ -232,7 +249,7 @@ p {
     padding: 10px 15px;
     background: #000;
     margin-bottom: -15px;
-    font-size: .7em !important;
+    font-size: .9em !important;
     text-transform: none !important;
     line-height: 1.4em !important;
 
@@ -317,8 +334,10 @@ p {
   width: 100%;
   margin: 30px 0 60px;
   background: #666;
+  background: url('../img/2015_Commit_Kruk_5779.jpg') no-repeat;
   // background: url('../img/storeexterior.jpg') no-repeat;
-  background-size: 100%;
+  background-size: auto 100%;
+  background-position: right bottom;
   height: 450px;
   box-sizing: border-box;
   margin-bottom: 0px;
@@ -386,19 +405,20 @@ p {
     font-size: 20px;
     margin-bottom: 18px;
     text-transform: uppercase;
-    line-height: .8em;
+    line-height: 1.2em;
   }
 
   h3 {
     font-size: 14px;
-    line-height: 1.4em;
     max-width: 500px;
   }
 
   p {
-    line-height: 1.5em;
+    line-height: 1.2em;
+    font-size: 14px;
     box-sizing: border-box;
-    padding-right: 15%;
+    padding-right: 5%;
+    font-weight: 500;
   }
 
   a {
@@ -414,8 +434,30 @@ p {
   sup {
     line-height: 1em !important;
   }
+}
 
 
+.instoreWrap {
+  width: 100%;
+  margin: 60px 0;
+  height: 100px;
+  overflow: hidden;
+  background: #000;
+
+  h1 {
+    font-weight: 400;
+    font-size: 1.8em;
+    display: inline-block;
+    height: 100%;
+    color: #ee2a2b;
+    padding: 30px 60px 30px 30px;
+  }
+
+  p {
+    display: inline-block;
+    height: 100%;
+    padding: 30px 30px 30px 60px;
+  }
 }
 
 .eventWrap {
@@ -550,7 +592,7 @@ p {
 
 .nffWrap {
   background: #555;
-  // background: url('../img/newforfallheroSm.jpg') no-repeat;
+  background: url('../img/newforfallheroSm.jpg') no-repeat;
   background-size: cover;
   background-position: center bottom;
   width: 100%;
