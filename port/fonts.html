@@ -1,0 +1,114 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+<script type="text/javascript">
+
+    // Slick Slider Feature Area
+
+    $('.featureWrap').slick({
+        autoplay: false,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        arrows: false,
+        infinite: true,
+        dots: false,
+        fade: true,
+        pauseOnHover: false,
+        cssEase: 'ease',
+        lazyload: 'ondemand'
+    });
+
+    // Show & Hide the Nav Bar - Now fixed after top feature area
+
+    var featHeight;
+
+    $(document).on("scroll", function(){
+        featHeight = jQuery(window).height()*0.85;
+        $(".nav").toggleClass("navDisplay", $(document).scrollTop() > featHeight);
+    });
+
+    // Smooth Scrolling to Anchor Points
+
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+</script>
+
+<script>
+    $(".newsLink").click(function(){
+        $(this).parent(".newsItem").toggleClass("newsFull");
+        $(".newsLinkClose").toggleClass("displayLink");
+        $("p").closest(".excerpt").addClass("displayLinkHide");
+        $("h1").closest(".excerpt").addClass("displayLinkHide");
+        $("h3").closest(".excerpt").addClass("displayLinkHide");
+        $(this).siblings(".newsItemFull").addClass("displayFull");
+        $(this).css("display", "none");
+    });
+
+    $(".newsLinkClose").click(function(){
+        $(this).parent(".newsItem").toggleClass("newsFull");
+        $(".newsLinkClose").toggleClass("displayLink");
+        $("div").siblings(".newsLink").removeClass("displayLinkHide");
+        $("div").siblings(".newsLink").addClass("showReadMore");
+        $("div").siblings(".newsItemFull").removeClass("displayFull");
+        $("p").closest(".excerpt").removeClass("displayLinkHide");
+        $("h1").closest(".excerpt").removeClass("displayLinkHide");
+        $("h3").closest(".excerpt").removeClass("displayLinkHide");
+    });
+
+</script>
+
+<script>
+    // Athlete Bio Modals
+    // Ashley
+    $(".bioLinkAshley").click(function(){
+        $(".contestantBioAshley").toggleClass("hideShow");
+    });
+
+    $(".closeLinkAshley").click(function(){
+        $(".contestantBioAshley").toggleClass("hideShow");
+    });
+
+    // Zoya
+    $(".bioLinkZoya").click(function(){
+        $(".contestantBioZoya").toggleClass("hideShow");
+    });
+
+    $(".closeLinkZoya").click(function(){
+        $(".contestantBioZoya").toggleClass("hideShow");
+    });
+
+    // Guy
+    $(".bioLinkGuy").click(function(){
+        $(".contestantBioGuy").toggleClass("hideShow");
+    });
+
+    $(".closeLinkGuy").click(function(){
+        $(".contestantBioGuy").toggleClass("hideShow");
+    });
+
+    // Dalby
+    $(".bioLinkDalby").click(function(){
+        $(".contestantBioDalby").toggleClass("hideShow");
+    });
+
+    $(".closeLinkDalby").click(function(){
+        $(".contestantBioDalby").toggleClass("hideShow");
+    });
+
+</script>

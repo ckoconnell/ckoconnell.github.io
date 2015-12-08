@@ -1,0 +1,224 @@
+// Variables
+
+// Breakpoints
+
+$bpFull: 930px;
+$bpTablet: 767px;
+$bpPhone: 599px;
+
+// Colours
+$siteBg: #ddd;
+$fontColor: #171717;
+$headerColor: #333;
+$subheadColor: #666;
+$borderColor: #ccc;
+
+// Gradient/Highlight Colours
+$col1: #f7786b;
+$col2: #9896a4;
+
+// Fonts
+$bodyfont: 'Open Sans', sans-serif;
+$altfont: 'Open Sans Condensed', sans-serif;
+$fsHeader: 1.5em;
+$fsSubHeader: 1.2em;
+$fsBody: 1em;
+
+
+// Main Page Styles
+
+html {
+
+}
+
+body {
+  background: $siteBg;
+  font-family: $bodyfont;
+  color: $fontColor;
+  margin: 0;
+  padding: 0;
+}
+
+
+// Resets
+section, nav, .gridWrap, div, span, h1, h2, h3, ul, li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+// Font Styles
+
+h1 {
+  font-weight: 100;
+  color: $headerColor;
+  font-size: $fsHeader;
+}
+
+h3 {
+  font-weight: 500;
+  color: $subheadColor;
+  font-size: $fsSubHeader;
+}
+
+p {
+  font-weight: 100;
+  color: $fontColor;
+  font-size: $fsBody;
+}
+
+ul {
+  position: relative;
+
+  li {
+    display: inline-block;
+  }
+}
+
+// Body & Section Styles
+
+section {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  position: relative;
+  background: #F0F0F0;
+  margin: 0 auto;
+  border-bottom: 1px solid $borderColor;
+  padding: 60px 0;
+}
+
+.gridWrap {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.nav {
+    background: #F0F0F0;
+    width: 100%;
+    height: 60px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid $borderColor;
+    z-index: 1000;
+
+  ul {
+
+    li {
+      width: 15%;
+      cursor: pointer;
+
+      a {
+        text-transform: uppercase;
+        padding: 10px 30px;
+        height: auto;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: all .15s;
+      }
+      a:hover {
+        background: #D0D0D0 !important;
+        font-weight: 900;
+        transition: all .4s;
+      }
+    }
+  }
+}
+
+.nav {
+  position: relative;
+}
+
+.navDisplay {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+
+.intro {
+  width: 100%;
+  position: relative;
+  display: block;
+  border-bottom: 0;
+}
+
+.feature {
+  height: 90% !important;
+  padding-bottom: 55.6%;
+}
+
+.work {
+
+  ul {
+    vertical-align: top;
+    display: block;
+
+    li {
+      width: 30%;
+      height: 350px;
+      border: 1px solid $borderColor;
+      margin: 10px 0;
+      padding: 30px;
+      list-style: none;
+      display: inline-block;
+      vertical-align: top;
+
+      h1 {
+        position: absolute;
+        right: 30px;
+        bottom: 40%;
+        color: white;
+
+        // font-family: $bodyfont;
+        font-family: $altfont;
+        font-weight: 600;
+        line-height: .9em;
+        text-align: right;
+      }
+    }
+
+    li:hover {
+      
+    }
+
+    .marginMid {
+      margin: 10px 10px;
+    }
+
+    .workExperience {
+      background: mix($col1, $col2, 100);
+    }
+
+    .workWeb {
+      background: mix($col1, $col2, 80);
+    }
+
+    .workEditorial {
+      background: mix($col1, $col2, 60);
+    }
+
+    .workPM {
+      background: mix($col1, $col2, 40);
+    }
+
+    .workPhoto {
+      background: mix($col1, $col2, 20);
+    }
+
+    .workVideo {
+      background: mix($col1, $col2, 0);
+    }
+
+  }
+
+}
+
+
+.footer {
+  height: 100px !important;
+  min-height: 100px !important;
+}
