@@ -587,7 +587,6 @@ header {
     }
 
     h2 {
-
         font-size: 11px;
         font-weight: 100;
         color: #666;
@@ -598,6 +597,24 @@ header {
         cursor: pointer;
         display: inline-block;
         vertical-align: 0px
+    }
+
+    h3 {
+      font-weight: 600 !important;
+      color: #000 !important;
+    }
+
+    h4 {
+
+      .bolder {
+        color: #000 !important;
+        font-weight: 900 !important;
+      }
+    }
+
+    .lighter {
+      font-weight: 100 !important;
+      line-height: 1.2em !important;
     }
 
     .channelTag {
@@ -2193,6 +2210,14 @@ header {
   }
 }
 
+.itemProductTest {
+
+  .itemImg {
+    background: url('../img/itemProductAlphaSV.jpg');
+    background-size: cover;
+    background-position: center center !important;
+  }
+}
 
 .slick-slider {
   margin-left: -8px !important;
