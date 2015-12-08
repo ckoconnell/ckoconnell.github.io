@@ -389,7 +389,7 @@ p {
       bottom: 5%;
       box-sizing: border-box;
       padding-right: 0 !important;
-      font-size: 12px !important;
+      font-size: 10px !important;
 
       @media screen and (max-width: 700px) {
         position: relative;
@@ -404,6 +404,7 @@ p {
         padding: 0;
         padding-left: 0;
         margin-bottom: 5px !important;
+        font-size: 11px;
       }
 
       a {
@@ -413,6 +414,7 @@ p {
         padding: 0;
         text-transform: none !important;
         text-decoration: underline;
+        font-size: 11px;
       }
     }
 
