@@ -114,6 +114,7 @@ section {
 
       a {
         text-transform: uppercase;
+        color: #ccc;
         padding: 10px 30px;
         height: auto;
         vertical-align: middle;
@@ -124,6 +125,11 @@ section {
         background: #D0D0D0 !important;
         font-weight: 900;
         transition: all .4s;
+      }
+
+      .navDarker {
+        color: #333;
+        transition: all 3s;
       }
     }
   }
@@ -157,6 +163,11 @@ section {
     vertical-align: top;
     display: block;
 
+    .workBlock {
+      display: inline-block;
+      cursor: pointer;
+    }
+
     li {
       width: 30%;
       height: 350px;
@@ -179,6 +190,11 @@ section {
         line-height: .9em;
         text-align: right;
       }
+
+      .blockContent {
+        display: none;
+      }
+
     }
 
     li:hover {
@@ -221,4 +237,12 @@ section {
 .footer {
   height: 100px !important;
   min-height: 100px !important;
+}
+
+
+.displayHide {
+  display: none !important;
+  transition: all 2s;
+
+
 }

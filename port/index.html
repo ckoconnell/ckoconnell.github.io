@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<a name="home"></a>
 <section class="intro">
     <div class="gridWrap"></div>
 </section>
@@ -14,44 +15,45 @@
 <div class="nav">
     <div class="gridWrap">
         <ul>
-            <li><a>Home</a></li>
-            <li><a>Work</a></li>
-            <li><a>Contact</a></li>
+            <li><a class="navLink" href="#home">Home</a></li>
+            <li><a class="navLink" href="#work">Work</a></li>
+            <li><a class="navLink" href="#contact">Contact</a></li>
         </ul>
     </div>
 </div>
 
+<a name="contact"></a>
 <section class="feature">
     <div class="gridWrap"></div>
 </section>
 
-
+<a name="work"></a>
 <section class="work">
     <div class="gridWrap">
         <h1>Section Intro</h1>
         <h3>Section Subhead</h3>
         <ul>
-            <li class="workExperience">
+            <li class="workBlock workExperience">
                 <h1>Work<br>Experience</h1>
                 <p></p>
             </li>
-            <li class="marginMid workWeb">
+            <li class="workBlock marginMid workWeb">
                 <h1>Web</h1>
                 <p></p>
             </li>
-            <li class="workEditorial">
+            <li class="workBlock workEditorial">
                 <h1>Editorial</h1>
                 <p></p>
             </li>
-            <li class="workPM">
+            <li class="workBlock workPM">
                 <h1>Project<br>Management</h1>
                 <p></p>
             </li>
-            <li class="workPhoto marginMid">
+            <li class="workBlock workPhoto marginMid">
                 <h1>Photography</h1>
                 <p></p>
             </li>
-            <li class="workVideo">
+            <li class="workBlock workVideo">
                 <h1>Video</h1>
                 <p></p>
             </li>
@@ -70,6 +72,7 @@
     // Show & Hide the Nav Bar - Now fixed after top feature area
 
     $(document).on("scroll", function(){
+        $(".navLink").toggleClass("navDarker", $(document).scrollTop() > 100 );
         $(".nav").toggleClass("navDisplay", $(document).scrollTop() > 500 );
     });
 
@@ -89,6 +92,16 @@
             }
         });
     });
+</script>
+
+<script>
+
+    $(".workBlock").click(function(){
+       $(this).siblings(".workBlock").hide(600);
+       $(this).children(".blockContent").delay(800).show(200);
+
+    });
+
 
 </script>
 
