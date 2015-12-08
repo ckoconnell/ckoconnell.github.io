@@ -65,7 +65,7 @@ p { font-weight: 100; line-height: 1.3em; font-family: 'Avenir LT W01 55 Roman',
 @media screen and (max-width: 650px) { .contestWrap { height: 550px; width: 100%; background-size: contain; background-position: 0px -60px; display: block; margin-bottom: 100px; } }
 @media screen and (max-width: 550px) { .contestWrap { background-size: cover; background-position: center top; display: block; margin-bottom: 100px; } }
 .contestWrap .blackBox { width: 350px; position: relative; display: inline-block; background: black; padding: 30px; margin-top: 0px; height: 100%; }
-@media screen and (max-width: 700px) { .contestWrap .blackBox { width: 100%; margin-top: 300px; padding: 20px; height: auto; } }
+@media screen and (max-width: 700px) { .contestWrap .blackBox { width: 100%; margin-top: 325px; padding: 20px; height: auto; } }
 .contestWrap .blackBox .finePrint { position: absolute; width: 80%; height: auto; bottom: 5%; box-sizing: border-box; padding-right: 0 !important; font-size: 10px !important; }
 @media screen and (max-width: 700px) { .contestWrap .blackBox .finePrint { position: relative; display: inline-block; bottom: 0; margin-top: 30px; } }
 .contestWrap .blackBox .finePrint p { width: 100%; padding: 0; padding-left: 0; margin-bottom: 5px !important; font-size: 11px; }

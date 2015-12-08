@@ -45,7 +45,7 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap .bolder { font-weight: 600; font-size: 1.2em; text-transform: uppercase; }
 .contentWrap .rulesLink { text-decoration: underline; text-transform: none !important; }
 .contentWrap .stepStyle { text-transform: uppercase; color: #aaa; padding-right: 10px; }
-.contentWrap .rowWrap { width: 100%; margin-top: 30px; }
+.contentWrap .rowWrap { width: 100%; margin-top: 30px; margin-bottom: 30px !important; }
 .contentWrap .socialLogos { width: 30%; height: 40px; display: inline-block; vertical-align: top; margin-top: 50px; }
 @media screen and (max-width: 700px) { .contentWrap .socialLogos { width: 100%; margin-top: 10px; } }
 .contentWrap .socialLogos a { width: 80px; height: 80px; display: inline-block; margin-right: 15px; margin-top: -10px; }
