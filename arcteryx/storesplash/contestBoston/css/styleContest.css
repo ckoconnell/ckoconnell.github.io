@@ -39,13 +39,14 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap a { text-transform: uppercase; }
 .contentWrap .howtoenter { margin-top: 30px; margin-bottom: 30px; }
 .contentWrap .howtoenter ul { list-style: none; margin-left: -15px; vertical-align: top; }
-.contentWrap .howtoenter ul li { vertical-align: top; font-weight: 100; margin-bottom: 20px; line-height: 1.5em; width: 60%; display: block; box-sizing: border-box; margin-right: 50px; }
+.contentWrap .howtoenter ul li { vertical-align: top; font-weight: 100; margin-bottom: 20px; line-height: 1.5em; text-transform: uppercase; width: 60%; display: block; box-sizing: border-box; margin-right: 45px; }
 @media screen and (max-width: 700px) { .contentWrap .howtoenter ul li { width: 80%; } }
 .contentWrap .upper { text-transform: uppercase; }
 .contentWrap .bolder { font-weight: 600; font-size: 1.2em; text-transform: uppercase; }
 .contentWrap .rulesLink { text-decoration: underline; text-transform: none !important; }
 .contentWrap .stepStyle { text-transform: uppercase; color: #aaa; padding-right: 10px; }
 .contentWrap .rowWrap { width: 100%; margin-top: 30px; margin-bottom: 30px !important; }
+.contentWrap .rowWrap .caps { text-transform: uppercase; }
 .contentWrap .socialLogos { width: 30%; height: 40px; display: inline-block; vertical-align: top; margin-top: 50px; }
 @media screen and (max-width: 700px) { .contentWrap .socialLogos { width: 100%; margin-top: 10px; } }
 .contentWrap .socialLogos a { width: 80px; height: 80px; display: inline-block; margin-right: 15px; margin-top: -10px; }
@@ -61,8 +62,9 @@ p { font-weight: 300; line-height: 1.3em; }
 .contentWrap .finePrint { margin: 60px 0px; }
 .contentWrap .finePrint p { font-size: 10px; line-height: 1.6em; text-align: center; }
 
-.prizingWrap { width: 100%; height: 250px; display: block; position: relative; vertical-align: top; }
+.prizingWrap { width: 100%; height: 250px; display: block; position: relative; vertical-align: top; margin-bottom: 60px; }
 @media screen and (max-width: 767px) { .prizingWrap { height: 500px; } }
+.prizingWrap .finePrint { font-size: 12px; margin-top: 0px !important; }
 .prizingWrap .halfCol { width: 45%; height: 100%; display: inline-block; position: relative; vertical-align: top; }
 @media screen and (max-width: 767px) { .prizingWrap .halfCol { width: 95%; height: 250px; } }
 .prizingWrap .prizingImage { background: #333; }
