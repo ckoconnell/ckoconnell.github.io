@@ -345,7 +345,9 @@ p {
   position: relative;
 
   @media screen and (max-width: 700px) {
-    height: 550px;
+    height: 650px;
+    background-position: right bottom;
+    margin-bottom: 60px;
   }
 
   @media screen and (max-width: 650px) {
@@ -358,11 +360,9 @@ p {
   }
 
   @media screen and (max-width: 550px) {
-
-    background-size: cover;
-    background-position: center top;
-    display: block;
+    height: 700px;
     margin-bottom: 100px;
+    background-size: cover;
   }
 
   .blackBox {
@@ -376,7 +376,7 @@ p {
 
     @media screen and (max-width: 700px) {
       width: 100%;
-      margin-top: 325px;
+      margin-top: 375px;
       padding: 20px;
       height: auto;
     }
@@ -393,7 +393,7 @@ p {
 
       @media screen and (max-width: 700px) {
         position: relative;
-        display: inline-block;
+        display: block;
         bottom: 0;
         margin-top: 30px;
 

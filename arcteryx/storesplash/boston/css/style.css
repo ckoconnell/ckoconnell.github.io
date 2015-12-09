@@ -61,13 +61,13 @@ p { font-weight: 100; line-height: 1.3em; font-family: 'Avenir LT W01 55 Roman',
 @media screen and (max-width: 930px) { .subWrap { width: 100%; } }
 
 .contestWrap { width: 100%; margin: 30px 0 60px; background: #666; background: url("../img/commitHero.jpg") no-repeat; background-size: auto 100%; background-position: 350px bottom; height: 450px; box-sizing: border-box; margin-bottom: 0px; position: relative; }
-@media screen and (max-width: 700px) { .contestWrap { height: 550px; } }
+@media screen and (max-width: 700px) { .contestWrap { height: 650px; background-position: right bottom; margin-bottom: 60px; } }
 @media screen and (max-width: 650px) { .contestWrap { height: 550px; width: 100%; background-size: contain; background-position: 0px -60px; display: block; margin-bottom: 100px; } }
-@media screen and (max-width: 550px) { .contestWrap { background-size: cover; background-position: center top; display: block; margin-bottom: 100px; } }
+@media screen and (max-width: 550px) { .contestWrap { height: 700px; margin-bottom: 100px; background-size: cover; } }
 .contestWrap .blackBox { width: 350px; position: relative; display: inline-block; background: black; padding: 30px; margin-top: 0px; height: 100%; }
-@media screen and (max-width: 700px) { .contestWrap .blackBox { width: 100%; margin-top: 325px; padding: 20px; height: auto; } }
+@media screen and (max-width: 700px) { .contestWrap .blackBox { width: 100%; margin-top: 375px; padding: 20px; height: auto; } }
 .contestWrap .blackBox .finePrint { position: absolute; width: 80%; height: auto; bottom: 5%; box-sizing: border-box; padding-right: 0 !important; font-size: 10px !important; text-align: left !important; }
-@media screen and (max-width: 700px) { .contestWrap .blackBox .finePrint { position: relative; display: inline-block; bottom: 0; margin-top: 30px; } }
+@media screen and (max-width: 700px) { .contestWrap .blackBox .finePrint { position: relative; display: block; bottom: 0; margin-top: 30px; } }
 .contestWrap .blackBox .finePrint p { width: 100%; padding: 0; padding-left: 0; margin-bottom: 5px !important; font-size: 11px; text-align: left !important; line-height: 1.5em; }
 .contestWrap .blackBox .finePrint a { border: none; margin-top: 0; margin-left: 0; padding: 0; text-transform: none !important; text-decoration: underline; font-size: 11px; }
 .contestWrap h1 { font-weight: 600; font-size: 20px; margin-bottom: 18px; text-transform: uppercase; line-height: 1.2em; }
