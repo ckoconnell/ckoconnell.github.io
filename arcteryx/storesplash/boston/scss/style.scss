@@ -418,6 +418,8 @@ p {
         text-decoration: underline;
         font-size: 11px;
       }
+
+
     }
 
   }
@@ -456,6 +458,14 @@ p {
 
   sup {
     line-height: 1em !important;
+  }
+
+  .inlineLink {
+    border: none !important;
+    text-transform: none;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: underline;
   }
 }
 
