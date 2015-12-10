@@ -23,12 +23,11 @@
 .slick-list
 {
     position: relative;
-
     display: block;
     overflow: hidden;
-
     margin: 0;
     padding: 0;
+    margin-top: 30px;
 }
 .slick-list:focus
 {
@@ -53,9 +52,8 @@
 .slick-track
 {
     position: relative;
-    top: 0;
+    top: 30px !important;
     left: 0;
-
     display: block;
 }
 .slick-track:before,

@@ -634,6 +634,10 @@ header {
       vertical-align: 1px;
     }
 
+    .extraPad {
+      margin-top: 5px;
+    }
+
     .channelBlog {
       // background: #888;
       border: 1px solid #aaa;
@@ -2248,8 +2252,10 @@ header {
 .sliderWrap {
   width: 100%;
   height: 100%;
-  padding-top: 30px;
+  top: 30px;
   vertical-align: bottom;
+  position: absolute;
+  display: block;
 }
 
 .prodSlider {
@@ -2272,14 +2278,20 @@ header {
     padding: 0 !important;
     margin-top: 30px !important;
     cursor: auto !important;
+    position: absolute !important;
+    top: 30px;
   }
+}
+
+.prodImg {
+  margin-top: 15px;
 }
 
 .itemWmnsProductBetaLT {
 
   .itemImg {
     background: url('../img/F15-Beta-LT-Jacket-W-Marianas.jpg') no-repeat;
-    background-size: auto 100%;
+    background-size: auto 100% !important;
     background-position: center center !important;
   }
 }
@@ -2288,7 +2300,152 @@ header {
 
   .itemImg {
     background: url('../img/F15-Ravenna-Jacket-W-Pink-Guava.jpg') no-repeat;
-    background-size: auto 100%;
+    background-size: auto 100% !important;;
     background-position: center center !important;
   }
 }
+
+.itemWmnsProductCodetta {
+
+  .itemImg {
+    background: url('../img/F15-Codetta-Coat-W-Black.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductAlphaSL {
+
+  .itemImg {
+    background: url('../img/F15-Alpha-SL-Jacket-W-Lemon-Zest.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductCeriumLT {
+
+  .itemImg {
+    background: url('../img/F15-Cerium-LT-Hoody-W-Sterling-Silver.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductAtomLT {
+
+  .itemImg {
+    background: url('../img/F15-Atom-LT-Hoody-W-Poseidon.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductDeltaLT {
+
+  .itemImg {
+    background: url('../img/F15-Delta-LT-Jacket-W-Vintage-Ivory.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductSentinel {
+
+  .itemImg {
+    background: url('../img/F15-Sentinel-Pant-W-Aegean-Blue.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemWmnsProductThetaSVBib {
+
+  .itemImg {
+    background: url('../img/F15-Theta-SV-Bib-W-Tanzanite.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductBetaAR {
+
+  .itemImg {
+    background: url('../img/F15-Beta-AR-Jacket-Admiral.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductAlphaSV {
+
+  .itemImg {
+    background: url('../img/F15-Alpha-SV-Jacket-Magma.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductGammaMX {
+
+  .itemImg {
+    background: url('../img/F15-Gamma-MX-Hoody-Iron-Anvil.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductInterstate {
+
+  .itemImg {
+    background: url('../img/F15-Interstate-Jacket-Guar.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductAtomLT {
+
+  .itemImg {
+    background: url('../img/F15-Atom-LT-Hoody-Carbon-Copy.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductCeriumLT {
+
+  .itemImg {
+    background: url('../img/F15-Cerium-LT-Hoody-Anaconda.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductCovert {
+
+  .itemImg {
+    background: url('../img/F15-Covert-Cardigan-Argent.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductThetaSV {
+
+  .itemImg {
+    background: url('../img/F15-Theta-SV-Bib-W-Black.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+
+.itemMensProductSabrePant {
+
+  .itemImg {
+    background: url('../img/F15-Sabre-Pant-Biome.jpg') no-repeat;
+    background-size: auto 100% !important;;
+    background-position: center center !important;
+  }
+}
+

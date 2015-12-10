@@ -107,6 +107,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 #mixWrap .itemContent h4 .bolder { color: #000 !important; font-weight: 900 !important; }
 #mixWrap .itemContent .lighter { font-weight: 100 !important; line-height: 1.2em !important; }
 #mixWrap .itemContent .channelTag { display: inline-block; color: white; padding: 3px 5px 2px 5px; font-size: 10px; line-height: 10px; text-transform: uppercase; vertical-align: 1px; }
+#mixWrap .itemContent .extraPad { margin-top: 5px; }
 #mixWrap .itemContent .channelBlog { border: 1px solid #aaa; color: #555; }
 #mixWrap .itemContent .channelLitho { border: 1px solid #aaa; color: #555; }
 #mixWrap .itemContent .channelInsta { border: 1px solid #aaa; color: #555; }
@@ -412,13 +413,47 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .prodIntro { width: 100%; height: 30px; position: absolute; top: 0; left: 0; background: #171717; margin: 0; padding: 0; z-index: 10000; }
 .prodIntro p { padding: 0; margin: 0; }
 
-.sliderWrap { width: 100%; height: 100%; padding-top: 30px; vertical-align: bottom; }
+.sliderWrap { width: 100%; height: 100%; top: 30px; vertical-align: bottom; position: absolute; display: block; }
 
 .prodSlider { width: 100%; height: 100%; display: block; vertical-align: bottom; margin-top: 30px; }
 .prodSlider .prodSlide { width: 100%; height: 100%; }
 
-.itemWmnsProduct .slick-slider, .itemMensProduct .slick-slider { margin-left: 0 !important; padding: 0 !important; margin-top: 30px !important; cursor: auto !important; }
+.itemWmnsProduct .slick-slider, .itemMensProduct .slick-slider { margin-left: 0 !important; padding: 0 !important; margin-top: 30px !important; cursor: auto !important; position: absolute !important; top: 30px; }
 
-.itemWmnsProductBetaLT .itemImg { background: url("../img/F15-Beta-LT-Jacket-W-Marianas.jpg") no-repeat; background-size: auto 100%; background-position: center center !important; }
+.prodImg { margin-top: 15px; }
 
-.itemWmnsProductRavenna .itemImg { background: url("../img/F15-Ravenna-Jacket-W-Pink-Guava.jpg") no-repeat; background-size: auto 100%; background-position: center center !important; }
+.itemWmnsProductBetaLT .itemImg { background: url("../img/F15-Beta-LT-Jacket-W-Marianas.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductRavenna .itemImg { background: url("../img/F15-Ravenna-Jacket-W-Pink-Guava.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductCodetta .itemImg { background: url("../img/F15-Codetta-Coat-W-Black.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductAlphaSL .itemImg { background: url("../img/F15-Alpha-SL-Jacket-W-Lemon-Zest.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductCeriumLT .itemImg { background: url("../img/F15-Cerium-LT-Hoody-W-Sterling-Silver.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductAtomLT .itemImg { background: url("../img/F15-Atom-LT-Hoody-W-Poseidon.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductDeltaLT .itemImg { background: url("../img/F15-Delta-LT-Jacket-W-Vintage-Ivory.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductSentinel .itemImg { background: url("../img/F15-Sentinel-Pant-W-Aegean-Blue.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemWmnsProductThetaSVBib .itemImg { background: url("../img/F15-Theta-SV-Bib-W-Tanzanite.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductBetaAR .itemImg { background: url("../img/F15-Beta-AR-Jacket-Admiral.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductAlphaSV .itemImg { background: url("../img/F15-Alpha-SV-Jacket-Magma.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductGammaMX .itemImg { background: url("../img/F15-Gamma-MX-Hoody-Iron-Anvil.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductInterstate .itemImg { background: url("../img/F15-Interstate-Jacket-Guar.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductAtomLT .itemImg { background: url("../img/F15-Atom-LT-Hoody-Carbon-Copy.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductCeriumLT .itemImg { background: url("../img/F15-Cerium-LT-Hoody-Anaconda.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductCovert .itemImg { background: url("../img/F15-Covert-Cardigan-Argent.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductThetaSV .itemImg { background: url("../img/F15-Theta-SV-Bib-W-Black.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
+
+.itemMensProductSabrePant .itemImg { background: url("../img/F15-Sabre-Pant-Biome.jpg") no-repeat; background-size: auto 100% !important; background-position: center center !important; }
