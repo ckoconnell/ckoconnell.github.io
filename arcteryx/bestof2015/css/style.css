@@ -35,6 +35,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .featureWrap .featureSlide .slideContent h1 { color: white; font-size: 36px; font-weight: 600; line-height: 36px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent h3 { color: white; font-size: 18px; font-weight: 100; line-height: 18px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent a { color: white; font-size: 15px; font-weight: 600; line-height: 18px; }
+.featureWrap .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
 
 .feature1 { background: url("../img/featureslidebg-3.jpg"); background-size: cover; background-position: center bottom; }
 .feature1 .slideContent { float: none; margin-top: 200px; text-align: center !important; }
@@ -408,4 +409,16 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 
 .itemProductTest .itemImg { background: url("../img/itemProductAlphaSV.jpg"); background-size: cover; background-position: center center !important; }
 
-.slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
+.prodIntro { width: 100%; height: 30px; position: absolute; top: 0; left: 0; background: #171717; margin: 0; padding: 0; z-index: 10000; }
+.prodIntro p { padding: 0; margin: 0; }
+
+.sliderWrap { width: 100%; height: 100%; padding-top: 30px; vertical-align: bottom; }
+
+.prodSlider { width: 100%; height: 100%; display: block; vertical-align: bottom; margin-top: 30px; }
+.prodSlider .prodSlide { width: 100%; height: 100%; }
+
+.itemWmnsProduct .slick-slider, .itemMensProduct .slick-slider { margin-left: 0 !important; padding: 0 !important; margin-top: 30px !important; cursor: auto !important; }
+
+.itemWmnsProductBetaLT .itemImg { background: url("../img/F15-Beta-LT-Jacket-W-Marianas.jpg") no-repeat; background-size: auto 100%; background-position: center center !important; }
+
+.itemWmnsProductRavenna .itemImg { background: url("../img/F15-Ravenna-Jacket-W-Pink-Guava.jpg") no-repeat; background-size: auto 100%; background-position: center center !important; }

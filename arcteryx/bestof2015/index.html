@@ -3,7 +3,7 @@
     <title>Best Of 2015 Visuals</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="slick/slick.css">
-
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <!-- <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/a1fce17f-2d2d-4ce7-8a00-0f2382646d8b.css"/> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -929,6 +929,33 @@
         </a>
         <!-- End Sample Product -->
 
+        <!-- Product Slider Test -->
+        <div class="mix gear wHalf itemWmnsProduct" data-myorder="700">
+
+            <div class="sliderWrap">
+                <div class="prodSlider">
+                    <div class="prodSlide itemWmnsProductBetaLT">
+                        <div class="itemImg"></div>
+                        <div class="itemContent">
+                            <h1>Product Name (Slide 1)</h1>
+                            <p>Description text goes here.</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <div class="prodSlide itemWmnsProductRavenna">
+                        <div class="itemImg"></div>
+                        <div class="itemContent">
+                            <h1>Product Name (Slide 2)</h1>
+                            <p>Description text goes here.</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </div>
 
@@ -971,6 +998,17 @@
         dots: false,
         pauseOnHover: true,
         lazyload: 'ondemand'
+    });
+</script>
+
+<script type="text/javascript">
+    $('.prodSlider').slick({
+        autoplay: true,
+        slidesToShow: 1,
+        arrows: true,
+        infinite: true,
+        dots: false,
+        pauseOnHover: true
     });
 </script>
 
