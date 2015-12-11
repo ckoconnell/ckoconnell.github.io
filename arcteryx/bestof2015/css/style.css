@@ -31,10 +31,13 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .featureWrap ul li { width: 15px; height: 15px; display: inline-block; margin: 0 5px !important; overflow: hidden; }
 .featureWrap ul li button { color: #666 !important; display: inline-block !important; background: #666; padding: 4px; width: 10px; height: 10px; border-radius: 5px; border: none; overflow: hidden !important; }
 .featureWrap .featureSlide { width: 100%; height: 100%; }
-.featureWrap .featureSlide .slideContent { position: relative; text-align: left; }
+.featureWrap .featureSlide .slideContent { position: relative; text-align: left; width: 100%; height: 100%; }
 .featureWrap .featureSlide .slideContent h1 { color: white; font-size: 36px; font-weight: 600; line-height: 36px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent h3 { color: white; font-size: 18px; font-weight: 100; line-height: 18px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent a { color: white; font-size: 15px; font-weight: 600; line-height: 18px; }
+.featureWrap .featureSlide .slideContent .photoCred { position: absolute; display: inline-block; right: 1%; top: 53%; width: 250px; text-align: left !important; }
+.featureWrap .featureSlide .slideContent .photoCred h2 { margin: 0; padding: 0; color: white; font-weight: 600; font-size: 11px; text-transform: uppercase; }
+.featureWrap .featureSlide .slideContent .photoCred p { margin: 0; padding: 0; color: white; font-size: 12px; line-height: 1.4em; font-weight: 100; }
 .featureWrap .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
 
 .feature1 { background: url("../img/featureslidebg-3.jpg"); background-size: cover; background-position: center bottom; }

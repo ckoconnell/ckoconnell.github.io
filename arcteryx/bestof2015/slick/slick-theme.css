@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 40%;
+    top: 50%;
 
     display: block;
 
@@ -65,7 +65,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 40px;
+    font-size: 20px;
     line-height: 1;
 
     opacity: .75;
@@ -77,8 +77,7 @@
 
 .slick-prev
 {
-    left: 10px;
-    z-index: 1000;
+    left: -25px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,18 +87,15 @@
 .slick-prev:before
 {
     content: '←';
-    color: #555;
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
-    color: #555;
 }
 
 .slick-next
 {
-    right: 25px;
-    z-index: 1000;
+    right: -25px;
 }
 [dir='rtl'] .slick-next
 {
@@ -109,7 +105,6 @@
 .slick-next:before
 {
     content: '→';
-    color: #555;
 }
 [dir='rtl'] .slick-next:before
 {
