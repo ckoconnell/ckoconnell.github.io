@@ -248,6 +248,7 @@ header {
         top: 53%;
         width: 250px;
         text-align: left !important;
+        z-index: 90000;
 
         h2 {
           margin: 0;
@@ -413,7 +414,7 @@ header {
 .feature10 {
   background: url('../img/featureslidebg-10.jpg');
   background-size: cover;
-  background-position: left bottom;
+  background-position: right center;
 
   .slideContent  {
     width: 390px;
@@ -1896,6 +1897,10 @@ header {
     background:url('../img/itemCustomerLetters.jpg');
     background-size: 100%;
     background-position: center bottom;
+
+    @media screen and (max-width: $bptablet) {
+      background-size: 100% !important;
+    }
   }
 }
 
@@ -2118,7 +2123,7 @@ header {
       position: relative;
       width: 100%;
       max-width: 100% !important;
-      right: 0 !important;
+      left: 0 !important;
       bottom: 0 !important;
       opacity: 1 !important;
     }

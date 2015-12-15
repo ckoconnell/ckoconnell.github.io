@@ -35,7 +35,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .featureWrap .featureSlide .slideContent h1 { color: white; font-size: 36px; font-weight: 600; line-height: 36px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent h3 { color: white; font-size: 18px; font-weight: 100; line-height: 18px; margin: 0; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent a { color: white; font-size: 15px; font-weight: 600; line-height: 18px; }
-.featureWrap .featureSlide .slideContent .photoCred { position: absolute; display: inline-block; right: 1%; top: 53%; width: 250px; text-align: left !important; }
+.featureWrap .featureSlide .slideContent .photoCred { position: absolute; display: inline-block; right: 1%; top: 53%; width: 250px; text-align: left !important; z-index: 90000; }
 .featureWrap .featureSlide .slideContent .photoCred h2 { margin: 0; padding: 0; color: white; font-weight: 600; font-size: 11px; text-transform: uppercase; }
 .featureWrap .featureSlide .slideContent .photoCred p { margin: 0; padding: 0; color: white; font-size: 12px; line-height: 1.4em; font-weight: 100; }
 .featureWrap .slick-slider { margin-left: -8px !important; padding: 0 !important; margin-top: -8px !important; }
@@ -68,7 +68,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .feature9 { background: url("../img/featureslidebg-9.jpg"); background-size: cover; background-position: left bottom; }
 .feature9 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
 
-.feature10 { background: url("../img/featureslidebg-10.jpg"); background-size: cover; background-position: left bottom; }
+.feature10 { background: url("../img/featureslidebg-10.jpg"); background-size: cover; background-position: right center; }
 .feature10 .slideContent { width: 390px; float: right; margin-top: 500px; margin-right: 15%; text-align: right !important; }
 
 .feature11 { background: url("../img/featureslidebg-11.jpg"); background-size: cover; background-position: left bottom; }
@@ -363,6 +363,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .youtubePlaylist iframe { width: 100% !important; height: calc(100% - 80px); height: -webkit-calc(100% - 80px); }
 
 .itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg"); background-size: 100%; background-position: center bottom; }
+@media screen and (max-width: 767px) { .itemCustomerLetters .itemImg { background-size: 100% !important; } }
 
 .itemFootwearGroup { height: 700px !important; max-width: 960px !important; }
 @media screen and (max-width: 700px) { .itemFootwearGroup { height: auto !important; } }
@@ -393,7 +394,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 @media screen and (max-width: 700px) { .itemCommitGroup .itemImg { height: 400px !important; overflow: hidden; } }
 @media screen and (max-width: 599px) { .itemCommitGroup .itemImg { height: 300px !important; overflow: hidden; } }
 .itemCommitGroup .groupWrap { position: absolute; display: inline-block; bottom: 30px; left: 30px; width: 100%; max-width: 350px; text-align: left; background: #000; opacity: 0.85; color: white !important; }
-@media screen and (max-width: 700px) { .itemCommitGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; right: 0 !important; bottom: 0 !important; opacity: 1 !important; } }
+@media screen and (max-width: 700px) { .itemCommitGroup .groupWrap { position: relative; width: 100%; max-width: 100% !important; left: 0 !important; bottom: 0 !important; opacity: 1 !important; } }
 .itemCommitGroup .groupWrap .groupIntro { position: relative; display: inline-block; width: 100%; vertical-align: top; box-sizing: border-box; padding: 30px; }
 .itemCommitGroup .groupWrap .groupIntro blockquote { font-weight: 900; padding: 0; margin: 0; font-style: italic; margin-bottom: 5px; font-size: 17px; line-height: 1.2em; }
 .itemCommitGroup .groupWrap .groupIntro h1 { font-weight: 900 !important; font-size: 24px !important; line-height: 1em; margin: 0; padding: 0; text-transform: uppercase; }
