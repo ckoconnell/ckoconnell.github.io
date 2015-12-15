@@ -1031,7 +1031,6 @@ header {
       }
 
       a {
-        border: 1px solid #333;
         display: block;
         font-weight: 600 !important;
         line-height: 1em !important;
@@ -1041,6 +1040,10 @@ header {
         margin-bottom: 10px;
         vertical-align: middle;
         transition: all .5s;
+        background: #333;
+        color: white;
+        transition: all .8s;
+        border: 1px solid white;
 
         h1 {
           font-size: 12px !important;
@@ -1051,13 +1054,13 @@ header {
       }
 
       a:hover {
-        background: #333;
-        color: white;
+        background: none;
+        color: #171717 !important;
         transition: all .8s;
-        border: 1px solid white;
+        border: 1px solid #333 !important;
 
         h1 {
-          color: white !important;
+          color: #171717 !important;
         }
       }
     }
@@ -1197,6 +1200,7 @@ header {
         vertical-align: middle;
         transition: all .5s;
         color: white !important;
+        background: #ccc;
 
         h1 {
           font-size: 12px !important;
@@ -1204,18 +1208,18 @@ header {
           font-weight: 100 !important;
           margin: 0;
           padding: 0;
-          color: white !important;
+          color: #171717 !important;
         }
       }
 
       a:hover {
-        background: #ccc;
+        background: #333;
         color: white;
         transition: all .8s;
         border: 1px solid #333;
 
         h1 {
-          color: #171717 !important;
+          color: white !important;
         }
       }
 

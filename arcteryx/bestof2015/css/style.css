@@ -182,10 +182,10 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemEverestGroup .groupWrap .groupIntro h2 { font-size: 12px; font-weight: 100; display: inline-block !important; margin: 0; padding: 0; padding-top: 2px; }
 .itemEverestGroup .groupWrap .groupIntro .channelTag { display: inline-block; color: white; padding: 3px 5px 2px 5px; font-size: 10px; line-height: 10px; text-transform: uppercase; vertical-align: 1px; }
 .itemEverestGroup .groupWrap .groupIntro .channelBlog { border: 1px solid #aaa; color: #555; }
-.itemEverestGroup .groupWrap .groupIntro a { border: 1px solid #333; display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; }
+.itemEverestGroup .groupWrap .groupIntro a { display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; background: #333; color: white; transition: all .8s; border: 1px solid white; }
 .itemEverestGroup .groupWrap .groupIntro a h1 { font-size: 12px !important; line-height: 1em !important; margin: 0; padding: 0; }
-.itemEverestGroup .groupWrap .groupIntro a:hover { background: #333; color: white; transition: all .8s; border: 1px solid white; }
-.itemEverestGroup .groupWrap .groupIntro a:hover h1 { color: white !important; }
+.itemEverestGroup .groupWrap .groupIntro a:hover { background: none; color: #171717 !important; transition: all .8s; border: 1px solid #333 !important; }
+.itemEverestGroup .groupWrap .groupIntro a:hover h1 { color: #171717 !important; }
 
 .itemDefineFeminineGroup { height: 750px !important; max-width: 960px !important; }
 @media screen and (max-width: 700px) { .itemDefineFeminineGroup { height: auto !important; } }
@@ -203,10 +203,10 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemDefineFeminineGroup .groupWrap .groupIntro .bolder { font-weight: 900 !important; }
 .itemDefineFeminineGroup .groupWrap .groupIntro .channelTag { display: inline-block; color: white; padding: 3px 5px 2px 5px; font-size: 10px; line-height: 10px; text-transform: uppercase; vertical-align: 1px; }
 .itemDefineFeminineGroup .groupWrap .groupIntro .channelBlog { border: 1px solid #aaa; color: white; }
-.itemDefineFeminineGroup .groupWrap .groupIntro a { border: 1px solid #333; display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; color: white !important; }
-.itemDefineFeminineGroup .groupWrap .groupIntro a h1 { font-size: 12px !important; line-height: 1em !important; font-weight: 100 !important; margin: 0; padding: 0; color: white !important; }
-.itemDefineFeminineGroup .groupWrap .groupIntro a:hover { background: #ccc; color: white; transition: all .8s; border: 1px solid #333; }
-.itemDefineFeminineGroup .groupWrap .groupIntro a:hover h1 { color: #171717 !important; }
+.itemDefineFeminineGroup .groupWrap .groupIntro a { border: 1px solid #333; display: block; font-weight: 600 !important; line-height: 1em !important; text-transform: uppercase; padding: 7px 10px 5px; margin: 0; margin-bottom: 10px; vertical-align: middle; transition: all .5s; color: white !important; background: #ccc; }
+.itemDefineFeminineGroup .groupWrap .groupIntro a h1 { font-size: 12px !important; line-height: 1em !important; font-weight: 100 !important; margin: 0; padding: 0; color: #171717 !important; }
+.itemDefineFeminineGroup .groupWrap .groupIntro a:hover { background: #333; color: white; transition: all .8s; border: 1px solid #333; }
+.itemDefineFeminineGroup .groupWrap .groupIntro a:hover h1 { color: white !important; }
 .itemDefineFeminineGroup .groupWrap .groupIntro .youtubePlaylist { position: relative; display: inline-block; width: 100%; height: 275px !important; }
 @media screen and (max-width: 700px) { .itemDefineFeminineGroup .groupWrap .groupIntro .youtubePlaylist { height: 325px; } }
 .itemDefineFeminineGroup .groupWrap .groupIntro .youtubePlaylist iframe { width: 100%; height: 100%; }
