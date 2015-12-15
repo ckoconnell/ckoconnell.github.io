@@ -187,9 +187,9 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemEverestGroup .groupWrap .groupIntro a:hover { background: none; color: #171717 !important; transition: all .8s; border: 1px solid #333 !important; }
 .itemEverestGroup .groupWrap .groupIntro a:hover h1 { color: #171717 !important; }
 
-.itemDefineFeminineGroup { height: 750px !important; max-width: 960px !important; }
+.itemDefineFeminineGroup { height: 800px !important; max-width: 960px !important; }
 @media screen and (max-width: 700px) { .itemDefineFeminineGroup { height: auto !important; } }
-.itemDefineFeminineGroup .itemImg { height: 750px !important; background: url("../img/itemDefineFeminineGroup.jpg") no-repeat; background-size: cover; background-position: right bottom; }
+.itemDefineFeminineGroup .itemImg { height: 800px !important; background: url("../img/itemDefineFeminineGroup.jpg") no-repeat; background-size: cover; background-position: right bottom; }
 @media screen and (max-width: 700px) { .itemDefineFeminineGroup .itemImg { height: 400px !important; overflow: hidden; } }
 @media screen and (max-width: 599px) { .itemDefineFeminineGroup .itemImg { height: 300px !important; overflow: hidden; } }
 .itemDefineFeminineGroup .groupWrap { position: absolute; display: inline-block; top: 30px; left: 30px; width: 100%; max-width: 425px; text-align: left; background: #000; opacity: 0.81; color: white !important; }
@@ -325,34 +325,34 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .itemSouthAfrica .itemImg { background: url("../img/itemSouthAfrica.jpg") no-repeat; background-size: cover; background-position: right bottom; }
 
 .itemInstaCerroPaine .itemImg { background: url("../img/itemInstaCerroPaine.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaCerroPaine .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaCerroPaine .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaVoraKananaskis .itemImg { background: url("../img/itemInstaVoraKananaskis.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaVoraKananaskis .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaVoraKananaskis .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaIceCaveHood .itemImg { background: url("../img/itemInstaIceCaveHood.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaIceCaveHood .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaIceCaveHood .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaIzzyYotei .itemImg { background: url("../img/itemInstaIzzyYotei.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaIzzyYotei .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaIzzyYotei .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaBurkard10 .itemImg { background: url("../img/itemInstaBurkard10.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaBurkard10 .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaBurkard10 .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaWhiskeyTahoe .itemImg { background: url("../img/itemInstaWhiskeyTahoe.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaWhiskeyTahoe .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaWhiskeyTahoe .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaBurkardMoments .itemImg { background: url("../img/itemInstaBurkardMoments.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaBurkardMoments .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaBurkardMoments .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaLustiRevy .itemImg { background: url("../img/itemInstaLustiRevy.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaLustiRevy .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaLustiRevy .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaSnowpatchSpire .itemImg { background: url("../img/itemInstaSnowpatchSpire.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaSnowpatchSpire .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaSnowpatchSpire .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .itemInstaLustiRevy2 .itemImg { background: url("../img/itemInstaLustiRevy2.jpg"); background-size: cover; background-position: center bottom; }
-.itemInstaLustiRevy2 .itemContent p { font-weight: 600 !important; font-size: 15px !important; line-height: 19px; }
+.itemInstaLustiRevy2 .itemContent p { font-weight: 600 !important; font-size: 14px !important; line-height: 19px; font-style: italic; }
 
 .youtubePlaylist { width: 96%; max-width: 960px; height: 650px !important; position: relative; display: block; }
 @media screen and (max-width: 767px) { .youtubePlaylist { height: 500px !important; } }
