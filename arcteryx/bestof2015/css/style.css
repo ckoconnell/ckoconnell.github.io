@@ -85,7 +85,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .controlWrap .filter { display: inline-block; padding: 3px 10px; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; background: #333; color: #ddd; }
 .controlWrap .sort { display: inline-block; padding: 3px 10px; cursor: pointer; margin-top: 15px; border-radius: 3px; text-transform: uppercase; font-weight: 300; font-size: 12px; background: #333; color: #ddd; }
 .controlWrap button { display: inline-block; padding: .4em .8em; background: #666; border: 0; border-radius: 0px !important; cursor: pointer; transition: all .2s ease; }
-.controlWrap button.active { background: #47389f; font-weight: 600; }
+.controlWrap button.active { background: #47389f !important; font-weight: 600; }
 .controlWrap button:focus { outline: 0 none; }
 .controlWrap button:hover { background: #aaa; color: #171717; transition: all .5s ease; }
 .controlWrap label { font-size: 12px; margin: 3px 10px 0 20px; color: #ddd !important; }
