@@ -363,7 +363,7 @@ header .introWrap { position: relative; display: inline-block; color: white; wid
 .youtubePlaylist .videoHeader p { color: white; margin: 0; padding: 0; font-size: 12px !important; }
 .youtubePlaylist iframe { width: 100% !important; height: calc(100% - 80px); height: -webkit-calc(100% - 80px); }
 
-.itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg"); background-size: 100%; background-position: center bottom; }
+.itemCustomerLetters .itemImg { background: url("../img/itemCustomerLetters.jpg") no-repeat; background-size: 100%; background-position: center bottom; }
 @media screen and (max-width: 767px) { .itemCustomerLetters .itemImg { background-size: 100% !important; } }
 
 .itemFootwearGroup { height: 700px !important; max-width: 960px !important; }
