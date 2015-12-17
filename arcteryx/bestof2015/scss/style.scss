@@ -513,12 +513,13 @@ header {
     border: 0;
     border-radius: 0px !important;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all .2s ease;
   }
 
   button.active{
     // background: #68b8c4;
-    background: #333;
+    // background: teal !important;
+    background: #df2000;
     font-weight: 600;
   }
 
@@ -528,7 +529,8 @@ header {
 
   button:hover {
     background: #aaa;
-    transition: all 1s ease;
+    color: #171717;
+    transition: all .5s ease;
   }
 
   label {
@@ -718,6 +720,10 @@ header {
       font-size: 13px;
       cursor: pointer;
       margin-top: 5px;
+    }
+
+    .bolder {
+      font-weight: 600 !important;
     }
   }
 
@@ -1865,7 +1871,6 @@ header {
     @media screen and (max-width: $bpphone) {
       height: 450px !important;
     }
-
 
   .videoHeader {
     width: 100%;
