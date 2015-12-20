@@ -1,0 +1,201 @@
+// Site Variables
+
+$FontFamily: Avenir, Arial, sans-serif;
+$FontColor: #171717;
+$FontColorAlt: white;
+
+// Main Site Styles
+
+html {
+  font-family: $FontFamily;
+}
+
+body {
+  background: #171717;
+  margin: 0;
+  padding: 0;
+}
+
+div, span, ul, li, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #999;
+
+
+}
+
+.gridWrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  // border: 1px solid teal;
+}
+
+// Section Styles
+
+.top {
+  background: url('../img/18457252890_cde46e58ff_k.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 90% !important;
+  min-height: 750px;
+  text-align: center;
+
+
+  .logoWrap {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    background: black;
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    background: url('../img/academyLogo.png') no-repeat;
+    background-size: 300px;
+  }
+
+  h1 {
+    color: $FontColorAlt;
+    font-weight: 100;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px #333;
+    text-align: center;
+    display: block;
+  }
+
+  h3 {
+    color: $FontColorAlt;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 2px #333;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+
+.intro {
+  background: $FontColor;
+  color: $FontColorAlt;
+  text-align: center;
+  padding-top: 60px;
+
+  p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  h3 {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: $FontColorAlt;
+    border: 1px solid $FontColorAlt;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 8px 20px;
+    margin-bottom: 120px;
+    margin-top: 15px;
+    border-radius: 3px;
+  }
+}
+
+.program {
+  padding-top: 90px;
+  background-color: white;
+  color: $FontColor;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  ul {
+    display: block;
+    vertical-align: top;
+
+    li {
+      display: inline-block;
+      width: 42%;
+
+      margin: 30px 2%;
+      border: 1px solid #eee;
+      padding: 15px;
+      text-align: left;
+      vertical-align: top;
+
+      ul {
+        list-style: disc !important;
+
+        li {
+          display: block !important;
+          width: 100% !important;
+          margin: 0;
+          padding: 0 0 .5em 0;
+          border: none;
+          list-style: disc !important;
+          font-size: .8em;
+          margin-left: 15px;
+        }
+      }
+
+
+      h1 {
+        display: block;
+        font-size: 1.2em;
+      }
+
+      h3 {
+        font-size: .9em;
+        text-transform: uppercase;
+        color: #666;
+      }
+
+      p {
+        width: 100%;
+        font-weight: 100;
+        font-size: .9em;
+        margin: 10px 0;
+      }
+    }
+
+    .fullWidth {
+      width: 90%;
+
+      p {
+        width: 90% !important;
+      }
+    }
+  }
+}
+
+.archive {
+
+}

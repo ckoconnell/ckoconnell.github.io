@@ -1,0 +1,189 @@
+/* line 9, ../scss/style.scss */
+html {
+  font-family: Avenir, Arial, sans-serif;
+}
+
+/* line 13, ../scss/style.scss */
+body {
+  background: #171717;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, ../scss/style.scss */
+div, span, ul, li, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* line 27, ../scss/style.scss */
+section {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #999;
+}
+
+/* line 37, ../scss/style.scss */
+.gridWrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+/* line 48, ../scss/style.scss */
+.top {
+  background: url("../img/18457252890_cde46e58ff_k.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 90% !important;
+  min-height: 750px;
+  text-align: center;
+}
+/* line 57, ../scss/style.scss */
+.top .logoWrap {
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  background: black;
+  display: block;
+  margin-top: 20%;
+  margin-bottom: 30px;
+  border-radius: 100px;
+  background: url("../img/academyLogo.png") no-repeat;
+  background-size: 300px;
+}
+/* line 70, ../scss/style.scss */
+.top h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 4em;
+  text-shadow: 1px 1px 2px #333;
+  text-align: center;
+  display: block;
+}
+/* line 79, ../scss/style.scss */
+.top h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 2px #333;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 90, ../scss/style.scss */
+.intro {
+  background: #171717;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+/* line 96, ../scss/style.scss */
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+/* line 103, ../scss/style.scss */
+.intro h3 {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+/* line 112, ../scss/style.scss */
+.intro a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 8px 20px;
+  margin-bottom: 120px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+/* line 126, ../scss/style.scss */
+.program {
+  padding-top: 90px;
+  background-color: white;
+  color: #171717;
+}
+/* line 131, ../scss/style.scss */
+.program h1 {
+  text-transform: uppercase;
+}
+/* line 135, ../scss/style.scss */
+.program p {
+  margin: 0 auto;
+  width: 70%;
+}
+/* line 140, ../scss/style.scss */
+.program ul {
+  display: block;
+  vertical-align: top;
+}
+/* line 144, ../scss/style.scss */
+.program ul li {
+  display: inline-block;
+  width: 42%;
+  margin: 30px 2%;
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 154, ../scss/style.scss */
+.program ul li ul {
+  list-style: disc !important;
+}
+/* line 157, ../scss/style.scss */
+.program ul li ul li {
+  display: block !important;
+  width: 100% !important;
+  margin: 0;
+  padding: 0 0 .5em 0;
+  border: none;
+  list-style: disc !important;
+  font-size: .8em;
+  margin-left: 15px;
+}
+/* line 170, ../scss/style.scss */
+.program ul li h1 {
+  display: block;
+  font-size: 1.2em;
+}
+/* line 175, ../scss/style.scss */
+.program ul li h3 {
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #666;
+}
+/* line 181, ../scss/style.scss */
+.program ul li p {
+  width: 100%;
+  font-weight: 100;
+  font-size: .9em;
+  margin: 10px 0;
+}
+/* line 189, ../scss/style.scss */
+.program ul .fullWidth {
+  width: 90%;
+}
+/* line 192, ../scss/style.scss */
+.program ul .fullWidth p {
+  width: 90% !important;
+}
