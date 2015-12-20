@@ -23,6 +23,20 @@
     </div>
 </section>
 
+<nav>
+    <div class="gridWrap">
+        <ul>
+            <a href="#program"><li>Clinics &<br>Workshops</li></a>
+            <a href="#demo"><li>Demo<br>Gear</li></a>
+            <a href="#bring"><li>What<br>To Bring</li></a>
+            <a href="#contest"><li>Enter<br>To Win</li></a>
+            <a href="#archive"><li>2015 Photo <br>Gallery</li></a>
+            <a href="#trailer"><li>2016 Event<br>Trailer</li></a>
+        </ul>
+    </div>
+</nav>
+
+<a name="program"></a>
 <section class="program">
     <div class="gridWrap">
         <h1>Clinics & Workshops</h1>
@@ -106,8 +120,6 @@
                 <p>Tents will be supplied by Hilleberg.</p>
                 </p>
             </li>
-
-
 
             <li>
                 <h1>Alpine Photography</h1>
@@ -213,6 +225,8 @@
     </div>
 </section>
 
+
+<a name="demo"></a>
 <section class="demo">
     <div class="gridWrap">
         <h1>Demo Gear</h1>
@@ -235,6 +249,7 @@
     </div>
 </section>
 
+<a name="bring"></a>
 <section class="whattobring">
     <div class="gridWrap">
         <h1>What To Bring</h1>
@@ -260,6 +275,7 @@
     </div>
 </section>
 
+<a name="contest"></a>
 <section class="contest">
     <div class="gridWrap">
         <h1>Contest</h1>
@@ -267,6 +283,7 @@
     </div>
 </section>
 
+<a name="archive"></a>
 <section class="archive">
     <div class="gridWrap">
         <h1>Alpine Academy 2015</h1>
@@ -275,6 +292,7 @@
     </div>
 </section>
 
+<a name="trailer"></a>
 <section class="trailer">
     <div class="gridWrap">
         <h1>Alpine Academy 2016</h1>
@@ -283,6 +301,8 @@
     </div>
 </section>
 
+
+<a name="contact"></a>
 <section class="contact">
     <div class="gridWrap">
         <h1>Contact</h1>
@@ -290,6 +310,7 @@
     </div>
 </section>
 
+<a name="sponsors"></a>
 <section class="sponsors">
     <div class="gridWrap">
         <h1>Sponsors</h1>
@@ -325,7 +346,33 @@
     </div>
 </section>
 
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
+<script type="text/javascript">
+
+    $(document).on("scroll", function(){
+        $("nav").toggleClass("navFixed", $(document).scrollTop() > 1150 );
+    });
+</script>
+
+<script type="text/javascript">
+    // Smooth Scrolling to Anchor Points
+
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
 
 </body>
 </html>

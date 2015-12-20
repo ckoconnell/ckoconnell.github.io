@@ -30,8 +30,41 @@ section {
   position: relative;
   text-align: center;
   border-bottom: 1px solid #999;
+}
 
+nav {
+  color: white;
+  text-align: center;
+  width: 100%;
 
+  ul {
+
+    a {
+      color: white;
+    }
+
+    li {
+      text-transform: uppercase;
+      font-size: .9em;
+      font-weight: 500;
+      line-height: 1em;
+      padding: 10px 30px;
+      transition: all .2s;
+    }
+
+    li:hover {
+      background: #333;
+      transition: all .5s;
+    }
+  }
+}
+
+.navFixed {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #171717;
 }
 
 .gridWrap {
@@ -45,7 +78,10 @@ section {
 // Section Styles
 
 .top {
-  background: url('../img/18457252890_cde46e58ff_k.jpg');
+   background: url('../img/18457252890_cde46e58ff_k.jpg');
+  // background: url('../img/18774360782_492e4df0c1_h.jpg');
+  // background: url('../img/18774403102_3c9edc7992_h.jpg');
+  // background: url('../img/18781876591_fc887d7892_h.jpg');
   background-position: center center;
   background-size: cover;
   height: 90% !important;
@@ -96,6 +132,7 @@ section {
   color: $FontColorAlt;
   text-align: center;
   padding-top: 60px;
+  border-bottom: none !important;
 
   p {
     width: 70%;
@@ -124,6 +161,13 @@ section {
     margin-bottom: 120px;
     margin-top: 15px;
     border-radius: 3px;
+    transition: all .3s;
+  }
+
+  a:hover {
+    color: #171717;
+    background: white;
+    transition: all .6s;
   }
 }
 

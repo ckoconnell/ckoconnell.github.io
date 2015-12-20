@@ -28,7 +28,41 @@ section {
   border-bottom: 1px solid #999;
 }
 
-/* line 37, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
+nav {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+/* line 42, ../scss/style.scss */
+nav ul a {
+  color: white;
+}
+/* line 46, ../scss/style.scss */
+nav ul li {
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: 500;
+  line-height: 1em;
+  padding: 10px 30px;
+  transition: all .2s;
+}
+/* line 55, ../scss/style.scss */
+nav ul li:hover {
+  background: #333;
+  transition: all .5s;
+}
+
+/* line 62, ../scss/style.scss */
+.navFixed {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #171717;
+}
+
+/* line 70, ../scss/style.scss */
 .gridWrap {
   position: relative;
   display: block;
@@ -36,7 +70,7 @@ section {
   margin: 0 auto;
 }
 
-/* line 47, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .top {
   background: url("../img/18457252890_cde46e58ff_k.jpg");
   background-position: center center;
@@ -45,11 +79,11 @@ section {
   min-height: 750px;
   text-align: center;
 }
-/* line 55, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .top .gridWrap {
   display: inline-block !important;
 }
-/* line 59, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .top .logoWrap {
   width: 300px;
   height: 250px;
@@ -62,7 +96,7 @@ section {
   background: url("../img/academyLogo.png") no-repeat;
   background-size: 300px;
 }
-/* line 72, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .top h1 {
   color: white;
   font-weight: 900;
@@ -72,7 +106,7 @@ section {
   display: block;
   text-transform: uppercase;
 }
-/* line 83, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 .top h3 {
   color: white;
   font-weight: 100;
@@ -83,21 +117,22 @@ section {
   display: block;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .intro {
   background: #171717;
   color: white;
   text-align: center;
   padding-top: 60px;
+  border-bottom: none !important;
 }
-/* line 100, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .intro p {
   width: 70%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 1.5em;
 }
-/* line 107, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .intro h3 {
   display: block;
   margin-top: 60px;
@@ -106,7 +141,7 @@ section {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 116, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 .intro a {
   display: inline-block;
   text-decoration: none;
@@ -118,30 +153,37 @@ section {
   margin-bottom: 120px;
   margin-top: 15px;
   border-radius: 3px;
+  transition: all .3s;
+}
+/* line 167, ../scss/style.scss */
+.intro a:hover {
+  color: #171717;
+  background: white;
+  transition: all .6s;
 }
 
-/* line 130, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 .program {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: white;
   color: #171717;
 }
-/* line 136, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .program h1 {
   text-transform: uppercase;
 }
-/* line 140, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
-/* line 145, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 149, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .program ul li {
   display: inline-block;
   width: 42%;
@@ -151,11 +193,11 @@ section {
   text-align: left;
   vertical-align: top;
 }
-/* line 159, ../scss/style.scss */
+/* line 203, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 162, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .program ul li ul li {
   display: block !important;
   width: 100% !important;
@@ -166,50 +208,50 @@ section {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 175, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
 }
-/* line 180, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
 }
-/* line 186, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 194, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 197, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 205, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 210, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
-/* line 216, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 220, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -217,12 +259,12 @@ section {
   text-align: left;
   margin: 1em 2em;
 }
-/* line 227, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .demo li p {
   font-size: .8em;
   width: 100%;
 }
-/* line 233, ../scss/style.scss */
+/* line 277, ../scss/style.scss */
 .demo p {
   font-size: .95em;
   width: 70%;
@@ -230,39 +272,39 @@ section {
   padding: 1em 0;
 }
 
-/* line 241, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 246, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 251, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
-/* line 257, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
-/* line 263, ../scss/style.scss */
+/* line 307, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
 }
-/* line 268, ../scss/style.scss */
+/* line 312, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
 }
-/* line 272, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .whattobring ul li {
   display: block;
   margin-left: 5em;
@@ -271,84 +313,84 @@ section {
   width: 70%;
 }
 
-/* line 283, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 287, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 293, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 299, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 304, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
 }
 
-/* line 310, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: left;
 }
-/* line 315, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 320, ../scss/style.scss */
+/* line 364, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
 }
 
-/* line 326, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 331, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 338, ../scss/style.scss */
+/* line 382, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 342, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 347, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 352, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 354, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;
