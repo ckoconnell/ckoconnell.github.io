@@ -31,13 +31,12 @@ section {
 /* line 37, ../scss/style.scss */
 .gridWrap {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 930px;
+  display: block;
+  width: 930px;
   margin: 0 auto;
 }
 
-/* line 48, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .top {
   background: url("../img/18457252890_cde46e58ff_k.jpg");
   background-position: center center;
@@ -46,7 +45,11 @@ section {
   min-height: 750px;
   text-align: center;
 }
-/* line 57, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
+.top .gridWrap {
+  display: inline-block !important;
+}
+/* line 59, ../scss/style.scss */
 .top .logoWrap {
   width: 300px;
   height: 250px;
@@ -59,19 +62,20 @@ section {
   background: url("../img/academyLogo.png") no-repeat;
   background-size: 300px;
 }
-/* line 70, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .top h1 {
   color: white;
-  font-weight: 100;
-  font-size: 4em;
+  font-weight: 900;
+  font-size: 3em;
   text-shadow: 1px 1px 2px #333;
   text-align: center;
   display: block;
+  text-transform: uppercase;
 }
-/* line 79, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .top h3 {
   color: white;
-  font-weight: 500;
+  font-weight: 100;
   font-size: 1.8em;
   text-shadow: 1px 1px 2px #333;
   text-align: center;
@@ -79,21 +83,21 @@ section {
   display: block;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .intro {
   background: #171717;
   color: white;
   text-align: center;
   padding-top: 60px;
 }
-/* line 96, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .intro p {
   width: 70%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 1.5em;
 }
-/* line 103, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .intro h3 {
   display: block;
   margin-top: 60px;
@@ -102,7 +106,7 @@ section {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 112, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 .intro a {
   display: inline-block;
   text-decoration: none;
@@ -116,27 +120,28 @@ section {
   border-radius: 3px;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .program {
   padding-top: 90px;
+  padding-bottom: 90px;
   background-color: white;
   color: #171717;
 }
-/* line 131, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .program h1 {
   text-transform: uppercase;
 }
-/* line 135, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
-/* line 140, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 144, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .program ul li {
   display: inline-block;
   width: 42%;
@@ -146,11 +151,11 @@ section {
   text-align: left;
   vertical-align: top;
 }
-/* line 154, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 157, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 .program ul li ul li {
   display: block !important;
   width: 100% !important;
@@ -161,29 +166,153 @@ section {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 170, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
 }
-/* line 175, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
 }
-/* line 181, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 189, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 192, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
+}
+
+/* line 205, ../scss/style.scss */
+.demo {
+  margin-top: 120px;
+  color: white;
+  padding-bottom: 90px;
+}
+/* line 210, ../scss/style.scss */
+.demo .finePrint {
+  font-size: .7em;
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 216, ../scss/style.scss */
+.demo h1 {
+  text-transform: uppercase;
+}
+/* line 220, ../scss/style.scss */
+.demo li {
+  width: 35%;
+  display: inline-block !important;
+  vertical-align: top;
+  text-align: left;
+  margin: 1em 2em;
+}
+/* line 227, ../scss/style.scss */
+.demo li p {
+  font-size: .8em;
+  width: 100%;
+}
+/* line 233, ../scss/style.scss */
+.demo p {
+  font-size: .95em;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+/* line 241, ../scss/style.scss */
+.whattobring {
+  background: white;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+/* line 246, ../scss/style.scss */
+.whattobring h1 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+/* line 251, ../scss/style.scss */
+.whattobring p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+/* line 257, ../scss/style.scss */
+.whattobring .finePrint {
+  font-size: .7em;
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 263, ../scss/style.scss */
+.whattobring .left {
+  text-align: left;
+}
+/* line 268, ../scss/style.scss */
+.whattobring ul {
+  text-align: left;
+  padding-bottom: 60px;
+}
+/* line 272, ../scss/style.scss */
+.whattobring ul li {
+  display: block;
+  margin-left: 5em;
+  margin-bottom: .6em;
+  font-weight: 500;
+  width: 70%;
+}
+
+/* line 283, ../scss/style.scss */
+.contest {
+  padding: 90px 0;
+  color: white;
+}
+/* line 287, ../scss/style.scss */
+.contest h1 {
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 293, ../scss/style.scss */
+.archive {
+  background: white;
+  color: #171717;
+  text-align: left;
+  padding: 90px 0;
+}
+/* line 299, ../scss/style.scss */
+.archive h1 {
+  display: block;
+  text-transform: uppercase;
+}
+/* line 304, ../scss/style.scss */
+.archive h3 {
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+
+/* line 310, ../scss/style.scss */
+.trailer {
+  padding: 90px 0;
+  color: white;
+  text-align: left;
+}
+/* line 315, ../scss/style.scss */
+.trailer h1 {
+  display: block;
+  text-transform: uppercase;
+}
+/* line 320, ../scss/style.scss */
+.trailer h3 {
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
 }

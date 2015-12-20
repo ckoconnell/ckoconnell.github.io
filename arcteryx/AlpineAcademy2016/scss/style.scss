@@ -36,9 +36,8 @@ section {
 
 .gridWrap {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 930px;
+  display: block;
+  width: 930px;
   margin: 0 auto;
   // border: 1px solid teal;
 }
@@ -53,6 +52,9 @@ section {
   min-height: 750px;
   text-align: center;
 
+  .gridWrap {
+    display: inline-block !important;
+  }
 
   .logoWrap {
     width: 300px;
@@ -69,16 +71,18 @@ section {
 
   h1 {
     color: $FontColorAlt;
-    font-weight: 100;
-    font-size: 4em;
+    font-weight: 900;
+    font-size: 3em;
     text-shadow: 1px 1px 2px #333;
     text-align: center;
     display: block;
+    text-transform: uppercase;
+
   }
 
   h3 {
     color: $FontColorAlt;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 1.8em;
     text-shadow: 1px 1px 2px #333;
     text-align: center;
@@ -125,6 +129,7 @@ section {
 
 .program {
   padding-top: 90px;
+  padding-bottom: 90px;
   background-color: white;
   color: $FontColor;
 
@@ -190,12 +195,130 @@ section {
       width: 90%;
 
       p {
+
         width: 90% !important;
       }
     }
   }
 }
 
-.archive {
+.demo {
+  margin-top: 120px;
+  color: $FontColorAlt;
+  padding-bottom: 90px;
 
+  .finePrint {
+    font-size: .7em;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  li {
+    width: 35%;
+    display: inline-block !important;
+    vertical-align: top;
+    text-align: left;
+    margin: 1em 2em;
+
+    p {
+      font-size: .8em;
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: .95em;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+}
+
+.whattobring {
+  background: white;
+  padding-top: 90px;
+  padding-bottom: 120px;
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .finePrint {
+    font-size: .7em;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .left {
+    text-align: left;
+
+  }
+
+  ul {
+    text-align: left;
+    padding-bottom: 60px;
+
+    li {
+      display: block;
+      margin-left: 5em;
+      margin-bottom: .6em;
+      font-weight: 500;
+      width: 70%;
+    }
+  }
+
+}
+
+.contest {
+  padding: 90px 0;
+  color: white;
+
+  h1 {
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
+.archive {
+  background: white;
+  color: #171717;
+  text-align: left;
+  padding: 90px 0;
+
+  h1 {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+  }
+}
+
+.trailer {
+  padding: 90px 0;
+  color: white;
+  text-align: left;
+
+  h1 {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+  }
 }
