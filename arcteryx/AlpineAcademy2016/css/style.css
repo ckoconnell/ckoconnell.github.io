@@ -47,13 +47,27 @@ nav ul li {
   padding: 10px 30px;
   transition: all .2s;
 }
-/* line 55, ../scss/style.scss */
+@media screen and (max-width: 930px) {
+  /* line 46, ../scss/style.scss */
+  nav ul li {
+    font-weight: .8em;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 46, ../scss/style.scss */
+  nav ul li {
+    font-size: .7em;
+    padding: 10px 15px;
+  }
+}
+/* line 65, ../scss/style.scss */
 nav ul li:hover {
   background: #333;
   transition: all .5s;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .navFixed {
   position: fixed !important;
   top: 0;
@@ -62,15 +76,21 @@ nav ul li:hover {
   background: #171717;
 }
 
-/* line 70, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .gridWrap {
   position: relative;
   display: block;
   width: 930px;
   margin: 0 auto;
 }
+@media screen and (max-width: 930px) {
+  /* line 80, ../scss/style.scss */
+  .gridWrap {
+    width: 100%;
+  }
+}
 
-/* line 80, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .top {
   background: url("../img/18457252890_cde46e58ff_k.jpg");
   background-position: center center;
@@ -79,11 +99,11 @@ nav ul li:hover {
   min-height: 750px;
   text-align: center;
 }
-/* line 91, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .top .gridWrap {
   display: inline-block !important;
 }
-/* line 95, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .top .logoWrap {
   width: 300px;
   height: 250px;
@@ -96,7 +116,7 @@ nav ul li:hover {
   background: url("../img/academyLogo.png") no-repeat;
   background-size: 300px;
 }
-/* line 108, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .top h1 {
   color: white;
   font-weight: 900;
@@ -105,8 +125,9 @@ nav ul li:hover {
   text-align: center;
   display: block;
   text-transform: uppercase;
+  line-height: 1em;
 }
-/* line 119, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .top h3 {
   color: white;
   font-weight: 100;
@@ -117,7 +138,7 @@ nav ul li:hover {
   display: block;
 }
 
-/* line 130, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .intro {
   background: #171717;
   color: white;
@@ -125,14 +146,14 @@ nav ul li:hover {
   padding-top: 60px;
   border-bottom: none !important;
 }
-/* line 137, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 .intro p {
   width: 70%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 1.5em;
 }
-/* line 144, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 .intro h3 {
   display: block;
   margin-top: 60px;
@@ -141,7 +162,7 @@ nav ul li:hover {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 153, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .intro a {
   display: inline-block;
   text-decoration: none;
@@ -155,35 +176,35 @@ nav ul li:hover {
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 167, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .intro a:hover {
   color: #171717;
   background: white;
   transition: all .6s;
 }
 
-/* line 174, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .program {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: white;
   color: #171717;
 }
-/* line 180, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .program h1 {
   text-transform: uppercase;
 }
-/* line 184, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
-/* line 189, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 193, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 .program ul li {
   display: inline-block;
   width: 42%;
@@ -193,11 +214,17 @@ nav ul li:hover {
   text-align: left;
   vertical-align: top;
 }
-/* line 203, ../scss/style.scss */
+@media screen and (max-width: 700px) {
+  /* line 209, ../scss/style.scss */
+  .program ul li {
+    width: 90%;
+  }
+}
+/* line 223, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 206, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .program ul li ul li {
   display: block !important;
   width: 100% !important;
@@ -208,50 +235,50 @@ nav ul li:hover {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 219, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
 }
-/* line 224, ../scss/style.scss */
+/* line 244, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
 }
-/* line 230, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 238, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 241, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 249, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 254, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
-/* line 260, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 264, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -259,12 +286,12 @@ nav ul li:hover {
   text-align: left;
   margin: 1em 2em;
 }
-/* line 271, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 .demo li p {
   font-size: .8em;
   width: 100%;
 }
-/* line 277, ../scss/style.scss */
+/* line 297, ../scss/style.scss */
 .demo p {
   font-size: .95em;
   width: 70%;
@@ -272,39 +299,39 @@ nav ul li:hover {
   padding: 1em 0;
 }
 
-/* line 285, ../scss/style.scss */
+/* line 305, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 290, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 295, ../scss/style.scss */
+/* line 315, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
-/* line 301, ../scss/style.scss */
+/* line 321, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
-/* line 307, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
 }
-/* line 312, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
 }
-/* line 316, ../scss/style.scss */
+/* line 336, ../scss/style.scss */
 .whattobring ul li {
   display: block;
   margin-left: 5em;
@@ -313,84 +340,84 @@ nav ul li:hover {
   width: 70%;
 }
 
-/* line 327, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 331, ../scss/style.scss */
+/* line 351, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 337, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 343, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 348, ../scss/style.scss */
+/* line 368, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
 }
 
-/* line 354, ../scss/style.scss */
+/* line 374, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: left;
 }
-/* line 359, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 364, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
 }
 
-/* line 370, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 375, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 382, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 386, ../scss/style.scss */
+/* line 406, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 391, ../scss/style.scss */
+/* line 411, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 396, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 398, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;

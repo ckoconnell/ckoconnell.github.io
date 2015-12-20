@@ -50,6 +50,16 @@ nav {
       line-height: 1em;
       padding: 10px 30px;
       transition: all .2s;
+
+      @media screen and (max-width: 930px) {
+        font-weight: .8em;
+        padding: 10px 20px;
+      }
+
+      @media screen and (max-width: 700px) {
+        font-size: .7em;
+        padding: 10px 15px;
+      }
     }
 
     li:hover {
@@ -73,7 +83,13 @@ nav {
   width: 930px;
   margin: 0 auto;
   // border: 1px solid teal;
+
+  @media screen and (max-width: 930px) {
+    width: 100%;
+  }
+
 }
+
 
 // Section Styles
 
@@ -113,7 +129,7 @@ nav {
     text-align: center;
     display: block;
     text-transform: uppercase;
-
+    line-height: 1em;
   }
 
   h3 {
@@ -199,6 +215,10 @@ nav {
       padding: 15px;
       text-align: left;
       vertical-align: top;
+
+      @media screen and (max-width: 700px) {
+        width: 90%;
+      }
 
       ul {
         list-style: disc !important;
