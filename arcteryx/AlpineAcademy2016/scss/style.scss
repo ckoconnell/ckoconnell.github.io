@@ -376,21 +376,49 @@ nav {
     text-transform: uppercase;
     margin-bottom: 1.5em;
   }
+
+  a {
+
+    @media screen and (max-width: 930px) {
+      display: none;
+    }
+  }
+
+  iframe {
+    width: 930px !important;
+
+    @media screen and (max-width: 930px) {
+    display: none !important;
+    }
+  }
 }
 
 .trailer {
   padding: 90px 0;
   color: white;
-  text-align: left;
+  text-align: center;
 
   h1 {
     display: block;
     text-transform: uppercase;
+    text-align: left;
   }
 
   h3 {
     text-transform: uppercase;
     margin-bottom: 1.5em;
+    text-align: left !important;
+    display: block;
+  }
+
+  iframe {
+    width: 960px;
+    height: 540px;
+
+    @media screen and (max-width: 930px) {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 }
 

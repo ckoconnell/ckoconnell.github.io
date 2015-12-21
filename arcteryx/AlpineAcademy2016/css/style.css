@@ -376,56 +376,87 @@ nav ul li:hover {
   text-transform: uppercase;
   margin-bottom: 1.5em;
 }
+@media screen and (max-width: 930px) {
+  /* line 380, ../scss/style.scss */
+  .archive a {
+    display: none;
+  }
+}
+/* line 387, ../scss/style.scss */
+.archive iframe {
+  width: 930px !important;
+}
+@media screen and (max-width: 930px) {
+  /* line 387, ../scss/style.scss */
+  .archive iframe {
+    display: none !important;
+  }
+}
 
-/* line 381, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
-  text-align: left;
+  text-align: center;
 }
-/* line 386, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
+  text-align: left;
 }
-/* line 391, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
+  text-align: left !important;
+  display: block;
+}
+/* line 414, ../scss/style.scss */
+.trailer iframe {
+  width: 960px;
+  height: 540px;
+}
+@media screen and (max-width: 930px) {
+  /* line 414, ../scss/style.scss */
+  .trailer iframe {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
-/* line 397, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 402, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 409, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 413, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 418, ../scss/style.scss */
+/* line 446, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 423, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 425, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;
