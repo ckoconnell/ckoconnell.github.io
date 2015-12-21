@@ -96,6 +96,99 @@ section {
   margin: 0 auto;
 }
 
+.sectionIntro {
+
+
+  h1 {
+    font-weight: 600;
+    color: white !important;
+    font-family: $altfont;
+    font-size: 2em !important;
+    margin-bottom: 15px !important;
+  }
+
+  h3 {
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    line-height: 1.3em !important;
+    text-transform: none !important;
+
+  }
+}
+
+.itemWrap {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 30%;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 2px #ccc;
+  height: 450px;
+  margin: 10px 10px;
+
+  @media screen and (max-width: $bpTablet) {
+    width: 45%;
+  }
+
+  @media screen and (max-width: $bpPhone) {
+    width: 96%;
+    height: auto;
+    min-height: 0;
+  }
+
+  h1 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+
+    color: #333
+  }
+
+  h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #171717;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  p {
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+}
+
 .nav {
     background: #F0F0F0;
     width: 100%;
@@ -120,11 +213,13 @@ section {
         vertical-align: middle;
         text-decoration: none;
         transition: all .15s;
+        font-size: 13px;
       }
       a:hover {
         background: #D0D0D0 !important;
         font-weight: 900;
         transition: all .4s;
+
       }
 
       .navDarker {
@@ -145,94 +240,24 @@ section {
   left: 0;
 }
 
-.intro {
-  width: 100%;
-  position: relative;
-  display: block;
-  border-bottom: 0;
+.contact {
+  height: auto !important;
+
 }
 
-.feature {
-  height: 90% !important;
-  padding-bottom: 55.6%;
-}
+
 
 .work {
-
-  ul {
-    vertical-align: top;
-    display: block;
-
-    .workBlock {
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    li {
-      width: 30%;
-      height: 350px;
-      border: 1px solid $borderColor;
-      margin: 10px 0;
-      padding: 30px;
-      list-style: none;
-      display: inline-block;
-      vertical-align: top;
-
-      h1 {
-        position: absolute;
-        right: 30px;
-        bottom: 40%;
-        color: white;
-
-        // font-family: $bodyfont;
-        font-family: $altfont;
-        font-weight: 600;
-        line-height: .9em;
-        text-align: right;
-      }
-
-      .blockContent {
-        display: none;
-      }
-
-    }
-
-    li:hover {
-      
-    }
-
-    .marginMid {
-      margin: 10px 10px;
-    }
-
-    .workExperience {
-      background: mix($col1, $col2, 100);
-    }
-
-    .workWeb {
-      background: mix($col1, $col2, 80);
-    }
-
-    .workEditorial {
-      background: mix($col1, $col2, 60);
-    }
-
-    .workPM {
-      background: mix($col1, $col2, 40);
-    }
-
-    .workPhoto {
-      background: mix($col1, $col2, 20);
-    }
-
-    .workVideo {
-      background: mix($col1, $col2, 0);
-    }
-
+  .sectionIntro {
+    background: $col2;
   }
 
 }
 
+.contact {
+   border-bottom: none;
+  height: 500px !important;
+}
 
 .footer {
   height: 100px !important;
