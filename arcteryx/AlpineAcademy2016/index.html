@@ -37,6 +37,18 @@
     </div>
 </nav>
 
+<div class="navMobile navExpand">
+    <div class="mobileTap">Menu</div>
+    <ul>
+        <a href="#program"><li>Clinics & Workshops</li></a>
+        <a href="#demo"><li>Demo Gear</li></a>
+        <a href="#bring"><li>WhatTo Bring</li></a>
+        <a href="#contest"><li>Enter To Win</li></a>
+        <a href="#archive"><li>2015 Photo Gallery</li></a>
+        <a href="#trailer"><li>2016 Event Trailer</li></a>
+    </ul>
+</div>
+
 <a name="program"></a>
 <section class="program">
     <div class="gridWrap">
@@ -353,6 +365,12 @@
 
     $(document).on("scroll", function(){
         $("nav").toggleClass("navFixed", $(document).scrollTop() > 1220 );
+    });
+</script>
+
+<script>
+    $( ".menuMobileTitle" ).click(function() {
+        $( ".menuMobile" ).toggleClass( "blockDisplay" );
     });
 </script>
 
