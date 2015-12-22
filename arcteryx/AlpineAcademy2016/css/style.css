@@ -337,34 +337,48 @@ nav ul li:hover {
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 335, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
+.program ul .fullWidth img {
+  float: right;
+  width: 45%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+@media screen and (max-width: 700px) {
+  /* line 334, ../scss/style.scss */
+  .program ul .fullWidth img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+/* line 345, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 343, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 348, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 348, ../scss/style.scss */
+  /* line 358, ../scss/style.scss */
   .demo .finePrint {
     width: 90%;
   }
 }
-/* line 359, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 363, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -373,17 +387,17 @@ nav ul li:hover {
   margin: 1em 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 363, ../scss/style.scss */
+  /* line 373, ../scss/style.scss */
   .demo li {
     width: 90%;
   }
 }
-/* line 374, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .demo li p {
   font-size: .8em;
   width: 100%;
 }
-/* line 380, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .demo p {
   font-size: .95em;
   width: 70%;
@@ -391,69 +405,69 @@ nav ul li:hover {
   padding: 1em 0;
 }
 @media screen and (max-width: 700px) {
-  /* line 380, ../scss/style.scss */
+  /* line 390, ../scss/style.scss */
   .demo p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 393, ../scss/style.scss */
+/* line 403, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 398, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 403, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 700px) {
-  /* line 403, ../scss/style.scss */
+  /* line 413, ../scss/style.scss */
   .whattobring p {
     text-align: left;
     width: 90%;
   }
 }
-/* line 414, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 414, ../scss/style.scss */
+  /* line 424, ../scss/style.scss */
   .whattobring .finePrint {
     width: 90%;
   }
 }
-/* line 424, ../scss/style.scss */
+/* line 434, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
   font-weight: 900;
   margin-top: 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 424, ../scss/style.scss */
+  /* line 434, ../scss/style.scss */
   .whattobring .left {
     width: 90%;
   }
 }
-/* line 434, ../scss/style.scss */
+/* line 444, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
   list-style: circle !important;
   color: black;
 }
-/* line 440, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
 .whattobring ul li {
   display: block;
   margin-left: 5em;
@@ -464,12 +478,12 @@ nav ul li:hover {
   color: black;
 }
 @media screen and (max-width: 550px) {
-  /* line 440, ../scss/style.scss */
+  /* line 450, ../scss/style.scss */
   .whattobring ul li {
     margin-left: 2em;
   }
 }
-/* line 454, ../scss/style.scss */
+/* line 464, ../scss/style.scss */
 .whattobring ul li:before {
   width: 5px;
   height: 5px;
@@ -477,45 +491,45 @@ nav ul li:hover {
   position: absolute;
 }
 
-/* line 464, ../scss/style.scss */
+/* line 474, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 468, ../scss/style.scss */
+/* line 478, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 474, ../scss/style.scss */
+/* line 484, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 480, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px) {
-  /* line 480, ../scss/style.scss */
+  /* line 490, ../scss/style.scss */
   .archive h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 492, ../scss/style.scss */
+/* line 502, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 492, ../scss/style.scss */
+  /* line 502, ../scss/style.scss */
   .archive h3 {
     width: 90%;
     text-align: left;
@@ -523,43 +537,43 @@ nav ul li:hover {
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 504, ../scss/style.scss */
+  /* line 514, ../scss/style.scss */
   .archive a {
     display: none;
   }
 }
-/* line 511, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 .archive iframe {
   width: 930px !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 511, ../scss/style.scss */
+  /* line 521, ../scss/style.scss */
   .archive iframe {
     display: none !important;
   }
 }
 
-/* line 520, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: center;
 }
-/* line 525, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
   text-align: left;
 }
 @media screen and (max-width: 700px) {
-  /* line 525, ../scss/style.scss */
+  /* line 535, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 537, ../scss/style.scss */
+/* line 547, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
@@ -567,58 +581,58 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 537, ../scss/style.scss */
+  /* line 547, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 550, ../scss/style.scss */
+/* line 560, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 550, ../scss/style.scss */
+  /* line 560, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 561, ../scss/style.scss */
+/* line 571, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 566, ../scss/style.scss */
+/* line 576, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 573, ../scss/style.scss */
+/* line 583, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 577, ../scss/style.scss */
+/* line 587, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 582, ../scss/style.scss */
+/* line 592, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 587, ../scss/style.scss */
+/* line 597, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 589, ../scss/style.scss */
+/* line 599, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;
