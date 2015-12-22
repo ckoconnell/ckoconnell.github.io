@@ -83,13 +83,16 @@ nav {
 
 .navMobile {
   display: none;
+  height: 50px;
+  overflow: hidden;
+  transition: all .5s;
+  padding-bottom: 15px;
 
   @media screen and (max-width: 600px) {
     display: block;
     position: fixed;
     z-index: 10000;
-    height: 50px;
-    overflow: hidden;
+
     width: 100%;
     top: 0;
     left: 0;
@@ -113,17 +116,35 @@ nav {
       margin: 0 auto;
       text-align: center;
       text-transform: uppercase;
+      padding-top: 5px;
+      border-bottom: 1px dotted #222;
+    }
 
+    li:hover {
+      background: #333;
     }
   }
 
   .mobileTap {
+    height: 50px;
     display: block;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+
+    .menuIcon {
+      padding-right: 10px;
+
+    }
   }
 }
 
 .navExpand {
-  height: auto !important;
+  height: auto;
+  transition: all .5s;
 }
 
 .gridWrap {

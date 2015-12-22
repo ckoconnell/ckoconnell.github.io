@@ -37,8 +37,8 @@
     </div>
 </nav>
 
-<div class="navMobile navExpand">
-    <div class="mobileTap">Menu</div>
+<div class="navMobile">
+    <div class="mobileTap"><span class="menuIcon">&#9776;</span>Menu</div>
     <ul>
         <a href="#program"><li>Clinics & Workshops</li></a>
         <a href="#demo"><li>Demo Gear</li></a>
@@ -369,8 +369,8 @@
 </script>
 
 <script>
-    $( ".menuMobileTitle" ).click(function() {
-        $( ".menuMobile" ).toggleClass( "blockDisplay" );
+    $( ".mobileTap" ).click(function() {
+        $( ".navMobile" ).toggleClass( "navExpand" );
     });
 </script>
 
