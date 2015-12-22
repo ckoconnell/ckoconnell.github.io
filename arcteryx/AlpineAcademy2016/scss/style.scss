@@ -200,6 +200,11 @@ nav {
   p {
     margin: 0 auto;
     width: 70%;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+    }
   }
 
   ul {
@@ -275,6 +280,11 @@ nav {
     font-size: .7em;
     width: 70%;
     margin: 0 auto;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+    }
+
   }
 
   h1 {
@@ -303,6 +313,11 @@ nav {
     width: 70%;
     margin: 0 auto;
     padding: 1em 0;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+    }
   }
 }
 
@@ -320,12 +335,21 @@ nav {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 1em;
+
+    @media screen and (max-width: 700px) {
+      text-align: left;
+      width: 90%;
+    }
   }
 
   .finePrint {
     font-size: .7em;
     width: 70%;
     margin: 0 auto;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+    }
   }
 
   .left {
@@ -333,7 +357,9 @@ nav {
     font-weight: 900;
     margin-top: 2em;
 
-
+    @media screen and (max-width: 700px) {
+      width: 90%;
+    }
   }
 
   ul {
@@ -370,11 +396,25 @@ nav {
   h1 {
     display: block;
     text-transform: uppercase;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+      margin: 0 auto;
+    }
+
   }
 
   h3 {
     text-transform: uppercase;
     margin-bottom: 1.5em;
+    display: block;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+      margin: 0 auto;
+    }
   }
 
   a {
@@ -402,6 +442,12 @@ nav {
     display: block;
     text-transform: uppercase;
     text-align: left;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+      margin: 0 auto;
+    }
   }
 
   h3 {
@@ -409,6 +455,12 @@ nav {
     margin-bottom: 1.5em;
     text-align: left !important;
     display: block;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      text-align: left;
+      margin: 0 auto;
+    }
   }
 
   iframe {
