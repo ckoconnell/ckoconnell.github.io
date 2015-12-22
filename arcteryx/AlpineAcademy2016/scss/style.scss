@@ -445,6 +445,10 @@ nav {
       width: 70%;
       list-style: circle !important;
       color: black;
+
+      @media screen and (max-width: 550px) {
+        margin-left: 2em;
+      }
     }
 
     li:before {
