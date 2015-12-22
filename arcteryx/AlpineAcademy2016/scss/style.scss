@@ -365,6 +365,8 @@ nav {
   ul {
     text-align: left;
     padding-bottom: 60px;
+    list-style: circle !important;
+    color: black;
 
     li {
       display: block;
@@ -372,6 +374,15 @@ nav {
       margin-bottom: .6em;
       font-weight: 500;
       width: 70%;
+      list-style: circle !important;
+      color: black;
+    }
+
+    li:before {
+      width: 5px;
+      height: 5px;
+      background: black;
+      position: absolute;
     }
   }
 

@@ -377,55 +377,66 @@ nav ul li:hover {
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
+  list-style: circle !important;
+  color: black;
 }
-/* line 369, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 .whattobring ul li {
   display: block;
   margin-left: 5em;
   margin-bottom: .6em;
   font-weight: 500;
   width: 70%;
+  list-style: circle !important;
+  color: black;
+}
+/* line 381, ../scss/style.scss */
+.whattobring ul li:before {
+  width: 5px;
+  height: 5px;
+  background: black;
+  position: absolute;
 }
 
-/* line 380, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 384, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 390, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 396, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px) {
-  /* line 396, ../scss/style.scss */
+  /* line 407, ../scss/style.scss */
   .archive h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 408, ../scss/style.scss */
+/* line 419, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 408, ../scss/style.scss */
+  /* line 419, ../scss/style.scss */
   .archive h3 {
     width: 90%;
     text-align: left;
@@ -433,43 +444,43 @@ nav ul li:hover {
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 420, ../scss/style.scss */
+  /* line 431, ../scss/style.scss */
   .archive a {
     display: none;
   }
 }
-/* line 427, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .archive iframe {
   width: 930px !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 427, ../scss/style.scss */
+  /* line 438, ../scss/style.scss */
   .archive iframe {
     display: none !important;
   }
 }
 
-/* line 436, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: center;
 }
-/* line 441, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
   text-align: left;
 }
 @media screen and (max-width: 700px) {
-  /* line 441, ../scss/style.scss */
+  /* line 452, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 453, ../scss/style.scss */
+/* line 464, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
@@ -477,58 +488,58 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 453, ../scss/style.scss */
+  /* line 464, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 466, ../scss/style.scss */
+/* line 477, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 466, ../scss/style.scss */
+  /* line 477, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 477, ../scss/style.scss */
+/* line 488, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 482, ../scss/style.scss */
+/* line 493, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 489, ../scss/style.scss */
+/* line 500, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 493, ../scss/style.scss */
+/* line 504, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 498, ../scss/style.scss */
+/* line 509, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 503, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 505, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;
