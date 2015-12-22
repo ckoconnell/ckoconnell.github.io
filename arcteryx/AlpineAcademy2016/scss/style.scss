@@ -49,7 +49,7 @@ nav {
 
     li {
       text-transform: uppercase;
-      font-size: .9em;
+      font-size: .8em;
       font-weight: 500;
       line-height: 1em;
       padding: 10px 30px;
@@ -172,6 +172,32 @@ nav {
   height: 90% !important;
   min-height: 750px;
   text-align: center;
+
+  .langSelect {
+    position: relative;
+    top: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px #111;
+    margin: 0 auto;
+    display: block;
+
+    h3 {
+      font-size: .8em;
+      text-shadow: 1px 1px 2px #111;
+    }
+
+    a {
+      color: white;
+      text-shadow: 1px 1px 2px #111;
+      cursor: pointer;
+    }
+
+    .langOption {
+      font-size: 1.2em;
+      font-weight: 900;
+      padding: 0 5px;
+    }
+  }
 
   .gridWrap {
     display: inline-block !important;
