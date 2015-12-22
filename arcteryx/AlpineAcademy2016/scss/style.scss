@@ -103,7 +103,7 @@ nav {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 50px;
 
     a {
       text-decoration: none;
@@ -133,10 +133,30 @@ nav {
     text-align: center;
     padding-top: 15px;
     cursor: pointer;
+    position: absolute;
+    left: 15px;
 
     .menuIcon {
       padding-right: 10px;
 
+    }
+  }
+
+  .langSelectMobile {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    h3 {
+      display: inline-block;
+      color: white;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+
+    a {
+      color: white;
+      font-size: 13px;
     }
   }
 }
@@ -180,6 +200,10 @@ nav {
     text-shadow: 1px 1px 2px #111;
     margin: 0 auto;
     display: block;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
 
     h3 {
       font-size: .8em;
