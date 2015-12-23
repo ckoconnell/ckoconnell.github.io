@@ -183,7 +183,7 @@ nav {
 // Section Styles
 
 .top {
-   background: url('../img/18457252890_cde46e58ff_k.jpg');
+   background: url('../img/bg1.jpg');
   // background: url('../img/18774360782_492e4df0c1_h.jpg');
   // background: url('../img/18774403102_3c9edc7992_h.jpg');
   // background: url('../img/18781876591_fc887d7892_h.jpg');
@@ -231,13 +231,15 @@ nav {
     width: 300px;
     height: 250px;
     margin: 0 auto;
-    background: black;
     display: block;
-    margin-top: 20%;
-    margin-bottom: 30px;
-    border-radius: 100px;
-    background: url('../img/academyLogo.png') no-repeat;
-    background-size: 300px;
+    margin-top: 15%;
+    margin-bottom: 60px;
+
+
+
+    svg {
+      width: 250px;
+    }
   }
 
   h1 {

@@ -186,7 +186,7 @@ nav ul li:hover {
 
 /* line 185, ../scss/style.scss */
 .top {
-  background: url("../img/18457252890_cde46e58ff_k.jpg");
+  background: url("../img/bg1.jpg");
   background-position: center center;
   background-size: cover;
   height: 90% !important;
@@ -234,15 +234,15 @@ nav ul li:hover {
   width: 300px;
   height: 250px;
   margin: 0 auto;
-  background: black;
   display: block;
-  margin-top: 20%;
-  margin-bottom: 30px;
-  border-radius: 100px;
-  background: url("../img/academyLogo.png") no-repeat;
-  background-size: 300px;
+  margin-top: 15%;
+  margin-bottom: 60px;
 }
-/* line 243, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
+.top .logoWrap svg {
+  width: 250px;
+}
+/* line 245, ../scss/style.scss */
 .top h1 {
   color: white;
   font-weight: 900;
@@ -253,7 +253,7 @@ nav ul li:hover {
   text-transform: uppercase;
   line-height: 1em;
 }
-/* line 254, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .top h3 {
   color: white;
   font-weight: 100;
@@ -264,7 +264,7 @@ nav ul li:hover {
   display: block;
 }
 
-/* line 265, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .intro {
   background: #171717;
   color: white;
@@ -272,14 +272,14 @@ nav ul li:hover {
   padding-top: 60px;
   border-bottom: none !important;
 }
-/* line 272, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 .intro p {
   width: 70%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 1.5em;
 }
-/* line 279, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 .intro h3 {
   display: block;
   margin-top: 60px;
@@ -288,7 +288,7 @@ nav ul li:hover {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 288, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 .intro a {
   display: inline-block;
   text-decoration: none;
@@ -302,42 +302,42 @@ nav ul li:hover {
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 302, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .intro a:hover {
   color: #171717;
   background: white;
   transition: all .6s;
 }
 
-/* line 309, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .program {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: white;
   color: #171717;
 }
-/* line 315, ../scss/style.scss */
+/* line 317, ../scss/style.scss */
 .program h1 {
   text-transform: uppercase;
 }
-/* line 319, ../scss/style.scss */
+/* line 321, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
 @media screen and (max-width: 700px) {
-  /* line 319, ../scss/style.scss */
+  /* line 321, ../scss/style.scss */
   .program p {
     width: 90%;
     text-align: left;
   }
 }
-/* line 329, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 333, ../scss/style.scss */
+/* line 335, ../scss/style.scss */
 .program ul li {
   display: inline-block;
   width: 42%;
@@ -348,16 +348,16 @@ nav ul li:hover {
   vertical-align: top;
 }
 @media screen and (max-width: 700px) {
-  /* line 333, ../scss/style.scss */
+  /* line 335, ../scss/style.scss */
   .program ul li {
     width: 90%;
   }
 }
-/* line 347, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 350, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .program ul li ul li {
   display: block !important;
   width: 100% !important;
@@ -368,29 +368,29 @@ nav ul li:hover {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 363, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
 }
-/* line 368, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
 }
-/* line 374, ../scss/style.scss */
+/* line 376, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 382, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 384, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 .program ul .fullWidth img {
   float: right;
   width: 45%;
@@ -398,40 +398,40 @@ nav ul li:hover {
   padding-top: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 384, ../scss/style.scss */
+  /* line 386, ../scss/style.scss */
   .program ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
-/* line 395, ../scss/style.scss */
+/* line 397, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 403, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 408, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 408, ../scss/style.scss */
+  /* line 410, ../scss/style.scss */
   .demo .finePrint {
     width: 90%;
   }
 }
-/* line 419, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 423, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -440,17 +440,17 @@ nav ul li:hover {
   margin: 1em 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 423, ../scss/style.scss */
+  /* line 425, ../scss/style.scss */
   .demo li {
     width: 90%;
   }
 }
-/* line 434, ../scss/style.scss */
+/* line 436, ../scss/style.scss */
 .demo li p {
   font-size: .8em;
   width: 100%;
 }
-/* line 440, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 .demo p {
   font-size: .95em;
   width: 70%;
@@ -458,69 +458,69 @@ nav ul li:hover {
   padding: 1em 0;
 }
 @media screen and (max-width: 700px) {
-  /* line 440, ../scss/style.scss */
+  /* line 442, ../scss/style.scss */
   .demo p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 453, ../scss/style.scss */
+/* line 455, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 458, ../scss/style.scss */
+/* line 460, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 463, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 700px) {
-  /* line 463, ../scss/style.scss */
+  /* line 465, ../scss/style.scss */
   .whattobring p {
     text-align: left;
     width: 90%;
   }
 }
-/* line 474, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 474, ../scss/style.scss */
+  /* line 476, ../scss/style.scss */
   .whattobring .finePrint {
     width: 90%;
   }
 }
-/* line 484, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
   font-weight: 900;
   margin-top: 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 484, ../scss/style.scss */
+  /* line 486, ../scss/style.scss */
   .whattobring .left {
     width: 90%;
   }
 }
-/* line 494, ../scss/style.scss */
+/* line 496, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
   list-style: circle !important;
   color: black;
 }
-/* line 500, ../scss/style.scss */
+/* line 502, ../scss/style.scss */
 .whattobring ul li {
   display: block;
   margin-left: 5em;
@@ -531,12 +531,12 @@ nav ul li:hover {
   color: black;
 }
 @media screen and (max-width: 550px) {
-  /* line 500, ../scss/style.scss */
+  /* line 502, ../scss/style.scss */
   .whattobring ul li {
     margin-left: 2em;
   }
 }
-/* line 514, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .whattobring ul li:before {
   width: 5px;
   height: 5px;
@@ -544,45 +544,45 @@ nav ul li:hover {
   position: absolute;
 }
 
-/* line 524, ../scss/style.scss */
+/* line 526, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 528, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 534, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 540, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px) {
-  /* line 540, ../scss/style.scss */
+  /* line 542, ../scss/style.scss */
   .archive h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 552, ../scss/style.scss */
+/* line 554, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 552, ../scss/style.scss */
+  /* line 554, ../scss/style.scss */
   .archive h3 {
     width: 90%;
     text-align: left;
@@ -590,43 +590,43 @@ nav ul li:hover {
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 564, ../scss/style.scss */
+  /* line 566, ../scss/style.scss */
   .archive a {
     display: none;
   }
 }
-/* line 571, ../scss/style.scss */
+/* line 573, ../scss/style.scss */
 .archive iframe {
   width: 930px !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 571, ../scss/style.scss */
+  /* line 573, ../scss/style.scss */
   .archive iframe {
     display: none !important;
   }
 }
 
-/* line 580, ../scss/style.scss */
+/* line 582, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: center;
 }
-/* line 585, ../scss/style.scss */
+/* line 587, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
   text-align: left;
 }
 @media screen and (max-width: 700px) {
-  /* line 585, ../scss/style.scss */
+  /* line 587, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 597, ../scss/style.scss */
+/* line 599, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
@@ -634,58 +634,58 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 597, ../scss/style.scss */
+  /* line 599, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 610, ../scss/style.scss */
+/* line 612, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 610, ../scss/style.scss */
+  /* line 612, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 621, ../scss/style.scss */
+/* line 623, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 626, ../scss/style.scss */
+/* line 628, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 633, ../scss/style.scss */
+/* line 635, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 637, ../scss/style.scss */
+/* line 639, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 642, ../scss/style.scss */
+/* line 644, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 647, ../scss/style.scss */
+/* line 649, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 649, ../scss/style.scss */
+/* line 651, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;

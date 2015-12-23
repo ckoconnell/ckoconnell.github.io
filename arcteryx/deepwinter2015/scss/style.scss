@@ -838,6 +838,12 @@ a.anchorPadContest {
       background-position: center center;
     }
 
+    .heroChad {
+      background: url('../img/bioDalbyHero.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
     .contestantIntro {
       text-align: left;
       display: block;
@@ -986,6 +992,13 @@ a.anchorPadContest {
           margin-top: -31px;
           margin-left: 5px;
         }
+
+        .headshotChad {
+
+          width: 147px;
+          margin-top: -4px !important;
+          margin-left: -22px !important;
+        }
       }
 
       h1 {
@@ -1048,7 +1061,7 @@ a.anchorPadContest {
          text-transform: uppercase;
       }
 
-      .bioLinkAshley, .bioLinkZoya, .bioLinkGuy, .bioLinkDalby {
+      .bioLinkAshley, .bioLinkZoya, .bioLinkGuy, .bioLinkDalby, .bioLinkChad {
         text-transform: uppercase;
         border: 1px solid #ccc;
         font-size: 12px;
@@ -1115,7 +1128,7 @@ a.anchorPadContest {
 
 // Photographer Bio Modal Containers
 
-.contestantBioAshley, .contestantBioZoya, .contestantBioGuy, .contestantBioDalby {
+.contestantBioAshley, .contestantBioZoya, .contestantBioGuy, .contestantBioDalby, .contestantBioChad {
   position: fixed;
   top: 40px;
   bottom: 0;
@@ -1167,6 +1180,13 @@ a.anchorPadContest {
       background-size: cover;
       background-position: left top;
     }
+
+    .biofullChad {
+      background: url('../img/chadBio.jpg');
+      background-size: cover;
+      background-position: left top;
+    }
+
 
     .headshotFull {
       width: 100%;
@@ -1249,7 +1269,7 @@ a.anchorPadContest {
     margin-left: -5px;
   }
 
-  .closeLinkAshley, .closeLinkZoya, .closeLinkGuy, .closeLinkDalby {
+  .closeLinkAshley, .closeLinkZoya, .closeLinkGuy, .closeLinkDalby, .closeLinkChad {
     position: absolute;
     display: inline-block;
     top: 3%;
