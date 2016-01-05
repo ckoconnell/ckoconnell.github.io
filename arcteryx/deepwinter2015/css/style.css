@@ -291,7 +291,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .postWrap .postBody h5 .bolder { font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544'; }
 .postWrap .postBody p { line-height: 1.6em; font-size: 1em; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496'; margin: 0 auto; width: 80%; margin-bottom: 30px; }
 @media screen and (max-width: 600px) { .postWrap .postBody p { width: 90%; } }
-.postWrap .postBody img { width: 100%; margin-bottom: -4px; }
+.postWrap .postBody img { width: 100%; margin-top: 30px; margin-bottom: -4px; }
 .postWrap .postBody .inlineImg { float: right; width: 60%; padding-left: 30px; }
 .postWrap .postBody .captionWrap { width: 100%; background: #333; margin-bottom: 30px; margin-top: 0; box-sizing: border-box; padding: 10px 15px; font-size: .8em; }
 .postWrap .postFooter { margin: 0 auto; margin-top: 90px; text-align: center; }
