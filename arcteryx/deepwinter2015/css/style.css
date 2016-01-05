@@ -280,12 +280,12 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 
 .postWrap { padding-top: 39px !important; }
 .postWrap .postHead { text-align: left !important; height: 75%; min-height: 600px; display: block; position: relative; }
-.postWrap .postHead .blackBox { display: inline-block; position: relative; box-sizing: border-box; padding: 30px; width: auto; max-width: 350px; }
+.postWrap .postHead .blackBox { display: inline-block; box-sizing: border-box; padding: 10px 20px; width: auto; max-width: 350px; opacity: .85; position: absolute; background: #171717; }
 .postWrap .postHead .blackBox h1 { text-align: left !important; color: white; margin: 0; padding: 0; font-size: 1.5em; }
 .postWrap .postHead .blackBox h3 { text-align: left !important; color: white; text-transform: uppercase; margin: 0; padding: 0; font-size: 1em; }
 .postWrap .postHead .blackBox h5 { text-align: left !important; color: white; text-transform: uppercase; margin: 0; padding: 0; font-size: .8em; font-weight: 100; color: #aaa; }
 .postWrap .testPost { background: url("../img/blakeHero.jpg"); background-size: cover; }
-.postWrap .testPost .blackBox { position: absolute; background: #171717; right: 10%; bottom: 10%; }
+.postWrap .testPost .blackBox { right: 10%; bottom: 10%; }
 .postWrap .postBody { margin-top: 30px; overflow: hidden; }
 .postWrap .postBody h5 { margin: 0 auto; margin-bottom: 60px; width: 80%; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496'; text-transform: uppercase; }
 .postWrap .postBody h5 .bolder { font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544'; }
@@ -294,7 +294,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .postWrap .postBody img { width: 100%; margin-bottom: 30px; }
 .postWrap .postBody .inlineImg { float: right; width: 60%; padding-left: 30px; }
 .postWrap .postFooter { margin: 0 auto; margin-top: 90px; text-align: center; }
-.postWrap .postFooter a { border: 1px solid white; color: white; text-transform: uppercase; padding: 5px 10px; font-size: .8em; }
+.postWrap .postFooter a { background: white; color: #171717; text-transform: uppercase; padding: 5px 10px; font-size: .8em; }
 
 #overlay { display: none; position: fixed; left: 0; right: 0; top: 0; bottom: 0; padding: 25px; border: 5px solid #666; background-color: #ffffff; height: 100%; overflow: scroll; z-index: 9000; color: #333; }
 

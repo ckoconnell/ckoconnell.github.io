@@ -1702,11 +1702,13 @@ a.anchorPadContest {
 
     .blackBox {
       display: inline-block;
-      position: relative;
       box-sizing: border-box;
-      padding: 30px;
+      padding: 10px 20px;
       width: auto;
       max-width: 350px;
+      opacity: .85;
+      position: absolute;
+      background: #171717;
 
       h1 {
         text-align: left !important;
@@ -1746,8 +1748,6 @@ a.anchorPadContest {
     background-size: cover;
 
     .blackBox {
-      position: absolute;
-      background: #171717;
       right: 10%;
       bottom: 10%;
     }
@@ -1803,14 +1803,13 @@ a.anchorPadContest {
     text-align: center;
 
     a {
-      border: 1px solid white;
-      color: white;
+      background: white;
+      color: #171717;
       text-transform: uppercase;
       padding: 5px 10px;
       font-size: .8em;
     }
   }
-
 }
 
 #overlay {
