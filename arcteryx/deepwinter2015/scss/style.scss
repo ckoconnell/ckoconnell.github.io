@@ -1787,13 +1787,23 @@ a.anchorPadContest {
 
     img {
       width: 100%;
-      margin-bottom: 30px;
+      margin-bottom: -4px;
     }
 
     .inlineImg {
       float: right;
       width: 60%;
       padding-left: 30px;
+    }
+
+    .captionWrap {
+      width: 100%;
+      background: #333;
+      margin-bottom: 30px;
+      margin-top: 0;
+      box-sizing: border-box;
+      padding: 10px 15px;
+      font-size: .8em;
     }
   }
 
