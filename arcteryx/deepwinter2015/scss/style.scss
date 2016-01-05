@@ -839,7 +839,7 @@ a.anchorPadContest {
     }
 
     .heroChad {
-      background: url('../img/bioDalbyHero.jpg');
+      background: url('../img/chadAction.jpg');
       background-size: cover;
       background-position: center center;
     }
@@ -1184,7 +1184,7 @@ a.anchorPadContest {
     .biofullChad {
       background: url('../img/chadBio.jpg');
       background-size: cover;
-      background-position: left top;
+      background-position: -65px top;
     }
 
 
@@ -1332,6 +1332,17 @@ a.anchorPadContest {
   background: url('../img/bioDalbyHero.jpg') no-repeat;
   background-size: 80%;
   background-position: 300px;
+
+  @media screen and (max-width: 780px) {
+    background-size: 117%;
+    background-position: 0 340px;
+  }
+}
+
+.galleryChad {
+  background: url('../img/chadAction.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 175px;
 
   @media screen and (max-width: 780px) {
     background-size: 117%;
@@ -1623,6 +1634,183 @@ a.anchorPadContest {
       }
     }
   }
+}
+
+.navArticle {
+  width: 100%;
+  height: 40px;
+  background: #eee;
+  opacity: .9;
+  position: fixed;
+  display: block;
+  z-index: 1000;
+
+  .logoCrest {
+    background:url('../img/deepWinterCrest.png');
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+  }
+
+  .logoWrap {
+    display: inline-block;
+    height: 100%;
+    color: #171717;
+    font-family:'Avenir LT W01_85 Heavy1475544';
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+    float: left;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+  }
+
+  a {
+    color: #171717 !important;
+    text-transform: uppercase;
+    font-family:'Avenir LT W01_85 Heavy1475544';
+    font-size: 12px;
+    float: right;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 3px 6px;
+    border: 1px solid #171717;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+
+}
+
+.postWrap {
+  padding-top: 39px !important;
+
+  .postHead {
+    text-align: left !important;
+    height: 75%;
+    min-height: 600px;
+    display: block;
+    position: relative;
+
+    .blackBox {
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+      padding: 30px;
+      width: auto;
+      max-width: 350px;
+
+      h1 {
+        text-align: left !important;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 1.5em;
+      }
+      h3 {
+        text-align: left !important;
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+      }
+
+      h5 {
+        text-align: left !important;
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+        font-weight: 100;
+        color: #aaa;
+
+      }
+
+    }
+  }
+
+  // Article Feature Area Backgrounds
+
+  .testPost {
+    background:url('../img/blakeHero.jpg');
+    background-size: cover;
+
+    .blackBox {
+      position: absolute;
+      background: #171717;
+      right: 10%;
+      bottom: 10%;
+    }
+  }
+
+  .postBody {
+    margin-top: 30px;
+    overflow: hidden;
+
+    h5 {
+      margin: 0 auto;
+      margin-bottom: 60px;
+      width: 80%;
+      font-weight: 100;
+      font-family:'Avenir LT W01_35 Light1475496';
+      text-transform: uppercase;
+
+      .bolder {
+        font-weight: 900;
+        font-family:'Avenir LT W01_85 Heavy1475544';
+      }
+    }
+
+    p {
+      line-height: 1.6em;
+      font-size: 1em;
+      font-weight: 100;
+      font-family:'Avenir LT W01_35 Light1475496';
+      margin: 0 auto;
+      width: 80%;
+      margin-bottom: 30px;
+
+      @media screen and (max-width: 600px) {
+        width: 90%;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .inlineImg {
+      float: right;
+      width: 60%;
+      padding-left: 30px;
+    }
+  }
+
+  .postFooter {
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+
+    a {
+      border: 1px solid white;
+      color: white;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      font-size: .8em;
+    }
+  }
+
 }
 
 #overlay {

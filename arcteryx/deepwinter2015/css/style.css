@@ -147,7 +147,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .contestants .contestantWrap .heroZoya { background: url("../img/zoyaBioHero_sm.jpg"); background-size: cover; background-position: center center; }
 .contestants .contestantWrap .heroGuy { background: url("../img/heroGuy_sm.jpg"); background-size: cover; background-position: center center; }
 .contestants .contestantWrap .heroDalby { background: url("../img/bioDalbyHero.jpg"); background-size: cover; background-position: center center; }
-.contestants .contestantWrap .heroChad { background: url("../img/bioDalbyHero.jpg"); background-size: cover; background-position: center center; }
+.contestants .contestantWrap .heroChad { background: url("../img/chadAction.jpg"); background-size: cover; background-position: center center; }
 .contestants .contestantWrap .contestantIntro { text-align: left; display: block; margin-bottom: 60px; padding: 0 23%; }
 @media screen and (max-width: 800px) { .contestants .contestantWrap .contestantIntro { padding: 0 10%; } }
 @media screen and (max-width: 550px) { .contestants .contestantWrap .contestantIntro { padding: 0 10%; } }
@@ -199,7 +199,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .contestantBioAshley .bioWrap .biofullZoya, .contestantBioZoya .bioWrap .biofullZoya, .contestantBioGuy .bioWrap .biofullZoya, .contestantBioDalby .bioWrap .biofullZoya, .contestantBioChad .bioWrap .biofullZoya { background: url("../img/headshotZoya.jpg"); background-size: cover; background-position: center center; }
 .contestantBioAshley .bioWrap .biofullGuy, .contestantBioZoya .bioWrap .biofullGuy, .contestantBioGuy .bioWrap .biofullGuy, .contestantBioDalby .bioWrap .biofullGuy, .contestantBioChad .bioWrap .biofullGuy { background: url("../img/headshotGuy.jpg"); background-size: cover; background-position: left top; }
 .contestantBioAshley .bioWrap .biofullDalby, .contestantBioZoya .bioWrap .biofullDalby, .contestantBioGuy .bioWrap .biofullDalby, .contestantBioDalby .bioWrap .biofullDalby, .contestantBioChad .bioWrap .biofullDalby { background: url("../img/headshotDalby.jpg"); background-size: cover; background-position: left top; }
-.contestantBioAshley .bioWrap .biofullChad, .contestantBioZoya .bioWrap .biofullChad, .contestantBioGuy .bioWrap .biofullChad, .contestantBioDalby .bioWrap .biofullChad, .contestantBioChad .bioWrap .biofullChad { background: url("../img/chadBio.jpg"); background-size: cover; background-position: left top; }
+.contestantBioAshley .bioWrap .biofullChad, .contestantBioZoya .bioWrap .biofullChad, .contestantBioGuy .bioWrap .biofullChad, .contestantBioDalby .bioWrap .biofullChad, .contestantBioChad .bioWrap .biofullChad { background: url("../img/chadBio.jpg"); background-size: cover; background-position: -65px top; }
 .contestantBioAshley .bioWrap .headshotFull, .contestantBioZoya .bioWrap .headshotFull, .contestantBioGuy .bioWrap .headshotFull, .contestantBioDalby .bioWrap .headshotFull, .contestantBioChad .bioWrap .headshotFull { width: 100%; height: 250px; }
 @media screen and (max-width: 780px) { .contestantBioAshley .bioWrap .headshotFull, .contestantBioZoya .bioWrap .headshotFull, .contestantBioGuy .bioWrap .headshotFull, .contestantBioDalby .bioWrap .headshotFull, .contestantBioChad .bioWrap .headshotFull { width: 30%; float: left; margin: 30px; } }
 .contestantBioAshley .bioWrap h1, .contestantBioZoya .bioWrap h1, .contestantBioGuy .bioWrap h1, .contestantBioDalby .bioWrap h1, .contestantBioChad .bioWrap h1 { font-size: 18px; line-height: 18px; font-weight: 900; text-align: center; color: white; margin-bottom: 0; padding-bottom: 0; margin-top: 25px; }
@@ -227,6 +227,9 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 
 .galleryDalby { background: url("../img/bioDalbyHero.jpg") no-repeat; background-size: 80%; background-position: 300px; }
 @media screen and (max-width: 780px) { .galleryDalby { background-size: 117%; background-position: 0 340px; } }
+
+.galleryChad { background: url("../img/chadAction.jpg") no-repeat; background-size: 100%; background-position: 175px; }
+@media screen and (max-width: 780px) { .galleryChad { background-size: 117%; background-position: 0 340px; } }
 
 .winners { margin-top: 120px; border-bottom: none !important; }
 .winners .winnersWrap { width: 100%; text-align: center; }
@@ -268,6 +271,30 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .judges .judgeWrap .judgeItem .judgeBio { display: block; position: relative; width: 100px; height: 100px; border-radius: 50px; background: teal; margin: 0 auto; }
 .judges .judgeWrap .judgeItem h1 { margin-top: 15px; color: white; font-size: 14px; text-transform: uppercase; font-weight: 700; }
 .judges .judgeWrap .judgeItem h3 { color: white; font-size: 13px; font-weight: 100; }
+
+.navArticle { width: 100%; height: 40px; background: #eee; opacity: .9; position: fixed; display: block; z-index: 1000; }
+.navArticle .logoCrest { background: url("../img/deepWinterCrest.png"); background-size: 100%; width: 35px; height: 35px; display: inline-block; position: relative; float: left; margin-top: 3px; margin-left: 10px; }
+.navArticle .logoWrap { display: inline-block; height: 100%; color: #171717; font-family: 'Avenir LT W01_85 Heavy1475544'; text-transform: uppercase; padding-top: 10px; margin-right: 30px; margin-left: 10px; float: left; }
+@media screen and (max-width: 600px) { .navArticle .logoWrap { display: none; } }
+.navArticle a { color: #171717 !important; text-transform: uppercase; font-family: 'Avenir LT W01_85 Heavy1475544'; font-size: 12px; float: right; display: inline-block; margin-top: 8px; padding: 3px 6px; border: 1px solid #171717; margin-right: 30px; text-decoration: none; }
+
+.postWrap { padding-top: 39px !important; }
+.postWrap .postHead { text-align: left !important; height: 75%; min-height: 600px; display: block; position: relative; }
+.postWrap .postHead .blackBox { display: inline-block; position: relative; box-sizing: border-box; padding: 30px; width: auto; max-width: 350px; }
+.postWrap .postHead .blackBox h1 { text-align: left !important; color: white; margin: 0; padding: 0; font-size: 1.5em; }
+.postWrap .postHead .blackBox h3 { text-align: left !important; color: white; text-transform: uppercase; margin: 0; padding: 0; font-size: 1em; }
+.postWrap .postHead .blackBox h5 { text-align: left !important; color: white; text-transform: uppercase; margin: 0; padding: 0; font-size: .8em; font-weight: 100; color: #aaa; }
+.postWrap .testPost { background: url("../img/blakeHero.jpg"); background-size: cover; }
+.postWrap .testPost .blackBox { position: absolute; background: #171717; right: 10%; bottom: 10%; }
+.postWrap .postBody { margin-top: 30px; overflow: hidden; }
+.postWrap .postBody h5 { margin: 0 auto; margin-bottom: 60px; width: 80%; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496'; text-transform: uppercase; }
+.postWrap .postBody h5 .bolder { font-weight: 900; font-family: 'Avenir LT W01_85 Heavy1475544'; }
+.postWrap .postBody p { line-height: 1.6em; font-size: 1em; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496'; margin: 0 auto; width: 80%; margin-bottom: 30px; }
+@media screen and (max-width: 600px) { .postWrap .postBody p { width: 90%; } }
+.postWrap .postBody img { width: 100%; margin-bottom: 30px; }
+.postWrap .postBody .inlineImg { float: right; width: 60%; padding-left: 30px; }
+.postWrap .postFooter { margin: 0 auto; margin-top: 90px; text-align: center; }
+.postWrap .postFooter a { border: 1px solid white; color: white; text-transform: uppercase; padding: 5px 10px; font-size: .8em; }
 
 #overlay { display: none; position: fixed; left: 0; right: 0; top: 0; bottom: 0; padding: 25px; border: 5px solid #666; background-color: #ffffff; height: 100%; overflow: scroll; z-index: 9000; color: #333; }
 
