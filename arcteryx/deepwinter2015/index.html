@@ -98,74 +98,38 @@
 
 
 <!-- Hiding News For Launch -->
-<!--
+
 <section class="news">
     <div class="grid">
         <h1 class="sectionHeadline">Latest News</h1>
         <div class="newsWrap">
 
             <div class="newsItem">
-                <h1 class="excerpt">News Headline</h1>
-                <h3 class="excerpt">News Meta</h3>
-                <p class="excerpt">News Copy m rhoncus mattiscong llentesque ac velit vitae velit sodales bibendum vel eu mi. Aenean nulla nisl, aliquet vitae augue quis, dapibus bibendum diam. Vivamu.</p>
-                <div class="newsItemFull" style="background:url('img/heroTopBW.jpg'); background-size: cover;">
-                    <div class="newsArticleFull">
-                        <div class="articleWrap">
-                            <h1>News Headline</h1>
-                            <h3>News Meta</h3>
-                            <p>Aliquam ullamcorper mauris et dignissim tincidunt. Quisque elementum euismod tellus, non lacinia purus ultricies vel. Praesent tincidunt efficitur dui non congue. Nulla a orci eros. Etiam blandit, elit ac egestas commodo, arcu justo laoreet</p>
-                            <p>lacinia. Cras a laoreet ipsum, tempor volutpat diam. Nam iaculis nulla risus, a maximus ipsum bibendum at. Suspendisse ultrices tempus tellus, ut</p>
-                            <p>et urna, ilum sed. Nullam pharetra aliquet mi, eu elementum risus pulvinar</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="newsLink">Read More</div>
-                <div class="newsLinkClose">X</div>
+                <h1 class="excerpt">Behind The Scenes:<br>Deep Winter 2016 Day One</h1>
+                <h3 class="excerpt">January 7, 2016</h3>
+                <p class="excerpt">Check out the action from the first day of shooting in Whistler.</p>
+                <a href="http://blog.arcteryx.com/behind-scenes-day-1-arcteryx-deep-winter-2016" class="newsLink" target="_blank">Read More</a>
             </div>
 
             <div class="newsItem">
-                <h1 class="excerpt">News Headline</h1>
-                <h3 class="excerpt">News Meta</h3>
-                <p class="excerpt">News Copy m rhoncus mattiscong llentesque ac velit vitae velit sodales bibendum vel eu mi. Aenean nulla nisl, aliquet vitae augue quis, dapibus bibendum diam. Vivamu.</p>
-                <div class="newsItemFull" style="background:url('img/heroTopBW.jpg'); background-size: cover;">
-                    <div class="newsArticleFull">
-                        <div class="articleWrap">
-                            <h1>News Headline</h1>
-                            <h3>News Meta</h3>
-                            <p>Aliquam ullamcorper mauris et dignissim tincidunt. Quisque elementum euismod tellus, non lacinia purus ultricies vel. Praesent tincidunt efficitur dui non congue. Nulla a orci eros. Etiam blandit, elit ac egestas commodo, arcu justo laoreet</p>
-                            <p>lacinia. Cras a laoreet ipsum, tempor volutpat diam. Nam iaculis nulla risus, a maximus ipsum bibendum at. Suspendisse ultrices tempus tellus, ut</p>
-                            <p>et urna, id efficitur mi consectetur  tempor ligutus nulla magna, sit retra aliquet mi, eu elementum risus pulvinar</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="newsLink">Read More</div>
-                <div class="newsLinkClose">X</div>
+                <h1 class="excerpt">Deep Winter Flickr Gallery</h1>
+                <h3 class="excerpt">January 7, 2016</h3>
+                <p class="excerpt">Our behind the scenes gallery is now live and updated daily.</p>
+                <a href="https://www.flickr.com/photos/arcteryxofficial/albums/72157663122030061" class="newsLink" target="_blank">View The Gallery</a>
             </div>
 
             <div class="newsItem">
-                <h1 class="excerpt">News Headline</h1>
-                <h3 class="excerpt">News Meta</h3>
-                <p class="excerpt">News Copy m rhoncus mattiscong llentesque ac velit vitae velit sodales bibendum vel eu mi. Aenean nulla nisl, aliquet vitae augue quis, dapibus bibendum diam. Vivamu.</p>
-                <div class="newsItemFull" style="background:url('img/heroTopBW.jpg'); background-size: cover;">
-                    <div class="newsArticleFull">
-                        <div class="articleWrap">
-                            <h1>News Headline</h1>
-                            <h3>News Meta</h3>
-                            <p>Aliquam ullamcorper mauris et dignissim tincidunt. Quisque elementum euismod tellus, non lacinia purus ultricies vel. Praesent tincidunt efficitur dui non congue. Nulla a orci eros. Etiam blandit, elit ac egestas commodo, arcu justo laoreet</p>
-                            <p>lacinia. Cras a laoreet ipsum, tempor volutpat diam. Nam iaculis nulla risus, a maximus ipsum bibendum at. Suspendisse ultrices tempus tellus, ut</p>
-                            <p>et urna, id efficitur mi consectetur nec. Maecenas consequat commodo rutrum. Morbi vel tempor ligula. Vestibulum ullamcorper justo eu sodales congue. Cras luctus nulla magna, sit amet lacinia arcu vestibulum sed. Nullam pharetra aliquet mi, eu elementum risus pulvinar</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="newsLink">Read More</div>
-                <div class="newsLinkClose">X</div>
+                <h1 class="excerpt">What Does Your Deep Winter Look Like?</h1>
+                <h3 class="excerpt">January 7, 2016</h3>
+                <p class="excerpt">Only one more day to enter to win an Atom LT jacket or hoody!</p>
+                <a href="#contestLink" class="newsLink" target="_blank">More Info</a>
             </div>
 
         </div>
     </div>
 </section>
 
--->
+
 <!-- Contestant Bio Modals -->
 
 <!-- Ashley Barker -->
@@ -865,29 +829,7 @@
 
 </script>
 
-<script>
-    $(".newsLink").click(function(){
-        $(this).parent(".newsItem").toggleClass("newsFull");
-        $(".newsLinkClose").toggleClass("displayLink");
-        $("p").closest(".excerpt").addClass("displayLinkHide");
-        $("h1").closest(".excerpt").addClass("displayLinkHide");
-        $("h3").closest(".excerpt").addClass("displayLinkHide");
-        $(this).siblings(".newsItemFull").addClass("displayFull");
-        $(this).css("display", "none");
-    });
 
-    $(".newsLinkClose").click(function(){
-        $(this).parent(".newsItem").toggleClass("newsFull");
-        $(".newsLinkClose").toggleClass("displayLink");
-        $("div").siblings(".newsLink").removeClass("displayLinkHide");
-        $("div").siblings(".newsLink").addClass("showReadMore");
-        $("div").siblings(".newsItemFull").removeClass("displayFull");
-        $("p").closest(".excerpt").removeClass("displayLinkHide");
-        $("h1").closest(".excerpt").removeClass("displayLinkHide");
-        $("h3").closest(".excerpt").removeClass("displayLinkHide");
-    });
-
-</script>
 
 <script>
     // Athlete Bio Modals
