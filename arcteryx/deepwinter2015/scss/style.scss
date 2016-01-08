@@ -234,33 +234,7 @@ a.anchorPadContest {
 // Crest Wrap - Now lives within each slide
 
 .watermarkBehind {
-  position: absolute;
-  background: url("../img/deepwintercrestallwhite.png") no-repeat;
-  background-size: 500px;
-  background-position: -5% 125%;
-  width: 100%;
-  height: 100%;
-  margin-top: 5px;
-  opacity: 0.2;
-  padding: 0;
-  right: 0;
-  overflow: hidden;
-  box-sizing: border-box;
   display: none !important;
-
-  @media screen and (max-width: 600px) {
-    background-size: 300px;
-    background-position: -2% 66%;
-  }
-
-  @media screen and (max-width: 570px) and (orientation: landscape) {
-    background-size: 200px;
-    background-position: -2% 36%;
-  }
-
-  @media screen and (max-width: 400px) and (orientation: portrait) {
-    display: none !important;
-  }
 }
 
 .photoCred {

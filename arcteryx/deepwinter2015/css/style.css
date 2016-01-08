@@ -40,10 +40,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .navDisplay { transition: height .5s; position: fixed; top: 0 !important; margin-top: 0 !important; }
 @media screen and (max-height: 705px) { .navDisplay { top: 0px !important; } }
 
-.watermarkBehind { position: absolute; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 500px; background-position: -5% 125%; width: 100%; height: 100%; margin-top: 5px; opacity: 0.2; padding: 0; right: 0; overflow: hidden; box-sizing: border-box; display: none !important; }
-@media screen and (max-width: 600px) { .watermarkBehind { background-size: 300px; background-position: -2% 66%; } }
-@media screen and (max-width: 570px) and (orientation: landscape) { .watermarkBehind { background-size: 200px; background-position: -2% 36%; } }
-@media screen and (max-width: 400px) and (orientation: portrait) { .watermarkBehind { display: none !important; } }
+.watermarkBehind { display: none !important; }
 
 .photoCred { position: absolute; z-index: 20000; right: 2%; top: 95%; font-size: 10px; text-transform: uppercase; opacity: .75; }
 .photoCred .bolder { margin-left: 6px; font-family: 'Avenir LT W01_85 Heavy1475544', Arial, sans-serif; }
