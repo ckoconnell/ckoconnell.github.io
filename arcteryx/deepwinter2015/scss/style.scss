@@ -246,6 +246,7 @@ a.anchorPadContest {
   right: 0;
   overflow: hidden;
   box-sizing: border-box;
+  display: none !important;
 
   @media screen and (max-width: 600px) {
     background-size: 300px;
@@ -474,13 +475,14 @@ a.anchorPadContest {
 .slide5 {
   background: url('../img/dwdaytwotrytwo.jpg') no-repeat;
   background-size: cover;
-  background-position: center center !important;
+  background-position: top center !important;
   // Add some fade or hover animation here
   opacity: 1;
 
   @media screen and (min-width: 960px) {
     background: url('../img/dwdaytwotrytwo.jpg') no-repeat;
     background-size: cover;
+    background-position: top center !important;
   }
 
 }

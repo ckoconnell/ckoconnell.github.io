@@ -40,7 +40,7 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .navDisplay { transition: height .5s; position: fixed; top: 0 !important; margin-top: 0 !important; }
 @media screen and (max-height: 705px) { .navDisplay { top: 0px !important; } }
 
-.watermarkBehind { position: absolute; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 500px; background-position: -5% 125%; width: 100%; height: 100%; margin-top: 5px; opacity: 0.2; padding: 0; right: 0; overflow: hidden; box-sizing: border-box; }
+.watermarkBehind { position: absolute; background: url("../img/deepwintercrestallwhite.png") no-repeat; background-size: 500px; background-position: -5% 125%; width: 100%; height: 100%; margin-top: 5px; opacity: 0.2; padding: 0; right: 0; overflow: hidden; box-sizing: border-box; display: none !important; }
 @media screen and (max-width: 600px) { .watermarkBehind { background-size: 300px; background-position: -2% 66%; } }
 @media screen and (max-width: 570px) and (orientation: landscape) { .watermarkBehind { background-size: 200px; background-position: -2% 36%; } }
 @media screen and (max-width: 400px) and (orientation: portrait) { .watermarkBehind { display: none !important; } }
@@ -74,8 +74,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .featureSlide .slideContent a { float: left; display: inline-block; position: relative; color: black; background: white; padding: 5px 10px 3px 10px; margin-top: 7px; width: auto; font-size: 18px; text-transform: uppercase; font-weight: 900; transition: all 1s; border: 1px solid white; text-align: left; }
 .featureSlide .slideContent a:hover { color: white; background: #222; transition: all .5s; }
 
-.slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: center center !important; opacity: 1; }
-@media screen and (min-width: 960px) { .slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; } }
+.slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top center !important; opacity: 1; }
+@media screen and (min-width: 960px) { .slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top center !important; } }
 
 .sponsors { border-top: none !important; padding-top: 30px !important; }
 .sponsors h1 { padding-left: 40px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }
