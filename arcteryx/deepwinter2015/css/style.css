@@ -71,8 +71,8 @@ a.anchorPadContest { display: block; position: relative; margin-top: 80px !impor
 .featureSlide .slideContent a { float: left; display: inline-block; position: relative; color: black; background: white; padding: 5px 10px 3px 10px; margin-top: 7px; width: auto; font-size: 18px; text-transform: uppercase; font-weight: 900; transition: all 1s; border: 1px solid white; text-align: left; }
 .featureSlide .slideContent a:hover { color: white; background: #222; transition: all .5s; }
 
-.slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top center !important; opacity: 1; }
-@media screen and (min-width: 960px) { .slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top center !important; } }
+.slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top left !important; opacity: 1; }
+@media screen and (min-width: 960px) { .slide5 { background: url("../img/dwdaytwotrytwo.jpg") no-repeat; background-size: cover; background-position: top left !important; } }
 
 .sponsors { border-top: none !important; padding-top: 30px !important; }
 .sponsors h1 { padding-left: 40px; font-weight: 100; font-family: 'Avenir LT W01_35 Light1475496', Arial, sans-serif; }

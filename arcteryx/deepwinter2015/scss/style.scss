@@ -449,14 +449,14 @@ a.anchorPadContest {
 .slide5 {
   background: url('../img/dwdaytwotrytwo.jpg') no-repeat;
   background-size: cover;
-  background-position: top center !important;
+  background-position: top left !important;
   // Add some fade or hover animation here
   opacity: 1;
 
   @media screen and (min-width: 960px) {
     background: url('../img/dwdaytwotrytwo.jpg') no-repeat;
     background-size: cover;
-    background-position: top center !important;
+    background-position: top left !important;
   }
 
 }
