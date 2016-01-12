@@ -394,6 +394,7 @@ nav {
         font-size: .9em;
         text-transform: uppercase;
         color: #666;
+        display: none;
       }
 
       p {
@@ -697,7 +698,30 @@ nav {
   h1 {
     display: block;
     text-transform: uppercase;
+  }
 
+  p {
+    display: block;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #171717;
+    border: 1px solid #171717;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 8px 20px;
+    margin-bottom: 120px;
+    margin-top: 15px;
+    border-radius: 3px;
+    transition: all .3s;
+  }
+
+  a:hover {
+    color: white;
+    background: #171717;
+    transition: all .6s;
   }
 }
 
