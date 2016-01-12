@@ -356,14 +356,13 @@ nav {
     vertical-align: top;
 
     li {
-      display: inline-block;
       width: 42%;
-
       margin: 30px 2%;
       border: 1px solid #eee;
       padding: 15px;
       text-align: left;
       vertical-align: top;
+
 
       @media screen and (max-width: 700px) {
         width: 90%;
@@ -373,7 +372,7 @@ nav {
         list-style: disc !important;
 
         li {
-          display: block !important;
+          display: list-item;
           width: 95% !important;
           margin: 0;
           padding: 0 0 .5em 0;
@@ -520,31 +519,24 @@ nav {
   ul {
     text-align: left;
     padding-bottom: 60px;
-    list-style: circle !important;
+    list-style: square;
     color: black;
 
     li {
-      display: block;
       margin-left: 5em;
       margin-bottom: .6em;
       font-weight: 500;
       width: 70%;
-      list-style: circle !important;
+      list-style: square;
       color: black;
+      display: list-item;
 
       @media screen and (max-width: 550px) {
         margin-left: 2em;
       }
     }
 
-    li:before {
-      width: 5px;
-      height: 5px;
-      background: black;
-      position: absolute;
-    }
   }
-
 }
 
 .contest {
@@ -577,7 +569,8 @@ nav {
   }
 
   li {
-    display: block;
+    display: list-item;
+    list-style: square;
     text-align: left;
     font-weight: 500;
   }
