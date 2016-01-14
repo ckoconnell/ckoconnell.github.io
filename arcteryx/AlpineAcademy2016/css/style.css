@@ -856,17 +856,16 @@ nav ul li:hover {
   display: block;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 60px !important;
 }
 @media screen and (max-width: 700px) {
   /* line 814, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
-    text-align: left;
     margin: 0 auto;
   }
 }
-/* line 827, ../scss/style.scss */
+/* line 826, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: .5em;
@@ -874,65 +873,65 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 827, ../scss/style.scss */
+  /* line 826, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 840, ../scss/style.scss */
+/* line 839, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 840, ../scss/style.scss */
+  /* line 839, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 851, ../scss/style.scss */
+/* line 850, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 856, ../scss/style.scss */
+/* line 855, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-/* line 862, ../scss/style.scss */
+/* line 861, ../scss/style.scss */
 .contact p {
   display: block;
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 877, ../scss/style.scss */
+/* line 876, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 881, ../scss/style.scss */
+/* line 880, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 886, ../scss/style.scss */
+/* line 885, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 891, ../scss/style.scss */
+/* line 890, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 894, ../scss/style.scss */
+/* line 893, ../scss/style.scss */
 .sponsors ul a {
   display: inline-block;
   width: 200px;
@@ -940,30 +939,30 @@ nav ul li:hover {
   padding-top: 35px;
   margin: .5em .5em;
 }
-/* line 902, ../scss/style.scss */
+/* line 901, ../scss/style.scss */
 .sponsors ul li {
   width: 100%;
   height: 100%;
 }
-/* line 908, ../scss/style.scss */
+/* line 907, ../scss/style.scss */
 .sponsors ul .montblanc {
   background: url("../img/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 914, ../scss/style.scss */
+/* line 913, ../scss/style.scss */
 .sponsors ul .gore {
   background: url("../img/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 160px;
 }
-/* line 920, ../scss/style.scss */
+/* line 919, ../scss/style.scss */
 .sponsors ul .petzl {
   background: url("../img/sponsor_petzl.png") no-repeat;
   background-position: center -10px;
   background-size: 150px;
 }
-/* line 926, ../scss/style.scss */
+/* line 925, ../scss/style.scss */
 .sponsors ul .msr {
   background: url("../img/sponsor_msr.png") no-repeat;
   background-position: center -10px;
