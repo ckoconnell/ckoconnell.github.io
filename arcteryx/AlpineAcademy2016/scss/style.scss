@@ -247,13 +247,22 @@ nav {
     height: 250px;
     margin: 0 auto;
     display: block;
-    margin-top: 15%;
+    margin-top: 15% !important;
     margin-bottom: 60px;
 
-
+    @media screen and (max-width: 700px) {
+      width: 250px;
+      margin-bottom: 60px !important;
+      margin-top: 90px !important;
+    }
 
     svg {
       width: 250px;
+
+      @media screen and (max-width: 700px) {
+        width: 200px;
+      }
+
     }
   }
 
@@ -266,6 +275,15 @@ nav {
     display: block;
     text-transform: uppercase;
     line-height: 1em;
+    margin: 0 auto;
+
+    @media screen and (max-width: 700px) {
+      width: 80%;
+    }
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+    }
   }
 
   h3 {
@@ -654,7 +672,6 @@ nav {
         margin-left: 2em;
       }
     }
-
   }
 }
 
@@ -665,7 +682,10 @@ nav {
   h1 {
     display: block;
     text-transform: uppercase;
+    margin: 0 auto;
     margin-bottom: 15px;
+    width: 90%;
+    line-height: .9em;
   }
 
   h3 {
@@ -676,6 +696,12 @@ nav {
     margin: 0 auto;
     width: 80%;
     font-weight: 100;
+
+    @media screen and (max-width: 700px) {
+      text-align: left;
+      width: 90%;
+    }
+
   }
 
   .finePrint {
@@ -695,6 +721,10 @@ nav {
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 30px;
+
+    @media screen and (max-width: 700px) {
+      width: 80% !important;
+    }
   }
 
   li {
@@ -734,6 +764,10 @@ nav {
   text-align: left;
   padding: 90px 0;
 
+  @media screen and (max-width: 700px) {
+    display: none !important;
+  }
+
   h1 {
     display: block;
     text-transform: uppercase;
@@ -769,10 +803,6 @@ nav {
 
   iframe {
     width: 930px !important;
-
-    @media screen and (max-width: 930px) {
-    display: none !important;
-    }
   }
 }
 
