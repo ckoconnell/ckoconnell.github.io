@@ -337,7 +337,101 @@ nav {
   background-color: white;
   color: $FontColor;
 
+  .clinicBG {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-size: cover !important;
+  }
+
+  .clinicAcclimitization {
+    background: url('../img/clinic_acclimatization.jpg') no-repeat;
+  }
+
+  .clinicGlacierPrep {
+    background: url('../img/clinic_glacierprep.jpg') no-repeat;
+  }
+
+  .clinicSuuntoNav {
+    background: url('../img/clinic_suuntonav.jpg') no-repeat;
+  }
+
+  .clinicFirstAid {
+    background: url('../img/clinic_firstaid.jpg') no-repeat;
+  }
+
+  .clinicBasicMountaineering {
+    background: url('../img/clinic_basicmountaineering.jpg') no-repeat;
+  }
+
+  .clinicTechAlpinism {
+    background: url('../img/clinic_advalpinism.jpg') no-repeat;
+  }
+
+  .clinicMultiPitch {
+    background: url('../img/clinic_multipitch.jpg') no-repeat;
+  }
+
+  .clinicGlacierTour {
+    background: url('../img/clinic_glaciertour.jpg') no-repeat;
+  }
+
+  .clinicMSROvernight {
+    background: url('../img/clinic_msrovernight.jpg') no-repeat;
+  }
+
+  .clinicPhotography {
+    background: url('../img/clinic_alpinephotography.jpg') no-repeat;
+  }
+
+  .clinicTradClimbing {
+    background: url('../img/clinic_tradclimbing.jpg') no-repeat;
+  }
+
+  .clinicMedicine {
+    background: url('../img/clinic_medicine.jpg') no-repeat;
+  }
+
+  .clinicDryTooling {
+    background: url('../img/clinic_drytooling.jpg') no-repeat;
+  }
+
+  .clinicIceClimbing {
+    background: url('../img/clinic_iceclimbing.jpg') no-repeat;
+  }
+
+  .clinicRescue {
+    background: url('../img/clinic_rescue.jpg') no-repeat;
+  }
+
+  .clinicGrade7 {
+    background: url('../img/clinic_grade7.jpg') no-repeat;
+  }
+
+  .clinicIceClimbingWmn {
+    background: url('../img/clinic_iceclimbingwmn.jpg') no-repeat;
+  }
+
+  .clinicGlacierTourWmn {
+    background: url('../img/clinic_glacierwmn.jpg') no-repeat;
+  }
+
+  .clinicSkiAlpinism {
+    background: url('../img/clinic_skialpinism') no-repeat;
+  }
+
+  .clinicBouldering {
+    background: url('../img/clinic_bouldering.jpg') no-repeat;
+  }
+
+  .clinicSplitboarding {
+    background: url('../img/clinic_splitboarding.jpg') no-repeat;
+  }
+
+
   h1 {
+    margin-top: 15px;
     text-transform: uppercase;
   }
 
@@ -568,8 +662,13 @@ nav {
 
   p {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     font-weight: 100;
+  }
+
+  .finePrint {
+    font-size: .7em;
+    line-height: 1.2em;
   }
 
   .bolder {
@@ -604,7 +703,7 @@ nav {
     text-transform: uppercase;
     font-size: 1em;
     padding: 8px 20px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     margin-top: 15px;
     border-radius: 3px;
     transition: all .3s;
@@ -712,30 +811,21 @@ nav {
   h1 {
     display: block;
     text-transform: uppercase;
+    margin-bottom: 30px;
   }
 
   p {
     display: block;
+    width: 70%;
+    margin: 0 auto;
   }
 
   a {
-    display: inline-block;
-    text-decoration: none;
-    color: #171717;
-    border: 1px solid #171717;
-    text-transform: uppercase;
-    font-size: 1em;
-    padding: 8px 20px;
-    margin-bottom: 120px;
-    margin-top: 15px;
-    border-radius: 3px;
-    transition: all .3s;
+
   }
 
   a:hover {
-    color: white;
-    background: #171717;
-    transition: all .6s;
+
   }
 }
 

@@ -339,27 +339,120 @@ nav ul li:hover {
   color: #171717;
 }
 /* line 340, ../scss/style.scss */
+.program .clinicBG {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  background-size: cover !important;
+}
+/* line 348, ../scss/style.scss */
+.program .clinicAcclimitization {
+  background: url("../img/clinic_acclimatization.jpg") no-repeat;
+}
+/* line 352, ../scss/style.scss */
+.program .clinicGlacierPrep {
+  background: url("../img/clinic_glacierprep.jpg") no-repeat;
+}
+/* line 356, ../scss/style.scss */
+.program .clinicSuuntoNav {
+  background: url("../img/clinic_suuntonav.jpg") no-repeat;
+}
+/* line 360, ../scss/style.scss */
+.program .clinicFirstAid {
+  background: url("../img/clinic_firstaid.jpg") no-repeat;
+}
+/* line 364, ../scss/style.scss */
+.program .clinicBasicMountaineering {
+  background: url("../img/clinic_basicmountaineering.jpg") no-repeat;
+}
+/* line 368, ../scss/style.scss */
+.program .clinicTechAlpinism {
+  background: url("../img/clinic_advalpinism.jpg") no-repeat;
+}
+/* line 372, ../scss/style.scss */
+.program .clinicMultiPitch {
+  background: url("../img/clinic_multipitch.jpg") no-repeat;
+}
+/* line 376, ../scss/style.scss */
+.program .clinicGlacierTour {
+  background: url("../img/clinic_glaciertour.jpg") no-repeat;
+}
+/* line 380, ../scss/style.scss */
+.program .clinicMSROvernight {
+  background: url("../img/clinic_msrovernight.jpg") no-repeat;
+}
+/* line 384, ../scss/style.scss */
+.program .clinicPhotography {
+  background: url("../img/clinic_alpinephotography.jpg") no-repeat;
+}
+/* line 388, ../scss/style.scss */
+.program .clinicTradClimbing {
+  background: url("../img/clinic_tradclimbing.jpg") no-repeat;
+}
+/* line 392, ../scss/style.scss */
+.program .clinicMedicine {
+  background: url("../img/clinic_medicine.jpg") no-repeat;
+}
+/* line 396, ../scss/style.scss */
+.program .clinicDryTooling {
+  background: url("../img/clinic_drytooling.jpg") no-repeat;
+}
+/* line 400, ../scss/style.scss */
+.program .clinicIceClimbing {
+  background: url("../img/clinic_iceclimbing.jpg") no-repeat;
+}
+/* line 404, ../scss/style.scss */
+.program .clinicRescue {
+  background: url("../img/clinic_rescue.jpg") no-repeat;
+}
+/* line 408, ../scss/style.scss */
+.program .clinicGrade7 {
+  background: url("../img/clinic_grade7.jpg") no-repeat;
+}
+/* line 412, ../scss/style.scss */
+.program .clinicIceClimbingWmn {
+  background: url("../img/clinic_iceclimbingwmn.jpg") no-repeat;
+}
+/* line 416, ../scss/style.scss */
+.program .clinicGlacierTourWmn {
+  background: url("../img/clinic_glacierwmn.jpg") no-repeat;
+}
+/* line 420, ../scss/style.scss */
+.program .clinicSkiAlpinism {
+  background: url("../img/clinic_skialpinism") no-repeat;
+}
+/* line 424, ../scss/style.scss */
+.program .clinicBouldering {
+  background: url("../img/clinic_bouldering.jpg") no-repeat;
+}
+/* line 428, ../scss/style.scss */
+.program .clinicSplitboarding {
+  background: url("../img/clinic_splitboarding.jpg") no-repeat;
+}
+/* line 433, ../scss/style.scss */
 .program h1 {
+  margin-top: 15px;
   text-transform: uppercase;
 }
-/* line 344, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
 @media screen and (max-width: 700px) {
-  /* line 344, ../scss/style.scss */
+  /* line 438, ../scss/style.scss */
   .program p {
     width: 90%;
     text-align: left;
   }
 }
-/* line 354, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 358, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 .program ul li {
   width: 42%;
   margin: 30px 2%;
@@ -369,16 +462,16 @@ nav ul li:hover {
   vertical-align: top;
 }
 @media screen and (max-width: 700px) {
-  /* line 358, ../scss/style.scss */
+  /* line 452, ../scss/style.scss */
   .program ul li {
     width: 90%;
   }
 }
-/* line 371, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 374, ../scss/style.scss */
+/* line 468, ../scss/style.scss */
 .program ul li ul li {
   display: list-item;
   width: 95% !important;
@@ -389,30 +482,30 @@ nav ul li:hover {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 387, ../scss/style.scss */
+/* line 481, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
 }
-/* line 392, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
   display: none;
 }
-/* line 399, ../scss/style.scss */
+/* line 493, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 407, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 409, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 .program ul .fullWidth img {
   float: right;
   width: 45%;
@@ -420,46 +513,46 @@ nav ul li:hover {
   padding-top: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 409, ../scss/style.scss */
+  /* line 503, ../scss/style.scss */
   .program ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
-/* line 420, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 428, ../scss/style.scss */
+/* line 522, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 433, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 433, ../scss/style.scss */
+  /* line 527, ../scss/style.scss */
   .demo .finePrint {
     width: 90%;
   }
 }
-/* line 444, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 448, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 .demo h3 {
   font-weight: 500;
   text-transform: uppercase;
   line-height: .9em;
 }
-/* line 455, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -468,17 +561,17 @@ nav ul li:hover {
   margin: 1em 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 455, ../scss/style.scss */
+  /* line 549, ../scss/style.scss */
   .demo li {
     width: 90%;
   }
 }
-/* line 466, ../scss/style.scss */
+/* line 560, ../scss/style.scss */
 .demo li p {
   font-size: .9em;
   width: 100%;
 }
-/* line 472, ../scss/style.scss */
+/* line 566, ../scss/style.scss */
 .demo p {
   font-size: 1em;
   width: 70%;
@@ -486,74 +579,74 @@ nav ul li:hover {
   padding: 1em 0;
 }
 @media screen and (max-width: 700px) {
-  /* line 472, ../scss/style.scss */
+  /* line 566, ../scss/style.scss */
   .demo p {
     width: 90%;
     text-align: left;
   }
 }
-/* line 484, ../scss/style.scss */
+/* line 578, ../scss/style.scss */
 .demo a {
   color: white;
   font-weight: 100;
 }
 
-/* line 491, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 496, ../scss/style.scss */
+/* line 590, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 501, ../scss/style.scss */
+/* line 595, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 700px) {
-  /* line 501, ../scss/style.scss */
+  /* line 595, ../scss/style.scss */
   .whattobring p {
     text-align: left;
     width: 90%;
   }
 }
-/* line 512, ../scss/style.scss */
+/* line 606, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 512, ../scss/style.scss */
+  /* line 606, ../scss/style.scss */
   .whattobring .finePrint {
     width: 90%;
   }
 }
-/* line 522, ../scss/style.scss */
+/* line 616, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
   font-weight: 900;
   margin-top: 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 522, ../scss/style.scss */
+  /* line 616, ../scss/style.scss */
   .whattobring .left {
     width: 90%;
   }
 }
-/* line 532, ../scss/style.scss */
+/* line 626, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
   list-style: square;
   color: black;
 }
-/* line 538, ../scss/style.scss */
+/* line 632, ../scss/style.scss */
 .whattobring ul li {
   margin-left: 5em;
   margin-bottom: .6em;
@@ -564,39 +657,44 @@ nav ul li:hover {
   display: list-item;
 }
 @media screen and (max-width: 550px) {
-  /* line 538, ../scss/style.scss */
+  /* line 632, ../scss/style.scss */
   .whattobring ul li {
     margin-left: 2em;
   }
 }
 
-/* line 555, ../scss/style.scss */
+/* line 649, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 559, ../scss/style.scss */
+/* line 653, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-/* line 565, ../scss/style.scss */
+/* line 659, ../scss/style.scss */
 .contest h3 {
   margin-top: 30px;
 }
-/* line 569, ../scss/style.scss */
+/* line 663, ../scss/style.scss */
 .contest p {
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
   font-weight: 100;
 }
-/* line 575, ../scss/style.scss */
+/* line 669, ../scss/style.scss */
+.contest .finePrint {
+  font-size: .7em;
+  line-height: 1.2em;
+}
+/* line 674, ../scss/style.scss */
 .contest .bolder {
   text-align: center;
   font-weight: 500;
 }
-/* line 580, ../scss/style.scss */
+/* line 679, ../scss/style.scss */
 .contest ul {
   text-align: left;
   display: block;
@@ -605,7 +703,7 @@ nav ul li:hover {
   margin-top: 15px;
   margin-bottom: 30px;
 }
-/* line 589, ../scss/style.scss */
+/* line 688, ../scss/style.scss */
 .contest li {
   display: list-item;
   list-style: square;
@@ -614,7 +712,7 @@ nav ul li:hover {
   margin-bottom: 1em;
   margin-left: 2em;
 }
-/* line 599, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 .contest a {
   display: inline-block;
   text-decoration: none;
@@ -623,46 +721,46 @@ nav ul li:hover {
   text-transform: uppercase;
   font-size: 1em;
   padding: 8px 20px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   margin-top: 15px;
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 613, ../scss/style.scss */
+/* line 712, ../scss/style.scss */
 .contest a:hover {
   color: #171717;
   background: white;
   transition: all .6s;
 }
 
-/* line 620, ../scss/style.scss */
+/* line 719, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 626, ../scss/style.scss */
+/* line 725, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px) {
-  /* line 626, ../scss/style.scss */
+  /* line 725, ../scss/style.scss */
   .archive h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 638, ../scss/style.scss */
+/* line 737, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 638, ../scss/style.scss */
+  /* line 737, ../scss/style.scss */
   .archive h3 {
     width: 90%;
     text-align: left;
@@ -670,43 +768,43 @@ nav ul li:hover {
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 650, ../scss/style.scss */
+  /* line 749, ../scss/style.scss */
   .archive a {
     display: none;
   }
 }
-/* line 657, ../scss/style.scss */
+/* line 756, ../scss/style.scss */
 .archive iframe {
   width: 930px !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 657, ../scss/style.scss */
+  /* line 756, ../scss/style.scss */
   .archive iframe {
     display: none !important;
   }
 }
 
-/* line 666, ../scss/style.scss */
+/* line 765, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: center;
 }
-/* line 671, ../scss/style.scss */
+/* line 770, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
   text-align: left;
 }
 @media screen and (max-width: 700px) {
-  /* line 671, ../scss/style.scss */
+  /* line 770, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 683, ../scss/style.scss */
+/* line 782, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: 1.5em;
@@ -714,82 +812,65 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 683, ../scss/style.scss */
+  /* line 782, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 696, ../scss/style.scss */
+/* line 795, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 696, ../scss/style.scss */
+  /* line 795, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 707, ../scss/style.scss */
+/* line 806, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 712, ../scss/style.scss */
+/* line 811, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
-/* line 717, ../scss/style.scss */
+/* line 817, ../scss/style.scss */
 .contact p {
   display: block;
-}
-/* line 721, ../scss/style.scss */
-.contact a {
-  display: inline-block;
-  text-decoration: none;
-  color: #171717;
-  border: 1px solid #171717;
-  text-transform: uppercase;
-  font-size: 1em;
-  padding: 8px 20px;
-  margin-bottom: 120px;
-  margin-top: 15px;
-  border-radius: 3px;
-  transition: all .3s;
-}
-/* line 735, ../scss/style.scss */
-.contact a:hover {
-  color: white;
-  background: #171717;
-  transition: all .6s;
+  width: 70%;
+  margin: 0 auto;
 }
 
-/* line 742, ../scss/style.scss */
+/* line 832, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 746, ../scss/style.scss */
+/* line 836, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 751, ../scss/style.scss */
+/* line 841, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 756, ../scss/style.scss */
+/* line 846, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 758, ../scss/style.scss */
+/* line 848, ../scss/style.scss */
 .sponsors ul li {
   display: inline-block;
   width: 200px;
