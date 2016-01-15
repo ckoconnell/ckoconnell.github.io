@@ -186,9 +186,11 @@ nav {
       margin-right: 10px;
     }
 
-    a {
+    .langLink {
       color: white;
       font-size: 13px;
+      cursor: pointer;
+      padding: 3px 5px;
     }
   }
 }
@@ -333,6 +335,12 @@ nav {
 
   h1 {
     text-transform: uppercase;
+    line-height: .9em;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+      margin-bottom: 15px;
+    }
   }
 
   p {
@@ -354,8 +362,11 @@ nav {
   h5 {
     font-weight: 100;
     font-size: 1em;
-
     margin-bottom: 30px;
+
+    @media screen and (max-width: 700px) {
+      width: 90%;
+    }
   }
 
   a {
