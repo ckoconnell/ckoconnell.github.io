@@ -24,6 +24,18 @@ div, span, ul, li, h1, h2, h3, h4, h5 {
   box-sizing: border-box;
 }
 
+.english {
+  display: block;
+}
+
+.french {
+  display: none;
+}
+
+.german {
+  display: block;
+}
+
 .fullWrap {
   width: 100%;
   padding: 0 !important;
@@ -304,6 +316,10 @@ nav {
   text-align: center;
   padding-top: 60px;
   border-bottom: none !important;
+
+  h1 {
+    text-transform: uppercase;
+  }
 
   p {
     width: 70%;
