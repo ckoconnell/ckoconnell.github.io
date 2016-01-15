@@ -805,9 +805,7 @@ nav {
   text-align: left;
   padding: 90px 0;
 
-  @media screen and (max-width: 700px) {
-    display: none !important;
-  }
+
 
   h1 {
     display: block;
@@ -817,8 +815,8 @@ nav {
 
     @media screen and (max-width: 700px) {
       width: 90%;
-      text-align: left;
       margin: 0 auto;
+      margin-bottom: 30px;
     }
 
   }
@@ -835,16 +833,6 @@ nav {
     }
   }
 
-  a {
-
-    @media screen and (max-width: 930px) {
-      display: none;
-    }
-  }
-
-  iframe {
-    width: 930px !important;
-  }
 }
 
 .trailer {
