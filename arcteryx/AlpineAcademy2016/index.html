@@ -9,9 +9,9 @@
 
 <div class="langSelect">
     <h3>Select Your Language:</h3>
-    <div class="langLink linkEN"><span class="langOption">EN</span></div> |
-    <div class="langLink linkFR"><span class="langOption">FR</span></div> |
-    <div class="langLink linkDE"><span class="langOption">DE</span></div>
+    <div class="langLink linkEN"><span class="langOptionEN">EN</span></div> |
+    <div class="langLink linkFR"><span class="langOptionFR">FR</span></div> |
+    <div class="langLink linkDE"><span class="langOptionDE">DE</span></div>
 </div>
 
 <div class="fullWrap english">
@@ -412,7 +412,7 @@
         <div class="gridWrap">
             <h1>Vivez und expérience alpine unique</h1>
             <h5>L’APPRENTISSAGE PAR LE PARTAGE - 5ème ÉDITION DE L’ARC’TERYX ALPINE ACADEMY</h5>
-            <p>Du 16 au 19 juin 2016, la 5ème édition de l’Arc’teryx Alpine Academy réunira des passionnés de montagne, des guides et des athlètes professionnels à Chamonix. Le but est de créer un espace dans lequel les alpinistes, débutants, comme experts, pourront acquérir des connaissances grâce à des ateliers de haut niveau. Ce sera aussi l’occasion de partager ses expériences et de parler du respect de la montagne</p>
+            <p>Du 16 au 19 juin 2016, la 5ème édition de l’Arc’teryx Alpine Academy réunira des passionnés de montagne, des guides et des athlètes professionnels à Chamonix. Le but est de créer un espace dans lequel les alpinistes, débutants, comme experts, pourront acquérir des connaissances grâce à des ateliers de haut niveau. Ce sera aussi l’occasion de partager ses expériences et de parler du respect de la montagne.</p>
             <h3>Clinic & Workshop<br>Registration Opens March 15, 2016</h3>
             <div style="clear: both;"></div>
             <a href="#">TK</a>
@@ -432,7 +432,7 @@
         </div>
     </nav>
 
-    <div class="navMobileFR">
+    <div class="navMobile">
         <div class="langSelectMobile">
             <h3>Select Your Language:</h3>
             <a href="#"><span class="langOption">EN</span></a> |
@@ -1155,6 +1155,43 @@
         $( ".navMobile" ).toggleClass( "navExpand" );
     });
 </script>
+
+<script>
+    $( ".linkEN").click(function() {
+        $( ".english").addClass( "showLang" );
+        $( ".french").removeClass( "showLang" );
+        $( ".french").addClass( "hideLang" );
+        $( ".german").removeClass( "showLang" );
+        $( ".german").addClass( "hideLang" );
+        $( ".langOptionEN").addClass( "activeLang" );
+        $( ".langOptionFR").removeClass( "activeLang" );
+        $( ".langOptionDE").removeClass( "activeLang" );
+
+    });
+
+    $( ".linkFR").click(function() {
+        $( ".french").addClass( "showLang" );
+        $( ".english").addClass( "hideLang" );
+        $( ".english").removeClass( "showLang" );
+        $( ".german").addClass( "hideLang" );
+        $( ".german").removeClass( "showLang" );
+        $( ".langOptionFR").addClass( "activeLang" );
+        $( ".langOptionEN").removeClass( "activeLang" );
+        $( ".langOptionDE").removeClass( "activeLang" );
+    });
+
+    $( ".linkDE").click(function() {
+        $( ".german").addClass( "showLang" );
+        $( ".french").addClass( "hideLang" );
+        $( ".english").addClass( "hideLang" );
+        $( ".french").removeClass( "showLang" );
+        $( ".english").removeClass( "showLang" );
+        $( ".langOptionDE").addClass( "activeLang" );
+        $( ".langOptionFR").removeClass( "activeLang" );
+        $( ".langOptionEN").removeClass( "activeLang" );
+    });
+</script>
+
 
 <script type="text/javascript">
     // Smooth Scrolling to Anchor Points
