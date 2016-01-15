@@ -290,7 +290,6 @@ nav {
       @media screen and (max-width: 700px) {
         width: 200px;
       }
-
     }
   }
 
@@ -418,6 +417,7 @@ nav {
 
   .clinicGlacierPrep {
     background: url('../img/clinic_glacierprep.jpg') no-repeat;
+    background-position: right;
   }
 
   .clinicSuuntoNav {
@@ -434,6 +434,7 @@ nav {
 
   .clinicTechAlpinism {
     background: url('../img/clinic_advalpinism.jpg') no-repeat;
+    background-position: center center !important;
   }
 
   .clinicMultiPitch {
@@ -450,6 +451,7 @@ nav {
 
   .clinicPhotography {
     background: url('../img/clinic_alpinephotography.jpg') no-repeat;
+    background-position: right;
   }
 
   .clinicTradClimbing {
@@ -462,6 +464,7 @@ nav {
 
   .clinicDryTooling {
     background: url('../img/clinic_drytooling.jpg') no-repeat;
+    background-position: right bottom;
   }
 
   .clinicIceClimbing {
@@ -478,6 +481,7 @@ nav {
 
   .clinicIceClimbingWmn {
     background: url('../img/clinic_iceclimbingwmn.jpg') no-repeat;
+    background-position: right;
   }
 
   .clinicGlacierTourWmn {
@@ -494,12 +498,12 @@ nav {
 
   .clinicBouldering {
     background: url('../img/clinic_bouldering.jpg') no-repeat;
+    background-position: right;
   }
 
   .clinicSplitboarding {
     background: url('../img/clinic_splitboarding.jpg') no-repeat;
   }
-
 
   h1 {
     margin-top: 15px;
@@ -552,6 +556,7 @@ nav {
       h1 {
         display: block;
         font-size: 1.2em;
+        line-height: .9em;
       }
 
       h3 {
@@ -894,7 +899,7 @@ nav {
   }
 
   a {
-
+    color: #111;
   }
 
   a:hover {

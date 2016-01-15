@@ -304,7 +304,7 @@ nav ul li:hover {
     width: 200px;
   }
 }
-/* line 297, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .top h1 {
   color: white;
   font-weight: 900;
@@ -317,18 +317,18 @@ nav ul li:hover {
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 297, ../scss/style.scss */
+  /* line 296, ../scss/style.scss */
   .top h1 {
     width: 80%;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 297, ../scss/style.scss */
+  /* line 296, ../scss/style.scss */
   .top h1 {
     width: 90%;
   }
 }
-/* line 317, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .top h3 {
   color: white;
   font-weight: 100;
@@ -340,7 +340,7 @@ nav ul li:hover {
   margin-top: 10px;
 }
 
-/* line 329, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .intro {
   background: #171717;
   color: white;
@@ -348,26 +348,26 @@ nav ul li:hover {
   padding-top: 60px;
   border-bottom: none !important;
 }
-/* line 336, ../scss/style.scss */
+/* line 335, ../scss/style.scss */
 .intro h1 {
   text-transform: uppercase;
   line-height: .9em;
 }
 @media screen and (max-width: 700px) {
-  /* line 336, ../scss/style.scss */
+  /* line 335, ../scss/style.scss */
   .intro h1 {
     width: 90%;
     margin-bottom: 15px;
   }
 }
-/* line 346, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 .intro p {
   width: 70%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 1.5em;
 }
-/* line 353, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .intro h3 {
   display: block;
   margin-top: 60px;
@@ -376,19 +376,19 @@ nav ul li:hover {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 362, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 .intro h5 {
   font-weight: 100;
   font-size: 1em;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 362, ../scss/style.scss */
+  /* line 361, ../scss/style.scss */
   .intro h5 {
     width: 90%;
   }
 }
-/* line 372, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 .intro a {
   display: inline-block;
   text-decoration: none;
@@ -402,21 +402,21 @@ nav ul li:hover {
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 386, ../scss/style.scss */
+/* line 385, ../scss/style.scss */
 .intro a:hover {
   color: #171717;
   background: white;
   transition: all .6s;
 }
 
-/* line 393, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .program {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: white;
   color: #171717;
 }
-/* line 399, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .program .clinicBG {
   width: 100%;
   height: 250px;
@@ -425,24 +425,25 @@ nav ul li:hover {
   background-size: cover !important;
 }
 @media screen and (max-width: 700px) {
-  /* line 399, ../scss/style.scss */
+  /* line 398, ../scss/style.scss */
   .program .clinicBG {
     height: 350px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 399, ../scss/style.scss */
+  /* line 398, ../scss/style.scss */
   .program .clinicBG {
     height: 300px;
   }
 }
-/* line 415, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 .program .clinicAcclimitization {
   background: url("../img/clinic_acclimatization.jpg") no-repeat;
 }
-/* line 419, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 .program .clinicGlacierPrep {
   background: url("../img/clinic_glacierprep.jpg") no-repeat;
+  background-position: right;
 }
 /* line 423, ../scss/style.scss */
 .program .clinicSuuntoNav {
@@ -459,94 +460,99 @@ nav ul li:hover {
 /* line 435, ../scss/style.scss */
 .program .clinicTechAlpinism {
   background: url("../img/clinic_advalpinism.jpg") no-repeat;
+  background-position: center center !important;
 }
-/* line 439, ../scss/style.scss */
+/* line 440, ../scss/style.scss */
 .program .clinicMultiPitch {
   background: url("../img/clinic_multipitch.jpg") no-repeat;
 }
-/* line 443, ../scss/style.scss */
+/* line 444, ../scss/style.scss */
 .program .clinicGlacierTour {
   background: url("../img/clinic_glaciertour.jpg") no-repeat;
 }
-/* line 447, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 .program .clinicMSROvernight {
   background: url("../img/clinic_msrovernight.jpg") no-repeat;
 }
-/* line 451, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 .program .clinicPhotography {
   background: url("../img/clinic_alpinephotography.jpg") no-repeat;
+  background-position: right;
 }
-/* line 455, ../scss/style.scss */
+/* line 457, ../scss/style.scss */
 .program .clinicTradClimbing {
   background: url("../img/clinic_tradclimbing.jpg") no-repeat;
 }
-/* line 459, ../scss/style.scss */
+/* line 461, ../scss/style.scss */
 .program .clinicMedicine {
   background: url("../img/clinic_medicine.jpg") no-repeat;
 }
-/* line 463, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .program .clinicDryTooling {
   background: url("../img/clinic_drytooling.jpg") no-repeat;
+  background-position: right bottom;
 }
-/* line 467, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 .program .clinicIceClimbing {
   background: url("../img/clinic_iceclimbing.jpg") no-repeat;
 }
-/* line 471, ../scss/style.scss */
+/* line 474, ../scss/style.scss */
 .program .clinicRescue {
   background: url("../img/clinic_rescue.jpg") no-repeat;
 }
-/* line 475, ../scss/style.scss */
+/* line 478, ../scss/style.scss */
 .program .clinicGrade7 {
   background: url("../img/clinic_grade7.jpg") no-repeat;
 }
-/* line 479, ../scss/style.scss */
+/* line 482, ../scss/style.scss */
 .program .clinicIceClimbingWmn {
   background: url("../img/clinic_iceclimbingwmn.jpg") no-repeat;
+  background-position: right;
 }
-/* line 483, ../scss/style.scss */
+/* line 487, ../scss/style.scss */
 .program .clinicGlacierTourWmn {
   background: url("../img/clinic_glacierwmn.jpg") no-repeat;
 }
-/* line 487, ../scss/style.scss */
+/* line 491, ../scss/style.scss */
 .program .clinicBigWall {
   background: url("../img/clinic_bigwall.jpg") no-repeat;
 }
-/* line 491, ../scss/style.scss */
+/* line 495, ../scss/style.scss */
 .program .clinicSkiAlpinism {
   background: url("../img/clinic_skialpinism.jpg") no-repeat;
 }
-/* line 495, ../scss/style.scss */
+/* line 499, ../scss/style.scss */
 .program .clinicBouldering {
   background: url("../img/clinic_bouldering.jpg") no-repeat;
+  background-position: right;
 }
-/* line 499, ../scss/style.scss */
+/* line 504, ../scss/style.scss */
 .program .clinicSplitboarding {
   background: url("../img/clinic_splitboarding.jpg") no-repeat;
 }
-/* line 504, ../scss/style.scss */
+/* line 508, ../scss/style.scss */
 .program h1 {
   margin-top: 15px;
   text-transform: uppercase;
 }
-/* line 509, ../scss/style.scss */
+/* line 513, ../scss/style.scss */
 .program p {
   margin: 0 auto;
   width: 70%;
 }
 @media screen and (max-width: 700px) {
-  /* line 509, ../scss/style.scss */
+  /* line 513, ../scss/style.scss */
   .program p {
     width: 90%;
     text-align: left;
   }
 }
-/* line 519, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 .program ul {
   display: block;
   vertical-align: top;
 }
-/* line 523, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .program ul li {
   width: 42%;
   margin: 30px 2%;
@@ -556,16 +562,16 @@ nav ul li:hover {
   vertical-align: top;
 }
 @media screen and (max-width: 700px) {
-  /* line 523, ../scss/style.scss */
+  /* line 527, ../scss/style.scss */
   .program ul li {
     width: 90%;
   }
 }
-/* line 536, ../scss/style.scss */
+/* line 540, ../scss/style.scss */
 .program ul li ul {
   list-style: disc !important;
 }
-/* line 539, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .program ul li ul li {
   display: list-item;
   width: 95% !important;
@@ -576,30 +582,31 @@ nav ul li:hover {
   font-size: .8em;
   margin-left: 15px;
 }
-/* line 552, ../scss/style.scss */
+/* line 556, ../scss/style.scss */
 .program ul li h1 {
   display: block;
   font-size: 1.2em;
+  line-height: .9em;
 }
-/* line 557, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 .program ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
   color: #666;
   display: none;
 }
-/* line 564, ../scss/style.scss */
+/* line 569, ../scss/style.scss */
 .program ul li p {
   width: 100%;
   font-weight: 100;
   font-size: .9em;
   margin: 10px 0;
 }
-/* line 572, ../scss/style.scss */
+/* line 577, ../scss/style.scss */
 .program ul .fullWidth {
   width: 90%;
 }
-/* line 574, ../scss/style.scss */
+/* line 579, ../scss/style.scss */
 .program ul .fullWidth img {
   float: right;
   width: 45%;
@@ -607,46 +614,46 @@ nav ul li:hover {
   padding-top: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 574, ../scss/style.scss */
+  /* line 579, ../scss/style.scss */
   .program ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
-/* line 585, ../scss/style.scss */
+/* line 590, ../scss/style.scss */
 .program ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 593, ../scss/style.scss */
+/* line 598, ../scss/style.scss */
 .demo {
   margin-top: 120px;
   color: white;
   padding-bottom: 90px;
 }
-/* line 598, ../scss/style.scss */
+/* line 603, ../scss/style.scss */
 .demo .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 598, ../scss/style.scss */
+  /* line 603, ../scss/style.scss */
   .demo .finePrint {
     width: 90%;
   }
 }
-/* line 609, ../scss/style.scss */
+/* line 614, ../scss/style.scss */
 .demo h1 {
   text-transform: uppercase;
 }
-/* line 613, ../scss/style.scss */
+/* line 618, ../scss/style.scss */
 .demo h3 {
   font-weight: 500;
   text-transform: uppercase;
   line-height: .9em;
 }
-/* line 620, ../scss/style.scss */
+/* line 625, ../scss/style.scss */
 .demo li {
   width: 35%;
   display: inline-block !important;
@@ -655,17 +662,17 @@ nav ul li:hover {
   margin: 1em 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 620, ../scss/style.scss */
+  /* line 625, ../scss/style.scss */
   .demo li {
     width: 90%;
   }
 }
-/* line 631, ../scss/style.scss */
+/* line 636, ../scss/style.scss */
 .demo li p {
   font-size: .9em;
   width: 100%;
 }
-/* line 637, ../scss/style.scss */
+/* line 642, ../scss/style.scss */
 .demo p {
   font-size: 1em;
   width: 70%;
@@ -673,74 +680,74 @@ nav ul li:hover {
   padding: 1em 0;
 }
 @media screen and (max-width: 700px) {
-  /* line 637, ../scss/style.scss */
+  /* line 642, ../scss/style.scss */
   .demo p {
     width: 90%;
     text-align: left;
   }
 }
-/* line 649, ../scss/style.scss */
+/* line 654, ../scss/style.scss */
 .demo a {
   color: white;
   font-weight: 100;
 }
 
-/* line 656, ../scss/style.scss */
+/* line 661, ../scss/style.scss */
 .whattobring {
   background: white;
   padding-top: 90px;
   padding-bottom: 120px;
 }
-/* line 661, ../scss/style.scss */
+/* line 666, ../scss/style.scss */
 .whattobring h1 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-/* line 666, ../scss/style.scss */
+/* line 671, ../scss/style.scss */
 .whattobring p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 700px) {
-  /* line 666, ../scss/style.scss */
+  /* line 671, ../scss/style.scss */
   .whattobring p {
     text-align: left;
     width: 90%;
   }
 }
-/* line 677, ../scss/style.scss */
+/* line 682, ../scss/style.scss */
 .whattobring .finePrint {
   font-size: .7em;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
-  /* line 677, ../scss/style.scss */
+  /* line 682, ../scss/style.scss */
   .whattobring .finePrint {
     width: 90%;
   }
 }
-/* line 687, ../scss/style.scss */
+/* line 692, ../scss/style.scss */
 .whattobring .left {
   text-align: left;
   font-weight: 900;
   margin-top: 2em;
 }
 @media screen and (max-width: 700px) {
-  /* line 687, ../scss/style.scss */
+  /* line 692, ../scss/style.scss */
   .whattobring .left {
     width: 90%;
   }
 }
-/* line 697, ../scss/style.scss */
+/* line 702, ../scss/style.scss */
 .whattobring ul {
   text-align: left;
   padding-bottom: 60px;
   list-style: square;
   color: black;
 }
-/* line 703, ../scss/style.scss */
+/* line 708, ../scss/style.scss */
 .whattobring ul li {
   margin-left: 5em;
   margin-bottom: .6em;
@@ -751,18 +758,18 @@ nav ul li:hover {
   display: list-item;
 }
 @media screen and (max-width: 550px) {
-  /* line 703, ../scss/style.scss */
+  /* line 708, ../scss/style.scss */
   .whattobring ul li {
     margin-left: 2em;
   }
 }
 
-/* line 719, ../scss/style.scss */
+/* line 724, ../scss/style.scss */
 .contest {
   padding: 90px 0;
   color: white;
 }
-/* line 723, ../scss/style.scss */
+/* line 728, ../scss/style.scss */
 .contest h1 {
   display: block;
   text-transform: uppercase;
@@ -771,34 +778,34 @@ nav ul li:hover {
   width: 90%;
   line-height: .9em;
 }
-/* line 732, ../scss/style.scss */
+/* line 737, ../scss/style.scss */
 .contest h3 {
   margin-top: 30px;
 }
-/* line 736, ../scss/style.scss */
+/* line 741, ../scss/style.scss */
 .contest p {
   margin: 0 auto;
   width: 80%;
   font-weight: 100;
 }
 @media screen and (max-width: 700px) {
-  /* line 736, ../scss/style.scss */
+  /* line 741, ../scss/style.scss */
   .contest p {
     text-align: left;
     width: 90%;
   }
 }
-/* line 748, ../scss/style.scss */
+/* line 753, ../scss/style.scss */
 .contest .finePrint {
   font-size: .7em;
   line-height: 1.2em;
 }
-/* line 753, ../scss/style.scss */
+/* line 758, ../scss/style.scss */
 .contest .bolder {
   text-align: center;
   font-weight: 500;
 }
-/* line 758, ../scss/style.scss */
+/* line 763, ../scss/style.scss */
 .contest ul {
   text-align: left;
   display: block;
@@ -808,12 +815,12 @@ nav ul li:hover {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 700px) {
-  /* line 758, ../scss/style.scss */
+  /* line 763, ../scss/style.scss */
   .contest ul {
     width: 80% !important;
   }
 }
-/* line 771, ../scss/style.scss */
+/* line 776, ../scss/style.scss */
 .contest li {
   display: list-item;
   list-style: square;
@@ -822,7 +829,7 @@ nav ul li:hover {
   margin-bottom: 1em;
   margin-left: 2em;
 }
-/* line 781, ../scss/style.scss */
+/* line 786, ../scss/style.scss */
 .contest a {
   display: inline-block;
   text-decoration: none;
@@ -836,21 +843,21 @@ nav ul li:hover {
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 795, ../scss/style.scss */
+/* line 800, ../scss/style.scss */
 .contest a:hover {
   color: #171717;
   background: white;
   transition: all .6s;
 }
 
-/* line 802, ../scss/style.scss */
+/* line 807, ../scss/style.scss */
 .archive {
   background: white;
   color: #171717;
   text-align: left;
   padding: 90px 0;
 }
-/* line 810, ../scss/style.scss */
+/* line 815, ../scss/style.scss */
 .archive h1 {
   display: block;
   text-transform: uppercase;
@@ -858,21 +865,21 @@ nav ul li:hover {
   margin-bottom: 60px;
 }
 @media screen and (max-width: 700px) {
-  /* line 810, ../scss/style.scss */
+  /* line 815, ../scss/style.scss */
   .archive h1 {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
   }
 }
-/* line 824, ../scss/style.scss */
+/* line 829, ../scss/style.scss */
 .archive h3 {
   text-transform: uppercase;
   margin-bottom: .5em;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 824, ../scss/style.scss */
+  /* line 829, ../scss/style.scss */
   .archive h3 {
     width: 90%;
     text-align: left;
@@ -880,13 +887,13 @@ nav ul li:hover {
   }
 }
 
-/* line 838, ../scss/style.scss */
+/* line 843, ../scss/style.scss */
 .trailer {
   padding: 90px 0;
   color: white;
   text-align: center;
 }
-/* line 843, ../scss/style.scss */
+/* line 848, ../scss/style.scss */
 .trailer h1 {
   display: block;
   text-transform: uppercase;
@@ -894,13 +901,13 @@ nav ul li:hover {
   margin-bottom: 60px !important;
 }
 @media screen and (max-width: 700px) {
-  /* line 843, ../scss/style.scss */
+  /* line 848, ../scss/style.scss */
   .trailer h1 {
     width: 90%;
     margin: 0 auto;
   }
 }
-/* line 855, ../scss/style.scss */
+/* line 860, ../scss/style.scss */
 .trailer h3 {
   text-transform: uppercase;
   margin-bottom: .5em;
@@ -908,65 +915,69 @@ nav ul li:hover {
   display: block;
 }
 @media screen and (max-width: 700px) {
-  /* line 855, ../scss/style.scss */
+  /* line 860, ../scss/style.scss */
   .trailer h3 {
     width: 90%;
     text-align: left;
     margin: 0 auto;
   }
 }
-/* line 868, ../scss/style.scss */
+/* line 873, ../scss/style.scss */
 .trailer iframe {
   width: 960px;
   height: 540px;
 }
 @media screen and (max-width: 930px) {
-  /* line 868, ../scss/style.scss */
+  /* line 873, ../scss/style.scss */
   .trailer iframe {
     width: 90%;
     margin: 0 auto;
   }
 }
 
-/* line 879, ../scss/style.scss */
+/* line 884, ../scss/style.scss */
 .contact {
   background: white;
   color: #171717;
   padding: 90px 0;
 }
-/* line 884, ../scss/style.scss */
+/* line 889, ../scss/style.scss */
 .contact h1 {
   display: block;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-/* line 890, ../scss/style.scss */
+/* line 895, ../scss/style.scss */
 .contact p {
   display: block;
   width: 70%;
   margin: 0 auto;
 }
+/* line 901, ../scss/style.scss */
+.contact a {
+  color: #111;
+}
 
-/* line 905, ../scss/style.scss */
+/* line 910, ../scss/style.scss */
 .sponsors {
   color: white;
   padding: 90px 0;
 }
-/* line 909, ../scss/style.scss */
+/* line 914, ../scss/style.scss */
 .sponsors h1 {
   display: block;
   text-transform: uppercase;
 }
-/* line 914, ../scss/style.scss */
+/* line 919, ../scss/style.scss */
 .sponsors p {
   margin-top: 30px;
   text-transform: uppercase;
 }
-/* line 919, ../scss/style.scss */
+/* line 924, ../scss/style.scss */
 .sponsors ul {
   text-align: center;
 }
-/* line 922, ../scss/style.scss */
+/* line 927, ../scss/style.scss */
 .sponsors ul a {
   display: inline-block;
   width: 200px;
@@ -974,30 +985,30 @@ nav ul li:hover {
   padding-top: 35px;
   margin: .5em .5em;
 }
-/* line 930, ../scss/style.scss */
+/* line 935, ../scss/style.scss */
 .sponsors ul li {
   width: 100%;
   height: 100%;
 }
-/* line 936, ../scss/style.scss */
+/* line 941, ../scss/style.scss */
 .sponsors ul .montblanc {
   background: url("../img/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 942, ../scss/style.scss */
+/* line 947, ../scss/style.scss */
 .sponsors ul .gore {
   background: url("../img/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 160px;
 }
-/* line 948, ../scss/style.scss */
+/* line 953, ../scss/style.scss */
 .sponsors ul .petzl {
   background: url("../img/sponsor_petzl.png") no-repeat;
   background-position: center -10px;
   background-size: 150px;
 }
-/* line 954, ../scss/style.scss */
+/* line 959, ../scss/style.scss */
 .sponsors ul .msr {
   background: url("../img/sponsor_msr.png") no-repeat;
   background-position: center -10px;
