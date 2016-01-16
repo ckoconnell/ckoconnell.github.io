@@ -991,24 +991,30 @@ nav ul li:hover {
   height: 100%;
 }
 /* line 941, ../scss/style.scss */
+.sponsors ul .arcteryx {
+  background: url("../img/sponsor_arc.png") no-repeat;
+  background-position: center 0px;
+  background-size: 120px;
+}
+/* line 947, ../scss/style.scss */
 .sponsors ul .montblanc {
   background: url("../img/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 947, ../scss/style.scss */
+/* line 953, ../scss/style.scss */
 .sponsors ul .gore {
   background: url("../img/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 160px;
 }
-/* line 953, ../scss/style.scss */
+/* line 959, ../scss/style.scss */
 .sponsors ul .petzl {
   background: url("../img/sponsor_petzl.png") no-repeat;
   background-position: center -10px;
   background-size: 150px;
 }
-/* line 959, ../scss/style.scss */
+/* line 965, ../scss/style.scss */
 .sponsors ul .msr {
   background: url("../img/sponsor_msr.png") no-repeat;
   background-position: center -10px;
