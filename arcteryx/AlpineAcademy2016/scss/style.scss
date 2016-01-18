@@ -170,9 +170,21 @@ nav {
     float: left;
     margin-left: 15px;
 
+    .menuText {
+      margin-top: -7px;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 7px;
+    }
+
     .menuIcon {
       padding-right: 10px;
       font-family: "Droid Sans", sans-serif;
+    }
+
+    img {
+      display: inline-block;
+      width: 20px;
     }
   }
 
