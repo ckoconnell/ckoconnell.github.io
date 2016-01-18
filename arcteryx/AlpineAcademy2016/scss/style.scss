@@ -1,6 +1,6 @@
 // Site Variables
 
-$FontFamily: Avenir, Arial, sans-serif;
+$FontFamily: 'Avenir LT W01_55 Roman1475520', Arial, sans-serif;
 $FontColor: #171717;
 $FontColorAlt: white;
 
@@ -111,6 +111,7 @@ nav {
   left: 0;
   z-index: 1000;
   background: #171717;
+  box-sizing: border-box;
 }
 
 .navMobile {
@@ -133,7 +134,7 @@ nav {
 
   ul {
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 50px;
 
@@ -158,15 +159,16 @@ nav {
 
   .mobileTap {
     height: 50px;
-    display: block;
+    display: inline-block;
     color: white;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
     cursor: pointer;
-    position: absolute;
-    left: 15px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
 
     .menuIcon {
       padding-right: 10px;
@@ -175,9 +177,10 @@ nav {
   }
 
   .langSelectMobile {
-    position: absolute;
-    right: 15px;
-    top: 15px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 14px;
+
     h3 {
       display: inline-block;
       color: white;
