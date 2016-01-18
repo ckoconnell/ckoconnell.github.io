@@ -12,6 +12,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
     <title>Arc'teryx Alpine Academy 2016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet'>
