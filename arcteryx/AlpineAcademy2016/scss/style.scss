@@ -102,6 +102,10 @@ nav {
       background: #333;
       transition: all .5s;
     }
+
+    li:active {
+      background: none;
+    }
   }
 }
 
@@ -174,12 +178,11 @@ nav {
       margin-top: -7px;
       display: inline-block;
       vertical-align: top;
-      padding-top: 7px;
+      padding-top: 8px;
     }
 
     .menuIcon {
       padding-right: 10px;
-      font-family: "Droid Sans", sans-serif;
     }
 
     img {
