@@ -311,7 +311,7 @@
         <div class="gridWrap">
             <h1>What To Bring</h1>
             <p>As the event weekend is located in high altitude areas around Mont-Blanc, we recommend an early arrival to Chamonix-Mont-Blanc (at least one day prior to start) to make sure your body gets used to the altitude.</p>
-            <p>Most of the clinics will be held around the Col du Midi, at the foot of the South face of the Aiguille du Midi. Professional guides will lead participants down the East Arête from the cable-car station. This steep snow ridge can be intimidating if you don’t have a good head for heights. There will be enough guides to ensure safety.  Due to weather and local conditions all schedules are subject to change. If conditions don’t allow the clinic you have signed up for, we will find an alternative plan with the guides.</p>
+            <p>Most of the clinics will be held around the Col du Midi, at the foot of the South face of the Aiguille du Midi. Professional guides will lead participants down the East Arête from the cable-car station. This steep snow ridge can be intimidating if you don’t have a good head for heights. There will be enough guides to ensure safety. </p>
             <p>Due to weather and local conditions all schedules are subject to change. If conditions don’t allow the clinic you have signed up for, we will find an alternative plan with the guides.</p>
             <p class="left">For all clinic participation the following basic mountaineering equipment is required:</p>
             <ul>
@@ -530,7 +530,7 @@
                     <div class="clinicBG clinicTechAlpinism"></div>
                     <h1>Techniques d'alpinisme avancé</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course will further your knowledge and skills to prepare you for different situations and mixed terrain in the mountains. You will practice walking on exposed terrain and ridges, learn how to adjust the rope system accordingly (short roping). You will be shown different ice axe uses and will practice front point technique.  More skills, such as setting up an abseil, placing protection and leading the group on your own will be covered in this course.</p>
+                    <p>Avec cet atelier, vous approfondirez vos connaissances et votre technique pour vous préparer à la diversité des situations et des terrains en montagne. Vous vous entrainerez à marcher sur un terrain exposé et sur une arête, vous apprendrez à ajuster la longueur de corde en conséquence et à traverser une arête avec un encordement court. Vous verrez différentes utilisations du piolet et vous essaierez la technique des pointes avant. Cet atelier vous expliquera également la technique du rappel, l’installation de relais, le placement de coinceurs, et la prise en charge d’un groupe.</p>
                 </li>
 
                 <li>
@@ -704,7 +704,7 @@
             <h1>GAGNEZ UN SÉJOUR À L’ALPINE ACADEMY ET DU MATERIEL POUR DEUX*</h1>
             <p>Tentez votre chance ci-dessous pour GAGNER 3 jours d’expériences inoubliables à l’Alpine Academy du 16 au 19 juin 2016 à Chamonix, ainsi que du matériel d’alpinisme pour vous et votre partenaire de cordée.</p>
             <h3>LE PRIX:</h3>
-            <p class="bolder">Le gagnant et son/sa partenaire de cordée vont recevoir:</p>
+            <p class="bolder">Le gagnant et son/sa partenaire de cordée vont recevoir :</p>
             <ul>
                 <li>Participation aux 3 jours d’ateliers</li>
                 <li>Soirée séminaire et Alpine Movie Night</li>
@@ -788,7 +788,7 @@
             <h1>Das einzigartige Bergerlebnis</h1>
             <h5>LERNEN DURCH ERFAHRUNGSAUSTAUSCH – DIE FÜNFTE ARC’TERYX ALPINE ACADEMY</h5>
             <p>Die fünfte Arc’teryx Alpine Academy vereint vom 16. Bis 19. Juni 2016 begeisterte Alpinisten, Bergführer und professionelle Athleten in Chamonix. Das Event soll die Alpinisten Community durch Workshops, Erfahrungsaustausch und Engagement zum Schutz der Berge enger zusammen kommen lassen.</p>
-            <h3>Öffnung der Clinic & Workshop <br>Registrierung am 15. März, 2016</h3>
+            <h3>Öffnung der Clinic & Workshop<br>Registrierung am 15. März, 2016</h3>
             <div style="clear: both;"></div>
             <a href="http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/Arcteryx_Alpine_Academy_Clinic__Workshop_Registration_DE.ics" target="_blank">Speichere das Datum</a>
         </div>
@@ -1086,9 +1086,9 @@
             <p class="bolder">Der Gewinner und sein Seilpartner erhalten jeweils:</p>
             <ul>
                 <li>Workshop-Teilnahme an allen 3 Tagen </li>
-                <li>Seminar Night und Alpine Movie Night </li>
+                <li>Seminar Night und Alpine Movie Night</li>
                 <li>Anreise in zweiter Klasse (Flug oder Zug)</li>
-                <li>Unterkunft zur Verfügung gestellt von Nomadic Ski </li>
+                <li>Unterkunft zur Verfügung gestellt von Nomadic Ski</li>
                 <li>Arc’teryx GORE-TEX® Jacke nach Wahl</li>
                 <li>Petzl Geschenk</li>
                 <li>MSR Geschenk</li>
@@ -1097,8 +1097,7 @@
 
             <a href="http://contests.arcteryx.com/alpineacademy/de/" target="_blank">Klicken und teilnehmen</a>
             <p class="finePrint">Das Gewinnspiel endet am 02. Mai 2016</p>
-            <p class="finePrint">* Es ist kein Einkauf notwendig. Nur für Personen mit Wohnsitz in Europa (außer Italien). Das Gewinnspiel endet am 02. Mai 2016. Der Gewinner wird am 06. Mai 2016 gezogen und per Email kontaktiert. Gewinner und Partner müssen vom 16.-19. Juni 2016 verfügbar sein.
-            </p>
+            <p class="finePrint">* Es ist kein Einkauf notwendig. Nur für Personen mit Wohnsitz in Europa (außer Italien). Das Gewinnspiel endet am 02. Mai 2016. Der Gewinner wird am 06. Mai 2016 gezogen und per Email kontaktiert. Gewinner und Partner müssen vom 16.-19. Juni 2016 verfügbar sein.</p>
         </div>
     </section>
 
