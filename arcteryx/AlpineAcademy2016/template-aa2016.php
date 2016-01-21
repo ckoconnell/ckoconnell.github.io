@@ -92,7 +92,7 @@
                     <h1>Mountain Clean-Up</h1>
                     <h3>Clinic Meta</h3>
                     <img src="http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/cleanup.jpg">
-                    <p>Let's give back to the mountains we love. We are calling participants of the Alpine Academy 2015 to join certified mountain guides and over 20 international Arc'teryx athletes for a Mountain Clean-Up Day.</p>
+                    <p>Let's give back to the mountains we love. We are calling participants of the Alpine Academy 2016 to join certified mountain guides and over 20 international Arc'teryx athletes for a Mountain Clean-Up Day.</p>
                     <p>This initiative is a collaboration between the Arc'teryx Alpine Academy and the Compagnie du Mont-Blanc (CMB) to help keep our mountains pure. So come out to support this Mountain Clean-Up Day, while getting acclimatized at around 2000m to the beautiful Chamonix environment.</p>
                     <p>All voluntary participants will be provided a free lift pass by the CMB to get to the designated area as well as a lunch package sponsored by LYOfood.</p>
                 </li>
@@ -134,45 +134,45 @@
                     <div class="clinicBG clinicFirstAid"></div>
                     <h1>First Aid and Basic Rescue</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course is all about high alpine rescue and on how to behave in an emergency. This course shows you various rescue scenarios and teaches you from how to get help on the mountain to crevasse rescue techniques.</p>
-                    <p>It also provides some knowledge on preventing accidents and how to avoid the fall. This will be given by local specialists from La Chamonniard</p>
+                    <p>This course is all about high alpine rescue and on how to react in an emergency. This course shows you various rescue scenarios and teaches you from how to get help on the mountain to crevasse rescue techniques.</p>
+                    <p>It also provides some knowledge on preventing accidents and how to avoid falls. This will be given by local specialists from La Chamonniard</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicBasicMountaineering"></div>
                     <h1>Basic Mountaineering Education</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course will prepare you for basic glacier tours and easy alpine climbs. This includes: roping up on glaciers, basic crevasse rescu scenarios, ice axe techniques, snow and ice anchors, self-arrest, route planning and advice on equipment.</p>
-                    <p>This course is mandatory for everyone who has never done a glacier tour before</p>
+                    <p>This course will prepare you for basic glacier tours and easy alpine climbs. This includes: roping up on glaciers, basic crevasse rescue scenarios, ice axe techniques, snow and ice anchors, self-arrest, route planning and advice on equipment.</p>
+                    <p>This course is mandatory for anyone who has never done a glacier tour before.</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicTechAlpinism"></div>
                     <h1>Advanced Technical Alpinism</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course will further your knowledge and skills to prepare you for different situations and mixed terrain in the mountains. You will practice walking on exposed terrain and ridges, learn how to adjust the rope system accordingly (short roping). You will be shown different ice axe uses and will practice front point technique.  More skills, such as setting up an abseil, placing protection and leading the group on your own will be covered in this course.</p>
+                    <p>This course will further your knowledge and skills to prepare you for different situations and mixed terrain in the mountains. You will practice walking on exposed terrain and ridges and learn how to adjust the rope system accordingly (short roping). You will be shown different ice axe uses and will practice front point technique.  More skills, such as setting up an abseil, placing protection and leading the group on your own will be covered in this course.</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicMultiPitch"></div>
                     <h1>Multi Pitch Rock Climbing</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course is taking your rock climbing knowledge into a multi-pitch environment. This clinic teaches all the required skills for leading and seconding bolted sport climbing routes, guidebook use, terminology, equipment needs, climbing calls, abseiling techniques, building anchors.</p>
+                    <p>This course takes your rock climbing knowledge into a multi-pitch environment. This clinic teaches all the required skills for leading and seconding bolted sport climbing routes, guidebook use, terminology, equipment needs, climbing calls, abseiling techniques, building anchors.</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicGlacierTour"></div>
-                    <h1>Glacier Tour of Vallee Blanche</h1>
+                    <h1>Glacier Tour of Vallée Blanche</h1>
                     <h3>Clinic Meta</h3>
-                    <p>The Geant glacier definitely presents one of the most spectacular and exciting panoramas in the world. A tour on the Vallee Blanche takes you right into the heart of the history of alpinism. One of the most breathtaking high altitude sceninc hikes in Europe!</p>
+                    <p>The Geant glacier definitely presents one of the most spectacular and exciting panoramas in the world. A tour on the Vallée Blanche takes you right into the heart of the history of alpinism. One of the most breathtaking high altitude scenic hikes in Europe!</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicMSROvernight"></div>
                     <h1>MSR Overnight Bivy Course </h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course offers the unique possibility of camping overnight bivy in the Mont-Blanc Massif with two world-class Arc'teryx athletes. Before going onto the glacier, you will prepare for a night on the snow. Later on you will learn essential campcraft skills such as cooking outside, finding the right location and experience cold and snowy environment. World-class alpinists will be there to teach bivouac basics and share their alpine experiences.</p>
-                    <p>You will also learn how to build an emergency snow cave and wind walls to protect the tent in case of a storm.</p>
+                    <p>This course offers the unique possibility of camping in an overnight bivy in the Mont-Blanc Massif with two world-class Arc'teryx athletes. Before going onto the glacier, you will prepare for a night on the snow. Later, you will learn essential campcraft skills such as cooking outside, finding the right location and experiencing cold and snowy environments. World-class alpinists will be there to teach bivouac basics and share their alpine experiences.</p>
+                    <p>You will also learn how to build an emergency snow cave and wind walls to protect tents in case of a storm.</p>
                 </li>
 
                 <li>
@@ -180,21 +180,21 @@
                     <h1>Alpine Photography</h1>
                     <h3>Clinic Meta</h3>
                     <p>Would you like to improve your photography skills in the mountains?</p>
-                    <p>You will go up the mountain on the last lift or by foot, shoot the last light of the day and have the chance to shoot special settings during sunset. Not to worry though, as you will be staying in the nearby hut and discussing the photos of the day and learning more about mountain photography. The next morning will get up early for sunrise, then shoot some climbing and mountaineering action.</p>
+                    <p>You will go up the mountain on the last lift or by foot, shoot the last light of the day and have the chance to shoot special settings during sunset. Not to worry though, as you will be staying in the nearby hut and discussing the photos of the day and learning more about mountain photography. The next morning you will get up early for sunrise, then shoot some climbing and mountaineering action.</p>
                 </li>
                 <li>
                     <div class="clinicBG clinicTradClimbing"></div>
                     <h1>Traditional Climbing</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This "traditional" Alpine Climbing clinic offers experienced climbers some insights into what we also call "Trad Climbing", where there is no need of clipping bolts.</p>
-                    <p>You will learn and deepen your knowledge about how to place gear, make belays in various terrains, use of modern safety tools and climbing techniques. Learn from the experts! </p>
+                    <p>This "traditional" alpine climbing clinic offers experienced climbers some insights into what we also call "Trad Climbing", where you place your own gear to protect against falls.</p>
+                    <p>You will learn and deepen your knowledge about how to place gear, make belays in various terrains, the use of modern safety tools and climbing techniques. Learn from the experts! </p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicMedicine"></div>
                     <h1>High Altitude Medicine</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This course by Ifremmont will discuss what could happen on a high altitude expedition. You will learn how to prepare for alpine adventures, how to deal with mountain sickness "MAM" and the use of the "decompression chamber". </p>
+                    <p>This course by Ifremmont will discuss what could happen on a high altitude expedition. You will learn how to prepare for alpine adventures, how to deal with mountain sickness "MAM" and the use of a decompression chamber.</p>
                     <p>In addition, you will also learn 5 different techniques on how to immobilize an injury and how to survive in extreme conditions. The end of the day will be filled with making a survival sledge to transport a casualty. </p>
                 </li>
 
@@ -203,14 +203,14 @@
                     <h1>Dry Tooling and Mixed Climbing</h1>
                     <h3>Clinic Meta</h3>
                     <p>An exciting alternative to regular rock climbing and a great way to learn and practice mixed climbing skills.</p>
-                    <p>Dry tooling involves the use of ice axes and rock shoes to ascend climbs that are not covered by snow or ice. During this clinic you will learn how to prepare best for your mixed climbing.</p>
+                    <p>Dry tooling involves the use of ice axes and rock shoes to ascend climbs that are not covered by snow or ice. During this clinic you will learn how best to prepare for your mixed climbing.</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicIceClimbing"></div>
                     <h1>Ice Climbing, Level 1</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This clinic gives you an introduction to the ice climbing world. Equipment, leashless tools, how to build an Abalakov anchor, ice climbing strategies, safety, ice terminology as well as route selection, ice grades and your first moves on the ice will be covered here.</p>
+                    <p>This clinic gives you an introduction to the ice climbing world. Equipment, leashless tools, how to build an Abalakov anchor, ice climbing strategies, safety, ice terminology as well as route selection, ice grades and your first moves on the ice will be covered.</p>
                 </li>
 
                 <li>
@@ -234,7 +234,7 @@
                     <h1>Ice Climbing for Women</h1>
                     <h3>Clinic Meta</h3>
                     <p>This women-only clinic focuses on ice climbing and the lifestyle that comes with it.</p>
-                    <p>This clinic gives you an introduction to the ice climbing world. Equipment, leashless tools, how to build an Abalakov anchor, ice climbing strategies, safety, ice terminology as well as route selection, ice grades will be covered here.</p>
+                    <p>This clinic gives you an introduction to the ice climbing world. Equipment, leashless tools, how to build an Abalakov anchor, ice climbing strategies, safety, ice terminology as well as route selection, ice grades will be covered.</p>
                 </li>
 
                 <li>
@@ -242,14 +242,14 @@
                     <h1>Women's Glacier Tour</h1>
                     <h3>Clinic Meta</h3>
                     <p>This women-only clinic is designed to inspire women to a greater sense of self-sufficiency in a relaxed environment.</p>
-                    <p>Together with a female guide you will experience a spectacular glacier tour. It's all about being surrounded in the alpine environment, sharing your experiences with other women and learn how to make use of your equipment.</p>
+                    <p>Together with a female guide you will experience a spectacular glacier tour. It's all about being surrounded in the alpine environment, sharing your experiences with other women and learning how to make use of your equipment.</p>
                 </li>
 
                 <li>
                     <div class="clinicBG clinicBigWall"></div>
                     <h1>Big Wall Climbing</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This Big Wall clinic is an introduction into learning different techniques for climbing long routes involving the use of portaledges. This focuses on hauling techniques, how to jumar up a rope, and general technical differences to classic multi pitch routes. Security is the most important issue here.</p>
+                    <p>This clinic is an introduction into learning different techniques for climbing long routes involving the use of portaledges. This focuses on hauling techniques, how to jumar up a rope, and general technical differences to classic multi pitch routes. Security is the most important issue here.</p>
                     <p>Topics will include: technical climbs with two etriers, how to place cams and nuts how to use sky hooks, crag hooks, placements of pitons, make traverses in long stretches, build a belay, abseil and how to leave a big wall.</p>
                 </li>
 
@@ -257,7 +257,7 @@
                     <div class="clinicBG clinicSkiAlpinism"></div>
                     <h1>Ski Alpinism</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This Introduction to Ski Alpinism clinic offers experienced skiers some insights into various techniques how to perform in steep skiing environments. This includes how to learn the right techniques of skinning up alpine terrains by using kick turns as well as skiing and abseil down steep snowy terrain.</p>
+                    <p>This clinic offers experienced skiers some insights into various techniques how to perform in steep skiing environments. This includes how to learn the right techniques of skinning up alpine terrains by using kick turns as well as skiing and abseiling down steep snowy terrain.</p>
                     <p>You will practice to choose the right moment to put on/remove skis and use crampons on a steep slope. You will learn how to make an anchor in mixed terrain, how to make a ski belay and how to pass steep rock or ice sections. </p>
                 </li>
 
@@ -274,9 +274,9 @@
                     <div class="clinicBG clinicSplitboarding"></div>
                     <h1>Splitboarding</h1>
                     <h3>Clinic Meta</h3>
-                    <p>This Introduction to Splitboarding clinic offers experienced snowboarders some insights into various techniques how to perform in steep skiing environments.</p>
+                    <p>This clinic offers experienced snowboarders some insights into various techniques how to perform in steep skiing environments.</p>
                     <p>This includes how to learn the right techniques of skinning up alpine terrains by using kick turns as well as snowboarding and abseil down steep snowy terrain. </p>
-                    <p>You will practice to choose the right moment to put on/remove splitboard and use crampons on a steep slope. You will learn how to make an anchor in mixed terrain, how to make a ski belay and how to pass steep rock or ice sections.</p>
+                    <p>You will practice how to choose the right moment to put on/remove splitboard and use crampons on a steep slope. You will learn how to make an anchor in mixed terrain, how to make a ski belay and how to pass steep rock or ice sections.</p>
                 </li>
 
             </ul>
@@ -311,7 +311,7 @@
         <div class="gridWrap">
             <h1>What To Bring</h1>
             <p>As the event weekend is located in high altitude areas around Mont-Blanc, we recommend an early arrival to Chamonix-Mont-Blanc (at least one day prior to start) to make sure your body gets used to the altitude.</p>
-            <p>Most of the clinics will be held around the Col du Midi, at the foot of the South face of the Aiguille du Midi. Professional guides will lead participants down the East Arête from the cable-car station. This steep snow ridge can be intimidating if you don’t have a good head for heights. There will be enough guides to ensure safety. </p>
+            <p>Most of the clinics will be held around the Col du Midi, at the foot of the South face of the Aiguille du Midi. Professional guides will lead participants down the East Arête from the cable-car station. This steep snow ridge can be intimidating if you are afraid of heights. There will be enough guides to ensure safety. </p>
             <p>Due to weather and local conditions all schedules are subject to change. If conditions don’t allow the clinic you have signed up for, we will find an alternative plan with the guides.</p>
             <p class="left">For all clinic participation the following basic mountaineering equipment is required:</p>
             <ul>
@@ -353,7 +353,7 @@
 
             <a href="http://contests.arcteryx.com/alpineacademy" target="_blank">Click Here To Enter</a>
             <p class="finePrint">Contest closes on May 2, 2016</p>
-            <p class="finePrint">*No purchase necessary. Open to residents of Europe (except Italy).  Contest closes May 2, 2016. Winner will be drawn by May 6, 2016 and contacted by email. Winner and partner must be available from June 16-19, 2016. Full contest rules.</p>
+            <p class="finePrint">*No purchase necessary. Open to residents of Europe (except Italy).  Contest closes May 2, 2016. Winner will be drawn by May 6, 2016 and contacted by email. Winner and partner must be available from June 16-19, 2016.</p>
         </div>
     </section>
 
@@ -427,9 +427,9 @@
             <h1>Vivez und expérience alpine unique</h1>
             <h5>L’APPRENTISSAGE PAR LE PARTAGE - 5ème ÉDITION DE L’ARC’TERYX ALPINE ACADEMY</h5>
             <p>Du 16 au 19 juin 2016, la 5ème édition de l’Arc’teryx Alpine Academy réunira des passionnés de montagne, des guides et des athlètes professionnels à Chamonix. Le but est de créer un espace dans lequel les alpinistes, débutants, comme experts, pourront acquérir des connaissances grâce à des ateliers de haut niveau. Ce sera aussi l’occasion de partager ses expériences et de parler du respect de la montagne.</p>
-            <h3>Enregistrement pour les ateliers<br>ouvre le 15 mars, 2016</h3>
+            <h3>L'enregistrement pour les ateliers<br>ouvre le 15 mars, 2016</h3>
             <div style="clear: both;"></div>
-            <a href="http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/Arcteryx_Alpine_Academy_Clinic__Workshop_Registration_FR.ics" target="_blank">Enregistrer la date</a>
+            <a href="http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/Arcteryx_Alpine_Academy_Clinic__Workshop_Registration_FR.ics" target="_blank">Réserve la date</a>
         </div>
     </section>
 
@@ -470,11 +470,11 @@
             <p>Les ateliers permettront aux participants de perfectionner leurs compétences en techniques d’alpinisme et de partager leurs expériences avec des guides et des athlètes professionnels.</p>
             <ul>
                 <li class="fullWidth">
-                    <h1>Mountain Clean-Up</h1>
+                    <h1>Nettoyage de montagne</h1>
                     <h3>Clinic Meta</h3>
                     <img src="http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/cleanup.jpg">
                     <p>Aimons la montagne autant qu’elle nous aime!</p>
-                    <p>Tous les participants de l’Alpine Academy 2015 sont invités à rejoindre les guides de montagnes et les athlètes Arc’teryx pour prendre part au Mountain Clean-Up Day. L’Arc’teryx Alpine Academy et la Compagnie du Mont-Blanc (CMB) sont à l’initiative de ce projet : rendre la montagne plus propre. Alors venez nombreux nous aider à 2000 m dans le cadre spectaculaire de Chamonix.</p>
+                    <p>Tous les participants de l’Alpine Academy 2016 sont invités à rejoindre les guides de montagnes et les athlètes Arc’teryx pour prendre part au Mountain Clean-Up Day. L’Arc’teryx Alpine Academy et la Compagnie du Mont-Blanc (CMB) sont à l’initiative de ce projet : rendre la montagne plus propre. Alors venez nombreux nous aider à 2000 m dans le cadre spectaculaire de Chamonix.</p>
                     <p>À tous les volontaires, la CMB offrira un forfait pour accéder à la zone de nettoyage et notre partenaire LYOfood fournira un pique-nique sain et naturel à chacun. Nous comptons sur vous.</p>
                 </li>
 
@@ -551,7 +551,7 @@
                     <div class="clinicBG clinicMSROvernight"></div>
                     <h1>MSR Nuit en bivouac</h1>
                     <h3>Clinic Meta</h3>
-                    <p>Cet atelier vous offrira une opportunité unique, celle de passer une nuit en bivouac dans le massif du Mont Blanc avec 2 grands alipinistes Arc'Teryx. Avant d’aller sur le glacier, vous apprendrez les bases: préparer un bivouac sur neige et trouver le meilleur endroit, cuisiner en plein air.</p>
+                    <p>Cet atelier vous offrira une opportunité unique, celle de passer une nuit en bivouac dans le massif du Mont Blanc avec 2 grands alipinistes Arc'teryx. Avant d’aller sur le glacier, vous apprendrez les bases: préparer un bivouac sur neige et trouver le meilleur endroit, cuisiner en plein air.</p>
                     <p>Vous apprendrez aussi à construire un igloo d’urgence et une protection pour la tente en cas de tempête.</p>
                 </li>
 
@@ -691,7 +691,7 @@
                 <li>Thermos, bouteille d’eau </li>
                 <li>Trousse de premier secours </li>
                 <li>Bâtons de marche (en option)</li>
-                <li>Snacks: Merci d’apporter suffisamment de nourriture et d’eau (au moins 2 litres) pour une journée entière en montagne.</li>
+                <li>Alimentation: Merci d’apporter suffisamment de nourriture et d’eau (au moins 2 litres) pour une journée entière en montagne.</li>
             </ul>
             <p class="finePrint">Merci de lire attentivement la description des ateliers et la liste de matériel spécifique nécessaire à chacun d’entre eux.</p>
             <p class="finePrint">Merci d’apporter votre propre matériel pour chaque atelier. Il sera possible de tester du matériel à l’essai mais nous ne pouvons pas garantir sa disponibilité.</p>
@@ -709,16 +709,16 @@
                 <li>Participation aux 3 jours d’ateliers</li>
                 <li>Soirée séminaire et Alpine Movie Night</li>
                 <li>Voyage en classe économique (avion ou train)</li>
-                <li>Logement gracieusement offert i par Nomadic Ski</li>
+                <li>Logement gracieusement offert par Nomadic Ski</li>
                 <li>Un choix de Arc’teryx GORE-TEX® veste</li>
                 <li>Cadeau Petzl</li>
                 <li>Cadeau MSR</li>
             </ul>
             <div style="clear:both;"></div>
 
-            <a href="http://contests.arcteryx.com/alpineacademy/fr/" target="_blank">Cliquez ici pour enregistrer</a>
+            <a href="http://contests.arcteryx.com/alpineacademy/fr/" target="_blank">Cliquez ici pour participer</a>
             <p class="finePrint">Le concours se termine le 02 mai 2016.</p>
-            <p class="finePrint">* Sans obligation d’achat. Concours ouvert aux résidents européens. Le concours s’achève le 02 mail 2016. Le gagnant sera tiré au sort avant le 6 mai 2016 et contacté par e-mail. Le gagnant et son/sa partenaire doivent être disponibles du 16 au 19 juin 2016.</p>
+            <p class="finePrint">* Sans obligation d’achat. Concours ouvert aux résidents européens (sauf des résident d'Italie. Le concours s’achève le 02 mai 2016. Le gagnant sera tiré au sort avant le 6 mai 2016 et contacté par e-mail. Le gagnant et son/sa partenaire doivent être disponibles du 16 au 19 juin 2016.</p>
         </div>
     </section>
 
