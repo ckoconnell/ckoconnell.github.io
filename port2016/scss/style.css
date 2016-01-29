@@ -1,0 +1,132 @@
+body {
+  background: #ddd;
+  font-family: "Open Sans", sans-serif;
+  color: #171717;
+  margin: 0;
+  padding: 0; }
+
+section, nav, .gridWrap, div, span, h1, h2, h3, ul, li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+h1 {
+  font-weight: 100;
+  color: #333;
+  font-size: 1.5em; }
+
+h3 {
+  font-weight: 500;
+  color: #666;
+  font-size: 1.2em; }
+
+p {
+  font-weight: 100;
+  color: #171717;
+  font-size: 1em; }
+
+ul {
+  position: relative; }
+  ul li {
+    display: inline-block; }
+
+section {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  position: relative;
+  background: #F0F0F0;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  padding: 60px 0; }
+
+.gridWrap {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto; }
+
+.nav {
+  background: #F0F0F0;
+  width: 100%;
+  height: 60px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000; }
+  .nav ul li {
+    width: 15%;
+    cursor: pointer; }
+    .nav ul li a {
+      text-transform: uppercase;
+      padding: 10px 30px;
+      height: auto;
+      vertical-align: middle;
+      text-decoration: none;
+      transition: all .15s; }
+    .nav ul li a:hover {
+      background: #D0D0D0 !important;
+      font-weight: 900;
+      transition: all .4s; }
+
+.nav {
+  position: relative; }
+
+.navDisplay {
+  position: fixed !important;
+  top: 0;
+  left: 0; }
+
+.intro {
+  width: 100%;
+  position: relative;
+  display: block;
+  border-bottom: 0; }
+
+.feature {
+  height: 90% !important;
+  padding-bottom: 55.6%; }
+
+.work ul {
+  vertical-align: top;
+  display: block; }
+  .work ul li {
+    width: 30%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 30px;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top; }
+    .work ul li h1 {
+      position: absolute;
+      right: 30px;
+      bottom: 40%;
+      color: white;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 600;
+      line-height: .9em;
+      text-align: right; }
+  .work ul .marginMid {
+    margin: 10px 10px; }
+  .work ul .workExperience {
+    background: #f7786b; }
+  .work ul .workWeb {
+    background: #e47e76; }
+  .work ul .workEditorial {
+    background: #d18481; }
+  .work ul .workPM {
+    background: #be8a8d; }
+  .work ul .workPhoto {
+    background: #ab9098; }
+  .work ul .workVideo {
+    background: #9896a4; }
+
+.footer {
+  height: 100px !important;
+  min-height: 100px !important; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,273 @@
+// Variables
+
+// Breakpoints
+
+$bpFull: 930px;
+$bpTablet: 767px;
+$bpPhone: 599px;
+
+// Colours
+$siteBg: #ddd;
+$fontColor: #171717;
+$headerColor: #333;
+$subheadColor: #666;
+$borderColor: #ccc;
+
+// Gradient/Highlight Colours
+$col1: #f7786b;
+$col2: #9896a4;
+
+// Fonts
+$bodyfont: 'Open Sans', sans-serif;
+$altfont: 'Open Sans Condensed', sans-serif;
+$fsHeader: 1.5em;
+$fsSubHeader: 1.2em;
+$fsBody: 1em;
+
+
+// Main Page Styles
+
+html {
+
+}
+
+body {
+  background: $siteBg;
+  font-family: $bodyfont;
+  color: $fontColor;
+  margin: 0;
+  padding: 0;
+}
+
+
+// Resets
+section, nav, .gridWrap, div, span, h1, h2, h3, ul, li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+// Font Styles
+
+h1 {
+  font-weight: 100;
+  color: $headerColor;
+  font-size: $fsHeader;
+}
+
+h3 {
+  font-weight: 500;
+  color: $subheadColor;
+  font-size: $fsSubHeader;
+}
+
+p {
+  font-weight: 100;
+  color: $fontColor;
+  font-size: $fsBody;
+}
+
+ul {
+  position: relative;
+
+  li {
+    display: inline-block;
+  }
+}
+
+// Body & Section Styles
+
+section {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  position: relative;
+  background: #F0F0F0;
+  margin: 0 auto;
+  border-bottom: 1px solid $borderColor;
+  padding: 60px 0;
+}
+
+.gridWrap {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.sectionIntro {
+
+
+  h1 {
+    font-weight: 600;
+    color: white !important;
+    font-family: $altfont;
+    font-size: 2em !important;
+    margin-bottom: 15px !important;
+  }
+
+  h3 {
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    line-height: 1.3em !important;
+    text-transform: none !important;
+
+  }
+}
+
+.itemWrap {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 30%;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 2px #ccc;
+  height: 450px;
+  margin: 10px 10px;
+
+  @media screen and (max-width: $bpTablet) {
+    width: 45%;
+  }
+
+  @media screen and (max-width: $bpPhone) {
+    width: 96%;
+    height: auto;
+    min-height: 0;
+  }
+
+  h1 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+
+    color: #333
+  }
+
+  h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #171717;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: .9em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  p {
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+}
+
+.nav {
+    background: #F0F0F0;
+    width: 100%;
+    height: 60px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid $borderColor;
+    z-index: 1000;
+
+  ul {
+
+    li {
+      width: 15%;
+      cursor: pointer;
+
+      a {
+        text-transform: uppercase;
+        color: #ccc;
+        padding: 10px 30px;
+        height: auto;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: all .15s;
+        font-size: 13px;
+      }
+      a:hover {
+        background: #D0D0D0 !important;
+        font-weight: 900;
+        transition: all .4s;
+
+      }
+
+      .navDarker {
+        color: #333;
+        transition: all 3s;
+      }
+    }
+  }
+}
+
+.nav {
+  position: relative;
+}
+
+.navDisplay {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+
+.contact {
+  height: auto !important;
+
+}
+
+
+
+.work {
+  .sectionIntro {
+    background: $col2;
+  }
+
+}
+
+.contact {
+   border-bottom: none;
+  height: 500px !important;
+}
+
+.footer {
+  height: 100px !important;
+  min-height: 100px !important;
+}
+
+
+.displayHide {
+  display: none !important;
+  transition: all 2s;
+
+
+}
