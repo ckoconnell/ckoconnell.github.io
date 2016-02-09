@@ -485,7 +485,7 @@ Main components
   left: 3%;
   width: 50px;
   height: 80px;
-  background: url("../img/camera-icon.png") no-repeat;
+  background: url("../camera8bit.png") no-repeat;
   background-size: 40px;
   cursor: pointer;
 }
@@ -584,7 +584,7 @@ Main components
 }
 /* line 514, ../scss/style.scss */
 .bioWrap .manley {
-  background: url("../img/ManleyBio.jpg") no-repeat;
+  background: url("../bioManley.jpg") no-repeat;
   background-position: center center;
   background-size: 250px;
 }

@@ -22,6 +22,16 @@
 </head>
 <body>
 
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NKD9MF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NKD9MF');</script>
+<!-- End Google Tag Manager -->
+
 <div class="langSelect">
     <h3>Select Your Language:</h3>
     <div class="langLink linkEN"><span class="langOptionEN">EN</span></div> |
@@ -373,7 +383,7 @@
     <section class="trailer">
         <div class="gridWrap">
             <h1>Videos</h1>
-            <iframe src="https://www.youtube.com/embed/7ad0Fj448kY" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/as6Y8hUEwQY" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
@@ -735,7 +745,7 @@
     <section class="trailer">
         <div class="gridWrap">
             <h1>Videos</h1>
-            <iframe src="https://www.youtube.com/embed/7ad0Fj448kY" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/as6Y8hUEwQY" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
@@ -1114,7 +1124,7 @@
     <section class="trailer">
         <div class="gridWrap">
             <h1>Videos</h1>
-            <iframe src="https://www.youtube.com/embed/7ad0Fj448kY" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/as6Y8hUEwQY" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
