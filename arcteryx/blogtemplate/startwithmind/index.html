@@ -224,6 +224,27 @@
         height: auto;
     }
 
+    .fullbleedWrap .photoCred {
+        font-weight: 100;
+        position: absolute;
+        bottom: 4%;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
     .fullbleedWrap .blogList {
         margin-left: 10%;
         margin-top: 0;
@@ -423,13 +444,15 @@
         }
 
         .fullbleedWrap .imgWrap h1 {
-
-            font-size: 48px;
+            width: 95%;
+            font-size: 40px;
         }
 
         .fullbleedWrap .imgWrap h3 {
-            width: 70%;
+            width: 90%;
             font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -30px;
         }
 
         .fullbleedWrap .vertImage {
@@ -444,7 +467,6 @@
     @media screen and (max-width: 500px) {
 
         .fullbleedWrap .imgWrap img {
-
         }
 
         .fullbleedWrap .imgWrap h1 {
@@ -456,7 +478,6 @@
 
         .fullbleedWrap .imgWrap h3 {
             line-height: 1.5em !important;
-
         }
 
         .fullbleedWrap .imgWrap h1 .subtitle {
@@ -464,12 +485,14 @@
             line-height: 14px;
         }
 
-        .fullbleedWrap p {
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
 
+        .fullbleedWrap p {
             padding-left: 0;
             padding-right: 0;
             margin: 1em 0 1.3em;
-
         }
 
         .fullbleedWrap h3 {
@@ -490,6 +513,7 @@
             <h3>A mental approach to training and preparation</h3>
         </div>
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-1.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <h5>Words & Photos by: <span class="bolder">Jonathan Siegrest</span></h5>
@@ -509,14 +533,17 @@
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-2.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-3.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-4.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <h3>Persistence</h3>
@@ -528,18 +555,22 @@
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-5.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-6.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-7.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-8.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <h3>Execution</h3>
@@ -553,20 +584,19 @@
 
     <p>The body is like our tool. We all know that training is about adapting the body and improving this tool, but it's in the mental approach where we learn to really operate it. Even the best tool is only as effective as the technique that drives it. Mind first, body second.</p>
 
-
-
-
-
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-11.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="imgWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/jsswm-12.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Ariadna Prat Barnadas</span></div>
     </div>
 
     <div class="dividerWrap">
         <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+
     </div>
 
     <!--
