@@ -1,0 +1,568 @@
+
+
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        /* max-width: 1500px; */
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        color: white;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        width: 35%;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap h1 {
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: uppercase;
+        opacity: 0.9;
+        margin: 0;
+        padding: 0;
+        line-height: .9em;
+        text-shadow: 1px 1px 2px #171717;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap h3 {
+        font-size: 36px;
+        font-weight: 200;
+        text-transform: uppercase;
+        opacity: 0.9;
+        line-height: .9em;
+        text-shadow: 1px 1px 2px #171717;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: .9em;
+        text-shadow: 1px 1px 2px #171717;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+
+    }
+
+    .fullbleedWrap h3 {
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .fullbleedWrap h5 {
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        font-weight: 100;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+
+    .fullbleedWrap .pullquote {
+        font-style: italic;
+        text-align: center;
+        font-weight: 900;
+        font-size: 24px;
+        width: 70%;
+        color: #666;
+        margin: 0 auto;
+        max-width: 700px !important;
+        padding-left: 0 !important;
+        display: block !important;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        line-height: 1.3em;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fullbleedWrap .imgWrap .featureCredit {
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
+        width: 20%;
+        padding: 20px 10px 0;
+        box-sizing: border-box;
+        opacity: .75;
+        color: white;
+    }
+
+    .fullbleedWrap .imgWrap .featureCredit p {
+        font-size: .9em;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+
+    .fullbleedWrap .imgWrap .featureCredit .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap .imgWrapInline {
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .fullbleedWrap .imgWrapInline img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption {
+        width: 100%;
+
+        background: #eee;
+        margin-top: 0;
+        color: #171717;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 20px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption p {
+        padding-left: 0;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.4em !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .catTitle {
+        font-size: .8em;
+        font-weight: 100;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .photoCred {
+        padding-left: 0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 900;
+        color: #444;
+        margin-top: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/bioPhoto.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 25%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .fullbleedWrap .imgWrap h1 {
+            top: 30px;
+            left: 15px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+
+        .fullbleedWrap .imgWrap .featureCredit {
+            position: relative;
+            width: 100%;
+
+            padding: 10px 10px;
+            box-sizing: border-box;
+            opacity: .75;
+            color: white;
+            margin: 0 auto;
+            display: block;
+            margin-left: 2%;
+
+        }
+
+        .fullbleedWrap .imgWrap .featureCredit p {
+            margin-bottom: 5px;
+        }
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap .titleWrap h1 {
+            font-size: 30px;
+        }
+
+        .fullbleedWrap p {
+
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+    }
+</style>
+
+<div class="fullbleedWrap">
+
+    <div class="imgWrap">
+        <div class="titleWrap">
+            <h1>Arc'teryx King of Dolomites Announced</h1>
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/KODWrapScenic.jpg" />
+    </div>
+
+    <h5>Words by: <span class="bolder"><a href="https://www.facebook.com/katharina.habermann.75" target="_blank">Katharina Habermann</a></span></h5>
+
+    <p><span class="bolder">San Martino di Castrozza - Sunday, Feb 21 2016 - </span>One Italian town, two days of shooting, eight professional and 40 hobby photographers and endless possibilities to shoot and play. This Sunday San Martino di Castrozza crowned the King of Dolomites in seven categories. Sverre Hjornevik who came all the way from Norway won the Pro Action and Landscape category. Christoph Oberschneider took the best photo in the Pro Alpinism. The Wannabe winner Action and Landscape is Stephan Kothner, the best Wannabe Alpinism was shot by Andrea Costa. The crown for the overall category KOD 2016 Line in which amateurs and pros were competing together went to Klaus Polzer.</p>
+    <p>The fifth edition bolstered the Arc'teryx King of Dolomites once again as one of the premier photography freeride events of the winter. 150 talented photographers and riders from ten countries travelled to San Martino di Castrozza to get the best shot during two days. As in previous years everyone was inspired by the diversity and beauty of the landscape around and the hospitality and charm of San Martino, making the little Italian town the perfect base for creativity. The result was an impressive number of stunning pictures.</p>
+    <p>This did not make for an easy job for the jury who sat together for six hours to pick the seven winners. The intensive discussion was shaped by the distinct backgrounds of the judges merging high level sports, photography, artistic and cinematographic expertise. Freerider Stian Hagen (NOR), mountain and outdoor photographer Piotr Drozdz (POL) and director of photography Maxime Alexandre (ITA) adjudicated the photos based on athletic performance, riders' style, emotions, scenic beauty of the Dolomitic context, composition and lighting.</p>
+    <p>The awards ceremony took place in the town center of San Martino on Sunday afternoon awarding the winners with cash prizes and technical freeride gear.</p>
+
+    <p class="bolder">ARC`TERYX KING OF DOLOMITES WINNERS:</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/Lines_KOD2016_KlausPolzer_NeillWilliman.jpg" />
+        <div class="imgCaption">
+            <p class="quote">"Lines have many forms and recipes. For this one take The Dolomites and sprinkle on some powder, a puff of wind, a fruitful search and smiles".</p>
+            <p><span class="catTitle">2016 KOD Lines</span><br>Klaus Polzer with rider Neil Williman</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/ACTION_SVERREHJORNEVIK_BAARDOYMAR.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Action, PRO</span><br>Sverre Hjornevik, rider Bard Oymar</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/Action_Stefan%20Kothner_Raphael%20O%CC%88ttl.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Action, WANNABE</span><br>Stefan Kothner, rider Raphael Öttl</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/LANDSCAPE_SVERREHJORNEVIK_SEBMAYER_BAARDOYMAR.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Landscape, PRO</span><br>Sverre Hjornevik (NOR), riders Seb Mayer (F) & Bard Oymar (NOR)</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/Landscape_Stefan%20Kothner_Raphael%20O%CC%88ttl.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Landscape, WANNABE</span><br> Stefan Kothner, rider Raphael Ottl</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/ALPINISM_ChristophOberschneider_MatthiasAigner_and_LukasOberschneider.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Alpinism, PRO</span><br>Christoph Oberschneider, riders Matthias Aigner & Lukas Oberschneider</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/ALPINISMO_Andrea%20Costa_Tommaso%20Cardelli_Cristian%20Dallapozza_.jpg" />
+        <div class="imgCaption">
+            <p><span class="catTitle">King of Alpinism, WANNABE</span><br>Andrea Costa, athlete Tommaso Cadelli (ITA)</p>
+        </div>
+    </div>
+
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+    </div>
+
+</div>
+
+

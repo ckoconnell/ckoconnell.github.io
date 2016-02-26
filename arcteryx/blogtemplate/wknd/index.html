@@ -1,0 +1,584 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 48px;
+        font-weight: 900;
+        width: 55%;
+        text-transform: uppercase;
+        line-height: .9em;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #171717;
+    }
+
+
+    .fullbleedWrap .imgWrap h3 {
+        font-size: 24px;
+        font-weight: 900;
+        font-style: italic;
+        line-height: 1.2em !important;
+        width: 70%;
+        text-transform: uppercase;
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px #171717;
+        margin-top: -20px;
+        padding-left: 0 !important;
+    }
+
+
+    .fullbleedWrap h5 {
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        width: 80%;
+        height: auto;
+        font-weight: 100;
+        padding-left: 6%;
+        margin: 30px 0 20px 0;
+    }
+
+    .fullbleedWrap h5 a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+
+    }
+
+    .fullbleedWrap h3 {
+        font-size: 18px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 2em 0 0 0;
+        position: relative;
+        line-height: 1.7em;
+        text-transform: uppercase;
+
+    }
+
+    .fullbleedWrap ul {
+        max-width: 1500px;
+        padding-left: 8%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+    }
+
+    .fullbleedWrap ul li {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 80%;
+        max-width: 700px;
+    }
+
+
+    .fullbleedWrap ul li .ulTitle {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap .pullquote {
+        font-style: italic;
+        text-align: center;
+        font-weight: 900;
+        font-size: 24px;
+        width: 70%;
+        color: #666;
+        margin: 0 auto;
+        max-width: 700px !important;
+        padding-left: 0 !important;
+        display: block !important;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        line-height: 1.3em;
+    }
+
+    .fullbleedWrap .vertImage {
+        float: right;
+        margin: 30px;
+        width: 60%;
+        max-width: 500px;
+        min-width: 350px;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+
+    .fullbleedWrap .vertImageLeft {
+        float: left;
+        margin: 30px;
+        width: 20%;
+        max-width: 450px;
+        min-width: 350px;
+        clear: left;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        max-width: 1500px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fullbleedWrap .photoCred {
+        font-weight: 100;
+        position: absolute;
+        bottom: 4%;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fullbleedWrap .blogList {
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/justinbio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 22%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            top: 5%;
+            left: 15px;
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            width: 95%;
+            font-size: 40px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -30px;
+        }
+
+        .fullbleedWrap .vertImage {
+            float: none;
+            margin: 30px;
+            width: 80%;
+            margin-right: 0;
+            min-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap img {
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1em;
+            margin-bottom: 1em;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            line-height: 1.5em !important;
+        }
+
+        .fullbleedWrap .imgWrap h1 .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
+
+        .fullbleedWrap p {
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+
+        .fullbleedWrap h3 {
+            padding-left: 0 !important;
+        }
+
+        .fullbleedWrap h5 {
+            padding-left: 0 !important;
+            width: 90%;
+        }
+    }
+</style>
+
+<div class="fullbleedWrap">
+    <div class="imgWrap">
+        <div class="titleWrap">
+            <h1>Cheers, to the Freakin WKND</h1>
+            <h3>(Rhianna is a weekend warrior too, apparently)</h3>
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/WKND-4.jpg" />
+    </div>
+
+    <h5>Words by: <span class="bolder"><a href="https://www.instagram.com/jillyoung_/" target="_blank">Jill Young</a></span> | Photos by: <span class="bolder"><a href="https://www.instagram.com/sarahfrood/" target="_blank">Sarah Frood</a></span></h5>
+
+    <p>A year ago I would have cringed at the thought of being a weekend warrior (no offense), but it's safe to say I have changed. Being a weekend warrior means we have the best of both worlds; culture, action, adventure, good restaurants and hey, doesn't hurt to be able to pay the bills! I have grown to love the challenge of fitting in as much fun as possible in those precious 64 hours I have between 5 pm on a Friday and getting back to work Monday morning. In the effort to maximize these hours and feel as physically exhausted as possible when the weekend ends, I think as weekend warriors, we actually end up doing more.</p>
+
+    <p>After a number of years enjoying life in the Whistler bubble, where skiing on your lunch breaks is a reality and skiing the resort on the weekends is often laughed at, I found myself packing up every piece of sports equipment in my extremely small and unpractical Honda Civic and driving down the Sea-To-Sky highway: en-route to a life as a weekend warrior. I now work all week, drooling over other people's adventures on social media, while the other half of me tries to stay focused on redesigning supply chains in my MBA classroom in downtown Vancouver. Torn by my split-personality syndrome between a world of business and one of outdoor adventure, I knew I would have to figure out a few things to make the city life work for me.</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/WKND-2.jpg" />
+    </div>
+
+    <p>Well, I've got it figured out. Not to sound like a weekend warrior snob, but I think if there was a weekend warrior Olympics I would qualify. It's not always an easy task. Sometimes the last thing you want to do on a Friday afternoon is pack up your car and start driving in weekend warrior traffic. But don't worry, I have this program dialed and I am willing to share my tricks. As fellow warriors we need to support each other in our search for the most epic 64 hours every time Friday afternoon rolls around.</p>
+
+    <p>Here is a list of DO's and DON'T's of becoming a master weekend warrior:</p>
+
+    <ul>
+        <li><span class="bolder">DO</span> make a plan, or say 'yes' to anyone else who has made a plan. There is nothing worse than Friday rolling around and not having an adventure planned. That said, be flexible if said plan doesn't go as planned.</li>
+        <li><span class="bolder">DO</span> exercise during the week. You need to be able to keep up with your non-weekend warrior friends, or even better, pass those jerks. Sometimes no matter how many spin classes you do, it's just really hard to keep up</li>
+        <li><span class="bolder">DO</span> pack your car on Thursday night or Friday morning. It's like a transition in a triathlon, you want the switch from work to adventure to be as seamless as possible, no gear left behind.</li>
+        <li><span class="bolder">DON'T</span> show up to your friend's house that your crashing at without beer. I often forget this rule, sorry Andre and Sarah.</li>
+        <li><span class="bolder">DO</span> watch the weather and make your decisions accordingly. Touring on the Duffy, resort skiing, grabbing your bike when El Nino hits – you have a lot of options and sitting on the couch isn't one of them!</li>
+        <li><span class="bolder">DO</span> put your skins back on and get out there for one more lap.  Because when Monday rolls around, you are going to regret it if your legs do not feel like jelly and your face isn't red with wind burn. One more lap!</li>
+        <li><span class="bolder">DON'T</span> go into the backcountry without your gear (beacon, shovel, probe) because you rushed away from the city so fast you forgot it. It's not worth it, and you'll look stupid.</li>
+        <li><span class="bolder">DON'T</span> be a jerk to the other people in the lift line on a pow day. We all get powder anxiety. We're all going to get to ski it. Let's be honest, your legs will be tired in a couple of hours anyways.</li>
+        <li><span class="bolder">DO</span> après. It's the weekend.</li>
+        <li><span class="bolder">DO</span> take a moment and realize that regardless of the weather, or the kind of day, you are so stoked and lucky to be the in the mountains!</li>
+        <li><span class="bolder">DO</span> just stay the night on Sunday and drive home early Monday morning. Avoiding peak driving times is always a good idea and what's the rush?</li>
+        <li><span class="bolder">DO</span> snap some good photos so you can keep your Instagram on point throughout the week and make people think you are always on an adventure.</li>
+        <li><span class="bolder">DON'T</span> be that guy that is only obsessed with getting good photos. You are there to ski.</li>
+        <li><span class="bolder">DO</span> let everyone at work know you had an awesome weekend.</li>
+        <li><span class="bolder">DON'T</span> remind them every hour that you had the best weekend ever and skied the sickest lines and the deepest pow! They will hate you.</li>
+        <li><span class="bolder">DO</span> get out of bed, shake off that apres hangover and get outside!!</li>
+    </ul>
+
+    <p>So here's to us. Working our asses off all week and pushing it as hard as possible in those 64 hours. See you on the weekend!</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/WKND-3.jpg" />
+
+    </div>
+
+    <a class="videoPoster" href="https://www.youtube.com/embed/mKPSiPWUE10?autoplay=1" target="_blank">
+        <div class="playButton">
+            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e" fill-opacity="0.9"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>
+        </div>
+        <img src="https://i.ytimg.com/vi/mKPSiPWUE10/maxresdefault.jpg" border="0">
+    </a>
+
+
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+
+    </div>
+
+    <p><a href="https://www.instagram.com/jillyoung_/" target="_blank">Jill Young</a> is an Alberta - then Whistler transplant who now lives in Vancouver and is working on her MBA at Simon Fraser University. She also helps us run our social media feeds - if you're talking to us on <a href="https://www.facebook.com/arcteryx/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/arcteryx/" target="_blank">Instagram</a> or <a href="https://twitter.com/Arcteryx" target="_blank">Twitter</a>, you're likely talking to Jill!</p>
+
+</div>
+
+
+<script>
+    $('.videoPoster').click(function(){
+        $('.videoPoster').html('<iframe width="100%" height="100%" src="' + $(this).attr('href') + '" frameborder="0"></iframe>');
+        // GTMdataLayer.push({'event': 'inspired-design-video-play'});
+        return false;
+        // This prevents the browser from navigating to the link.
+    });
+</script>
