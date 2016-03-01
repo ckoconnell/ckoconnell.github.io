@@ -214,7 +214,7 @@
     }
 
 
-    .fullbleedWrap .imgWrap .pullquote {
+    .fullbleedWrap .imgWrapInline .pullquote {
         position: absolute;
         top: 7%;
         left: 5%;
@@ -225,6 +225,8 @@
         line-height: 1.3em;
         width: 80%;
         max-width: 650px;
+        font-style: italic;
+        text-shadow: 1px 1px #000;
     }
 
     .fullbleedWrap .imgWrapInline {
@@ -326,7 +328,7 @@
     .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
         font-weight: 100;
         position: absolute;
-        bottom: 80px;
+        top: 30px;
         right: 5%;
         color: white;
         font-size: .7em;
@@ -582,6 +584,20 @@
 
     }
 
+    @media screen and (max-width: 630px) {
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            box-sizing: border-box;
+            padding: 20px 10px;
+            margin-left: -2%;
+        }
+    }
+
     @media screen and (max-width: 500px) {
 
         .fullbleedWrap .imgWrap img {
@@ -622,148 +638,152 @@
             width: 90%;
         }
 
-        .fullbleedWrap .imgWrap .sidebarWrap {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            max-width: 100%;
-            height: auto;
-            background: #000;
-            box-sizing: border-box;
-            padding: 20px 10px;
-            margin-left: -2%;
+        .fullbleedWrap .imgWrapInline .pullquote {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.3em;
+            width: 80%;
+            max-width: 650px;
+            font-style: italic;
+            text-shadow: 1px 1px #000;
+        }
+
+        .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+            font-weight: 100;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: white;
+            font-size: .7em;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #171717;
+            z-index: 10000;
         }
 
     }
 </style>
 
 <div class="fullbleedWrap">
+
     <div class="imgWrap">
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <div class="photoCred">Photo: <span class="bolder">Franz Walter</span></div>
         <div class="titleWrap">
             <h1>Riders on the Storm</h1>
             <h3>Ines Papert and Mayan Smith-Gobat in Patagonia</h3>
         </div>
-        <img src="riders-1.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-1b.jpg" />
     </div>
 
-    <h5>Words by: <span class="bolder"><a href="" target="_blank">Ines Papert</a></span> | Photos by: <span class="bolder"><a href="#" target="_blank">Thomas Senf</a></span></h5>
+    <h5>Words by: <span class="bolder"><a href="https://www.facebook.com/inespapert/?fref=ts" target="_blank">Ines Papert</a></span> | Photos by: <span class="bolder"><a href="http://www.thomassenf.ch" target="_blank">Thomas Senf</a></span> &amp; <span class="bolder"><a href=" http://franzwalter.com" target="_blank">Franz Walter</a></span></h5>
 
-    <p style="font-style: italic; font-weight: 600;">Arc'teryx athlete Ines Papert just came back from her expedition to Patagonia. Here she describes her big wall experience with her climbing buddy Mayan Smith-Gobat from New Zealand:</p>
-    <p>On February 6 me and Mayan accompanied by our friend and photographer Thomas Senf summited Torres Central, in Torres del Paine National Park (Chile) via the extreme difficult east face. Succeeding in making the fifth known ascent of Riders in the Storm, 25 years after the first ascent of this historic route. This region is famous for its unstable weather conditions, making it a very challenging place to climb.</p>
-    <p>Riders on the storm was first climbed by Wolfgang Gullich, Kurt Albert, Bernd Arnold, Peter Dittrich and Norbert Batz in January 1991 in fifteen days of climbing over a five week period. This stunning line on the sheer 1300m east face of Torres Central line went at 7c, A3. The climbing is very varied and demanding, ranging from delicate and runout face climbing to wide cracks and roofs, which were often entirely iced up. As yet there have been no free ascents of this route, though many strong climbers have tried.</p>
+    <p style="font-style: italic; font-weight: 600;">Arc'teryx athlete <a href="https://www.facebook.com/inespapert/?fref=ts" target="_blank">Ines Papert</a> just returned from her expedition to Patagonia. She describes her big-wall experience with her climbing buddy <a href="https://www.facebook.com/Mayan-Smith-Gobat-450156541720338/?fref=ts" target="_blank">Mayan Smith-Gobat</a> from New Zealand:</p>
+
+    <p>On February 6, 2016, Mayan, our friend and photographer Thomas Senf and I summited Torres Central, in Torres del Paine National Park (Chile) via its extremely difficult east face. We succeeded in achieving the fifth known ascent of Riders in the Storm, 25 years after the first ascent of this historic route. Known for its unstable weather conditions, this region proved itself a very challenging place to climb.</p>
+    <p>Riders On the Storm was first climbed by Wolfgang Güllich, Kurt Albert, Bernd Arnold, Peter Dittrich and Norbert Bätz in January 1991 in 15 days of climbing over a five-week period. This stunning line on the sheer 1300m east face of Torres Central line went at 7c, A3. The climbing is very varied and demanding, ranging from delicate and runout face climbing to wide cracks and roofs, which were often entirely iced up. As yet, there have been no free ascents of this route, though many strong climbers have tried.</p>
 
     <div class="imgWrap">
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <div class="photoCred">Photo: <span class="bolder">Franz Walter</span></div>
 
         <div class="sidebarWrap">
             <h1>Riders On The Storm</h1>
             <ul>
-                <li>Torre Central 2800m, East Face</li>
-                <li>Torres del Paine National Park, Patagonia, Chile</li>
-                <li>38 pitches - with the new free variant, 1300m</li>
+                <li>Route: Riders on the storm</li>
+                <li>Location: Torre Central, east face, 2800m</li>
+                <li>Torres del Paine national park, Patagonia, chile</li>
+                <li>38 pitches - with the new free variant, 1300m route length.</li>
                 <li>Grade 7c+, 2 pitches which haven't been free climbed yet</li>
-                <li>Ines and Mayan free climbed all but 4 pitches of the entire route.</li>
-                <li>Ines Papert, Mayan Smith-Gobat and Thomas Senf there from 16 Jan - 20 February</li>
-                <li>Climbing days 15</li>
-                <li>Fifth known Ascents of "Riders on the Storm"</li>
+                <li>Ines and Mayan free climbed all but 4 pitches of the entire route.</li>
+                <li>Ines Papert, Mayan Smith-Gobat and Thomas Senf there from 16 Jan - 20 February </li>
+                <li>Climbing days: 15</li>
+                <li>Summited at 12:48 on the February 6th 2016</li>
+                <li>Fifth known ascent of Riders On The Storm</li>
             </ul>
         </div>
-        <img src="riders-4.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-routemap.jpg" />
     </div>
 
-    <p>Our goal was to free this route and likewise, due to weather we didn't complete our mission. However, we did make significant progress towards this goal. Succeeding to free climb the upper two pitches which had previously not been freed, and finding a new 5 pitch "free variant" to avoid the other section of aid.</p>
-    <p>To succeed as a team we had to be creative and use several innovative techniques and combine our individual strengths.</p>
-
+    <p>Our goal was to free this route and due to weather, we didn't complete our mission. We did, however, make significant progress towards this goal. We succeeded in free climbing the upper two pitches, which had previously not been freed, and we found a new 5 pitch “free variant" to avoid the other section of aid.</p>
+    <p>We had to be creative and use several innovative techniques and combine our individual strengths to succeed as a team.</p>
 
     <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-5b.jpg" />
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
-
-        <img src="riders-2.jpg" />
         <div class="imgCaption">
-            <p>Caption Goes Here</p>
+            <p>Ines Papert preparing to climb in Torres del Paine</p>
         </div>
     </div>
 
     <div class="imgWrapInline">
-        <img src="riders-3.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-6b.jpg" />
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
         <div class="imgCaption">
-            <p>Caption Goes Here</p>
-        </div>
-    </div>
-
-    <p>For Mayan it was a special experience and she remembers: "Finger and hand jamming directly against ice proved to be a new and very unpleasant challenge. I strongly dislike climbing with no feeling in either hands or feet, yet on this route this was mostly a distant dream. It forced me to pull on all my climbing knowledge to push past pain and succeed in freeing the difficult 29th and 30th pitch with no sensation and profusely bleeding fingers."</p>
-    <p>And for me, it was overwhelming and many new experiences too. Never before would I have thought of deciding to climb wearing my rock shoe on one side and my ice boot with crampons on the other foot! But on the 18th pitch, a 7b+ off width, there didn't seem to be any other option than to use this new technique. Additionally using ice axes, both for climbing with and as protection.</p>
-
-
-    <div class="imgWrapInline">
-        <img src="riders-5.jpg" />
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
-        <div class="imgCaption">
-            <p>Caption Goes Here</p>
+            <p>Ines Papert climbing "The Rosendach" pitch 27 of the route Riders on the storm in Torres del Paine</p>
         </div>
     </div>
 
     <div class="imgWrap">
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-4b.jpg" />
+    </div>
+
+    <p>“Finger and hand jamming directly against ice proved to be a new and very unpleasant challenge,” remembers Mayan. “I strongly dislike climbing with no feeling in either hands or feet, yet on this route this was mostly a distant dream. It forced me to pull on all my climbing knowledge to push past pain and succeed in freeing the difficult 29th and 30th pitch with no sensation and profusely bleeding fingers.”</p>
+    <p>And for me, it was overwhelming and offered many new experiences too. Never before would I have considered deciding to climb wearing my rock shoe on one side and my ice boot with crampons on the other foot! But on the 18th pitch, a 7b+ off width, there didn't seem to be any other option than to use this new technique. Additionally, using ice axes, both for climbing with and as protection.</p>
+
+    <div class="imgWrapInline">
         <div class="pullquote">"Never before would I have thought of deciding to climb wearing my rock shoe on one side and my ice boot with crampons on the other foot.  But on the 18th pitch, a 7b+ off width, there didn't seem to be any other option than to use this new technique. Additionally using ice axes, both for climbing with and as protection" - Ines Papert</div>
-        <img src="riders-6.jpg" />
-    </div>
-
-
-    <p>Our trip began with incredibly stable weather and with the knowledge that in Patagonia a good summit day is rare. So we quickly decided to make the most of the stable weather and focus on making it to the summit, before investing time into free climbing the difficult lower pitches. The tactic worked, and on the last really good day, after three weeks on the wall, we made it to the summit. We reached the top of Torres central at 12.48 on the 6th February on a rare perfect day.</p>
-    <p>However, our success was dampened that night when we were woken by a huge rock falling past the portaledges and a piece tearing our fly open and narrowly missing us. Shaken yet still determined to finish the route, we returned to work on free climbing the lower pitches.</p>
-
-    <div class="imgWrapInline">
-        <img src="riders-7.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-10b.jpg" />
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
         <div class="imgCaption">
-            <p>Caption Goes Here</p>
+            <p>Ines Papert and Mayan Smith-Gobat approching the route riders on the storm in Torres del Paine</p>
         </div>
     </div>
 
     <div class="imgWrapInline">
-        <img src="riders-8.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-7b.jpg" />
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
         <div class="imgCaption">
-            <p>Caption Goes Here</p>
+            <p>Ines Papert and Mayan Smith-Gobat on top of Torre Central after their climb of the route riders on the storm</p>
+        </div>
+    </div>
+
+    <p>Our trip began with incredibly stable weather and with the knowledge that in Patagonia, a good summit day is rare. We quickly decided to make the most of the stable weather conditions and focus on making it to the summit before investing time into free climbing the difficult lower pitches. This tactic worked, and on the last really good day, and after three weeks on the wall, we made it to the summit. We reached the top of Torres Central at 12.48 on the 6th February on a (rare) perfect day.</p>
+    <p>However, our success was dampened that night when we were awoken by a huge rock falling past the portaledges. A piece of our fly was torn open when a rock fell and narrowly missed us. We were shaken but determined to finish the route. We returned to work on free climbing the lower pitches.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-8b.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <div class="imgCaption">
+            <p>Ines Papert climbing pitch 15 of the route Riders on the storm in Torres del Paine</p>
+        </div>
+    </div>
+
+    <p>After our perfect summit day, the weather deteriorated, becoming truly ‘Patagonian’, which made it nearly impossible to climb. We had no other choice than to leave the two crux pitches of our variation without an ascent.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-9b.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <div class="imgCaption">
+            <p>Ines Papert climbing pitch 23 of the route Riders on the storm in Torres del Paine</p>
+        </div>
+    </div>
+
+    <p>During the entire time we spent on this wall, our nerves were constantly tested by the weather, rock, and ice fall. Early in the trip, a piece of ice hit my helmet, cracking it in half. On the last day, I jumared up a fixed rope which was nearly cut through by rockfall. These incidents caused me to decide that I have had a lot of luck on the wall. Even though the prospect of coming back is very tempting, I have decided the level of risk is not worth it.</p>
+    <p>Mayan, however, is motivated to return and try this route again, and for this I wish her all the luck in the world.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-11b.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
+        <div class="imgCaption">
+            <p>Ines Papert resting in the portaledge 600m above ground on the route Riders on the storm in Torres del Paine</p>
         </div>
     </div>
 
     <div class="imgWrapInline">
-        <img src="riders-9.jpg" />
+        <img src="http://blog-media.arcteryx.com/images/articles/riders-12b.jpg" />
         <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
         <div class="imgCaption">
-            <p>Caption Goes Here</p>
-        </div>
-    </div>
-
-    <div class="imgWrapInline">
-        <img src="riders-10.jpg" />
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
-        <div class="imgCaption">
-            <p>Caption Goes Here</p>
-        </div>
-    </div>
-
-    <p>After our perfect summit day the weather continuously deteriorated, becoming truly ‘Patagonian’ making it nearly impossible to climb. We had no other choice than to leave the two crux pitches of our variation without an ascent.</p>
-    <p>For the entire time on this wall our nerves were constantly tested, by the weather, rock and ice fall. Early in the trip a piece of ice hit my helmet, leaving it cracked in half. On the last day I jumared up a fixed rope which was nearly cut through by rockfall. These instances caused me to decide that I have had a lot of luck on the wall. Even though the prospect of coming back is very tempting I have decided the level of risk is not worth it.</p>
-    <p>However, Mayan is motivated to return and try this route again, and for this I wish her all the luck in the world.</p>
-
-    <div class="imgWrapInline">
-        <img src="riders-11.jpg" />
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
-        <div class="imgCaption">
-            <p>Caption Goes Here</p>
-        </div>
-    </div>
-
-    <div class="imgWrapInline">
-        <img src="riders-12.jpg" />
-        <div class="photoCred">Photo: <span class="bolder">Thomas Senf</span></div>
-        <div class="imgCaption">
-            <p>Caption Goes Here</p>
+            <p>Ines Papert and Mayan Smith-Gobat descending after they have climbed the route riders on the storm in Torres del Paine</p>
         </div>
     </div>
 
