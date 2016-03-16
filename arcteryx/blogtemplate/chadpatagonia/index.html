@@ -1,0 +1,809 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 900;
+        width: 100%;
+        text-transform: uppercase;
+        line-height: .9em;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #171717;
+    }
+
+
+    .fullbleedWrap .imgWrap h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 1.2em !important;
+        width: 90%;
+        text-transform: none;
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px #171717;
+        margin-top: -20px;
+        padding-left: 0 !important;
+    }
+
+    .fullbleedWrap h1 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+
+    .fullbleedWrap h2 {
+        position: relative;
+        font-size: 24px;
+        font-weight: 600;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .fullbleedWrap h5 {
+        position: relative;
+        font-size: 16px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .fullbleedWrap h5 a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    .fullbleedWrap h3 {
+        font-size: 18px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 2em 0 0 0;
+        position: relative;
+        line-height: 1.7em;
+        text-transform: uppercase;
+
+    }
+
+    .fullbleedWrap ul {
+        max-width: 1500px;
+        padding-left: 8%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+    }
+
+    .fullbleedWrap ul li {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 80%;
+        max-width: 700px;
+    }
+
+
+    .fullbleedWrap ul li .ulTitle {
+        font-weight: 900;
+    }
+
+
+    .fullbleedWrap .vertImage {
+        float: right;
+        margin: 30px;
+        width: 60%;
+        max-width: 500px;
+        min-width: 350px;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+
+    .fullbleedWrap .vertImageLeft {
+        float: left;
+        margin: 30px;
+        width: 20%;
+        max-width: 450px;
+        min-width: 350px;
+        clear: left;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        position: relative;
+        max-width: 1500px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fullbleedWrap .imgWrapInline .pullquote {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: left;
+        line-height: 1.3em;
+        width: 80%;
+        max-width: 650px;
+        font-style: italic;
+        text-shadow: 1px 1px #000;
+    }
+
+    .fullbleedWrap .imgWrapInline {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .fullbleedWrap .imgWrapInline img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption {
+        width: 100%;
+
+        background: #eee;
+        margin-top: 0;
+        color: #171717;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 20px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption p {
+        padding-left: 0;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.4em !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .catTitle {
+        font-size: .8em;
+        font-weight: 100;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .photoCred {
+        padding-left: 0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 900;
+        color: #444;
+        margin-top: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        max-width: 350px;
+        background: #000;
+        opacity: .75;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap h1 {
+        text-shadow: none;
+       color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3%;
+        width: 90%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul {
+        color: white;
+        width: 100%;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul li {
+        width: 90%;
+        margin: 5px 0;
+        font-size: 15px;
+        display: list-item;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+        font-weight: 100;
+        position: absolute;
+        top: 30px;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .fullbleedWrap .blogList {
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/justinbio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 22%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -10px;
+        }
+
+        .fullbleedWrap .vertImage {
+            float: none;
+            margin: 30px;
+            width: 80%;
+            margin-right: 0;
+            min-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 730px) {
+
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+            max-width: 250px;
+            background: #000;
+            opacity: .75;
+            box-sizing: border-box;
+            padding: 20px 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 630px) {
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            box-sizing: border-box;
+            padding: 20px 10px;
+            margin-left: -2%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap img {
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: .9em;
+            margin-bottom: 10px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            line-height: 1.5em !important;
+        }
+
+        .fullbleedWrap .imgWrap h1 .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
+
+        .fullbleedWrap p {
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+
+        .fullbleedWrap h3 {
+            padding-left: 0 !important;
+        }
+
+        .fullbleedWrap h5 {
+            padding-left: 0 !important;
+            width: 90%;
+        }
+
+        .fullbleedWrap .imgWrapInline .pullquote {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.3em;
+            width: 80%;
+            max-width: 650px;
+            font-style: italic;
+            text-shadow: 1px 1px #000;
+        }
+
+        .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+            font-weight: 100;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: white;
+            font-size: .7em;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #171717;
+            z-index: 10000;
+        }
+
+    }
+</style>
+
+<div class="fullbleedWrap">
+<!--
+    <div class="imgWrap">
+        <div class="photoCred">Photos: <span class="bolder"></span></div>
+        <div class="titleWrap">
+            
+        </div>
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-4.jpg" />
+    </div>
+-->
+    <h1>Patagonia: </h1>
+    <h2>A Photo Safari</h3>
+
+    <h5>Words by: <span class="bolder">Jill Macdonald</span> | Photos by: <span class="bolder"><a href="http://lithographica.arcteryx.com/issue-7#over-exposure" target="_blank">Chad Sayers</a></span> &amp; <span class="bolder"><a href=" http://www.steveogle.ca" target="_blank">Steve Ogle</a></span></h5>
+
+    <p>Chad Sayers and Steve Ogle were in Patagonia last year (see <a href="http://lithographica.arcteryx.com/issue-8#el-fin-del-mundo" class="bolder" target="_blank">Issue 8: Lithographica, El Fin Del Mundo</a>). Sponsored vagabonds in a sense – professional skier (Sayers) and action sports photographer (Ogle) – they have perfected the arts of passing time and observation while on the road – with cameras.</p>
+    
+    <p>Throwback slide film guy Sayers; digital guy Ogle. Both pack up their gear and tripods at 4 am to catch fleeting ambient light. Lining up the right place with the right moment. </p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-5.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p>“Slide film is great for fine details. Textures really come through and become a focus of their own.” </p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-6.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p> “We look at a map and then drive. It’s like a safari; we’re searching for rare species. Moments. Things you wouldn’t notice if you were whizzing past in a bus or focused on a climbing objective.”</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-3.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p>“Patagonia is known for its wild light. There’s such a short window of time though, especially in the mountains. Everything has to be ready.”</p>
+        </div>
+    </div>
+
+    <p>Perfect moments include an alphabet of waiting for all the right conditions to fall into place. No matter the location, patience and dedication are required. In Sayers’ case, this includes weeks between taking the shots and actually viewing the processed results on his light table back at home. </p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-1.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p>“We could see the wind and the light adding dimension to a horizontal plane. The grasses are all bent; they’re pulling the shadows in that direction.” </p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-2.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p>“We watched this hole open up, like a reflection, scoured off the ridge.”</p>
+        </div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-7.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Chad Sayers</span></div>
+        <div class="imgCaption">
+            <p> “The skies are huge, like the scale of the mountains. Light is fleeting. It’s there, and very quickly, it’s gone.” </p>
+        </div>
+    </div>    
+
+    <p>On editorial assignment, Ogle has to work within the moment. Light, action, and story do not repeat themselves. It’s the antithesis of what he can do in his free time, choosing location and subject, or capturing a moment because it is there; maybe it will eventually be used, somewhere. At work, plenty of what is taken never makes it into the designated story.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-9.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>  
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-12.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>  
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-13.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-15.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-16.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-19.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/chadpatagonia-21.jpg" />
+        <div class="photoCred">Photo: <span class="bolder">Steve Ogle</span></div>
+    </div>
+
+    <p>Out of the three weeks they spent in Patagonia only a few days were skiable. We can look at these circumstances as constraints or freedoms. It’s easy to think that professionals go out and nail their line or their shot every time. They don’t. Some stories end up scrapped altogether. But it’s never a wasted opportunity. For Chad, every trip is a photo safari. (see <a href="http://lithographica.arcteryx.com/issue-7" class="bolder" target="_blank">Litho Issue 7 – Steadfast</a>). Having Steve out there beside him highlights the differences and sameness of what they notice, and what they’re willing to do to capture that. A wealth of images and experiences.</p> 
+    
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+    </div>
+
+</div>
