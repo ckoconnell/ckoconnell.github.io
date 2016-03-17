@@ -12,18 +12,25 @@ body {
     z-index: 0;
     font-family: 'Avenir LT W01_55 Roman', Avenir, sans-serif;
     height: 100%;
+
+    @media screen and (max-width: 650px) {
+    	background-size: 130% auto;
+    	background-position: right top;
+    }
 }
 
 
 .container {
 	position: absolute;
 	width: 50%;
-	bottom: 0;
+	
 	top: 0;
 	left: 0;
 	background: black;
 	z-index: 1;
-	height: 100%;
+	height: auto;
+	padding-bottom: 30%;
+	margin-bottom: -10px;
 
 
 	.logoWrap {
@@ -31,7 +38,7 @@ body {
 		position: absolute;
 		top: 45px;
 		right: -98px;
-		margin-bottom: 30px;
+
 
 		svg {
 			width: 200px;

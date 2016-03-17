@@ -13,31 +13,38 @@ body {
   font-family: 'Avenir LT W01_55 Roman', Avenir, sans-serif;
   height: 100%;
 }
+@media screen and (max-width: 650px) {
+  /* line 2, style.scss */
+  body {
+    background-size: 130% auto;
+    background-position: right top;
+  }
+}
 
-/* line 18, style.scss */
+/* line 23, style.scss */
 .container {
   position: absolute;
   width: 50%;
-  bottom: 0;
   top: 0;
   left: 0;
   background: black;
   z-index: 1;
-  height: 100%;
+  height: auto;
+  padding-bottom: 30%;
+  margin-bottom: -10px;
 }
-/* line 29, style.scss */
+/* line 36, style.scss */
 .container .logoWrap {
   z-index: 1;
   position: absolute;
   top: 45px;
   right: -98px;
-  margin-bottom: 30px;
 }
-/* line 36, style.scss */
+/* line 43, style.scss */
 .container .logoWrap svg {
   width: 200px;
 }
-/* line 42, style.scss */
+/* line 49, style.scss */
 .container .contentWrap {
   position: relative;
   margin-top: 290px;
@@ -45,7 +52,7 @@ body {
   padding-top: 0px;
   padding-right: 30px;
 }
-/* line 50, style.scss */
+/* line 57, style.scss */
 .container .contentWrap .titleWrap {
   display: block;
   position: relative;
@@ -53,7 +60,7 @@ body {
   width: 100%;
   margin-bottom: 90px;
 }
-/* line 57, style.scss */
+/* line 64, style.scss */
 .container .contentWrap .titleWrap svg {
   display: block;
   float: right;
@@ -62,19 +69,19 @@ body {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 72, style.scss */
+/* line 79, style.scss */
 .container .contentWrap .eventDetails {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 78, style.scss */
+/* line 85, style.scss */
 .container .contentWrap .eventDetails h1 {
   text-transform: uppercase;
   font-size: .8em;
   font-weight: 900;
 }
-/* line 84, style.scss */
+/* line 91, style.scss */
 .container .contentWrap .eventDetails h3 {
   line-height: 1em;
   font-size: 1em;
@@ -82,7 +89,7 @@ body {
   padding-bottom: -5px;
   font-weight: 100;
 }
-/* line 92, style.scss */
+/* line 99, style.scss */
 .container .contentWrap .eventDetails .arcLogo {
   display: block;
   width: 200px;
@@ -91,11 +98,11 @@ body {
   text-align: right;
   margin-top: 60px;
 }
-/* line 100, style.scss */
+/* line 107, style.scss */
 .container .contentWrap .eventDetails .arcLogo svg {
   width: 120px;
 }
-/* line 104, style.scss */
+/* line 111, style.scss */
 .container .contentWrap .eventDetails .arcLogo a {
   position: relative;
   margin-top: 15px;
