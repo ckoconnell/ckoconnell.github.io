@@ -40,6 +40,12 @@ body {
   padding-bottom: 15%;
   margin-bottom: -10px;
 }
+@media screen and (min-height: 800px) {
+  /* line 28, style.scss */
+  .container {
+    padding-bottom: 50%;
+  }
+}
 @media screen and (max-width: 500px) {
   /* line 28, style.scss */
   .container {
@@ -48,7 +54,7 @@ body {
     text-align: center;
   }
 }
-/* line 47, style.scss */
+/* line 51, style.scss */
 .container .logoWrap {
   z-index: 1;
   position: absolute;
@@ -56,7 +62,7 @@ body {
   right: -98px;
 }
 @media screen and (max-width: 500px) {
-  /* line 47, style.scss */
+  /* line 51, style.scss */
   .container .logoWrap {
     top: -100px;
     left: 0;
@@ -64,11 +70,11 @@ body {
     text-align: center;
   }
 }
-/* line 61, style.scss */
+/* line 65, style.scss */
 .container .logoWrap svg {
   width: 200px;
 }
-/* line 68, style.scss */
+/* line 72, style.scss */
 .container .contentWrap {
   position: relative;
   margin-top: 290px;
@@ -77,12 +83,12 @@ body {
   padding-right: 30px;
 }
 @media screen and (max-width: 500px) {
-  /* line 68, style.scss */
+  /* line 72, style.scss */
   .container .contentWrap {
     margin-top: 150px;
   }
 }
-/* line 80, style.scss */
+/* line 84, style.scss */
 .container .contentWrap .titleWrap {
   display: block;
   position: relative;
@@ -91,12 +97,12 @@ body {
   margin-bottom: 90px;
 }
 @media screen and (max-width: 500px) {
-  /* line 80, style.scss */
+  /* line 84, style.scss */
   .container .contentWrap .titleWrap {
     margin-bottom: 15px;
   }
 }
-/* line 91, style.scss */
+/* line 95, style.scss */
 .container .contentWrap .titleWrap svg {
   display: block;
   float: right;
@@ -105,19 +111,19 @@ body {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 106, style.scss */
+/* line 110, style.scss */
 .container .contentWrap .eventDetails {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 111, style.scss */
+/* line 115, style.scss */
 .container .contentWrap .eventDetails h1 {
   text-transform: uppercase;
   font-size: .8em;
   font-weight: 900;
 }
-/* line 117, style.scss */
+/* line 121, style.scss */
 .container .contentWrap .eventDetails h3 {
   line-height: 1em;
   font-size: 1em;
@@ -125,7 +131,7 @@ body {
   padding-bottom: -5px;
   font-weight: 100;
 }
-/* line 125, style.scss */
+/* line 129, style.scss */
 .container .contentWrap .eventDetails .arcLogo {
   display: block;
   width: 200px;
@@ -134,11 +140,11 @@ body {
   text-align: right;
   margin-top: 60px;
 }
-/* line 133, style.scss */
+/* line 137, style.scss */
 .container .contentWrap .eventDetails .arcLogo svg {
   width: 120px;
 }
-/* line 137, style.scss */
+/* line 141, style.scss */
 .container .contentWrap .eventDetails .arcLogo a {
   position: relative;
   margin-top: 15px;
