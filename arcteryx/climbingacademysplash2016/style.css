@@ -1,0 +1,107 @@
+/* line 2, style.scss */
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #171717;
+  color: white;
+  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/fullbleedbg.jpg") no-repeat;
+  background-size: 90% auto;
+  background-position: right -50px;
+  z-index: 0;
+  font-family: 'Avenir LT W01_55 Roman', Avenir, sans-serif;
+}
+
+/* line 17, style.scss */
+.container {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 1;
+}
+/* line 27, style.scss */
+.container .logoWrap {
+  z-index: 1;
+  position: absolute;
+  top: 45px;
+  right: -98px;
+}
+/* line 33, style.scss */
+.container .logoWrap svg {
+  width: 200px;
+}
+/* line 39, style.scss */
+.container .contentWrap {
+  position: relative;
+  margin-top: 290px;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+/* line 46, style.scss */
+.container .contentWrap .titleWrap {
+  display: block;
+  position: relative;
+  float: right;
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* line 53, style.scss */
+.container .contentWrap .titleWrap svg {
+  display: block;
+  float: right;
+  width: 200px;
+  fill: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+/* line 68, style.scss */
+.container .contentWrap .eventDetails {
+  position: relative;
+  display: block;
+  margin-top: 40px;
+  width: 100%;
+}
+/* line 74, style.scss */
+.container .contentWrap .eventDetails h1 {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 900;
+}
+/* line 80, style.scss */
+.container .contentWrap .eventDetails h3 {
+  line-height: 1em;
+  font-size: 1em;
+  margin-bottom: -10px;
+  padding-bottom: -5px;
+  font-weight: 100;
+}
+/* line 88, style.scss */
+.container .contentWrap .eventDetails .arcLogo {
+  display: block;
+  width: 200px;
+  height: 100px;
+  float: right;
+  text-align: right;
+  margin-top: 90px;
+}
+/* line 96, style.scss */
+.container .contentWrap .eventDetails .arcLogo svg {
+  width: 140px;
+}
+/* line 100, style.scss */
+.container .contentWrap .eventDetails .arcLogo a {
+  position: relative;
+  margin-top: 15px;
+  font-weight: 300;
+  color: white;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  padding-right: 30px;
+}
