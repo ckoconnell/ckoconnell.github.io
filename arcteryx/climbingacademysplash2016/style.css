@@ -23,8 +23,8 @@ body {
 @media screen and (max-width: 500px) {
   /* line 2, style.scss */
   body {
-    background-size: 100% auto;
-    background-position: right -285px;
+    background-size: 500px auto;
+    background-position: right -330px;
   }
 }
 
