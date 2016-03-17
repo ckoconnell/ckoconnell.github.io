@@ -11,6 +11,7 @@ body {
     background-position: right -50px;
     z-index: 0;
     font-family: 'Avenir LT W01_55 Roman', Avenir, sans-serif;
+    height: 100%;
 }
 
 
@@ -22,6 +23,7 @@ body {
 	left: 0;
 	background: black;
 	z-index: 1;
+	height: 100%;
 
 
 	.logoWrap {
@@ -29,6 +31,7 @@ body {
 		position: absolute;
 		top: 45px;
 		right: -98px;
+		margin-bottom: 30px;
 
 		svg {
 			width: 200px;
@@ -40,15 +43,16 @@ body {
 		position: relative;
 		margin-top: 290px;
 		text-align: right;
-		padding-top: 30px;
+		padding-top: 0px;
 		padding-right: 30px;
+
 
 		.titleWrap {
 			display: block;
 			position: relative;
 			float: right;
 			width: 100%;
-			margin-bottom: 30px;
+			margin-bottom: 90px;
 
 			svg {
 				display: block;
@@ -68,7 +72,7 @@ body {
 		.eventDetails {
 			position: relative;
 			display: block;
-			margin-top: 40px;
+			
 			width: 100%;
 
 			h1 {
@@ -91,10 +95,10 @@ body {
 				height: 100px;
 				float: right;
 				text-align: right;
-				margin-top: 90px;
+				margin-top: 60px;
 
 				svg {
-					width: 140px;
+					width: 120px;
 				}
 
 				a {
