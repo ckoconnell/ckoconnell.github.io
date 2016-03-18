@@ -37,7 +37,7 @@ body {
 	padding-bottom: 15%;
 	margin-bottom: -10px;
 
-	@media screen and (min-height: 800px) {
+	@media screen and (min-height: 800px) and (max-width: 620px) {
 		padding-bottom: 50%;
 	}
 
