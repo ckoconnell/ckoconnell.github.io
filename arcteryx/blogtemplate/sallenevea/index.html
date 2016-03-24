@@ -1,0 +1,763 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        right: 20%;
+        background: #333;
+        opacity: .75;
+    }
+
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 100;
+        width: 100%;
+        text-transform: uppercase;
+        line-height: .9em;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #171717;
+        text-align: center;
+
+    }
+
+
+    .fullbleedWrap .imgWrap h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 1.2em !important;
+        width: 90%;
+        text-transform: none;
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px #171717;
+        margin-top: -20px;
+        padding-left: 0 !important;
+    }
+
+    .fullbleedWrap .imgWrap .imgCaption p {
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+    .fullbleedWrap h2 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 100;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .fullbleedWrap h2 .highlight {
+        line-height: 1.25em;
+        font-size: 48px;
+        font-weight: 100;
+    }
+
+
+    .fullbleedWrap h5 {
+        position: relative;
+        font-size: 16px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap h5 a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    .fullbleedWrap h3 {
+        font-size: 18px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 2em 0 0 0;
+        position: relative;
+        line-height: 1.7em;
+        text-transform: uppercase;
+
+    }
+
+    .fullbleedWrap ul {
+        max-width: 1500px;
+        padding-left: 8%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+    }
+
+    .fullbleedWrap ul li {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 80%;
+        max-width: 700px;
+    }
+
+
+    .fullbleedWrap ul li .ulTitle {
+        font-weight: 900;
+    }
+
+
+    .fullbleedWrap .vertImage {
+        float: right;
+        margin: 30px;
+        width: 60%;
+        max-width: 500px;
+        min-width: 350px;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+
+    .fullbleedWrap .vertImageLeft {
+        float: left;
+        margin: 30px;
+        width: 20%;
+        max-width: 450px;
+        min-width: 350px;
+        clear: left;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        position: relative;
+        max-width: 1500px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fullbleedWrap .imgWrapInline .pullquote {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: left;
+        line-height: 1.3em;
+        width: 80%;
+        max-width: 650px;
+        font-style: italic;
+        text-shadow: 1px 1px #000;
+    }
+
+    .fullbleedWrap .imgWrapInline {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .fullbleedWrap .imgWrapInline img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption {
+        width: 100%;
+
+        background: #eee;
+        margin-top: 0;
+        color: #171717;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 20px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption p {
+        padding-left: 0;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.4em !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .catTitle {
+        font-size: .8em;
+        font-weight: 100;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .photoCred {
+        padding-left: 0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 900;
+        color: #444;
+        margin-top: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        max-width: 350px;
+        background: #000;
+        opacity: .75;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap h1 {
+        text-shadow: none;
+       color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3%;
+        width: 90%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul {
+        color: white;
+        width: 100%;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul li {
+        width: 90%;
+        margin: 5px 0;
+        font-size: 15px;
+        display: list-item;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+        font-weight: 100;
+        position: absolute;
+        top: 30px;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .fullbleedWrap .blogList {
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/justinbio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 22%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -10px;
+        }
+
+        .fullbleedWrap .vertImage {
+            float: none;
+            margin: 30px;
+            width: 80%;
+            margin-right: 0;
+            min-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 730px) {
+
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+            max-width: 250px;
+            background: #000;
+            opacity: .75;
+            box-sizing: border-box;
+            padding: 20px 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 630px) {
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            box-sizing: border-box;
+            padding: 20px 10px;
+            margin-left: -2%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap img {
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: .9em;
+            margin-bottom: 10px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            line-height: 1.5em !important;
+        }
+
+        .fullbleedWrap .imgWrap h1 .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
+
+        .fullbleedWrap p {
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+
+        .fullbleedWrap h3 {
+            padding-left: 0 !important;
+        }
+
+        .fullbleedWrap h5 {
+            padding-left: 0 !important;
+            width: 90%;
+        }
+
+        .fullbleedWrap .imgWrapInline .pullquote {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.3em;
+            width: 80%;
+            max-width: 650px;
+            font-style: italic;
+            text-shadow: 1px 1px #000;
+        }
+
+        .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+            font-weight: 100;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: white;
+            font-size: .7em;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #171717;
+            z-index: 10000;
+        }
+
+    }
+</style>
+
+<div class="fullbleedWrap">
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-13.jpg" />
+    </div>
+
+    <h2>Sella Nevea</h2>
+
+    <h5>Words by: <span class="bolder"><a href="http://www.arcteryx.com/athlete.aspx?EN/PatrickVuagnat" target="_blank">Pat Vuagnat</a></span> | Photos by: <span class="bolder"><a href="https://johanaxel.wordpress.com/" target="_blank">Johan Axelsson</a></span></h5>
+
+    <p>At first sight, it might seem not very obvious to still find alpine powder stash, when the 3 letters of the www prefix is all you need to dial, to instantly get the universal knowledge at the tips of your 10 fingers. Is the “secret spot”, the rider’s Holy Grail, that lost powder hole that only few people have information, is becoming a scarce, depleted in a share-and-like vortex? Everything seems to have been seen, done and now subject to rarity. Well almost, because luckily there will be always adventure to be started right at your doorstep, if you’re staring at the right direction, willing to get it and if incidentally you're having a pair of skis strapped on your rooftop.</p>
+    
+    <p>This first half of winter, we’ve been cursed by either rollercoaster temperatures or strong winds, but with positive attitude, there’s always income to be made out of adversity. Alps are blanketed with lifts system and huts to fill the gaps in between. You can get blinded by the lights of shiny big snow field resorts, or look closely at the maps to find gems that have been left over by the hype. It gave me the chance to explore new neighbors territories, 8 hours drive distant from my Engelberg winter home. After having crossed 3 countries (Swiss, Austria, Liechtenstein) we finally reached Sella Nevea.</p>
+    
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-2.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-3.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-4.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-5.jpg" />
+    </div>
+
+
+    <p>Sella Nevea is a pocket size Italian ski center located in the Julian’s Alps, featuring 3 lifts, 1 pizzeria and a handful of dull concrete buildings. From the almost empty car park, at a modest elevation of 1050m, the orange cabins of a gondola laid us 1000m further up, where a cable car took us to the final step, at 2400m right on the Slovenian boarder. Once the super easy accessible and fun ridge line has been milked out, with the concourse of rare locals, the best is still to come, with the help of our climbing skins and a little sweat. Anything around this 360° snow circus is reachable within a range of 30mn to 2h hike, offering great rides, from couloirs to big open faces. If you’re really greedy, there's twice more to do if you go explore further the back drop faces.</p>
+    
+    <p>Sella Nevae’s terrain will not let your body unmoved, but will give you tired legs and a wide smile across the face. And if possibly our mood got gloomy after a total white out day, we just had to let or skis slide down to the refugio Gilberti.  7 years ago, Irene and her boyfriend Paolo, the refuge keepers, fell in love for this ancient stone building.  Great hosts and lovely humans, they will warm up our spirit with their cheerful presence and fill up bellies with tasteful local dishes. After having checked some of the brightest night sky that the Milky Way has to offer and before heading under the rooftop dormitory to get some rest, at the bar Irene offers us a “zuccherino” : a sugar that has dipped in a special blend of alpine herbs and 90° alcohol! She’s watching amused our funny faces engendered by the powerful treat before eventually joining the degustation. As she says :“One for each eye”.</p>
+    
+   
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-6.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-10.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-11.jpg" />
+    </div>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-12.jpg" />
+    </div>
+
+    <!-- 
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/sellanevea-1.jpg" />>
+    </div> -->
+
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+
+    </div>
+
+</div>
