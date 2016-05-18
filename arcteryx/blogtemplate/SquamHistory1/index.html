@@ -1,0 +1,774 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 900;
+        width: 100%;
+        text-transform: uppercase;
+        line-height: .9em;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #171717;
+    }
+
+
+    .fullbleedWrap .imgWrap h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 1.2em !important;
+        width: 90%;
+        text-transform: none;
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px #171717;
+        margin-top: -20px;
+        padding-left: 0 !important;
+    }
+
+    .fullbleedWrap h1 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+
+    .fullbleedWrap h2 {
+        position: relative;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .fullbleedWrap h5 {
+        position: relative;
+        font-size: 16px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 60px;
+        
+    }
+
+    .fullbleedWrap .upper {
+        text-transform: uppercase;
+    }
+
+
+    .fullbleedWrap h5 a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    .fullbleedWrap h3 {
+        font-size: 18px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 2em 0 0 0;
+        position: relative;
+        line-height: 1.7em;
+        text-transform: uppercase;
+
+    }
+
+    .fullbleedWrap ul {
+        max-width: 1500px;
+        padding-left: 8%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+    }
+
+    .fullbleedWrap ul li {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 80%;
+        max-width: 700px;
+    }
+
+
+    .fullbleedWrap ul li .ulTitle {
+        font-weight: 900;
+    }
+
+
+    .fullbleedWrap .vertImage {
+        float: right;
+        margin: 30px;
+        width: 60%;
+        max-width: 500px;
+        min-width: 350px;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+
+    .fullbleedWrap .vertImageLeft {
+        float: left;
+        margin: 30px;
+        width: 20%;
+        max-width: 450px;
+        min-width: 350px;
+        clear: left;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        position: relative;
+        max-width: 1500px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fullbleedWrap .imgWrapInline .pullquote {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: left;
+        line-height: 1.3em;
+        width: 80%;
+        max-width: 650px;
+        font-style: italic;
+        text-shadow: 1px 1px #000;
+    }
+
+    .fullbleedWrap .imgWrapInline {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .fullbleedWrap .imgWrapInline img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption {
+        width: 100%;
+
+        background: #eee;
+        margin-top: 0;
+        color: #171717;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 20px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption p {
+        padding-left: 0;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.4em !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .catTitle {
+        font-size: .8em;
+        font-weight: 100;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .photoCred {
+        padding-left: 0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 900;
+        color: #444;
+        margin-top: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        max-width: 350px;
+        background: #000;
+        opacity: .75;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap h1 {
+        text-shadow: none;
+       color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3%;
+        width: 90%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul {
+        color: white;
+        width: 100%;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul li {
+        width: 90%;
+        margin: 5px 0;
+        font-size: 15px;
+        display: list-item;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+        font-weight: 100;
+        position: absolute;
+        top: 30px;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .fullbleedWrap .blogList {
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/justinbio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 22%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -10px;
+        }
+
+        .fullbleedWrap .vertImage {
+            float: none;
+            margin: 30px;
+            width: 80%;
+            margin-right: 0;
+            min-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 730px) {
+
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+            max-width: 250px;
+            background: #000;
+            opacity: .75;
+            box-sizing: border-box;
+            padding: 20px 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 630px) {
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            box-sizing: border-box;
+            padding: 20px 10px;
+            margin-left: -2%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap img {
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: .9em;
+            margin-bottom: 10px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            line-height: 1.5em !important;
+        }
+
+        .fullbleedWrap .imgWrap h1 .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
+
+        .fullbleedWrap p {
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+
+        .fullbleedWrap h3 {
+            padding-left: 0 !important;
+        }
+
+        .fullbleedWrap h5 {
+            padding-left: 0 !important;
+            width: 90%;
+        }
+
+        .fullbleedWrap .imgWrapInline .pullquote {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.3em;
+            width: 80%;
+            max-width: 650px;
+            font-style: italic;
+            text-shadow: 1px 1px #000;
+        }
+
+        .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+            font-weight: 100;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: white;
+            font-size: .7em;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #171717;
+            z-index: 10000;
+        }
+
+    }
+</style>
+
+<div class="fullbleedWrap">
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-2.jpg" />
+    </div>
+
+    <h2>The Squamish Progression - Part One:<br>Leclerc & Weldon</h2> 
+
+    <h5>Words by: Drew Copeland</h5>
+
+    <p>As increasing numbers of climbers come to Squamish to test themselves on the growing bounty of routes, standards are pushed. The new normal reaches a level inconceivable by those who were on the edge only 20 years prior. This is the progression of mountain pursuits: harder, higher, faster. </p>
+
+    <p>Many visionary climbers have dedicated themselves and left their mark on Squamish’s climbing history. With each hold scrubbed, piton fixed, advancement in technique and equipment, and scrap of beta shared, the young guns are situated to elevate existing standards. They are building upon the efforts and accomplishments of preceding generations. </p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-1.jpg" />
+    </div>
+
+    <p>As today’s leading climbers look up and visualize where they will take the sport, they also pause to consider from where it has come. </p>
+
+    <p>Marc Andre LeClerc is on the frontier of hard climbing today. He was 16 years old when he first climbed in Squamish and he recalls getting sandbagged by Apron Strings.</p>
+
+    <p>“I fell off the crux and eventually got through it, but then we bailed because we realized that the Grand Wall was over our heads still. That was my first time climbing on the Squamish granite.”</p>
+      
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-3.jpg" />
+    </div>
+
+    <p>Marc has certainly progressed in bounds since his early forays here, ticking numerous difficult traditional, sport and solo climbs including: the first free ascents of Temptation of St. Anthony and the Raven; and a solo of the Grand in 58 minutes. </p>
+
+    <p>He was inspired by difficult, established routes. “The most influential climber for me that I looked up when I was a teenager was Andrew Boyd,” says Leclerc, remembering one of his early trips to climb the Chief. “From the bottom of Cruel Shoes, my friend Jesse pointed at this face and was like that's War of the Raptors, an Andrew Boyd route.” </p>
+
+    <p>"I just looked at it and as climbed past and then I started looking at his other routes. He's put up so many sick, hard routes. I would try to emulate them back in Harrison, where I was living. I would see features that hadn't been climbed that would be Andrew Boyd routes if they were in Squamish.  So I started projecting those."</p>
+
+    <p>Marc holds many of his predecessors in high regard. “I don't want to leave anyone out. For sure, Hamish Fraser and Peter Croft. I always knew about University Wall, that Peter Croft Freed it with Greg Foweraker. They were like these young and super ambitious climbers and freed this super sick route.”  </p>
+
+    <p>Marc has taken what he learned in Squamish many other destinations, notably his accomplishments in Patagonia.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-4.jpg" />
+    </div>
+
+    <p>Vikki Weldon grew up in a household of climbers. Her three siblings climbed and it wasn’t long before Vikki was off to compete in France, Bulgaria, Scotland, China, Austria, and Ecuador. She has landed in Vancouver for the time, giving her a chance to spend more time in. Squamish. Vikki thinks back to her early days here. </p>
+
+    <p>“I was in Vancouver for a competition, and my coach took a bunch of us up to Squamish for a few days to camp and climb. We bouldered, and I remember getting shut down on a V1 slab. I did manage a send of Easy in an Easy Chair, my first V4.”</p>
+
+    <p>Vikki acknowledges that she’s not a huge history buff from Squamish’s early days, though she recalls a few characters who’s routes and passion left an impression. “Jeremy Blumel, for example, hugely inspires me. Hiding underneath his modesty is huge vision and an intense love for the sport. I also find inspiration in Jola Sanford. She is mostly known for her sport climbing prowess, which is not a genre that Squamish is known for. However, she was pushing standards and keeping up with the boys back in the day, with her first ascent of Free Will and an impressive ascent of Bravado.”</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-5.jpg" />
+    </div>
+
+    <p>“I'm a big fan of Colin Moorhead's routes. That guy knows how to spot a line and make it really enjoyable. I also think that Andrew Boyd has a really unique and bold style that tends to kick me in the ass and teach me how to be a Squamish climber at the same time.” </p>
+
+    <p>Squamish is a mecca, home to a distinct brand of granite crystals, crimping, smearing and jamming. Climbers hone themselves to the type of rock and learn the style of movement as necessary. They swap tips, one-up each other, and elevate the culture.</p>
+
+    <p>“Climbers never seem to run out of new and futuristic projects. Take for example, Tony McLean and Jorge Ackermann's free ascent of the Sheriff's Badge last summer. That wall was begging for a free ascent, and it is today's generation of climbers who are accepting the challenge, says Vikki. “It keeps the climbing scene here in Squamish fresh and inspiring.”</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/squamhistory1-6.jpg" />
+    </div>
+
+   
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+    </div>
+
+
+
+</div>
