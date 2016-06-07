@@ -1,0 +1,754 @@
+<style>
+    .sidebars {
+        display: none !important;
+    }
+
+    .region-highlighted {
+        display: none !important;
+    }
+
+    #page-title {
+        display: none !important;
+    }
+
+    #page {
+        max-width: none;
+    }
+
+    article header {
+        display: none !important;
+    }
+
+    #content {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: Avenir, sans-serif;
+    }
+
+    .node-unpublished {
+        background-color: white !important;
+    }
+
+    .fullbleedWrap {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        height: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fullbleedWrap .imgWrap {
+        position: relative;
+    }
+
+    .fullbleedWrap .imgWrap .titleWrap {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        right: 20%;
+        background: #333;
+        opacity: .75;
+    }
+
+
+    .fullbleedWrap .imgWrap h1 {
+        font-size: 36px;
+        font-weight: 100;
+        width: 100%;
+        text-transform: uppercase;
+        line-height: .9em;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #171717;
+        text-align: center;
+
+    }
+
+
+    .fullbleedWrap .imgWrap h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 1.2em !important;
+        width: 90%;
+        text-transform: none;
+        color: #fff !important;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px #171717;
+        margin-top: -20px;
+        padding-left: 0 !important;
+    }
+
+    .fullbleedWrap .imgWrap .imgCaption p {
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+    .fullbleedWrap h2 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 100;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .fullbleedWrap h2 .highlight {
+        line-height: 1.25em;
+        font-size: 48px;
+        font-weight: 100;
+    }
+
+
+    .fullbleedWrap h5 {
+        position: relative;
+        font-size: 16px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap h5 a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    .fullbleedWrap .bolder {
+        font-weight: 900;
+    }
+
+    .fullbleedWrap p {
+        font-size: 18px;
+        font-weight: 100;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    .fullbleedWrap h3 {
+        font-size: 18px;
+        font-weight: 900;
+        box-sizing: border-box;
+        display: block;
+        max-width: 900px;
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 2em 0 0 0;
+        position: relative;
+        line-height: 1.7em;
+        text-transform: uppercase;
+
+    }
+
+    .fullbleedWrap ul {
+        max-width: 1500px;
+        padding-left: 8%;
+        padding-right: 6%;
+        margin: 1em 0 1.3em;
+        position: relative;
+        line-height: 1.7em;
+    }
+
+    .fullbleedWrap ul li {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 80%;
+        max-width: 700px;
+    }
+
+
+    .fullbleedWrap ul li .ulTitle {
+        font-weight: 900;
+    }
+
+
+    .fullbleedWrap .vertImage {
+        float: right;
+        margin: 30px;
+        width: 60%;
+        max-width: 500px;
+        min-width: 350px;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+
+    .fullbleedWrap .vertImageLeft {
+        float: left;
+        margin: 30px;
+        width: 20%;
+        max-width: 450px;
+        min-width: 350px;
+        clear: left;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .fullbleedWrap .dividerWrap {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .fullbleedWrap .dividerWrap img {
+        width: 80px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .imgWrap {
+        width: 100%;
+        position: relative;
+        max-width: 1500px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+
+    }
+
+    .fullbleedWrap .imgWrap img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fullbleedWrap .imgWrapInline .pullquote {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: left;
+        line-height: 1.3em;
+        width: 80%;
+        max-width: 650px;
+        font-style: italic;
+        text-shadow: 1px 1px #000;
+    }
+
+    .fullbleedWrap .imgWrapInline {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .fullbleedWrap .imgWrapInline img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption {
+        width: 100%;
+
+        background: #eee;
+        margin-top: 0;
+        color: #171717;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 20px;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption p {
+        padding-left: 0;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.4em !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .catTitle {
+        font-size: .8em;
+        font-weight: 100;
+    }
+
+    .fullbleedWrap .imgWrapInline .imgCaption .photoCred {
+        padding-left: 0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 900;
+        color: #444;
+        margin-top: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        max-width: 350px;
+        background: #000;
+        opacity: .75;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap h1 {
+        text-shadow: none;
+       color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3%;
+        width: 90%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul {
+        color: white;
+        width: 100%;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrap .sidebarWrap ul li {
+        width: 90%;
+        margin: 5px 0;
+        font-size: 15px;
+        display: list-item;
+        list-style: square;
+    }
+
+    .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+        font-weight: 100;
+        position: absolute;
+        top: 30px;
+        right: 5%;
+        color: white;
+        font-size: .7em;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0px #171717;
+        z-index: 10000;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder {
+        font-weight: 600;
+    }
+
+    .fullbleedWrap .imgWrap .photoCred .bolder a, .fullbleedWrap .vertImageWrap .photoCred .bolder a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .fullbleedWrap .blogList {
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .fullbleedWrap .videoWrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .fullbleedWrap .athleteWrap {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap {
+        display: inline-block;
+        width: 185px;
+        height: 250px;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteImgWrap .athleteImg {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: url('http://blog-media.arcteryx.com/images/articles/justinbio.jpg') no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 15px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio h1 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio p {
+        font-size: 14px;
+        color: #333;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        line-height: 1.5em;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio a {
+        font-size: 13px;
+        padding: 5px 10px 3px 10px;
+        border: 1px solid #333;
+        color: #333;
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .fullbleedWrap .videoWrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster {
+        position: relative;
+        display: block;
+        width: 98%;
+        padding-bottom: 55.6%;
+        max-width: 1280px;
+        max-height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .fullbleedWrap .videoPoster iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .removePadding {
+        padding-bottom: 0 !important;
+    }
+
+    .fullbleedWrap .videoPoster .playButton {
+        position: absolute;
+        z-index: 1000;
+        width: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-top: 22%;
+    }
+
+    .fullbleedWrap .videoPoster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg {
+        opacity: .75;
+        transition: all .5s ease-out;
+    }
+
+    .fullbleedWrap .videoPoster svg .ytp-large-play-button-bg:hover {
+        fill: red;
+        transition: all .1s ease-out;
+    }
+
+    .fullbleedWrap .athleteWrap .athleteBio .socialLinks a {
+        font-size: 14px;
+        color: #333;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+
+    .socialLink {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: inline-block !important;
+        text-align: left;
+    }
+
+    .socialTwitter {
+        fill: #333;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialInsta {
+        fill: #333;
+        width: 35px;
+        height: 35px;
+    }
+
+    .socialFacebook {
+        fill: #333;
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .fullbleedWrap .imgWrap .titleWrap {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.2em;
+            margin-top: -10px;
+        }
+
+        .fullbleedWrap .vertImage {
+            float: none;
+            margin: 30px;
+            width: 80%;
+            margin-right: 0;
+            min-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 730px) {
+
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+            max-width: 250px;
+            background: #000;
+            opacity: .75;
+            box-sizing: border-box;
+            padding: 20px 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 630px) {
+        .fullbleedWrap .imgWrap .sidebarWrap {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            box-sizing: border-box;
+            padding: 20px 10px;
+            margin-left: -2%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .fullbleedWrap .imgWrap img {
+        }
+
+        .fullbleedWrap .imgWrap h1 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: .9em;
+            margin-bottom: 10px;
+        }
+
+        .fullbleedWrap .imgWrap h3 {
+            line-height: 1.5em !important;
+        }
+
+        .fullbleedWrap .imgWrap h1 .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .fullbleedWrap .imgWrap .photoCred {
+            font-size: .5em;
+        }
+
+        .fullbleedWrap p {
+            padding-left: 0;
+            padding-right: 0;
+            margin: 1em 0 1.3em;
+        }
+
+        .fullbleedWrap h3 {
+            padding-left: 0 !important;
+        }
+
+        .fullbleedWrap h5 {
+            padding-left: 0 !important;
+            width: 90%;
+        }
+
+        .fullbleedWrap .imgWrapInline .pullquote {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.3em;
+            width: 80%;
+            max-width: 650px;
+            font-style: italic;
+            text-shadow: 1px 1px #000;
+        }
+
+        .fullbleedWrap .imgWrapInline .photoCred, .fullbleedWrap .imgWrap .photoCred  {
+            font-weight: 100;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: white;
+            font-size: .7em;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #171717;
+            z-index: 10000;
+        }
+
+    }
+</style>
+
+<div class="fullbleedWrap">
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/tasmania-3.jpg" />
+    </div>
+
+    <h2>Will Stanhope And The Totem Pole in Tasmania</h2>
+
+    <h5>Words by: <span class="bolder"><a href="http://www.arcteryx.com/Athlete.aspx?EN/WillStanhope" target="_blank">Will Stanhope</a></span> | Photos by: <span class="bolder"><a href="http://bearcammedia.com/" target="_blank">Cameron Maier</a></h5>
+
+   <p>The Totem Pole is a slender, 65-meter-tall sea-stack on the Tasman Peninsula, on the south coast of Tasmania.  It was made world famous when, in 1998, Paul Pritchard, legendary British climber, suffered a traumatic head injury while rappelling into the sea stack.  His partner Celia Bull spearheaded a massive rescue effort, raising him back up the steep cliff and running 8 kilometers back for help.</p>
+
+    <p>The Pole is one of those incredibly unlikely, achingly beautiful features that I’d always wanted to check out.  I got a call from Sonnie Trotter last Autumn, inquiring if I wanted to try to free the original Ewbank aid line on the stack.  Aussie climbers Doug McConnell and Dean Rollins had freed the individual pitches on the incipient A3+ at a very stout 5.12+.  Sonnie’s idea was to link the whole shebang in one mega pitch.  I couldn’t say no, and in mid-January we were marching out to the stack in the humid, tropical heat, slathered in sunscreen, with the talented and gregarious American photographer Cameron Maier.</p>
+
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/tasmania-1.jpg" />
+    </div>
+
+    <p>After donning helmets on the mainland, Sonnie rappelled into the gap between the mainland and the spire, and aggressively bounced off the wall with his feet until he could swing over the churning sea to the Totem Pole.  In the howling wind I couldn’t hear him at all.  I just waited at the top until the ropes went slack, then followed him down to the surging, pumping ocean.  We ascended the original 5.12b to the top of the stack- which I can’t recommend enough- and dropped a line down the Ewbank route to suss it out.</p>
+
+    <p>As it turned out, the Ewbank route was exactly the kind of thing we came for:  cryptic, technical rock climbing with spare gear.  With the heaving sea in the background, seals frolicking in the ocean, and the steady, whistling winds, the atmosphere was truly awe-inspiring, and undeniably intense.  Sonnie, a top-tier rock climbing expert and perfectionist, soon figured out a perfect sequence with the help of the static line.</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/tasmania-2.jpg" />
+    </div>
+
+    <p>Sonnie is a rare breed of climber that rarely makes mistakes.  Everybody else I know is, to some degree, at the mercy of their own good days and bad days.  When Sonnie has a locked-down a sequence in his head, he executes with surgical precision and airtight muscle memory.  When I put him on belay above the water for his first lead burn, I knew without a shadow of a doubt that he wouldn’t wobble off.  He didn’t, and was soon whooping the Totem Pole (the circumference of which is perhaps the size of a picnic table).  I followed the pitch in amazement, barely able to pull off the sequence on toprope.  The holds felt soapy and warm, and I felt like I was climbing in a salty, damp sauna.</p>
+
+    <p>A couple days later we returned to get some more footage.  I was personally on the fence of whether or not to give it an honest lead burn myself.  A sequence down low, around the arête, spooked me out.  It was one of those slippery, off-balance lurches that just didn’t feel 100 percent, protected by a handful of slightly flaring nuts.</p>
+
+    <p>I was very nearly about to throw in the moist, sea-salty towel when I gave myself a little pep talk.  “C’mon Will, you’re in TASMANIA for god’s sake.  You’ll likely never be here again.  Screw your head on tight and give it a whole-hearted try!”  There always exists that temptation in climbing.  To give in, take the easy way out.  Are you going to play it safe or seek out a raw, authentic experience?  Despite the sinking sun, we zipped down to our little mini portaledge above the water.  I meticulously racked up, trying to riff off positive vibes, and bury the anxiousness I felt.</p>
+
+    <div class="imgWrapInline">
+        <img src="http://blog-media.arcteryx.com/images/articles/tasmania-4.jpg" />
+    </div>
+
+    <p>At the spooky arête move I faltered twice, downclimbing to a good rest each time.  On the third try I gritted my teeth, squeezed the arête with all my might, stomped a greasy sea-salty foothold and aggressively deadpointed around to the other side of the stack.  A couple more balancey moves led to a bolt, and a sigh of relief.  From here it was merely runout, not particularly risky.  I relaxed and relished the intricate movement.  One move from easy terrain, gripping the arête with my left hand, I stood up and stretched for a wrapper finger jug.  Simultaneously my foot blew due to a slightly inaccurate placement, and I was dangling on the end of the rope.  A little too eager, maybe.  Summit fever, perhaps. DARN!</p>
+
+    <p>We climbed a bunch of other great routes on that trip, from the mountain crag of Ben Lomond to the seaside bluffs of the Star Factory.  But for me, that evening on the Totem Pole was the highlight, even though it didn’t end if a coveted TICK in the guidebook.  I was totally, and forcibly present.  The Totem Pole put me right there.</p>
+
+    <div class="imgWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/tasmania-5.jpg" />
+    </div>
+  
+    <div class="dividerWrap">
+        <img src="http://blog-media.arcteryx.com/images/articles/blogDivider.png">
+    </div>
+
+    <p>Follow Will on <a href="https://www.instagram.com/willstanhope/?hl=en">Instagram</a> or check out his <a href="http://www.willstanhope.com/" target="_blank">blog</a>.</p>
+
+    <p>Follow Cameron Maier on <a href="https://www.instagram.com/bearcam/?hl=en" target="_blank">Instagram</a>.</p>
+
+</div>
