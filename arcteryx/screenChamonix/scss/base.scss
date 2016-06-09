@@ -2,6 +2,34 @@
 
 $bodyFont: Avenir, Arial, sans-serif;
 
+// timings
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	10% { 
+		opacity: 1;
+	 }
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.movieTiming {
+	animation: fadeIn 180s linear
+} 
+
+.scheduleTiming {
+	animation: fadeIn 30s linear;
+}
+
 
 // Basic Page Styles
 
@@ -39,8 +67,8 @@ header {
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #111;
-	animation: fadeIn 30s linear;
-	animation-delay: 1.5s;
+	
+	animation-delay: 1.5s !important;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	opacity: 0;
@@ -94,15 +122,7 @@ header {
 	}
 }
 
-// timings
 
-.movieTiming {
-	animation: fadeIn 180s linear
-} 
-
-.scheduleTiming {
-	animation: fadeIn 30s linear;
-}
 
 article {
 	margin: 0 auto;
@@ -110,7 +130,7 @@ article {
 	vertical-align: top;
 	color: white;
 	
-	animation-delay: 3s;
+	animation-delay: 3s !important;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	opacity: 0;
@@ -230,20 +250,3 @@ article {
 	}
 }
 
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-
-	10% { 
-		opacity: 1;
-	 }
-
-	90% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
