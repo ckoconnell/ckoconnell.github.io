@@ -1,7 +1,107 @@
+// Variables
+
+$bodyFont: Avenir, Arial, sans-serif;
+
+
+// Basic Page Styles
+
 html {}
 
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background: black;
+	font-family: $bodyFont;
+}
+
+div {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.girdWrap {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid pink;
+}
+
+header {
+	margin: 0 auto;
+	padding: 1em 0;
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #111;
+
+	.titleWrap {
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+		padding-top: 0em;
+		text-align: center;
+
+		h1 {
+			font-weight: 900;
+			font-size: 3em;
+			color: white;
+			text-transform: uppercase;
+			line-height: .8em;
+			text-align: left;
+			margin-top: .5em;
+		}
+	}
+
+	.logoWrap {
+		width: 30%;
+		display: inline-block;
+
+		svg {
+			height: 125px;
+		}
+	}
+}
+
+article {
+	margin: 0 auto;
+	padding: 1em 0;
+
+	.colTwoThird {
+		display: inline-block;
+		width: 58%;
+		margin-left: 3%;
+		margin-right: 2%;
+		border: 1px solid green;
+	}
+
+	.colOneThird {
+		display: inline-block;
+		width: 33%;
+		margin-right: 3%;
+		border: 1px solid teal;
+	}
+}
+
+
+
+// Frame Specific Styles
+
+.keyVisual {
+	background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/bg1.jpg');
+	background-size: cover;
+}
+
+.logoLarge {
+	margin: 0 auto;
+	text-align: center;
+	svg {
+		padding: 22% 0 0 0;
+		height: 300px;
+	}
 }
