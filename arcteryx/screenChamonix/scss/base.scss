@@ -39,6 +39,11 @@ header {
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #111;
+	animation: fadeIn 30s linear;
+	animation-delay: 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	opacity: 0;
 
 	.titleWrap {
 		display: inline-block;
@@ -73,6 +78,11 @@ article {
 	padding: 1em 0;
 	vertical-align: top;
 	color: white;
+	animation: fadeIn 30s linear;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	opacity: 0;
 
 	h1 {
 		text-transform: uppercase;
@@ -155,13 +165,46 @@ article {
 .keyVisual {
 	background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/bg1.jpg');
 	background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	animation: fadeIn 20s linear;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;	
 }
 
+
 .logoLarge {
+	
+	animation: fadeIn 12s linear;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
 	margin: 0 auto;
 	text-align: center;
+	opacity: 0;
+
 	svg {
 		padding: 22% 0 0 0;
 		height: 300px;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	10% { 
+		opacity: 1;
+	 }
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
 	}
 }
