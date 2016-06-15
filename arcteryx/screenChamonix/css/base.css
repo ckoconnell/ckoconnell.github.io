@@ -400,4 +400,20 @@ article .teaserWrap {
   height: 100%;
 }
 
+/* line 406, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+.socialWrapXL {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+/* line 412, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+.socialWrapXL iframe {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+}
+
 /*# sourceMappingURL=../css/base.map */

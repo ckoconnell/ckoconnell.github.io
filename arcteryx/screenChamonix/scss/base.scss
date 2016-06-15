@@ -402,3 +402,19 @@ article {
 	}
 
 }
+
+.socialWrapXL {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+
+	iframe {
+		position: relative;
+		margin: 0 auto;
+		width: 600px;
+		height: 600px;
+
+	}
+
+}
