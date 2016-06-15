@@ -71,8 +71,16 @@ $bodyFont: Avenir, Arial, sans-serif;
 }
 
 .movieTimingOrbayu {
-	animation: fadeIn 3s linear, fadeOut 3s 185s linear;
-} 
+	animation: fadeIn 3s linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.movieTimingJabou {
+	animation: fadeIn 3s linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}  
 
 .scheduleTiming {
 	animation: fadeIn 3s 1s linear;
