@@ -27,27 +27,39 @@ $bodyFont: Avenir, Arial, sans-serif;
 
 @keyframes logoMove {
 	0% {
-		padding: 22% 0 0 0;
+		top: 18%;
 	}
 
 	100% {
-		padding: 10% 0 0 0;
+		top: 8%;
 	}
 }
 
-@keyframes kevyvisualFadeHalf {
+@keyframes keyvisualFadeHalf {
 	0% {
 		opacity: 1;
 	}
 
 	100% {
-		opacity: .5;
+		opacity: .3;
 	}
 }
 
 
 .keyvisualTiming {
 
+}
+
+.headerTiming {
+	animation: fadeIn 1s 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.socialTiming {
+	animation: fadeIn 1s 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 .keyvisualMoveUp {
@@ -63,7 +75,9 @@ $bodyFont: Avenir, Arial, sans-serif;
 } 
 
 .scheduleTiming {
-	animation: fadeIn 3s linear, fadeOut 3s 45s linear;
+	animation: fadeIn 3s 1s linear;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
 }
 
 
@@ -77,6 +91,7 @@ body {
 	box-sizing: border-box;
 	background: black;
 	font-family: $bodyFont;
+	overflow: hidden;
 }
 
 div {
@@ -111,7 +126,7 @@ header {
 
 	.titleWrap {
 		display: inline-block;
-		width: 30%;
+		width: 40%;
 		vertical-align: top;
 		padding-top: 0em;
 		text-align: center;
@@ -145,6 +160,13 @@ header {
 			margin: 0;
 			padding: 0;
 
+		}
+
+		p {
+			color: white;
+			text-align: left;
+			text-transform: uppercase;
+			width: 100%;
 		}
 	}
 
@@ -185,7 +207,7 @@ article {
 
 	.colTwoThird {
 		display: inline-block;
-		width: 51%;
+		width: 47%;
 		margin-left: 3%;
 		margin-right: 6%;
 		
@@ -193,21 +215,20 @@ article {
 
 	.colOneThird {
 		display: inline-block;
-		width: 33%;
-		height: 60%;
+		width: 37%;
+		height: 80%;
 		margin-right: 3%;
 		border-left: 1px solid #333;
 		vertical-align: top;
-		margin-top: 4em;
-		padding: 0em 0 0 6%;
+		margin-top: 0;
+		padding: 0 0 0 6%;
 
 		.eventTitle, .eventTime {
-			font-size: 1em;
-
+			font-size: .9em;
 		}
 
 		h1 {
-			margin-top: 2em;
+			margin-top: 1em;
 		}
 
 		ul {
@@ -254,7 +275,6 @@ article {
 }
 
 
-
 // Frame Specific Styles
 
 .keyVisual {
@@ -263,10 +283,10 @@ article {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	animation: fadeIn 10s linear;
-	animation-delay: 1s;
+	animation: fadeIn 10s 1s linear, keyvisualFadeHalf 5s 17s linear;
 	animation-fill-mode: forwards;
-	animation-iteration-count: 1;	
+	animation-iteration-count: 1;
+	z-index: 1;	
 }
 
 
@@ -274,53 +294,103 @@ article {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	top: 14%;
-	animation: fadeIn 3s linear;
-	animation-delay: 8s;
+	top: 18%;
+	animation: fadeIn 3s 8s linear, logoMove 1s 20s linear;
+	
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	margin: 0 auto;
 	text-align: center;
 	opacity: 0;
+	z-index: 900;
 
 	svg {
-		padding: 22% 0 0 0;
 		height: 300px;
 	}
 }
 
 
 .sponsorGroup {
-	width: 80%;
-	margin: 0 auto;
-	position: relative;
-	text-align: center;
+	position: absolute;
+    height: 300px;
+    width: 80%;
+    top: 50%;
+    opacity: 0;
+    z-index: 2000;
+    animation: fadeIn 4s 20s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
 
 	ul {
+		width: 100%;
+		height: 300px;
+		position: relative;
+		display: block;
+		padding-left: 1%;
+
+		h1 {
+			color: white;
+			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: 100;
+		}
+
+		li {
+			display: inline-block;
+			text-align: center;
+			width: 150px;
+			height: 150px;
+			padding: 0 1%;
+		}
 
 		.sponsorArc {
+			background: url('../img/sponsor_arc.png') no-repeat;
+			background-size: 150px;
+			background-position: center center;
 
 		}
 
-		.sponsorMontlanc {
-
+		.sponsorMontblanc {
+			background: url('../img/sponsor_montblanc.png') no-repeat;
+			background-size: 150px;
+			background-position: center center;
 		}
 
 		.sponsorGore {
-
+			background: url('../img/sponsor_gore.png') no-repeat;
+			background-size: 150px;
+			background-position: center center;
 		}
 
 		.sponsorPetzl {
-
+			background: url('../img/sponsor_petzl.png') no-repeat;
+			background-size: 150px;
+			background-position: center center;
 		}
 
 		.sponsorMSR {
-
+			background: url('../img/sponsor_msr.png') no-repeat;
+			background-size: 150px;
+			background-position: center center;
 		}
 
-
-		li {
-
-		}
 	}
+}
+
+
+.socialWrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	iframe {
+		width: 100%;
+		height: 100%;
+
+	}
+
 }
