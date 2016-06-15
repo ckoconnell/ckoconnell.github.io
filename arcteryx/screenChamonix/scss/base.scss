@@ -134,7 +134,7 @@ header {
 
 	.titleWrap {
 		display: inline-block;
-		width: 40%;
+		width: 48%;
 		vertical-align: top;
 		padding-top: 0em;
 		text-align: center;
@@ -149,6 +149,16 @@ header {
 			margin-top: .5em;
 			margin-bottom: 0;
 			padding-bottom: 0;
+		}
+
+		h2 {
+			color: white;
+			font-size: 2em;
+			text-transform: uppercase;
+			text-align: left;
+			margin-top: 0;
+			margin-bottom: .1em;
+			vertical-align: top;
 		}
 
 		h3 {
@@ -175,6 +185,18 @@ header {
 			text-align: left;
 			text-transform: uppercase;
 			width: 100%;
+			margin-top: .5em;
+		}
+
+		.instaLogo {
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			margin-right: .5em;
+			border: 1px solid teal;
 		}
 	}
 
@@ -412,7 +434,7 @@ article {
 	iframe {
 		position: relative;
 		margin: 0 auto;
-		width: 600px;
+		width: 960px;
 		height: 600px;
 
 	}
