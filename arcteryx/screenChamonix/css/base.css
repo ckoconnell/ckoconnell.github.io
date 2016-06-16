@@ -230,7 +230,7 @@ article h2 {
 /* line 243, ../scss/base.scss */
 article .colTwoThird {
   display: inline-block;
-  width: 49%;
+  width: 47%;
   margin-left: 1%;
   margin-right: 1%;
 }
@@ -248,7 +248,6 @@ article .colOneThird {
   width: 40%;
   height: 80%;
   margin-right: 3%;
-  border-left: 1px solid #333;
   vertical-align: top;
   margin-top: 0;
   padding: 3% 0 0 2%;
@@ -268,16 +267,16 @@ article .colOneThird ul {
 }
 /* line 283, ../scss/base.scss */
 article ul {
-  padding: 2em 1em 1em;
+  padding: 0;
 }
-/* line 286, ../scss/base.scss */
+/* line 287, ../scss/base.scss */
 article ul li {
   width: 100%;
   color: white;
   list-style: none;
   padding: 15px 0 30px;
 }
-/* line 294, ../scss/base.scss */
+/* line 295, ../scss/base.scss */
 article .eventTitle {
   display: inline-block;
   position: relative;
@@ -286,7 +285,7 @@ article .eventTitle {
   font-weight: 900;
   font-size: 1.2em;
 }
-/* line 303, ../scss/base.scss */
+/* line 304, ../scss/base.scss */
 article .eventTime {
   display: inline-block;
   position: relative;
@@ -294,7 +293,7 @@ article .eventTime {
   font-weight: 900;
   font-size: 1.2em;
 }
-/* line 311, ../scss/base.scss */
+/* line 312, ../scss/base.scss */
 article .teaserWrap {
   width: 1200px;
   height: 675px;
@@ -303,12 +302,12 @@ article .teaserWrap {
   position: relative;
 }
 
-/* line 320, ../scss/base.scss */
+/* line 321, ../scss/base.scss */
 .alignTop {
   padding-top: 0 !important;
 }
 
-/* line 327, ../scss/base.scss */
+/* line 328, ../scss/base.scss */
 .keyVisual {
   background: url("../img/bg1.jpg");
   background-size: cover;
@@ -321,7 +320,7 @@ article .teaserWrap {
   z-index: 1;
 }
 
-/* line 340, ../scss/base.scss */
+/* line 341, ../scss/base.scss */
 .logoLarge {
   position: absolute;
   height: 100%;
@@ -335,12 +334,12 @@ article .teaserWrap {
   opacity: 0;
   z-index: 900;
 }
-/* line 354, ../scss/base.scss */
+/* line 355, ../scss/base.scss */
 .logoLarge svg {
   height: 300px;
 }
 
-/* line 360, ../scss/base.scss */
+/* line 361, ../scss/base.scss */
 .sponsorGroup {
   position: absolute;
   height: 300px;
@@ -356,7 +355,7 @@ article .teaserWrap {
   left: 0;
   right: 0;
 }
-/* line 375, ../scss/base.scss */
+/* line 376, ../scss/base.scss */
 .sponsorGroup ul {
   width: 100%;
   height: 300px;
@@ -364,14 +363,14 @@ article .teaserWrap {
   display: block;
   padding-left: 1%;
 }
-/* line 382, ../scss/base.scss */
+/* line 383, ../scss/base.scss */
 .sponsorGroup ul h1 {
   color: white;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 900;
 }
-/* line 389, ../scss/base.scss */
+/* line 390, ../scss/base.scss */
 .sponsorGroup ul li {
   display: inline-block;
   text-align: center;
@@ -379,76 +378,76 @@ article .teaserWrap {
   height: 250px;
   padding: 0 1%;
 }
-/* line 397, ../scss/base.scss */
+/* line 398, ../scss/base.scss */
 .sponsorGroup ul .sponsorArc {
   background: url("../img/sponsor_arc.png") no-repeat;
   background-size: 200px;
   background-position: center center;
 }
-/* line 404, ../scss/base.scss */
+/* line 405, ../scss/base.scss */
 .sponsorGroup ul .sponsorMontblanc {
   background: url("../img/sponsor_montblanc.png") no-repeat;
   background-size: 220px;
   background-position: center center;
 }
-/* line 410, ../scss/base.scss */
+/* line 411, ../scss/base.scss */
 .sponsorGroup ul .sponsorGore {
   background: url("../img/sponsor_gore.png") no-repeat;
   background-size: 240px;
   background-position: center center;
 }
-/* line 416, ../scss/base.scss */
+/* line 417, ../scss/base.scss */
 .sponsorGroup ul .sponsorPetzl {
   background: url("../img/sponsor_petzl.png") no-repeat;
   background-size: 200px;
   background-position: center center;
 }
-/* line 422, ../scss/base.scss */
+/* line 423, ../scss/base.scss */
 .sponsorGroup ul .sponsorMSR {
   background: url("../img/sponsor_msr.png") no-repeat;
   background-size: 200px;
   background-position: center center;
 }
 
-/* line 431, ../scss/base.scss */
+/* line 432, ../scss/base.scss */
 .socialHeader {
   width: 100% !important;
 }
-/* line 434, ../scss/base.scss */
+/* line 435, ../scss/base.scss */
 .socialHeader .titleWrap {
   width: 90%;
 }
-/* line 438, ../scss/base.scss */
+/* line 439, ../scss/base.scss */
 .socialHeader h2 {
   font-size: 1.2em;
   font-weight: 900;
 }
-/* line 443, ../scss/base.scss */
+/* line 444, ../scss/base.scss */
 .socialHeader p {
   font-size: 1.6em;
   line-height: .9em;
 }
 
-/* line 450, ../scss/base.scss */
+/* line 451, ../scss/base.scss */
 .socialWrap {
   width: 100%;
   height: 100%;
   position: absolute;
 }
-/* line 457, ../scss/base.scss */
+/* line 458, ../scss/base.scss */
 .socialWrap iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 465, ../scss/base.scss */
+/* line 466, ../scss/base.scss */
 .socialWrapXL {
   width: 100%;
   height: 100%;
   position: absolute;
   text-align: center;
 }
-/* line 471, ../scss/base.scss */
+/* line 472, ../scss/base.scss */
 .socialWrapXL iframe {
   position: relative;
   margin: 0 auto;
