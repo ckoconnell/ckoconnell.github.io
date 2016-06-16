@@ -230,7 +230,7 @@ article h2 {
 /* line 243, ../scss/base.scss */
 article .colTwoThird {
   display: inline-block;
-  width: 47%;
+  width: 55%;
   margin-left: 1%;
   margin-right: 1%;
 }
@@ -245,7 +245,7 @@ article .colTwoThird h1 {
 /* line 259, ../scss/base.scss */
 article .colOneThird {
   display: inline-block;
-  width: 45%;
+  width: 41%;
   height: 80%;
   margin-right: 3%;
   vertical-align: top;
