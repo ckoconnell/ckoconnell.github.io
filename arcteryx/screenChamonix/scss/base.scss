@@ -317,6 +317,10 @@ article {
 	}
 }
 
+.alignTop {
+	padding-top: 0 !important;
+}
+
 
 // Frame Specific Styles
 
@@ -424,11 +428,31 @@ article {
 	}
 }
 
+.socialHeader {
+	width: 100% !important;
+
+	.titleWrap {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		font-weight: 900;
+	}
+
+	p {
+		font-size: 1.6em;
+		line-height: .9em;
+	}
+}
+
 
 .socialWrap {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+
+
 
 	iframe {
 		width: 100%;
