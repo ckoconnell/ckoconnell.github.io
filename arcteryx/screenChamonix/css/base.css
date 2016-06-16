@@ -209,72 +209,84 @@ article {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   opacity: 0;
+  padding-top: 5%;
 }
 
-/* line 229, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 230, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article h1 {
   text-transform: uppercase;
   margin-bottom: 0;
   color: #aaa;
+  font-size: 1.5em !important;
 }
 
-/* line 235, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 237, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article h2 {
   text-transform: uppercase;
   margin-top: 0;
   font-size: 1em;
 }
 
-/* line 241, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 243, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .colTwoThird {
   display: inline-block;
-  width: 47%;
-  margin-left: 3%;
-  margin-right: 6%;
+  width: 49%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* line 249, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+article .colTwoThird .eventTitle, article .colTwoThird .eventTime {
+  font-size: 1.6em;
+}
+
+/* line 253, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+article .colTwoThird h1 {
+  font-size: 2em !important;
+}
+
+/* line 259, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .colOneThird {
   display: inline-block;
-  width: 37%;
+  width: 40%;
   height: 80%;
   margin-right: 3%;
   border-left: 1px solid #333;
   vertical-align: top;
   margin-top: 0;
-  padding: 0 0 0 6%;
+  padding: 3% 0 0 2%;
 }
 
-/* line 259, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 269, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .colOneThird .eventTitle, article .colOneThird .eventTime {
-  font-size: .9em;
+  font-size: 1.4em;
 }
 
-/* line 263, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 273, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .colOneThird h1 {
   margin-top: 1em;
+  font-size: 1em;
 }
 
-/* line 267, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 278, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .colOneThird ul {
   padding: .5em 0 0 0;
 }
 
-/* line 272, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 283, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article ul {
   padding: 2em 1em 1em;
 }
 
-/* line 275, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 286, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article ul li {
   width: 100%;
   color: white;
   list-style: none;
-  border-bottom: 1px solid #111;
-  padding: 5px 0 30px;
+  padding: 15px 0 30px;
 }
 
-/* line 284, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 294, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .eventTitle {
   display: inline-block;
   position: relative;
@@ -284,7 +296,7 @@ article .eventTitle {
   font-size: 1.2em;
 }
 
-/* line 293, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 303, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .eventTime {
   display: inline-block;
   position: relative;
@@ -293,7 +305,7 @@ article .eventTime {
   font-size: 1.2em;
 }
 
-/* line 301, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 311, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 article .teaserWrap {
   width: 1200px;
   height: 675px;
@@ -302,7 +314,7 @@ article .teaserWrap {
   position: relative;
 }
 
-/* line 313, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 323, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .keyVisual {
   background: url("../img/bg1.jpg");
   background-size: cover;
@@ -315,7 +327,7 @@ article .teaserWrap {
   z-index: 1;
 }
 
-/* line 326, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 336, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .logoLarge {
   position: absolute;
   height: 100%;
@@ -330,12 +342,12 @@ article .teaserWrap {
   z-index: 900;
 }
 
-/* line 340, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 350, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .logoLarge svg {
   height: 300px;
 }
 
-/* line 346, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 356, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup {
   position: absolute;
   height: 300px;
@@ -352,7 +364,7 @@ article .teaserWrap {
   right: 0;
 }
 
-/* line 361, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 371, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul {
   width: 100%;
   height: 300px;
@@ -361,72 +373,72 @@ article .teaserWrap {
   padding-left: 1%;
 }
 
-/* line 368, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 378, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul h1 {
   color: white;
   text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 900;
 }
 
-/* line 375, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 385, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul li {
   display: inline-block;
   text-align: center;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   padding: 0 1%;
 }
 
-/* line 383, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 393, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul .sponsorArc {
   background: url("../img/sponsor_arc.png") no-repeat;
-  background-size: 150px;
+  background-size: 200px;
   background-position: center center;
 }
 
-/* line 390, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 400, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul .sponsorMontblanc {
   background: url("../img/sponsor_montblanc.png") no-repeat;
-  background-size: 150px;
+  background-size: 220px;
   background-position: center center;
 }
 
-/* line 396, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 406, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul .sponsorGore {
   background: url("../img/sponsor_gore.png") no-repeat;
-  background-size: 150px;
+  background-size: 240px;
   background-position: center center;
 }
 
-/* line 402, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 412, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .sponsorGroup ul .sponsorPetzl {
   background: url("../img/sponsor_petzl.png") no-repeat;
-  background-size: 150px;
-  background-position: center center;
-}
-
-/* line 408, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
-.sponsorGroup ul .sponsorMSR {
-  background: url("../img/sponsor_msr.png") no-repeat;
-  background-size: 150px;
+  background-size: 200px;
   background-position: center center;
 }
 
 /* line 418, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+.sponsorGroup ul .sponsorMSR {
+  background: url("../img/sponsor_msr.png") no-repeat;
+  background-size: 200px;
+  background-position: center center;
+}
+
+/* line 428, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .socialWrap {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 423, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 433, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .socialWrap iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 431, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 441, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .socialWrapXL {
   width: 100%;
   height: 100%;
@@ -434,7 +446,7 @@ article .teaserWrap {
   text-align: center;
 }
 
-/* line 437, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
+/* line 447, C:/sites/ckoconnell.github.io/arcteryx/screenChamonix/scss/base.scss */
 .socialWrapXL iframe {
   position: relative;
   margin: 0 auto;
