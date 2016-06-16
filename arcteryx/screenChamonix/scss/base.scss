@@ -225,7 +225,7 @@ article {
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	opacity: 0;
-	padding-top: 5%;
+	padding-top: 0;
 
 	h1 {
 		text-transform: uppercase;
@@ -267,7 +267,7 @@ article {
 		padding: 3% 0 0 2%;
 
 		.eventTitle, .eventTime {
-			font-size: 1.4em;
+			font-size: 1.2em;
 		}
 
 		h1 {
