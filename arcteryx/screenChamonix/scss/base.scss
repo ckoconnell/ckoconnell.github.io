@@ -134,19 +134,19 @@ header {
 
 	.titleWrap {
 		display: inline-block;
-		width: 48%;
+		width: 90%;
 		vertical-align: top;
 		padding-top: 0em;
 		text-align: center;
 
 		h1 {
 			font-weight: 900;
-			font-size: 3em;
+			font-size: 2.6em;
 			color: white;
 			text-transform: uppercase;
 			line-height: .8em;
-			text-align: left;
-			margin-top: .5em;
+			text-align: center;
+			margin-top: 0;
 			margin-bottom: 0;
 			padding-bottom: 0;
 		}
@@ -155,7 +155,7 @@ header {
 			color: white;
 			font-size: 2em;
 			text-transform: uppercase;
-			text-align: left;
+			text-align: center;
 			margin-top: 0;
 			margin-bottom: .1em;
 			vertical-align: top;
@@ -165,7 +165,7 @@ header {
 			color: white;
 			text-transform: uppercase;
 			font-size: 1.6em;
-			text-align: left;
+			text-align: center;
 			margin: 0;
 			padding: 0;
 		}
@@ -186,6 +186,11 @@ header {
 			text-transform: uppercase;
 			width: 100%;
 			margin-top: .5em;
+		}
+
+		.movieDate {
+			color: #ccc;
+			
 		}
 
 		.instaLogo {
@@ -310,11 +315,18 @@ article {
 	}
 
 	.teaserWrap {
-		width: 1200px;
-		height: 675px;
+		width: 100%;
 		display: block;
 		margin: 0 auto;
 		position: relative;
+		text-align: center;
+
+		iframe {
+			margin: 0 auto;
+			display: block;
+			position: relative;
+
+		}
 	}
 }
 
