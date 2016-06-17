@@ -225,7 +225,7 @@ article {
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	opacity: 0;
-	padding-top: 5%;
+	padding-top: 0;
 
 	h1 {
 		text-transform: uppercase;
@@ -242,8 +242,8 @@ article {
 
 	.colTwoThird {
 		display: inline-block;
-		width: 49%;
-		margin-left: 1%;
+		width: 53%;
+		margin-left: 2%;
 		margin-right: 1%;
 
 		.eventTitle, .eventTime {
@@ -258,16 +258,16 @@ article {
 
 	.colOneThird {
 		display: inline-block;
-		width: 40%;
+		width: 41%;
 		height: 80%;
-		margin-right: 3%;
-		border-left: 1px solid #333;
+		margin-right: 0;
+		
 		vertical-align: top;
 		margin-top: 0;
 		padding: 3% 0 0 2%;
 
 		.eventTitle, .eventTime {
-			font-size: 1.4em;
+			font-size: 1.1em;
 		}
 
 		h1 {
@@ -281,13 +281,14 @@ article {
 	}
 
 	ul {
-		padding: 2em 1em 1em; 
+		padding: 0; 
+
 
 		li {
 			width: 100%;
 			color: white;
 			list-style: none;
-			padding: 15px 0 30px;
+			padding: 15px 0 20px;
 		}
 	}
 
