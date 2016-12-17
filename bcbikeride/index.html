@@ -3,22 +3,26 @@
 	<title>BC Bike Ride</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Play|Playfair+Display:700i" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	 
 </head>	
 	
 <body>
 
 	<header>
 		<div class="logoWrap">
-			<img src="img/bcbikeridelogorough.png" />
+			<a href="#anchorTop"><img src="img/bcbikeridelogorough.png" /></a>
 			<ul class="nav">
-				<li>About</li>
-				<li>Registration</li>
-				<li>Contact</li>
+				<a href="#anchorAbout"><li>About</li></a>
+				<a href="#anchorRegistration"><li>Registration</li></a>
+				<a href="#anchorContact"><li>Contact</li></a>
 			</ul>
 		</div>
 		
 	</header>	
-
+	<a name="anchorTop"></a>
 	<section class="fullbleed homeTop">
 		<div class="dimmer"></div>
 		<div class="contentWrap">
@@ -29,18 +33,37 @@
 		</div>
 
 	</section>	
-
+	<a name="anchorAbout"></a>
 	<section class="fullbleed homeAbout">
 		<div class="dimmer"></div>
 	</section>	
-	
+	<a name="anchorRegistration"></a>
 	<section class="fullbleed homeRegistration">
 		<div class="dimmer"></div>
 	</section>	
-		
+	<a name="anchorContact"></a>
 	<section class="fullbleed homeContact">
 		<div class="dimmer"></div>
 	</section>		
 	
 </body>
 </html>
+
+<script>
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>

@@ -60,7 +60,7 @@ header {
 		padding-left: 2rem;
 	
 		img {
-			width: 50px;
+			width: 70px;
 		}
 	}
 	
@@ -69,6 +69,11 @@ header {
 		padding: 0;
 		margin: 0;
 		padding-left: .5rem;
+		
+		a {
+			color: white;
+			text-decoration: none;
+		}
 		
 		li {
 			list-style: none;
@@ -153,7 +158,7 @@ section {
 .homeAbout {
 	background: url("img/bcbikerace-13.jpg");
 	background-size: cover;
-	background-position: center center;
+	background-position: center top;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.6);
