@@ -40,6 +40,11 @@ p {
 	font-size: 1.2rem;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
 
 
 // Page Specific Styles
@@ -139,6 +144,7 @@ section {
 			font-size: 8rem;
 			line-height: 70%;
 			letter-spacing: 4px;
+			padding-top: 0;
 		}
 		
 		.highlight {
@@ -164,6 +170,92 @@ section {
 		background: rgba(0,0,0,0.6);
 	}
 	
+	.contentWrap {
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		
+		h1 {
+			max-width: 600px;
+			margin: 0 auto;
+			text-align: center;
+			line-height: 2.5rem;
+		}
+		
+		.bolder {
+			font-weight: 900;
+		}
+		
+		ul {
+			margin: 0 auto;
+			width: 85%;
+			max-width: 370px;
+			margin-top: 1rem;
+			list-style: square;
+			padding-left: 5rem;
+			text-align: left;
+		
+			li {
+				padding-top: 1rem;
+				font-size: 1.25rem;
+			}
+		}
+		
+	}
+	
+}
+
+.homeIntenerary {
+	background: url("img/bcbikerace-19.jpg");
+	background-size: cover;
+	background-position: center top;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.75);
+	}
+	
+	.contentWrap {
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		
+		p {
+			font-size: 1rem;
+			line-height: 1.25rem;
+			max-width: 800px;
+		} 
+		
+		ul {
+			display: block;
+			position: relative;
+			width: 100%;
+			margin: 0 auto;
+			list-style: none;
+			vertical-align: top;
+			text-align: center;
+			padding-top: 1rem;
+			
+			li {
+				position: relative;
+				display: inline-block;
+				width: 30%;
+				margin: 0 auto;
+				vertical-align: top;
+				text-align: left;
+				padding-left: 1.5rem;
+				padding-top: 1.5rem;
+				font-size: .9rem;
+				line-height: 1.3rem;
+			}
+		}
+	}
+	
 }
 
 .homeRegistration {
@@ -173,7 +265,28 @@ section {
 
 	.dimmer {
 		background: rgba(0,0,0,0.65);
-	}	
+	}
+	
+	.contentWrap {
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;	
+		
+		p {
+			padding-bottom: 2rem;
+			padding-top: 0;
+			margin-top: .5rem;
+		}	
+		a {
+			text-transform: uppercase;
+					border-bottom: 1px solid white;
+			padding: 5px 1px 5px;
+			margin-top: 1rem;
+		}
+	}
 }
 
 
@@ -184,6 +297,15 @@ section {
 	
 	.dimmer {
 		background: rgba(0,0,0,0.75);
+	}
+	
+	.contentWrap {
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
 	}
 }
 
