@@ -125,7 +125,7 @@ section {
 
 /* line 127, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeTop {
-  background: url("img/bcbikerace-20.jpg");
+  background: url("img/bcbikerace-19.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -146,6 +146,14 @@ section {
 }
 
 /* line 144, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+.homeTop .contentWrap img {
+  height: 40%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 151, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeTop .contentWrap h1 {
   font-size: 8rem;
   line-height: 70%;
@@ -153,30 +161,30 @@ section {
   padding-top: 0;
 }
 
-/* line 151, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 158, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeTop .contentWrap .highlight {
   letter-spacing: -.08em;
   font-size: 6rem;
 }
 
-/* line 156, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 163, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeTop .contentWrap p {
   margin-top: 2rem;
 }
 
-/* line 165, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 172, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout {
-  background: url("img/bcbikerace-13.jpg");
+  background: url("img/bcbikerace-22.jpg");
   background-size: cover;
   background-position: center top;
 }
 
-/* line 170, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 177, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .dimmer {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 174, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 181, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .contentWrap {
   position: absolute;
   top: 50%;
@@ -186,7 +194,7 @@ section {
   text-align: center;
 }
 
-/* line 182, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 189, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .contentWrap h1 {
   max-width: 600px;
   margin: 0 auto;
@@ -194,12 +202,12 @@ section {
   line-height: 2.5rem;
 }
 
-/* line 189, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 196, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .contentWrap .bolder {
   font-weight: 900;
 }
 
-/* line 193, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 200, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .contentWrap ul {
   margin: 0 auto;
   width: 85%;
@@ -210,25 +218,25 @@ section {
   text-align: left;
 }
 
-/* line 202, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 209, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeAbout .contentWrap ul li {
   padding-top: 1rem;
   font-size: 1.25rem;
 }
 
-/* line 212, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 219, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary {
-  background: url("img/bcbikerace-19.jpg");
+  background: url("img/bcbikerace-24.jpg");
   background-size: cover;
   background-position: center top;
 }
 
-/* line 217, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 224, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary .dimmer {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 221, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 228, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary .contentWrap {
   position: absolute;
   top: 50%;
@@ -238,14 +246,19 @@ section {
   text-align: center;
 }
 
-/* line 229, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 236, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+.homeItinerary .contentWrap img {
+  height: 75%;
+}
+
+/* line 240, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary .contentWrap p {
   font-size: 1rem;
   line-height: 1.25rem;
   max-width: 800px;
 }
 
-/* line 235, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 246, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary .contentWrap ul {
   display: block;
   position: relative;
@@ -257,7 +270,7 @@ section {
   padding-top: 1rem;
 }
 
-/* line 245, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 256, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeItinerary .contentWrap ul li {
   position: relative;
   display: inline-block;
@@ -271,19 +284,19 @@ section {
   line-height: 1.3rem;
 }
 
-/* line 262, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 273, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeRegistration {
   background: url("img/bcbikerace-11.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 267, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 278, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeRegistration .dimmer {
   background: rgba(0, 0, 0, 0.65);
 }
 
-/* line 271, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 282, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeRegistration .contentWrap {
   position: absolute;
   top: 50%;
@@ -293,14 +306,14 @@ section {
   text-align: center;
 }
 
-/* line 279, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 290, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeRegistration .contentWrap p {
   padding-bottom: 2rem;
   padding-top: 0;
   margin-top: .5rem;
 }
 
-/* line 284, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 295, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeRegistration .contentWrap a {
   text-transform: uppercase;
   border-bottom: 1px solid white;
@@ -308,19 +321,19 @@ section {
   margin-top: 1rem;
 }
 
-/* line 294, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 305, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeContact {
   background: url("img/bcbikerace-23.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 299, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 310, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeContact .dimmer {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 303, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+/* line 314, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homeContact .contentWrap {
   position: absolute;
   top: 50%;
