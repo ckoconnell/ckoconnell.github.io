@@ -6,6 +6,8 @@ $serifFont: 'Playfair Display', serif;
 $bodyColorLight: white;
 $highlightColor: #bf2025;
 
+$mobileBp: 650px;
+
 // Body Styles
 
 html, body {
@@ -28,6 +30,11 @@ h1 {
 	padding: 0;
 	margin: 0;
 	text-align: center;
+	
+	@media screen and (max-width: $mobileBp) {
+		font-size: 2rem;
+		line-height: 1.8rem !important;
+	}
 }
 
 p {
@@ -60,6 +67,10 @@ header {
 	display: block;
 	text-align: left;
 	
+	@media screen and (max-width: $mobileBp) {
+		
+	}
+	
 	.logoWrap {
 		padding-top: 1.5rem;
 		padding-left: 2rem;
@@ -76,6 +87,10 @@ header {
 		padding-left: .5rem;
 		width: 150px;
 		
+		@media screen and (max-width: $mobileBp) {
+			
+		}
+		
 		a {
 			color: white;
 			text-decoration: none;
@@ -85,6 +100,13 @@ header {
 			list-style: none;
 			padding-top: .5rem;
 			text-transform: uppercase;
+			margin-right: .5rem;
+			
+			
+			@media screen and (max-width: $mobileBp) {
+				
+		
+			}
 		}
 	}
 	
@@ -234,7 +256,14 @@ section {
 		text-align: center;
 		
 		img {
-			height: 75%;
+			height: 50%;
+		
+			
+			@media screen and (max-width: $mobileBp) {
+				max-height: 75%;
+				max-width: 75%;	
+			}
+			
 		}
 		
 		p {
