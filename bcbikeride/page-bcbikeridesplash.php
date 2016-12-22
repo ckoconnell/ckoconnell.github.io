@@ -1,9 +1,20 @@
+<?php
+/*
+ Template Name: BC Bike Ride Splash
+*/
+?>
+
 <html>
 <head>
 	<title>BC Bike Ride</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Play|Playfair+Display:700i" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<style>
+	html,body{padding:0;margin:0;position:relative;display:block;background:black;font-family:"Play",sans-serif;color:#fff;font-weight:100}h1{font-size:2.5rem;font-weight:100;font-family:"Play",sans-serif;text-transform:uppercase;line-height:2.25rem;padding:0;margin:0 auto;text-align:center;max-width:600px}@media screen and (max-width: 650px){h1{font-size:2rem;line-height:1.8rem !important;padding:0 2rem}}p{width:85%;max-width:600px;display:block;margin:0 auto;line-height:1.75rem;margin-top:2rem;font-size:1rem}a{color:white;text-decoration:none}.bolder{font-weight:900}.bigger{font-size:1.5em;font-weight:900;text-transform:uppercase}.italic{font-style:italic}header{z-index:10;position:fixed;top:0;left:0;width:100%;height:200px;height:auto;display:block;text-align:left}header .logoWrap{padding-top:1.5rem;padding-left:2rem}header .logoWrap img{width:70px}header ul{list-style:none;padding:0;margin:0;padding-left:.5rem;width:150px}header ul a{color:white;text-decoration:none}header ul li{list-style:none;padding-top:.5rem;text-transform:uppercase;margin-right:.5rem}section{position:relative;display:block;z-index:1}.fullbleed{width:100%;height:auto;min-height:auto}@media screen and (min-width: 650px){.fullbleed{height:auto;min-height:100%}}.contentWrap{width:100%;max-width:1060px;position:relative;margin:0 auto;display:block;z-index:5}.contentWrap .highlight{color:#bf2025}.dimmer{z-index:3;position:absolute;width:100%;height:100%;top:0;left:0}.homePanel1{background:url("img/bcbikerace-36.jpg");background-size:cover;background-position:40% bottom;min-height:100% !important}.homePanel1 .contentWrap img{height:40%;float:none;margin:0 auto;display:block;position:relative;padding-top:3rem}@media screen and (min-width: 650px){.homePanel1 .contentWrap img{height:50%;float:right}}.homePanel2{background:black}.homePanel2 .dimmer{background:rgba(0,0,0,0.65)}.homePanel2 .contentWrap{padding-top:4.5rem;padding-bottom:3rem}.homePanel2 .contentWrap p{font-size:1.25rem;line-height:2rem}.homePanel3{background:url("img/bcbikerace-28.jpg");background-size:cover;background-position:center center}.homePanel3 .dimmer{background:rgba(0,0,0,0.65)}.homePanel3 .contentWrap{padding-top:2rem;padding-bottom:2rem}.homePanel3 .contentWrap img{height:25%;margin:0 auto;position:relative;display:inline-block;margin-top:2rem;float:right}.homePanel4{background:url("img/bcbikerace-22.jpg");background-size:cover;background-position:center center}.homePanel4 .dimmer{background:rgba(0,0,0,0.5)}.homePanel4 .contentWrap{padding-top:3rem;padding-bottom:3rem}.homePanel5{background:black}.homePanel5 .dimmer{background:rgba(0,0,0,0.5)}.homePanel5 .contentWrap{padding-top:3rem;padding-bottom:3rem;text-align:center}.homePanel5 .contentWrap p{display:block;text-align:left;padding-top:0}@media screen and (min-width: 650px){.homePanel5 .contentWrap p{display:inline-block;width:35%;vertical-align:top;padding-top:3rem}}.homePanel5 .contentWrap img{display:block;width:95%;max-width:600px;margin:0 auto}@media screen and (min-width: 650px){.homePanel5 .contentWrap img{display:inline-block;width:60%}}.homePanel6{background:url("img/bcbikerace-8.jpg");background-size:cover;background-position:80% center;min-height:100% !important}.homePanel6 .dimmer{background:rgba(0,0,0,0.25)}.homePanel6 .contentWrap{padding-top:3rem;padding-bottom:3rem}.homePanel6 .contentWrap h3{padding-top:15%;padding-bottom:15%;margin:0 auto;width:90%;max-width:350px;text-transform:capitalize;font-size:1.75rem;font-style:italic}@media screen and (min-width: 650px){.homePanel6 .contentWrap h3{float:left;padding-left:3rem;font-size:2.25rem}}.homePanel7{background:url("img/bcbikerace-34.jpg");background-size:cover;background-position:left center}.homePanel7 .dimmer{background:rgba(0,0,0,0.6)}.homePanel7 .contentWrap{padding-top:3rem;padding-bottom:3rem}.homePanel8{background:url("img/bcbikerace-32.jpg");background-size:cover;background-position:right center}.homePanel8 .dimmer{background:rgba(0,0,0,0.45)}.homePanel8 .contentWrap{padding-top:3rem;padding-bottom:3rem}.homePanel9{background:url("img/bcbikerace-33.jpg");background-size:cover;background-position:center center}.homePanel9 .dimmer{background:rgba(0,0,0,0.7)}.homePanel9 .contentWrap{padding-top:6rem;padding-bottom:3rem;text-align:center}.homePanel9 .contentWrap a{display:block;margin-top:1rem;font-size:1.5rem;text-transform:uppercase;text-decoration:underline}.homePanel10{background:black}.homePanel10 .dimmer{background:rgba(0,0,0,0.5)}.homePanel10 .contentWrap{padding-top:6rem;padding-bottom:6rem;text-align:center}.homePanel10 .contentWrap img{display:block;margin:0 auto;position:relative;text-align:center;width:30%;margin-top:3rem}
+
+	</style>
 </head>	
 	
 <body>
@@ -48,7 +59,7 @@
 		<div class="contentWrap">
 			<h1 class="highlight">ITINERARY</h1>
 			<p>In early August, the days are long up North and our goal at BC Bike RIDE is to max out each day with as much fun as humanly possible, right until the last embers of the campfire burn out.   Together, we will be a nomadic tribe of fun loving mountain bikers exploring the great Northern Corridor trails of Williams Lake, Prince George, Burns Lake, Smithers, and Terrace with a bonus ride on the famous North Shore of Vancouver to kick off your week. </p>
-			<img src="img/mapRide.png" />
+			<img src="img/map.png" />
 		</div>
 	</section>	
 	
@@ -86,7 +97,7 @@
 			<br><br>
 			<span class="bigger">Registration <br> Opens February 1, 2017
 			</span></p>
-			<a href="bcbikeridenorthregistration.ics">Remind Me</a>
+			<a href="#">Remind Me</a>
 		</div>
 	</section>	
 	
@@ -103,4 +114,3 @@
 	
 </body>
 </html>
-
