@@ -165,7 +165,7 @@ section {
 .homePanel1 {
 	background: url('img/bcbikerace-24.jpg');
 	background-size: cover;
-	background-position: bottom center;
+	background-position: 40% bottom;
 	min-height: 100% !important;
 	
 	.contentWrap {
@@ -246,7 +246,7 @@ section {
 .homePanel5 {
 	background: url('img/bcbikerace-30.jpg') no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: left center;
 
 	
 	.dimmer {
@@ -256,10 +256,30 @@ section {
 	.contentWrap {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
-		
+		text-align: center;
 		p {
-			max-width: 750px;
+			display: block;
+			text-align: left;
+			padding-top: 0;
 			
+			@media screen and (min-width: $mobileBp) {
+				display: inline-block;
+				width: 35%;
+				vertical-align: top;
+				padding-top: 3rem;
+			}
+		}
+		
+		img {
+			display: block;
+			width: 95%;
+			max-width: 450px;
+			margin: 0 auto;
+			
+			@media screen and (min-width: $mobileBp) {
+				display: inline-block;
+				width: 50%;
+			}
 		}
 		
 	}
@@ -268,7 +288,8 @@ section {
 .homePanel6 {
 	background: url('img/bcbikerace-8.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: 80% center;
+	min-height: 100% !important;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.25);
@@ -285,8 +306,14 @@ section {
 			width: 90%;
 			max-width: 350px;
 			text-transform: capitalize;
-			font-size: 2.25rem;
+			font-size: 1.75rem;
 			font-style: italic;
+			
+			@media screen and (min-width: $mobileBp) {
+				float: left;
+				padding-left: 3rem;
+				font-size: 2.25rem;
+			}
 		}
 	}
 }
@@ -295,7 +322,7 @@ section {
 .homePanel7 {
 	background: url('img/bcbikerace-31.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: left center;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.6);
@@ -310,7 +337,7 @@ section {
 .homePanel8 {
 	background: url('img/bcbikerace-32.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: right center;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.5);
@@ -348,7 +375,8 @@ section {
 .homePanel10 {
 	background: url('img/bcbikerace-17.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: 30% center;
+	min-height: 100% !important;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.5);
