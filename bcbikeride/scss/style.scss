@@ -25,7 +25,7 @@ h1 {
 	font-weight: 100;
 	font-family: $bodyFont;
 	text-transform: uppercase;
-	line-height: 1.9rem;
+	line-height: 2.25rem;
 	padding: 0;
 	margin: 0 auto;
 	text-align: center;
@@ -55,6 +55,12 @@ a {
 
 .bolder {
 	font-weight: 900;
+}
+
+.bigger {
+	font-size: 1.5em;
+	font-weight: 900;
+	text-transform: uppercase;
 }
 
 .italic {
@@ -185,19 +191,20 @@ section {
 }
 
 .homePanel2 {
-	background: url('img/bcbikerace-27.jpg');
-	background-size: cover;
-	background-position: center center;
+	background: black;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.65);
 	}
 	
 	.contentWrap {
-		padding-top: 3rem;
+		padding-top: 4.5rem;
 		padding-bottom: 3rem;
 		
-
+		p {
+			font-size: 1.25rem;
+			line-height: 2rem;
+		}
 	}
 }
 
@@ -227,7 +234,7 @@ section {
 }
 
 .homePanel4 {
-	background: url('img/bcbikerace-29.jpg');
+	background: url('img/bcbikerace-22.jpg');
 	background-size: cover;
 	background-position: center center;
 	
@@ -242,10 +249,7 @@ section {
 }
 
 .homePanel5 {
-	background: url('img/bcbikerace-30.jpg') no-repeat;
-	background-size: cover;
-	background-position: left center;
-
+	background: black;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.5);
@@ -271,12 +275,12 @@ section {
 		img {
 			display: block;
 			width: 95%;
-			max-width: 450px;
+			max-width: 600px;
 			margin: 0 auto;
 			
 			@media screen and (min-width: $mobileBp) {
 				display: inline-block;
-				width: 50%;
+				width: 60%;
 			}
 		}
 		
@@ -318,7 +322,7 @@ section {
 
 
 .homePanel7 {
-	background: url('img/bcbikerace-35.jpg');
+	background: url('img/bcbikerace-34.jpg');
 	background-size: cover;
 	background-position: left center;
 	
@@ -364,6 +368,7 @@ section {
 		a {
 			display: block;
 			margin-top: 1rem;
+			font-size: 1.5rem;
 			text-transform: uppercase;
 			text-decoration: underline;
 		}
@@ -371,10 +376,7 @@ section {
 }
 
 .homePanel10 {
-	background: url('img/bcbikerace-17.jpg');
-	background-size: cover;
-	background-position: 30% center;
-	min-height: 100% !important;
+	background: black;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.5);
@@ -384,6 +386,15 @@ section {
 		padding-top: 6rem;
 		padding-bottom: 6rem;
 		text-align: center;
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			position: relative;
+			text-align: center;
+			width: 30%;
+			margin-top: 3rem;
+		}
 	}
 }
 
