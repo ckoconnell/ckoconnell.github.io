@@ -22,34 +22,44 @@ html, body {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 100;
 	font-family: $bodyFont;
 	text-transform: uppercase;
-	line-height: 1.5rem;
+	line-height: 1.9rem;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	text-align: center;
+	max-width: 600px;
 	
 	@media screen and (max-width: $mobileBp) {
 		font-size: 2rem;
 		line-height: 1.8rem !important;
+		padding: 0 2rem;
 	}
 }
 
 p {
 	width: 85%;
-	max-width: 500px;
+	max-width: 600px;
 	display: block;
 	margin: 0 auto;
-	line-height: 2rem;
+	line-height: 1.75rem;
 	margin-top: 2rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 a {
 	color: white;
 	text-decoration: none;
+}
+
+.bolder {
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
 }
 
 
@@ -121,7 +131,13 @@ section {
 
 .fullbleed {
 	width: 100%;
-	height: 100%;
+	height: auto;
+	min-height: auto;
+	
+	@media screen and (min-width: $mobileBp) {
+		height: auto;
+		min-height: 100%;
+	}
 }
 
 .contentWrap {
@@ -146,8 +162,32 @@ section {
 	left: 0;
 }
 
-.homeTop {
-	background: url("img/bcbikerace-19.jpg");
+.homePanel1 {
+	background: url('img/bcbikerace-24.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	min-height: 100% !important;
+	
+	.contentWrap {
+		
+		img {
+			height: 40%;
+			float: none;
+			margin: 0 auto;
+			display: block;
+			position: relative;
+			padding-top: 3rem;
+			
+			@media screen and (min-width: $mobileBp) {
+				height: 50%;
+				float: right;
+			}
+		}
+	}
+}
+
+.homePanel2 {
+	background: url('img/bcbikerace-27.jpg');
 	background-size: cover;
 	background-position: center center;
 	
@@ -156,196 +196,167 @@ section {
 	}
 	
 	.contentWrap {
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		text-align: center;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 		
-		img {
-			height: 40%;
-			display: block;
-			position: relative;
-			margin: 0 auto;
-		}
-		
-		h1 {
-			font-size: 8rem;
-			line-height: 70%;
-			letter-spacing: 4px;
-			padding-top: 0;
-		}
-		
-		.highlight {
-			letter-spacing: -.08em;
-			font-size: 6rem
-		}
-		
-		p {
-			margin-top: 2rem;
-			
-		}
+
 	}
-	
 }
 
 
-.homeAbout {
-	background: url("img/bcbikerace-22.jpg");
+.homePanel3 {
+	background: url('img/bcbikerace-28.jpg');
 	background-size: cover;
-	background-position: center top;
+	background-position: center center;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.65);
+	}
+	
+	.contentWrap {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		
+		img {
+			height: 25%;
+			margin: 0 auto;
+			position: relative;
+			display: inline-block;
+			margin-top: 2rem;
+			float: right;
+		}
+	}
+}
+
+.homePanel4 {
+	background: url('img/bcbikerace-29.jpg');
+	background-size: cover;
+	background-position: center center;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.5);
+	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+.homePanel5 {
+	background: url('img/bcbikerace-30.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	
+	.dimmer {
+		background: rgba(0,0,0,0.5);
+	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		
+		p {
+			max-width: 750px;
+			
+		}
+		
+	}
+}
+
+.homePanel6 {
+	background: url('img/bcbikerace-8.jpg');
+	background-size: cover;
+	background-position: center center;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.25);
+	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		
+		h3 {
+			padding-top: 15%;
+			padding-bottom: 15%;
+			margin: 0 auto;
+			width: 90%;
+			max-width: 350px;
+			text-transform: capitalize;
+			font-size: 2.25rem;
+			font-style: italic;
+		}
+	}
+}
+
+
+.homePanel7 {
+	background: url('img/bcbikerace-31.jpg');
+	background-size: cover;
+	background-position: center center;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.6);
+	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+.homePanel8 {
+	background: url('img/bcbikerace-32.jpg');
+	background-size: cover;
+	background-position: center center;
+	
+	.dimmer {
+		background: rgba(0,0,0,0.5);
+	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+.homePanel9 {
+	background: url('img/bcbikerace-33.jpg');
+	background-size: cover;
+	background-position: center center;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.7);
 	}
 	
 	.contentWrap {
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
+		padding-top: 6rem;
+		padding-bottom: 3rem;
 		text-align: center;
 		
-		h1 {
-			max-width: 600px;
-			margin: 0 auto;
-			text-align: center;
-			line-height: 2.5rem;
-		}
-		
-		.bolder {
-			font-weight: 900;
-		}
-		
-		ul {
-			margin: 0 auto;
-			width: 85%;
-			max-width: 370px;
-			margin-top: 1rem;
-			list-style: square;
-			padding-left: 5rem;
-			text-align: left;
-		
-			li {
-				padding-top: 1rem;
-				font-size: 1.25rem;
-			}
-		}
-		
-	}
-	
-}
-
-.homeItinerary {
-	background: url("img/bcbikerace-24.jpg");
-	background-size: cover;
-	background-position: center top;
-	
-	.dimmer {
-		background: rgba(0,0,0,0.75);
-	}
-	
-	.contentWrap {
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		text-align: center;
-		
-		img {
-			height: 50%;
-		
-			
-			@media screen and (max-width: $mobileBp) {
-				max-height: 75%;
-				max-width: 75%;	
-			}
-			
-		}
-		
-		p {
-			font-size: 1rem;
-			line-height: 1.25rem;
-			max-width: 800px;
-		} 
-		
-		ul {
-			display: block;
-			position: relative;
-			width: 100%;
-			margin: 0 auto;
-			list-style: none;
-			vertical-align: top;
-			text-align: center;
-			padding-top: 1rem;
-			
-			li {
-				position: relative;
-				display: inline-block;
-				width: 30%;
-				margin: 0 auto;
-				vertical-align: top;
-				text-align: left;
-				padding-left: 1.5rem;
-				padding-top: 1.5rem;
-				font-size: .9rem;
-				line-height: 1.3rem;
-			}
-		}
-	}
-	
-}
-
-.homeRegistration {
-	background: url("img/bcbikerace-11.jpg");
-	background-size: cover;
-	background-position: center center;
-
-	.dimmer {
-		background: rgba(0,0,0,0.65);
-	}
-	
-	.contentWrap {
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		text-align: center;	
-		
-		p {
-			padding-bottom: 2rem;
-			padding-top: 0;
-			margin-top: .5rem;
-		}	
 		a {
-			text-transform: uppercase;
-					border-bottom: 1px solid white;
-			padding: 5px 1px 5px;
+			display: block;
 			margin-top: 1rem;
+			text-transform: uppercase;
+			text-decoration: underline;
 		}
 	}
 }
 
-
-.homeContact {
-	background: url("img/bcbikerace-23.jpg");
+.homePanel10 {
+	background: url('img/bcbikerace-17.jpg');
 	background-size: cover;
 	background-position: center center;
 	
 	.dimmer {
-		background: rgba(0,0,0,0.75);
+		background: rgba(0,0,0,0.5);
 	}
 	
 	.contentWrap {
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
+		padding-top: 6rem;
+		padding-bottom: 6rem;
 		text-align: center;
 	}
 }
