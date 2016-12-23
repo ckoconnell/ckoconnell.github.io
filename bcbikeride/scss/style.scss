@@ -320,14 +320,14 @@ section {
 }
 
 .homePanel6 {
-	background: url('http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-8.jpg');
+	background: url('http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-6.jpg');
 	background-size: cover;
-	background-position: 80% center;
+	background-position: center center;
 	min-height: 100% !important;
 	height: 100%;
 	
 	.dimmer {
-		background: rgba(0,0,0,0.25);
+		background: rgba(0,0,0,0.1);
 	}
 	
 	.contentWrap {
@@ -428,14 +428,16 @@ section {
 
 .homePanel11 {
 	background: black;
+	height: auto;
+	min-height: auto;
 	
 	.dimmer {
 		background: rgba(0,0,0,0.5);
 	}
 	
 	.contentWrap {
-		padding-top: 6rem;
-		padding-bottom: 3rem;
+		padding-top: 3rem;
+		padding-bottom: 6rem;
 		
 		
 	}
