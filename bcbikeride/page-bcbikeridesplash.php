@@ -7,7 +7,6 @@
 <html>
 <head>
 	<title>BC Bike Ride</title>
-	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Play|Playfair+Display:700i" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -87,9 +86,6 @@
 				After you have ridden your ass off for 7 days with your new long-lost friends, relax and enjoy available nature tours including: whale watching, jet boat tours, or deep sea fishing that will be organized for you.   The <span class="italic bolder"><a href="http://www.cassiarcannery.com/" target="_blank">Cassiar Cannery</a></span>, one of the "Top 10 Most Unique Places to Overnight in British Columbia", is your gateway to adventure on the North Coast and world famous <span class="bolder">Haida Gwaii</span>.</p>
 		</div>
 	</section>	
-	
-		
-	
 	
 	<a name="anchorPanel8"></a>
 	<section class="fullbleed homePanel8">
