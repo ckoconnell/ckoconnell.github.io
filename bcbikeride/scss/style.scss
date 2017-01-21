@@ -316,6 +316,46 @@ section {
 			}
 		}
 		
+		.slideWrapItinerary {
+			width: 100%;
+			position: relative;
+			display: block;
+			margin-top: 5rem;
+			height: 500px;
+			
+			.slideItinerary {
+				position: relative;
+				display: inline-block;
+				width: 30%;
+				// background: white;
+				// color: black;
+				overflow: hidden;
+				height: 100%;
+				border: 1px solid white;
+				
+				h3 {
+					padding: 0;
+					margin: 0;
+					margin-top: 3rem;
+				}
+				
+				h5 {
+					padding: 0;
+					margin: 0;
+					margin-bottom: 2rem;
+				}
+				
+				
+				p {
+					width: auto;
+					display: block;
+					margin: 0;
+					padding: 0 2em .5em 2em;
+					text-align: left;
+				}
+			}
+		}
+		
 	}
 }
 
@@ -424,6 +464,7 @@ section {
 			margin-top: 3rem;
 		}
 	}
+	
 }
 
 .homePanel11 {
@@ -434,6 +475,20 @@ section {
 	.dimmer {
 		background: rgba(0,0,0,0.5);
 	}
+	
+	.contentWrap {
+		padding-top: 3rem;
+		padding-bottom: 6rem;
+		
+		
+	}
+}
+
+
+.homePanel12 {
+	background: black;
+	height: auto;
+	min-height: auto;
 	
 	.contentWrap {
 		padding-top: 3rem;
