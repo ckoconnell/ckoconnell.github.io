@@ -612,3 +612,58 @@ section {
   padding-top: 3rem;
   padding-bottom: 6rem;
 }
+
+.homePanel13 {
+  background: black;
+  height: auto;
+  min-height: auto;
+}
+
+.homePanel13 .contentWrap {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.homePanel13 .contentWrap ul {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.homePanel13 .contentWrap ul li {
+  display: inline-block;
+  width: 37%;
+  vertical-align: top;
+  margin: .5rem;
+  padding: .5rem 2rem 2rem;
+  text-align: left;
+}
+
+.homePanel13 .contentWrap ul li h3 {
+  color: #bf2025;
+  text-transform: uppercase;
+}
+
+.homePanel13 .contentWrap ul li p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.homePanel13 .contentWrap ul li ul {
+  color: white;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.homePanel13 .contentWrap ul li ul li {
+  width: 85%;
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
