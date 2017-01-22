@@ -1,9 +1,16 @@
 <html>
 <head>
 	<title>BC Bike Ride</title>
+	<!-- <link rel="stylesheet" type="slick.css"/> -->
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Play|Playfair+Display:700i" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="slick.min.js"></script> -->
+	
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
 </head>	
 	
 <body>
@@ -62,13 +69,92 @@
 			<div style="clear:both;"></div>
 			<div class="slideWrapItinerary">
 				<div class="slideItinerary">
-					<h3>Saturday, August 5, 2017</h3>
+					<h3>Saturday August 5, 2017</h3>
 					<h5>Day 0 - North Vancouver</h5>
 					<p>Registration &amp; Welcome</p>
-					<p>North Shore Ride Hosted b Endless Biking</p>
+					<p>North Shore Ride Hosted by Endless Biking</p>
 					<p>Wash Bikes, Bike &amp; Bag Drop Off</p>
 					<p>Social &amp; Dinner</p>
 					<p>Sleep in North Vancouver</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Sunday August 6, 2017</h3>
+					<h5>Day 1 - Williams Lake</h5>
+					<p>Breakfast</p>
+					<p>Depart from North Vancouver Hotel</p>
+					<p>Charter Flight YVR to Williams Lake</p>
+					<p>Ride Williams Lake</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Williams Lake</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Monday August 7, 2017</h3>
+					<h5>Day 2 - Prince George</h5>
+					<p>Breakfast</p>
+					<p>Depart from Williams Lake</p>
+					<p>Drive from Williams Lake to Prince George</p>
+					<p>Ride Prince George</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Prince George</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Tuesday August 8, 2017</h3>
+					<h5>Day 3 - Burns Lake</h5>
+					<p>Breakfast</p>
+					<p>Depart from Prince George</p>
+					<p>Drive from Prince George to Burns Lake</p>
+					<p>Ride Burns Lake</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Burns Lake</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Wednesday August 9, 2017</h3>
+					<h5>Day 4 - Smithers</h5>
+					<p>Breakfast</p>
+					<p>Depart from Burns Lake</p>
+					<p>Drive from Burns Lake to Smithers</p>
+					<p>Ride Smithers</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Smithers</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Thursday, August 10, 2017</h3>
+					<h5>Day 5 - Smithers/Terrace</h5>
+					<p>Breakfast</p>
+					<p>Ride Smithers</p>
+					<p>VIA Rail Train Departure from Smithers - Terrace</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Terrace</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Friday, August 11, 2017</h3>
+					<h5>Day 6 - Terrace</h5>
+					<p>Breakfast</p>
+					<p>Ride Terrace</p>
+					<p>Depart Terrace</p>
+					<p>Drive from Terrace to Port Edwards</p>
+					<p>Dinner</p>
+					<p>Evening Entertainment</p>
+					<p>Sleep in Port Edwards (Prince Rupert)</p>
+					<p></p>
+					<p></p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Saturday, August 12, 2017</h3>
+					<h5>Day 7</h5>
+					<p>Flight back to YVR - 1 hour, 20 minute flight</p>
+					<p>Or</p>
+					<p>Activities in Prince Rupert</p>
+				</div>
+				<div class="slideItinerary">
+					<h3>Sunday, August 13, 2017</h3>
+					<h5>Day 8</h5>
+					<p>Flight back to YVR - 1 hour, 20 minute flight to replace 16 hour drive</p>
 				</div>
 			</div>
 			
@@ -117,7 +203,7 @@
 			<h1>Registration</h1>
 			<p>Join the BCBR crew and other like-minded mountain bikers on the maiden voyage of the BC BIKE RIDE in Northern BC - coming August 5 - 13, 2017. Your ultimate road trip experience awaits!  We only have 100 spots available for our inaugural tour and it will be a very special event. This new venture is the result of many years of dreaming and planning, so we are excited to finally launch it and start our next decade of adventure tourism in BC. Come make your own history with us this Summer.  You may even witness the Northern Lights if you do!    
 			<br><br>
-			<span class="bigger">Registration <br> Opens February 1, 2017
+			<span class="bigger">Registration <br> Opens February 7, 2017
 			</span></p>
 			<a href="http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikeridenorthregistration.ics">Remind Me</a>
 		</div>
@@ -133,6 +219,17 @@
 			<img src="img/logoupdate16bit.png" />
 		</div>
 	</section>	
+	
+	<script>	
+		$('.slideWrapItinerary').slick({
+		  infinite: false,
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  prevArrow: '<div class="slick-prev">&lt;</div>',
+		  nextArrow: '<div class="slick-next">&gt;</div>',
+		  dots: false
+		});
+	</script>
 	
 </body>
 </html>
