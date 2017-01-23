@@ -216,27 +216,6 @@
 		<div class="contentWrap">
 			<h1>Package Details</h1>
 			<ul>
-				<li>
-					<h3>Travel</h3>
-					<p>A total of 3000 kilometres traveled through the vast and scenic northern British Columbia by plane, coach bus, and train</p>
-					<ul>
-						<li>Two flights from/to Vancouver International Airport (YVR) to northern British Columbia</li>
-						<li>A private train car between Terrace and Prince Rupert</li>
-						<li>Coach buses with washrooms and wifi will transport riders between basecamps</li>
-					</ul>
-				</li>
-				<li>
-					<h3>Riding</h3>
-					<p>7 days of intermediate to advanced all-mountain singletrack riding</p>
-					<p>14 distinct trail networks to explore</p>
-					<p>The best access to each trail network provide daily and may include:</p>
-					<ul>
-						<li>Shuttles</li>
-						<li>Guided rides</li>
-						<li>Climbing and descending (all-mountain riding)</li>
-						<li>Detailed maps and signage </li>
-					</ul>
-				</li>
 				
 				<li>
 					<h3>Basecamp</h3>
@@ -250,6 +229,32 @@
 					<p>Emersion into local culture and presentations on local history</p>
 					<p>Basecamps that are close to towns and amenities </p>
 				</li>
+				
+				<li>
+					<h3>Riding</h3>
+					<p>7 days of intermediate to advanced all-mountain singletrack riding</p>
+					<p>14 distinct trail networks to explore</p>
+					<p>The best access to each trail network provide daily and may include:</p>
+					<ul>
+						<li>Shuttles</li>
+						<li>Guided rides</li>
+						<li>Climbing and descending (all-mountain riding)</li>
+						<li>Detailed maps and signage </li>
+					</ul>
+				</li>				
+				
+				<li>
+					<h3>Travel</h3>
+					<p>A total of 3000 kilometres traveled through the vast and scenic northern British Columbia by plane, coach bus, and train</p>
+					<ul>
+						<li>Two flights from/to Vancouver International Airport (YVR) to northern British Columbia</li>
+						<li>A private train car between Terrace and Prince Rupert</li>
+						<li>Coach buses with washrooms and wifi will transport riders between basecamps</li>
+					</ul>
+				</li>
+
+				
+
 				<li>
 					<h3>Meals</h3>
 					<p>Three gourmet meals a day including a bag lunch to keep you pedalling all day</p>
@@ -258,7 +263,7 @@
 				</li>
 				<li>
 					<h3>Swag</h3>
-					<p>Custom logo’d BC Bike Ride duffel bag</p>
+					<p>Custom logo'd BC Bike Ride duffel bag</p>
 					<p>Custom BC Bike Ride T-shirt</p>
 					<p>Further BC Bike Ride Swag TBA</p>
 				</li>
@@ -307,7 +312,17 @@
 		  slidesToScroll: 1,
 		  prevArrow: '<div class="slick-prev">&lt;</div>',
 		  nextArrow: '<div class="slick-next">&gt;</div>',
-		  dots: false
+		  dots: false,
+		  responsive: [
+			{
+			  breakpoint: 650,
+			  settings: {
+			    slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true
+			  }
+			}	
+		  ]
 		});
 	</script>
 	

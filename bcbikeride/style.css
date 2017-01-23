@@ -102,6 +102,7 @@ header ul li {
 section {
   position: relative;
   display: block;
+  overflow-x: hidden;
   z-index: 1;
 }
 
@@ -338,10 +339,9 @@ section {
   position: relative;
   display: inline-block;
   width: 20%;
-  background: #bbb;
-  color: black;
   overflow: hidden;
   height: 90%;
+  border: 1px solid #bf2025;
   margin: .5rem;
 }
 
@@ -426,14 +426,27 @@ section {
 }
 
 .homePanel6 .slideWrapGallery .gallery1 .contentWrap {
-  padding-top: 3rem;
+  padding-top: 0rem;
   padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 650px) {
+  .homePanel6 .slideWrapGallery .gallery1 .contentWrap {
+    padding-top: 3rem;
+  }
 }
 
 .homePanel6 .slideWrapGallery .gallery1 .contentWrap p {
   float: left;
   background: rgba(0, 0, 0, 0.65);
   padding: 1.5rem 2.5rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 650px) {
+  .homePanel6 .slideWrapGallery .gallery1 .contentWrap p {
+    margin-top: 2rem;
+  }
 }
 
 .homePanel6 .slideWrapGallery .gallery2 {
@@ -632,11 +645,18 @@ section {
 
 .homePanel13 .contentWrap ul li {
   display: inline-block;
-  width: 37%;
+  width: 70%;
   vertical-align: top;
   margin: .5rem;
+  border: 1px solid #bf2025;
   padding: .5rem 2rem 2rem;
   text-align: left;
+}
+
+@media screen and (min-width: 650px) {
+  .homePanel13 .contentWrap ul li {
+    width: 37%;
+  }
 }
 
 .homePanel13 .contentWrap ul li h3 {
@@ -666,4 +686,5 @@ section {
   margin-left: 0;
   padding-left: 2rem;
   margin-bottom: 1rem;
+  border: none;
 }
