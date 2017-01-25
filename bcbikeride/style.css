@@ -663,6 +663,24 @@ section {
 .homePanel12 .contentWrap {
   padding-top: 3rem;
   padding-bottom: 6rem;
+  text-align: center;
+}
+
+.homePanel12 .contentWrap .videoThumb {
+  display: inline-block;
+  width: 80%;
+  height: 250px;
+  background: #222;
+  margin: 2rem 1rem 2rem 1rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 650px) {
+  .homePanel12 .contentWrap .videoThumb {
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+  }
 }
 
 .homePanel13 {
