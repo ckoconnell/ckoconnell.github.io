@@ -9,6 +9,10 @@ $mobileBp: 650px;
 
 // Body Styles
 
+* {
+	box-sizing: border-box;
+}
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -18,6 +22,7 @@ html, body {
 	font-family: $bodyFont;
 	color: $bodyColorLight;
 	font-weight: 100;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -63,8 +68,32 @@ a {
 	text-transform: uppercase;
 }
 
+.smaller {
+	font-size: .8rem;
+}
+
+.indent {
+	padding-left: 2rem;
+	margin-left: 1rem;
+	text-align: left;
+	display: block;
+	width: 80%;
+	margin-top: -0.5rem;
+	
+}
+
+
+.notsobig {
+	font-size: 1.75rem;
+	line-height: 2rem;
+}
+
 .italic {
 	font-style: italic;
+}
+
+.highlight {
+	color: $highlightColor;
 }
 
 
