@@ -712,17 +712,17 @@ section {
 	min-height: auto;
 	
 	.contentWrap {
-		padding-top: 3rem;
+		padding-top: 1rem;
 		padding-bottom: 6rem;
 		text-align: center;
 		
 		.videoThumb {
+			vertical-align: top;
 			display: inline-block;
 			width: 80%;
 			height: 250px;
-			background: #222;
-			margin: 2rem 1rem 2rem 1rem;
-			padding: 2rem;
+			
+			margin: 1rem 1rem 2rem 1rem;
 
 			@media screen and (min-width: $mobileBp) {
 				width: 450px;
