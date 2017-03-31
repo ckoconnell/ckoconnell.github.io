@@ -839,3 +839,52 @@ section {
 		
 	}
 }
+
+
+.homePanel14 {
+	background: $highlightColor;
+	background-size: cover;
+	background-position: center center;
+	height: auto;
+	min-height: auto;
+	
+	.dimmer {
+		// background: rgba(0,0,0,0.7);
+	}
+	
+	.contentWrap {
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		text-align: center;
+		
+		h1 {
+			font-weight: 900;
+		}
+		
+		h3 {
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 1.5rem;
+			margin-top: .25rem;
+		}
+		
+		a {
+			color: white;
+			border: 1px solid white;
+			padding: 8px 15px;
+			text-transform: uppercase;
+			transition: all .5s;
+		}
+		
+		a:hover {
+			color: $highlightColor;
+			border: 1px solid $highlightColor;
+			background: white;
+			padding: 8px 15px;
+			text-transform: uppercase;
+			transition: all .3s;
+		}
+		
+		
+	}
+}
