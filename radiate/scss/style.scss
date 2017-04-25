@@ -77,15 +77,25 @@ footer {
 		margin-bottom: 1rem;
 		
 		ul {
-		margin: 0 auto;	
+			margin: 0 auto;	
+			margin-bottom: 2rem;
+			
 		// border-top: 1px solid #ddd;	
 			
 			li {
 				display: inline-block;
+				width: 15%;
+				max-width: 300px;
+				min-width: 200px;
+				height: auto;
 				text-transform: uppercase;
 				padding: 0 2rem;
 				color: #666;
 				font-weight: 300;
+				border: 1px solid #666;
+				padding: 4rem 1rem;
+				margin: 0 1rem;
+				margin-bottom: 1rem;
 			
 			}
 		}
@@ -340,17 +350,59 @@ section {
 
 // Product Pages
 
-.sunbeamOne {
-	padding: 0;
+.prodGallery {
 	
-	img {
-		position: relative;
-		height: auto;
-		width: 80%;
-		margin: 0 auto;
-		
+	div {
+		width: 100%;
+		min-height: 200px;
+		max-height: 700px;
 	}
+	
+	// Sunbeam One Detail Shots
+	
+	.sbOne-1 {
+		background: url('../img/fullSunbeamOne.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.sbOne-2 {
+		background: url('../img/fullSunbeamOneWhiteBG.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	
+	// Sunbeam Two Detail Shots
+	
+	.sbTwo-1 {
+		background: url('');
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.sbTwo-2 {
+		background: url('');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	// Sunbeam Twins Detail Shots
+	
+	.sbTwins-1 {
+		background: url('');
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.sbTwins-2 {
+		background: url('');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
 }
+
 
 .sunbeamTwo {
 	padding: 0;
@@ -414,6 +466,7 @@ section {
 	
 	a {
 		margin-top: 1rem;
+		margin-right: .5rem;
 	}
 	
 	
