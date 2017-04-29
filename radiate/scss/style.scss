@@ -363,13 +363,13 @@ section {
 	// Sunbeam One Detail Shots
 	
 	.sbOne-1 {
-		background: url('../img/fullSunbeamOne.jpg');
+		background: url('../img/sunbeamOneGallery.jpg');
 		background-size: cover;
 		background-position: center center;
 	}
 	
 	.sbOne-2 {
-		background: url('../img/fullSunbeamOneWhiteBG.jpg');
+		background: url('../img/sunbeamOneVert.jpg');
 		background-size: cover;
 		background-position: center center;		
 	}
@@ -378,13 +378,19 @@ section {
 	// Sunbeam Two Detail Shots
 	
 	.sbTwo-1 {
-		background: url('');
+		background: url('../img/sunbeamTwoGallery.jpg');
 		background-size: cover;
 		background-position: center center;
 	}
 	
 	.sbTwo-2 {
-		background: url('');
+		background: url('../img/sunbeamTwoGalleryVert.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbTwo-3 {
+		background: url('../img/sunbeamTwoDetail-1.jpg');
 		background-size: cover;
 		background-position: center center;		
 	}
