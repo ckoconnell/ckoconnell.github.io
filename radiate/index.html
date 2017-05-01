@@ -3,24 +3,24 @@
   	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400,500,600,700|Josefin+Sans:100,300,400,600,700|Nunito:200,300,400,600,700,800,900|Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 </head>
 <body>
 	<div class="gridWrap">
 		
-		<section class="sectionIntro full">
+		<section class="sectionIntro full noBotMargin">
 			<h1>Radiate</h1>
 			<h2>Studios</h2>
 			<p>Sed placerat eget tortor commodo pulvinar. Morbi cursus finibus tortor vel porta. Mauris egestas semper sapien, quis tempor lorles id. In hac habitasse platea dictumst. Duis vel enim ec, varius quam.</p>
 			<p>Mauris pellentesque massa porta, condimentum mauris venenatis, auctor orci. Vestibulum at nulla tortor. Etiam vel tellus fringilla erat ultricies suscipit.</p>
 		</section>
 		
-		<section class="sectionFourth full">
-			<img src="img/fullSunbeamTwins.jpg">
-			<div class="detailsFlat">
-				<h1>Sun Beam Twins</h1>
-				<p>Mauris pellentesque massa porta at nulla tortor. Etiam vel tellus fringilla erat ultricies suscipit.</p>
-				<a href="collections/sunbeam/sunbeamtwins/">More ></a>
-			</div>
+		
+		<section class="prodGallery">
+			<div class="sbTwo-3"></div>	
+			<div class="sbTwo-4"></div>	
+			<div class="sbTwo-1"></div>
+			<div class="sbTwins-1"></div>	
 		</section>
 		
 		<div style="clear:both;"></div>
@@ -32,18 +32,31 @@
 		</section>
 		
 		<section class="sectionThree half">
-			<img src="img/fullSunbeamOneWhiteBGVert.jpg">
+			
+		</section>
+		
+		<section class="sectionFourth full">
+			<img src="img/sunbeamTwinsGallery.jpg" />
 			<div class="detailsFlat">
-				<h1>Sun Beam</h1>
+				<h1>Sunbeam Twins</h1>
+				<p>Mauris pellentesque massa porta at nulla tortor. Etiam vel tellus fringilla erat ultricies suscipit.</p>
+				<a href="collections/sunbeam/sunbeamtwins/">More ></a>
+			</div>
+		</section>
+		
+		<section class="sectionPrimary full">
+			<img src="img/sunbeamOneGallery.jpg" />
+			<div class="detailsFlat">
+				<h1>Sunbeam One</h1>
 				<p>Mauris pellentesque massa porta at nulla tortor. Etiam vel tellus fringilla erat ultricies suscipit.</p>
 				<a href="collections/sunbeam/sunbeamone/">More ></a>
 			</div>
 		</section>
 		
 		<section class="sectionPrimary full">
-			<img src="img/fullSunbeamTwo.jpg">
+			<img src="img/sunbeamTwoGallery.jpg" />
 			<div class="detailsFlat">
-				<h1>Sun Beam</h1>
+				<h1>Sunbeam Two</h1>
 				<p>Mauris pellentesque massa porta at nulla tortor. Etiam vel tellus fringilla erat ultricies suscipit.</p>
 				<a href="collections/sunbeam/sunbeamtwo/">More ></a>
 			</div>
@@ -57,8 +70,34 @@
 	</div>
 	
 	<footer>
+		<nav>
+			<ul>
+				<li class="home">Home</li>
+				<li class="collections">Collections</li>
+				<li class="process">Process</li>
+				<li class="contact">Contact</li>
+			</ul>
+		</nav>
 		<h5>Copyright 2017 Radiate Studios</h5>
 	</footer>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.prodGallery').slick({
+			infinite: true,
+			speed: 1500,
+			autoplay: true,
+			arrows: false,
+			pauseOnFocus: false,
+			pauseOnHover: false,
+			fade: true
+		  });
+		});
+	</script>
 
 </body>
 </html>

@@ -23,6 +23,10 @@ $mobileBP: 960px;
 	line-height: 1rem;
 }
 
+script {
+	display: none;
+}
+
 // Site Structure
 
 body {
@@ -147,6 +151,10 @@ footer {
 
 .thirdsTwo {
 	width: 60%;
+}
+
+.noBotMargin {
+	margin-bottom: 0 !important;
 }
 
 
@@ -360,7 +368,7 @@ section {
 		max-height: 700px;
 	}
 	
-	// Sunbeam One Detail Shots
+	// Sunbeam One
 	
 	.sbOne-1 {
 		background: url('../img/sunbeamOneGallery.jpg');
@@ -374,8 +382,44 @@ section {
 		background-position: center center;		
 	}
 	
+	.sbOne-3 {
+		background: url('../img/sunbeamOneDetail-1.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
 	
-	// Sunbeam Two Detail Shots
+	.sbOne-4 {
+		background: url('../img/sunbeamOneDetail-2.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbOne-5 {
+		background: url('../img/sunbeamOneDetail-3.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbOne-6 {
+		background: url('../img/sunbeamOneDetail-4.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbOne-7 {
+		background: url('../img/sunbeamOneDetail-5.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbOne-8 {
+		background: url('../img/sunbeamOneDetail-6.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	
+	// Sunbeam Two 
 	
 	.sbTwo-1 {
 		background: url('../img/sunbeamTwoGallery.jpg');
@@ -395,20 +439,80 @@ section {
 		background-position: center center;		
 	}
 	
-	// Sunbeam Twins Detail Shots
+	.sbTwo-4 {
+		background: url('../img/sunbeamTwoDetail-2.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwo-5 {
+		background: url('../img/sunbeamTwoDetail-3.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbTwo-6 {
+		background: url('../img/sunbeamTwoDetail-4.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	
+	// Sunbeam Twins
 	
 	.sbTwins-1 {
-		background: url('');
+		background: url('../img/sunbeamTwinsGallery.jpg');
 		background-size: cover;
 		background-position: center center;
 	}
 	
 	.sbTwins-2 {
-		background: url('');
+		background: url('../img/sunbeamTwinsDetail-1.jpg');
 		background-size: cover;
 		background-position: center center;		
 	}	
 	
+	.sbTwins-3 {
+		background: url('../img/sunbeamTwinsDetail-2.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwins-4 {
+		background: url('../img/sunbeamTwinsDetail-3.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwins-5 {
+		background: url('../img/sunbeamTwinsDetail-4.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwins-6 {
+		background: url('../img/sunbeamTwinsDetail-5.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwins-7 {
+		background: url('../img/sunbeamTwinsDetail-6.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}
+	
+	.sbTwins-8 {
+		background: url('../img/sunbeamTwinsDetail-7.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
+	
+	.sbTwins-9 {
+		background: url('../img/sunbeamTwinsDetail-8.jpg');
+		background-size: cover;
+		background-position: center center;		
+	}	
 }
 
 
