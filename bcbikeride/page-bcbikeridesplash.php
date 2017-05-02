@@ -23,7 +23,7 @@
 </head>	
 	
 <body>
-	
+	<!-- 
 	<section class="fullbleed homePanel14">
 		<div class="dimmer"></div>
 		<div class="contentWrap">
@@ -31,6 +31,7 @@
 			<a href="https://www.pinkbike.com/news/bc-bike-ride-the-ultimate-road-trip-experience-2017.html" target="_blank">Enter Now</a>
 		</div>
 	</section>
+	-->
 	
 	<a name="anchorPanel1"></a>
 	<section class="fullbleed homePanel1">
@@ -45,7 +46,7 @@
 		<div class="contentWrap">
 			<h1>The <span class="highlight">Ultimate</span> Road-trip Experience</h1><p style="text-align: center;" class="bigger highlight ">August 5 - 13, 2017<br>Registration Opens 9:00am PST, February 7, 2017</p>
 			<p style="text-align: center;"><a href="https://ccnbikes.com/#!/events/2017-bc-bike-ride-north" target="_blank">Register</a></p>
-			<p>The BC BIKE RIDE NORTH, will connect 100 mountain bikers from all over the world on a tour of 6 Northern British Columbia communities exploring 14 distinct trail networks.  <br><br>This full service, mobile, event-style tour will include transportation by plane, train, and coach bus covering more than 1800 kilometers in an action-packed road-trip of a lifetime.  Our experienced BC BIKE RIDE crew will seamlessly orchestrate all the logistics just as we have become internationally famous for over the last decade at the BC Bike Race.<br><br> Meals will be prepared with fresh local ingredients and there will be unlimited local craft beer. You will enjoy the convenience of having your tent put up, your custom BC BIKE RIDE duffle transported, and all your daily travel between towns taken care of.  Most importantly - access to the trails will be made easy.</p>
+			<p>The BC BIKE RIDE NORTH, will connect mountain bikers from all over the world on a tour of 6 Northern British Columbia communities exploring 14 distinct trail networks.  <br><br>This full service, mobile, event-style tour will include transportation by plane, train, and coach bus covering more than 1800 kilometers in an action-packed road-trip of a lifetime.  Our experienced BC BIKE RIDE crew will seamlessly orchestrate all the logistics just as we have become internationally famous for over the last decade at the BC Bike Race.<br><br> Meals will be prepared with fresh local ingredients and there will be unlimited local craft beer. You will enjoy the convenience of having your tent put up, your custom BC BIKE RIDE duffle transported, and all your daily travel between towns taken care of.  Most importantly - access to the trails will be made easy.</p>
 		</div>
 	</section>
 	
@@ -186,7 +187,6 @@
 					<h5>Sunday, August 13, 2017</h5>
 					<p>Breakfast</p>
 					<p>Optional Nature Tours Upgrades such as: Whale Watching, Jet Boating, Great Bear Rainforest Tours, Deep Sea Fishing</p>
-					<p>Packed Lunch</p>
 					<p>Flight back to Vancouver (YVR)</p>
 				</div>
 			</div>
@@ -281,7 +281,7 @@
 				<p>A traditional West Coast final banquet featuring fresh caught local sockeye salmon hosted by the historic Cassiar Cannery</p>
 				<div style="clear:both;"></div>
 				<h3>Swag</h3>
-				<p>Custom BC Bike Race Bag</p>
+				<p>BCBR Race Bag</p>
 				<p>Custom BC Bike Ride T-shirt</p>
 				<p>Further BC Bike Ride Swag TBA</p>
 			</div>
