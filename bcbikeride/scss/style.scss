@@ -736,8 +736,12 @@ section {
 			margin: 0 auto;
 			position: relative;
 			text-align: center;
-			width: 30%;
+			width: 60%;
 			margin-top: 3rem;
+			
+			@media screen and (min-width: $mobileBp) {
+				width: 30%;
+			}
 		}
 	}
 	
@@ -839,7 +843,6 @@ section {
 	}
 }
 
-
 .homePanel14 {
 	background: $highlightColor;
 	background-size: cover;
@@ -883,7 +886,6 @@ section {
 			text-transform: uppercase;
 			transition: all .3s;
 		}
-		
 		
 	}
 }
