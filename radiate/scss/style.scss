@@ -68,6 +68,7 @@ header {
 	
 	a:hover {
 		border: none;
+		background: none;
 	}
 }
 
@@ -76,38 +77,69 @@ footer {
 	margin-bottom: 3rem;
 	text-align: center;
 	
-	nav {
-		width: 100%;
-		margin-bottom: 1rem;
+	.half {
+		 // border: 1px solid teal;
+			padding: 1rem 2rem;
 		
-		ul {
-			margin: 0 auto;	
-			margin-bottom: 2rem;
+		h5 {
+			font-size: 1.5rem;
+			font-weight: 600;
+			line-height: 1.5rem;
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
+			color: #333;
 			
-		// border-top: 1px solid #ddd;	
-			
-			li {
-				display: inline-block;
-				width: 15%;
-				max-width: 300px;
-				min-width: 200px;
-				height: auto;
-				text-transform: uppercase;
-				padding: 0 2rem;
-				color: #666;
-				font-weight: 300;
-				border: 1px solid #999;
-				padding: 4rem 1rem;
-				margin: 0 1rem;
-				margin-bottom: 1rem;
-			
-			}
 		}
+		
+		a {
+			border: none;
+			padding: 0;
+			margin: 0;
+			font-size: 1rem;
+		}
+		
+		a:hover {
+			background: none;
+			color: #999;
+		}
+		
+		p {
+			font-size: 1rem;
+			font-weight: 300;
+			line-height: 1.5rem;
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
+			color: #666;
+			text-transform: uppercase;
+		}
+		
+	}
+	
+	.contactWrap {
+		text-align: center;
+		
+		@media screen and (min-width: $mobileBP) {
+			text-align: right;
+		}
+		
+		
+	}
+	
+	.shopWrap {
+		text-align: center;
+		
+		@media screen and (min-width: $mobileBP) {
+			text-align: left;
+		}
+		
 	}
 	
 	h5 {
 		margin: 0 auto;
 		color: #999;
+		margin-top: 3rem;
 	}
 }
 
@@ -212,7 +244,8 @@ a {
 
 a:hover {
 	color: white;
-	border: 1px solid white;
+	border: 1px solid black;
+	background: black;
 	transition: all .3s;
 }
 
@@ -305,7 +338,7 @@ section {
 		font-size: 1rem;
 		text-transform: uppercase;
 		letter-spacing: 13px;
-		margin-bottom: 1.5rem;
+		margin-bottom: 0rem;
 		padding-left: 4px;
 		color: #999;
 		font-weight: 300;
@@ -375,19 +408,23 @@ section {
 	}
 	
 	.linkWrap {
-		padding: 15rem 0;
+		padding: 12rem 0;
 		text-align: center;
 	}
 	
 	a {
-		font-size: 1.25rem;
+		font-size: 1rem;
 		font-weight: 200;
 		color: white;
 		border: 1px solid white;
 		display: inline-block;
 		margin: 0 auto;
 		padding: .8rem 1rem;
-		text-transform: none;
+		text-transform: uppercase;
+	}
+	
+	a:hover {
+		background: black;
 	}
 }
 
