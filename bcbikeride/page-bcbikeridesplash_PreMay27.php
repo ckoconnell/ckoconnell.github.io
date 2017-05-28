@@ -22,6 +22,15 @@
 </head>	
 	
 <body>
+	<!-- 
+	<section class="fullbleed homePanel14">
+		<div class="dimmer"></div>
+		<div class="contentWrap">
+			<h1>Win</h1><h3>The Ultimate Road Trip Experience</h3>
+			<a href="https://www.pinkbike.com/news/bc-bike-ride-the-ultimate-road-trip-experience-2017.html" target="_blank">Enter Now</a>
+		</div>
+	</section>
+	-->
 	
 	<a name="anchorPanel1"></a>
 	<section class="fullbleed homePanel1">
@@ -34,9 +43,9 @@
 	<section class="fullbleed homePanel2">
 		<div class="dimmer"></div>
 		<div class="contentWrap">
-			<h1>The <span class="highlight">Ultimate</span> Road-trip Experience</h1><p style="text-align: center;" class="bigger highlight ">August 5 - 13, 2017</p>
+			<h1>The <span class="highlight">Ultimate</span> Road-trip Experience</h1><p style="text-align: center;" class="bigger highlight ">August 5 - 13, 2017<br>Registration Opens 9:00am PST, February 7, 2017</p>
 			<p style="text-align: center;"><a href="https://ccnbikes.com/#!/events/2017-bc-bike-ride-north" target="_blank">Register</a></p>
-			<p>The BC BIKE RIDE NORTH, will connect mountain bikers from all over the world on a tour of 6 Northern British Columbia communities exploring 14 distinct trail networks.  <br><br>This full service, mobile, event-style tour will include transportation by plane, train, and coach bus covering more than 1800 kilometers in an action-packed road-trip of a lifetime.  Our experienced BC BIKE RIDE crew will seamlessly orchestrate all the logistics just as we have become internationally famous for over the last decade at the BC Bike Race.<br><br> Meals will be prepared with fresh local ingredients and there will be unlimited local craft beer. You will enjoy the convenience of having your tent put up, your custom BCBR duffle transported, and all your daily travel between towns taken care of.  Most importantly - access to the trails will be made easy.</p>
+			<p>The BC BIKE RIDE NORTH, will connect mountain bikers from all over the world on a tour of 6 Northern British Columbia communities exploring 14 distinct trail networks.  <br><br>This full service, mobile, event-style tour will include transportation by plane, train, and coach bus covering more than 1800 kilometers in an action-packed road-trip of a lifetime.  Our experienced BC BIKE RIDE crew will seamlessly orchestrate all the logistics just as we have become internationally famous for over the last decade at the BC Bike Race.<br><br> Meals will be prepared with fresh local ingredients and there will be unlimited local craft beer. You will enjoy the convenience of having your tent put up, your custom BC BIKE RIDE duffle transported, and all your daily travel between towns taken care of.  Most importantly - access to the trails will be made easy.</p>
 		</div>
 	</section>
 	
@@ -90,10 +99,10 @@
 				<div class="slideItinerary">
 					<h3>Day 0 - North Vancouver</h3>
 					<h5>Saturday August 5, 2017</h5>
-					<p>North Vancouver Ride guided by Endless Biking</p>
 					<p>Registration &amp; Mandatory Briefing at Host Hotel in North Vancouver</p>
-					<p>Bike Drop off</p>
-					<p>Social</p>
+					<p>North Vancouver Ride guided by Endless Biking</p>
+					<p>Bike &amp; Bag Drop off</p>
+					<p>Social &amp; Dinner</p>
 					<p>Sleep in North Vancouver<br><div class="indent highlight smaller">This nights' accommodations is not included in package</div></p>
 				</div>
 				<div class="slideItinerary">
@@ -133,7 +142,7 @@
 					<h3>Day 4 - Smithers</h3>
 					<h5>Wednesday August 9, 2017</h5>
 					<p>Breakfast</p>
-					<p>Transfer from Burns Lake to Smithers</p>
+					<p>Transfer from Burns Lake to Smithers e</p>
 					<p>Packed Lunch</p>
 					<p>Ride Smithers</p>
 					<p>Dinner</p>
@@ -166,7 +175,7 @@
 					<h3>Day 7</h3>
 					<h5>Saturday, August 12, 2017</h5>
 					<p>Breakfast</p>
-					<p>Optional Nature Tours Upgrades such as: Jet Boating, Deep Sea Fishing, Canoe Adventure</p>
+					<p>Optional Nature Tours Upgrades such as: Whale Watching, Jet Boating, Great Bear Rainforest Tours, Deep Sea Fishing</p>
 					<p>Packed Lunch</p>
 					<p>Dinner</p>
 					<p>Campfire &amp; Evening Entertainment</p>
@@ -176,7 +185,7 @@
 					<h3>Day 8</h3>
 					<h5>Sunday, August 13, 2017</h5>
 					<p>Breakfast</p>
-					<p>Scenic VIA Rail Train Ride from Cassiar Cannery to Terrace</p>
+					<p>Optional Nature Tours Upgrades such as: Whale Watching, Jet Boating, Great Bear Rainforest Tours, Deep Sea Fishing</p>
 					<p>Flight back to Vancouver (YVR)</p>
 				</div>
 			</div>
@@ -242,7 +251,7 @@
 		<div class="dimmer"></div>
 		<div class="contentWrap">
 			<p>The end of your journey will be complete with a traditional salmon banquet at the historic <span class="italic bolder"><a href="http://www.cassiarcannery.com/" target="_blank">Cassiar Cannery</a></span>, where history and nature meet by the estuary of the mighty Skeena River within the Great Bear Rainforest Conservancy.<br><br>   
-				After you have ridden your ass off for 7 days with your new long-lost friends, relax and enjoy available nature tours including: canoe adventure, jet boat tours, or deep sea fishing that will be organized for you.   The <span class="italic bolder"><a href="http://www.cassiarcannery.com/" target="_blank">Cassiar Cannery</a></span>, one of the "Top 10 Most Unique Places to Overnight in British Columbia", is your gateway to adventure on the North Coast and world famous <span class="bolder">Haida Gwaii</span>.</p>
+				After you have ridden your ass off for 7 days with your new long-lost friends, relax and enjoy available nature tours including: whale watching, jet boat tours, or deep sea fishing that will be organized for you.   The <span class="italic bolder"><a href="http://www.cassiarcannery.com/" target="_blank">Cassiar Cannery</a></span>, one of the "Top 10 Most Unique Places to Overnight in British Columbia", is your gateway to adventure on the North Coast and world famous <span class="bolder">Haida Gwaii</span>.</p>
 		</div>
 	</section>	
 	
@@ -272,14 +281,14 @@
 				<div style="clear:both;"></div>
 				<h3>Swag</h3>
 				<p>BCBR Race Bag</p>
-				<p>Custom BCBR T-shirt</p>
+				<p>Custom BC Bike Ride T-shirt</p>
 				<p>Further BC Bike Ride Swag TBA</p>
 			</div>
 			<div class="contentCol">
 				<h3>Basecamp</h3>
 				<p>Roomy 4-person sized tents for double occupancy</p>
 				<p>Solo tent upgrades available </p>
-				<p>On-site mobile washrooms and hot shower truck</p>
+				<p>On-site mobile washrooms and hot shower trucks</p>
 				<p>On-site mechanical support</p>
 				<p>On-site medical support</p>
 				<p>Campfire every night</p>
@@ -293,8 +302,8 @@
 				<p>A total of 3000 kilometres traveled through the vast and scenic northern British Columbia by plane, coach bus, train, and bike:</p>
 				<ul>
 					<li>Two flights; Vancouver International Airport (YVR) to Northern British Columbia and return</li>
-					<li>A private train car between Smithers and Terrace AND Prince Rupert to Terrace</li>
-					<li>Coach buses will transport riders between basecamps</li>
+					<li>A private train car between Smithers and Terrace</li>
+					<li>Coach buses with washrooms and wifi (where available) will transport riders between basecamps</li>
 					<li>Average bus ride times are 2-2.5 hours</li>
 				</ul>
 			</div>
