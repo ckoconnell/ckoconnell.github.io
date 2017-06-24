@@ -1,0 +1,472 @@
+// Variables
+
+$gridMax: 1030px;
+$mobileBP: 800px;
+$modalBP: 930px;
+$bodyFont: 'Roboto', sans-serif;	
+$heavyFont: 'Heebo', sans-serif;
+
+$bgColor: #999;
+$linkColor: teal;
+$fontColor: black;
+$lighterColor: #666;
+$highlightColor: #333;
+$darkerColor: #171717;
+
+$lightOp: 0.75;
+
+// Resets & Initial Config
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	
+}
+
+script {
+	display: none;
+}
+
+body {
+	background: $bgColor;
+	font-family: $bodyFont;
+	font-weight: 300;
+	font-size: 1rem;
+	z-index: 0;
+}
+
+// Font Styles
+
+h1 {
+	font-family: $heavyFont;
+	margin-bottom: .5rem;
+	margin-top: 3rem;
+	color: $lighterColor;
+}
+
+h3 {
+	margin: 0 0 1rem 0;
+	color: $highlightColor;
+	font-style: italic;
+	font-size: 1rem;
+	font-family: $bodyFont;
+	font-weight: 300;
+}
+
+
+p {
+	width: 100%;
+	max-width: 450px;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	text-align: left;
+	margin-bottom: 1rem;
+	
+	@media screen and (min-width: $mobileBP) {
+		width: 80%;
+	}
+}
+
+a {
+	color: $lighterColor;
+	margin: 1rem 0;
+	font-family: $heavyFont;
+	font-weight: 800;
+}
+
+
+// Site Structure
+
+section {
+	width: 100%;
+	padding: 6rem 0;
+	z-index: 0;
+	
+	.gridWrap {
+		width: 100%;
+		max-width: $gridMax;
+		margin: 0 auto;
+		padding: 0 1rem;
+		display: none;
+	
+		@media screen and (min-width: $mobileBP) {
+			padding: 0 1rem;
+		}
+	}
+}
+
+
+// Sections
+
+.intro {
+	padding: 12rem 2rem 12rem 0;
+}
+
+.work {
+	background: #444;
+	padding-bottom: 12rem;
+	
+	.gridWrap {
+		
+		h1 {
+			color: white;
+			opacity: $lightOp;
+		}
+		
+		h3 {
+			color: white;
+			opacity: $lightOp;
+		}
+		
+		.workSlider {
+			height: 60%;
+			min-height: 450px;
+			max-height: 600px;
+			position: relative;
+			margin-top: 3rem;
+			
+			@media screen and (min-width: $mobileBP) {
+				height: 40%;
+				min-height: 450px;
+				max-height: 550px;
+			}
+			
+			button {
+				background: none;
+				color: $lighterColor;
+				border: none;
+				padding: none;
+				margin: none;
+				position: absolute;
+				top: 45%;
+				font-size: 3rem;
+			}
+			
+			.sliderPrev {
+				left: -3rem;
+			}
+			
+			.sliderNext {
+				right: -3rem;	
+			}
+			
+			.slide {
+				margin: 0 1rem;
+				padding: 0;
+				text-align: center;
+				
+				.dimmer {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: 100%;
+					background: rgba(0,0,0,0.8);
+					transition: all 1s;
+				}
+				
+				.dimmer:hover {
+					background: rgba(0,0,0,0.65);
+					transition: all .5s;
+				}
+				
+				.contentWrap {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					display: block;
+					width: 100%;
+				}
+				
+				h1 {
+					color: #333;
+					font-size: 1rem;
+					line-height: 1rem;
+					color: white;
+					opacity: $lightOp;
+					
+				}
+				
+				h3 {
+					font-size: .9rem;
+					color: white;
+					line-height: 1.25rem;
+					opacity: $lightOp;
+					padding: 0 1rem;
+					// text-transform: uppercase;
+				}
+				
+				
+				.moreLink {
+					cursor: pointer;
+					margin: 0 auto;
+					font-size: 1.4rem;
+					text-align: center;
+					color: white;
+					text-transform: uppercase;
+					border: 1px solid white;
+					border-radius: 15px; 
+					width: 30px;
+					height: 30px;
+					display: inline-block;
+					transition: all .8s;
+					vertical-align: middle;
+					font-style: oblique;
+					opacity: $lightOp;
+				}
+				
+				.moreLink:hover {
+					background: white;
+					transition: all 1s;
+					color: black;
+					opacity: 1;
+				}
+								
+			}
+			
+			.slideRadiate {
+				background: url("../img/sunbeamTwoDetail-2.jpg");
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			.slideASJ {
+				background: url("../img/asjChina-4.jpg");
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			.slideAcademy {
+				background: url("../img/academy3.jpg");
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			.slideBCBike {
+				background: url("../img/bcbikerace.jpg");
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			.slideDeepWinter {
+				background: url("../img/deepwinter.jpg");
+				background-size: cover;
+				background-position: left center;
+			}
+		
+		}
+		
+	}
+}
+
+.skills {
+	padding: 12rem 0;
+	
+	h1 {
+		margin-top: 0;
+		text-align: center;
+		color: $darkerColor;
+	}
+	
+	h3 {
+		margin: 0 auto;
+		max-width: 400px;
+		text-align: center;
+	}
+	
+	ul {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 4rem;
+		
+		li {
+			display: inline-block;
+			width: 100%;
+			max-width: 320px;
+			vertical-align: top;
+			margin-bottom: 4rem;
+				
+			
+			@media screen and (min-width: $mobileBP) {
+				width: 28%;
+			}
+			
+			.icon {
+				
+			}
+			
+			h1 {
+				font-size: 1rem;
+				line-height: 1.2rem;
+				color: $darkerColor;
+			}
+			
+			p {
+				text-align: center;
+				width: 80%;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+.contact {
+	background: #222;
+	
+	h1 {
+		color: white;
+		opacity: $lightOp;
+	}
+	
+	p {
+		color: white;
+		font-style: italic;
+		opacity: $lightOp;
+		
+		a {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			color: white;
+		}
+	}
+}
+
+.modalFilter {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.75);
+	filter: grayscale(95);
+	display: none;
+	z-index: 10;
+}
+
+.modalContent {
+	display: none;
+	position: fixed;
+	top: 12.5%;
+	left: 10%;
+	bottom: 12.5%;
+	right: 10%;
+	background: #333;
+	margin: 0 auto;
+	z-index: 20;
+	overflow: hidden;
+	
+	.imageWrap {
+		width: 100%;
+		height: 40%;
+		display: block;
+		background: #171717;
+		
+		@media screen and (min-width: $modalBP) {
+			width: 50%; 
+			height: 100%;
+			display: inline-block;
+		}
+	}
+	
+	.contentWrap {
+		width: 100%;
+		display: block;
+		padding: 1.5rem;
+		vertical-align: text-bottom;
+		
+		@media screen and (min-width: $modalBP) {
+			width: 45%; 
+			display: inline-block;
+			padding: 3rem;
+		}
+		
+		h1 {
+			color: #ccc;
+		}
+		
+		h3 {
+			color: #ccc;
+		}
+		
+		p {
+			color: #aaa;
+		}
+	}
+	
+	.closeLink {
+		position: absolute;
+		top: 1.5rem;
+		right: 2rem;
+		cursor: pointer;
+		font-size: 1.5rem;
+		text-align: center;
+		text-transform: uppercase;
+		border: 1px solid white;
+		border-radius: 15px; 
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		transition: all .8s;
+		font-style: oblique;
+		background: white;
+		color: black;
+	}
+	
+	.closeLink:hover {
+		color: white;
+		background: none;
+		transition: all 1s;
+	}
+}
+
+.modalRadiate {
+	
+	.imageWrap {
+		background: url("../img/sunbeamTwoDetail-2.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+.modalASJ {
+	
+	.imageWrap {
+		background: url("../img/asjChina-4.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+.modalAcademy {
+	
+	.imageWrap {
+		background: url("../img/academy3.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+.modalBCBike {
+	.imageWrap {
+		background: url("../img/bcbikerace.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+.modalDeepWinter {
+	.imageWrap {
+		background: url("../img/deepwinter.jpg");
+		background-size: cover;
+		background-position: left center;
+	}
+}
+
+
+

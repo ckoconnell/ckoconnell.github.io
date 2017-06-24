@@ -1,0 +1,488 @@
+/* line 20, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+/* line 30, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+script {
+  display: none;
+}
+
+/* line 34, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+body {
+  background: #999;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  z-index: 0;
+}
+
+/* line 44, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+h1 {
+  font-family: "Heebo", sans-serif;
+  margin-bottom: .5rem;
+  margin-top: 3rem;
+  color: #666;
+}
+
+/* line 51, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-style: italic;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* line 61, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+p {
+  width: 100%;
+  max-width: 450px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 61, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  p {
+    width: 80%;
+  }
+}
+
+/* line 74, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+a {
+  color: #666;
+  margin: 1rem 0;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+}
+
+/* line 84, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+section {
+  width: 100%;
+  padding: 6rem 0;
+  z-index: 0;
+}
+
+/* line 89, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+section .gridWrap {
+  width: 100%;
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 89, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  section .gridWrap {
+    padding: 0 1rem;
+  }
+}
+
+/* line 105, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.intro {
+  padding: 12rem 2rem 12rem 0;
+}
+
+/* line 109, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work {
+  background: #444;
+  padding-bottom: 12rem;
+}
+
+/* line 115, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap h1 {
+  color: white;
+  opacity: 0.75;
+}
+
+/* line 120, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap h3 {
+  color: white;
+  opacity: 0.75;
+}
+
+/* line 125, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider {
+  height: 60%;
+  min-height: 450px;
+  max-height: 600px;
+  position: relative;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 125, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  .work .gridWrap .workSlider {
+    height: 40%;
+    min-height: 450px;
+    max-height: 550px;
+  }
+}
+
+/* line 138, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider button {
+  background: none;
+  color: #666;
+  border: none;
+  padding: none;
+  margin: none;
+  position: absolute;
+  top: 45%;
+  font-size: 3rem;
+}
+
+/* line 149, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .sliderPrev {
+  left: -3rem;
+}
+
+/* line 153, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .sliderNext {
+  right: -3rem;
+}
+
+/* line 157, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide {
+  margin: 0 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 162, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide .dimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 1s;
+}
+
+/* line 172, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide .dimmer:hover {
+  background: rgba(0, 0, 0, 0.65);
+  transition: all .5s;
+}
+
+/* line 177, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide .contentWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 100%;
+}
+
+/* line 185, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide h1 {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: white;
+  opacity: 0.75;
+}
+
+/* line 194, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide h3 {
+  font-size: .9rem;
+  color: white;
+  line-height: 1.25rem;
+  opacity: 0.75;
+  padding: 0 1rem;
+}
+
+/* line 204, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide .moreLink {
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  transition: all .8s;
+  vertical-align: middle;
+  font-style: oblique;
+  opacity: 0.75;
+}
+
+/* line 222, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slide .moreLink:hover {
+  background: white;
+  transition: all 1s;
+  color: black;
+  opacity: 1;
+}
+
+/* line 231, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slideRadiate {
+  background: url("../img/sunbeamTwoDetail-2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 237, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slideASJ {
+  background: url("../img/asjChina-4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 243, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slideAcademy {
+  background: url("../img/academy3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 249, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slideBCBike {
+  background: url("../img/bcbikerace.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 255, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.work .gridWrap .workSlider .slideDeepWinter {
+  background: url("../img/deepwinter.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+/* line 266, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills {
+  padding: 12rem 0;
+}
+
+/* line 269, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #171717;
+}
+
+/* line 275, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills h3 {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* line 281, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills ul {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* line 287, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills ul li {
+  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+  vertical-align: top;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 287, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  .skills ul li {
+    width: 28%;
+  }
+}
+
+/* line 303, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills ul li h1 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #171717;
+}
+
+/* line 309, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.skills ul li p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 318, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.contact {
+  background: #222;
+}
+
+/* line 321, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.contact h1 {
+  color: white;
+  opacity: 0.75;
+}
+
+/* line 326, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.contact p {
+  color: white;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+/* line 331, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.contact p a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* line 340, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalFilter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  filter: grayscale(95);
+  display: none;
+  z-index: 10;
+}
+
+/* line 352, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent {
+  display: none;
+  position: fixed;
+  top: 12.5%;
+  left: 10%;
+  bottom: 12.5%;
+  right: 10%;
+  background: #333;
+  margin: 0 auto;
+  z-index: 20;
+  overflow: hidden;
+}
+
+/* line 364, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .imageWrap {
+  width: 100%;
+  height: 40%;
+  display: block;
+  background: #171717;
+}
+
+@media screen and (min-width: 930px) {
+  /* line 364, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  .modalContent .imageWrap {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+  }
+}
+
+/* line 377, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .contentWrap {
+  width: 100%;
+  display: block;
+  padding: 1.5rem;
+  vertical-align: text-bottom;
+}
+
+@media screen and (min-width: 930px) {
+  /* line 377, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+  .modalContent .contentWrap {
+    width: 45%;
+    display: inline-block;
+    padding: 3rem;
+  }
+}
+
+/* line 389, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .contentWrap h1 {
+  color: #ccc;
+}
+
+/* line 393, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .contentWrap h3 {
+  color: #ccc;
+}
+
+/* line 397, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .contentWrap p {
+  color: #aaa;
+}
+
+/* line 402, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .closeLink {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  transition: all .8s;
+  font-style: oblique;
+  background: white;
+  color: black;
+}
+
+/* line 421, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalContent .closeLink:hover {
+  color: white;
+  background: none;
+  transition: all 1s;
+}
+
+/* line 430, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalRadiate .imageWrap {
+  background: url("../img/sunbeamTwoDetail-2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 439, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalASJ .imageWrap {
+  background: url("../img/asjChina-4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 448, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalAcademy .imageWrap {
+  background: url("../img/academy3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 456, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalBCBike .imageWrap {
+  background: url("../img/bcbikerace.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 464, C:/xampp/htdocs/ckoconnell.github.io/site/scss/style.scss */
+.modalDeepWinter .imageWrap {
+  background: url("../img/deepwinter.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+/*# sourceMappingURL=../css/style.map */
