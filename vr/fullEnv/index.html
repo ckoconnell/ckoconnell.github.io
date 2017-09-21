@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Scene</title>
+    <meta name="description" content="Test Scene - A-Frame">
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+		<a-assets>
+
+
+			<img id="studioFrameTexture" src="StudioBakeFrame.png">
+			<a-asset-item id="studioFrame-obj" src="studioFraneOBJ.obj"></a-asset-item>
+
+			<img id="studioFrameTexture2" src="StudioBakeFrame2.png">
+			<a-asset-item id="studioFrame-obj2" src="studioFrameOBJ2.obj"></a-asset-item>
+
+			<img id="studioSky" src="SunsetEditOpt.jpg">
+			<img id="marbleCol" src="Marble062_COL_4K.jpg">
+
+			<img id="studioFrameOuterTexture" src="studioBakeOuterFrame.png">
+			<a-asset-item id="studioOuterFrame-obj" src="studioOuterFrameOBJ.obj"></a-asset-item>
+
+			<a-asset-item id="studioGlassDark-obj" src="studioGlassDarkOBJ.obj"></a-asset-item>
+			<a-asset-item id="studioGlassClear-obj" src="studioGlassClearOBJ.obj"></a-asset-item>
+
+			<img id="studioFloorTexture" src="studioBakeFloor.png">
+			<a-asset-item id="studioFloor-obj" src="studioFloorOBJ.obj"></a-asset-item>
+
+      <img id="studioWallFeatTexture" src="studioBakeWallFeature.png">
+      <a-asset-item id="studioWallFeat-obj" src="studioWallFeatOBJ.obj"></a-asset-item>
+
+      <img id="studioTableTexture" src="studioBakeTable.png">
+      <a-asset-item id="studioTable-obj" src="studioTableOBJ.obj"></a-asset-item>
+
+      <img id="studioLadderTexture" src="studioBakeLadder.png">
+      <a-asset-item id="studioLadder-obj" src="studioLadderOBJ.obj"></a-asset-item>
+
+		</a-assets>
+
+		<a-sky src="#studioSky"></a-sky>
+
+		<a-entity id="cameraMain" position="-2.5 0 -3.37" camera="active:true;userHeight:1;near:0.01" wasd-controls="0:t;1:r;2:u;3:e" rotation="0 315 0" look-controls="" aframe-injected="" data-aframe-inspector="default-camera" scale="1 1 1">
+			<a-entity
+				raycaster="objects: .clickable"
+				cursor="fuse: true; fuseTimeout: 1000"
+				position="0 0 -1"
+			    scale="0.02 0.02 0.02"
+				geometry="primitive: ring"
+				material="color: black; shader: flat; opacity: .5"
+				 >
+		  	<a-animation begin="click" easing="ease-in" attribute="material.color"
+					   fill="backwards" from="black" to="red"></a-animation>
+		  	<a-animation begin="cursor-fusing" easing="ease-in" attribute="scale"
+					   fill="forwards" from="0.1 0.1 0.1" to="0.15 0.15 0.15"></a-animation>
+			</a-entity>
+		</a-entity>
+		<!--
+		<a-entity collada-model="#room-dae" >
+		</a-entity> -->
+
+		<a-sky src="#studioSky" rotation="0 180 0"></a-sky>
+
+		<a-entity obj-model="obj: #studioFrame-obj2"
+				  material="shader: standard;
+							side: double;
+							color: #000;
+							metalness: 0;
+							roughness: 0.45;
+							sphericalEnvMap: #studioSky;">
+		</a-entity>
+
+		<a-entity obj-model="obj: #studioFloor-obj"
+				  material="src: #studioFloorTexture;
+							shader: standard;
+							roughness: 0.225;
+							side: double;
+							">
+		</a-entity>
+
+    <a-entity obj-model="obj: #studioWallFeat-obj"
+				  material="src: #studioWallFeatTexture;
+							shader: standard;
+							side: double;
+							">
+		</a-entity>
+
+		<a-entity obj-model="obj: #studioOuterFrame-obj"
+				  material="shader: standard;
+							src: #studioFrameOuterTexture;
+							side: double;">
+		</a-entity>
+
+    <a-entity obj-model="obj: #studioTable-obj"
+				  material="shader: standard;
+							src: #studioTableTexture;
+              side: double;">
+		</a-entity>
+
+    <a-entity obj-model="obj: #studioLadder-obj"
+				  material="shader: standard;
+							src: #studioLadderTexture;
+              side: double;">
+		</a-entity>
+
+		<a-entity obj-model="obj: #studioGlassDark-obj"
+				  material="shader: standard;
+							color: #000000;
+							transparent: true;
+							opacity: 0.75;
+							roughness: 0;
+							sphericalEnvMap: #studioSky;">
+		</a-entity>
+
+		<a-entity obj-model="obj: #studioGlassClear-obj"
+				  material="shader: standard;
+							color: #000000;
+							transparent: true;
+							opacity: 0.5;
+							roughness: 0;
+							sphericalEnvMap: #studioSky;">
+		</a-entity>
+
+		<a-light type="ambient" color="#ccc"></a-light>
+
+
+	<!--   <a-light color="white" type="ambient" ></a-light> -->
+
+    </a-scene>
+	</body>
+</html>
