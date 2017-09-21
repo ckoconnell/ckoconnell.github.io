@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Scene</title>
+    <meta name="description" content="Test Scene - A-Frame">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+		<a-assets>
+			<a-asset-item id="mtn-obj" src="mtnsurround2.obj"></a-asset-item>
+			<a-asset-item id="mtn-mtl" src="mtnsurround2.mtl"></a-asset-item>
+			<a-asset-item id="texttest-obj" src="texttest.obj"></a-asset-item>
+		</a-assets>
+		<a-sky color="#666"></a-sky>
+
+		<a-entity position="4.79 1.56 5.33" camera="active:true;userHeight:1.6;near:0.01" wasd-controls="0:t;1:r;2:u;3:e" rotation="-13 416 0" look-controls="" aframe-injected="" data-aframe-inspector="default-camera" scale="1 1 1">
+			<a-entity 
+				raycaster="objects: .clickable"
+				cursor="fuse: true; fuseTimeout: 1000"
+				position="0 0 -3"
+			    scale="0.1 0.1 0.1"
+				geometry="primitive: ring"
+				material="color: black; shader: flat; opacity: .5"
+				 >
+		  	<a-animation begin="click" easing="ease-in" attribute="material.color"
+					   fill="backwards" from="black" to="red"></a-animation>
+		  	<a-animation begin="cursor-fusing" easing="ease-in" attribute="scale"
+					   fill="forwards" from="0.1 0.1 0.1" to="0.15 0.15 0.15"></a-animation>
+			</a-entity>
+		</a-entity>
+
+		<a-entity class="not-clickable" obj-model="obj:#mtn-obj;mtl:#mtn-mtl" scale="2.81 2.81 2.81"></a-entity>
+		
+		<!--
+		<a-entity class="clickable" cursor-listener-vis obj-model="obj:#texttest-obj" scale="1 1 1" material="color: red" position="-16.32 6.79 -7.2" rotation="51.56620156177409 -148.96902673401405 179.9087476710785"></a-entity> -->
+		<!--
+		<a-entity position="-0.35 11.12 12.82" rotation="0 0 0" blend-character-model="" light="distance:8.219999999999999;color:#ffffdf;intensity:1.54;type:directional;penumbra:1;decay:3;angle:62.3"></a-entity>-->
+		
+		<!-- <a-box class="clickable" color="red" cursor-listener id="otherEl" position="5 2 -5" rotation="0 45 45" scale="1 1 1"></a-box> -->
+		
+		<!-- <a-entity id="box" class="clickable" cursor-listener geometry="primitive: box" material="color: blue"></a-entity> -->
+
+    </a-scene>
+	  
+	<script>
+	// Component to change to random color on click.
+AFRAME.registerComponent('cursor-listener', {
+  init: function () {
+    var COLORS = ['red', 'green', 'blue'];
+    this.el.addEventListener('click', function (evt) {
+      var randomIndex = Math.floor(Math.random() * COLORS.length);
+      this.setAttribute('material', 'color', COLORS[randomIndex]);
+      console.log('I was clicked at: ', evt.detail.intersection.point);
+    });
+  }
+});  
+		
+AFRAME.registerComponent('cursor-listener-vis', {
+  init: function () {
+	var otherEl = document.querySelector('#otherEl');
+    this.el.addEventListener('click', function (evt) {
+      this.setAttribute('visible', 'false');
+	  otherEl.setAttribute('visible', 'false');
+    });
+  }
+}); 
+	</script>  
+  </body>
+</html>
+

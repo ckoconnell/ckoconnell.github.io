@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Scene</title>
+    <meta name="description" content="Test Scene - A-Frame">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+		<a-assets>
+			<a-asset-item id="texttest-obj" src="texttest.obj"></a-asset-item>
+			<a-asset-item id="iconhome-obj" src="homeicon.obj"></a-asset-item>
+		</a-assets>
+		
+		
+		<a-sky src="space2.jpg"></a-sky>
+
+		<a-entity id="cameraMain" position="0 0 0" camera="active:true;userHeight:1.6;near:0.01" wasd-controls="0:t;1:r;2:u;3:e" rotation="2 0 0" look-controls="" aframe-injected="" data-aframe-inspector="default-camera" scale="1 1 1">
+			<a-entity 
+				raycaster="objects: .clickable"
+				cursor="fuse: true; fuseTimeout: 1000"
+				position="0 0 -1"
+			    scale="0.05 0.05 0.05"
+				geometry="primitive: ring"
+				material="color: black; shader: flat; opacity: .5"
+				 >
+		  	<a-animation begin="click" easing="ease-in" attribute="material.color"
+					   fill="backwards" from="black" to="red"></a-animation>
+		  	<a-animation begin="cursor-fusing" easing="ease-in" attribute="scale"
+					   fill="forwards" from="0.1 0.1 0.1" to="0.15 0.15 0.15"></a-animation>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity position="0 0 0">
+			<a-box class="notClickable" position="0 0 0" scale="5 5 .05" rotation="90 0 0" material="color: #212121">
+
+			</a-box>
+
+			<a-plane class="notClickable" position="0 2 -5" height="4" width="7" material="color: black; opacity: 0.25">
+				<a-entity obj-model="obj:#texttest-obj" rotation="90 0 0" scale=".5 .5 .5" position="-3 0 1">
+			</a-plane>
+
+			<a-plane cursor-listener-navphoto class="clickable" position="-5 2 0" rotation="0 90 0" height="4" width="7" material="color: black; opacity: .25">
+				
+			</a-plane>
+		</a-entity>	
+			
+		<a-entity id="cameraPhoto" position="20 0 0" camera="active:false;userHeight:1.6;near:0.01;far:10" wasd-controls="0:t;1:r;2:u;3:e" rotation="2 0 0" look-controls="" aframe-injected=""  scale="1 1 1">
+			<a-entity 
+				raycaster="objects: .clickable"
+				cursor="fuse: true; fuseTimeout: 1000"
+				position="0 0 -1"
+			    scale="0.05 0.05 0.05"
+				geometry="primitive: ring"
+				material="color: black; shader: flat; opacity: .5"
+				 >
+		  	<a-animation begin="click" easing="ease-in" attribute="material.color"
+					   fill="backwards" from="black" to="red"></a-animation>
+		  	<a-animation begin="cursor-fusing" easing="ease-in" attribute="scale"
+					   fill="forwards" from="0.1 0.1 0.1" to="0.15 0.15 0.15"></a-animation>
+			</a-entity>
+		</a-entity>			
+			
+		<a-entity position="20 0 0">
+			<a-box position="0 0 0" scale="5 5 .05" rotation="90 0 0" material="color: #212121">
+
+			</a-box>
+
+			<a-plane position="0 2 -5" height="4" width="7" material="color: black; opacity: 0.25">
+				<a-entity obj-model="obj:#texttest-obj" rotation="90 0 0" scale=".5 .5 .5" position="-3 0 1">
+			</a-plane>
+
+			<a-plane class="notClickable" position="-5 2 0" rotation="0 90 0" height="4" width="7" material="color: black; opacity: 100">	
+				
+			</a-plane>
+		
+			<a-entity cursor-listener-home class="clickable" obj-model="obj:#iconhome-obj" rotation="-90 180 0" scale="3 3 3" position="-.1 .5 -3">	
+		</a-entity>		
+		
+    </a-scene>
+	  
+	<script>
+		AFRAME.registerComponent('cursor-listener-navphoto', {
+		  init: function () {
+			var otherEl = document.querySelector('#cameraPhoto');
+			this.el.addEventListener('click', function (evt) {
+			  this.setAttribute('camera', 'active', 'false');
+			  otherEl.setAttribute('camera', 'active', 'true');
+			  otherEl.setAttribute('camera', 'userHeight', '1.6');
+			});
+		  }
+		}); 
+		
+		AFRAME.registerComponent('cursor-listener-home', {
+		  init: function () {
+			var otherEl = document.querySelector('#cameraMain');
+			this.el.addEventListener('click', function (evt) {
+			  this.setAttribute('camera', 'active', 'false');
+			  otherEl.setAttribute('camera', 'active', 'true');
+			  otherEl.setAttribute('camera', 'userHeight', '1.6');
+			});
+		  }
+		}); 		
+		
+	</script>  
+
+	</body>
+</html>
+

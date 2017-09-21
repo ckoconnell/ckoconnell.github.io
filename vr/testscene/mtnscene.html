@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Scene</title>
+    <meta name="description" content="Test Scene - A-Frame">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+		<a-assets>
+			<a-asset-item id="mtn-obj" src="mtn3.obj"></a-asset-item>
+			<a-asset-item id="mtn-mtl" src="mtn3.mtl"></a-asset-item>
+		</a-assets>
+		<a-sky color="#6EBAA7"></a-sky>
+<a-entity position="2.59 2.84 0" camera="active:true;userHeight:1.6;near:0.01" wasd-controls="true" rotation="-14.258730399636228 17.18633763895351 0" look-controls="" aframe-injected="" data-aframe-inspector="default-camera"></a-entity>
+		
+<a-entity obj-model="obj:#mtn-obj;mtl:#mtn-mtl" position="0 3.2 -3.78" rotation="0 -172.72 0" material=""></a-entity>
+		
+		<a-box color="red" position="5 2 -5" rotation="0 45 45" scale="1 1 1"></a-box>
+    </a-scene>
+  </body>
+</html>
+
