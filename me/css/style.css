@@ -1,0 +1,305 @@
+/* line 14, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+/* line 21, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+body, html {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 26, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+section {
+  text-align: left;
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 33, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+section .gridWrap {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1030px;
+  padding: 6rem 2rem;
+}
+
+/* line 41, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+section .gridWrap .splitLeft {
+  width: 90%;
+  margin-right: 0;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 41, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  section .gridWrap .splitLeft {
+    width: 35%;
+    margin-right: 5%;
+    float: left;
+    display: inline-block;
+    text-align: right;
+  }
+}
+
+/* line 57, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+section .gridWrap .splitLeft h1 {
+  margin-bottom: 2rem;
+}
+
+/* line 62, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+section .gridWrap .splitRight {
+  width: 90%;
+  margin-left: 0;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 62, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  section .gridWrap .splitRight {
+    width: 50%;
+    margin-left: 5%;
+    float: right;
+  }
+}
+
+/* line 81, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+}
+
+/* line 88, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5;
+  font-family: "Playfair Display", serif;
+  font-size: .9rem;
+  color: #333;
+}
+
+/* line 96, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+/* line 101, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+h5 {
+  font-family: "Playfair Display", serif;
+}
+
+/* line 110, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+a {
+  text-decoration: none;
+  color: #555;
+  transition: all .5s;
+}
+
+/* line 116, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+a:hover {
+  color: #343446;
+  transition: all .5s;
+}
+
+/* line 121, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+a.button {
+  background: #343446;
+  padding: .8rem 1.2rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all .5s;
+}
+
+/* line 131, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+a.button:hover {
+  background: white;
+  border: 1px solid #343446;
+  color: #343446;
+  transition: all .5s;
+}
+
+/* line 141, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.intro {
+  background-color: #FFF;
+  text-align: center;
+}
+
+/* line 145, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.intro .gridWrap {
+  padding-top: 1rem;
+}
+
+/* line 148, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.intro .gridWrap h1 {
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  width: 90%;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 148, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .intro .gridWrap h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    width: 80%;
+  }
+}
+
+/* line 163, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.hero {
+  background-color: #333;
+  background-image: url("../vaseSubstance4_forweb.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 171, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.hero .gridWrap h1 {
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 90%;
+  text-align: center;
+  color: #EEE;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 171, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .hero .gridWrap h1 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    width: 80%;
+  }
+}
+
+/* line 188, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.projects {
+  background-color: #EEE;
+}
+
+/* line 192, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.xp {
+  background-color: #EEE;
+}
+
+/* line 196, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.contact {
+  background-color: #FFF;
+  text-align: center;
+}
+
+/* line 202, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.contact .gridWrap p {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  width: 80%;
+  max-width: 550px;
+  font-weight: 300;
+  line-height: 1.75rem;
+}
+
+/* line 214, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.item, .project {
+  margin: .5rem 0 3rem;
+}
+
+/* line 217, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.item h3, .project h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  line-height: 1.25rem;
+}
+
+/* line 224, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.item h3 .lighter, .project h3 .lighter {
+  font-weight: 400;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 232, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.item h5, .project h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: .75rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* line 241, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.item p, .project p {
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+/* line 255, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.coverIntro {
+  background-color: #FFF;
+  text-align: center;
+}
+
+/* line 259, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.coverIntro .gridWrap {
+  padding: 1rem 2rem;
+}
+
+/* line 262, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.coverIntro .gridWrap h1 {
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 262, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .coverIntro .gridWrap h1 {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    width: 80%;
+  }
+}
+
+/* line 280, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.coverBody .gridWrap {
+  padding: 1rem 2rem;
+}
+
+/* line 283, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.coverBody .gridWrap p {
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,292 @@
+// ckoconnell.github.io Welcome Page Styles
+
+
+// Variables
+
+$bodyFont: 'Lato', sans-serif;
+$headingFont: 'Playfair Display', serif;
+$colorBase: #555;
+$colorHi: #343446;
+$mobileBP: 800px;
+
+// Site Structure
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+body, html {
+  width: 100%;
+  font-family: $bodyFont;
+}
+
+section {
+  text-align: left;
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: auto;
+
+  .gridWrap {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1030px;
+    padding: 6rem 2rem;
+
+    .splitLeft {
+      width: 90%;
+      margin-right: 0;
+      float: left;
+      display: inline-block;
+      text-align: left;
+      position: relative;
+
+      @media screen and (min-width: $mobileBP) {
+        width: 35%;
+        margin-right: 5%;
+        float: left;
+        display: inline-block;
+        text-align: right;
+      }
+
+      h1 {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .splitRight {
+      width: 90%;
+      margin-left: 0;
+      float: left;
+      display: inline-block;
+      text-align: left;
+      position: relative;
+
+      @media screen and (min-width: $mobileBP) {
+        width: 50%;
+        margin-left: 5%;
+        float: right;
+      }
+    }
+  }
+}
+
+// Typography
+
+h1 {
+  font-family: $headingFont;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5;
+  font-family: $headingFont;
+  font-size: .9rem;
+  color: #333;
+}
+
+h3 {
+  font-family: $headingFont;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: $headingFont;
+
+}
+
+p {
+
+}
+
+a {
+  text-decoration: none;
+  color: $colorBase;
+  transition: all .5s;
+}
+
+a:hover {
+  color: $colorHi;
+  transition: all .5s;
+}
+
+a.button {
+  background: $colorHi;
+  padding: .8rem 1.2rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all .5s;
+}
+
+a.button:hover {
+  background: white;
+  border: 1px solid $colorHi;
+  color: $colorHi;
+  transition: all .5s;
+}
+
+
+// Sections
+
+.intro {
+  background-color: #FFF;
+  text-align: center;
+
+  .gridWrap {
+    padding-top: 1rem;
+
+    h1 {
+      margin: 0 auto;
+      margin-top: 8rem;
+      margin-bottom: 6rem;
+      width: 90%;
+
+      @media screen and (min-width: $mobileBP) {
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        width: 80%;
+      }
+    }
+  }
+}
+
+.hero {
+  background-color: #333;
+  background-image: url('../vaseSubstance4_forweb.jpg');
+  background-size: cover;
+  background-position: center center;
+
+  .gridWrap {
+
+    h1 {
+      margin: 0 auto;
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+      width: 90%;
+      text-align: center;
+      color: #EEE;
+
+      @media screen and (min-width: $mobileBP) {
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+        width: 80%;
+      }
+    }
+  }
+}
+
+.projects {
+  background-color: #EEE;
+}
+
+.xp {
+  background-color: #EEE;
+}
+
+.contact {
+  background-color: #FFF;
+  text-align: center;
+
+  .gridWrap {
+
+    p {
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      margin-top: 1.5rem;
+      width: 80%;
+      max-width: 550px;
+      font-weight: 300;
+      line-height: 1.75rem;
+    }
+  }
+}
+
+.item, .project {
+  margin: .5rem 0 3rem;
+
+  h3 {
+    // font-family: $bodyFont;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.25rem;
+
+    .lighter {
+      font-weight: 400;
+      font-size: .8rem;
+      text-transform: uppercase;
+      font-family: $bodyFont;
+    }
+  }
+
+  h5 {
+    font-family: $bodyFont;
+    font-weight: 900;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  p {
+    font-weight: 300;
+    font-family: $bodyFont;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: .5rem;
+  }
+
+  a {
+
+  }
+}
+
+.coverIntro {
+  background-color: #FFF;
+  text-align: center;
+
+  .gridWrap {
+    padding: 1rem 2rem;
+
+    h1 {
+      margin: 0 auto;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      width: 90%;
+
+      @media screen and (min-width: $mobileBP) {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        width: 80%;
+      }
+    }
+  }
+
+}
+
+.coverBody {
+
+  .gridWrap {
+    padding: 1rem 2rem;
+
+    p {
+      width: 90%;
+      max-width: 650px;
+      margin: 0 auto;
+      font-weight: 300;
+      line-height: 1.75rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
