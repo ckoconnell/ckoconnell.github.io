@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,SAAU;EACR,KAAK,EAAE,eAAe",
-"sources": ["_bird.scss"],
-"names": [],
-"file": "//_bird.css"
-}
