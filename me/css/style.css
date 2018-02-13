@@ -302,4 +302,56 @@ a.button:hover {
   margin-bottom: 2rem;
 }
 
+/* line 294, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewIntro {
+  background: url("../review1.jpg");
+  background-position: center bottom;
+}
+
+/* line 297, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewIntro .gridWrap {
+  text-align: center;
+  color: white;
+}
+
+/* line 301, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewIntro .gridWrap h3 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+/* line 306, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewIntro .gridWrap h1 {
+  margin-bottom: 6rem;
+}
+
+/* line 315, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewBody .gridWrap p {
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 2rem;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+/* line 323, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewBody .gridWrap .framecap {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* line 328, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewBody .gridWrap .framecap img {
+  width: 100%;
+}
+
+/* line 332, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.reviewBody .gridWrap .framecap p.caption {
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 /*# sourceMappingURL=../css/style.map */

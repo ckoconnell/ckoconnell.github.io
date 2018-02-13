@@ -290,3 +290,53 @@ a.button:hover {
     }
   }
 }
+
+.reviewIntro {
+  background: url('../review1.jpg');
+  background-position: center bottom;
+  .gridWrap {
+    text-align: center;
+    color: white;
+
+    h3 {
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+.reviewBody {
+  .gridWrap {
+
+    p {
+      margin: 0 auto;
+      font-weight: 300;
+      line-height: 2rem;
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+
+    .framecap {
+      width: 100%;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+      img {
+        width: 100%;
+      }
+
+      p.caption {
+          font-style: italic;
+          font-weight: 300;
+          text-align: center;
+          margin-top: 1rem;
+
+      }
+    }
+  }
+
+}
