@@ -340,3 +340,55 @@ a.button:hover {
   }
 
 }
+
+.visuals {
+
+  .gridWrapVisuals {
+      margin: 0 auto;
+      display: block;
+      position: relative;
+      width: 100%;
+      max-width: 1280px;
+      padding: 6rem 2rem;
+
+      img {
+        width: 100%;
+        margin: 1.5rem 0;
+      }
+
+      .contentBlock {
+        width: 100%;
+        margin: 6rem 0;
+        padding: 0 3rem;
+      }
+
+      .contentFull {
+        width: 100%;
+        height: auto;
+      }
+
+      .contentLeft {
+        margin: 0 auto;
+        height: auto;
+        float: none;
+
+        @media screen and (min-width: $mobileBP) {
+          width: 48%;
+          float: left;
+        }
+      }
+
+      .contentRight {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        float: none;
+
+
+        @media screen and (min-width: $mobileBP) {
+          width: 48%;
+          float: right;
+        }
+      }
+  }
+}

@@ -354,4 +354,64 @@ a.button:hover {
   margin-top: 1rem;
 }
 
+/* line 346, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  padding: 6rem 2rem;
+}
+
+/* line 354, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals img {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+/* line 359, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals .contentBlock {
+  width: 100%;
+  margin: 6rem 0;
+  padding: 0 3rem;
+}
+
+/* line 365, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals .contentFull {
+  width: 100%;
+  height: auto;
+}
+
+/* line 370, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals .contentLeft {
+  margin: 0 auto;
+  height: auto;
+  float: none;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 370, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .visuals .gridWrapVisuals .contentLeft {
+    width: 48%;
+    float: left;
+  }
+}
+
+/* line 381, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.visuals .gridWrapVisuals .contentRight {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  float: none;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 381, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .visuals .gridWrapVisuals .contentRight {
+    width: 48%;
+    float: right;
+  }
+}
+
 /*# sourceMappingURL=../css/style.map */
