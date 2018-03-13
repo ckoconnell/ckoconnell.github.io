@@ -126,6 +126,7 @@ a.button {
   text-transform: uppercase;
   border-radius: 3px;
   transition: all .5s;
+  margin: 0 .5rem;
 }
 
 a.button:hover {
@@ -207,6 +208,10 @@ a.button:hover {
       max-width: 550px;
       font-weight: 300;
       line-height: 1.75rem;
+    }
+
+    a.alt {
+      background: teal;
     }
   }
 }
