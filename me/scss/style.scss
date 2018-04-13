@@ -498,7 +498,7 @@ a.button:hover {
 
     .keyframe {
       width: 100%;
-
+      vertical-align: top;
       margin: 0 auto;
 
       @media screen and (min-width: $mobileBP) {
