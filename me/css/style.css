@@ -426,60 +426,81 @@ a.button:hover {
   }
 }
 
-/* line 418, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 406, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.cordovaIntro {
+  background: url("../../cordovabay/webBg.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+/* line 422, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap h3 {
   margin-bottom: 1rem;
   margin-top: 8rem;
+  text-align: left;
+  line-height: 2rem;
 }
 
-/* line 423, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 429, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap h5 {
   font-weight: 800;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin: 4rem 0 2rem;
+  text-align: left;
 }
 
-/* line 431, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 438, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap .bolder {
   font-weight: 600;
 }
 
-/* line 435, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 442, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap p {
   max-width: 450px;
   line-height: 1.5rem;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
-/* line 441, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 449, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap a {
   color: #17848e;
   line-height: 1.75rem;
   border-bottom: 1px solid white;
   transition: all 1s;
+  display: inline-block;
 }
 
-/* line 448, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 457, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap a:hover {
   border-bottom: 1px solid #17848e;
   transition: all 1s;
 }
 
-/* line 453, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 462, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap .splitLeft {
   padding-top: 2rem;
   padding-bottom: 4rem;
+  text-align: left;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 453, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  /* line 462, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
   .cordovaBody .gridWrap .splitLeft {
     width: 45%;
   }
 }
 
-/* line 462, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 474, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.cordovaBody .gridWrap .splitLeft ul li {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.25rem;
+}
+
+/* line 482, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap .splitLeft .video {
   width: 100%;
   display: block;
@@ -488,26 +509,45 @@ a.button:hover {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 471, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  /* line 491, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
   .cordovaBody .gridWrap .splitRight {
     width: 45%;
   }
 }
 
-/* line 479, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+/* line 499, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap .keyframe {
   width: 100%;
-  max-width: 300px;
   margin: 0 auto;
-  margin-top: 4rem;
   display: inline-block;
   padding: 0 .5rem;
 }
 
-/* line 487, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+@media screen and (min-width: 800px) {
+  /* line 499, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .cordovaBody .gridWrap .keyframe {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* line 513, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap .keyframe img {
   width: 100%;
   margin-bottom: 1rem;
+}
+
+/* line 519, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+.cordovaBody .gridWrap .topMargin {
+  margin-top: 0rem;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 519, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  .cordovaBody .gridWrap .topMargin {
+    margin-top: 4rem;
+  }
 }
 
 /*# sourceMappingURL=../css/style.map */
