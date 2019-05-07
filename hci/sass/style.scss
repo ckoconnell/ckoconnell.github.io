@@ -1,0 +1,235 @@
+
+// HCI stylesheet
+
+// Variables
+
+// Colours
+$colorSage: #87BCBF;
+$colorSlate: #6E8CA0;
+$colorRust: #097054;
+$colorOnyx: #1B1C20;
+$colorSnow: #FFF;
+$colorDrab: #324755;
+$colorIce: #F0F3F4;
+$colorFossil: #C8D1D3;
+$colorSand: #89B0A2;
+
+// Fonts
+
+$fontHeading: 'Nunito Sans', sans-serif;
+$fontSubHeading: 'Nunito Sans', sans-serif;
+$fontBody: 'Nunito Sans', sans-serif;
+$fontTitle: 'Nunito Sans', sans-serif;
+
+// Site Structure & Resets
+
+html, body {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  position: relative;
+  display: block;
+  color: $colorSnow;
+  font-family: $fontBody;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+
+  ul {
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+
+    li {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+  .gridWrap {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1030px;
+    padding: 6rem 2rem;
+  }
+}
+
+.hero {
+  // height: 100%;
+  padding: 8rem 0;
+}
+
+.standard {
+
+}
+
+h1 {
+  font-weight: 100;
+  color: rgba(0,0,0,0);
+  font-size: 4rem;
+  line-height: 3.5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20%;
+  // text-shadow: 0px 0px 3px $colorFossil;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $colorFossil;
+}
+
+h3 {
+  font-weight: 200;
+  color: $colorSage;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+h5 {
+  font-weight: 300;
+  color: $colorFossil;
+  font-size: .85rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  width: auto;
+  max-width: 600px;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 100;
+  color: $colorSnow;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: auto;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: $colorSage;
+}
+
+button {
+  margin: 0 auto;
+  padding: .75rem 1.25rem;
+  // border-radius: 4px;
+  color: $colorSage;
+  background: none;
+  text-align: center;
+  border: 2px solid $colorSage;
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: $colorOnyx;
+  background: $colorSage;
+  transition: all .8s;
+}
+
+
+
+// Sections - Home Page
+
+#intro {
+  background-image: url('../img/imgHero01.jpg');
+  background-size: cover;
+  background-position: 75% bottom;
+}
+
+#about {
+  background-color: $colorIce;
+  background-size: cover;
+  background-position: center center;
+  color: $colorSlate;
+
+  ul {
+    text-align: center;
+
+    li {
+      display: block;
+      text-align: left;
+      width: 35%;
+      vertical-align: top;
+      margin: 2rem 1rem;
+      color: $colorSlate;
+      font-weight: 400;
+      font-size: 1.5rem;
+      // text-transform: uppercase;
+      line-height: 2rem;
+    }
+  }
+
+
+}
+
+#contact {
+  background-image: url('../img/imgHero02.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 8rem 0;
+
+  h5 {
+    font-size: 1.5rem;
+    text-transform: none;
+  }
+
+  p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: $colorFossil;
+    margin-bottom: 2rem;
+  }
+
+  .formWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  input {
+    border: 2px solid $colorSage;
+    background: none;
+    color: $colorSage;
+    padding: .75rem 1.25rem;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+  }
+
+  button {
+    display: inline-block;
+  }
+}
