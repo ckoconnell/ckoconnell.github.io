@@ -91,7 +91,7 @@ h1 {
   line-height: 3.5rem;
   text-align: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 3rem;
   // text-shadow: 0px 0px 3px $colorFossil;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $colorFossil;
@@ -178,8 +178,8 @@ button:hover {
 
     li {
       display: block;
-      text-align: left;
-      width: 35%;
+      text-align: center;
+      // width: 35%;
       vertical-align: top;
       margin: 2rem 1rem;
       color: $colorSlate;
@@ -227,6 +227,7 @@ button:hover {
     font-size: 1rem;
     text-transform: uppercase;
     margin-right: 1rem;
+    margin-bottom: 1rem;
   }
 
   button {

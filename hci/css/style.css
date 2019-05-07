@@ -70,7 +70,7 @@ h1 {
   line-height: 3.5rem;
   text-align: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 3rem;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #C8D1D3;
 }
@@ -163,8 +163,7 @@ button:hover {
 /* line 179, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #about ul li {
   display: block;
-  text-align: left;
-  width: 35%;
+  text-align: center;
   vertical-align: top;
   margin: 2rem 1rem;
   color: #6E8CA0;
@@ -213,9 +212,10 @@ button:hover {
   font-size: 1rem;
   text-transform: uppercase;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
-/* line 232, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 233, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact button {
   display: inline-block;
 }
