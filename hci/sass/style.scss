@@ -172,6 +172,13 @@ button:hover {
   background-image: url('../img/imgHero01.jpg');
   background-size: cover;
   background-position: 75% bottom;
+
+  .gridWrap {
+
+    p {
+      line-height: 1.5rem;
+    }
+  }
 }
 
 #about {

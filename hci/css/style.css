@@ -155,7 +155,12 @@ button:hover {
   background-position: 75% bottom;
 }
 
-/* line 177, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 178, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+#intro .gridWrap p {
+  line-height: 1.5rem;
+}
+
+/* line 184, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #about {
   background-color: #F0F3F4;
   background-size: cover;
@@ -163,12 +168,12 @@ button:hover {
   color: #6E8CA0;
 }
 
-/* line 183, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 190, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #about ul {
   text-align: center;
 }
 
-/* line 186, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 193, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #about ul li {
   display: block;
   text-align: center;
@@ -180,7 +185,7 @@ button:hover {
   line-height: 2rem;
 }
 
-/* line 205, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 212, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact {
   background-image: url("../img/imgHero02.jpg");
   background-size: cover;
@@ -188,13 +193,13 @@ button:hover {
   padding: 8rem 0;
 }
 
-/* line 211, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 218, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact h5 {
   font-size: 1.5rem;
   text-transform: none;
 }
 
-/* line 216, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 223, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact p {
   font-size: 1.25rem;
   font-weight: 400;
@@ -202,14 +207,14 @@ button:hover {
   margin-bottom: 2rem;
 }
 
-/* line 223, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 230, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact .formWrap {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 229, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 236, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact input {
   border: 2px solid #87BCBF;
   background: none;
@@ -223,24 +228,24 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-/* line 242, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 249, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contact button {
   display: inline-block;
 }
 
-/* line 248, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 255, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 {
   background-color: #2f2f32;
   padding: 8rem 0;
 }
 
-/* line 252, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 259, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 h5 {
   font-size: 1.5rem;
   text-transform: none;
 }
 
-/* line 257, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 264, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 p {
   font-size: 1.25rem;
   font-weight: 400;
@@ -248,14 +253,14 @@ button:hover {
   margin-bottom: 2rem;
 }
 
-/* line 264, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 271, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 .formWrap {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 270, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 277, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 input {
   border: 2px solid #87BCBF;
   background: none;
@@ -269,7 +274,7 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-/* line 283, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
+/* line 290, D:/Web/htdocs/ckoconnell.github.io/hci/sass/style.scss */
 #contactV2 button {
   display: inline-block;
 }
