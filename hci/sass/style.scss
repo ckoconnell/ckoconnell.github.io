@@ -47,7 +47,7 @@ header {
   ul {
     list-style: none;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     width: 100%;
     text-align: center;
     padding-left: 0;
@@ -62,6 +62,16 @@ header {
         width: 70px;
       }
     }
+  }
+}
+
+footer {
+  padding: 2rem 0 0rem;
+
+  h5 {
+    color: $colorSlate;
+    font-size: .75rem;
+    // text-transform: uppercase;
   }
 }
 
@@ -82,7 +92,7 @@ section {
 
 .hero {
   // height: 100%;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 
 .standard {
@@ -104,12 +114,13 @@ h1 {
 }
 
 h3 {
-  font-weight: 200;
+  font-weight: 600;
   color: $colorSage;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0 auto;
   margin-top: 3rem;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -118,18 +129,18 @@ h5 {
   font-size: .85rem;
   text-align: center;
   margin: 0 auto;
-  margin-top: 0rem;
+  margin-top: .5rem;
   margin-bottom: 2rem;
   width: auto;
   max-width: 600px;
-  text-transform: uppercase;
+//  text-transform: uppercase;
 }
 
 p {
-  font-weight: 100;
+  font-weight: 400;
   color: $colorFossil;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -206,13 +217,27 @@ button:hover {
     }
   }
 
+  h3 {
+    color: $colorSlate;
+    font-weight: 600;
+  }
+
+  p {
+    color: $colorOnyx;
+
+  }
+
+  a {
+    font-weight: 600;
+    color: $colorSlate;
+  }
 
 }
 
 #contact {
+  background-color: #2f2f32;
   background-image: url('http://hechangedit.com/wp-content/uploads/2019/05/imgHero02.jpg');
   background-size: cover;
-  background-position: center center;
   padding: 8rem 0;
 
   h5 {
@@ -221,10 +246,7 @@ button:hover {
   }
 
   p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: $colorFossil;
-    margin-bottom: 2rem;
+
   }
 
   .formWrap {
@@ -238,56 +260,57 @@ button:hover {
     background: none;
     color: $colorSage;
     padding: .75rem 1.25rem;
-    display: inline-block;
+    display: block;
     font-weight: 100;
     font-size: 1rem;
     text-transform: uppercase;
-    margin-right: 1rem;
+    margin: 0 auto;
     margin-bottom: 1rem;
   }
 
   button {
-    display: inline-block;
+    display: block;
   }
 }
 
-
-#contactV2 {
+#investors {
+  // background-color: $colorIce;
   background-color: #2f2f32;
-  padding: 8rem 0;
+  background-size: cover;
+  background-position: center center;
+  color: $colorSlate;
 
-  h5 {
-    font-size: 1.5rem;
-    text-transform: none;
+  ul {
+    text-align: center;
+
+    li {
+      display: block;
+      text-align: center;
+      // width: 35%;
+      vertical-align: top;
+      margin: 2rem 1rem;
+      color: $colorSlate;
+      font-weight: 400;
+      font-size: 1.5rem;
+      // text-transform: uppercase;
+      line-height: 2rem;
+
+
+    }
+  }
+
+  h3 {
+    // color: $colorSlate;
   }
 
   p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: $colorFossil;
-    margin-bottom: 2rem;
+    // color: $colorSlate;
+
   }
 
-  .formWrap {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  input {
-    border: 2px solid $colorSage;
-    background: none;
+  a {
+    font-weight: 600;
     color: $colorSage;
-    padding: .75rem 1.25rem;
-    display: inline-block;
-    font-weight: 100;
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
   }
 
-  button {
-    display: inline-block;
-  }
 }
