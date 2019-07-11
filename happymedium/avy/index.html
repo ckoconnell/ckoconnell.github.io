@@ -9,16 +9,13 @@
   <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
   </head>
   <body>
-    <a-scene  fog="type: linear; color: #777; near: 30; far: 55; density: .000005">
+    <a-scene  fog="type: linear; color: #888; near: 32; far: 70; density: .000004">
       <a-assets>
-
         <img id="sky-texture" src="mud_road_4krgb.png">
   		  <img id="mtn-texture" src="env02bake02.jpg">
         <img id="mtn-displace" src="MtnSnowMix.png">
   		  <a-asset-item id="mtn-obj" src="avyEnvWorld02opt.obj"></a-asset-item>
   		</a-assets>
-
-      <!-- <a-plane class="travel" position="-5.8 1 -5.85" rotation="-90 0 0" width="25" height="25" color="#7BC8A4"></a-plane> -->
 
       <a-entity id="cameraRig">
         <a-entity id="head" position="-16 5 -10" camera="active:true;userHeight:1.6;near:0.01;" wasd-controls look-controls></a-entity>
@@ -36,9 +33,7 @@
   				  material="src: #mtn-texture;
   							shader: standard;
   							roughness: 0.85;
-  							side: double;
-                displacementMap: #mtn-displace;
-                displacementScale: 0.35;"
+  							side: double;"
                 rotation="0 -3 0;"
                 position="0 0 0">
   		</a-entity>
