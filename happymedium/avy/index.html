@@ -9,44 +9,43 @@
   <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene  fog="type: linear; color: #777; near: 30; far: 55; density: .000005">
       <a-assets>
-  		<img id="mtn-texture" src="bakeoutput8K.jpg">
-  			<a-asset-item id="mtn-obj" src="avyEnvWorld.obj"></a-asset-item>
 
+        <img id="sky-texture" src="mud_road_4krgb.png">
+  		  <img id="mtn-texture" src="env02bake02.jpg">
+        <img id="mtn-displace" src="MtnSnowMix.png">
+  		  <a-asset-item id="mtn-obj" src="avyEnvWorld02opt.obj"></a-asset-item>
   		</a-assets>
 
-    <!--  <a-entity oculus-touch-controls="hand: left"></a-entity>
-      <a-entity oculus-touch-controls="hand: right"></a-entity> -->
+      <!-- <a-plane class="travel" position="-5.8 1 -5.85" rotation="-90 0 0" width="25" height="25" color="#7BC8A4"></a-plane> -->
 
       <a-entity id="cameraRig">
-        <a-entity id="head" position="4.79 1.56 5.33" camera="active:true;userHeight:1.6;near:0.01;" wasd-controls look-controls></a-entity>
-        <a-entity teleport-controls="cameraRig: #cameraRig; button: trigger;"
-          vive-controls="hand: left"
-          oculus-touch-controls="hand: left"
-          microsoft-motion-controls="hand: left"
-          daydream-controls="left" gearvr-controls="left">
+        <a-entity id="head" position="-16 5 -10" camera="active:true;userHeight:1.6;near:0.01;" wasd-controls look-controls></a-entity>
+        <a-entity teleport-controls="cameraRig: #cameraRig; button: trigger; collisionEntities: .travel;"
+          oculus-touch-controls="hand: left">
         </a-entity>
-        <a-entity teleport-controls="cameraRig: #cameraRig; type: line; button: trigger;"
-          vive-controls="hand: right"
-          microsoft-motion-controls="hand: right"
-          oculus-touch-controls="hand: right"
-          daydream-controls="right" gearvr-controls="right">
+        <a-entity teleport-controls="cameraRig: #cameraRig; type: line; button: trigger; collisionEntities: .travel;"
+          oculus-touch-controls="hand: right">
         </a-entity>
       </a-entity>
 
-      <!-- <a-entity position="4.79 1.56 5.33" camera="active:true;userHeight:1.6;near:0.01" wasd-controls="0:t;1:r;2:u;3:e" rotation="-13 416 0" look-controls="" aframe-injected="" data-aframe-inspector="default-camera" scale="1 1 1"></a-entity> -->
-
-      <a-entity obj-model="obj: #mtn-obj"
+      <a-entity
+            class="travel"
+            obj-model="obj: #mtn-obj"
   				  material="src: #mtn-texture;
   							shader: standard;
-  							roughness: 0.75;
-  							side: double;"
-                rotation="-90 0 0;"
-                position="0 -3 0">
+  							roughness: 0.85;
+  							side: double;
+                displacementMap: #mtn-displace;
+                displacementScale: 0.35;"
+                rotation="0 -3 0;"
+                position="0 0 0">
   		</a-entity>
 
-      <a-sky color="#eee"></a-sky>
+      <a-sky src="#sky-texture" material="fog:false;"></a-sky>
+      <a-entity light="color: #BBB; type: ambient; intensity: 0.0;" data-aframe-default-light="" aframe-injected=""></a-entity>
+      <a-entity light="intensity: 0.0; castShadow: true" position="-0.5 1 1" data-aframe-default-light="" aframe-injected=""></a-entity>
     </a-scene>
   </body>
 </html>
