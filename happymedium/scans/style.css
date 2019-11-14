@@ -1,9 +1,9 @@
-/* line 8, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 9, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 16, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 17, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 body {
   font-family: "Oswald", sans-serif;
   margin: 0;
@@ -11,7 +11,7 @@ body {
   background: white;
 }
 
-/* line 23, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 24, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 section {
   width: 100%;
   position: relative;
@@ -22,7 +22,7 @@ section {
   vertical-align: top;
 }
 
-/* line 32, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 33, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 section .contentCopy {
   vertical-align: top;
   display: inline-block;
@@ -32,7 +32,14 @@ section .contentCopy {
   padding: 0 1rem;
 }
 
-/* line 42, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+@media all and (max-width: 1000px) {
+  /* line 33, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+  section .contentCopy {
+    width: 100%;
+  }
+}
+
+/* line 47, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 section .contentMedia {
   vertical-align: top;
   display: inline-block;
@@ -42,13 +49,28 @@ section .contentMedia {
   margin-top: 4rem;
 }
 
-/* line 50, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+@media all and (max-width: 1000px) {
+  /* line 47, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+  section .contentMedia {
+    width: 100%;
+    min-height: 250px;
+  }
+}
+
+/* line 60, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 section .contentMedia img {
   width: 100%;
   height: auto;
 }
 
-/* line 57, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+@media all and (max-width: 1000px) {
+  /* line 65, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+  section .contentMedia .sketchfab-embed-wrapper {
+    overflow: hidden;
+  }
+}
+
+/* line 74, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .gridWrap {
   margin: 0 auto;
   padding: 0 2rem;
@@ -56,7 +78,7 @@ section .contentMedia img {
   max-width: 1030px;
 }
 
-/* line 65, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 82, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 h3 {
   font-weight: 100;
   font-size: 2rem;
@@ -66,26 +88,26 @@ h3 {
   padding: 0;
 }
 
-/* line 74, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 91, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 h5 {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 1rem;
 }
 
-/* line 80, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 97, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 p {
   font-weight: 100;
   font-size: 1rem;
   line-height: 1.75rem;
 }
 
-/* line 87, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 104, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 header {
   background: white;
 }
 
-/* line 90, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 107, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 header h1 {
   font-weight: 100;
   font-size: 1rem;
@@ -94,17 +116,17 @@ header h1 {
   margin-top: .5rem;
 }
 
-/* line 97, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 114, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 header h1 .bolder {
   font-weight: 600;
 }
 
-/* line 104, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 121, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 footer {
   text-align: center;
 }
 
-/* line 107, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 124, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 footer h5 {
   font-weight: 100;
   font-size: .8rem;
@@ -113,41 +135,41 @@ footer h5 {
   margin-top: .5rem;
 }
 
-/* line 114, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 131, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 footer h5 .bolder {
   font-weight: 600;
 }
 
-/* line 124, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 141, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .videoWrap {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-/* line 129, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 146, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .videoWrap video {
   width: 100%;
   height: auto;
 }
 
-/* line 136, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 153, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .contact {
   margin: 8rem 0;
 }
 
-/* line 138, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 155, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .contact .gridWrap {
   text-align: center;
 }
 
-/* line 141, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 158, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .contact .gridWrap p {
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
-/* line 146, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 163, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .contact .gridWrap a {
   text-decoration: none;
   border: 1px solid #333;
@@ -158,7 +180,7 @@ footer h5 .bolder {
   transition: all .5s;
 }
 
-/* line 156, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
+/* line 173, D:/Web/htdocs/ckoconnell.github.io/happymedium/scans/scss/style.scss */
 .contact .gridWrap a:hover {
   background: #333;
   color: white;

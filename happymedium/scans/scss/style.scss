@@ -4,6 +4,7 @@
 $contentMax: 1030px;
 $colorHi: #333;
 $fontMain: 'Oswald', sans-serif;
+$mobileBp: 1000px;
 
 * {
   box-sizing: border-box;
@@ -37,6 +38,10 @@ section {
     margin-top: 4rem;
     padding: 0 1rem;
 
+    @media all and (max-width: $mobileBp) {
+      width: 100%;
+    }
+
   }
 
   .contentMedia {
@@ -47,9 +52,21 @@ section {
     min-height: 400px;
     margin-top: 4rem;
 
+    @media all and (max-width: $mobileBp) {
+      width: 100%;
+      min-height: 250px;
+    }
+
     img {
       width: 100%;
       height: auto;
+    }
+
+    .sketchfab-embed-wrapper {
+
+      @media all and (max-width: $mobileBp) {
+        overflow: hidden;
+      }
     }
   }
 }
