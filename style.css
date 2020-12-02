@@ -1,0 +1,330 @@
+/* line 19, D:/Web/htdocs/portfolio/css/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s;
+  position: relative;
+}
+
+/* line 27, D:/Web/htdocs/portfolio/css/style.scss */
+body, html {
+  background-color: #c7c7c7;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+
+/* line 34, D:/Web/htdocs/portfolio/css/style.scss */
+h1 {
+  font-weight: 800;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+/* line 43, D:/Web/htdocs/portfolio/css/style.scss */
+h2 {
+  font-weight: 800;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+  font-size: .75rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* line 52, D:/Web/htdocs/portfolio/css/style.scss */
+h3 {
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  text-transform: uppercase;
+}
+
+/* line 61, D:/Web/htdocs/portfolio/css/style.scss */
+h5 {
+  margin-bottom: .5rem;
+  color: #065A63;
+}
+
+/* line 66, D:/Web/htdocs/portfolio/css/style.scss */
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* line 74, D:/Web/htdocs/portfolio/css/style.scss */
+a {
+  color: #555;
+  font-size: .85rem;
+  margin-top: 2rem;
+}
+
+/* line 80, D:/Web/htdocs/portfolio/css/style.scss */
+.boldLink {
+  color: #c7c7c7;
+  padding: .25rem 1.25rem;
+  background: #333;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: .7rem;
+  transition: all 1s;
+}
+
+/* line 93, D:/Web/htdocs/portfolio/css/style.scss */
+.boldLink:hover {
+  color: #333;
+  background: #c7c7c7;
+}
+
+/* line 98, D:/Web/htdocs/portfolio/css/style.scss */
+.marginBelow {
+  margin-bottom: 2rem;
+}
+
+/* line 107, D:/Web/htdocs/portfolio/css/style.scss */
+section {
+  width: 100%;
+  height: auto;
+  color: #333;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+/* line 115, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap {
+  width: 100%;
+  max-width: 1030px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 121, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half {
+  width: 48%;
+  float: left;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 121, D:/Web/htdocs/portfolio/css/style.scss */
+  section .gridWrap .half {
+    width: 90%;
+    padding: 2rem;
+  }
+}
+
+/* line 130, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half h3 {
+  margin-top: 3rem;
+}
+
+/* line 134, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half p {
+  text-transform: none;
+}
+
+/* line 138, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half a {
+  margin-top: 2rem;
+}
+
+/* line 142, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul {
+  list-style: none;
+}
+
+/* line 145, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul li {
+  list-style: none;
+  padding: .25rem 1.25rem;
+  border-radius: 1rem;
+  font-size: .7rem;
+  color: #c7c7c7;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #333;
+  margin-bottom: .5rem;
+}
+
+/* line 156, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul li .detail {
+  padding-left: .5rem;
+  font-size: .5rem;
+  font-weight: 300;
+}
+
+/* line 163, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul li:hover {
+  opacity: .7;
+  transition: all 1s;
+}
+
+/* line 168, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .l100 {
+  width: 95%;
+}
+
+/* line 172, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .l80 {
+  width: 90%;
+}
+
+/* line 176, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .l70 {
+  width: 80%;
+}
+
+/* line 180, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .l50 {
+  width: 70%;
+}
+
+/* line 184, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .l40 {
+  width: 65%;
+}
+
+/* line 188, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk1 {
+  background: #065A63;
+}
+
+/* line 192, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk2 {
+  background: #087D8A;
+}
+
+/* line 196, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk3 {
+  background: #0994A3;
+}
+
+/* line 200, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk4 {
+  background: #0B9FB0;
+}
+
+/* line 204, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk5 {
+  background: #29508A;
+}
+
+/* line 208, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk6 {
+  background: #3668B3;
+}
+
+/* line 212, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk7 {
+  background: #3B408A;
+}
+
+/* line 216, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk8 {
+  background: #4D53B3;
+}
+
+/* line 220, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .half ul .sk9 {
+  background: #6770F0;
+}
+
+/* line 227, D:/Web/htdocs/portfolio/css/style.scss */
+section .gridWrap .pad {
+  padding: 0 4rem 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 227, D:/Web/htdocs/portfolio/css/style.scss */
+  section .gridWrap .pad {
+    padding: 2rem;
+  }
+}
+
+/* line 238, D:/Web/htdocs/portfolio/css/style.scss */
+.videoBG {
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+}
+
+/* line 247, D:/Web/htdocs/portfolio/css/style.scss */
+#videoDiv {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: block;
+  position: relative;
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 258, D:/Web/htdocs/portfolio/css/style.scss */
+#video {
+  width: 100%;
+  height: auto;
+}
+
+/* line 263, D:/Web/htdocs/portfolio/css/style.scss */
+.contact {
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 268, D:/Web/htdocs/portfolio/css/style.scss */
+.contact .gridWrap {
+  text-align: center;
+  padding: 8rem 0;
+  color: #c7c7c7;
+}
+
+/* line 273, D:/Web/htdocs/portfolio/css/style.scss */
+.contact .gridWrap h3 {
+  font-weight: 800;
+}
+
+/* line 277, D:/Web/htdocs/portfolio/css/style.scss */
+.contact .gridWrap p {
+  color: #c7c7c7;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+  text-transform: none;
+  padding: 0 2rem;
+}
+
+/* line 286, D:/Web/htdocs/portfolio/css/style.scss */
+.contact .gridWrap a {
+  color: #333;
+  padding: .25rem 1.25rem;
+  background: #c7c7c7;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 3rem;
+  transition: all 1s;
+}
+
+/* line 298, D:/Web/htdocs/portfolio/css/style.scss */
+.contact .gridWrap a:hover {
+  color: #c7c7c7;
+  background: #333;
+}
+
+/*# sourceMappingURL=../style.map */
