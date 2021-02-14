@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white; }
+
+section {
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+  vertical-align: top; }
+  section .contentCopy {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-top: 4rem;
+    padding: 0 1rem; }
+    @media all and (max-width: 1000px) {
+      section .contentCopy {
+        width: 100%; } }
+  section .contentMedia {
+    vertical-align: top;
+    display: inline-block;
+    width: 68%;
+    height: auto;
+    min-height: 400px;
+    margin-top: 4rem; }
+    @media all and (max-width: 1000px) {
+      section .contentMedia {
+        width: 100%;
+        min-height: 250px; } }
+    section .contentMedia img {
+      width: 100%;
+      height: auto; }
+    @media all and (max-width: 1000px) {
+      section .contentMedia .sketchfab-embed-wrapper {
+        overflow: hidden; } }
+
+.gridWrap {
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  max-width: 1030px; }
+
+h3 {
+  font-weight: 100;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  margin: 0;
+  padding: 0; }
+
+h5 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+p {
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.75rem; }
+
+header {
+  background: white; }
+  header h1 {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-top: .5rem; }
+    header h1 .bolder {
+      font-weight: 600; }
+
+footer {
+  text-align: center; }
+  footer h5 {
+    font-weight: 100;
+    font-size: .8rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-top: .5rem; }
+    footer h5 .bolder {
+      font-weight: 600; }
+
+.videoWrap {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .videoWrap video {
+    width: 100%;
+    height: auto; }
+
+.contact {
+  margin: 8rem 0; }
+  .contact .gridWrap {
+    text-align: center; }
+    .contact .gridWrap p {
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .contact .gridWrap a {
+      text-decoration: none;
+      border: 1px solid #333;
+      border-radius: 5px;
+      padding: .5rem 1.25rem;
+      color: #333;
+      text-transform: uppercase;
+      transition: all .5s; }
+    .contact .gridWrap a:hover {
+      background: #333;
+      color: white;
+      transition: all 1s; }
+
+/*# sourceMappingURL=style.css.map */

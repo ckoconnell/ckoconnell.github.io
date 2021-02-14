@@ -8,6 +8,7 @@ $headingFont: 'Playfair Display', serif;
 $colorBase: #555;
 $colorHi: #343446;
 $mobileBP: 800px;
+$colorSoft: #333;
 
 // Site Structure
 
@@ -95,7 +96,9 @@ h2 {
 
 h3 {
   font-family: $headingFont;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 2rem;
+  color: $colorSoft;
 }
 
 h5 {
@@ -104,7 +107,6 @@ h5 {
 }
 
 p {
-
 }
 
 a {
@@ -124,9 +126,11 @@ a.button {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 6px;
   transition: all .5s;
   margin: 0 .5rem;
+  font-weight: 700;
+  font-size: .9rem;
 }
 
 a.button:hover {
@@ -163,9 +167,10 @@ a.button:hover {
 
 .hero {
   background-color: #333;
-  background-image: url('../vaseSubstance4_forweb.jpg');
+  background-image: url('../3d-5.png');
   background-size: cover;
   background-position: center center;
+  margin-top: 8rem;
 
   .gridWrap {
 
@@ -369,6 +374,7 @@ a.button:hover {
         p {
           margin-top: 1rem;
           font-weight: 300;
+          line-height: 1.75rem;
         }
       }
 

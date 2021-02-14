@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s;
+  position: relative; }
+
+body, html {
+  background-color: #c7c7c7;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100; }
+
+h1 {
+  font-weight: 800;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem; }
+
+h2 {
+  font-weight: 800;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+  font-size: .75rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem; }
+
+h3 {
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  text-transform: uppercase; }
+
+h5 {
+  margin-bottom: .5rem;
+  color: #065A63; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.5rem;
+  text-transform: uppercase; }
+
+a {
+  color: #555;
+  font-size: .85rem;
+  margin-top: 2rem; }
+
+.boldLink {
+  color: #c7c7c7;
+  padding: .25rem 1.25rem;
+  background: #333;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: .7rem;
+  transition: all 1s; }
+
+.boldLink:hover {
+  color: #333;
+  background: #c7c7c7; }
+
+.marginBelow {
+  margin-bottom: 2rem; }
+
+section {
+  width: 100%;
+  height: auto;
+  color: #333;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 4rem 0; }
+  section .gridWrap {
+    width: 100%;
+    max-width: 1030px;
+    max-width: 800px;
+    margin: 0 auto; }
+    section .gridWrap .half {
+      width: 48%;
+      float: left; }
+      @media screen and (max-width: 800px) {
+        section .gridWrap .half {
+          width: 90%;
+          padding: 2rem; } }
+      section .gridWrap .half h3 {
+        margin-top: 3rem; }
+      section .gridWrap .half p {
+        text-transform: none; }
+      section .gridWrap .half a {
+        margin-top: 2rem; }
+      section .gridWrap .half ul {
+        list-style: none; }
+        section .gridWrap .half ul li {
+          list-style: none;
+          padding: .25rem 1.25rem;
+          border-radius: 1rem;
+          font-size: .7rem;
+          color: #c7c7c7;
+          font-weight: 500;
+          text-transform: uppercase;
+          background: #333;
+          margin-bottom: .5rem; }
+          section .gridWrap .half ul li .detail {
+            padding-left: .5rem;
+            font-size: .5rem;
+            font-weight: 300; }
+        section .gridWrap .half ul li:hover {
+          opacity: .7;
+          transition: all 1s; }
+        section .gridWrap .half ul .l100 {
+          width: 95%; }
+        section .gridWrap .half ul .l80 {
+          width: 90%; }
+        section .gridWrap .half ul .l70 {
+          width: 80%; }
+        section .gridWrap .half ul .l50 {
+          width: 70%; }
+        section .gridWrap .half ul .l40 {
+          width: 65%; }
+        section .gridWrap .half ul .sk1 {
+          background: #065A63; }
+        section .gridWrap .half ul .sk2 {
+          background: #087D8A; }
+        section .gridWrap .half ul .sk3 {
+          background: #0994A3; }
+        section .gridWrap .half ul .sk4 {
+          background: #0B9FB0; }
+        section .gridWrap .half ul .sk5 {
+          background: #29508A; }
+        section .gridWrap .half ul .sk6 {
+          background: #3668B3; }
+        section .gridWrap .half ul .sk7 {
+          background: #3B408A; }
+        section .gridWrap .half ul .sk8 {
+          background: #4D53B3; }
+        section .gridWrap .half ul .sk9 {
+          background: #6770F0; }
+    section .gridWrap .pad {
+      padding: 0 4rem 0 0; }
+      @media screen and (max-width: 800px) {
+        section .gridWrap .pad {
+          padding: 2rem; } }
+
+.videoBG {
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto; }
+
+#videoDiv {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: block;
+  position: relative;
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+#video {
+  width: 100%;
+  height: auto; }
+
+.contact {
+  background-image: url("bumpsGradedWeb.jpg");
+  background-size: cover;
+  background-position: center center; }
+  .contact .gridWrap {
+    text-align: center;
+    padding: 8rem 0;
+    color: #c7c7c7; }
+    .contact .gridWrap h3 {
+      font-weight: 800; }
+    .contact .gridWrap p {
+      color: #c7c7c7;
+      margin: 0 auto;
+      max-width: 500px;
+      margin-bottom: 1.5rem;
+      text-transform: none;
+      padding: 0 2rem; }
+    .contact .gridWrap a {
+      color: #333;
+      padding: .25rem 1.25rem;
+      background: #c7c7c7;
+      border-radius: 1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 800;
+      margin-top: 3rem;
+      transition: all 1s; }
+    .contact .gridWrap a:hover {
+      color: #c7c7c7;
+      background: #333; }
+
+/*# sourceMappingURL=style.css.map */

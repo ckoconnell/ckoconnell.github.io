@@ -1,554 +1,351 @@
-/* line 14, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: visible;
-}
+  overflow: visible; }
 
-/* line 21, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 body, html {
   width: 100%;
-  font-family: "Lato", sans-serif;
-}
+  font-family: "Lato", sans-serif; }
 
-/* line 26, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 section {
   text-align: left;
   position: relative;
   display: block;
   width: 100%;
-  overflow: auto;
-}
+  overflow: auto; }
+  section .gridWrap {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1030px;
+    padding: 6rem 2rem; }
+    section .gridWrap .splitLeft {
+      width: 90%;
+      margin-right: 0;
+      float: left;
+      display: inline-block;
+      text-align: left;
+      position: relative; }
+      @media screen and (min-width: 800px) {
+        section .gridWrap .splitLeft {
+          width: 35%;
+          margin-right: 5%;
+          float: left;
+          display: inline-block;
+          text-align: right; } }
+      section .gridWrap .splitLeft h1 {
+        margin-bottom: 2rem; }
+    section .gridWrap .splitRight {
+      width: 90%;
+      margin-left: 0;
+      float: left;
+      display: inline-block;
+      text-align: left;
+      position: relative; }
+      @media screen and (min-width: 800px) {
+        section .gridWrap .splitRight {
+          width: 50%;
+          margin-left: 5%;
+          float: right; } }
 
-/* line 33, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-section .gridWrap {
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  width: 100%;
-  max-width: 1030px;
-  padding: 6rem 2rem;
-}
-
-/* line 41, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-section .gridWrap .splitLeft {
-  width: 90%;
-  margin-right: 0;
-  float: left;
-  display: inline-block;
-  text-align: left;
-  position: relative;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 41, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  section .gridWrap .splitLeft {
-    width: 35%;
-    margin-right: 5%;
-    float: left;
-    display: inline-block;
-    text-align: right;
-  }
-}
-
-/* line 57, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-section .gridWrap .splitLeft h1 {
-  margin-bottom: 2rem;
-}
-
-/* line 62, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-section .gridWrap .splitRight {
-  width: 90%;
-  margin-left: 0;
-  float: left;
-  display: inline-block;
-  text-align: left;
-  position: relative;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 62, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  section .gridWrap .splitRight {
-    width: 50%;
-    margin-left: 5%;
-    float: right;
-  }
-}
-
-/* line 81, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   font-weight: 400;
-  line-height: 2.75rem;
-}
+  line-height: 2.75rem; }
 
-/* line 88, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 h2 {
   text-transform: uppercase;
   letter-spacing: 5;
   font-family: "Playfair Display", serif;
   font-size: .9rem;
-  color: #333;
-}
+  color: #333; }
 
-/* line 96, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 h3 {
   font-family: "Playfair Display", serif;
-  font-weight: 400;
-}
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333; }
 
-/* line 101, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 h5 {
-  font-family: "Playfair Display", serif;
-}
+  font-family: "Playfair Display", serif; }
 
-/* line 110, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 a {
   text-decoration: none;
   color: #555;
-  transition: all .5s;
-}
+  transition: all .5s; }
 
-/* line 116, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 a:hover {
   color: #343446;
-  transition: all .5s;
-}
+  transition: all .5s; }
 
-/* line 121, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 a.button {
   background: #343446;
   padding: .8rem 1.2rem;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 6px;
   transition: all .5s;
   margin: 0 .5rem;
-}
+  font-weight: 700;
+  font-size: .9rem; }
 
-/* line 132, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 a.button:hover {
   background: white;
   border: 1px solid #343446;
   color: #343446;
-  transition: all .5s;
-}
+  transition: all .5s; }
 
-/* line 142, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .intro {
   background-color: #FFF;
-  text-align: center;
-}
+  text-align: center; }
+  .intro .gridWrap {
+    padding-top: 1rem; }
+    .intro .gridWrap h1 {
+      margin: 0 auto;
+      margin-top: 8rem;
+      margin-bottom: 6rem;
+      width: 90%; }
+      @media screen and (min-width: 800px) {
+        .intro .gridWrap h1 {
+          margin-top: 8rem;
+          margin-bottom: 6rem;
+          width: 80%; } }
 
-/* line 146, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.intro .gridWrap {
-  padding-top: 1rem;
-}
-
-/* line 149, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.intro .gridWrap h1 {
-  margin: 0 auto;
-  margin-top: 8rem;
-  margin-bottom: 6rem;
-  width: 90%;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 149, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  .intro .gridWrap h1 {
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    width: 80%;
-  }
-}
-
-/* line 164, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .hero {
   background-color: #333;
-  background-image: url("../vaseSubstance4_forweb.jpg");
+  background-image: url("../3d-5.png");
   background-size: cover;
   background-position: center center;
-}
-
-/* line 172, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.hero .gridWrap h1 {
-  margin: 0 auto;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  width: 90%;
-  text-align: center;
-  color: #EEE;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 172, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  margin-top: 8rem; }
   .hero .gridWrap h1 {
-    margin-top: 12rem;
-    margin-bottom: 12rem;
-    width: 80%;
-  }
-}
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width: 90%;
+    text-align: center;
+    color: #EEE; }
+    @media screen and (min-width: 800px) {
+      .hero .gridWrap h1 {
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+        width: 80%; } }
 
-/* line 189, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .projects {
-  background-color: #EEE;
-}
+  background-color: #EEE; }
 
-/* line 193, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .xp {
-  background-color: #EEE;
-}
+  background-color: #EEE; }
 
-/* line 197, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .contact {
   background-color: #FFF;
-  text-align: center;
-}
+  text-align: center; }
+  .contact .gridWrap p {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    width: 80%;
+    max-width: 550px;
+    font-weight: 300;
+    line-height: 1.75rem; }
+  .contact .gridWrap a.alt {
+    background: teal; }
 
-/* line 203, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.contact .gridWrap p {
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  margin-top: 1.5rem;
-  width: 80%;
-  max-width: 550px;
-  font-weight: 300;
-  line-height: 1.75rem;
-}
-
-/* line 213, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.contact .gridWrap a.alt {
-  background: teal;
-}
-
-/* line 219, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .item, .project {
-  margin: .5rem 0 3rem;
-}
+  margin: .5rem 0 3rem; }
+  .item h3, .project h3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.25rem; }
+    .item h3 .lighter, .project h3 .lighter {
+      font-weight: 400;
+      font-size: .8rem;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif; }
+  .item h5, .project h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    color: #333; }
+  .item p, .project p {
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: .5rem; }
 
-/* line 222, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.item h3, .project h3 {
-  font-weight: 500;
-  font-size: 1.25rem;
-  margin-bottom: .5rem;
-  line-height: 1.25rem;
-}
-
-/* line 229, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.item h3 .lighter, .project h3 .lighter {
-  font-weight: 400;
-  font-size: .8rem;
-  text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-}
-
-/* line 237, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.item h5, .project h5 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: .75rem;
-  margin-bottom: .5rem;
-  text-transform: uppercase;
-  color: #333;
-}
-
-/* line 246, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.item p, .project p {
-  font-weight: 300;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  margin-bottom: .5rem;
-}
-
-/* line 260, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .coverIntro {
   background-color: #FFF;
-  text-align: center;
-}
+  text-align: center; }
+  .coverIntro .gridWrap {
+    padding: 1rem 2rem; }
+    .coverIntro .gridWrap h1 {
+      margin: 0 auto;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      width: 90%; }
+      @media screen and (min-width: 800px) {
+        .coverIntro .gridWrap h1 {
+          margin-top: 4rem;
+          margin-bottom: 3rem;
+          width: 80%; } }
 
-/* line 264, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.coverIntro .gridWrap {
-  padding: 1rem 2rem;
-}
-
-/* line 267, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.coverIntro .gridWrap h1 {
-  margin: 0 auto;
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  width: 90%;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 267, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  .coverIntro .gridWrap h1 {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    width: 80%;
-  }
-}
-
-/* line 285, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .coverBody .gridWrap {
-  padding: 1rem 2rem;
-}
+  padding: 1rem 2rem; }
+  .coverBody .gridWrap p {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 1.75rem;
+    margin-bottom: 2rem; }
 
-/* line 288, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.coverBody .gridWrap p {
-  width: 90%;
-  max-width: 650px;
-  margin: 0 auto;
-  font-weight: 300;
-  line-height: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-/* line 299, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .reviewIntro {
   background: url("../review1.jpg");
-  background-position: center bottom;
-}
+  background-position: center bottom; }
+  .reviewIntro .gridWrap {
+    text-align: center;
+    color: white; }
+    .reviewIntro .gridWrap h3 {
+      margin-top: 6rem;
+      margin-bottom: 2rem; }
+    .reviewIntro .gridWrap h1 {
+      margin-bottom: 6rem; }
 
-/* line 302, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.reviewIntro .gridWrap {
-  text-align: center;
-  color: white;
-}
-
-/* line 306, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.reviewIntro .gridWrap h3 {
-  margin-top: 6rem;
-  margin-bottom: 2rem;
-}
-
-/* line 311, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.reviewIntro .gridWrap h1 {
-  margin-bottom: 6rem;
-}
-
-/* line 320, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .reviewBody .gridWrap p {
   margin: 0 auto;
   font-weight: 300;
   line-height: 2rem;
   width: 80%;
-  margin-bottom: 2rem;
-}
-
-/* line 328, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  margin-bottom: 2rem; }
 .reviewBody .gridWrap .framecap {
   width: 100%;
   margin-top: 5rem;
-  margin-bottom: 5rem;
-}
+  margin-bottom: 5rem; }
+  .reviewBody .gridWrap .framecap img {
+    width: 100%; }
+  .reviewBody .gridWrap .framecap p.caption {
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem; }
 
-/* line 333, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.reviewBody .gridWrap .framecap img {
-  width: 100%;
-}
-
-/* line 337, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.reviewBody .gridWrap .framecap p.caption {
-  font-style: italic;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-/* line 351, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .visuals .gridWrapVisuals {
   margin: 0 auto;
   display: block;
   position: relative;
   width: 100%;
   max-width: 1280px;
-  padding: 6rem 2rem;
-}
-
-/* line 359, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals img {
-  width: 100%;
-  margin: 1.5rem 0;
-}
-
-/* line 364, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals .contentBlock {
-  width: 100%;
-  margin: 4rem 0;
-  padding: 0 3rem;
-}
-
-/* line 369, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals .contentBlock p {
-  margin-top: 1rem;
-  font-weight: 300;
-}
-
-/* line 375, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals .contentFull {
-  width: 100%;
-  height: auto;
-}
-
-/* line 380, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals .contentLeft {
-  margin: 0 auto;
-  height: auto;
-  float: none;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 380, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  padding: 6rem 2rem; }
+  .visuals .gridWrapVisuals img {
+    width: 100%;
+    margin: 1.5rem 0; }
+  .visuals .gridWrapVisuals .contentBlock {
+    width: 100%;
+    margin: 4rem 0;
+    padding: 0 3rem; }
+    .visuals .gridWrapVisuals .contentBlock p {
+      margin-top: 1rem;
+      font-weight: 300;
+      line-height: 1.75rem; }
+  .visuals .gridWrapVisuals .contentFull {
+    width: 100%;
+    height: auto; }
   .visuals .gridWrapVisuals .contentLeft {
-    width: 48%;
-    float: left;
-  }
-}
-
-/* line 391, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.visuals .gridWrapVisuals .contentRight {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  float: none;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 391, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+    margin: 0 auto;
+    height: auto;
+    float: none; }
+    @media screen and (min-width: 800px) {
+      .visuals .gridWrapVisuals .contentLeft {
+        width: 48%;
+        float: left; } }
   .visuals .gridWrapVisuals .contentRight {
-    width: 48%;
-    float: right;
-  }
-}
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none; }
+    @media screen and (min-width: 800px) {
+      .visuals .gridWrapVisuals .contentRight {
+        width: 48%;
+        float: right; } }
 
-/* line 406, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaIntro {
   background: url("../../cordovabay/webBg.jpg");
   background-size: cover;
   background-position: center center;
-  height: 400px;
-}
+  height: 400px; }
 
-/* line 422, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
 .cordovaBody .gridWrap h3 {
   margin-bottom: 1rem;
   margin-top: 8rem;
   text-align: left;
-  line-height: 2rem;
-}
-
-/* line 429, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  line-height: 2rem; }
 .cordovaBody .gridWrap h5 {
   font-weight: 800;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin: 4rem 0 2rem;
-  text-align: left;
-}
-
-/* line 438, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  text-align: left; }
 .cordovaBody .gridWrap .bolder {
-  font-weight: 600;
-}
-
-/* line 442, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  font-weight: 600; }
 .cordovaBody .gridWrap p {
   max-width: 450px;
   line-height: 1.5rem;
   margin-bottom: 1rem;
-  text-align: left;
-}
-
-/* line 449, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  text-align: left; }
 .cordovaBody .gridWrap a {
   color: #17848e;
   line-height: 1.75rem;
   border-bottom: 1px solid white;
   transition: all 1s;
-  display: inline-block;
-}
-
-/* line 457, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  display: inline-block; }
 .cordovaBody .gridWrap a:hover {
   border-bottom: 1px solid #17848e;
-  transition: all 1s;
-}
-
-/* line 462, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+  transition: all 1s; }
 .cordovaBody .gridWrap .splitLeft {
   padding-top: 2rem;
   padding-bottom: 4rem;
-  text-align: left;
-}
-
+  text-align: left; }
+  @media screen and (min-width: 800px) {
+    .cordovaBody .gridWrap .splitLeft {
+      width: 45%; } }
+  .cordovaBody .gridWrap .splitLeft ul li {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.25rem; }
+  .cordovaBody .gridWrap .splitLeft .video {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 4rem; }
 @media screen and (min-width: 800px) {
-  /* line 462, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  .cordovaBody .gridWrap .splitLeft {
-    width: 45%;
-  }
-}
-
-/* line 474, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.cordovaBody .gridWrap .splitLeft ul li {
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  line-height: 1.25rem;
-}
-
-/* line 482, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.cordovaBody .gridWrap .splitLeft .video {
-  width: 100%;
-  display: block;
-  position: relative;
-  margin-top: 4rem;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 491, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
   .cordovaBody .gridWrap .splitRight {
-    width: 45%;
-  }
-}
-
-/* line 499, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+    width: 45%; } }
 .cordovaBody .gridWrap .keyframe {
   width: 100%;
   vertical-align: top;
   margin: 0 auto;
   display: inline-block;
-  padding: 0 .5rem;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 499, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  .cordovaBody .gridWrap .keyframe {
+  padding: 0 .5rem; }
+  @media screen and (min-width: 800px) {
+    .cordovaBody .gridWrap .keyframe {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto; } }
+  .cordovaBody .gridWrap .keyframe img {
     width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-}
-
-/* line 513, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-.cordovaBody .gridWrap .keyframe img {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-/* line 519, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
+    margin-bottom: 1rem; }
 .cordovaBody .gridWrap .topMargin {
-  margin-top: 0rem;
-}
+  margin-top: 0rem; }
+  @media screen and (min-width: 800px) {
+    .cordovaBody .gridWrap .topMargin {
+      margin-top: 4rem; } }
 
-@media screen and (min-width: 800px) {
-  /* line 519, D:/Web/htdocs/ckoconnell.github.io/me/scss/style.scss */
-  .cordovaBody .gridWrap .topMargin {
-    margin-top: 4rem;
-  }
-}
-
-/*# sourceMappingURL=../css/style.map */
+/*# sourceMappingURL=style.css.map */

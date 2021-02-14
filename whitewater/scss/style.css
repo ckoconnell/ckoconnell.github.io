@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative; }
+
+body {
+  height: 100%;
+  width: 100%; }
+  body section {
+    width: 100%;
+    margin: 0 auto;
+    display: block; }
+    body section .colLeft {
+      display: inline-block;
+      float: left; }
+    body section .colRight {
+      display: inline-block;
+      float: left; }
+    body section .half {
+      width: 50%; }
+    body section .third {
+      width: 33%; }
+    body section twoThirds {
+      width: 64%; }
+  body .mailWrap {
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+    height: 100%;
+    margin-top: 4rem; }
+  body .designTwo .hero {
+    height: 360px;
+    background: url("img/hero1.png") no-repeat;
+    background-size: cover;
+    padding: 2rem; }
+    body .designTwo .hero .logo {
+      margin: 0 auto;
+      width: 125px;
+      height: 100px;
+      background: url("img/flaglogo.png") no-repeat;
+      background-size: 100%;
+      background-position: top center;
+      margin-top: -3rem; }
+  body .designTwo .intro {
+    padding: 3rem 0;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

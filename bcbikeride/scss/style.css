@@ -1,4 +1,6 @@
-/* line 12, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+* {
+  box-sizing: border-box; }
+
 html, body {
   padding: 0;
   margin: 0;
@@ -7,9 +9,9 @@ html, body {
   background: black;
   font-family: "Play", sans-serif;
   color: white;
-  font-weight: 100; }
+  font-weight: 100;
+  box-sizing: border-box; }
 
-/* line 23, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 h1 {
   font-size: 2.5rem;
   font-weight: 100;
@@ -21,13 +23,11 @@ h1 {
   text-align: center;
   max-width: 600px; }
   @media screen and (max-width: 650px) {
-    /* line 23, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     h1 {
       font-size: 2rem;
       line-height: 1.8rem !important;
       padding: 0 2rem; } }
 
-/* line 41, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 p {
   width: 85%;
   max-width: 600px;
@@ -37,26 +37,39 @@ p {
   margin-top: 2rem;
   font-size: 1rem; }
 
-/* line 51, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 a {
   color: white;
   text-decoration: none; }
 
-/* line 56, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .bolder {
   font-weight: 900; }
 
-/* line 60, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .bigger {
   font-size: 1.5em;
   font-weight: 900;
   text-transform: uppercase; }
 
-/* line 66, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+.smaller {
+  font-size: .8rem; }
+
+.indent {
+  padding-left: 2rem;
+  margin-left: 1rem;
+  text-align: left;
+  display: block;
+  width: 80%;
+  margin-top: -0.5rem; }
+
+.notsobig {
+  font-size: 1.75rem;
+  line-height: 2rem; }
+
 .italic {
   font-style: italic; }
 
-/* line 73, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+.highlight {
+  color: #bf2025; }
+
 header {
   z-index: 10;
   position: fixed;
@@ -67,49 +80,41 @@ header {
   height: auto;
   display: block;
   text-align: left; }
-  /* line 88, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   header .logoWrap {
     padding-top: 1.5rem;
     padding-left: 2rem; }
-    /* line 92, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     header .logoWrap img {
       width: 70px; }
-  /* line 97, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   header ul {
     list-style: none;
     padding: 0;
     margin: 0;
     padding-left: .5rem;
     width: 150px; }
-    /* line 108, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     header ul a {
       color: white;
       text-decoration: none; }
-    /* line 113, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     header ul li {
       list-style: none;
       padding-top: .5rem;
       text-transform: uppercase;
       margin-right: .5rem; }
 
-/* line 130, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 section {
   position: relative;
   display: block;
+  overflow-x: hidden;
   z-index: 1; }
 
-/* line 136, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .fullbleed {
   width: 100%;
   height: auto;
   min-height: auto; }
   @media screen and (min-width: 650px) {
-    /* line 136, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .fullbleed {
       height: auto;
       min-height: 100%; } }
 
-/* line 147, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .contentWrap {
   width: 100%;
   max-width: 1060px;
@@ -117,11 +122,9 @@ section {
   margin: 0 auto;
   display: block;
   z-index: 5; }
-  /* line 155, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .contentWrap .highlight {
     color: #bf2025; }
 
-/* line 160, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .dimmer {
   z-index: 3;
   position: absolute;
@@ -130,14 +133,12 @@ section {
   top: 0;
   left: 0; }
 
-/* line 169, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel1 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-36.jpg");
   background-size: cover;
   background-position: 40% bottom;
   min-height: 100% !important;
   height: 100%; }
-  /* line 178, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel1 .contentWrap img {
     height: 40%;
     float: none;
@@ -146,45 +147,47 @@ section {
     position: relative;
     padding-top: 3rem; }
     @media screen and (min-width: 650px) {
-      /* line 178, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
       .homePanel1 .contentWrap img {
         height: auto;
         width: 35%;
         float: right; } }
 
-/* line 195, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel2 {
   background: black; }
-  /* line 198, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel2 .dimmer {
     background: rgba(0, 0, 0, 0.65); }
-  /* line 202, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel2 .contentWrap {
     padding-top: 4.5rem;
     padding-bottom: 3rem; }
-    /* line 206, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel2 .contentWrap p {
       font-size: 1.25rem;
       line-height: 2rem; }
+    .homePanel2 .contentWrap a {
+      display: inline-block;
+      border: 1px solid white;
+      padding: .5rem 1rem;
+      text-transform: uppercase;
+      margin: 0 auto;
+      text-align: center;
+      transition: all .5s; }
+    .homePanel2 .contentWrap a:hover {
+      background: white;
+      color: black;
+      transition: all .3s; }
 
-/* line 214, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel3 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-28.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (min-width: 650px) {
-    /* line 214, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel3 {
       height: 100%;
       min-height: 100%; } }
-  /* line 224, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel3 .dimmer {
     background: rgba(0, 0, 0, 0.65); }
-  /* line 228, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel3 .contentWrap {
     padding-top: 2rem;
     padding-bottom: 2rem; }
-    /* line 232, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel3 .contentWrap img {
       width: 30%;
       min-width: 150px;
@@ -194,48 +197,38 @@ section {
       margin-top: 2rem;
       float: right; }
 
-/* line 244, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel4 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-22.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (min-width: 650px) {
-    /* line 244, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel4 {
       height: 100%;
       min-height: 100%; } }
-  /* line 255, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel4 .dimmer {
     background: rgba(0, 0, 0, 0.4); }
-  /* line 259, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel4 .contentWrap {
     padding-top: 3rem;
     padding-bottom: 3rem; }
 
-/* line 265, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel5 {
   background: black; }
-  /* line 268, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel5 .dimmer {
     background: rgba(0, 0, 0, 0.5); }
-  /* line 272, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel5 .contentWrap {
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center; }
-    /* line 276, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel5 .contentWrap p {
       display: block;
       text-align: left;
       padding-top: 0; }
       @media screen and (min-width: 650px) {
-        /* line 276, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
         .homePanel5 .contentWrap p {
           display: inline-block;
           width: 35%;
           vertical-align: top;
-          padding-top: 3rem; } }
-    /* line 289, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+          padding-top: 0; } }
     .homePanel5 .contentWrap .pullquote {
       padding-top: 1rem;
       padding-bottom: 1rem;
@@ -246,127 +239,360 @@ section {
       font-size: 1.75rem;
       font-style: italic; }
       @media screen and (min-width: 650px) {
-        /* line 289, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
         .homePanel5 .contentWrap .pullquote {
           float: left;
           padding-left: 1rem;
           font-size: 2.25rem;
           line-height: 2.5rem; } }
-    /* line 307, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel5 .contentWrap img {
       display: block;
       width: 95%;
       max-width: 600px;
       margin: 0 auto; }
       @media screen and (min-width: 650px) {
-        /* line 307, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
         .homePanel5 .contentWrap img {
           display: inline-block;
-          width: 60%; } }
+          width: 60%;
+          padding-top: 0; } }
+    .homePanel5 .contentWrap .slideWrapItinerary {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      display: block;
+      margin-top: 5rem;
+      height: 500px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding: 0 3rem; }
+      .homePanel5 .contentWrap .slideWrapItinerary .slick-prev {
+        position: absolute;
+        left: 0;
+        top: 40%;
+        font-weight: 600;
+        font-size: 3.5rem;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer; }
+      .homePanel5 .contentWrap .slideWrapItinerary .slick-next {
+        position: absolute;
+        right: 0;
+        top: 40%;
+        font-weight: 600;
+        font-size: 3.5rem;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer; }
+      .homePanel5 .contentWrap .slideWrapItinerary .slideItinerary {
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        overflow: hidden;
+        height: 90%;
+        border: 1px solid #bf2025;
+        margin: .5rem; }
+        .homePanel5 .contentWrap .slideWrapItinerary .slideItinerary h3 {
+          padding: 0;
+          margin: 0;
+          margin-top: 2rem;
+          margin-bottom: .1rem; }
+        .homePanel5 .contentWrap .slideWrapItinerary .slideItinerary h5 {
+          padding: 0;
+          margin: 0;
+          margin-bottom: 2rem;
+          color: #bf2025;
+          text-transform: uppercase;
+          font-size: 1rem; }
+        .homePanel5 .contentWrap .slideWrapItinerary .slideItinerary p {
+          width: auto;
+          display: block;
+          margin: 0;
+          padding: 0 2em 1.25em 2em;
+          text-align: left;
+          line-height: 1rem; }
 
-/* line 322, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel6 {
-  background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-6.jpg");
-  background-size: cover;
-  background-position: center center;
   min-height: 100% !important;
-  height: 100%; }
-  /* line 329, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
-  .homePanel6 .dimmer {
-    background: rgba(0, 0, 0, 0.1); }
-  /* line 333, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
-  .homePanel6 .contentWrap {
-    padding-top: 3rem;
-    padding-bottom: 3rem; }
+  height: auto; }
+  .homePanel6 .slideWrapGallery {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .homePanel6 .slideWrapGallery .slick-prev {
+      position: absolute;
+      left: 2rem;
+      top: 45%;
+      font-weight: 600;
+      font-size: 4rem;
+      z-index: 100;
+      cursor: pointer;
+      opacity: .55;
+      transition: all .5s; }
+    .homePanel6 .slideWrapGallery .slick-prev:hover {
+      opacity: .95;
+      transition: all 1s; }
+    .homePanel6 .slideWrapGallery .slick-next {
+      position: absolute;
+      right: 2rem;
+      top: 45%;
+      font-weight: 600;
+      font-size: 4rem;
+      cursor: pointer;
+      opacity: .55; }
+    .homePanel6 .slideWrapGallery .slick-next:hover {
+      opacity: .95;
+      transition: all 1s; }
+    .homePanel6 .slideWrapGallery .slideGallery {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0; }
+      @media screen and (min-width: 650px) {
+        .homePanel6 .slideWrapGallery .slideGallery {
+          overflow: hidden;
+          margin: 2.5rem 5rem; } }
+    .homePanel6 .slideWrapGallery .gallery1 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-12.jpg");
+      background-size: cover;
+      background-position: center center; }
+      .homePanel6 .slideWrapGallery .gallery1 .contentWrap {
+        padding-top: 0rem;
+        padding-bottom: 3rem; }
+        @media screen and (min-width: 650px) {
+          .homePanel6 .slideWrapGallery .gallery1 .contentWrap {
+            padding-top: 3rem; } }
+        .homePanel6 .slideWrapGallery .gallery1 .contentWrap p {
+          float: left;
+          background: rgba(0, 0, 0, 0.65);
+          padding: 1.5rem 2.5rem;
+          margin-top: 0; }
+          @media screen and (min-width: 650px) {
+            .homePanel6 .slideWrapGallery .gallery1 .contentWrap p {
+              margin-top: 2rem; } }
+    .homePanel6 .slideWrapGallery .gallery4 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-3.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery5 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-4.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery6 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-5.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery7 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-6.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery10 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-9.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery11 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-10.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery12 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-11.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery13 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-13.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery14 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-14.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery15 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-15.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery16 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-16.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery17 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-17.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery18 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-18.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery19 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-19.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery20 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-20.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .homePanel6 .slideWrapGallery .gallery21 {
+      background: url("http://www.bcbikerace.com/wp-content/uploads/2017/01/bcbikegallery-21.jpg");
+      background-size: cover;
+      background-position: center center; }
 
-/* line 342, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel7 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-34.jpg");
   background-size: cover;
   background-position: left center; }
   @media screen and (min-width: 650px) {
-    /* line 342, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel7 {
       height: 100%;
       min-height: 100%; } }
-  /* line 352, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel7 .dimmer {
     background: rgba(0, 0, 0, 0.6); }
-  /* line 356, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel7 .contentWrap {
     padding-top: 3rem;
     padding-bottom: 3rem; }
 
-/* line 362, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel8 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-32.jpg");
   background-size: cover;
   background-position: right center; }
   @media screen and (min-width: 650px) {
-    /* line 362, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel8 {
       height: 100%;
       min-height: 100%; } }
-  /* line 372, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel8 .dimmer {
     background: rgba(0, 0, 0, 0.45); }
-  /* line 376, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel8 .contentWrap {
     padding-top: 3rem;
     padding-bottom: 3rem; }
 
-/* line 382, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel9 {
   background: url("http://www.bcbikerace.com/wp-content/uploads/2016/12/bcbikerace-37.jpg");
   background-size: cover;
-  background-position: center center; }
-  /* line 387, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+  background-position: left bottom; }
   .homePanel9 .dimmer {
-    background: rgba(0, 0, 0, 0.7); }
-  /* line 391, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
+    background: rgba(0, 0, 0, 0.5); }
   .homePanel9 .contentWrap {
     padding-top: 6rem;
     padding-bottom: 3rem;
     text-align: center; }
-    /* line 396, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel9 .contentWrap a {
-      display: block;
-      margin-top: 1rem;
-      font-size: 1.5rem;
+      display: inline-block;
+      border: 1px solid white;
+      padding: .5rem 1rem;
       text-transform: uppercase;
-      text-decoration: underline; }
+      margin: 0 auto;
+      font-size: 1.35rem;
+      text-align: center; }
+    .homePanel9 .contentWrap a:hover {
+      background: white;
+      color: black;
+      transition: all .3s; }
 
-/* line 406, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel10 {
   background: black; }
-  /* line 409, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel10 .dimmer {
     background: rgba(0, 0, 0, 0.5); }
-  /* line 413, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel10 .contentWrap {
     padding-top: 6rem;
     padding-bottom: 6rem;
     text-align: center; }
-    /* line 418, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
     .homePanel10 .contentWrap img {
       display: block;
       margin: 0 auto;
       position: relative;
       text-align: center;
-      width: 30%;
+      width: 60%;
       margin-top: 3rem; }
+      @media screen and (min-width: 650px) {
+        .homePanel10 .contentWrap img {
+          width: 30%; } }
 
-/* line 430, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
 .homePanel11 {
   background: black;
   height: auto;
   min-height: auto; }
-  /* line 435, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel11 .dimmer {
     background: rgba(0, 0, 0, 0.5); }
-  /* line 439, C:/xampp/htdocs/ckoconnell.github.io/bcbikeride/scss/style.scss */
   .homePanel11 .contentWrap {
     padding-top: 3rem;
     padding-bottom: 6rem; }
+
+.homePanel12 {
+  background: black;
+  height: auto;
+  min-height: auto; }
+  .homePanel12 .contentWrap {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    text-align: center; }
+    .homePanel12 .contentWrap .videoThumb {
+      vertical-align: top;
+      display: inline-block;
+      width: 80%;
+      height: 250px;
+      margin: 1rem 1rem 2rem 1rem; }
+      @media screen and (min-width: 650px) {
+        .homePanel12 .contentWrap .videoThumb {
+          width: 450px;
+          height: 300px;
+          display: inline-block; } }
+
+.homePanel13 {
+  background: black;
+  height: auto;
+  min-height: auto; }
+  .homePanel13 .contentWrap {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    text-align: center; }
+    .homePanel13 .contentWrap .contentCol {
+      width: 100%;
+      display: block;
+      vertical-align: top;
+      text-align: left;
+      margin: 2rem 2rem 6rem; }
+      @media screen and (min-width: 650px) {
+        .homePanel13 .contentWrap .contentCol {
+          width: 40%;
+          display: inline-block; } }
+      .homePanel13 .contentWrap .contentCol h3 {
+        color: #bf2025;
+        margin-bottom: 0;
+        margin-top: 2rem; }
+      .homePanel13 .contentWrap .contentCol p {
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+      .homePanel13 .contentWrap .contentCol ul li {
+        line-height: 1.5rem; }
+
+.homePanel14 {
+  background: #bf2025;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  min-height: auto; }
+  .homePanel14 .contentWrap {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+    .homePanel14 .contentWrap h1 {
+      font-weight: 900; }
+    .homePanel14 .contentWrap h3 {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin-top: .25rem; }
+    .homePanel14 .contentWrap a {
+      color: white;
+      border: 1px solid white;
+      padding: 8px 15px;
+      text-transform: uppercase;
+      transition: all .5s; }
+    .homePanel14 .contentWrap a:hover {
+      color: #bf2025;
+      border: 1px solid #bf2025;
+      background: white;
+      padding: 8px 15px;
+      text-transform: uppercase;
+      transition: all .3s; }
 
 /*# sourceMappingURL=style.css.map */
